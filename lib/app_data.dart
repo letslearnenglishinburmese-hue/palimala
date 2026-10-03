@@ -110,16 +110,19 @@ class SubCategory {
       vocabList: vocabList == null
           ? null
           : _array(vocabList, 'vocabList')
-              .map((value) => VocabItem.fromJson(_object(value, 'vocabList[]')))
-              .toList(),
+                .map(
+                  (value) => VocabItem.fromJson(_object(value, 'vocabList[]')),
+                )
+                .toList(),
       dialogueList: dialogueList == null
           ? null
           : _array(dialogueList, 'dialogueList')
-              .map(
-                (value) =>
-                    DialogueSpeaker.fromJson(_object(value, 'dialogueList[]')),
-              )
-              .toList(),
+                .map(
+                  (value) => DialogueSpeaker.fromJson(
+                    _object(value, 'dialogueList[]'),
+                  ),
+                )
+                .toList(),
     );
   }
 }
@@ -145,8 +148,7 @@ class MainCategory {
       icon: _iconForName(iconName),
       subCategories: _array(json['subCategories'], 'subCategories')
           .map(
-            (value) =>
-                SubCategory.fromJson(_object(value, 'subCategories[]')),
+            (value) => SubCategory.fromJson(_object(value, 'subCategories[]')),
           )
           .toList(),
     );
@@ -158,7 +160,7 @@ final class AppDataRepository {
 
   static const _bundledDataAsset = 'assets/pali_data.json';
   static const _manifestUrl =
-      'https://raw.githubusercontent.com/your-username/your-repository/main/assets/pali_data_version.json';
+      'https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data_version.json';
   static const _cachedDataKey = 'pali_app_data_json';
   static const _cachedHashKey = 'pali_app_data_sha256';
   static const _requestTimeout = Duration(seconds: 8);
@@ -193,7 +195,9 @@ final class AppDataRepository {
       final expectedHash = _stringField(manifest, 'sha256').toLowerCase();
       final dataUrl = _stringField(manifest, 'dataUrl');
       if (!RegExp(r'^[a-f0-9]{64}$').hasMatch(expectedHash)) {
-        throw const FormatException('Manifest sha256 must be a SHA-256 hex digest.');
+        throw const FormatException(
+          'Manifest sha256 must be a SHA-256 hex digest.',
+        );
       }
 
       if (_sha256(utf8.encode(currentJson)) != expectedHash) {
@@ -234,9 +238,10 @@ final class AppDataRepository {
 
   static List<MainCategory> _decodeData(String source) {
     final decoded = jsonDecode(source);
-    return _array(decoded, 'data')
-        .map((value) => MainCategory.fromJson(_object(value, 'data[]')))
-        .toList();
+    return _array(
+      decoded,
+      'data',
+    ).map((value) => MainCategory.fromJson(_object(value, 'data[]'))).toList();
   }
 
   static String _sha256(List<int> bytes) => sha256.convert(bytes).toString();
