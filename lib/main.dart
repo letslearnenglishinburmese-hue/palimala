@@ -3,6 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'app_data.dart';
+import 'pali_transliteration.dart';
 
 late List<MainCategory> appData;
 
@@ -92,7 +93,8 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
           secondary: const Color(0xFFD97706),
           surface: const Color(0xFFFDFBF7),
         ),
-        fontFamily: 'sans-serif',
+        fontFamily: 'Pyidaungsu Numbers',
+        fontFamilyFallback: const ['Pyidaungsu', 'GentiumPlus', 'SourceSans3'],
       ),
       darkTheme: ThemeData(
         useMaterial3: true,
@@ -100,7 +102,8 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
           seedColor: const Color(0xFF8C1D11),
           brightness: Brightness.dark,
         ),
-        fontFamily: 'sans-serif',
+        fontFamily: 'Pyidaungsu Numbers',
+        fontFamilyFallback: const ['Pyidaungsu', 'GentiumPlus', 'SourceSans3'],
       ),
       themeMode: _isDarkMode ? ThemeMode.dark : ThemeMode.light,
       builder: (context, child) => MediaQuery(
@@ -173,6 +176,11 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
 }
 
 // Global Text To Speech Service
+//
+// Pāḷi has no native TTS voice, but Kannada is phonetic and covers the
+// same sounds (ā ī ū ṃ ṅ ñ ṇ ṭ ḍ ḷ ...), so we transliterate Pāḷi Roman
+// into Kannada script and speak it with the Kannada ("kn-IN") voice.
+// Example: "Buddhaṃ saraṇaṃ gacchāmi" -> "ಬುದ್ಧಂ ಸರಣಂ ಗಚ್ಛಾಮಿ".
 class TtsService {
   static final FlutterTts _flutterTts = FlutterTts();
   static bool _isInit = false;
@@ -188,12 +196,27 @@ class TtsService {
     }
   }
 
+  /// Speaks a Pāḷi Roman line by converting it to Kannada script first.
+  static Future<void> speakPali(String paliRoman) async {
+    await init();
+    final kannadaText = paliRomanToKannada(paliRoman);
+    if (kannadaText.isNotEmpty) {
+      await _flutterTts.stop();
+      await _flutterTts.setLanguage("kn-IN");
+      await _flutterTts.speak(kannadaText);
+    }
+  }
+
   static Future<void> speak(String text) async {
     await init();
     if (text.isNotEmpty) {
       await _flutterTts.stop();
       await _flutterTts.speak(text);
     }
+  }
+
+  static Future<void> stop() async {
+    await _flutterTts.stop();
   }
 }
 
@@ -554,7 +577,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   const Spacer(),
                   IconButton(
                     tooltip: isMm ? 'အသံနားထောင်ရန်' : 'Listen',
-                    onPressed: () => TtsService.speak(dailyWord.paliRoman),
+                    onPressed: () => TtsService.speakPali(dailyWord.paliRoman),
                     color: Colors.white,
                     icon: const Icon(Icons.volume_up_rounded),
                   ),
@@ -672,13 +695,24 @@ class _HomeScreenState extends State<HomeScreen> {
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(
-                                isMm ? category.titleMm : category.titleEn,
-                                maxLines: 2,
-                                overflow: TextOverflow.ellipsis,
-                                style: const TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18,
+                              SizedBox(
+                                width: double.infinity,
+                                child: FittedBox(
+                                  alignment: Alignment.centerLeft,
+                                  fit: BoxFit.scaleDown,
+                                  child: Text(
+                                    isMm ? category.titleMm : category.titleEn,
+                                    maxLines: 1,
+                                    softWrap: false,
+                                    overflow: TextOverflow.visible,
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 18,
+                                      color: Theme.of(context)
+                                          .colorScheme
+                                          .primary,
+                                    ),
+                                  ),
                                 ),
                               ),
                               const SizedBox(height: 4),
@@ -1258,22 +1292,7 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    IconButton(
-                      tooltip: widget.savedWords.contains(item.paliRoman)
-                          ? (isMm ? 'မှတ်ထားမှုမှ ဖယ်ရန်' : 'Remove saved word')
-                          : (isMm ? 'သိမ်းရန်' : 'Save word'),
-                      icon: Icon(
-                        widget.savedWords.contains(item.paliRoman)
-                            ? Icons.bookmark_rounded
-                            : Icons.bookmark_border_rounded,
-                      ),
-                      onPressed: () {
-                        widget.onSavedWordToggle(item);
-                        setState(() {});
-                      },
-                    ),
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -1297,11 +1316,25 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
                         ],
                       ),
                     ),
+                    IconButton(
+                      tooltip: widget.savedWords.contains(item.paliRoman)
+                          ? (isMm ? 'မှတ်ထားမှုမှ ဖယ်ရန်' : 'Remove saved word')
+                          : (isMm ? 'သိမ်းရန်' : 'Save word'),
+                      icon: Icon(
+                        widget.savedWords.contains(item.paliRoman)
+                            ? Icons.bookmark_rounded
+                            : Icons.bookmark_border_rounded,
+                      ),
+                      onPressed: () {
+                        widget.onSavedWordToggle(item);
+                        setState(() {});
+                      },
+                    ),
                     IconButton.filledTonal(
                       tooltip: isMm ? 'အသံနားထောင်ရန်' : 'Listen',
                       icon: const Icon(Icons.volume_up_rounded),
                       onPressed: () {
-                        TtsService.speak(item.paliRoman);
+                        TtsService.speakPali(item.paliRoman);
                       },
                     ),
                   ],
@@ -1340,7 +1373,7 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
                             : 'Listen to sentence',
                         icon: const Icon(Icons.volume_up_rounded),
                         onPressed: () {
-                          TtsService.speak(item.example!.paliRoman);
+                          TtsService.speakPali(item.example!.paliRoman);
                         },
                       ),
                     ],
@@ -1390,7 +1423,7 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
                         color: Colors.deepOrange,
                       ),
                       onPressed: () {
-                        TtsService.speak(dialogue.paliRoman);
+                        TtsService.speakPali(dialogue.paliRoman);
                       },
                     ),
                   ],

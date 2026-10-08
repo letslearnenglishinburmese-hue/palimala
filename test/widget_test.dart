@@ -5,13 +5,26 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:palimala/main.dart';
+import 'package:palimala/app_data.dart';
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+  setUpAll(() async {
+    final dataJson = await rootBundle.loadString('assets/pali_data.json');
+    final decodedData = jsonDecode(dataJson) as List<dynamic>;
+    appData = decodedData
+        .map((value) => MainCategory.fromJson(value as Map<String, dynamic>))
+        .toList();
+  });
+
   test('Family vocabulary includes the requested relatives', () {
     final family = appData.first.subCategories.first.vocabList!;
     final romanWords = family.map((item) => item.paliRoman).toSet();
@@ -291,6 +304,53 @@ void main() {
     );
     expect(categoryTitles, isNot(contains('ကိတ်ကြိယာပုဒ်များ')));
     expect(categoryTitles, isNot(contains('ပါဠိစကားပြောပုံစံများ')));
+  });
+
+  test('Qualitative adjective chapter includes all twenty examples', () {
+    final adjectiveCategory = appData.firstWhere(
+      (category) => category.titleMm == 'နာမဝိသေသနပုဒ်များ',
+    );
+    final qualitativeAdjectives = adjectiveCategory.subCategories[2];
+    final vocabList = qualitativeAdjectives.vocabList!;
+    final romanWords = vocabList.map((item) => item.paliRoman).toSet();
+
+    expect(qualitativeAdjectives.titleMm, 'ဂုဏဝိသေသနများ');
+    expect(qualitativeAdjectives.titleEn, 'Qualitative Adjectives');
+    expect(vocabList, hasLength(20));
+    expect(romanWords, hasLength(vocabList.length));
+    expect(
+      romanWords,
+      containsAll([
+        'Sukka',
+        'Kaṇha',
+        'Ratta',
+        'Mahanta',
+        'Khuddaka',
+        'Dīgha',
+        'Rassa',
+        'Sādhu',
+        'Pāpa',
+        'Madhura',
+        'Tittaka',
+        'Sīta',
+        'Uṇha',
+        'Balavanta',
+        'Dubbala',
+        'Paṇḍita',
+        'Mūḷha',
+        'Taruṇa',
+        'Vuḍḍha',
+        'Suci',
+      ]),
+    );
+    expect(vocabList.every((item) => item.example != null), isTrue);
+    expect(
+      vocabList
+          .firstWhere((item) => item.paliRoman == 'Sukka')
+          .example
+          ?.paliRoman,
+      'So sukkaṃ vatthaṃ paridahati.',
+    );
   });
 
   test('Nipata categories include the requested particles and examples', () {

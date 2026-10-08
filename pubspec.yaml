@@ -73,6 +73,9 @@ flutter:
     - family: Pyidaungsu
       fonts:
         - asset: fonts/Pyidaungsu-2.5.3_Regular.ttf
+    - family: Pyidaungsu Numbers
+      fonts:
+        - asset: fonts/Pyidaungsu-2.5.3_Numbers.ttf
     - family: GentiumPlus
       fonts:
         - asset: fonts/GentiumPlus-Bold.ttf
