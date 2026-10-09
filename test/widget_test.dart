@@ -15,6 +15,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:palimala/main.dart';
 import 'package:palimala/app_data.dart';
 
+String _withoutGenderMarker(String paliRoman) =>
+    paliRoman.replaceFirst(RegExp(r' \([MFN/]+\)$'), '');
+
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
   setUpAll(() async {
@@ -27,7 +30,9 @@ void main() {
 
   test('Family vocabulary includes the requested relatives', () {
     final family = appData.first.subCategories.first.vocabList!;
-    final romanWords = family.map((item) => item.paliRoman).toSet();
+    final romanWords = family
+        .map((item) => _withoutGenderMarker(item.paliRoman))
+        .toSet();
 
     expect(family, hasLength(31));
     expect(romanWords, hasLength(family.length));
@@ -65,7 +70,9 @@ void main() {
     );
     expect(
       family
-          .firstWhere((item) => item.paliRoman == 'Mātāmahī')
+          .firstWhere(
+            (item) => _withoutGenderMarker(item.paliRoman) == 'Mātāmahī',
+          )
           .example
           ?.translateEn,
       'The maternal grandmother gives alms.',
@@ -74,7 +81,9 @@ void main() {
 
   test('Color vocabulary includes the requested colors', () {
     final colors = appData.first.subCategories[1].vocabList!;
-    final romanWords = colors.map((item) => item.paliRoman).toSet();
+    final romanWords = colors
+        .map((item) => _withoutGenderMarker(item.paliRoman))
+        .toSet();
 
     expect(colors, hasLength(6));
     expect(
@@ -86,7 +95,9 @@ void main() {
 
   test('Classroom vocabulary includes the requested words', () {
     final classroom = appData.first.subCategories[2].vocabList!;
-    final romanWords = classroom.map((item) => item.paliRoman).toSet();
+    final romanWords = classroom
+        .map((item) => _withoutGenderMarker(item.paliRoman))
+        .toSet();
 
     expect(classroom, hasLength(6));
     expect(
@@ -107,7 +118,9 @@ void main() {
     final apparel = appData.first.subCategories
         .firstWhere((category) => category.titleMm == 'အဝတ်အစားများ')
         .vocabList!;
-    final romanWords = apparel.map((item) => item.paliRoman).toSet();
+    final romanWords = apparel
+        .map((item) => _withoutGenderMarker(item.paliRoman))
+        .toSet();
 
     expect(apparel, hasLength(27));
     expect(romanWords, hasLength(apparel.length));
@@ -144,6 +157,209 @@ void main() {
       ]),
     );
     expect(apparel.every((item) => item.example != null), isTrue);
+  });
+
+  test('Fruit vocabulary includes all twenty requested examples', () {
+    final fruits = appData.first.subCategories
+        .firstWhere((category) => category.titleMm == 'သစ်သီးများ')
+        .vocabList!;
+    final romanWords = fruits
+        .map((item) => _withoutGenderMarker(item.paliRoman))
+        .toSet();
+
+    expect(fruits, hasLength(20));
+    expect(romanWords, hasLength(fruits.length));
+    expect(
+      romanWords,
+      containsAll([
+        'Amba',
+        'Kadali',
+        'Panasa',
+        'Nāḷikera',
+        'Jambū',
+        'Badara',
+        'Kapiṭṭha',
+        'Dāḷimaphala',
+        'Tāla',
+        'Muddikā',
+        'Jambīra',
+        'Siṅgivera',
+        'Alābu',
+        'Kakkarī',
+        'Kālinda',
+        'Udumbara',
+        'Āmalaka',
+        'Harītakī',
+        'Vibhīṭakaphala',
+        'Sītāphala',
+      ]),
+    );
+    expect(fruits.every((item) => item.example != null), isTrue);
+    expect(
+      fruits
+          .firstWhere(
+            (item) => _withoutGenderMarker(item.paliRoman) == 'Dāḷimaphala',
+          )
+          .example
+          ?.paliRoman,
+      'Sā rattaṃ dāḷimaphalaṃ ānayati.',
+    );
+  });
+
+  test('Every noun has matching Burmese and Roman gender markers', () {
+    final nouns = appData.firstWhere(
+      (category) => category.titleMm == 'နာမ်ပုဒ်များ',
+    );
+    const romanGender = {'ပု': 'M', 'ထီ': 'F', 'န': 'N'};
+
+    for (final item in nouns.subCategories.expand(
+      (category) => category.vocabList!,
+    )) {
+      final mmMarker = RegExp(r' \(([^()]*)\)$')
+          .firstMatch(item.paliMm)
+          ?.group(1);
+      final romanMarker = RegExp(r' \(([MFN/]+)\)$')
+          .firstMatch(item.paliRoman)
+          ?.group(1);
+
+      expect(mmMarker, isNotNull, reason: item.paliMm);
+      expect(romanMarker, isNotNull, reason: item.paliRoman);
+      expect(
+        romanMarker,
+        mmMarker!.split('/').map((marker) => romanGender[marker]).join('/'),
+        reason: item.paliRoman,
+      );
+    }
+  });
+
+  test('Noun chapters include all requested vocabulary groups', () {
+    final nouns = appData.firstWhere(
+      (category) => category.titleMm == 'နာမ်ပုဒ်များ',
+    );
+    const expectedWords = {
+      'သစ်ပင်နှင့် အပင်များ': [
+        'Rukkha',
+        'Taru',
+        'Latā',
+        'Paṇṇa',
+        'Puppha',
+        'Sākhā',
+        'Mūla',
+        'Taca',
+        'Vana',
+        'Gaccha',
+      ],
+      'ခန္ဓာကိုယ်အစိတ်အပိုင်းများ': [
+        'Sīsa / Sira',
+        'Mukha',
+        'Akkhi / Nayana',
+        'Sota / Kaṇṇa',
+        'Nāsā / Nāsikā',
+        'Jivhā',
+        'Hattha / Kara',
+        'Pāda',
+        'Hadaya',
+        'Kāya',
+      ],
+      'အိမ်သုံးပစ္စည်းများ': [
+        'Geha / Ghara',
+        'Pīṭha',
+        'Mañca',
+        'Patta',
+        'Kaṭāha',
+        'Kumba',
+        'Saraka / Casaka',
+        'Sucī',
+        'Sattha / Satthaka',
+        'Dvāra',
+      ],
+      'ရာသီဥတုနှင့် သဘာဝအရာများ': [
+        'Sūriya / Ādicca',
+        'Canda / Candima',
+        'Megha / Vallāhaka',
+        'Vassa / Vuṭṭhi',
+        'Vāta / Anila',
+        'Ākāsa / Gagana',
+        'Pabbata / Giri',
+        'Nadī',
+        'Samudda / Sāgara',
+        'Bhūmi / Pathavī',
+      ],
+      'မြို့ရွာနှင့် နေရာဌာနများ': [
+        'Nagara / Pura',
+        'Gāma',
+        'Vihāra / Ārāma',
+        'Āpaṇa',
+        'Magga',
+        'Sālā',
+        'Nivesana / Geha',
+        'Raṭṭha / Janapada',
+        'Tittha',
+        'Uyyāna',
+      ],
+      'အချိန်နှင့် ကာလများ': [
+        'Kāla',
+        'Divasa / Aha',
+        'Ratti',
+        'Pubbaṇha',
+        'Majjhanha',
+        'Sāyaṇha',
+        'Māsa',
+        'Saṃvacchara / Vassa',
+        'Khaṇa',
+        'Utu',
+      ],
+      'နေ့ရက်များ': [
+        'Ravivāra / Sūriyavāra',
+        'Candavāra',
+        'Aṅgāravāra',
+        'Budhavāra',
+        'Guruvāra / Brahassapativāra',
+        'Sukkavāra',
+        'Sanivāra',
+      ],
+      'ရာသီများ': [
+        'Gimhautu / Gimha',
+        'Vassānautu / Vassāna',
+        'Hemantautu / Hemanta',
+        'Saradautu / Sarada',
+      ],
+      'အသက်မွေးဝမ်းကျောင်းနှင့် လူပုဂ္ဂိုလ်များ': [
+        'Ācariya',
+        'Sissa',
+        'Bāṇija',
+        'Kassaka',
+        'Vejja',
+        'Bhūpāla / Rājā',
+        'Sūpakāra',
+        'Rajaka',
+        'Suvaṇṇakāra',
+        'Gopālaka',
+        'Cora',
+        'Nāvika',
+        'Kumbhakāra',
+        'Vaḍḍhaki',
+        'Yodha',
+        'Yācaka',
+        'Mālākāra',
+        'Veṇika',
+        'Dūta',
+        'Gaṇaka',
+      ],
+    };
+
+    for (final entry in expectedWords.entries) {
+      final chapter = nouns.subCategories.firstWhere(
+        (category) => category.titleMm == entry.key,
+      );
+      final words = chapter.vocabList!
+          .map((item) => _withoutGenderMarker(item.paliRoman))
+          .toSet();
+
+      expect(chapter.vocabList, hasLength(entry.value.length));
+      expect(words, containsAll(entry.value));
+      expect(chapter.vocabList!.every((item) => item.example != null), isTrue);
+    }
   });
 
   test('Academic verbs include the requested verbs without duplicates', () {
@@ -559,7 +775,7 @@ void main() {
       expect(paliSentence.style?.fontSize, 18);
       expect(
         paliSentence.style?.color,
-        Theme.of(tester.element(find.text('ပိတာ'))).colorScheme.primary,
+        Theme.of(tester.element(find.text('ပိတာ (ပု)'))).colorScheme.primary,
       );
 
       await tester.tap(find.byType(FilterChip));
@@ -608,7 +824,7 @@ void main() {
     await tester.enterText(find.byType(TextField), 'Father');
     await tester.pumpAndSettle();
 
-    expect(find.text('Pitā'), findsOneWidget);
+    expect(find.text('Pitā (M)'), findsOneWidget);
 
     await tester.tap(find.text('Settings'));
     await tester.pumpAndSettle();
@@ -640,8 +856,8 @@ void main() {
     await tester.tap(find.text('မှတ်ထားသည်များ'));
     await tester.pumpAndSettle();
 
-    expect(find.text('ပိတာ'), findsOneWidget);
+    expect(find.text('ပိတာ (ပု)'), findsOneWidget);
     final preferences = await SharedPreferences.getInstance();
-    expect(preferences.getStringList('saved_pali_words'), contains('Pitā'));
+    expect(preferences.getStringList('saved_pali_words'), contains('Pitā (M)'));
   });
 }
