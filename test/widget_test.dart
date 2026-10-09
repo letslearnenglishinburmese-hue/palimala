@@ -503,6 +503,106 @@ void main() {
     expect(cookingVerbs.every((item) => item.example != null), isTrue);
   });
 
+  test('Physical action verbs include all ten requested examples', () {
+    final verbs = appData[1].subCategories.firstWhere(
+      (category) =>
+          category.titleMm ==
+          'ခန္ဓာကိုယ်လှုပ်ရှားမှုနှင့် အမူအယာဆိုင်ရာ ကြိယာများ',
+    );
+    final vocabList = verbs.vocabList!;
+
+    expect(vocabList, hasLength(10));
+    expect(
+      vocabList.map((item) => item.paliRoman),
+      containsAll([
+        'Uṭṭhāti',
+        'Nisīdati',
+        'Pasāreti',
+        'Samiñjeti',
+        'Āliṅgati',
+        'Sirasā namassati',
+        'Sīsaṃ kampeti',
+        'Hatthaṃ dhunāti',
+        'Akkhiṃ nimeseti',
+        'Aṅguliṃ cāleti',
+      ]),
+    );
+    expect(vocabList.every((item) => item.example != null), isTrue);
+  });
+
+  test('Governance and conflict verbs include all twenty examples', () {
+    final verbs = appData[1].subCategories.firstWhere(
+      (category) =>
+          category.titleMm ==
+          'ဥပဒေ၊ အုပ်ချုပ်ရေးနှင့် တိုက်ခိုက်ရေးဆိုင်ရာ ကြိယာများ',
+    );
+    final vocabList = verbs.vocabList!;
+
+    expect(vocabList, hasLength(20));
+    expect(
+      vocabList.map((item) => item.paliRoman),
+      containsAll([
+        'Pasāsati',
+        'Rakkhati',
+        'Jināti',
+        'Parājeti',
+        'Yujjhati',
+        'Pakkhandati',
+        'Nicchayaṃ karoti',
+        'Āṇāpeti',
+        'Niggaṇhāti',
+        'Paggaṇhāti',
+        'Bandhati',
+        'Muñcati',
+        'Hanati',
+        'Pāleti',
+        'Codeti',
+        'Daṇḍeti',
+        'Rundhati',
+        'Vihiṃsati',
+        'Khamāpeti',
+        'Sandhiṃ karoti',
+      ]),
+    );
+    expect(vocabList.every((item) => item.example != null), isTrue);
+  });
+
+  test('Religious and spiritual verbs include all twenty examples', () {
+    final verbs = appData[1].subCategories.firstWhere(
+      (category) =>
+          category.titleMm == 'တရားဓမ္မ၊ ဘာဝနာနှင့် သာသနာရေးဆိုင်ရာ ကြိယာများ',
+    );
+    final vocabList = verbs.vocabList!;
+
+    expect(vocabList, hasLength(20));
+    expect(
+      vocabList.map((item) => item.paliRoman),
+      containsAll([
+        'Pūjeti',
+        'Bhāveti',
+        'Jhāyati',
+        'Vandati',
+        'Deseti',
+        'Suṇāti',
+        'Sarati',
+        'Pabbajati',
+        'Sīlaṃ rakkhati',
+        'Deti',
+        'Anumodati',
+        'Khamāpeti',
+        'Sallakkheti',
+        'Vipassati',
+        'Sajjhāyati',
+        'Pattheti',
+        'Samāpajjati',
+        'Pātimokkhaṃ uddisati',
+        'Pattiṃ dadāti',
+        'Saccāni bujjhati',
+      ]),
+    );
+    expect(vocabList.every((item) => item.example != null), isTrue);
+  });
+
   test('Main vocabulary has exactly six requested sections', () {
     final categoryTitles = appData.map((category) => category.titleMm).toSet();
 

@@ -286,13 +286,11 @@ class _SearchWordResult {
   final VocabItem item;
   final MainCategory category;
   final SubCategory subCategory;
-  final String searchText;
 
   const _SearchWordResult({
     required this.item,
     required this.category,
     required this.subCategory,
-    required this.searchText,
   });
 }
 
@@ -506,26 +504,6 @@ class _DashboardStat extends StatelessWidget {
 class _HomeScreenState extends State<HomeScreen> {
   String _searchQuery = '';
   final TextEditingController _searchController = TextEditingController();
-  late final List<_SearchWordResult> _wordIndex;
-
-  @override
-  void initState() {
-    super.initState();
-    _wordIndex = [
-      for (final category in appData)
-        for (final subCategory in category.subCategories)
-          for (final item in subCategory.vocabList ?? [])
-            _SearchWordResult(
-              item: item,
-              category: category,
-              subCategory: subCategory,
-              searchText:
-                  '${item.paliMm}\n${item.paliRoman}\n'
-                          '${item.translateMm}\n${item.translateEn}'
-                      .toLowerCase(),
-            ),
-    ];
-  }
 
   @override
   void dispose() {
@@ -537,13 +515,29 @@ class _HomeScreenState extends State<HomeScreen> {
     final normalizedQuery = query.trim().toLowerCase();
     if (normalizedQuery.isEmpty) return [];
 
-    return _wordIndex
-        .where((result) => result.searchText.contains(normalizedQuery))
+    return _allWords()
+        .where(
+          (result) => [
+            result.item.paliMm,
+            result.item.paliRoman,
+            result.item.translateMm,
+            result.item.translateEn,
+          ].any((value) => value.toLowerCase().contains(normalizedQuery)),
+        )
         .toList();
   }
 
   List<_SearchWordResult> _allWords() {
-    return _wordIndex;
+    return [
+      for (final category in appData)
+        for (final subCategory in category.subCategories)
+          for (final item in subCategory.vocabList ?? [])
+            _SearchWordResult(
+              item: item,
+              category: category,
+              subCategory: subCategory,
+            ),
+    ];
   }
 
   Widget _buildHome(bool isMm) {
