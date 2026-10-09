@@ -838,6 +838,19 @@ void main() {
     );
   });
 
+  testWidgets('Search finds vocabulary using Myanmar text', (
+    WidgetTester tester,
+  ) async {
+    await tester.pumpWidget(const PaliLearningApp());
+
+    await tester.tap(find.text('ရှာရန်'));
+    await tester.pumpAndSettle();
+    await tester.enterText(find.byType(TextField), 'အဖေ');
+    await tester.pumpAndSettle();
+
+    expect(find.text('ပိတာ (ပု)'), findsOneWidget);
+  });
+
   testWidgets('Vocabulary can be saved and viewed from the saved tab', (
     WidgetTester tester,
   ) async {
