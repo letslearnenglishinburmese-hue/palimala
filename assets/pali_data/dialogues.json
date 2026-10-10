@@ -1,0 +1,51 @@
+{
+  "titleMm": "ပါဠိစကားပြောခန်း",
+  "titleEn": "Pāḷi Dialogues",
+  "icon": "record_voice_over_rounded",
+  "subCategories": [
+    {
+      "titleMm": "ဆရာတပည့် အပြန်အလှန်ဆွေးနွေးခန်း",
+      "titleEn": "Teacher & Student Dialogue",
+      "dialogueList": [
+        {
+          "speakerMm": "သိဿော (ကျောင်းသား)",
+          "speakerEn": "Student",
+          "paliMm": "ဝန္ဒာမိ ဘန္တေ၊ အာစရိယ။",
+          "paliRoman": "Vandāmi bhante, ācariya.",
+          "translateMm": "ဆရာတော်/ဆရာကြီး၊ ရှိခိုးပါ၏ခင်ဗျာ။",
+          "translateEn": "I pay respect to you, Teacher."
+        },
+        {
+          "speakerMm": "အာစရိယော (ဆရာ)",
+          "speakerEn": "Teacher",
+          "paliMm": "သုခီ ဟောဟိ။ အဇ္ဇ ကိံ ကာရဏာ စိရံ အာဂတောသိ?",
+          "paliRoman": "Sukhī hohi. Ajja kiṃ kāraṇā ciraṃ āgatosi?",
+          "translateMm": "ချမ်းသာပါစေ။ ယနေ့ အဘယ်ကြောင့် နောက်ကျမှ ရောက်လာသနည်း။",
+          "translateEn": "May you be happy. Why did you arrive late today?"
+        }
+      ]
+    },
+    {
+      "titleMm": "ပါဠိဘာသာနှင့် ပတ်သက်သော ဆွေးနွေးခန်း",
+      "titleEn": "Discussion about Pāḷi Language",
+      "dialogueList": [
+        {
+          "speakerMm": "အနုရုဒ္ဓေါ",
+          "speakerEn": "Anuruddha",
+          "paliMm": "ဘော မိတ္တ၊ တဝ ပါဠိဘာသာယ နိပုဏတာ အဗ္ဘုတာ ဟောတိ။",
+          "paliRoman": "Bho mitta, tava pāḷibhāsāya nipuṇatā abbhutā hoti.",
+          "translateMm": "အဆွေခင်ပွန်း၊ သင့်၏ ပါဠိဘာသာစကား ပိုင်နိုင်ကျွမ်းကျင်မှုမှာ အံ့ဩဖွယ်ဖြစ်ပေ၏။",
+          "translateEn": "Dear friend, your proficiency in Pāḷi language is wonderful."
+        },
+        {
+          "speakerMm": "ဓမ္မပါလော",
+          "speakerEn": "Dhammapāla",
+          "paliMm": "အာမ၊ အဟံ ပဋိဒိနံ ပါဠိဘာသာယ သမ္ဘာသဏံ ကရောမိ၊ တသ္မာ သုလဘာ ဟောတိ။",
+          "paliRoman": "Āma, ahaṃ paṭidinaṃ pāḷibhāsāya sambhāsaṇaṃ karomi, tasmā sulabhā hoti.",
+          "translateMm": "ဟုတ်ပါသည်၊ ငါသည် နေ့စဉ် ပါဠိဘာသာဖြင့် စကားပြောဆိုမှု ပြု၏၊ ထို့ကြောင့် လွယ်ကူခြင်းဖြစ်၏။",
+          "translateEn": "Yes, I practice speaking in Pāḷi every day, that is why it becomes easy."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": "2026-10-10",
+  "datasets": [
+    {
+      "id": "nouns",
+      "titleMm": "နာမ်ပုဒ်များ",
+      "titleEn": "Nouns (Nāma)",
+      "icon": "menu_book_rounded",
+      "asset": "assets/pali_data/nouns.json",
+      "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/nouns.json",
+      "sha256": "ffb821a4eb87c244915682338c0bf2118aed1a6c86ad5feda821732c32192e62",
+      "bytes": 144836
+    },
+    {
+      "id": "verbs",
+      "titleMm": "ကြိယာပုဒ်များ",
+      "titleEn": "Finite Verbs (Ākhyāta)",
+      "icon": "directions_run_rounded",
+      "asset": "assets/pali_data/verbs.json",
+      "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/verbs.json",
+      "sha256": "3eb8499f254ae441cb4fb9be79150ee267d7e077c71fcdf814b186e3a20b6c3a",
+      "bytes": 97542
+    },
+    {
+      "id": "adjectives",
+      "titleMm": "နာမဝိသေသနပုဒ်များ",
+      "titleEn": "Adjectives",
+      "icon": "auto_awesome_rounded",
+      "asset": "assets/pali_data/adjectives.json",
+      "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/adjectives.json",
+      "sha256": "d21cde8fb97261015d16eedce7d92d3b74a175ad6eb21f856766896dee2eccbb",
+      "bytes": 41719
+    },
+    {
+      "id": "adverbs",
+      "titleMm": "ကြိယာဝိသေသနပုဒ်များ",
+      "titleEn": "Adverbs",
+      "icon": "speed_rounded",
+      "asset": "assets/pali_data/adverbs.json",
+      "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/adverbs.json",
+      "sha256": "d6f17743a728fa4fb0b0739d9bfda789c10892e8b6448ba77d08c5a267011652",
+      "bytes": 43914
+    },
+    {
+      "id": "particles",
+      "titleMm": "နိပါတ်ပုဒ်များ",
+      "titleEn": "Invariable Words & Particles (Nipāta)",
+      "icon": "auto_awesome_mosaic_rounded",
+      "asset": "assets/pali_data/particles.json",
+      "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/particles.json",
+      "sha256": "df7c5c5594e62b67cc0b803a13e4269dc0d87cead857967eed7a550a36509651",
+      "bytes": 58259
+    },
+    {
+      "id": "dialogues",
+      "titleMm": "ပါဠိစကားပြောခန်း",
+      "titleEn": "Pāḷi Dialogues",
+      "icon": "record_voice_over_rounded",
+      "asset": "assets/pali_data/dialogues.json",
+      "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/dialogues.json",
+      "sha256": "a75d5c362b28cc43f78db88ae6e5b4d5de90677f92c1ea18d3792c372bd25807",
+      "bytes": 3128
+    }
+  ]
+}

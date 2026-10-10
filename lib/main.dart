@@ -1,8 +1,11 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'app_data.dart';
+import 'dictionary_data.dart';
 import 'pali_transliteration.dart';
 
 late List<MainCategory> appData;
@@ -34,7 +37,15 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
   @override
   void initState() {
     super.initState();
+    appDataRevision.addListener(_handleDataChanged);
     _loadSavedWords();
+  }
+
+  /// Keeps the shared [appData] in sync when a data set is downloaded or
+  /// updated from the settings screen.
+  void _handleDataChanged() {
+    if (!mounted) return;
+    setState(() => appData = AppDataRepository.categories);
   }
 
   Future<void> _loadSavedWords() async {
@@ -76,6 +87,7 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
 
   @override
   void dispose() {
+    appDataRevision.removeListener(_handleDataChanged);
     _selectedTab.dispose();
     super.dispose();
   }
@@ -166,6 +178,13 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
                 label: currentLang == AppLanguage.myanmar
                     ? 'ဆက်တင်'
                     : 'Settings',
+              ),
+              NavigationDestination(
+                icon: const Icon(Icons.menu_book_outlined),
+                selectedIcon: const Icon(Icons.menu_book_rounded),
+                label: currentLang == AppLanguage.myanmar
+                    ? 'အဘိဓာန်'
+                    : 'Dictionary',
               ),
             ],
           ),
@@ -504,10 +523,16 @@ class _DashboardStat extends StatelessWidget {
 class _HomeScreenState extends State<HomeScreen> {
   String _searchQuery = '';
   final TextEditingController _searchController = TextEditingController();
+  String _dictionaryQuery = '';
+  final TextEditingController _dictionaryController = TextEditingController();
+  Future<List<DictionaryEntry>>? _dictionaryLoad;
+  Timer? _dictionarySearchDebounce;
 
   @override
   void dispose() {
+    _dictionarySearchDebounce?.cancel();
     _searchController.dispose();
+    _dictionaryController.dispose();
     super.dispose();
   }
 
@@ -538,6 +563,34 @@ class _HomeScreenState extends State<HomeScreen> {
               subCategory: subCategory,
             ),
     ];
+  }
+
+  List<DictionaryEntry> _findDictionaryEntries(
+    List<DictionaryEntry> entries,
+    String query,
+  ) {
+    final hasMyanmarCharacters = query.runes.any(
+      (character) =>
+          (character >= 0x1000 && character <= 0x109f) ||
+          (character >= 0xa9e0 && character <= 0xa9ff) ||
+          (character >= 0xaa60 && character <= 0xaa7f),
+    );
+    final exactMatches = entries
+        .where((entry) => entry.normalizedWord == query)
+        .take(100)
+        .toList();
+    if (exactMatches.length == 100) return exactMatches;
+
+    final otherMatches = entries
+        .where(
+          (entry) =>
+              entry.normalizedWord != query &&
+              (entry.normalizedWord.contains(query) ||
+                  (hasMyanmarCharacters &&
+                      entry.definition.contains(query))),
+        )
+        .take(100 - exactMatches.length);
+    return [...exactMatches, ...otherMatches];
   }
 
   Widget _buildHome(bool isMm) {
@@ -869,6 +922,125 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  Widget _buildDictionary(bool isMm) {
+    _dictionaryLoad ??= DictionaryRepository.loadBundled();
+
+    return FutureBuilder<List<DictionaryEntry>>(
+      future: _dictionaryLoad,
+      builder: (context, snapshot) {
+        final query = _dictionaryQuery.trim().toLowerCase();
+        final results = query.isEmpty || !snapshot.hasData
+            ? const <DictionaryEntry>[]
+            : _findDictionaryEntries(snapshot.data!, query);
+
+        return Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+              child: TextField(
+                controller: _dictionaryController,
+                onChanged: (value) {
+                  _dictionarySearchDebounce?.cancel();
+                  _dictionarySearchDebounce = Timer(
+                    const Duration(milliseconds: 250),
+                    () {
+                      if (mounted) {
+                        setState(() => _dictionaryQuery = value);
+                      }
+                    },
+                  );
+                },
+                decoration: InputDecoration(
+                  hintText: isMm
+                      ? 'ပါဠိစကားလုံး သို့မဟုတ် အဓိပ္ပာယ် ရှာရန်'
+                      : 'Search Pāḷi words or definitions',
+                  prefixIcon: const Icon(Icons.search_rounded),
+                  suffixIcon: _dictionaryQuery.isEmpty
+                      ? null
+                      : IconButton(
+                          tooltip: isMm ? 'ဖျက်ရန်' : 'Clear',
+                          onPressed: () {
+                            _dictionarySearchDebounce?.cancel();
+                            _dictionaryController.clear();
+                            setState(() => _dictionaryQuery = '');
+                          },
+                          icon: const Icon(Icons.clear_rounded),
+                        ),
+                  border: const OutlineInputBorder(),
+                ),
+              ),
+            ),
+            Expanded(
+              child: snapshot.hasError
+                  ? Center(
+                      child: Padding(
+                        padding: const EdgeInsets.all(24),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Text(
+                              isMm
+                                  ? 'အဘိဓာန်ကို ဖွင့်၍မရပါ။'
+                                  : 'The dictionary could not be loaded.',
+                              textAlign: TextAlign.center,
+                            ),
+                            const SizedBox(height: 12),
+                            FilledButton(
+                              onPressed: () => setState(() {
+                                _dictionaryLoad =
+                                    DictionaryRepository.loadBundled(
+                                      reload: true,
+                                    );
+                              }),
+                              child: Text(isMm ? 'ပြန်ကြိုးစားရန်' : 'Retry'),
+                            ),
+                          ],
+                        ),
+                      ),
+                    )
+                  : !snapshot.hasData
+                  ? const Center(child: CircularProgressIndicator())
+                  : _dictionaryQuery.trim().isEmpty
+                  ? Center(
+                      child: Text(
+                        isMm
+                            ? 'ပါဠိစကားလုံး သို့မဟုတ် မြန်မာအဓိပ္ပာယ်ကို ရိုက်ရှာပါ'
+                            : 'Type a Pāḷi word or Myanmar definition',
+                        textAlign: TextAlign.center,
+                      ),
+                    )
+                  : results.isEmpty
+                  ? Center(child: Text(isMm ? 'မတွေ့ပါ' : 'No entries found'))
+                  : ListView.builder(
+                      padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+                      itemCount: results.length,
+                      itemBuilder: (context, index) {
+                        final entry = results[index];
+                        return Card(
+                          child: ListTile(
+                            title: Text(
+                              entry.word,
+                              style: TextStyle(
+                                color: Theme.of(context).colorScheme.primary,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            subtitle: Padding(
+                              padding: const EdgeInsets.only(top: 8),
+                              child: Text(entry.definition),
+                            ),
+                            isThreeLine: true,
+                          ),
+                        );
+                      },
+                    ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   Widget _buildSettings(bool isMm) {
     return ListView(
       padding: const EdgeInsets.all(16),
@@ -898,8 +1070,59 @@ class _HomeScreenState extends State<HomeScreen> {
           value: widget.isDarkMode,
           onChanged: widget.onThemeChanged,
         ),
+        const Divider(height: 32),
+        Text(
+          isMm ? 'ဒေတာ' : 'Data',
+          style: Theme.of(context).textTheme.titleSmall?.copyWith(
+            color: Theme.of(context).colorScheme.primary,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        const SizedBox(height: 4),
+        ListTile(
+          contentPadding: EdgeInsets.zero,
+          leading: const Icon(Icons.cloud_download_outlined),
+          title: Text(isMm ? 'ဒေတာ ဒေါင်းလုဒ်' : 'Data downloads'),
+          subtitle: Text(_dataStatusLabel(isMm)),
+          trailing: const Icon(Icons.chevron_right_rounded),
+          onTap: () => showModalBottomSheet<void>(
+            context: context,
+            isScrollControlled: true,
+            showDragHandle: true,
+            builder: (context) => DataDownloadSheet(isMyanmar: isMm),
+          ),
+        ),
+        SwitchListTile(
+          contentPadding: EdgeInsets.zero,
+          secondary: const Icon(Icons.cloud_sync_outlined),
+          title: Text(isMm ? 'အလိုအလျောက် မွမ်းမံရန်' : 'Auto update'),
+          subtitle: Text(
+            isMm
+                ? 'အက်ပ်ဖွင့်ချိန်တွင် ဒေတာအသစ်များကို အလိုအလျောက် ရယူပါမည်'
+                : 'Download newer data automatically when the app opens',
+          ),
+          value: AppDataRepository.autoUpdateEnabled,
+          onChanged: (value) async {
+            await AppDataRepository.setAutoUpdate(value);
+            if (!mounted) return;
+            setState(() {});
+          },
+        ),
       ],
     );
+  }
+
+  String _dataStatusLabel(bool isMm) {
+    if (!AppDataRepository.initialized || AppDataRepository.datasets.isEmpty) {
+      return isMm ? 'ဒေတာ အခြေအနေ မရနိုင်သေးပါ' : 'Data status unavailable';
+    }
+    final updates = AppDataRepository.updatesAvailable;
+    if (updates == 0) {
+      return isMm ? 'ဒေတာအားလုံး နောက်ဆုံးဖြစ်သည်' : 'All data is up to date';
+    }
+    return isMm
+        ? 'မွမ်းမံရန် $updates ခု ရှိသည်'
+        : '$updates update(s) available';
   }
 
   Widget _buildDrawer(BuildContext context, bool isMm) {
@@ -1016,6 +1239,7 @@ class _HomeScreenState extends State<HomeScreen> {
           isMm ? 'စကားလုံးရှာရန်' : 'Search Word',
           isMm ? 'မှတ်ထားသည်များ' : 'Saved Words',
           isMm ? 'ဆက်တင်များ' : 'Settings',
+          isMm ? 'အဘိဓာန်' : 'Dictionary',
         ];
 
         return Scaffold(
@@ -1046,7 +1270,9 @@ class _HomeScreenState extends State<HomeScreen> {
               ? _buildSearch(isMm)
               : selectedIndex == 2
               ? _buildSavedWords(isMm)
-              : _buildSettings(isMm),
+              : selectedIndex == 3
+              ? _buildSettings(isMm)
+              : _buildDictionary(isMm),
         );
       },
     );
@@ -1452,3 +1678,271 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
 }
 
 // 4. Example Sentence Detail Screen
+
+// 5. Data download sheet
+//
+// Opened from Settings. Lists every downloadable data set together with its
+// published hash and lets the user download or update only the chapters they
+// need. The auto-update switch lives here as well.
+class DataDownloadSheet extends StatefulWidget {
+  final bool isMyanmar;
+
+  const DataDownloadSheet({super.key, required this.isMyanmar});
+
+  @override
+  State<DataDownloadSheet> createState() => _DataDownloadSheetState();
+}
+
+class _DataDownloadSheetState extends State<DataDownloadSheet> {
+  final Set<String> _busy = <String>{};
+  bool _checking = false;
+  bool _downloadingAll = false;
+
+  Future<void> _checkForUpdates() async {
+    final messenger = ScaffoldMessenger.of(context);
+    final isMm = widget.isMyanmar;
+    setState(() => _checking = true);
+    try {
+      await AppDataRepository.checkForUpdates();
+      final updates = AppDataRepository.updatesAvailable;
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(
+            updates == 0
+                ? (isMm
+                      ? 'ဒေတာအားလုံး နောက်ဆုံးဖြစ်သည်'
+                      : 'All data is up to date')
+                : (isMm
+                      ? 'မွမ်းမံရန် $updates ခု ရှိသည်'
+                      : '$updates update(s) available'),
+          ),
+        ),
+      );
+    } catch (error) {
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(isMm ? 'စစ်ဆေး၍ မရပါ: $error' : 'Check failed: $error'),
+        ),
+      );
+    } finally {
+      if (mounted) setState(() => _checking = false);
+    }
+  }
+
+  Future<void> _download(DatasetInfo dataset) async {
+    if (_busy.contains(dataset.id)) return;
+    final messenger = ScaffoldMessenger.of(context);
+    final isMm = widget.isMyanmar;
+    setState(() => _busy.add(dataset.id));
+    try {
+      final updated = await AppDataRepository.downloadDataset(dataset);
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(
+            updated
+                ? (isMm
+                      ? '${dataset.titleMm} ကို ရယူပြီးပါပြီ'
+                      : 'Downloaded ${dataset.titleEn}')
+                : (isMm
+                      ? '${dataset.titleMm} နောက်ဆုံးဖြစ်နေပါသည်'
+                      : '${dataset.titleEn} is already up to date'),
+          ),
+        ),
+      );
+    } catch (error) {
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(isMm ? 'ရယူ၍ မရပါ: $error' : 'Download failed: $error'),
+        ),
+      );
+    } finally {
+      if (mounted) setState(() => _busy.remove(dataset.id));
+    }
+  }
+
+  Future<void> _downloadAll() async {
+    final messenger = ScaffoldMessenger.of(context);
+    final isMm = widget.isMyanmar;
+    setState(() => _downloadingAll = true);
+    try {
+      final updated = await AppDataRepository.downloadAllUpdates();
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(
+            isMm
+                ? 'ဒေတာ $updated ခု မွမ်းမံပြီးပါပြီ'
+                : 'Updated $updated data set(s)',
+          ),
+        ),
+      );
+    } finally {
+      if (mounted) setState(() => _downloadingAll = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final isMm = widget.isMyanmar;
+    final theme = Theme.of(context);
+    final datasets = AppDataRepository.datasets;
+    final updates = AppDataRepository.updatesAvailable;
+    final busy = _checking || _downloadingAll || _busy.isNotEmpty;
+
+    return FractionallySizedBox(
+      heightFactor: 0.85,
+      child: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 0, 20, 8),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    isMm ? 'ဒေတာ ဒေါင်းလုဒ်' : 'Data downloads',
+                    style: theme.textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    isMm
+                        ? 'လိုအပ်သော အခန်းများကို ရွေးချယ်ရယူနိုင်ပါသည်။ ဖိုင်တစ်ခုစီကို ဟက်ရှ်ဖြင့် စစ်ဆေးပါသည်။'
+                        : 'Download only the chapters you need. Every file is verified against its published hash.',
+                    style: theme.textTheme.bodySmall,
+                  ),
+                ],
+              ),
+            ),
+            SwitchListTile(
+              dense: true,
+              contentPadding: const EdgeInsets.symmetric(horizontal: 20),
+              secondary: const Icon(Icons.cloud_sync_outlined),
+              title: Text(isMm ? 'အလိုလျောက် မွမ်းမံရန်' : 'Auto update'),
+              subtitle: Text(
+                isMm
+                    ? 'အက်ပ်ဖွင့်ချိန်တွင် အလိုလျောက် ရယူပါမည်'
+                    : 'Fetch newer data automatically on launch',
+              ),
+              value: AppDataRepository.autoUpdateEnabled,
+              onChanged: (value) async {
+                await AppDataRepository.setAutoUpdate(value);
+                if (!mounted) return;
+                setState(() {});
+              },
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 4, 20, 10),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: OutlinedButton.icon(
+                      onPressed: _checking ? null : _checkForUpdates,
+                      icon: _checking
+                          ? const SizedBox(
+                              width: 16,
+                              height: 16,
+                              child: CircularProgressIndicator(strokeWidth: 2),
+                            )
+                          : const Icon(Icons.refresh_rounded),
+                      label: Text(
+                        isMm ? 'အသစ် စစ်ဆေးရန်' : 'Check for updates',
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: FilledButton.icon(
+                      onPressed: (updates == 0 || busy) ? null : _downloadAll,
+                      icon: _downloadingAll
+                          ? const SizedBox(
+                              width: 16,
+                              height: 16,
+                              child: CircularProgressIndicator(strokeWidth: 2),
+                            )
+                          : const Icon(Icons.download_rounded),
+                      label: Text(isMm ? 'အားလုံး ရယူရန်' : 'Download all'),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const Divider(height: 1),
+            Expanded(
+              child: datasets.isEmpty
+                  ? Center(
+                      child: Text(isMm ? 'ဒေတာ မတွေ့ပါ' : 'No datasets found'),
+                    )
+                  : ListView.separated(
+                      padding: const EdgeInsets.symmetric(vertical: 4),
+                      itemCount: datasets.length,
+                      separatorBuilder: (context, index) =>
+                          const Divider(height: 1),
+                      itemBuilder: (context, index) =>
+                          _buildDatasetTile(datasets[index], isMm),
+                    ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildDatasetTile(DatasetInfo dataset, bool isMm) {
+    final theme = Theme.of(context);
+    final isUpToDate =
+        AppDataRepository.statusOf(dataset) == DatasetStatus.upToDate;
+    final isBusy = _busy.contains(dataset.id);
+    final actionLabel = AppDataRepository.hasDownloadedCopy(dataset)
+        ? (isMm ? 'မွမ်းမံရန်' : 'Update')
+        : (isMm ? 'ရယူရန်' : 'Download');
+
+    return ListTile(
+      contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 6),
+      leading: CircleAvatar(
+        backgroundColor: theme.colorScheme.secondaryContainer,
+        child: Icon(
+          dataset.icon,
+          color: theme.colorScheme.onSecondaryContainer,
+        ),
+      ),
+      title: Text(
+        isMm ? dataset.titleMm : dataset.titleEn,
+        style: const TextStyle(fontWeight: FontWeight.bold),
+      ),
+      subtitle: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('${dataset.sizeLabel} · sha256 ${dataset.shortHash}…'),
+          const SizedBox(height: 2),
+          Text(
+            isUpToDate
+                ? (isMm ? 'နောက်ဆုံးဖြစ်သည်' : 'Up to date')
+                : (isMm ? 'မွမ်းမံရန် ရှိသည်' : 'Update available'),
+            style: TextStyle(
+              color: isUpToDate
+                  ? Colors.green.shade700
+                  : theme.colorScheme.error,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ],
+      ),
+      isThreeLine: true,
+      trailing: isUpToDate
+          ? const Icon(Icons.check_circle_rounded, color: Colors.green)
+          : isBusy
+          ? const SizedBox(
+              width: 20,
+              height: 20,
+              child: CircularProgressIndicator(strokeWidth: 2),
+            )
+          : FilledButton.tonal(
+              onPressed: () => _download(dataset),
+              child: Text(actionLabel),
+            ),
+      onTap: isUpToDate || isBusy ? null : () => _download(dataset),
+    );
+  }
+}

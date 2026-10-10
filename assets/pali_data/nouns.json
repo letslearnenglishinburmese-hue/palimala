@@ -1,0 +1,2977 @@
+{
+  "titleMm": "နာမ်ပုဒ်များ",
+  "titleEn": "Nouns (Nāma)",
+  "icon": "menu_book_rounded",
+  "subCategories": [
+    {
+      "titleMm": "ဆွေမျိုးများ",
+      "titleEn": "Ralitives and Family Members",
+      "vocabList": [
+        {
+          "paliMm": "ပိတာ (ပု)",
+          "paliRoman": "Pitā (M)",
+          "translateMm": "အဖေ",
+          "translateEn": "Father",
+          "example": {
+            "paliMm": "ပိတာ ဂေဟံ အာဂစ္ဆတိ။",
+            "paliRoman": "Pitā gehaṃ āgacchati.",
+            "translateMm": "အဖေသည် အိမ်သို့ လာ၏။",
+            "translateEn": "The father comes home."
+          }
+        },
+        {
+          "paliMm": "မာတာ (ထီ)",
+          "paliRoman": "Mātā (F)",
+          "translateMm": "အမေ",
+          "translateEn": "Mother",
+          "example": {
+            "paliMm": "မာတာ ပုတ္တံ သိနေဟတိ။",
+            "paliRoman": "Mātā puttaṃ sinehati.",
+            "translateMm": "အမေသည် သားကို ချစ်ခင်၏။",
+            "translateEn": "The mother loves her son."
+          }
+        },
+        {
+          "paliMm": "ပုတ္တော (ပု)",
+          "paliRoman": "Putto (M)",
+          "translateMm": "သား",
+          "translateEn": "Son",
+          "example": {
+            "paliMm": "ပုတ္တော ပေါတ္ထကံ ပဌတိ။",
+            "paliRoman": "Putto potthakaṃ paṭhati.",
+            "translateMm": "သားသည် စာအုပ်ကို ဖတ်၏။",
+            "translateEn": "The son reads a book."
+          }
+        },
+        {
+          "paliMm": "ဓီတာ (ထီ)",
+          "paliRoman": "Dhītā / Dhītu (F)",
+          "translateMm": "သမီး",
+          "translateEn": "Daughter",
+          "example": {
+            "paliMm": "ဓီတာ ပုပ္ဖံ အာဟရတိ။",
+            "paliRoman": "Dhītā pupphaṃ āharati.",
+            "translateMm": "သမီးသည် ပန်းကို ဆောင်ယူခဲ့၏။",
+            "translateEn": "The daughter brings a flower."
+          }
+        },
+        {
+          "paliMm": "ဘာတာ (ပု)",
+          "paliRoman": "Bhātā (M)",
+          "translateMm": "ညီအစ်ကို/မောင်",
+          "translateEn": "Brother",
+          "example": {
+            "paliMm": "ဘာတာ ဝိဟာရံ ဂစ္ဆတိ။",
+            "paliRoman": "Bhātā vihāraṃ gacchati.",
+            "translateMm": "ညီအစ်ကို/မောင်သည် ကျောင်းတိုက်သို့ သွား၏။",
+            "translateEn": "The brother goes to the monastery."
+          }
+        },
+        {
+          "paliMm": "ဘဂိနီ (ထီ)",
+          "paliRoman": "Bhaginī (F)",
+          "translateMm": "အစ်မ/နှမ",
+          "translateEn": "Sister",
+          "example": {
+            "paliMm": "ဘဂိနီ အာဟာရံ ပစတိ။",
+            "paliRoman": "Bhaginī āhāraṃ pacati.",
+            "translateMm": "အစ်မ/နှမသည် အာဟာရကို ချက်ပြုတ်၏။",
+            "translateEn": "The sister cooks food."
+          }
+        },
+        {
+          "paliMm": "ပိတာမဟော (ပု)",
+          "paliRoman": "Pitāmaho (M)",
+          "translateMm": "အဘိုး",
+          "translateEn": "Paternal grandfather",
+          "example": {
+            "paliMm": "ပိတာမဟော ဓမ္မံ သုဏောတိ။",
+            "paliRoman": "Pitāmaho dhammaṃ suṇāti.",
+            "translateMm": "အဘိုးသည် တရားတော်ကို နာယူ၏။",
+            "translateEn": "The paternal grandfather listens to the Dhamma."
+          }
+        },
+        {
+          "paliMm": "မာတာမဟီ (ထီ)",
+          "paliRoman": "Mātāmahī (F)",
+          "translateMm": "အဘွား",
+          "translateEn": "Maternal grandmother",
+          "example": {
+            "paliMm": "မာတာမဟီ ဒါနံ ဒေတိ။",
+            "paliRoman": "Mātāmahī dānaṃ deti.",
+            "translateMm": "အဘွားသည် အလှူဒါန ပေး၏။",
+            "translateEn": "The maternal grandmother gives alms."
+          }
+        },
+        {
+          "paliMm": "ဇေဋ္ဌဘာတာ (ပု)",
+          "paliRoman": "Jeṭṭhabhātā (M)",
+          "translateMm": "အစ်ကိုကြီး",
+          "translateEn": "Elder brother",
+          "example": {
+            "paliMm": "ဇေဋ္ဌဘာတာ ဂေဟံ ပါလေတိ။",
+            "paliRoman": "Jeṭṭhabhātā gehaṃ pāleti.",
+            "translateMm": "အစ်ကိုကြီးသည် အိမ်ကို စောင့်ရှောက်၏။",
+            "translateEn": "The elder brother takes care of the house."
+          }
+        },
+        {
+          "paliMm": "ကနိဋ္ဌဘာတာ (ပု)",
+          "paliRoman": "Kaniṭṭhabhātā (M)",
+          "translateMm": "ညီကလေး",
+          "translateEn": "Younger brother",
+          "example": {
+            "paliMm": "ကနိဋ္ဌဘာတာ ဝိဇ္ဇာလယံ ဂစ္ဆတိ။",
+            "paliRoman": "Kaniṭṭhabhātā vijjālayaṃ gacchati.",
+            "translateMm": "ညီကလေးသည် ကျောင်းသို့ သွား၏။",
+            "translateEn": "The younger brother goes to school."
+          }
+        },
+        {
+          "paliMm": "ဇေဋ္ဌဘဂိနီ (ထီ)",
+          "paliRoman": "Jeṭṭhabhaginī (F)",
+          "translateMm": "အစ်မကြီး",
+          "translateEn": "Elder sister",
+          "example": {
+            "paliMm": "ဇေဋ္ဌဘဂိနီ အာဟာရံ ပစတိ။",
+            "paliRoman": "Jeṭṭhabhaginī āhāraṃ pacati.",
+            "translateMm": "အစ်မကြီးသည် အာဟာရကို ချက်ပြုတ်၏။",
+            "translateEn": "The elder sister cooks food."
+          }
+        },
+        {
+          "paliMm": "ကနိဋ္ဌဘဂိနီ (ထီ)",
+          "paliRoman": "Kaniṭṭhabhaginī (F)",
+          "translateMm": "ညီမလေး",
+          "translateEn": "Younger sister",
+          "example": {
+            "paliMm": "ကနိဋ္ဌဘဂိနီ ပေါတ္ထကံ ပဌတိ။",
+            "paliRoman": "Kaniṭṭhabhaginī potthakaṃ paṭhati.",
+            "translateMm": "ညီမလေးသည် စာအုပ်ကို ဖတ်၏။",
+            "translateEn": "The younger sister reads a book."
+          }
+        },
+        {
+          "paliMm": "နတ္တာ (ပု)",
+          "paliRoman": "Nattā (M)",
+          "translateMm": "မြေး",
+          "translateEn": "Grandson",
+          "example": {
+            "paliMm": "နတ္တာ အယျကံ ဥပဋ္ဌာဟတိ။",
+            "paliRoman": "Nattā ayyakaṃ upaṭṭhāhati.",
+            "translateMm": "မြေးသည် အဘိုးကို လုပ်ကျွေးပြုစု၏။",
+            "translateEn": "The grandson serves his grandfather."
+          }
+        },
+        {
+          "paliMm": "ဘတ္တာ (ပု)",
+          "paliRoman": "Bhattā (M)",
+          "translateMm": "လင်",
+          "translateEn": "Husband",
+          "example": {
+            "paliMm": "ဘတ္တာ ကမ္မံ ကရောတိ။",
+            "paliRoman": "Bhattā kammaṃ karoti.",
+            "translateMm": "လင်သည် အလုပ်ကို ပြုလုပ်၏။",
+            "translateEn": "The husband works."
+          }
+        },
+        {
+          "paliMm": "ဘရိယာ (ထီ)",
+          "paliRoman": "Bhariyā (F)",
+          "translateMm": "မယား",
+          "translateEn": "Wife",
+          "example": {
+            "paliMm": "ဘရိယာ ဂေဟံ ပဋိဇဂ္ဂတိ။",
+            "paliRoman": "Bhariyā gehaṃ paṭijaggati.",
+            "translateMm": "မယားသည် အိမ်ကို ထိန်းသိမ်းစောင့်ရှောက်၏။",
+            "translateEn": "The wife takes care of the home."
+          }
+        },
+        {
+          "paliMm": "မဟာပိတာ (ပု)",
+          "paliRoman": "Mahāpitā (M)",
+          "translateMm": "ဘကြီး",
+          "translateEn": "Paternal uncle (father's elder brother)",
+          "example": {
+            "paliMm": "မဟာပိတာ ဓမ္မံ သုဏောတိ။",
+            "paliRoman": "Mahāpitā dhammaṃ suṇāti.",
+            "translateMm": "ဘကြီးသည် တရားတော်ကို နာယူ၏။",
+            "translateEn": "The paternal uncle (father's elder brother) listens to the Dhamma."
+          }
+        },
+        {
+          "paliMm": "စူဠပိတာ (ပု)",
+          "paliRoman": "Cūḷapitā (M)",
+          "translateMm": "ဘထွေး",
+          "translateEn": "Paternal uncle (father's younger brother)",
+          "example": {
+            "paliMm": "စူဠပိတာ ခေတ္တံ ဂစ္ဆတိ။",
+            "paliRoman": "Cūḷapitā khettaṃ gacchati.",
+            "translateMm": "ဘထွေးသည် လယ်ကွင်းသို့ သွား၏။",
+            "translateEn": "The paternal uncle (father's younger brother) goes to the field."
+          }
+        },
+        {
+          "paliMm": "မာတုလော (ပု)",
+          "paliRoman": "Mātulo (M)",
+          "translateMm": "ဦးရီး၊ ဦးလေး",
+          "translateEn": "Maternal uncle",
+          "example": {
+            "paliMm": "မာတုလော နဂရတော အာဂစ္ဆတိ။",
+            "paliRoman": "Mātulo nagarato āgacchati.",
+            "translateMm": "ဦးလေးသည် မြို့မှ လာ၏။",
+            "translateEn": "The maternal uncle comes from the city."
+          }
+        },
+        {
+          "paliMm": "မာတုလာနီ (ထီ)",
+          "paliRoman": "Mātulānī (F)",
+          "translateMm": "အရီး၊ အဒွေး",
+          "translateEn": "Aunt (uncle's wife)",
+          "example": {
+            "paliMm": "မာတုလာနီ ဒါနံ ဒေတိ။",
+            "paliRoman": "Mātulānī dānaṃ deti.",
+            "translateMm": "အဒွေးသည် အလှူဒါန ပေး၏။",
+            "translateEn": "The aunt (uncle’s wife) gives alms."
+          }
+        },
+        {
+          "paliMm": "မာတုစ္ဆာ (ထီ)",
+          "paliRoman": "Mātucchā (F)",
+          "translateMm": "မိကြီး၊ မိထွေး",
+          "translateEn": "Mother's sister",
+          "example": {
+            "paliMm": "မာတုစ္ဆာ ဗာလံ သိနေဟေတိ။",
+            "paliRoman": "Mātucchā bālaṃ sineheti.",
+            "translateMm": "မိထွေးသည် ကလေးကို ချစ်ခင်၏။",
+            "translateEn": "The mother's sister loves the child."
+          }
+        },
+        {
+          "paliMm": "ပိတုစ္ဆာ (ထီ)",
+          "paliRoman": "Pitucchā (F)",
+          "translateMm": "အရီး",
+          "translateEn": "Father's sister",
+          "example": {
+            "paliMm": "ပိတုစ္ဆာ ဝိဟာရံ ဂစ္ဆတိ။",
+            "paliRoman": "Pitucchā vihāraṃ gacchati.",
+            "translateMm": "အရီးသည် ကျောင်းတိုက်သို့ သွား၏။",
+            "translateEn": "The father's sister goes to the monastery."
+          }
+        },
+        {
+          "paliMm": "ဇာမာတာ (ပု)",
+          "paliRoman": "Jāmātā (M)",
+          "translateMm": "သမက်",
+          "translateEn": "Son-in-law",
+          "example": {
+            "paliMm": "ဇာမာတာ သဿုရံ ဝန္ဒတိ။",
+            "paliRoman": "Jāmātā sassuraṃ vandati.",
+            "translateMm": "သမက်သည် ယောက္ခမကို ရှိခိုး၏။",
+            "translateEn": "The son-in-law respects his father-in-law."
+          }
+        },
+        {
+          "paliMm": "သုဏိသာ (ထီ)",
+          "paliRoman": "Suṇisā (F)",
+          "translateMm": "ချွေးမ",
+          "translateEn": "Daughter-in-law",
+          "example": {
+            "paliMm": "သုဏိသာ သဿုံ ဥပဋ္ဌာဟတိ။",
+            "paliRoman": "Suṇisā sassuṃ upaṭṭhāhati.",
+            "translateMm": "ချွေးမသည် ယောက္ခမကို လုပ်ကျွေးပြုစု၏။",
+            "translateEn": "The daughter-in-law serves her mother-in-law."
+          }
+        },
+        {
+          "paliMm": "သာလော (ပု)",
+          "paliRoman": "Sālo (M)",
+          "translateMm": "ယောက်ဖ",
+          "translateEn": "Brother-in-law",
+          "example": {
+            "paliMm": "သာလော မိတ္တေန သဒ္ဓိံ သမ္ဘာသတိ။",
+            "paliRoman": "Sālo mittena saddhiṃ sambhāsati.",
+            "translateMm": "ယောက်ဖသည် မိတ်ဆွေနှင့်အတူ စကားပြောဆို၏။",
+            "translateEn": "The brother-in-law talks with a friend."
+          }
+        },
+        {
+          "paliMm": "နနန္ဒာ (ထီ)",
+          "paliRoman": "Nanandā (F)",
+          "translateMm": "ယောက်မ",
+          "translateEn": "Sister-in-law (husband's sister)",
+          "example": {
+            "paliMm": "နနန္ဒာ ပုပ္ဖံ သဉ္စိနာတိ။",
+            "paliRoman": "Nanandā pupphaṃ sañcināti.",
+            "translateMm": "ယောက်မသည် ပန်းကို ဆုဆောင်း၏/သီကုံး၏။",
+            "translateEn": "The sister-in-law collects flowers."
+          }
+        },
+        {
+          "paliMm": "ဘာဂိနေယျော (ပု)",
+          "paliRoman": "Bhāgineyyo (M)",
+          "translateMm": "တူ",
+          "translateEn": "Nephew (sister's son)",
+          "example": {
+            "paliMm": "ဘာဂိနေယျော ပါဠိဘာသံ သိက္ခတိ။",
+            "paliRoman": "Bhāgineyyo pāḷibhāsaṃ sikkhati.",
+            "translateMm": "တူသည် ပါဠိဘာသာကို သင်ယူ၏။",
+            "translateEn": "The nephew learns the Pali language."
+          }
+        },
+        {
+          "paliMm": "ဘာဂိနေယျာ (ထီ)",
+          "paliRoman": "Bhāgineyyā (F)",
+          "translateMm": "တူမ",
+          "translateEn": "Niece",
+          "example": {
+            "paliMm": "ဘာဂိနေယျာ ပဏ္ဏံ လိခတိ။",
+            "paliRoman": "Bhāgineyyā paṇṇaṃ likhati.",
+            "translateMm": "တူမသည် စာတစ်စောင် ရေး၏။",
+            "translateEn": "The niece writes a letter."
+          }
+        },
+        {
+          "paliMm": "အယျကော (ပု)",
+          "paliRoman": "Ayyako (M)",
+          "translateMm": "အဘိုး",
+          "translateEn": "Grandfather",
+          "example": {
+            "paliMm": "အယျကော ဂေဟေ နိသီဒတိ။",
+            "paliRoman": "Ayyako gehe nisīdati.",
+            "translateMm": "အဘိုးသည် အိမ်၌ ထိုင်၏။",
+            "translateEn": "The grandfather sits at home."
+          }
+        },
+        {
+          "paliMm": "အယျိကာ (ထီ)",
+          "paliRoman": "Ayyikā (F)",
+          "translateMm": "အဘွား",
+          "translateEn": "Grandmother",
+          "example": {
+            "paliMm": "အယျိကာ ဇာတကံ ဝဒတိ။",
+            "paliRoman": "Ayyikā jātakaṃ vadati.",
+            "translateMm": "အဘွားသည် ဇာတ်တော်ကို ပြောပြ၏။",
+            "translateEn": "The grandmother tells a Jataka story."
+          }
+        },
+        {
+          "paliMm": "သဿု (ထီ)",
+          "paliRoman": "Sassu (F)",
+          "translateMm": "ယောက္ခမ (မိန်းမ)",
+          "translateEn": "Mother-in-law",
+          "example": {
+            "paliMm": "သဿု သုဏိသံ သာဓု ပဋိဇဂ္ဂတိ။",
+            "paliRoman": "Sassu suṇisaṃ sādhu paṭijaggati.",
+            "translateMm": "ယောက္ခမသည် ချွေးမကို ကောင်းစွာ စောင့်ရှောက်၏။",
+            "translateEn": "The mother-in-law takes good care of the daughter-in-law."
+          }
+        },
+        {
+          "paliMm": "သဿုရော (ပု)",
+          "paliRoman": "Sassuro (M)",
+          "translateMm": "ယောက္ခမ (ယောက်ျား)",
+          "translateEn": "Father-in-law",
+          "example": {
+            "paliMm": "သဿုရော ဇာမာတရာ သဒ္ဓိံ စရတိ။",
+            "paliRoman": "Sassuro jāmātarā saddhiṃ carati.",
+            "translateMm": "ယောက္ခမသည် သမက်နှင့်အတူ လှည့်လည်၏။",
+            "translateEn": "The father-in-law walks together with his son-in-law."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "ကာလာအရောင်များ",
+      "titleEn": "Colors",
+      "vocabList": [
+        {
+          "paliMm": "ရတ္တော (ပု)",
+          "paliRoman": "Ratto (M)",
+          "translateMm": "အနီရောင်",
+          "translateEn": "Red",
+          "example": {
+            "paliMm": "ရတ္တံ ပုပ္ဖံ ဝိကသတိ။",
+            "paliRoman": "Rattaṃ pupphaṃ vikasati.",
+            "translateMm": "အနီရောင်ပန်းသည် ပွင့်၏။",
+            "translateEn": "The red flower blooms."
+          }
+        },
+        {
+          "paliMm": "နီလော (ပု)",
+          "paliRoman": "Nīlo (M)",
+          "translateMm": "အပြာရောင်",
+          "translateEn": "Blue",
+          "example": {
+            "paliMm": "နီလံ အာကသံ သုန္ဒရံ ဟောတိ။",
+            "paliRoman": "Nīlaṃ ākasaṃ sundaraṃ hoti.",
+            "translateMm": "အပြာရောင် ကောင်းကင်သည် လှပ၏။",
+            "translateEn": "The blue sky is beautiful."
+          }
+        },
+        {
+          "paliMm": "ပီတော (ပု)",
+          "paliRoman": "Pīto (M)",
+          "translateMm": "အဝါရောင်",
+          "translateEn": "Yellow",
+          "example": {
+            "paliMm": "သမဏော ပီတံ စီဝရံ ပာရုပတိ။",
+            "paliRoman": "Samaṇo pītaṃ cīvaraṃ pārupati.",
+            "translateMm": "ရဟန်းသည် အဝါရောင် သင်္ကန်းကို ဝတ်ရုံ၏။",
+            "translateEn": "The monk wears a yellow robe."
+          }
+        },
+        {
+          "paliMm": "သေတော / သုက္ကော (ပု)",
+          "paliRoman": "Seto / Sukko (M)",
+          "translateMm": "အဖြူရောင်",
+          "translateEn": "White",
+          "example": {
+            "paliMm": "သေတော ဟံသော သရောသိံ နဟာယတိ။",
+            "paliRoman": "Seto haṃso sarasiṃ nahāyati.",
+            "translateMm": "အဖြူရောင် ငန်းသည် ရေကန်၌ ရေချိုး၏။",
+            "translateEn": "The white swan bathes in the lake."
+          }
+        },
+        {
+          "paliMm": "ကဏှော (ပု)",
+          "paliRoman": "Kaṇho (M)",
+          "translateMm": "အနက်ရောင်",
+          "translateEn": "Black",
+          "example": {
+            "paliMm": "ကဏှော ကာကော ရုက္ခေ နိသီဒတိ။",
+            "paliRoman": "Kaṇho kāko rukkhe nisīdati.",
+            "translateMm": "အနက်ရောင် ကျီးကန်းသည် သစ်ပင်၌ ထိုင်၏/နား၏။",
+            "translateEn": "The black crow sits on the tree."
+          }
+        },
+        {
+          "paliMm": "ဟရိတော (ပု)",
+          "paliRoman": "Harito (M)",
+          "translateMm": "အစိမ်းရောင်",
+          "translateEn": "Green",
+          "example": {
+            "paliMm": "ဟရိတံ ပဏ္ဏံ ရုက္ခာ ပတတိ။",
+            "paliRoman": "Haritaṃ paṇṇaṃ rukkhā patati.",
+            "translateMm": "အစိမ်းရောင် သစ်ရွက်သည် သစ်ပင်မှ ကြွေကျ၏။",
+            "translateEn": "The green leaf falls from the tree."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "စာသင်ခန်းသုံးများ",
+      "titleEn": "Classroom Vocabulary",
+      "vocabList": [
+        {
+          "paliMm": "သိဿော (ပု)",
+          "paliRoman": "Sisso (M)",
+          "translateMm": "ကျောင်းသား",
+          "translateEn": "Student",
+          "example": {
+            "paliMm": "သိဿော ဝိဇ္ဇာလယံ ဂစ္ဆတိ။",
+            "paliRoman": "Sisso satthālayaṃ gacchati.",
+            "translateMm": "ကျောင်းသားသည် ကျောင်းသို့ သွား၏။",
+            "translateEn": "The student goes to school."
+          }
+        },
+        {
+          "paliMm": "အာစရိယော (ပု)",
+          "paliRoman": "Ācariyo (M)",
+          "translateMm": "ဆရာ",
+          "translateEn": "Teacher",
+          "example": {
+            "paliMm": "အာစရိယော သိဿာနံ ဗျာကရဏံ ဝါစေတိ။",
+            "paliRoman": "Ācariyo sissānaṃ byākaraṇaṃ vāceti.",
+            "translateMm": "ဆရာသည် ကျောင်းသားတို့အား သဒ္ဒါကျမ်းကို သင်ကြားပေး၏။",
+            "translateEn": "The teacher teaches grammar to the students."
+          }
+        },
+        {
+          "paliMm": "ပေါတ္ထကံ (န)",
+          "paliRoman": "Potthakaṃ (N)",
+          "translateMm": "စာအုပ်",
+          "translateEn": "Book",
+          "example": {
+            "paliMm": "သိဿော ပေါတ္ထကံ ဥပဓာရေတိ။",
+            "paliRoman": "Sisso potthakaṃ upadhāreti.",
+            "translateMm": "ကျောင်းသားသည် စာအုပ်ကို လေ့လာကြည့်ရှု၏။",
+            "translateEn": "The student studies the book."
+          }
+        },
+        {
+          "paliMm": "လေခနီ (ထီ)",
+          "paliRoman": "Lekhanī (F)",
+          "translateMm": "ဖောင်တိန်",
+          "translateEn": "Pen",
+          "example": {
+            "paliMm": "အဟံ လေခနိယာ လိခါမိ။",
+            "paliRoman": "Ahaṃ lekhaniyā likhāmi.",
+            "translateMm": "ငါသည် ဖောင်တိန်ဖြင့် စာရေး၏။",
+            "translateEn": "I write a letter with a pen."
+          }
+        },
+        {
+          "paliMm": "ဖလကံ (န)",
+          "paliRoman": "Phalakaṃ (N)",
+          "translateMm": "ကျောက်သင်ပုန်း/ဘုတ်ပြား",
+          "translateEn": "Blackboard / Board",
+          "example": {
+            "paliMm": "အာစရိယော ဖလကေ အက္ခရာနိ လိခတိ။",
+            "paliRoman": "Ācariyo phalake akkharāni likhati.",
+            "translateMm": "ဆရာသည် ကျောက်သင်ပုန်း/ဘုတ်ပြားပေါ်၌ စာလုံးများကို ရေး၏။",
+            "translateEn": "The teacher writes letters on the board."
+          }
+        },
+        {
+          "paliMm": "ဝိဇ္ဇာလယော (ပု)",
+          "paliRoman": "Satthālayo / Vijjālayo (M)",
+          "translateMm": "ကောလိပ်/တက္ကသိုလ်",
+          "translateEn": "University",
+          "example": {
+            "paliMm": "ဗဟူ သိဿာ ဝိဇ္ဇာလယေ သိက္ခန္တိ။",
+            "paliRoman": "Bahū sissā vijjālaye sikkhanti.",
+            "translateMm": "များစွာသော ကျောင်းသားတို့သည် တက္ကသိုလ်၌ ပညာသင်ယူကြ၏။",
+            "translateEn": "Many students study at the university."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "ရေနေတိရိစ္ဆာန်များ",
+      "titleEn": "Aquatic Animals",
+      "vocabList": [
+        {
+          "paliMm": "မစ္ဆော (ပု)",
+          "paliRoman": "Maccho (M)",
+          "translateMm": "ငါး",
+          "translateEn": "Fish"
+        },
+        {
+          "paliMm": "ကုမ္ဘီလော (ပု)",
+          "paliRoman": "Kumbhīlo (M)",
+          "translateMm": "မိကျောင်း",
+          "translateEn": "Crocodile",
+          "example": {
+            "paliMm": "ကုမ္ဘီလော နဒိယံ ဝသတိ။",
+            "paliRoman": "Kumbhīlo nadiyaṃ vasati.",
+            "translateMm": "မိကျောင်းသည် မြစ်၌ နေ၏။",
+            "translateEn": "The crocodile lives in the river."
+          }
+        },
+        {
+          "paliMm": "ကစ္ဆပေါ (ပု)",
+          "paliRoman": "Kacchapo (M)",
+          "translateMm": "လိပ်",
+          "translateEn": "Turtle",
+          "example": {
+            "paliMm": "ကစ္ဆပေါ သရောသိံ သနိကံ ဂစ္ဆတိ။",
+            "paliRoman": "Kacchapo sarasiṃ sanikaṃ gacchati.",
+            "translateMm": "လိပ်သည် ရေကန်သို့ ဖြေးဖြေး သွား၏။",
+            "translateEn": "The turtle goes slowly to the pond."
+          }
+        },
+        {
+          "paliMm": "ကက္ကဋကော (ပု)",
+          "paliRoman": "Kakkaṭako (M)",
+          "translateMm": "ဂဏန်း",
+          "translateEn": "Crab",
+          "example": {
+            "paliMm": "ကက္ကဋကော ရဟဒေ စရတိ။",
+            "paliRoman": "Kakkaṭako rahade carati.",
+            "translateMm": "ဂဏန်းသည် အိုင်၌ လှည့်လည်၏။",
+            "translateEn": "The crab walks in the pool."
+          }
+        },
+        {
+          "paliMm": "သံသုမာရော (ပု)",
+          "paliRoman": "Suṃsumāro (M)",
+          "translateMm": "ရေဝက်/လင်းပိုင်",
+          "translateEn": "Porpoise / Dolphin",
+          "example": {
+            "paliMm": "သံသုမာရော မဟာသမုဒ္ဒေ ဥပ္ပတတိ။",
+            "paliRoman": "Suṃsumāro mahāsamudde uppatati.",
+            "translateMm": "ရေဝက်/လင်းပိုင်သည် သမုဒ္ဒရာကြီး၌ ခုန်ပျံ၏။",
+            "translateEn": "The dolphin leaps in the ocean."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "ကုန်နေတိရိစ္ဆာန်များ",
+      "titleEn": "Land Animals",
+      "vocabList": [
+        {
+          "paliMm": "သီဟော (ပု)",
+          "paliRoman": "Sīho (M)",
+          "translateMm": "ခြင်္သေ့",
+          "translateEn": "Lion",
+          "example": {
+            "paliMm": "သီဟော ဝနေ နဒတိ။",
+            "paliRoman": "Sīho vane nadati.",
+            "translateMm": "ခြင်္သေ့သည် တော၌ ဟိန်းဟောက်၏။",
+            "translateEn": "The lion roars in the forest."
+          }
+        },
+        {
+          "paliMm": "ဗျဂ္ဃော (ပု)",
+          "paliRoman": "Byaggho (M)",
+          "translateMm": "ကျား",
+          "translateEn": "Tiger",
+          "example": {
+            "paliMm": "ဗျဂ္ဃော ပဗ္ဗတေ စရတိ။",
+            "paliRoman": "Byaggho pabbate carati.",
+            "translateMm": "ကျားသည် တောင်ပေါ်၌ လှည့်လည်၏။",
+            "translateEn": "The tiger roams on the mountain."
+          }
+        },
+        {
+          "paliMm": "ဟတ္ထီ / နာဂေါ (ပု)",
+          "paliRoman": "Hatthī / Nāgo (M)",
+          "translateMm": "ဆင်",
+          "translateEn": "Elephant",
+          "example": {
+            "paliMm": "ဟတ္ထီ ဝိပိနေ ပဏ္ဏာနိ ခါဒတိ။",
+            "paliRoman": "Hatthī vipine paṇṇāni khādati.",
+            "translateMm": "ဆင်သည် တောအုပ်အတွင်း၌ သစ်ရွက်များကို စား၏။",
+            "translateEn": "The elephant eats leaves in the forest."
+          }
+        },
+        {
+          "paliMm": "အဿော (ပု)",
+          "paliRoman": "Asso (M)",
+          "translateMm": "မြင်း",
+          "translateEn": "Horse",
+          "example": {
+            "paliMm": "အဿော မဂ္ဂေ သီဃံ ဓာဝတိ။",
+            "paliRoman": "Asso magge sīghaṃ dhāvati.",
+            "translateMm": "မြင်းသည် လမ်း၌ မြန်မြန် ပြေး၏။",
+            "translateEn": "The horse runs fast on the road."
+          }
+        },
+        {
+          "paliMm": "ဂေါနော / ဂါဝီ (ပု/ထီ)",
+          "paliRoman": "Gono / Gāvī (M/F)",
+          "translateMm": "နွား",
+          "translateEn": "Ox / Cow",
+          "example": {
+            "paliMm": "ဂေါနော ခေတ္တေ တိဏံ ခါဒတိ။",
+            "paliRoman": "Gono khette tiṇaṃ khādati.",
+            "translateMm": "နွားသည် လယ်ကွင်း၌ မြက်ကို စား၏။",
+            "translateEn": "The ox eats grass in the field."
+          }
+        },
+        {
+          "paliMm": "သုနခေါ (ပု)",
+          "paliRoman": "Sunakho (M)",
+          "translateMm": "ခွေး",
+          "translateEn": "Dog",
+          "example": {
+            "paliMm": "သုနခေါ ဂဟေ ဝသတိ။",
+            "paliRoman": "Sunakho gahe vasati.",
+            "translateMm": "ခွေးသည် အိမ်၌ နေ၏။",
+            "translateEn": "The dog lives at home."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "ကောင်းကင်နေတိရိစ္ဆာန်များ",
+      "titleEn": "Birds & Flying Creatures",
+      "vocabList": [
+        {
+          "paliMm": "သကုဏော (ပု)",
+          "paliRoman": "Sakuṇo (M)",
+          "translateMm": "ငှက်",
+          "translateEn": "Bird",
+          "example": {
+            "paliMm": "သကုဏော အာကသေ ဍေတိ။",
+            "paliRoman": "Sakuṇo ākase ḍeti.",
+            "translateMm": "ငှက်သည် ကောင်းကင်၌ ပျံသန်း၏။",
+            "translateEn": "The bird flies in the sky."
+          }
+        },
+        {
+          "paliMm": "ကာကော (ပု)",
+          "paliRoman": "Kāko (M)",
+          "translateMm": "ကျီးကန်း",
+          "translateEn": "Crow",
+          "example": {
+            "paliMm": "ကာကော ရုက္ခသာခါယံ နိသီဒတိ။",
+            "paliRoman": "Kāko rukkhasākhāyaṃ nisīdati.",
+            "translateMm": "ကျီးကန်းသည် သစ်ခက်၌ ထိုင်၏/နား၏။",
+            "translateEn": "The crow sits on the tree branch."
+          }
+        },
+        {
+          "paliMm": "မယူရော (ပု)",
+          "paliRoman": "Mayūro (M)",
+          "translateMm": "ဥဒေါင်း",
+          "translateEn": "Peacock",
+          "example": {
+            "paliMm": "မယူရော ပဗ္ဗတေ နစ္စတိ။",
+            "paliRoman": "Mayūro pabbate naccati.",
+            "translateMm": "ဥဒေါင်းသည် တောင်ပေါ်၌ ကခုန်၏။",
+            "translateEn": "The peacock dances on the mountain."
+          }
+        },
+        {
+          "paliMm": "ဟံသော (ပု)",
+          "paliRoman": "Haṃso (M)",
+          "translateMm": "ဟင်္သာ/ငန်း",
+          "translateEn": "Swan / Goose",
+          "example": {
+            "paliMm": "ဟံသော ပဒုမသရသိံ နဟာယတိ။",
+            "paliRoman": "Haṃso padumasarasiṃ nahāyati.",
+            "translateMm": "ဟင်္သာ/ငန်းသည် ကြာကန်၌ ရေချိုး၏။",
+            "translateEn": "The swan bathes in the lotus pond."
+          }
+        },
+        {
+          "paliMm": "မက္ခိကာ (ထီ)",
+          "paliRoman": "Makkhikā (F)",
+          "translateMm": "ယင်ကောင်",
+          "translateEn": "Fly",
+          "example": {
+            "paliMm": "မက္ခိကာ ဖလေ ဍေတိ။",
+            "paliRoman": "Makkhikā phale ḍeti.",
+            "translateMm": "ယင်ကောင်သည် သစ်သီးပေါ်၌ ပျံသန်း၏။",
+            "translateEn": "The fly flies over the fruit."
+          }
+        },
+        {
+          "paliMm": "ဘမရော (ပု)",
+          "paliRoman": "Bhamaro (M)",
+          "translateMm": "ပျား",
+          "translateEn": "Bee",
+          "example": {
+            "paliMm": "ဘမရော ပုပ္ဖေ မဓုံ သဉ္စိနာတိ။",
+            "paliRoman": "Bhamaro pupphe madhuṃ sañcināti.",
+            "translateMm": "ပျားသည် ပန်း၌ ပျားရည်ကို ဆည်းပူး၏။",
+            "translateEn": "The bee collects honey from the flower."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "အဝတ်အစားများ",
+      "titleEn": "Apparel and Accessories",
+      "vocabList": [
+        {
+          "paliMm": "ဝတ္ထံ (န)",
+          "paliRoman": "Vatthaṃ (N)",
+          "translateMm": "အဝတ်",
+          "translateEn": "Cloth / dress",
+          "example": {
+            "paliMm": "သီသေန သုဒ္ဓံ ဝတ္ထံ ဓာရီယတိ။",
+            "paliRoman": "Sissena suddhaṃ vatthaṃ dhārīyati.",
+            "translateMm": "ကျောင်းသားသည် သန့်ရှင်းသော အဝတ်ကို ဝတ်ဆင်၏။",
+            "translateEn": "The student wears clean cloth/dress."
+          }
+        },
+        {
+          "paliMm": "ကပ္ပါသိကံ (န)",
+          "paliRoman": "Kappāsikaṃ (N)",
+          "translateMm": "ဝါချည်အဝတ်",
+          "translateEn": "Calico / cloth of cotton",
+          "example": {
+            "paliMm": "အဟံ ကပ္ပါသိကံ ဝတ္ထံ ဣစ္ဆာမိ။",
+            "paliRoman": "Ahaṃ kappāsikaṃ vatthaṃ icchāmi.",
+            "translateMm": "ငါသည် ဝါချည်အဝတ်ကို လိုချင်၏။",
+            "translateEn": "I want cotton cloth."
+          }
+        },
+        {
+          "paliMm": "ကောသေယျံ (န)",
+          "paliRoman": "Koseyyaṃ (N)",
+          "translateMm": "ပိုးချည်အဝတ်",
+          "translateEn": "Silk",
+          "example": {
+            "paliMm": "ကောသေယျံ ဝတ္ထံ မဟဂ္ဃံ ဟောတိ။",
+            "paliRoman": "Koseyyaṃ vatthaṃ mahagghaṃ hoti.",
+            "translateMm": "ပိုးချည်အဝတ်သည် အဖိုးတန်/ဈေးကြီး၏။",
+            "translateEn": "Silk cloth is expensive."
+          }
+        },
+        {
+          "paliMm": "နိဝါသနံ (န)",
+          "paliRoman": "Nivāsanaṃ (N)",
+          "translateMm": "ခါးဝတ်",
+          "translateEn": "Lower garment",
+          "example": {
+            "paliMm": "သမဏော သုန္ဒရံ နိဝါသနံ နိဝါသေတိ။",
+            "paliRoman": "Samaṇo sundaraṃ nivāsanaṃ nivāseti.",
+            "translateMm": "ရဟန်းသည် လှပသော ခါးဝတ်ကို ဝတ်ရုံ၏။",
+            "translateEn": "The monk wears a proper lower garment."
+          }
+        },
+        {
+          "paliMm": "ဥတ္တရီယံ (န)",
+          "paliRoman": "Uttarīyaṃ (N)",
+          "translateMm": "အပေါ်ရုံ",
+          "translateEn": "Upper garment",
+          "example": {
+            "paliMm": "ဥပါသကော သေတံ ဥတ္တရီယံ ပါရုပတိ။",
+            "paliRoman": "Upāsako setaṃ uttarīyaṃ pārupati.",
+            "translateMm": "ဥပါသကာသည် အဖြူရောင် အပေါ်ရုံကို ခြုံရုံ၏။",
+            "translateEn": "The lay devotee wears a white upper garment."
+          }
+        },
+        {
+          "paliMm": "ကဉ္စုကော (ပု)",
+          "paliRoman": "Kañcuko (M)",
+          "translateMm": "အင်္ကျီ",
+          "translateEn": "Jacket / coat",
+          "example": {
+            "paliMm": "ပုရိသော ရတ္တံ ကဉ္စုကံ ပရိဒဟာတိ။",
+            "paliRoman": "Puriso rattaṃ kañcukaṃ paridahāti.",
+            "translateMm": "ယောက်ျားသည် အနီရောင် အင်္ကျီကို ဝတ်ဆင်၏။",
+            "translateEn": "The man wears a red jacket/coat."
+          }
+        },
+        {
+          "paliMm": "အန္တရကဉ္စုကော (ပု)",
+          "paliRoman": "Antarakañcuko (M)",
+          "translateMm": "ရှပ်အင်္ကျီ",
+          "translateEn": "Shirt",
+          "example": {
+            "paliMm": "သတ္ထာရစာရီ သုက္ကံ အန္တရကဉ္စုကံ ဓာရေတိ။",
+            "paliRoman": "Satthāracārī sukkaṃ antarakañcukaṃ dhāreti.",
+            "translateMm": "ကျောင်းသားသည် အဖြူရောင် ရှပ်အင်္ကျီကို ဝတ်ဆင်၏။",
+            "translateEn": "The student wears a white shirt."
+          }
+        },
+        {
+          "paliMm": "ကမ္ဗလံ (ပု)",
+          "paliRoman": "Kambalaṃ (M)",
+          "translateMm": "သကလတ်၊ စောင်းပါး",
+          "translateEn": "Blanket / woolen cloth",
+          "example": {
+            "paliMm": "သီတကာလေ အဟံ ကမ္ဗလံ ပါရုပါမိ။",
+            "paliRoman": "Sītakāle ahaṃ kambalaṃ pārupāmi.",
+            "translateMm": "ဆောင်းရာသီ၌ ငါသည် သကလတ်/စောင်းပါးကို ခြုံ၏။",
+            "translateEn": "In the cold season, I cover myself with a blanket."
+          }
+        },
+        {
+          "paliMm": "ဂီဝေယျံ (န)",
+          "paliRoman": "Gīveyyaṃ (N)",
+          "translateMm": "လည်ပတ်",
+          "translateEn": "Collar",
+          "example": {
+            "paliMm": "ကဉ္စုကဿ ဂီဝေယျံ သုန္ဒရံ ဟောတိ။",
+            "paliRoman": "Kañcukassa gīveyyaṃ sundaraṃ hoti.",
+            "translateMm": "အင်္ကျီ၏ လည်ပတ်သည် လှပ၏။",
+            "translateEn": "The collar of the jacket is beautiful."
+          }
+        },
+        {
+          "paliMm": "ဂဏ္ဌိ (ပု)",
+          "paliRoman": "Gaṇṭhi (M)",
+          "translateMm": "ကြယ်သီး",
+          "translateEn": "Button",
+          "example": {
+            "paliMm": "သော ကဉ္စုကေ ဂဏ္ဌိံ ဗန္ဓတိ။",
+            "paliRoman": "So kañcuke gaṇṭhiṃ bandhati.",
+            "translateMm": "သူသည် အင်္ကျီ၌ ကြယ်သီးကို တပ်၏။",
+            "translateEn": "He fastens the button on the coat."
+          }
+        },
+        {
+          "paliMm": "နာလိပဋ္ဋော (ပု)",
+          "paliRoman": "Nālipaṭṭo (M)",
+          "translateMm": "ဦးထုပ်",
+          "translateEn": "Hat / cap",
+          "example": {
+            "paliMm": "ပုရိသော သီသေ နာလိပဋ္ဋံ ဓာရေတိ။",
+            "paliRoman": "Puriso sīse nālipaṭṭaṃ dhāreti.",
+            "translateMm": "ယောက်ျားသည် ခေါင်းပေါ်၌ ဦးထုပ်ကို ဆောင်း၏။",
+            "translateEn": "The man wears a hat on his head."
+          }
+        },
+        {
+          "paliMm": "သီသဝေဌနံ (န)",
+          "paliRoman": "Sīsaveṭhanaṃ (N)",
+          "translateMm": "ဦးရစ်ခေါင်းပေါင်း",
+          "translateEn": "Turban",
+          "example": {
+            "paliMm": "ရာဇာ သုဝဏ္ဏမယံ သီသဝေဌနံ ဗန္ဓတိ။",
+            "paliRoman": "Rājā suvaṇṇamayaṃ sīsaveṭhanaṃ bandhati.",
+            "translateMm": "မင်းသည် ရွှေဖြင့်ပြီးသော ဦးရစ်ခေါင်းပေါင်းကို ပေါင်း၏။",
+            "translateEn": "The king binds a golden turban on his head."
+          }
+        },
+        {
+          "paliMm": "ကိရီဋံ (န)",
+          "paliRoman": "Kirīṭaṃ (N)",
+          "translateMm": "သရဖူ",
+          "translateEn": "Crown / diadem",
+          "example": {
+            "paliMm": "ရာဇာ မုဒ္ဓနိ ကိရီဋံ ဓာရေတိ။",
+            "paliRoman": "Rājā muddhani kirīṭaṃ dhāreti.",
+            "translateMm": "မင်းသည် ဦးခေါင်းထက်၌ သရဖူကို ဆောင်း၏။",
+            "translateEn": "The king wears a crown on his head."
+          }
+        },
+        {
+          "paliMm": "ဥဏှီသံ (န)",
+          "paliRoman": "Uṇhīsaṃ (N)",
+          "translateMm": "သင်းကျစ်",
+          "translateEn": "Frontlet",
+          "example": {
+            "paliMm": "ရာဇဒေဝီ သုဝဏ္ဏမယံ ဥဏှီသံ ဓာရေတိ။",
+            "paliRoman": "Rājadevī suvaṇṇamayaṃ uṇhīsaṃ dhāreti.",
+            "translateMm": "မိဖုရားကြီးသည် ရွှေဖြင့်ပြီးသော သင်းကျစ်ကို ဆင်မြန်း၏။",
+            "translateEn": "The queen wears a golden frontlet."
+          }
+        },
+        {
+          "paliMm": "ကုဏ္ဍလံ (န)",
+          "paliRoman": "Kuṇḍalaṃ (N)",
+          "translateMm": "နားတောင်း၊ နားဆွဲ",
+          "translateEn": "Earring",
+          "example": {
+            "paliMm": "ကညာ ကဏ္ဏေသု ကုဏ္ဍလာနိ ဓာရေတိ။",
+            "paliRoman": "Kaññā kaṇṇesu kuṇḍalāni dhāreti.",
+            "translateMm": "အမျိုးသမီးငယ်သည် နားနှစ်ဖက်တို့၌ နားတောင်း/နားဆွဲများကို ဆင်မြန်း၏။",
+            "translateEn": "The maiden wears earrings in her ears."
+          }
+        },
+        {
+          "paliMm": "ဝလယော (ပု)",
+          "paliRoman": "Valayo (M)",
+          "translateMm": "လက်ကောက်",
+          "translateEn": "Bracelet",
+          "example": {
+            "paliMm": "နာရီ ဟတ္ထေ ဝလယံ ဓာရေတိ။",
+            "paliRoman": "Nārī hatte valayaṃ dhāreti.",
+            "translateMm": "အမျိုးသမီးသည် လက်၌ လက်ကောက်ကို ဆင်မြန်း၏။",
+            "translateEn": "The woman wears a bracelet on her hand."
+          }
+        },
+        {
+          "paliMm": "ကဏ္ဌာဘူသနံ (န)",
+          "paliRoman": "Kaṇṭhābhūsanaṃ (N)",
+          "translateMm": "လည်ဆွဲတန်ဆာ",
+          "translateEn": "Necklace",
+          "example": {
+            "paliMm": "ဒေဝီ ဂီဝါယံ ကဏ္ဌာဘူသနံ ဓာရေတိ။",
+            "paliRoman": "Devī gīvāyaṃ kaṇṭhābhūsanaṃ dhāreti.",
+            "translateMm": "မိဖုရားသည် လည်ပင်း၌ လည်ဆွဲတန်ဆာကို ဆင်မြန်း၏။",
+            "translateEn": "The queen wears a necklace on her neck."
+          }
+        },
+        {
+          "paliMm": "ဟာရော / မုတ္တာဝလိ (ပု/ထီ)",
+          "paliRoman": "Hāro / Muttāvali (M/F)",
+          "translateMm": "ပုလဲသွယ်",
+          "translateEn": "Pearl necklace",
+          "example": {
+            "paliMm": "သာ မုတ္တာဝလိံ ကဏ္ဌေ ဓာရေတိ။",
+            "paliRoman": "Sā muttāvaliṃ kaṇṭhe dhāreti.",
+            "translateMm": "သူမသည် လည်ပင်း၌ ပုလဲသွယ်ကို ဆင်မြန်း၏။",
+            "translateEn": "She wears a pearl necklace around her neck."
+          }
+        },
+        {
+          "paliMm": "အင်္ဂုလိယကံ / မုဒ္ဒိကာ (န/ထီ)",
+          "paliRoman": "Aṅguliyakaṃ / Muddikā (N/F)",
+          "translateMm": "လက်စွပ်၊ တံဆိပ်လက်စွပ်",
+          "translateEn": "Finger ring / signet ring",
+          "example": {
+            "paliMm": "ရာဇာ အင်္ဂုလိယာ သုဝဏ္ဏမယံ မုဒ္ဒိကံ ဓာရေတိ။",
+            "paliRoman": "Rājā aṅguliyā suvaṇṇamayaṃ muddikaṃ dhāreti.",
+            "translateMm": "မင်းသည် လက်ချောင်း၌ ရွှေဖြင့်ပြီးသော လက်စွပ်/တံဆိပ်လက်စွပ်ကို ဝတ်ဆင်၏။",
+            "translateEn": "The king wears a golden signet ring on his finger."
+          }
+        },
+        {
+          "paliMm": "ကာယဗန္ဓနံ (န)",
+          "paliRoman": "Kāyabandhanaṃ (N)",
+          "translateMm": "ခါးပတ်",
+          "translateEn": "Belt / waist band",
+          "example": {
+            "paliMm": "သမဏော ကာယဗန္ဓနံ ဗန္ဓတိ။",
+            "paliRoman": "Samaṇo kāyabandhanaṃ bandhati.",
+            "translateMm": "ရဟန်းသည် ခါးပတ်ကို ဖွဲ့ချည်၏။",
+            "translateEn": "The monk ties a waist band."
+          }
+        },
+        {
+          "paliMm": "မေခလာ (ထီ)",
+          "paliRoman": "Mekhalā (F)",
+          "translateMm": "မိန်းမတို့ ခါးကြိုးတန်ဆာ",
+          "translateEn": "A woman's girdle",
+          "example": {
+            "paliMm": "ကညာ ကဋိယံ မေခလံ ဓာရေတိ။",
+            "paliRoman": "Kaññā kaṭiyaṃ mekhalaṃ dhāreti.",
+            "translateMm": "အမျိုးသမီးငယ်သည် ခါး၌ ခါးကြိုးတန်ဆာကို ဆင်မြန်း၏။",
+            "translateEn": "The maiden wears a girdle around her waist."
+          }
+        },
+        {
+          "paliMm": "ပါဒဒံ (န)",
+          "paliRoman": "Pādadaṃ (N)",
+          "translateMm": "ခြေကျင်း",
+          "translateEn": "Anklet",
+          "example": {
+            "paliMm": "ဒေဝီ ပါဒေသု ပါဒဒံ ဓာရေတိ။",
+            "paliRoman": "Devī pādesu pādadaṃ dhāreti.",
+            "translateMm": "မိဖုရားသည် ခြေထောက်တို့၌ ခြေကျင်းကို ဆင်မြန်း၏။",
+            "translateEn": "The queen wears anklets on her feet."
+          }
+        },
+        {
+          "paliMm": "ဥပါဟနော (ပု)",
+          "paliRoman": "Upāhano (M)",
+          "translateMm": "ဖိနပ်",
+          "translateEn": "Sandal / shoe",
+          "example": {
+            "paliMm": "ပုရိသော ပါဒေဟိ ဥပါဟနံ ပဋိမုဉ္စတိ။",
+            "paliRoman": "Puriso pādehi upāhanaṃ paṭimuñcati.",
+            "translateMm": "ယောက်ျားသည် ခြေတို့၌ ဖိနပ်ကို စီး၏။",
+            "translateEn": "The man wears shoes on his feet."
+          }
+        },
+        {
+          "paliMm": "ပါဒုကာ (ထီ)",
+          "paliRoman": "Pādukā (F)",
+          "translateMm": "ခြေနင်း",
+          "translateEn": "Slipper",
+          "example": {
+            "paliMm": "သော ဂဟေ ပါဒုကံ အာရောဟတိ။",
+            "paliRoman": "So gahe pādukaṃ ārohati.",
+            "translateMm": "သူသည် အိမ်၌ ခြေနင်း/ခုံဖိနပ်ကို စီး၏။",
+            "translateEn": "He wears slippers inside the house."
+          }
+        },
+        {
+          "paliMm": "ဆတ္တံ (န)",
+          "paliRoman": "Chattaṃ (N)",
+          "translateMm": "ထီး",
+          "translateEn": "Umbrella",
+          "example": {
+            "paliMm": "ဥပါသကော အာတပေ ဆတ္တံ ဓာရေတိ။",
+            "paliRoman": "Upāsako ātape chattaṃ dhāreti.",
+            "translateMm": "ဥပါသကာသည် နေပူထဲ၌ ထီးကို ဆောင်း၏။",
+            "translateEn": "The devotee holds an umbrella in the sun."
+          }
+        },
+        {
+          "paliMm": "ဟတ္ထပုဉ္ဆနံ (န)",
+          "paliRoman": "Hatthapuñchanaṃ (N)",
+          "translateMm": "လက်ကိုင်ပဝါ၊ လက်သုတ်ပဝါ",
+          "translateEn": "Handkerchief",
+          "example": {
+            "paliMm": "သော ဟတ္ထပုဉ္ဆနေန ဟတ္ထေ ပုဉ္ဆတိ။",
+            "paliRoman": "So hatthapuñchanena hatthe puñchati.",
+            "translateMm": "သူသည် လက်သုတ်ပဝါဖြင့် လက်များကို သုတ်၏။",
+            "translateEn": "He wipes his hands with a handkerchief."
+          }
+        },
+        {
+          "paliMm": "မုခပုဉ္ဆနံ (န)",
+          "paliRoman": "Mukhapuñchanaṃ (N)",
+          "translateMm": "မျက်နှာသုတ်ပဝါ",
+          "translateEn": "Towel",
+          "example": {
+            "paliMm": "သိဿော မုခပုဉ္ဆနေန မုခံ ပုဉ္ဆတိ။",
+            "paliRoman": "Sisso mukhapuñchanena mukhaṃ puñchati.",
+            "translateMm": "ကျောင်းသားသည် မျက်နှာသုတ်ပဝါဖြင့် မျက်နှာကို သုတ်၏။",
+            "translateEn": "The student wipes his face with a towel."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "အစားအသောက်များ",
+      "titleEn": "Food and Drinks",
+      "vocabList": [
+        {
+          "paliMm": "တဏ္ဍုလ (ပု)",
+          "paliRoman": "Taṇḍula (M)",
+          "translateMm": "ဆန်",
+          "translateEn": "Rice",
+          "example": {
+            "paliMm": "သော တဏ္ဍုလံ ကိဏာတိ။",
+            "paliRoman": "So taṇḍulaṃ kiṇāti.",
+            "translateMm": "သူ ဆန်ဝယ်နေတယ်။",
+            "translateEn": "He buys rice."
+          }
+        },
+        {
+          "paliMm": "သြဒန (ပု)",
+          "paliRoman": "Odana (M)",
+          "translateMm": "ထမင်း",
+          "translateEn": "Cooked rice",
+          "example": {
+            "paliMm": "သာ သြဒနံ ပစတိ။",
+            "paliRoman": "Sā odanaṃ pacati.",
+            "translateMm": "သူငယ်မလေးက ထမင်းချက်နေတယ်။",
+            "translateEn": "She is cooking rice."
+          }
+        },
+        {
+          "paliMm": "သူပ (ပု)",
+          "paliRoman": "Sūpa (M)",
+          "translateMm": "ဟင်း",
+          "translateEn": "Curry",
+          "example": {
+            "paliMm": "ဣဒံ သောနိတံ သူပံ သာဒု ဟောတိ။",
+            "paliRoman": "Idaṃ sonitaṃ sūpaṃ sādu hoti.",
+            "translateMm": "ဒီချက်ထားတဲ့ဟင်းက အရသာရှိတယ်။",
+            "translateEn": "This cooked curry is delicious."
+          }
+        },
+        {
+          "paliMm": "ဘတ္တ (န)",
+          "paliRoman": "Bhatta (N)",
+          "translateMm": "အစာ၊ တနပ်စာ",
+          "translateEn": "Meal",
+          "example": {
+            "paliMm": "သော ဘတ္တံ ဘုဉ္ဇတိ။",
+            "paliRoman": "So bhattaṃ bhuñjati.",
+            "translateMm": "သူ အစာ/ထမင်း စားနေတယ်။",
+            "translateEn": "He is eating a meal."
+          }
+        },
+        {
+          "paliMm": "ပါတရာသ (ပု)",
+          "paliRoman": "Pātarāsa (M)",
+          "translateMm": "နံနက်စာ",
+          "translateEn": "Breakfast",
+          "example": {
+            "paliMm": "အမှံ ပါတရာသံ သဇ္ဇိတံ ဟောတိ။",
+            "paliRoman": "Amhaṃ pātarāsaṃ saajjitaṃ hoti.",
+            "translateMm": "ငါတို့ရဲ့ နံနက်စာ ပြင်ဆင်ပြီးပါပြီ။",
+            "translateEn": "Our breakfast is prepared."
+          }
+        },
+        {
+          "paliMm": "ရတ္တိဘောဇန (န)",
+          "paliRoman": "Rattibhojana (N)",
+          "translateMm": "ညစာ",
+          "translateEn": "Dinner",
+          "example": {
+            "paliMm": "သော ရတ္တိဘောဇနံ ဘုဉ္ဇတိ။",
+            "paliRoman": "So rattibhojanaṃ bhuñjati.",
+            "translateMm": "သူ ညစာ စားနေတယ်။",
+            "translateEn": "He is eating dinner."
+          }
+        },
+        {
+          "paliMm": "ယာဂု (ထီ)",
+          "paliRoman": "Yāgu (F)",
+          "translateMm": "ရက်မုန့်",
+          "translateEn": "Gruel",
+          "example": {
+            "paliMm": "သာ ယာဂုံ ပိဝတိ။",
+            "paliRoman": "Sā yāguṃ pivati.",
+            "translateMm": "သူငယ်မလေးက ဆန်ပြုတ်/ရက်မုန့် သောက်နေတယ်။",
+            "translateEn": "She drinks gruel."
+          }
+        },
+        {
+          "paliMm": "ဥဒက (န)",
+          "paliRoman": "Udaka (N)",
+          "translateMm": "ရေ",
+          "translateEn": "Water",
+          "example": {
+            "paliMm": "မယှံ ဥဒကံ ဒေဟိ။",
+            "paliRoman": "Mayhaṃ udakaṃ dehi.",
+            "translateMm": "ငါ့ကို ရေပေးပါ။",
+            "translateEn": "Give me water."
+          }
+        },
+        {
+          "paliMm": "မစ္ဆ (ပု)",
+          "paliRoman": "Maccha (M)",
+          "translateMm": "ငါး",
+          "translateEn": "Fish",
+          "example": {
+            "paliMm": "မစ္ဆော ဇလေ သန္တရတိ။",
+            "paliRoman": "Maccho jale santarati.",
+            "translateMm": "ငါးက ရေထဲမှာ ကူးခတ်နေတယ်။",
+            "translateEn": "The fish swims in the water."
+          }
+        },
+        {
+          "paliMm": "သုက္ခမစ္ဆ (ပု)",
+          "paliRoman": "Sukkhamaccha (M)",
+          "translateMm": "ငါးခြောက်",
+          "translateEn": "Dried fish",
+          "example": {
+            "paliMm": "သော သုက္ခမစ္ဆံ ဘုဉ္ဇတိ။",
+            "paliRoman": "So sukkhamacchaṃ bhuñjati.",
+            "translateMm": "သူ ငါးခြောက် စားနေတယ်။",
+            "translateEn": "He eats dried fish."
+          }
+        },
+        {
+          "paliMm": "မံသ (န)",
+          "paliRoman": "Maṃsa (N)",
+          "translateMm": "အသား",
+          "translateEn": "Meat",
+          "example": {
+            "paliMm": "သော မံသံ ကိဏာတိ။",
+            "paliRoman": "So maṃsaṃ kiṇāti.",
+            "translateMm": "သူ အသား ဝယ်နေတယ်။",
+            "translateEn": "He buys meat."
+          }
+        },
+        {
+          "paliMm": "သုကရမံသ (န)",
+          "paliRoman": "Sukaramaṃsa (N)",
+          "translateMm": "ဝက်သား",
+          "translateEn": "Pork",
+          "example": {
+            "paliMm": "သာ သုကရမံသံ ပစတိ။",
+            "paliRoman": "Sā sukaramaṃsaṃ pacati.",
+            "translateMm": "သူ ဝက်သား ချက်နေတယ်။",
+            "translateEn": "She cooks pork."
+          }
+        },
+        {
+          "paliMm": "ကုက္ကုဋမံသ (န)",
+          "paliRoman": "Kukkuṭamaṃsa (N)",
+          "translateMm": "ကြက်သား",
+          "translateEn": "Fowl, Chicken",
+          "example": {
+            "paliMm": "ဣဒံ ကုက္ကုဋမံသံ သာဒု ဟောတိ။",
+            "paliRoman": "Idaṃ kukkuṭamaṃsaṃ sādu hoti.",
+            "translateMm": "ဒီကြက်သားဟင်းက အရသာရှိတယ်။",
+            "translateEn": "This chicken is delicious."
+          }
+        },
+        {
+          "paliMm": "လောဏ (န)",
+          "paliRoman": "Loṇa (N)",
+          "translateMm": "ဆား",
+          "translateEn": "Salt",
+          "example": {
+            "paliMm": "သော လောဏံ အာနယတိ။",
+            "paliRoman": "So loṇaṃ ānayati.",
+            "translateMm": "သူ ဆား ယူလာတယ်။",
+            "translateEn": "He brings salt."
+          }
+        },
+        {
+          "paliMm": "မရိစ (န)",
+          "paliRoman": "Marica (N)",
+          "translateMm": "ငရုတ်သီး",
+          "translateEn": "Capsicum, Chilli, Pepper",
+          "example": {
+            "paliMm": "မရိစံ တိက္ခံ ဟောတိ။",
+            "paliRoman": "Maricaṃ tikkhaṃ hoti.",
+            "translateMm": "ငရုတ်သီးက စပ်ပါတယ်။",
+            "translateEn": "Chilli is spicy."
+          }
+        },
+        {
+          "paliMm": "သက္ခရာ (ထီ)",
+          "paliRoman": "Sakkharā (F)",
+          "translateMm": "သကြား",
+          "translateEn": "Sugar",
+          "example": {
+            "paliMm": "သာ သက္ခရံ ခါဒတိ။",
+            "paliRoman": "Sā sakkharaṃ khādati.",
+            "translateMm": "သူငယ်မလေးက သကြား စားနေတယ်။",
+            "translateEn": "She eats sugar."
+          }
+        },
+        {
+          "paliMm": "မဓု (န)",
+          "paliRoman": "Madhu (N)",
+          "translateMm": "ပျားရည်",
+          "translateEn": "Honey",
+          "example": {
+            "paliMm": "ဣဒံ မဓု မဓုရံ ဟောတိ။",
+            "paliRoman": "Idaṃ madhu maduraṃ hoti.",
+            "translateMm": "ဒီပျားရည်က ချိုမြတ်တယ်။",
+            "translateEn": "This honey is sweet."
+          }
+        },
+        {
+          "paliMm": "ခီရ (န)",
+          "paliRoman": "Khīra (N)",
+          "translateMm": "နို့ရည်",
+          "translateEn": "Milk",
+          "example": {
+            "paliMm": "ဒါရကော ခီရံ ပိဝတိ။",
+            "paliRoman": "Dārako khīraṃ pivati.",
+            "translateMm": "ကလေးလေးက နို့သောက်နေတယ်။",
+            "translateEn": "The child drinks milk."
+          }
+        },
+        {
+          "paliMm": "တေလ (န)",
+          "paliRoman": "Tela (N)",
+          "translateMm": "ဆီ၊ နှမ်းဆီ",
+          "translateEn": "Oil",
+          "example": {
+            "paliMm": "သော တေလံ အာနယတိ။",
+            "paliRoman": "So telaṃ ānayati.",
+            "translateMm": "သူ ဆီ ယူလာခဲ့တယ်။",
+            "translateEn": "He brings oil."
+          }
+        },
+        {
+          "paliMm": "တိလ (ပု)",
+          "paliRoman": "Tila (M)",
+          "translateMm": "နှမ်း",
+          "translateEn": "Sesame",
+          "example": {
+            "paliMm": "သော တိလံ ဝပတိ။",
+            "paliRoman": "So tilaṃ vapati.",
+            "translateMm": "သူ နှမ်း စိုက်ပျိုးနေတယ်။",
+            "translateEn": "He sows sesame."
+          }
+        },
+        {
+          "paliMm": "မဓုကရသ (ပု)",
+          "paliRoman": "Madhukarasa (M)",
+          "translateMm": "ပျားရည်",
+          "translateEn": "Honey",
+          "example": {
+            "paliMm": "သော မဓုကရသံ ဘောဇနေ အာသိဉ္စတိ။",
+            "paliRoman": "So madhukarasaṃ bhojane āsiñcati.",
+            "translateMm": "သူ အစားအစာထဲမှာ ပျားရည် ဆမ်းလိုက်တယ်။",
+            "translateEn": "He pours honey on the food."
+          }
+        },
+        {
+          "paliMm": "ကာလိက / စောလင်္ဂ (န)",
+          "paliRoman": "Kālika / Colaṅga (N)",
+          "translateMm": "မုန်လာဥ၊ သစ်ဥသစ်ဖု",
+          "translateEn": "Yam, Radish",
+          "example": {
+            "paliMm": "သော ကာလိကံ ခနိတွာ အာနယတိ။",
+            "paliRoman": "So kālikaṃ khanitvā ānayati.",
+            "translateMm": "သူ တူးဖော်ပြီး သစ်ဥ/မုန်လာဥကို ယူလာတယ်။",
+            "translateEn": "He digs up and brings the yam/radish."
+          }
+        },
+        {
+          "paliMm": "မုဂ္ဂ (ပု)",
+          "paliRoman": "Mugga (M)",
+          "translateMm": "ပဲနောက်",
+          "translateEn": "Green pea, Mung bean",
+          "example": {
+            "paliMm": "သာ မုဂ္ဂံ ပစိတွာ ဘုဉ္ဇတိ။",
+            "paliRoman": "Sā muggaṃ pacitvā bhuñjati.",
+            "translateMm": "သူငယ်မလေးက ပဲနောက်ကို ချက်ပြုတ်ပြီး စားတယ်။",
+            "translateEn": "She cooks and eats green peas."
+          }
+        },
+        {
+          "paliMm": "မာသ (ပု)",
+          "paliRoman": "Māsa (M)",
+          "translateMm": "မတ်ပဲ",
+          "translateEn": "Bean, Black gram",
+          "example": {
+            "paliMm": "သော မာသံ ခေတ္တေ ဝပတိ။",
+            "paliRoman": "So māsaṃ khette vapati.",
+            "translateMm": "သူ လယ်ကွင်းထဲမှာ မတ်ပဲ စိုက်ပျိုးတယ်။",
+            "translateEn": "He sows beans in the field."
+          }
+        },
+        {
+          "paliMm": "ကလာယ (ပု)",
+          "paliRoman": "Kalāya (M)",
+          "translateMm": "ကုလားပဲ",
+          "translateEn": "Gram, Pea",
+          "example": {
+            "paliMm": "သော ကလာယံ ဘုဉ္ဇိတုံ ရုစိယတိ။",
+            "paliRoman": "So kalāyaṃ bhuñjituṃ ruciyasi.",
+            "translateMm": "သူ ကုလားပဲ စားရတာကို ကြိုက်တယ်။",
+            "translateEn": "He likes to eat gram/peas."
+          }
+        },
+        {
+          "paliMm": "သက္ခရာ / ဖာဏိတ (ထီ/န)",
+          "paliRoman": "Sakkharā / Phāṇita (F/N)",
+          "translateMm": "တင်လဲရည်၊ ထန်းလျက်",
+          "translateEn": "Treacle, Jaggery",
+          "example": {
+            "paliMm": "သော ဖာဏိတံ ယာဂုယာ မေလေတိ။",
+            "paliRoman": "So phāṇitaṃ yāguyā meleti.",
+            "translateMm": "သူ တင်လဲရည်ကို ဆန်ပြုတ်ထဲ ရောထည့်လိုက်တယ်။",
+            "translateEn": "He mixes treacle into the gruel."
+          }
+        },
+        {
+          "paliMm": "သုရာ (ထီ)",
+          "paliRoman": "Surā (F)",
+          "translateMm": "သေရည်သေရက်",
+          "translateEn": "Liquor, Alcohol",
+          "example": {
+            "paliMm": "ပဏ္ဍိတော သုရံ န ပိဝတိ။",
+            "paliRoman": "Paṇḍito suraṃ na pivati.",
+            "translateMm": "ပညာရှိသူက သေရည်သေရက်ကို မသောက်ပါဘူး။",
+            "translateEn": "The wise person does not drink liquor."
+          }
+        },
+        {
+          "paliMm": "ထိနဇလ / အမ္ဗိလ (န)",
+          "paliRoman": "Thinajala / Ambila (N)",
+          "translateMm": "ပုံးရည်၊ ဖန်ရည်",
+          "translateEn": "Vinegar, Acid",
+          "example": {
+            "paliMm": "သာ အမ္ဗိလံ သူပေ အာသိဉ္စတိ။",
+            "paliRoman": "Sā ambilaṃ sūpe āsiñcati.",
+            "translateMm": "သူငယ်မလေးက ဟင်းထဲကို ပုံးရည်/အချဉ် ထည့်လိုက်တယ်။",
+            "translateEn": "She pours vinegar into the curry."
+          }
+        },
+        {
+          "paliMm": "ပူဝ (ပု)",
+          "paliRoman": "Pūva (M)",
+          "translateMm": "မုန့်",
+          "translateEn": "Cake, Sweetmeat",
+          "example": {
+            "paliMm": "ဒါရကော ပူဝံ ခါဒတိ။",
+            "paliRoman": "Dārako pūvaṃ khādati.",
+            "translateMm": "ကလေးလေးက မုန့် စားနေတယ်။",
+            "translateEn": "The child is eating cake/sweetmeat."
+          }
+        },
+        {
+          "paliMm": "လာဇ (ပု)",
+          "paliRoman": "Lāja (M)",
+          "translateMm": "ပေါက်ပေါက်",
+          "translateEn": "Parched grain",
+          "example": {
+            "paliMm": "သော လာဇံ ပုပ္ဖေဟိ သဒ္ဓိံ ပူဇေတိ။",
+            "paliRoman": "So lājaṃ pupphehi saddhiṃ pūjeti.",
+            "translateMm": "သူ ပေါက်ပေါက်တွေကို ပန်းတွေနဲ့အတူ လှူဒါန်းပူဇော်တယ်။",
+            "translateEn": "He offers parched grain along with flowers."
+          }
+        },
+        {
+          "paliMm": "သတ္တု (န)",
+          "paliRoman": "Sattu (N)",
+          "translateMm": "အမှုန့်၊ ပဲနုချော",
+          "translateEn": "Parched flour",
+          "example": {
+            "paliMm": "သော သတ္တုံ ဥဒကေန မေလေတွာ ပိဝတိ။",
+            "paliRoman": "So meletvā pivati.",
+            "translateMm": "သူ ပဲမှုန့်/အမှုန့်ကို ရေနဲ့ဖျော်ပြီး သောက်တယ်။",
+            "translateEn": "He mixes parched flour with water and drinks it."
+          }
+        },
+        {
+          "paliMm": "ဒဓိ (န)",
+          "paliRoman": "Dadhi (N)",
+          "translateMm": "ဒိန်ချဉ်",
+          "translateEn": "Curd",
+          "example": {
+            "paliMm": "သော ဒဓိံ မဓုနာ သဒ္ဓိံ ဘုဉ္ဇတိ။",
+            "paliRoman": "So dadhiṃ madhunā saddhiṃ bhuñjati.",
+            "translateMm": "သူ ဒိန်ချဉ်ကို ပျားရည်နဲ့ တွဲစားတယ်။",
+            "translateEn": "He eats curd with honey."
+          }
+        },
+        {
+          "paliMm": "သပ္ပိ (န)",
+          "paliRoman": "Sappi (N)",
+          "translateMm": "ထောပတ်",
+          "translateEn": "Clarified butter, Ghee",
+          "example": {
+            "paliMm": "သာ သပ္ပိံ ဘောဇနေ အာသိဉ္စတိ။",
+            "paliRoman": "Sā sappiṃ bhojane āsiñcati.",
+            "translateMm": "သူငယ်မလေးက အစားအစာထဲ ထောပတ် ထည့်လိုက်တယ်။",
+            "translateEn": "She adds clarified butter to the food."
+          }
+        },
+        {
+          "paliMm": "တက္က (န)",
+          "paliRoman": "Takka (N)",
+          "translateMm": "ရက်တက်ရည်",
+          "translateEn": "Buttermilk",
+          "example": {
+            "paliMm": "သော တက္ကံ ပိဝိတွာ တုဿတိ။",
+            "paliRoman": "So takkaṃ pivitvā tussati.",
+            "translateMm": "သူ ရက်တက်ရည် သောက်ပြီး ကျေနပ်သွားတယ်။",
+            "translateEn": "He drinks buttermilk and feels refreshed."
+          }
+        },
+        {
+          "paliMm": "နဝနီတ (န)",
+          "paliRoman": "Navanīta (N)",
+          "translateMm": "ဆီဦး",
+          "translateEn": "Fresh butter",
+          "example": {
+            "paliMm": "သာ နဝနီတံ ပတ္တေ ဌပေတိ။",
+            "paliRoman": "Sā navanītaṃ patte ṭhapeti.",
+            "translateMm": "သူငယ်မလေးက ခွက်ထဲမှာ ဆီဦးကို ထည့်ထားတယ်။",
+            "translateEn": "She puts fresh butter in the bowl."
+          }
+        },
+        {
+          "paliMm": "သာက (န)",
+          "paliRoman": "Sāka (N)",
+          "translateMm": "ဟင်းရွက်",
+          "translateEn": "Pot-herb, Leafy vegetable",
+          "example": {
+            "paliMm": "သာ သာကံ အာနယတိ။",
+            "paliRoman": "Sā sākaṃ ānayati.",
+            "translateMm": "သူငယ်မလေးက ဟင်းရွက်တွေကို ယူလာတယ်။",
+            "translateEn": "She brings leafy vegetables."
+          }
+        },
+        {
+          "paliMm": "သူပေယျပဏ္ဏဖလ (န)",
+          "paliRoman": "Sūpeyyapaṇṇaphala (N)",
+          "translateMm": "ဟင်းသီးဟင်းရွက်",
+          "translateEn": "Vegetables",
+          "example": {
+            "paliMm": "သော သူပေယျပဏ္ဏဖလံ ကိဏာတိ။",
+            "paliRoman": "So sūpeyyapaṇṇaphalaṃ kiṇāti.",
+            "translateMm": "သူ ဟင်းသီးဟင်းရွက်တွေကို ဝယ်ယူနေတယ်။",
+            "translateEn": "He is buying vegetables."
+          }
+        },
+        {
+          "paliMm": "ကောလက (ပု)",
+          "paliRoman": "Kolaka (M)",
+          "translateMm": "ငရုတ်ကောင်း",
+          "translateEn": "Pepper",
+          "example": {
+            "paliMm": "သာ ကောလကံ သူပေ အာသိဉ္စတိ။",
+            "paliRoman": "Sā kolakaṃ sūpe āsiñcati.",
+            "translateMm": "သူငယ်မလေးက ဟင်းထဲကို ငရုတ်ကောင်း ထည့်လိုက်တယ်။",
+            "translateEn": "She adds pepper to the curry."
+          }
+        },
+        {
+          "paliMm": "ပလဏ္ဍု (ပု)",
+          "paliRoman": "Palaṇḍu (M)",
+          "translateMm": "ကြက်သွန်နီ",
+          "translateEn": "Onion",
+          "example": {
+            "paliMm": "သော ပလဏ္ဍုံ ကန္တတိ။",
+            "paliRoman": "So palaṇḍuṃ kantati.",
+            "translateMm": "သူ ကြက်သွန်နီကို လှီးဖြတ်နေတယ်။",
+            "translateEn": "He is cutting onions."
+          }
+        },
+        {
+          "paliMm": "လသုဏ (န)",
+          "paliRoman": "Lasuṇa (N)",
+          "translateMm": "ကြက်သွန်ဖြူ",
+          "translateEn": "Garlic",
+          "example": {
+            "paliMm": "သာ လသုဏံ ပိသိတွာ သူပေ ဌပေတိ။",
+            "paliRoman": "Sā lasuṇaṃ pisitvā sūpe ṭhapeti.",
+            "translateMm": "သူငယ်မလေးက ကြက်သွန်ဖြူကို ထောင်းပြီး ဟင်းထဲ ထည့်လိုက်တယ်။",
+            "translateEn": "She crushes garlic and adds it to the curry."
+          }
+        },
+        {
+          "paliMm": "ဟလိဒ္ဒိ (ထီ)",
+          "paliRoman": "Haliddi (F)",
+          "translateMm": "နနွင်း",
+          "translateEn": "Turmeric",
+          "example": {
+            "paliMm": "သော ဟလိဒ္ဒိံ မံသေ မေလေတိ။",
+            "paliRoman": "So haliddiṃ maṃse meleti.",
+            "translateMm": "သူ အသားထဲကို နနွင်း ရောနယ်လိုက်တယ်။",
+            "translateEn": "He mixes turmeric with the meat."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "သစ်သီးများ",
+      "titleEn": "Fruits",
+      "vocabList": [
+        {
+          "paliMm": "အမ္ဗ (ပု/န)",
+          "paliRoman": "Amba (M/N)",
+          "translateMm": "သရက်သီး",
+          "translateEn": "Mango",
+          "example": {
+            "paliMm": "သော မဓုရံ အမ္ဗံ ခါဒတိ။",
+            "paliRoman": "So madhuraṃ ambaṃ khādati.",
+            "translateMm": "သူ ချိုမြတ်တဲ့ သရက်သီးကို စားနေတယ်။",
+            "translateEn": "He eats a sweet mango."
+          }
+        },
+        {
+          "paliMm": "ကဒလိ (ထီ)",
+          "paliRoman": "Kadali (F)",
+          "translateMm": "ငှက်ပျောသီး",
+          "translateEn": "Banana",
+          "example": {
+            "paliMm": "သာ ကဒလိံ အာပဏတော ကိဏာတိ။",
+            "paliRoman": "Sā kadaliṃ āpaṇato kiṇāti.",
+            "translateMm": "သူငယ်မလေးက ဈေးကနေ ငှက်ပျောသီး ဝယ်လာတယ်။",
+            "translateEn": "She buys a banana from the market."
+          }
+        },
+        {
+          "paliMm": "ပနသ (ပု/န)",
+          "paliRoman": "Panasa (M/N)",
+          "translateMm": "ပိန္နဲသီး",
+          "translateEn": "Jackfruit",
+          "example": {
+            "paliMm": "သော မဟန္တံ ပနသံ ပဿတိ။",
+            "paliRoman": "So mahantaṃ panasaṃ passati.",
+            "translateMm": "သူ ပိန္နဲသီး အကြီးကြီးကို လှမ်းကြည့်နေတယ်။",
+            "translateEn": "He looks at a large jackfruit."
+          }
+        },
+        {
+          "paliMm": "နာဠိကေရ (ပု/န)",
+          "paliRoman": "Nāḷikera (M/N)",
+          "translateMm": "အုန်းသီး",
+          "translateEn": "Coconut",
+          "example": {
+            "paliMm": "သော နာဠိကေရဇလံ ပိဝတိ။",
+            "paliRoman": "So nāḷikerajalaṃ pivati.",
+            "translateMm": "သူ အုန်းရေ သောက်နေတယ်။",
+            "translateEn": "He drinks coconut water."
+          }
+        },
+        {
+          "paliMm": "ဇမ္ဗူ (ထီ)",
+          "paliRoman": "Jambū (F)",
+          "translateMm": "သပြေသီး",
+          "translateEn": "Rose-apple, Jamun",
+          "example": {
+            "paliMm": "ဒါရကာ ဇမ္ဗုံ ခါဒန္တိ။",
+            "paliRoman": "Dārakā jambūṃ khādanti.",
+            "translateMm": "ကလေးတွေ သပြေသီး စားနေကြတယ်။",
+            "translateEn": "Children are eating rose-apples."
+          }
+        },
+        {
+          "paliMm": "ဗဒရ (န)",
+          "paliRoman": "Badara (N)",
+          "translateMm": "ဇီးသီး",
+          "translateEn": "Jujube, Plum",
+          "example": {
+            "paliMm": "သာ အမ္ဗိလံ ဗဒရံ ခါဒတိ။",
+            "paliRoman": "Sā ambilaṃ badaraṃ khādati.",
+            "translateMm": "သူငယ်မလေးက အချဉ်ဇီးသီး စားနေတယ်။",
+            "translateEn": "She eats a sour jujube."
+          }
+        },
+        {
+          "paliMm": "ကပိဋ္ဌ (ပု/န)",
+          "paliRoman": "Kapiṭṭha (M/N)",
+          "translateMm": "သီးသီး၊ ဥသျှစ်သီး",
+          "translateEn": "Wood-apple, Bael",
+          "example": {
+            "paliMm": "သော ကပိဋ္ဌဖလံ ရုက္ခတော ပါတေတိ။",
+            "paliRoman": "So kapiṭṭhaphalaṃ rukkhato pāteti.",
+            "translateMm": "သူ သစ်ပင်ပေါ်ကနေ သီးသီး/ဥသျှစ်သီးကို ကြွေကျအောင် လုပ်လိုက်တယ်။",
+            "translateEn": "He knocks down a wood-apple from the tree."
+          }
+        },
+        {
+          "paliMm": "ဒါဠိမဖလ (န)",
+          "paliRoman": "Dāḷimaphala (N)",
+          "translateMm": "သလဲသီး",
+          "translateEn": "Pomegranate",
+          "example": {
+            "paliMm": "သာ ရတ္တံ ဒါဠိမဖလံ အာနယတိ။",
+            "paliRoman": "Sā rattaṃ dāḷimaphalaṃ ānayati.",
+            "translateMm": "သူငယ်မလေးက အနီရောင် သလဲသီးကို ယူလာတယ်။",
+            "translateEn": "She brings a red pomegranate."
+          }
+        },
+        {
+          "paliMm": "တာလ (ပု/န)",
+          "paliRoman": "Tāla (M/N)",
+          "translateMm": "ထန်းသီး",
+          "translateEn": "Toddy palm fruit",
+          "example": {
+            "paliMm": "တာလဖလံ ရုက္ခတော ပတတိ။",
+            "paliRoman": "Tālaphalaṃ rukkhato patati.",
+            "translateMm": "ထန်းသီးက ထန်းပင်ပေါ်ကနေ ပြုတ်ကျလာတယ်။",
+            "translateEn": "A palm fruit falls from the tree."
+          }
+        },
+        {
+          "paliMm": "မုဒ္ဒိကာ (ထီ)",
+          "paliRoman": "Muddikā (F)",
+          "translateMm": "စပျစ်သီး",
+          "translateEn": "Grape",
+          "example": {
+            "paliMm": "သော မုဒ္ဒိကာဖလံ ခါဒိတုံ ရုစိယတိ။",
+            "paliRoman": "So muddikāphalaṃ khādituṃ ruciyati.",
+            "translateMm": "သူ စပျစ်သီး စားရတာကို ကြိုက်တယ်။",
+            "translateEn": "He likes to eat grapes."
+          }
+        },
+        {
+          "paliMm": "ဇမ္ဗီရ (ပု)",
+          "paliRoman": "Jambīra (M)",
+          "translateMm": "သံပရာသီး၊ သံပုရိုသီး",
+          "translateEn": "Lime, Lemon",
+          "example": {
+            "paliMm": "သာ ဇမ္ဗီရရသံ ပိဝတိ။",
+            "paliRoman": "Sā jambīrarasaṃ pivati.",
+            "translateMm": "သူငယ်မလေးက သံပရာရည် သောက်နေတယ်။",
+            "translateEn": "She drinks lime juice."
+          }
+        },
+        {
+          "paliMm": "သိင်္ဂိဝေရ (ပု/န)",
+          "paliRoman": "Siṅgivera (M/N)",
+          "translateMm": "ချင်း",
+          "translateEn": "Ginger",
+          "example": {
+            "paliMm": "သာ သိင်္ဂိဝေရံ သူပေ ဌပေတိ။",
+            "paliRoman": "Sā siṅgiveraṃ sūpe ṭhapeti.",
+            "translateMm": "သူငယ်မလေးက ဂျင်းကို ဟင်းထဲ ထည့်လိုက်တယ်။",
+            "translateEn": "She puts ginger into the curry."
+          }
+        },
+        {
+          "paliMm": "အလာဗု (ထီ/န)",
+          "paliRoman": "Alābu (F/N)",
+          "translateMm": "ဘူးသီး",
+          "translateEn": "Gourd, Calabash",
+          "example": {
+            "paliMm": "သော အလာဗုံ ပစိတွာ ဘုဉ္ဇတိ။",
+            "paliRoman": "So alābuṃ pacitvā bhuñjati.",
+            "translateMm": "သူ ဘူးသီးကို ချက်ပြုတ်ပြီး စားတယ်။",
+            "translateEn": "He cooks and eats the gourd."
+          }
+        },
+        {
+          "paliMm": "ကက္ကရီ (ထီ)",
+          "paliRoman": "Kakkarī (F)",
+          "translateMm": "သခွားသီး",
+          "translateEn": "Cucumber",
+          "example": {
+            "paliMm": "သော သီတလံ ကက္ကရိံ ခါဒတိ။",
+            "paliRoman": "So sītalaṃ kakkariṃ khādati.",
+            "translateMm": "သူ အေးမြတဲ့ သခွားသီးကို စားနေတယ်။",
+            "translateEn": "He eats a cool cucumber."
+          }
+        },
+        {
+          "paliMm": "ကာလိန္ဒ (ပု)",
+          "paliRoman": "Kālinda (M)",
+          "translateMm": "ဖရဲသီး",
+          "translateEn": "Watermelon",
+          "example": {
+            "paliMm": "ဒါရကော မဓုရံ ကာလိန္ဒံ ခါဒတိ။",
+            "paliRoman": "Dārako madhuraṃ kālindaṃ khādati.",
+            "translateMm": "ကလေးလေးက ချိုမြတ်တဲ့ ဖရဲသီးကို စားနေတယ်။",
+            "translateEn": "The child eats a sweet watermelon."
+          }
+        },
+        {
+          "paliMm": "ဥဒုမ္ဗရ (ပု/န)",
+          "paliRoman": "Udumbara (M/N)",
+          "translateMm": "ရေသဖန်းသီး",
+          "translateEn": "Fig",
+          "example": {
+            "paliMm": "သော ဥဒုမ္ဗရဖလံ အာပဏေ ပဿတိ။",
+            "paliRoman": "So udumbaraphalaṃ āpaṇe passati.",
+            "translateMm": "သူ ဈေးထဲမှာ သဖန်းသီးကို လှမ်းကြည့်နေတယ်။",
+            "translateEn": "He looks at a fig in the market."
+          }
+        },
+        {
+          "paliMm": "အာမလက (န)",
+          "paliRoman": "Āmalaka (N)",
+          "translateMm": "သျှစ်သျှားသီး",
+          "translateEn": "Myrobalan, Gooseberry",
+          "example": {
+            "paliMm": "သာ အာမလကံ ဩသဓတ္ထာယ ဂဏှာတိ။",
+            "paliRoman": "Sā āmalakaṃ osadhatthāya gaṇhāti.",
+            "translateMm": "သူငယ်မလေးက ဆေးဝါးအတွက် သျှစ်သျှားသီးကို ယူလိုက်တယ်။",
+            "translateEn": "She takes gooseberry for medicine."
+          }
+        },
+        {
+          "paliMm": "ဟရီတကီ (ထီ)",
+          "paliRoman": "Harītakī (F)",
+          "translateMm": "ဖန်ခါးသီး",
+          "translateEn": "Yellow Myrobalan",
+          "example": {
+            "paliMm": "ယတိ ဟရီတကိံ ခါဒိတွာ အာရောဂေါ ဟောတိ။",
+            "paliRoman": "Yati harītakiṃ khāditvā ārogo hoti.",
+            "translateMm": "ရဟန်းတော်က ဖန်ခါးသီးကို စားပြီး ကျန်းမာရေးကောင်းမွန်လာတယ်။",
+            "translateEn": "The monk eats myrobalan and becomes healthy."
+          }
+        },
+        {
+          "paliMm": "ဝိဘီဋကဖလ (န)",
+          "paliRoman": "Vibhīṭakaphala (N)",
+          "translateMm": "သစ်ကြားသီး",
+          "translateEn": "Walnut",
+          "example": {
+            "paliMm": "သော ဝိဘီဋကဖလံ ဘိန္ဒိတွာ ခါဒတိ။",
+            "paliRoman": "So vibhīṭakaphalaṃ bhinditvā khādati.",
+            "translateMm": "သူ သစ်ကြားသီးကို ခွဲပြီး စားတယ်။",
+            "translateEn": "He breaks open and eats the walnut."
+          }
+        },
+        {
+          "paliMm": "သီတာဖလ (န)",
+          "paliRoman": "Sītāphala (N)",
+          "translateMm": "ပန်းသီး",
+          "translateEn": "Apple",
+          "example": {
+            "paliMm": "သာ ရတ္တံ သီတာဖလံ ကိဏာတိ။",
+            "paliRoman": "Sā rattaṃ sītāphalaṃ kiṇāti.",
+            "translateMm": "သူငယ်မလေးက အနီရောင် ပန်းသီးကို ဝယ်ယူနေတယ်။",
+            "translateEn": "She buys a red apple."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "သစ်ပင်နှင့် အပင်များ",
+      "titleEn": "Trees and Plants",
+      "vocabList": [
+        {
+          "paliMm": "ရုက္ခ (ပု)",
+          "paliRoman": "Rukkha (M)",
+          "translateMm": "သစ်ပင်",
+          "translateEn": "Tree",
+          "example": {
+            "paliMm": "မဟန္တော ရုက္ခော ဝနေ တိဋ္ဌတိ။",
+            "paliRoman": "Mahanto rukkho vane tiṭṭhati.",
+            "translateMm": "တောထဲမှာ သစ်ပင်ကြီးတစ်ပင် ရှိနေတယ်။",
+            "translateEn": "A large tree stands in the forest."
+          }
+        },
+        {
+          "paliMm": "တရု (ပု)",
+          "paliRoman": "Taru (M)",
+          "translateMm": "သစ်ပင်၊ အပင်",
+          "translateEn": "Tree, Plant",
+          "example": {
+            "paliMm": "သော တရုဿ ဆာယာယံ နိသီဒတိ။",
+            "paliRoman": "So tarussa chāyāyaṃ nisīdati.",
+            "translateMm": "သူ အပင်ရဲ့ အရိပ်မှာ ထိုင်နေတယ်။",
+            "translateEn": "He sits in the shade of the tree."
+          }
+        },
+        {
+          "paliMm": "လတာ (ထီ)",
+          "paliRoman": "Latā (F)",
+          "translateMm": "နွယ်ပင်",
+          "translateEn": "Creeper, Vine",
+          "example": {
+            "paliMm": "လတာ ရုက္ခံ ပရိဗ္ဗယောတိ။",
+            "paliRoman": "Latā rukkhaṃ paribbayoti.",
+            "translateMm": "နွယ်ပင်က သစ်ပင်ကို ရစ်ပတ်ထားတယ်။",
+            "translateEn": "The creeper twines around the tree."
+          }
+        },
+        {
+          "paliMm": "ပဏ္ဏ (န)",
+          "paliRoman": "Paṇṇa (N)",
+          "translateMm": "သစ်ရွက်",
+          "translateEn": "Leaf",
+          "example": {
+            "paliMm": "ဟရိတံ ပဏ္ဏံ ရုက္ခတော ပတတိ။",
+            "paliRoman": "Haritaṃ paṇṇaṃ rukkhato patati.",
+            "translateMm": "အစိမ်းရောင် သစ်ရွက်က သစ်ပင်ပေါ်က ပြုတ်ကျလာတယ်။",
+            "translateEn": "The green leaf falls from the tree."
+          }
+        },
+        {
+          "paliMm": "ပုပ္ဖ (န)",
+          "paliRoman": "Puppha (N)",
+          "translateMm": "ပန်းပွင့်",
+          "translateEn": "Flower",
+          "example": {
+            "paliMm": "သာ သုဂန္ဓိံ ပုပ္ဖံ အာနယတိ။",
+            "paliRoman": "Sā sugandhiṃ pupphaṃ ānayati.",
+            "translateMm": "သူငယ်မလေးက မွှေးကြိုင်တဲ့ ပန်းကို ယူလာတယ်။",
+            "translateEn": "She brings a fragrant flower."
+          }
+        },
+        {
+          "paliMm": "သာခါ (ထီ)",
+          "paliRoman": "Sākhā (F)",
+          "translateMm": "သစ်ခက်၊ သစ်ခက်သစ်နွယ်",
+          "translateEn": "Branch",
+          "example": {
+            "paliMm": "မက္ကဋော ရုက္ခဿ သာခါယံ ခိဍ္ဍတိ။",
+            "paliRoman": "Makkaṭo rukkhassa sākhāyaṃ khiḍḍati.",
+            "translateMm": "မျောက်က သစ်ပင်ရဲ့ သစ်ခက်ပေါ်မှာ ဆော့ကစားနေတယ်။",
+            "translateEn": "The monkey plays on the branch of the tree."
+          }
+        },
+        {
+          "paliMm": "မူလ (န)",
+          "paliRoman": "Mūla (N)",
+          "translateMm": "အမြစ်",
+          "translateEn": "Root",
+          "example": {
+            "paliMm": "မူလံ ဘူမိယံ ဂမ္ဘီရံ ပဝိသတိ။",
+            "paliRoman": "Mūlaṃ bhūmiyaṃ gambhīraṃ pavisati.",
+            "translateMm": "အမြစ်က မြေကြီးထဲ နက်နက်ရှိုင်းရှိုင်း ဝင်သွားတယ်။",
+            "translateEn": "The root goes deep into the ground."
+          }
+        },
+        {
+          "paliMm": "တစ (ပု/န)",
+          "paliRoman": "Taca (M/N)",
+          "translateMm": "သစ်ခေါက်၊ အခေါက်",
+          "translateEn": "Bark, Skin",
+          "example": {
+            "paliMm": "သော ရုက္ခဿ တစံ ဟရတိ။",
+            "paliRoman": "So rukkhassa tacaṃ harati.",
+            "translateMm": "သူ သစ်ပင်ရဲ့ အခေါက်ကို ခွာယူလိုက်တယ်။",
+            "translateEn": "He removes the bark of the tree."
+          }
+        },
+        {
+          "paliMm": "ဝန (န)",
+          "paliRoman": "Vana (N)",
+          "translateMm": "တော၊ သစ်တော",
+          "translateEn": "Forest, Wood",
+          "example": {
+            "paliMm": "သီဟော မဟန္တေ ဝနေ ဝသတိ။",
+            "paliRoman": "Sīho mahante vane vasati.",
+            "translateMm": "ခြင်္သေ့က သစ်တောကြီးထဲမှာ နေထိုင်တယ်။",
+            "translateEn": "The lion lives in the large forest."
+          }
+        },
+        {
+          "paliMm": "ဂစ္ဆ (ပု/န)",
+          "paliRoman": "Gaccha (M/N)",
+          "translateMm": "ခြုံပုတ်",
+          "translateEn": "Bush",
+          "example": {
+            "paliMm": "သသကော ဂစ္ဆသ္မိံ နိလီယတိ။",
+            "paliRoman": "Sasakako gacchasmiṃ nilīyati.",
+            "translateMm": "ယုန်လေးက ခြုံပုတ်ထဲမှာ ပုန်းနေတယ်။",
+            "translateEn": "The rabbit hides in the bush."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "ခန္ဓာကိုယ်အစိတ်အပိုင်းများ",
+      "titleEn": "Body Parts",
+      "vocabList": [
+        {
+          "paliMm": "သီသ / သိရ (န/ပု)",
+          "paliRoman": "Sīsa / Sira (N/M)",
+          "translateMm": "ဦးခေါင်း",
+          "translateEn": "Head",
+          "example": {
+            "paliMm": "သော သီသံ ဓောဝတိ။",
+            "paliRoman": "So sīsaṃ dhovati.",
+            "translateMm": "သူ ခေါင်း လျှော်နေတယ်။",
+            "translateEn": "He washes his head."
+          }
+        },
+        {
+          "paliMm": "မုခ (န)",
+          "paliRoman": "Mukha (N)",
+          "translateMm": "မျက်နှာ၊ ပါးစပ်",
+          "translateEn": "Face, Mouth",
+          "example": {
+            "paliMm": "သာ မုခံ ဓောဝိတွာ တုဿတိ။",
+            "paliRoman": "Sā mukhaṃ dhovitvā tussati.",
+            "translateMm": "သူငယ်မလေးက မျက်နှာသစ်ပြီး လန်းဆန်းသွားတယ်။",
+            "translateEn": "She washes her face and feels refreshed."
+          }
+        },
+        {
+          "paliMm": "အက္ခိ / နယန (န)",
+          "paliRoman": "Akkhi / Nayana (N)",
+          "translateMm": "မျက်စိ",
+          "translateEn": "Eye",
+          "example": {
+            "paliMm": "သော အက္ခီဟိ ရူပံ ပဿတိ။",
+            "paliRoman": "So akkhīhi rūpaṃ passati.",
+            "translateMm": "သူ မျက်စိနဲ့ ပုံရိပ်ကို ကြည့်နေတယ်။",
+            "translateEn": "He sees the object with his eyes."
+          }
+        },
+        {
+          "paliMm": "သောတ / ကဏ္ဏ (န/ပု)",
+          "paliRoman": "Sota / Kaṇṇa (N/M)",
+          "translateMm": "နား",
+          "translateEn": "Ear",
+          "example": {
+            "paliMm": "သော ကဏ္ဏေဟိ သဒ္ဒံ သုဏာတိ။",
+            "paliRoman": "So kaṇṇehi saddaṃ suṇāti.",
+            "translateMm": "သူ နားနဲ့ အသံကို ကြားနေရတယ်။",
+            "translateEn": "He hears the sound with his ears."
+          }
+        },
+        {
+          "paliMm": "နာသာ / နာသိကာ (ထီ)",
+          "paliRoman": "Nāsā / Nāsikā (F)",
+          "translateMm": "နှာခေါင်း",
+          "translateEn": "Nose",
+          "example": {
+            "paliMm": "သာ နာသိကာယ ဂန္ဓံ ဃာယတိ။",
+            "paliRoman": "Sā nāsikāya gandhaṃ ghāyati.",
+            "translateMm": "သူငယ်မလေးက နှာခေါင်းနဲ့ အနံ့ခံကြည့်တယ်။",
+            "translateEn": "She smells the fragrance with her nose."
+          }
+        },
+        {
+          "paliMm": "ဇိဝှာ (ထီ)",
+          "paliRoman": "Jivhā (F)",
+          "translateMm": "လျှာ",
+          "translateEn": "Tongue",
+          "example": {
+            "paliMm": "ဇိဝှာ ရသံ ဇာနာတိ။",
+            "paliRoman": "Jivhā rasaṃ jānāti.",
+            "translateMm": "လျှာက အရသာကို သိတယ်။",
+            "translateEn": "The tongue tastes the flavor."
+          }
+        },
+        {
+          "paliMm": "ဟတ္ထ / ကရ (ပု)",
+          "paliRoman": "Hattha / Kara (M)",
+          "translateMm": "လက်",
+          "translateEn": "Hand",
+          "example": {
+            "paliMm": "သော ဟတ္ထေန ပုတ္ထကံ ဂဏှာတိ။",
+            "paliRoman": "So hatthena putthakaṃ gaṇhāti.",
+            "translateMm": "သူ လက်နဲ့ စာအုပ်ကို ကိုင်ယူလိုက်တယ်။",
+            "translateEn": "He takes the book with his hand."
+          }
+        },
+        {
+          "paliMm": "ပါဒ (ပု)",
+          "paliRoman": "Pāda (M)",
+          "translateMm": "ခြေထောက်",
+          "translateEn": "Foot, Leg",
+          "example": {
+            "paliMm": "သော ပါဒေဟိ မဂ္ဂံ ဂစ္ဆတိ။",
+            "paliRoman": "So pādehi maggaṃ gacchati.",
+            "translateMm": "သူ ခြေထောက်နဲ့ လမ်းလျှောက်သွားတယ်။",
+            "translateEn": "He walks on the path with his feet."
+          }
+        },
+        {
+          "paliMm": "ဟဒယ (န)",
+          "paliRoman": "Hadaya (N)",
+          "translateMm": "နှလုံး",
+          "translateEn": "Heart",
+          "example": {
+            "paliMm": "သော ဟဒယေန သစ္စံ စိန္တေတိ။",
+            "paliRoman": "So hadayena saccaṃ cinteti.",
+            "translateMm": "သူ နှလုံးသားထဲကနေ အမှန်တရားကို စဉ်းစားတယ်။",
+            "translateEn": "He thinks of the truth with his heart."
+          }
+        },
+        {
+          "paliMm": "ကာယ (ပု)",
+          "paliRoman": "Kāya (M)",
+          "translateMm": "ကိုယ်ကာယ၊ ခန္ဓာကိုယ်",
+          "translateEn": "Body",
+          "example": {
+            "paliMm": "သော ကာယံ သုစိံ ကရောတိ။",
+            "paliRoman": "So kāyaṃ suciṃ karoti.",
+            "translateMm": "သူ ခန္ဓာကိုယ်ကို သန့်ရှင်းအောင် ပြုလုပ်တယ်။",
+            "translateEn": "He keeps his body clean."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "အိမ်သုံးပစ္စည်းများ",
+      "titleEn": "Household Items",
+      "vocabList": [
+        {
+          "paliMm": "ဂေဟ / ဃရ (န)",
+          "paliRoman": "Geha / Ghara (N)",
+          "translateMm": "အိမ်",
+          "translateEn": "House",
+          "example": {
+            "paliMm": "ဣဒံ မဟန္တံ ဂေဟံ ဟောတိ။",
+            "paliRoman": "Idaṃ mahantaṃ gehaṃ hoti.",
+            "translateMm": "ဒါဟာ တကယ်ကြီးမားတဲ့ အိမ်တစ်လုံး ဖြစ်တယ်။",
+            "translateEn": "This is a large house."
+          }
+        },
+        {
+          "paliMm": "ပီဌ (န)",
+          "paliRoman": "Pīṭha (N)",
+          "translateMm": "ထိုင်ခုံ၊ ကုလားထိုင်",
+          "translateEn": "Chair, Stool",
+          "example": {
+            "paliMm": "သော ပီဌသ္မိံ နိသီဒတိ။",
+            "paliRoman": "So pīṭhasmiṃ nisīdati.",
+            "translateMm": "သူ ခုံပေါ်မှာ ထိုင်နေတယ်။",
+            "translateEn": "He sits on the chair."
+          }
+        },
+        {
+          "paliMm": "မဉ္စ (ပု)",
+          "paliRoman": "Mañca (M)",
+          "translateMm": "ခုတင်၊ အိပ်ရာ",
+          "translateEn": "Bed",
+          "example": {
+            "paliMm": "ဒါရကော မဉ္စေ သယတိ။",
+            "paliRoman": "Dārako mañce sayati.",
+            "translateMm": "ကလေးလေးက ခုတင်ပေါ်မှာ အိပ်ပျော်နေတယ်။",
+            "translateEn": "The child sleeps on the bed."
+          }
+        },
+        {
+          "paliMm": "ပတ္တ (ပု)",
+          "paliRoman": "Patta (M)",
+          "translateMm": "သပိတ်၊ ခွက်",
+          "translateEn": "Bowl",
+          "example": {
+            "paliMm": "သမဏော ဟတ္ထေန ပတ္တံ ဂဏှာတိ။",
+            "paliRoman": "Samaṇo hatthena pattaṃ gaṇhāti.",
+            "translateMm": "ရဟန်းတော်က သပိတ်/ခွက်ကို လက်နဲ့ ကိုင်ဆောင်ထားတော်မူတယ်။",
+            "translateEn": "The monk holds the bowl with his hand."
+          }
+        },
+        {
+          "paliMm": "ကဋာဟ (ပု/န)",
+          "paliRoman": "Kaṭāha (M/N)",
+          "translateMm": "ဒယ်အိုး",
+          "translateEn": "Frying pan, Cauldron",
+          "example": {
+            "paliMm": "သာ ကဋာဟေ အာဟာရံ ပစတိ။",
+            "paliRoman": "Sā kaṭāhe āhāraṃ pacati.",
+            "translateMm": "သူငယ်မလေးက ဒယ်အိုးထဲမှာ အစားအသောက် ချက်ပြုတ်နေတယ်။",
+            "translateEn": "She cooks food in the frying pan."
+          }
+        },
+        {
+          "paliMm": "ကုမ္ဘ (ပု)",
+          "paliRoman": "Kumba (M)",
+          "translateMm": "ရေအိုး၊ အိုး",
+          "translateEn": "Pot, Pitcher",
+          "example": {
+            "paliMm": "သာ ကုမ္ဘံ ဥဒကေန ပူရေတိ။",
+            "paliRoman": "Sā kumbaṃ udakena pūreti.",
+            "translateMm": "သူငယ်မလေးက အိုးထဲကို ရေဖြည့်လိုက်တယ်။",
+            "translateEn": "She fills the pot with water."
+          }
+        },
+        {
+          "paliMm": "သရက / စသက (ပု/န)",
+          "paliRoman": "Saraka / Casaka (M/N)",
+          "translateMm": "ခွက်၊ ရေသောက်ခွက်",
+          "translateEn": "Cup, Drinking glass",
+          "example": {
+            "paliMm": "သော စသကေန ဥဒကံ ပိဝတိ။",
+            "paliRoman": "So casakena udakaṃ pivati.",
+            "translateMm": "သူ ရေသောက်ခွက်နဲ့ ရေသောက်နေတယ်။",
+            "translateEn": "He drinks water with a glass."
+          }
+        },
+        {
+          "paliMm": "သုစီ (ထီ)",
+          "paliRoman": "Sucī (F)",
+          "translateMm": "အပ်",
+          "translateEn": "Needle",
+          "example": {
+            "paliMm": "သာ သုစိယာ ဝတ္ထံ သိဗ္ဗေတိ။",
+            "paliRoman": "Sā suciyā vatthaṃ sibbeti.",
+            "translateMm": "သူငယ်မလေးက အပ်နဲ့ အဝတ်ချုပ်နေတယ်။",
+            "translateEn": "She sews clothes with a needle."
+          }
+        },
+        {
+          "paliMm": "သတ္ထ / သတ္ထက (န)",
+          "paliRoman": "Sattha / Satthaka (N)",
+          "translateMm": "ဓား၊ ဓားငယ်",
+          "translateEn": "Knife",
+          "example": {
+            "paliMm": "သော သတ္ထကေန ဖလံ ကန္တတိ။",
+            "paliRoman": "So satthakena phalaṃ kantati.",
+            "translateMm": "သူ ဓားနဲ့ အသီးကို လှီးနေတယ်။",
+            "translateEn": "He cuts the fruit with a knife."
+          }
+        },
+        {
+          "paliMm": "ဒွါရ (န)",
+          "paliRoman": "Dvāra (N)",
+          "translateMm": "တံခါး",
+          "translateEn": "Door, Gate",
+          "example": {
+            "paliMm": "သော ဂေဟဿ ဒွါရံ ထကေတိ။",
+            "paliRoman": "So gehassa dvāraṃ thaketi.",
+            "translateMm": "သူ အိမ်တံခါးကို ပိတ်လိုက်တယ်။",
+            "translateEn": "He closes the door of the house."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "ရာသီဥတုနှင့် သဘာဝအရာများ",
+      "titleEn": "Weather and Nature",
+      "vocabList": [
+        {
+          "paliMm": "သူရိယ / အာဒိစ္စ (ပု)",
+          "paliRoman": "Sūriya / Ādicca (M)",
+          "translateMm": "နေ၊ နေမင်း",
+          "translateEn": "Sun",
+          "example": {
+            "paliMm": "သူရိယော အာကာသေ ဥဒေတိ။",
+            "paliRoman": "Sūriyo ākāse udeti.",
+            "translateMm": "နေမင်းက ကောင်းကင်မှာ ထွက်ပေါ်လာတယ်။",
+            "translateEn": "The sun rises in the sky."
+          }
+        },
+        {
+          "paliMm": "စန္ဒ / စန္ဒိမ (ပု)",
+          "paliRoman": "Canda / Candima (M)",
+          "translateMm": "လ၊ လမင်း",
+          "translateEn": "Moon",
+          "example": {
+            "paliMm": "စန္ဒော ရတ္တိယံ သောဘတိ။",
+            "paliRoman": "Cando rattiyaṃ sobhati.",
+            "translateMm": "လမင်းက ညအခါမှာ လှပတင့်တယ်နေတယ်။",
+            "translateEn": "The moon shines at night."
+          }
+        },
+        {
+          "paliMm": "မေဃ / ဝလ္လာဟက (ပု)",
+          "paliRoman": "Megha / Vallāhaka (M)",
+          "translateMm": "မိုးတိမ်",
+          "translateEn": "Cloud",
+          "example": {
+            "paliMm": "မဟာ မေဃော အာကာသေ ဥဋ္ဌာတိ။",
+            "paliRoman": "Mahā megho ākāse uṭṭhāti.",
+            "translateMm": "မိုးတိမ်ကြီးက ကောင်းကင်မှာ တက်လာတယ်။",
+            "translateEn": "A large cloud rises in the sky."
+          }
+        },
+        {
+          "paliMm": "ဝဿ / ဝုဋ္ဌိ (န/ထီ)",
+          "paliRoman": "Vassa / Vuṭṭhi (N/F)",
+          "translateMm": "မိုး၊ မိုးရေ",
+          "translateEn": "Rain",
+          "example": {
+            "paliMm": "မဟာ ဝုဋ္ဌိ ဘူမိယံ ပတတိ။",
+            "paliRoman": "Mahā vuṭṭhi bhūmiyaṃ patati.",
+            "translateMm": "မိုးသည်းထန်စွာ မြေကြီးပေါ် ရွာကျလာတယ်။",
+            "translateEn": "Heavy rain falls on the ground."
+          }
+        },
+        {
+          "paliMm": "ဝါတ / အနိလ (ပု)",
+          "paliRoman": "Vāta / Anila (M)",
+          "translateMm": "လေ",
+          "translateEn": "Wind",
+          "example": {
+            "paliMm": "ဗလဝါ ဝါတော ဝါယတိ။",
+            "paliRoman": "Balavā vāto vāyati.",
+            "translateMm": "လေပြင်းကြီး တိုက်ခတ်နေတယ်။",
+            "translateEn": "A strong wind blows."
+          }
+        },
+        {
+          "paliMm": "အာကာသ / ဂဂန (ပု/န)",
+          "paliRoman": "Ākāsa / Gagana (M/N)",
+          "translateMm": "ကောင်းကင်",
+          "translateEn": "Sky",
+          "example": {
+            "paliMm": "သကုဏော အာကာသေ ဍေတိ။",
+            "paliRoman": "Sakuṇo ākāse ḍeti.",
+            "translateMm": "ငှက်လေးက ကောင်းကင်မှာ ပျံသန်းနေတယ်။",
+            "translateEn": "The bird flies in the sky."
+          }
+        },
+        {
+          "paliMm": "ပဗ္ဗတ / ဂိရိ (ပု)",
+          "paliRoman": "Pabbata / Giri (M)",
+          "translateMm": "တောင်၊ တောင်ကုန်း",
+          "translateEn": "Mountain, Hill",
+          "example": {
+            "paliMm": "သော မဟန္တံ ပဗ္ဗတံ အာရောဟတိ။",
+            "paliRoman": "So mahantaṃ pabbataṃ ārohati.",
+            "translateMm": "သူ တောင်ကြီးပေါ်ကို တက်နေတယ်။",
+            "translateEn": "He climbs the high mountain."
+          }
+        },
+        {
+          "paliMm": "နဒီ (ထီ)",
+          "paliRoman": "Nadī (F)",
+          "translateMm": "မြစ်",
+          "translateEn": "River",
+          "example": {
+            "paliMm": "နဒီ သမုဒ္ဒံ အဘိမုခံ သန္ဒတိ။",
+            "paliRoman": "Nadī samuddaṃ abhimukhaṃ sandati.",
+            "translateMm": "မြစ်ရေက ပင်လယ်ဆီ ဦးတည် စီးဆင်းနေတယ်။",
+            "translateEn": "The river flows towards the ocean."
+          }
+        },
+        {
+          "paliMm": "သမုဒ္ဒ / သာဂရ (ပု)",
+          "paliRoman": "Samudda / Sāgara (M)",
+          "translateMm": "ပင်လယ်၊ သမုဒ္ဒရာ",
+          "translateEn": "Ocean, Sea",
+          "example": {
+            "paliMm": "မဟန္တော သမုဒ္ဒေါ ဂမ္ဘီရော ဟောတိ။",
+            "paliRoman": "Mahanto samuddo gambhīro hoti.",
+            "translateMm": "သမုဒ္ဒရာကြီးက အလွန် နက်ရှိုင်းတယ်။",
+            "translateEn": "The vast ocean is deep."
+          }
+        },
+        {
+          "paliMm": "ဘူမိ / ပထဝီ (ထီ)",
+          "paliRoman": "Bhūmi / Pathavī (F)",
+          "translateMm": "မြေကြီး၊ ကမ္ဘာမြေ",
+          "translateEn": "Earth, Ground",
+          "example": {
+            "paliMm": "ရုက္ခော ဘူမိယံ တိဋ္ဌတိ။",
+            "paliRoman": "Rukkho bhūmiyaṃ tiṭṭhati.",
+            "translateMm": "သစ်ပင်က မြေကြီးပေါ်မှာ ရပ်တည်နေတယ်။",
+            "translateEn": "The tree stands on the ground."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "မြို့ရွာနှင့် နေရာဌာနများ",
+      "titleEn": "Places, Towns and Villages",
+      "vocabList": [
+        {
+          "paliMm": "နဂရ / ပုရ (န)",
+          "paliRoman": "Nagara / Pura (N)",
+          "translateMm": "မြို့",
+          "translateEn": "City, Town",
+          "example": {
+            "paliMm": "သော မဟန္တံ နဂရံ ပဝိသတိ။",
+            "paliRoman": "So mahantaṃ nagaraṃ pavisati.",
+            "translateMm": "သူ မြို့ကြီးထဲကို ဝင်သွားတယ်။",
+            "translateEn": "He enters the large city."
+          }
+        },
+        {
+          "paliMm": "ဂါမ (ပု)",
+          "paliRoman": "Gāma (M)",
+          "translateMm": "ရွာ",
+          "translateEn": "Village",
+          "example": {
+            "paliMm": "သမဏော ဂါမံ ပိဏ္ဍာယ စရတိ။",
+            "paliRoman": "Samaṇo gāmaṃ piṇḍāya carati.",
+            "translateMm": "ရဟန်းတော်က ရွာထဲမှာ ဆွမ်းခံကြွနေတယ်။",
+            "translateEn": "The monk walks in the village for alms."
+          }
+        },
+        {
+          "paliMm": "ဝိဟာရ / အာရာမ (ပု)",
+          "paliRoman": "Vihāra / Ārāma (M)",
+          "translateMm": "ကျောင်းတိုက်၊ ကျောင်း",
+          "translateEn": "Monastery, Temple",
+          "example": {
+            "paliMm": "သော ရမ္မံ ဝိဟာရံ ဂစ္ဆတိ။",
+            "paliRoman": "So rammaṃ vihāraṃ gacchati.",
+            "translateMm": "သူ သာယာတဲ့ ကျောင်းတိုက်ဆီ သွားနေတယ်။",
+            "translateEn": "He goes to the pleasant monastery."
+          }
+        },
+        {
+          "paliMm": "အာပဏ (ပု/န)",
+          "paliRoman": "Āpaṇa (M/N)",
+          "translateMm": "ဈေး၊ ဈေးဆိုင်",
+          "translateEn": "Market, Shop",
+          "example": {
+            "paliMm": "သာ အာပဏတော ဖလံ ကိဏာတိ။",
+            "paliRoman": "Sā āpaṇato phalaṃ kiṇāti.",
+            "translateMm": "သူငယ်မလေးက ဈေးကနေ အသီး ဝယ်နေတယ်။",
+            "translateEn": "She buys fruit from the market."
+          }
+        },
+        {
+          "paliMm": "မဂ္ဂ (ပု)",
+          "paliRoman": "Magga (M)",
+          "translateMm": "လမ်း၊ လမ်းကြောင်း",
+          "translateEn": "Road, Path",
+          "example": {
+            "paliMm": "သော ဥဇုံ မဂ္ဂံ ဂစ္ဆတိ။",
+            "paliRoman": "So ujuṃ maggaṃ gacchati.",
+            "translateMm": "သူ ဖြောင့်မတ်တဲ့ လမ်းအတိုင်း သွားနေတယ်။",
+            "translateEn": "He walks along the straight road."
+          }
+        },
+        {
+          "paliMm": "သာလာ (ထီ)",
+          "paliRoman": "Sālā (F)",
+          "translateMm": "ဇရပ်၊ အဆောက်အအုံ",
+          "translateEn": "Hall, Pavilion",
+          "example": {
+            "paliMm": "မဟာဇနော သာလာယံ နိသီဒတိ။",
+            "paliRoman": "Mahājano sālāyaṃ nisīdati.",
+            "translateMm": "လူအများက ဇရပ်ပေါ်မှာ ထိုင်နေကြတယ်။",
+            "translateEn": "The crowd sits in the hall."
+          }
+        },
+        {
+          "paliMm": "နိဝေသန / ဂေဟ (န)",
+          "paliRoman": "Nivesana / Geha (N)",
+          "translateMm": "နေအိမ်၊ စံအိမ်",
+          "translateEn": "Residence, House",
+          "example": {
+            "paliMm": "သော သကံ နိဝေသနံ ပဝိသတိ။",
+            "paliRoman": "So sakaṃ nivesanaṃ pavisati.",
+            "translateMm": "သူ မိမိရဲ့ နေအိမ်ထဲကို ဝင်သွားတယ်။",
+            "translateEn": "He enters his own residence."
+          }
+        },
+        {
+          "paliMm": "ရဋ္ဌ / ဇနပဒ (န/ပု)",
+          "paliRoman": "Raṭṭha / Janapada (N/M)",
+          "translateMm": "တိုင်းပြည်၊ နယ်ပယ်",
+          "translateEn": "Country, Realm, District",
+          "example": {
+            "paliMm": "ရာဇာ သမိဒ္ဓံ ရဋ္ဌံ ပသာသတိ။",
+            "paliRoman": "Rājā samiddhaṃ raṭṭhaṃ pasāsati.",
+            "translateMm": "မင်းကြီးက စည်ပင်ဝပြောတဲ့ တိုင်းပြည်ကို အုပ်ချုပ်တယ်။",
+            "translateEn": "The king rules the prosperous country."
+          }
+        },
+        {
+          "paliMm": "တိတ္ထ (န)",
+          "paliRoman": "Tittha (N)",
+          "translateMm": "ဆိပ်ကမ်း၊ ရေဆိပ်",
+          "translateEn": "Landing place, Ford, Port",
+          "example": {
+            "paliMm": "ဇနာ နဒီတိတ္ထံ ဂစ္ဆန္တိ။",
+            "paliRoman": "Janā nadītitthaṃ gacchanti.",
+            "translateMm": "လူတွေက မြစ်ရေဆိပ်ဆီ သွားကြတယ်။",
+            "translateEn": "People go to the river port."
+          }
+        },
+        {
+          "paliMm": "ဥယျာန (န)",
+          "paliRoman": "Uyyāna (N)",
+          "translateMm": "ဥယျာဉ်၊ ပန်းခြံ",
+          "translateEn": "Park, Garden",
+          "example": {
+            "paliMm": "ဒါရကာ သုန္ဒရေ ဥယျာနေ ခိဍ္ဍန္တိ။",
+            "paliRoman": "Dārakā sundare uyyāne khiḍḍanti.",
+            "translateMm": "ကလေးတွေ သာယာလှပတဲ့ ဥယျာဉ်ထဲမှာ ဆော့ကစားနေကြတယ်။",
+            "translateEn": "Children play in the beautiful park."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "အချိန်နှင့် ကာလများ",
+      "titleEn": "Time and Duration",
+      "vocabList": [
+        {
+          "paliMm": "ကာလ (ပု)",
+          "paliRoman": "Kāla (M)",
+          "translateMm": "အချိန်၊ ကာလ",
+          "translateEn": "Time",
+          "example": {
+            "paliMm": "သော သောဘနံ ကာလံ ပဿတိ။",
+            "paliRoman": "So sobhanaṃ kālaṃ passati.",
+            "translateMm": "သူ ကောင်းမွန်တဲ့ အချိန်အခါကို စောင့်ကြည့်နေတယ်။",
+            "translateEn": "He watches for a good time."
+          }
+        },
+        {
+          "paliMm": "ဒိဝသ / အဟ (ပု/န)",
+          "paliRoman": "Divasa / Aha (M/N)",
+          "translateMm": "ရက်၊ နေ့",
+          "translateEn": "Day",
+          "example": {
+            "paliMm": "သော သဗ္ဗံ ဒိဝသံ ကမ္မံ ကရောတိ။",
+            "paliRoman": "So sabbaṃ divasaṃ kammaṃ karoti.",
+            "translateMm": "သူ တစ်နေ့လုံး အလုပ်လုပ်နေတယ်။",
+            "translateEn": "He works the whole day."
+          }
+        },
+        {
+          "paliMm": "ရတ္တိ (ထီ)",
+          "paliRoman": "Ratti (F)",
+          "translateMm": "ည၊ ညဉ့်",
+          "translateEn": "Night",
+          "example": {
+            "paliMm": "ရတ္တိယံ စန္ဒော သောဘတိ။",
+            "paliRoman": "Rattiyaṃ cando sobhati.",
+            "translateMm": "ညဉ့်အခါမှာ လမင်းက သပ္ပါယ်တင့်တယ်နေတယ်။",
+            "translateEn": "The moon shines at night."
+          }
+        },
+        {
+          "paliMm": "ပုဗ္ဗဏှ (ပု)",
+          "paliRoman": "Pubbaṇha (M)",
+          "translateMm": "နံနက်ပိုင်း၊ မနက်",
+          "translateEn": "Morning",
+          "example": {
+            "paliMm": "သော ပုဗ္ဗဏှသမယေ ဥဋ္ဌာတိ။",
+            "paliRoman": "So pubbaṇhasamaye uṭṭhāti.",
+            "translateMm": "သူ မနက်ပိုင်းမှာ အိပ်ရာထတယ်။",
+            "translateEn": "He gets up in the morning time."
+          }
+        },
+        {
+          "paliMm": "မဇ္ဈနှ (ပု)",
+          "paliRoman": "Majjhanha (M)",
+          "translateMm": "မွန်းလွဲ၊ နေ့လယ်",
+          "translateEn": "Midday, Noon",
+          "example": {
+            "paliMm": "မဇ္ဈနှေ သူရိယော တပတိ။",
+            "paliRoman": "Majjhanhe sūriyo tapati.",
+            "translateMm": "နေ့လယ်မွန်းတည့်မှာ နေပူရှိန်းလှတယ်။",
+            "translateEn": "The sun shines brightly at midday."
+          }
+        },
+        {
+          "paliMm": "သာယဏှ (ပု)",
+          "paliRoman": "Sāyaṇha (M)",
+          "translateMm": "ညနေပိုင်း၊ ညနေ",
+          "translateEn": "Evening",
+          "example": {
+            "paliMm": "သော သာယဏှသမယေ ဥယျာနံ ဂစ္ဆတိ။",
+            "paliRoman": "So sāyaṇhasamaye uyyānaṃ gacchati.",
+            "translateMm": "သူ ညနေပိုင်းမှာ ဥယျာဉ်ဆီ သွားတယ်။",
+            "translateEn": "He goes to the park in the evening."
+          }
+        },
+        {
+          "paliMm": "မာသ (ပု)",
+          "paliRoman": "Māsa (M)",
+          "translateMm": "လ",
+          "translateEn": "Month",
+          "example": {
+            "paliMm": "သော ဧကံ မာသံ ဣဓ ဝသတိ။",
+            "paliRoman": "So ekaṃ māsaṃ idha vasati.",
+            "translateMm": "သူ ဒီမှာ တစ်လကြာ နေထိုင်တယ်။",
+            "translateEn": "He lives here for one month."
+          }
+        },
+        {
+          "paliMm": "သံဝစ္ဆရ / ဝဿ (န/ပု)",
+          "paliRoman": "Saṃvacchara / Vassa (N/M)",
+          "translateMm": "နှစ်",
+          "translateEn": "Year",
+          "example": {
+            "paliMm": "သော ဧကံ သံဝစ္ဆရံ သိက္ခတိ။",
+            "paliRoman": "So ekaṃ saṃvaccharaṃ sikkhati.",
+            "translateMm": "သူ တစ်နှစ် စာသင်ယူ/လေ့ကျင့်တယ်။",
+            "translateEn": "He studies for one year."
+          }
+        },
+        {
+          "paliMm": "ခဏ (ပု)",
+          "paliRoman": "Khaṇa (M)",
+          "translateMm": "ခဏ၊ ခဏအတောအတွင်း",
+          "translateEn": "Moment",
+          "example": {
+            "paliMm": "သော ဧကံ ခဏံ တိဋ္ဌတိ။",
+            "paliRoman": "So ekaṃ khaṇaṃ tiṭṭhati.",
+            "translateMm": "သူ ခဏမျှ ရပ်တန့်လိုက်တယ်။",
+            "translateEn": "He stops for a moment."
+          }
+        },
+        {
+          "paliMm": "ဥတု (ပု/ထီ)",
+          "paliRoman": "Utu (M/F)",
+          "translateMm": "ရာသီ၊ ဥတု",
+          "translateEn": "Season",
+          "example": {
+            "paliMm": "ဟေမန္တဥတု သီတလော ဟောတိ။",
+            "paliRoman": "Hemantautu sītalo hoti.",
+            "translateMm": "ဆောင်းရာသီက အေးမြတယ်။",
+            "translateEn": "The winter season is cold."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "နေ့ရက်များ",
+      "titleEn": "Days of the Week",
+      "vocabList": [
+        {
+          "paliMm": "ရဝိဝါရ / သူရိယဝါရ (ပု)",
+          "paliRoman": "Ravivāra / Sūriyavāra (M)",
+          "translateMm": "တနင်္ဂနွေနေ့",
+          "translateEn": "Sunday",
+          "example": {
+            "paliMm": "သော ရဝိဝါရေ ဝိဟာရံ ဂစ္ဆတိ။",
+            "paliRoman": "So ravivāre vihāraṃ gacchati.",
+            "translateMm": "သူ တနင်္ဂနွေနေ့မှာ ကျောင်းတိုက်ဆီ သွားတယ်။",
+            "translateEn": "He goes to the monastery on Sunday."
+          }
+        },
+        {
+          "paliMm": "စန္ဒဝါရ (ပု)",
+          "paliRoman": "Candavāra (M)",
+          "translateMm": "တနင်္လာနေ့",
+          "translateEn": "Monday",
+          "example": {
+            "paliMm": "သာ စန္ဒဝါရေ ကမ္မံ အာရဘတိ။",
+            "paliRoman": "Sā candavāre kammaṃ ārabhati.",
+            "translateMm": "သူငယ်မလေးက တနင်္လာနေ့မှာ အလုပ် စလုပ်တယ်။",
+            "translateEn": "She starts working on Monday."
+          }
+        },
+        {
+          "paliMm": "အင်္ဂါရဝါရ (ပု)",
+          "paliRoman": "Aṅgāravāra (M)",
+          "translateMm": "အင်္ဂါနေ့",
+          "translateEn": "Tuesday",
+          "example": {
+            "paliMm": "သော အင်္ဂါရဝါရေ ပုတ္ထကံ ကိဏာတိ။",
+            "paliRoman": "So aṅgāravāre putthakaṃ kiṇāti.",
+            "translateMm": "သူ အင်္ဂါနေ့မှာ စာအုပ် ဝယ်ယူတယ်။",
+            "translateEn": "He buys a book on Tuesday."
+          }
+        },
+        {
+          "paliMm": "ဗုဓဝါရ (ပု)",
+          "paliRoman": "Budhavāra (M)",
+          "translateMm": "ဗုဒ္ဓဟူးနေ့",
+          "translateEn": "Wednesday",
+          "example": {
+            "paliMm": "သီဿာ ဗုဓဝါရေ ပါဠိံ သိက္ခန္တိ။",
+            "paliRoman": "Sissā budhavāre pāḷiṃ sikkhanti.",
+            "translateMm": "ကျောင်းသားတွေ ဗုဒ္ဓဟူးနေ့မှာ ပါဠိစာ သင်ယူကြတယ်။",
+            "translateEn": "Students study Pāḷi on Wednesday."
+          }
+        },
+        {
+          "paliMm": "ဂုရုဝါရ / ဗြဟပ္ပတိဝါရ (ပု)",
+          "paliRoman": "Guruvāra / Brahassapativāra (M)",
+          "translateMm": "ကြာသပတေးနေ့",
+          "translateEn": "Thursday",
+          "example": {
+            "paliMm": "အာစရိယော ဂုရုဝါရေ ဓမ္မံ ကထေတိ။",
+            "paliRoman": "Ācariyo guruvāre dhammaṃ katheti.",
+            "translateMm": "ဆရာက ကြာသပတေးနေ့မှာ တရားဓမ္မ ပြောပြပေးတယ်။",
+            "translateEn": "The teacher explains the Dhamma on Thursday."
+          }
+        },
+        {
+          "paliMm": "သုက္ကဝါရ (ပု)",
+          "paliRoman": "Sukkavāra (M)",
+          "translateMm": "သောကြာနေ့",
+          "translateEn": "Friday",
+          "example": {
+            "paliMm": "သော သုက္ကဝါရေ ကမ္မံ ပရိယောသာပေတိ။",
+            "paliRoman": "So sukkavāre kammaṃ pariyosāpeti.",
+            "translateMm": "သူ သောကြာနေ့မှာ အလုပ်ကို ပြီးစီးစေတယ်။",
+            "translateEn": "He finishes the work on Friday."
+          }
+        },
+        {
+          "paliMm": "သနိဝါရ (ပု)",
+          "paliRoman": "Sanivāra (M)",
+          "translateMm": "စနေနေ့",
+          "translateEn": "Saturday",
+          "example": {
+            "paliMm": "ဇနာ သနိဝါရေ ဥယျာနံ ဂစ္ဆန္တိ။",
+            "paliRoman": "Janā sanivāre uyyānaṃ gacchanti.",
+            "translateMm": "လူတွေ စနေနေ့မှာ ဥယျာဉ်ဆီ သွားကြတယ်။",
+            "translateEn": "People go to the park on Saturday."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "ရာသီများ",
+      "titleEn": "Seasons",
+      "vocabList": [
+        {
+          "paliMm": "ဂိမှဥတု / ဂိမှ (ပု)",
+          "paliRoman": "Gimhautu / Gimha (M)",
+          "translateMm": "နွေရာသီ",
+          "translateEn": "Summer, Hot season",
+          "example": {
+            "paliMm": "ဂိမှဥတုမှိ သူရိယော ဗလဝံ တပတိ။",
+            "paliRoman": "Gimhautumhi sūriyo balavaṃ tapati.",
+            "translateMm": "နွေရာသီမှာ နေမင်းက ပြင်းပြင်းထန်ထန် ပူပြင်းတယ်။",
+            "translateEn": "The sun shines strongly in the summer season."
+          }
+        },
+        {
+          "paliMm": "ဝဿာနဥတု / ဝဿာန (ပု)",
+          "paliRoman": "Vassānautu / Vassāna (M)",
+          "translateMm": "မိုးရာသီ",
+          "translateEn": "Rainy season",
+          "example": {
+            "paliMm": "ဝဿာနဥတုမှိ မဟာ ဝုဋ္ဌိ ပတတိ။",
+            "paliRoman": "Vassānautumhi mahā vuṭṭhi patati.",
+            "translateMm": "မိုးရာသီမှာ မိုးသည်းထန်စွာ ရွာသွန်းတယ်။",
+            "translateEn": "Heavy rain falls in the rainy season."
+          }
+        },
+        {
+          "paliMm": "ဟေမန္တဥတု / ဟေမန္တ (ပု)",
+          "paliRoman": "Hemantautu / Hemanta (M)",
+          "translateMm": "ဆောင်းရာသီ",
+          "translateEn": "Winter, Cold season",
+          "example": {
+            "paliMm": "ဟေမန္တဥတုမှိ သီတလော ဝါတော ဝါယတိ။",
+            "paliRoman": "Hemantautumhi sītalo vāto vāyati.",
+            "translateMm": "ဆောင်းရာသီမှာ အေးမြတဲ့ လေတိုက်ခတ်တယ်။",
+            "translateEn": "A cold wind blows in the winter season."
+          }
+        },
+        {
+          "paliMm": "သရဒဥတု / သရဒ (ပု/န)",
+          "paliRoman": "Saradautu / Sarada (M/N)",
+          "translateMm": "သရဒဥတု၊ မိုးအကုန် ဆောင်းအကူးရာသီ",
+          "translateEn": "Autumn",
+          "example": {
+            "paliMm": "သရဒဥတုမှိ အာကာသော ဝိမလော ဟောတိ။",
+            "paliRoman": "Saradautumhi ākāso vimalo hoti.",
+            "translateMm": "သရဒဥတု (ဆောင်းဦးပေါက်) မှာ ကောင်းကင်ကြီး ကြည်လင်နေတယ်။",
+            "translateEn": "The sky is clear in the autumn season."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "အသက်မွေးဝမ်းကျောင်းနှင့် လူပုဂ္ဂိုလ်များ",
+      "titleEn": "Occupations and People",
+      "vocabList": [
+        {
+          "paliMm": "အာစရိယ (ပု)",
+          "paliRoman": "Ācariya (M)",
+          "translateMm": "ဆရာ",
+          "translateEn": "Teacher",
+          "example": {
+            "paliMm": "အာစရိယော သီဿေ သာသတိ။",
+            "paliRoman": "Ācariyo sisse sāsati.",
+            "translateMm": "ဆရာက ကျောင်းသားတွေကို သင်ပြ ဆုံးမနေတယ်။",
+            "translateEn": "The teacher instructs the students."
+          }
+        },
+        {
+          "paliMm": "သိဿ (ပု)",
+          "paliRoman": "Sissa (M)",
+          "translateMm": "ကျောင်းသား၊ တပည့်",
+          "translateEn": "Student, Pupil",
+          "example": {
+            "paliMm": "သိဿော ပါဠိံ သိက္ခတိ။",
+            "paliRoman": "Sisso pāḷiṃ sikkhati.",
+            "translateMm": "ကျောင်းသားက ပါဠိစာကို သင်ယူနေတယ်။",
+            "translateEn": "The student learns Pāḷi."
+          }
+        },
+        {
+          "paliMm": "ဝါဏိဇ (ပု)",
+          "paliRoman": "Bāṇija (M)",
+          "translateMm": "ကုန်သည်",
+          "translateEn": "Merchant, Trader",
+          "example": {
+            "paliMm": "ဝါဏိဇော အာပဏေ ဝတ္ထုံ ဝိက္ကိဏာတိ။",
+            "paliRoman": "Bāṇijo āpaṇe vatthuṃ vikkiṇāti.",
+            "translateMm": "ကုန်သည်က ဈေးထဲမှာ ပစ္စည်းတွေကို ရောင်းချနေတယ်။",
+            "translateEn": "The merchant sells goods in the market."
+          }
+        },
+        {
+          "paliMm": "ကဿက (ပု)",
+          "paliRoman": "Kassaka (M)",
+          "translateMm": "လယ်သမား",
+          "translateEn": "Farmer",
+          "example": {
+            "paliMm": "ကဿကော ခေတ္တံ ကသတိ။",
+            "paliRoman": "Kassako khettaṃ kasati.",
+            "translateMm": "လယ်သမားက လယ်ကွင်းကို ထွန်ယက်နေတယ်။",
+            "translateEn": "The farmer plows the field."
+          }
+        },
+        {
+          "paliMm": "ဝေဇ္ဇ (ပု)",
+          "paliRoman": "Vejja (M)",
+          "translateMm": "ဆရာဝန်၊ သမားတော်",
+          "translateEn": "Doctor, Physician",
+          "example": {
+            "paliMm": "ဝေဇ္ဇော ဂိလာနဿ ဩသဓံ ဒဒါတိ။",
+            "paliRoman": "Vejjo gilānassa osadhaṃ dadāti.",
+            "translateMm": "ဆရာဝန်က လူနာကို ဆေး ပေးနေတယ်။",
+            "translateEn": "The doctor gives medicine to the sick person."
+          }
+        },
+        {
+          "paliMm": "ဘူပါလ / ရာဇာ (ပု)",
+          "paliRoman": "Bhūpāla / Rājā (M)",
+          "translateMm": "မင်း၊ ဘုရင်",
+          "translateEn": "King, Ruler",
+          "example": {
+            "paliMm": "ရာဇာ ဓမ္မေန ရဋ္ဌံ ပသာသတိ။",
+            "paliRoman": "Rājā dhammena raṭṭhaṃ pasāsati.",
+            "translateMm": "ဘုရင်က တရားဓမ္မနဲ့အညီ တိုင်းပြည်ကို အုပ်ချုပ်တယ်။",
+            "translateEn": "The king rules the country righteously."
+          }
+        },
+        {
+          "paliMm": "သူပကာရ (ပု)",
+          "paliRoman": "Sūpakāra (M)",
+          "translateMm": "စားဖိုမှူး၊ ဟင်းချက်သမား",
+          "translateEn": "Cook, Chef",
+          "example": {
+            "paliMm": "သူပကာရော မဓုရံ အာဟာရံ ပစတိ။",
+            "paliRoman": "Sūpakāro madhuraṃ āhāraṃ pacati.",
+            "translateMm": "စားဖိုမှူးက အရသာရှိတဲ့ အစားအသောက်ကို ချက်ပြုတ်နေတယ်။",
+            "translateEn": "The cook prepares delicious food."
+          }
+        },
+        {
+          "paliMm": "ရဇက (ပု)",
+          "paliRoman": "Rajaka (M)",
+          "translateMm": "အဝတ်လျှော်သမား",
+          "translateEn": "Washerman",
+          "example": {
+            "paliMm": "ရဇကော နဒိယံ ဝတ္ထံ ဓောဝတိ။",
+            "paliRoman": "Rajako nadiyaṃ vatthaṃ dhovati.",
+            "translateMm": "အဝတ်လျှော်သမားက မြစ်ထဲမှာ အဝတ်တွေကို လျှော်နေတယ်။",
+            "translateEn": "The washerman washes clothes in the river."
+          }
+        },
+        {
+          "paliMm": "သုဝဏ္ဏကာရ (ပု)",
+          "paliRoman": "Suvaṇṇakāra (M)",
+          "translateMm": "ရွှေပန်းထိမ်သည်",
+          "translateEn": "Goldsmith",
+          "example": {
+            "paliMm": "သုဝဏ္ဏကာရော အလင်္ကာရံ ကရောတိ။",
+            "paliRoman": "Suvaṇṇakāro alaṅkāraṃ karoti.",
+            "translateMm": "ရွှေပန်းထိမ်သည်က အဆင်တန်ဆာ ပြုလုပ်နေတယ်။",
+            "translateEn": "The goldsmith makes ornaments."
+          }
+        },
+        {
+          "paliMm": "ဂေါပါလက (ပု)",
+          "paliRoman": "Gopālaka (M)",
+          "translateMm": "နွားကျောင်းသား",
+          "translateEn": "Herdsman, Cowherd",
+          "example": {
+            "paliMm": "ဂေါပါလော ဂါဝိယော ဝနံ နေတိ။",
+            "paliRoman": "Gopālo gāviyo vanaṃ neti.",
+            "translateMm": "နွားကျောင်းသားက နွားမတွေကို တောထဲ ဦးဆောင်ခေါ်သွားတယ်။",
+            "translateEn": "The cowherd leads the cows to the forest."
+          }
+        },
+        {
+          "paliMm": "စောရ (ပု)",
+          "paliRoman": "Cora (M)",
+          "translateMm": "သူခိုး၊ ဓားပြ",
+          "translateEn": "Thief, Robber",
+          "example": {
+            "paliMm": "စောရော ရတ္တိယံ ဓနံ ဟရတိ။",
+            "paliRoman": "Coro rattiyaṃ dhanaṃ harati.",
+            "translateMm": "သူခိုးက ညဉ့်အခါမှာ ပစ္စည်းဥစ္စာတွေကို ခိုးယူသွားတယ်။",
+            "translateEn": "The thief steals wealth at night."
+          }
+        },
+        {
+          "paliMm": "နာဝိက (ပု)",
+          "paliRoman": "Nāvika (M)",
+          "translateMm": "လှေသူကြီး၊ သင်္ဘောသား",
+          "translateEn": "Sailor, Boatman",
+          "example": {
+            "paliMm": "နာဝိကော နဒိယံ နာဝံ စာလေတိ။",
+            "paliRoman": "Nāviko nadiyaṃ nāvaṃ cāleti.",
+            "translateMm": "လှေသူကြီးက မြစ်ထဲမှာ လှေကို လှော်ခတ်မောင်းနှင်နေတယ်။",
+            "translateEn": "The sailor navigates the boat in the river."
+          }
+        },
+        {
+          "paliMm": "ကုမ္ဘကာရ (ပု)",
+          "paliRoman": "Kumbhakāra (M)",
+          "translateMm": "အိုးထိန်းသည်",
+          "translateEn": "Potter",
+          "example": {
+            "paliMm": "ကုမ္ဘကာရော မတ္တိကာယ ကုမ္ဘံ ကရောတိ။",
+            "paliRoman": "Kumbhakāro mattikāya kumbaṃ karoti.",
+            "translateMm": "အိုးထိန်းသည်က ရွံ့စေး/မြေကြီးနဲ့ အိုးကို ပြုလုပ်နေတယ်။",
+            "translateEn": "The potter makes a pot out of clay."
+          }
+        },
+        {
+          "paliMm": "ဝဍ္ဎကီ (ပု)",
+          "paliRoman": "Vaḍḍhaki (M)",
+          "translateMm": "လက်သမား",
+          "translateEn": "Carpenter",
+          "example": {
+            "paliMm": "ဝဍ္ဎကီ ကဋ္ဌေန ပီဌံ ကရောတိ။",
+            "paliRoman": "Vaḍḍhaki kaṭṭhena pīṭhaṃ karoti.",
+            "translateMm": "လက်သမားက သစ်သားနဲ့ ခုံ/ကုလားထိုင် ပြုလုပ်နေတယ်။",
+            "translateEn": "The carpenter makes a chair out of wood."
+          }
+        },
+        {
+          "paliMm": "ယောဓ (ပု)",
+          "paliRoman": "Yodha (M)",
+          "translateMm": "စစ်သူကြီး၊ စစ်သား",
+          "translateEn": "Soldier",
+          "example": {
+            "paliMm": "ယောဓော သတ္ထေန ရဋ္ဌံ ရက္ခတိ။",
+            "paliRoman": "Yodho satthena raṭṭhaṃ rakkhati.",
+            "translateMm": "စစ်သားက လက်နက်နဲ့ တိုင်းပြည်ကို ကာကွယ်တယ်။",
+            "translateEn": "The soldier protects the country with a weapon."
+          }
+        },
+        {
+          "paliMm": "ယာစက (ပု)",
+          "paliRoman": "Yācaka (M)",
+          "translateMm": "သူတောင်းစား",
+          "translateEn": "Beggar",
+          "example": {
+            "paliMm": "ယာစကော မဂ္ဂေ အာဟာရံ ယာစာတိ။",
+            "paliRoman": "Yācako magge āhāraṃ yācati.",
+            "translateMm": "သူတောင်းစားက လမ်းပေါ်မှာ အစားအသောက် တောင်းခံနေတယ်။",
+            "translateEn": "The beggar begs for food on the road."
+          }
+        },
+        {
+          "paliMm": "မာလာကာရ (ပု)",
+          "paliRoman": "Mālākāra (M)",
+          "translateMm": "ပန်းသည်၊ ပန်းသီသမား",
+          "translateEn": "Florist, Garland-maker",
+          "example": {
+            "paliMm": "မာလာကာရော ပုပ္ဖေဟိ မာလံ ကရောတိ။",
+            "paliRoman": "Mālākāro pupphehi mālaṃ karoti.",
+            "translateMm": "ပန်းသီသမားက ပန်းတွေနဲ့ ပန်းကုံး ပြုလုပ်နေတယ်။",
+            "translateEn": "The florist makes a garland with flowers."
+          }
+        },
+        {
+          "paliMm": "ဝေဏိက (ပု)",
+          "paliRoman": "Veṇika (M)",
+          "translateMm": "တူရိယာဆရာ၊ စောင်းဆရာ",
+          "translateEn": "Musician, Harpist",
+          "example": {
+            "paliMm": "ဝေဏိကော သရံ နာဒေတိ။",
+            "paliRoman": "Veṇiko saraṃ nādeti.",
+            "translateMm": "စောင်းဆရာက သာယာတဲ့ အသံမြည်အောင် တီးခတ်နေတယ်။",
+            "translateEn": "The harpist plays a melodic tune."
+          }
+        },
+        {
+          "paliMm": "ဒူတ (ပု)",
+          "paliRoman": "Dūta (M)",
+          "translateMm": "တမန်၊ သံတမန်",
+          "translateEn": "Messenger, Envoy",
+          "example": {
+            "paliMm": "ဒူတော ရာဇိနော သာသနံ အာနယတိ။",
+            "paliRoman": "Dūto rājino sāsanaṃ ānayati.",
+            "translateMm": "သံတမန်က မင်းကြီးရဲ့ သဝဏ်လွှာ/သတင်းကို ယူဆောင်လာတယ်။",
+            "translateEn": "The messenger brings the king’s message."
+          }
+        },
+        {
+          "paliMm": "ဂဏက (ပု)",
+          "paliRoman": "Gaṇaka (M)",
+          "translateMm": "ဗေဒင်ဆရာ၊ နက္ခတ်ဆရာ",
+          "translateEn": "Astrologer",
+          "example": {
+            "paliMm": "ဂဏကော နက္ခတ္တံ ပဿတိ။",
+            "paliRoman": "Gaṇako nakkhattaṃ passati.",
+            "translateMm": "ဗေဒင်ဆရာက ကြယ်နက္ခတ်တွေကို စိစစ်ကြည့်ရှုနေတယ်။",
+            "translateEn": "The astrologer examines the stars."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,9 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'dart:convert';
+import 'dart:io';
 
+import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -21,11 +23,8 @@ String _withoutGenderMarker(String paliRoman) =>
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
   setUpAll(() async {
-    final dataJson = await rootBundle.loadString('assets/pali_data.json');
-    final decodedData = jsonDecode(dataJson) as List<dynamic>;
-    appData = decodedData
-        .map((value) => MainCategory.fromJson(value as Map<String, dynamic>))
-        .toList();
+    SharedPreferences.setMockInitialValues({});
+    appData = await AppDataRepository.loadBundled();
   });
 
   test('Family vocabulary includes the requested relatives', () {
@@ -929,7 +928,7 @@ void main() {
     await tester.tap(find.text('Settings'));
     await tester.pumpAndSettle();
     expect(find.byType(Slider), findsOneWidget);
-    await tester.tap(find.byType(SwitchListTile));
+    await tester.tap(find.byType(SwitchListTile).first);
     await tester.pumpAndSettle();
 
     expect(
@@ -972,5 +971,193 @@ void main() {
     expect(find.text('ပိတာ (ပု)'), findsOneWidget);
     final preferences = await SharedPreferences.getInstance();
     expect(preferences.getStringList('saved_pali_words'), contains('Pitā (M)'));
+  });
+
+  test('Data manifest exposes every split data set with a valid hash', () {
+    expect(AppDataRepository.datasets, hasLength(6));
+    for (final dataset in AppDataRepository.datasets) {
+      expect(dataset.sha256, matches(RegExp(r'^[a-f0-9]{64}$')));
+      expect(dataset.bytes, greaterThan(0), reason: dataset.id);
+      expect(
+        AppDataRepository.statusOf(dataset),
+        DatasetStatus.upToDate,
+        reason: dataset.id,
+      );
+    }
+  });
+
+  test('A cached copy older than the manifest is reported as outdated', () async {
+    final original = await rootBundle.loadString('assets/pali_data/nouns.json');
+    final stale = original.replaceFirst(
+      '"titleEn": "Nouns (Nāma)"',
+      '"titleEn": "Nouns (older cached copy)"',
+    );
+    expect(stale, isNot(original));
+    final staleHash = sha256.convert(utf8.encode(stale)).toString();
+
+    SharedPreferences.setMockInitialValues({
+      'pali_dataset_json_nouns': stale,
+      'pali_dataset_sha256_nouns': staleHash,
+    });
+    await AppDataRepository.loadBundled();
+
+    final nouns = AppDataRepository.datasets.firstWhere(
+      (dataset) => dataset.id == 'nouns',
+    );
+    expect(AppDataRepository.hasDownloadedCopy(nouns), isTrue);
+    expect(AppDataRepository.statusOf(nouns), DatasetStatus.updateAvailable);
+    expect(AppDataRepository.updatesAvailable, 1);
+
+    // Restore the pristine bundled state for the tests that follow.
+    SharedPreferences.setMockInitialValues({});
+    await AppDataRepository.loadBundled();
+  });
+
+  test('downloadDataset verifies the hash, caches it and notifies', () async {
+    final bytes = utf8.encode(
+      await rootBundle.loadString('assets/pali_data/dialogues.json'),
+    );
+    final hash = sha256.convert(bytes).toString();
+
+    // The test binding stubs HTTP with status 400; talk to the loopback
+    // server for real instead.
+    final savedOverrides = HttpOverrides.current;
+    HttpOverrides.global = null;
+    final server = await HttpServer.bind(InternetAddress.loopbackIPv4, 0);
+    server.listen((request) {
+      request.response
+        ..statusCode = 200
+        ..add(bytes);
+      request.response.close();
+    });
+
+    final dataset = DatasetInfo(
+      id: 'dialogues_download_test',
+      titleMm: 'စမ်းသပ်',
+      titleEn: 'Dialogue download test',
+      icon: Icons.record_voice_over_rounded,
+      asset: 'assets/pali_data/dialogues.json',
+      url: 'http://127.0.0.1:${server.port}/dialogues.json',
+      sha256: hash,
+      bytes: bytes.length,
+    );
+
+    var notifications = 0;
+    void listener() => notifications++;
+    appDataRevision.addListener(listener);
+    try {
+      expect(
+        AppDataRepository.statusOf(dataset),
+        DatasetStatus.updateAvailable,
+      );
+      expect(await AppDataRepository.downloadDataset(dataset), isTrue);
+      expect(notifications, 1);
+      expect(AppDataRepository.statusOf(dataset), DatasetStatus.upToDate);
+
+      final preferences = await SharedPreferences.getInstance();
+      expect(
+        preferences.getString('pali_dataset_sha256_dialogues_download_test'),
+        hash,
+      );
+      expect(
+        preferences.getString('pali_dataset_json_dialogues_download_test'),
+        isNotNull,
+      );
+
+      // A second call is a no-op because the stored hash already matches.
+      expect(await AppDataRepository.downloadDataset(dataset), isFalse);
+      expect(notifications, 1);
+    } finally {
+      appDataRevision.removeListener(listener);
+      await server.close(force: true);
+      HttpOverrides.global = savedOverrides;
+    }
+  });
+
+  test('downloadDataset rejects a file whose hash does not match', () async {
+    final bytes = utf8.encode(
+      await rootBundle.loadString('assets/pali_data/dialogues.json'),
+    );
+    final savedOverrides = HttpOverrides.current;
+    HttpOverrides.global = null;
+    final server = await HttpServer.bind(InternetAddress.loopbackIPv4, 0);
+    server.listen((request) {
+      request.response
+        ..statusCode = 200
+        ..add(bytes);
+      request.response.close();
+    });
+
+    final dataset = DatasetInfo(
+      id: 'dialogues_bad_hash',
+      titleMm: 'စမ်းသပ်',
+      titleEn: 'Bad hash test',
+      icon: Icons.record_voice_over_rounded,
+      asset: 'assets/pali_data/dialogues.json',
+      url: 'http://127.0.0.1:${server.port}/dialogues.json',
+      sha256: List<String>.filled(64, '0').join(),
+      bytes: bytes.length,
+    );
+
+    try {
+      await expectLater(
+        AppDataRepository.downloadDataset(dataset),
+        throwsA(isA<DataUpdateException>()),
+      );
+      final preferences = await SharedPreferences.getInstance();
+      expect(
+        preferences.getString('pali_dataset_json_dialogues_bad_hash'),
+        isNull,
+      );
+    } finally {
+      await server.close(force: true);
+      HttpOverrides.global = savedOverrides;
+    }
+  });
+
+  testWidgets('Settings shows data downloads and lists every data set', (
+    WidgetTester tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    await tester.pumpWidget(const PaliLearningApp());
+
+    await tester.tap(find.text('မြန်မာ'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Settings'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Data downloads'), findsOneWidget);
+    expect(find.text('Auto update'), findsOneWidget);
+    expect(find.text('All data is up to date'), findsOneWidget);
+
+    await tester.tap(find.text('Data downloads'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Nouns (Nāma)'), findsOneWidget);
+    expect(find.text('Finite Verbs (Ākhyāta)'), findsOneWidget);
+    expect(find.textContaining('sha256'), findsWidgets);
+    expect(find.text('Up to date'), findsWidgets);
+
+    await tester.drag(find.byType(ListView).last, const Offset(0, -400));
+    await tester.pumpAndSettle();
+    expect(find.text('Pāḷi Dialogues'), findsOneWidget);
+  });
+
+  testWidgets('Auto update switch persists the user preference', (
+    WidgetTester tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    await tester.pumpWidget(const PaliLearningApp());
+
+    await tester.tap(find.text('မြန်မာ'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Settings'));
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.text('Auto update'));
+    await tester.pumpAndSettle();
+
+    final preferences = await SharedPreferences.getInstance();
+    expect(preferences.getBool('pali_auto_update_enabled'), isTrue);
   });
 }

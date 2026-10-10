@@ -7,6 +7,10 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
+/// Bumped whenever the in-memory data set changes so widgets can rebuild and
+/// pick up freshly downloaded chapters.
+final ValueNotifier<int> appDataRevision = ValueNotifier<int>(0);
+
 class ExampleSentence {
   final String paliMm;
   final String paliRoman;
@@ -155,96 +159,340 @@ class MainCategory {
   }
 }
 
+/// A single downloadable chapter of the app data.
+///
+/// Data is published as one file per top-level category under
+/// `assets/pali_data/` and indexed by `assets/pali_data_manifest.json`. Each
+/// dataset carries its own SHA-256 so the app can tell whether the copy on
+/// device is older than the one on GitHub and offer only the chapters the user
+/// actually needs.
+class DatasetInfo {
+  final String id;
+  final String titleMm;
+  final String titleEn;
+  final IconData icon;
+  final String asset;
+  final String url;
+  final String sha256;
+  final int bytes;
+
+  const DatasetInfo({
+    required this.id,
+    required this.titleMm,
+    required this.titleEn,
+    required this.icon,
+    required this.asset,
+    required this.url,
+    required this.sha256,
+    required this.bytes,
+  });
+
+  factory DatasetInfo.fromJson(Map<String, dynamic> json) {
+    return DatasetInfo(
+      id: _stringField(json, 'id'),
+      titleMm: _stringField(json, 'titleMm'),
+      titleEn: _stringField(json, 'titleEn'),
+      icon: _iconForName(_stringField(json, 'icon')),
+      asset: _stringField(json, 'asset'),
+      url: _stringField(json, 'url'),
+      sha256: _stringField(json, 'sha256').toLowerCase(),
+      bytes: _intField(json, 'bytes'),
+    );
+  }
+
+  /// Human readable size, e.g. "142 KB".
+  String get sizeLabel {
+    if (bytes < 1024) return '$bytes B';
+    final kb = bytes / 1024;
+    if (kb < 1024) return '${kb.toStringAsFixed(kb < 10 ? 1 : 0)} KB';
+    return '${(kb / 1024).toStringAsFixed(1)} MB';
+  }
+
+  /// First 12 characters of the published hash, shown in the download sheet.
+  String get shortHash =>
+      sha256.length <= 12 ? sha256 : sha256.substring(0, 12);
+}
+
+enum DatasetStatus {
+  /// The copy on device matches the published hash.
+  upToDate,
+
+  /// A newer version is published on GitHub.
+  updateAvailable,
+}
+
+/// Loads, caches and updates the Pāḷi data sets.
+///
+/// The bundle ships every dataset so the app works offline. When GitHub is
+/// reachable the manifest is fetched from `assets/pali_data_manifest.json` and
+/// compared per dataset, letting the user download or update only what they
+/// need. Downloaded datasets are stored in [SharedPreferences] and take
+/// precedence over the bundled copies.
 final class AppDataRepository {
   AppDataRepository._();
 
-  static const _bundledDataAsset = 'assets/pali_data.json';
+  static const _manifestAsset = 'assets/pali_data_manifest.json';
   static const _manifestUrl =
-      'https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data_version.json';
-  static const _cachedDataKey = 'pali_app_data_json';
-  static const _cachedHashKey = 'pali_app_data_sha256';
+      'https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data_manifest.json';
+  static const _cachedJsonPrefix = 'pali_dataset_json_';
+  static const _cachedHashPrefix = 'pali_dataset_sha256_';
+  static const _cachedManifestKey = 'pali_data_manifest_json';
+  static const _autoUpdateKey = 'pali_auto_update_enabled';
   static const _requestTimeout = Duration(seconds: 8);
 
+  static List<DatasetInfo> _datasets = const [];
+  static final Map<String, String> _activeJson = <String, String>{};
+  static final Map<String, String> _activeHash = <String, String>{};
+  static final Map<String, String> _activeSource = <String, String>{};
+  static List<MainCategory> _categories = const [];
+  static bool _autoUpdate = false;
+  static bool _initialized = false;
+
+  static List<DatasetInfo> get datasets => _datasets;
+  static List<MainCategory> get categories => _categories;
+  static bool get autoUpdateEnabled => _autoUpdate;
+  static bool get initialized => _initialized;
+
+  static int get updatesAvailable => _datasets
+      .where((dataset) => statusOf(dataset) == DatasetStatus.updateAvailable)
+      .length;
+
+  static DatasetStatus statusOf(DatasetInfo dataset) =>
+      _activeHash[dataset.id] == dataset.sha256
+      ? DatasetStatus.upToDate
+      : DatasetStatus.updateAvailable;
+
+  /// Whether the on-device copy came from a previous download rather than the
+  /// bundled asset.
+  static bool hasDownloadedCopy(DatasetInfo dataset) {
+    final source = _activeSource[dataset.id];
+    return source == 'cached' || source == 'downloaded';
+  }
+
+  /// Loads the bundled data and, when reachable, checks GitHub for newer
+  /// datasets. Outdated datasets are downloaded automatically only when the
+  /// user enabled auto-update.
   static Future<List<MainCategory>> load() async {
-    final bundledJson = await rootBundle.loadString(_bundledDataAsset);
-    var currentJson = bundledJson;
-    var currentData = _decodeData(bundledJson);
     final preferences = await SharedPreferences.getInstance();
-
-    final cachedJson = preferences.getString(_cachedDataKey);
-    final cachedHash = preferences.getString(_cachedHashKey);
-    if (cachedJson != null &&
-        cachedHash != null &&
-        _sha256(utf8.encode(cachedJson)) == cachedHash) {
-      currentJson = cachedJson;
-      currentData = _decodeData(cachedJson);
+    _autoUpdate = preferences.getBool(_autoUpdateKey) ?? false;
+    _datasets = _parseManifest(await _fetchManifest(preferences));
+    await _resolveDatasets(preferences);
+    if (_autoUpdate) {
+      await _downloadOutdated(preferences);
     }
+    _categories = _buildCategories();
+    _initialized = true;
+    return _categories;
+  }
 
+  /// Loads only the bundled datasets without touching the network. Used by
+  /// tests and by callers that need a guaranteed offline result.
+  static Future<List<MainCategory>> loadBundled() async {
+    final preferences = await SharedPreferences.getInstance();
+    _autoUpdate = preferences.getBool(_autoUpdateKey) ?? false;
+    _datasets = _parseManifest(await rootBundle.loadString(_manifestAsset));
+    await _resolveDatasets(preferences);
+    _categories = _buildCategories();
+    _initialized = true;
+    return _categories;
+  }
+
+  /// Re-reads the manifest and refreshes the per-dataset status without
+  /// downloading anything (unless auto-update is enabled).
+  static Future<void> checkForUpdates() async {
+    final preferences = await SharedPreferences.getInstance();
+    _datasets = _parseManifest(await _fetchManifest(preferences));
+    await _resolveDatasets(preferences);
+    if (_autoUpdate) {
+      await _downloadOutdated(preferences);
+    }
+    _categories = _buildCategories();
+    _initialized = true;
+    _notify();
+  }
+
+  static Future<void> setAutoUpdate(bool enabled) async {
+    _autoUpdate = enabled;
+    final preferences = await SharedPreferences.getInstance();
+    await preferences.setBool(_autoUpdateKey, enabled);
+  }
+
+  /// Downloads (or updates) a single dataset. Throws [DataUpdateException]
+  /// when the file is unreachable or does not match the published hash.
+  static Future<bool> downloadDataset(DatasetInfo dataset) async {
+    final preferences = await SharedPreferences.getInstance();
+    final updated = await _download(dataset, preferences);
+    if (updated) _refresh();
+    return updated;
+  }
+
+  /// Downloads every dataset whose published hash differs from the device
+  /// copy. Returns how many datasets were updated.
+  static Future<int> downloadAllUpdates() async {
+    final preferences = await SharedPreferences.getInstance();
+    var updated = 0;
+    for (final dataset in List<DatasetInfo>.of(_datasets)) {
+      if (statusOf(dataset) != DatasetStatus.updateAvailable) continue;
+      try {
+        if (await _download(dataset, preferences)) updated++;
+      } on Object catch (error) {
+        debugPrint('Updating "${dataset.id}" failed: $error');
+      }
+    }
+    if (updated > 0) _refresh();
+    return updated;
+  }
+
+  static Future<String> _fetchManifest(SharedPreferences preferences) async {
+    final bundled = await rootBundle.loadString(_manifestAsset);
     try {
-      final manifestResponse = await http
+      final response = await http
           .get(Uri.parse(_manifestUrl))
           .timeout(_requestTimeout);
-      if (manifestResponse.statusCode != 200) {
+      if (response.statusCode != 200) {
         throw DataUpdateException(
-          'Manifest request returned HTTP ${manifestResponse.statusCode}.',
+          'Manifest request returned HTTP ${response.statusCode}.',
         );
       }
-
-      final manifestJson = jsonDecode(utf8.decode(manifestResponse.bodyBytes));
-      final manifest = _object(manifestJson, 'manifest');
-      final expectedHash = _stringField(manifest, 'sha256').toLowerCase();
-      final dataUrl = _stringField(manifest, 'dataUrl');
-      if (!RegExp(r'^[a-f0-9]{64}$').hasMatch(expectedHash)) {
-        throw const FormatException(
-          'Manifest sha256 must be a SHA-256 hex digest.',
-        );
-      }
-
-      if (_sha256(utf8.encode(currentJson)) != expectedHash) {
-        final dataResponse = await http
-            .get(Uri.parse(dataUrl))
-            .timeout(_requestTimeout);
-        if (dataResponse.statusCode != 200) {
-          throw DataUpdateException(
-            'Data request returned HTTP ${dataResponse.statusCode}.',
-          );
-        }
-        final downloadedHash = _sha256(dataResponse.bodyBytes);
-        if (downloadedHash != expectedHash) {
-          throw DataUpdateException(
-            'Downloaded data SHA-256 does not match the manifest.',
-          );
-        }
-
-        final downloadedJson = utf8.decode(dataResponse.bodyBytes);
-        final downloadedData = _decodeData(downloadedJson);
-        await preferences.setString(_cachedDataKey, downloadedJson);
-        await preferences.setString(_cachedHashKey, downloadedHash);
-        currentJson = downloadedJson;
-        currentData = downloadedData;
-      }
+      final manifestJson = utf8.decode(response.bodyBytes);
+      _parseManifest(manifestJson); // Validate before trusting the manifest.
+      await preferences.setString(_cachedManifestKey, manifestJson);
+      return manifestJson;
     } on http.ClientException catch (error) {
-      debugPrint('Pāḷi data update failed: $error');
+      debugPrint('Pāḷi manifest update failed: $error');
     } on TimeoutException catch (error) {
-      debugPrint('Pāḷi data update timed out: $error');
+      debugPrint('Pāḷi manifest update timed out: $error');
     } on FormatException catch (error) {
-      debugPrint('Pāḷi data update has an invalid JSON format: $error');
+      debugPrint('Pāḷi manifest has an invalid format: $error');
     } on DataUpdateException catch (error) {
-      debugPrint('Pāḷi data update failed: $error');
+      debugPrint('Pāḷi manifest update failed: $error');
     }
 
-    return currentData;
+    // Prefer the last manifest seen from GitHub over the bundled one: a data
+    // set the user already downloaded stays "up to date" when the app starts
+    // offline instead of looking older than the shipped bundle.
+    final cached = preferences.getString(_cachedManifestKey);
+    if (cached != null) {
+      try {
+        _parseManifest(cached);
+        return cached;
+      } on FormatException catch (error) {
+        debugPrint('Ignoring unreadable cached manifest: $error');
+      }
+    }
+    return bundled;
   }
 
-  static List<MainCategory> _decodeData(String source) {
+  static List<DatasetInfo> _parseManifest(String source) {
     final decoded = jsonDecode(source);
-    return _array(
-      decoded,
-      'data',
-    ).map((value) => MainCategory.fromJson(_object(value, 'data[]'))).toList();
+    final manifest = _object(decoded, 'manifest');
+    final datasets = _array(manifest['datasets'], 'datasets')
+        .map((value) => DatasetInfo.fromJson(_object(value, 'datasets[]')))
+        .toList();
+    if (datasets.isEmpty) {
+      throw const FormatException('Manifest does not list any datasets.');
+    }
+    for (final dataset in datasets) {
+      if (!RegExp(r'^[a-f0-9]{64}$').hasMatch(dataset.sha256)) {
+        throw FormatException(
+          'Dataset "${dataset.id}" sha256 must be a SHA-256 hex digest.',
+        );
+      }
+      if (dataset.url.startsWith('http') == false) {
+        throw FormatException('Dataset "${dataset.id}" url must be absolute.');
+      }
+    }
+    return datasets;
   }
+
+  static Future<void> _resolveDatasets(SharedPreferences preferences) async {
+    for (final dataset in _datasets) {
+      final bundledJson = await rootBundle.loadString(dataset.asset);
+      final bundledHash = _sha256(utf8.encode(bundledJson));
+      final cachedJson = preferences.getString('$_cachedJsonPrefix${dataset.id}');
+      final cachedHash = preferences.getString('$_cachedHashPrefix${dataset.id}');
+      if (cachedJson != null &&
+          cachedHash != null &&
+          _sha256(utf8.encode(cachedJson)) == cachedHash &&
+          _isReadable(cachedJson)) {
+        _setActive(dataset.id, cachedJson, cachedHash, 'cached');
+      } else {
+        _setActive(dataset.id, bundledJson, bundledHash, 'bundled');
+      }
+    }
+  }
+
+  static bool _isReadable(String source) {
+    try {
+      MainCategory.fromJson(_object(jsonDecode(source), 'dataset'));
+      return true;
+    } on FormatException catch (error) {
+      debugPrint('Ignoring unreadable cached data set: $error');
+      return false;
+    }
+  }
+
+  static Future<void> _downloadOutdated(SharedPreferences preferences) async {
+    for (final dataset in List<DatasetInfo>.of(_datasets)) {
+      if (statusOf(dataset) != DatasetStatus.updateAvailable) continue;
+      try {
+        await _download(dataset, preferences);
+      } on Object catch (error) {
+        debugPrint('Auto-update of "${dataset.id}" failed: $error');
+      }
+    }
+  }
+
+  static Future<bool> _download(
+    DatasetInfo dataset,
+    SharedPreferences preferences,
+  ) async {
+    if (statusOf(dataset) == DatasetStatus.upToDate) return false;
+    final response = await http
+        .get(Uri.parse(dataset.url))
+        .timeout(_requestTimeout);
+    if (response.statusCode != 200) {
+      throw DataUpdateException(
+        '"${dataset.id}" request returned HTTP ${response.statusCode}.',
+      );
+    }
+    final bytes = response.bodyBytes;
+    final downloadedHash = _sha256(bytes);
+    if (downloadedHash != dataset.sha256) {
+      throw DataUpdateException(
+        '"${dataset.id}" SHA-256 does not match the manifest.',
+      );
+    }
+    final downloadedJson = utf8.decode(bytes);
+    MainCategory.fromJson(_object(jsonDecode(downloadedJson), 'dataset'));
+    await preferences.setString('$_cachedJsonPrefix${dataset.id}', downloadedJson);
+    await preferences.setString('$_cachedHashPrefix${dataset.id}', downloadedHash);
+    _setActive(dataset.id, downloadedJson, downloadedHash, 'downloaded');
+    return true;
+  }
+
+  static void _setActive(String id, String json, String hash, String source) {
+    _activeJson[id] = json;
+    _activeHash[id] = hash;
+    _activeSource[id] = source;
+  }
+
+  static List<MainCategory> _buildCategories() => [
+    for (final dataset in _datasets)
+      if (_activeJson[dataset.id] != null)
+        MainCategory.fromJson(_object(jsonDecode(_activeJson[dataset.id]!), 'dataset')),
+  ];
 
   static String _sha256(List<int> bytes) => sha256.convert(bytes).toString();
+
+  /// Rebuilds the in-memory categories after a data set changes so the UI
+  /// switches over to the freshly downloaded chapters immediately.
+  static void _refresh() {
+    _categories = _buildCategories();
+    _notify();
+  }
+
+  static void _notify() => appDataRevision.value++;
 }
 
 class DataUpdateException implements Exception {
@@ -276,6 +524,13 @@ String _stringField(Map<String, dynamic> json, String field) {
     throw FormatException('$field must be a string.');
   }
   return value;
+}
+
+int _intField(Map<String, dynamic> json, String field) {
+  final value = json[field];
+  if (value is int) return value;
+  if (value is num) return value.toInt();
+  throw FormatException('$field must be an integer.');
 }
 
 IconData _iconForName(String name) => switch (name) {

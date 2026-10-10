@@ -1,0 +1,1153 @@
+{
+  "titleMm": "နိပါတ်ပုဒ်များ",
+  "titleEn": "Invariable Words & Particles (Nipāta)",
+  "icon": "auto_awesome_mosaic_rounded",
+  "subCategories": [
+    {
+      "titleMm": "ကာလပြနိပါတ်ပုဒ်များ",
+      "titleEn": "Time Particles",
+      "vocabList": [
+        {
+          "paliMm": "အဇ္ဇ",
+          "paliRoman": "Ajja",
+          "translateMm": "ယနေ့",
+          "translateEn": "Today",
+          "example": {
+            "paliMm": "အဇ္ဇ အဟံ သတ္ထာလယံ ဂစ္ဆာမိ။",
+            "paliRoman": "Ajja ahaṃ satthālayaṃ gacchāmi.",
+            "translateMm": "ယနေ့ ငါသည် ကျောင်းသို့ သွား၏။",
+            "translateEn": "Today I go to school."
+          }
+        },
+        {
+          "paliMm": "ဟိယျော",
+          "paliRoman": "Hiyyo",
+          "translateMm": "မနေ့က",
+          "translateEn": "Yesterday",
+          "example": {
+            "paliMm": "ဟိယျော သိဿော အာဂတော။",
+            "paliRoman": "Hiyyo sisso āgato.",
+            "translateMm": "မနေ့က ကျောင်းသားသည် လာခဲ့၏။",
+            "translateEn": "Yesterday the student came."
+          }
+        },
+        {
+          "paliMm": "သုဝေ",
+          "paliRoman": "Suve",
+          "translateMm": "မနက်ဖြန်၌",
+          "translateEn": "Tomorrow",
+          "example": {
+            "paliMm": "သိဿော သုဝေ နဂရံ ဂစ္ဆတိ။",
+            "paliRoman": "Sisso suve nagaraṃ gacchati.",
+            "translateMm": "ကျောင်းသားသည် မနက်ဖြန်၌ မြို့သို့ သွား၏။",
+            "translateEn": "The student goes to the city tomorrow."
+          }
+        },
+        {
+          "paliMm": "သဒါ",
+          "paliRoman": "Sadā",
+          "translateMm": "အမြဲ / အခါတိုင်း",
+          "translateEn": "Always",
+          "example": {
+            "paliMm": "ပဏ္ဍိတော သဒါ သစ္စံ ဝဒတိ။",
+            "paliRoman": "Paṇḍito sadā saccaṃ vadati.",
+            "translateMm": "ပညာရှိသည် အခါတိုင်း အမှန်ကို ပြောဆို၏။",
+            "translateEn": "The wise person always speaks the truth."
+          }
+        },
+        {
+          "paliMm": "ဣဒါနိ",
+          "paliRoman": "Idāni",
+          "translateMm": "ယခုအခါ",
+          "translateEn": "Now",
+          "example": {
+            "paliMm": "ဣဒါနိ သိဿော ပါဠိဘာသံ သိက္ခတိ။",
+            "paliRoman": "Idāni sisso pāḷibhāsaṃ sikkhati.",
+            "translateMm": "ယခုအခါ ကျောင်းသားသည် ပါဠိဘာသာကို သင်ယူ၏။",
+            "translateEn": "Now the student learns the Pali language."
+          }
+        },
+        {
+          "paliMm": "ပုဗ္ဗေ",
+          "paliRoman": "Pubbe",
+          "translateMm": "ရှေးက / အတိတ်၌",
+          "translateEn": "Formerly / In the past",
+          "example": {
+            "paliMm": "ပုဗ္ဗေ သုကတံ ကမ္မံ သုခဖလံ ဒေတိ။",
+            "paliRoman": "Pubbe sukataṃ kammaṃ sukhaphalaṃ deti.",
+            "translateMm": "ရှေးက ကောင်းစွာ ပြုအပ်သော ကံသည် ချမ်းသာသော အကျိုးကို ပေး၏။",
+            "translateEn": "A good deed done in the past yields a happy result."
+          }
+        },
+        {
+          "paliMm": "ပါတော",
+          "paliRoman": "Pāto",
+          "translateMm": "နံနက်စောစော၌",
+          "translateEn": "Early in the morning",
+          "example": {
+            "paliMm": "ပထိကော ပါတော နိက္ခမတိ။",
+            "paliRoman": "Pathiko pāto nikkhamati.",
+            "translateMm": "ခရီးသည်သည် နံနက်စောစော၌ ထွက်ခွာ၏။",
+            "translateEn": "The traveler departs early in the morning."
+          }
+        },
+        {
+          "paliMm": "သာယံ",
+          "paliRoman": "Sāyaṃ",
+          "translateMm": "ညနေချမ်း၌",
+          "translateEn": "In the evening",
+          "example": {
+            "paliMm": "သိဿော သာယံ ဂေဟံ နိဝတ္တတိ။",
+            "paliRoman": "Sisso sāyaṃ gehaṃ nivattati.",
+            "translateMm": "ကျောင်းသားသည် ညနေချမ်း၌ အိမ်သို့ ပြန်လာ၏။",
+            "translateEn": "The student returns home in the evening."
+          }
+        },
+        {
+          "paliMm": "ဒိဝါ",
+          "paliRoman": "Divā",
+          "translateMm": "နေ့အခါ၌",
+          "translateEn": "During the day",
+          "example": {
+            "paliMm": "ဇနော ဒိဝါ ကမ္မံ ကရောတိ။",
+            "paliRoman": "Jano divā kammaṃ karoti.",
+            "translateMm": "လူသည် နေ့အခါ၌ အလုပ်လုပ်၏။",
+            "translateEn": "The person works during the day."
+          }
+        },
+        {
+          "paliMm": "ရတ္တိံ",
+          "paliRoman": "Rattiṃ",
+          "translateMm": "ညဉ့်အခါ၌",
+          "translateEn": "At night",
+          "example": {
+            "paliMm": "ယတိ ရတ္တိံ ဓမ္မံ ဈာယတိ။",
+            "paliRoman": "Yati rattiṃ dhammaṃ jhāyati.",
+            "translateMm": "ရဟန်းသည် ညဉ့်အခါ၌ တရားဓမ္မကို ရှုမှတ်ပွားများ၏။",
+            "translateEn": "The monk meditates at night."
+          }
+        },
+        {
+          "paliMm": "သဗ္ဗဒါ",
+          "paliRoman": "Sabbadā",
+          "translateMm": "အခါခပ်သိမ်း",
+          "translateEn": "Always, all the time",
+          "example": {
+            "paliMm": "ပဏ္ဍိတော သဗ္ဗဒါ အပ္ပမတ္တော ဟောတိ။",
+            "paliRoman": "Paṇḍito sabbadā appamatto hoti.",
+            "translateMm": "ပညာရှိသည် အခါခပ်သိမ်း မမေ့မလျော့သောသူ ဖြစ်၏။",
+            "translateEn": "The wise person is always mindful."
+          }
+        },
+        {
+          "paliMm": "ကဒါစိ",
+          "paliRoman": "Kadāci",
+          "translateMm": "အခါတစ်ရံ",
+          "translateEn": "Sometimes, occasionally",
+          "example": {
+            "paliMm": "သော ကဒါစိ ဣဓ အာဂစ္ဆတိ။",
+            "paliRoman": "So kadāci idha āgacchati.",
+            "translateMm": "သူသည် အခါတစ်ရံ ဒီနေရာသို့ လာ၏။",
+            "translateEn": "He comes here sometimes."
+          }
+        },
+        {
+          "paliMm": "သမ္ပတိ",
+          "paliRoman": "Sampati",
+          "translateMm": "ယခုအခါ၌ / အခုတင်",
+          "translateEn": "Just now, presently",
+          "example": {
+            "paliMm": "အာစရိယော သမ္ပတိ ဓမ္မံ ဒေသေတိ။",
+            "paliRoman": "Ācariyo sampati dhammaṃ deseti.",
+            "translateMm": "ဆရာသည် ယခုအခါ၌ တရားဟောကြား၏။",
+            "translateEn": "The teacher preaches the Dhamma just now."
+          }
+        },
+        {
+          "paliMm": "အာယတိံ",
+          "paliRoman": "Āyatiṃ",
+          "translateMm": "နောင်အခါ၌ / နောင်အနာဂတ်၌",
+          "translateEn": "In the future",
+          "example": {
+            "paliMm": "သာဓုဇနော အာယတိံ ကုသလံ ကရိဿတိ။",
+            "paliRoman": "Sādhujano āyatiṃ kusalaṃ karissati.",
+            "translateMm": "သူတော်ကောင်းသည် နောင်အခါ၌ ကုသိုလ်ပြုလိမ့်မယ်။",
+            "translateEn": "The virtuous person will do good deeds in the future."
+          }
+        },
+        {
+          "paliMm": "ဧတရဟိ",
+          "paliRoman": "Etarahi",
+          "translateMm": "ယခုအခါ၌",
+          "translateEn": "At present, nowadays",
+          "example": {
+            "paliMm": "ဇနာ ဧတရဟိ သုခေန ဝသန္တိ။",
+            "paliRoman": "Janā etarahi sukhena vasanti.",
+            "translateMm": "လူတို့သည် ယခုအခါ၌ ချမ်းသာစွာ နေထိုင်ကြ၏။",
+            "translateEn": "People live happily nowadays."
+          }
+        },
+        {
+          "paliMm": "တာဝ",
+          "paliRoman": "Tāva",
+          "translateMm": "ထိုမျှလောက် / ခေတ္တမျှ",
+          "translateEn": "For the time being, so long",
+          "example": {
+            "paliMm": "တွံ တာဝ ဣဓ တိဋ္ဌ။",
+            "paliRoman": "Tvaṃ tāva idha tiṭṭha.",
+            "translateMm": "သင်သည် ခေတ္တမျှ ဒီမှာ ရပ်နားပါ။",
+            "translateEn": "You stay here for the time being."
+          }
+        },
+        {
+          "paliMm": "သယံ",
+          "paliRoman": "Sayaṃ",
+          "translateMm": "မိမိကိုယ်တိုင် / ညနေ၌",
+          "translateEn": "By oneself / In the evening",
+          "example": {
+            "paliMm": "သိဿော သယံ ကမ္မံ ကရောတိ။",
+            "paliRoman": "Sisso sayaṃ kammaṃ karoti.",
+            "translateMm": "ကျောင်းသားသည် မိမိကိုယ်တိုင် အလုပ်ကို ပြုလုပ်၏။",
+            "translateEn": "The student does the work by himself."
+          }
+        },
+        {
+          "paliMm": "ပစ္ဆာ",
+          "paliRoman": "Pacchā",
+          "translateMm": "နောက်၌ / နောင်အခါ",
+          "translateEn": "Afterwards, later on",
+          "example": {
+            "paliMm": "သော ပစ္ဆာ အနုတာပေတိ။",
+            "paliRoman": "So pacchā anutāpeti.",
+            "translateMm": "သူသည် နောက်အခါ၌ နောင်တရ၏။",
+            "translateEn": "He regrets later on."
+          }
+        },
+        {
+          "paliMm": "စိရံ",
+          "paliRoman": "Ciraṃ",
+          "translateMm": "ရှည်လျားသော ကာလပတ်လုံး",
+          "translateEn": "For a long time",
+          "example": {
+            "paliMm": "သဒ္ဓမ္မော စိရံ တိဋ္ဌတု။",
+            "paliRoman": "Saddhammo ciraṃ tiṭṭhatu.",
+            "translateMm": "သူတော်ကောင်းတရားသည် ရှည်လျားသော ကာလပတ်လုံး တည်တံ့ပါစေ။",
+            "translateEn": "May the true Dhamma endure for a long time."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "အခြေအနေပြနိပါတ်ပုဒ်များ",
+      "titleEn": "Manner Particles",
+      "vocabList": [
+        {
+          "paliMm": "ဧဝံ",
+          "paliRoman": "Evaṃ",
+          "translateMm": "ဤသို့ / ဤကဲ့သို့",
+          "translateEn": "Thus / In this way",
+          "example": {
+            "paliMm": "ဧဝံ မေ သုတံ။",
+            "paliRoman": "Evaṃ me sutaṃ.",
+            "translateMm": "အကျွန်ုပ်သည် ဤသို့ ကြားနာခဲ့ရပါ၏။",
+            "translateEn": "Thus have I heard."
+          }
+        },
+        {
+          "paliMm": "ကထံ",
+          "paliRoman": "Kathaṃ",
+          "translateMm": "မည်သို့ / ဘယ်လို",
+          "translateEn": "How / In what way",
+          "example": {
+            "paliMm": "တွံ ကထံ ပါဠိဘာသံ သိက္ခသိ?",
+            "paliRoman": "Tvaṃ kathaṃ pāḷibhāsaṃ sikkhasi?",
+            "translateMm": "သင်သည် ပါဠိဘာသာစကားကို မည်သို့ လေ့လာသင်ယူသနည်း။",
+            "translateEn": "How do you learn the Pali language?"
+          }
+        },
+        {
+          "paliMm": "သဟသာ",
+          "paliRoman": "Sahasā",
+          "translateMm": "ရုတ်တရက် / စေ့စပ်မှုမရှိဘဲ",
+          "translateEn": "Suddenly / Rashly",
+          "example": {
+            "paliMm": "ပဏ္ဍိတော ကိစ္စံ သဟသာ န ကရောတိ။",
+            "paliRoman": "Paṇḍito kiccaṃ sahasā na karoti.",
+            "translateMm": "ပညာရှိသည် အလုပ်ကို စေ့စပ်မှုမရှိဘဲ မပြုလုပ်။",
+            "translateEn": "A wise person does not act rashly."
+          }
+        },
+        {
+          "paliMm": "ပုန",
+          "paliRoman": "Puna",
+          "translateMm": "ထပ်မံ၍ / နောက်တစ်ကြိမ်",
+          "translateEn": "Again",
+          "example": {
+            "paliMm": "သိဿော ပေါတ္ထကံ ပုန ပဌတိ။",
+            "paliRoman": "Sisso potthakaṃ puna paṭhati.",
+            "translateMm": "ကျောင်းသားသည် စာအုပ်ကို ထပ်မံ၍ ဖတ်၏။",
+            "translateEn": "The student reads the book again."
+          }
+        },
+        {
+          "paliMm": "သီဃံ",
+          "paliRoman": "Sīghaṃ",
+          "translateMm": "လျင်မြန်စွာ",
+          "translateEn": "Quickly, fast",
+          "example": {
+            "paliMm": "ယာနံ သီဃံ အာဂစ္ဆတိ။",
+            "paliRoman": "Yānaṃ sīghaṃ āgacchati.",
+            "translateMm": "ယာဉ်သည် လျင်မြန်စွာ လာ၏။",
+            "translateEn": "The vehicle comes quickly."
+          }
+        },
+        {
+          "paliMm": "သဏိကံ",
+          "paliRoman": "Saṇikaṃ",
+          "translateMm": "ဖြည်းဖြည်း / စိစစ်စွာ",
+          "translateEn": "Slowly, carefully",
+          "example": {
+            "paliMm": "ပဏ္ဍိတော သဏိကံ ဝိစိနောတိ။",
+            "paliRoman": "Paṇḍito saṇikaṃ vicināti.",
+            "translateMm": "ပညာရှိသည် ဖြည်းဖြည်းစိစစ်၍ သုတေသနပြု၏။",
+            "translateEn": "The scholar investigates carefully."
+          }
+        },
+        {
+          "paliMm": "သုဋ္ဌု",
+          "paliRoman": "Suṭṭhu",
+          "translateMm": "ကောင်းစွာ / နိုင်နင်းစွာ",
+          "translateEn": "Well, thoroughly",
+          "example": {
+            "paliMm": "ဝိညူ ဓမ္မံ သုဋ္ဌု ဝိပဿတိ။",
+            "paliRoman": "Viññū dhammaṃ suṭṭhu vipassati.",
+            "translateMm": "ပညာရှိသည် သဘောတရားကို ကောင်းစွာ လေ့လာသုံးသပ်၏။",
+            "translateEn": "The wise person observes the phenomenon thoroughly."
+          }
+        },
+        {
+          "paliMm": "သုခေန",
+          "paliRoman": "Sukhena",
+          "translateMm": "ချမ်းသာစွာ / လွယ်ကူစွာ",
+          "translateEn": "Happily, easily",
+          "example": {
+            "paliMm": "ဇနာ သုခေန ဝသန္တိ။",
+            "paliRoman": "Janā sukhena vasanti.",
+            "translateMm": "လူတို့သည် ချမ်းသာစွာ နေထိုင်ကြ၏။",
+            "translateEn": "People live happily."
+          }
+        },
+        {
+          "paliMm": "ဒုက္ခေန",
+          "paliRoman": "Dukkhena",
+          "translateMm": "ဆင်းရဲစွာ / ခက်ခဲစွာ",
+          "translateEn": "With difficulty, painfully",
+          "example": {
+            "paliMm": "သော ဒုက္ခေန မဂ္ဂံ ဂစ္ဆတိ။",
+            "paliRoman": "So dukkhena maggaṃ gacchati.",
+            "translateMm": "သူသည် ခက်ခဲဆင်းရဲစွာ လမ်းခရီးသို့ သွား၏။",
+            "translateEn": "He travels the road with difficulty."
+          }
+        },
+        {
+          "paliMm": "သဗ္ဗထာ",
+          "paliRoman": "Sabbathā",
+          "translateMm": "အလုံးစုံသော နည်းဖြင့် / တိုင်း",
+          "translateEn": "In every way, completely",
+          "example": {
+            "paliMm": "သိဿော သဗ္ဗထာ ကိစ္စံ သမ္ပာဒေတိ။",
+            "paliRoman": "Sisso sabbathā kiccaṃ sampādeti.",
+            "translateMm": "ကျောင်းသားသည် အလုံးစုံသော နည်းလမ်းဖြင့် တာဝန်ကို ပြီးမြောက်အောင် ဆောင်ရွက်၏။",
+            "translateEn": "The student completes the duty in every way."
+          }
+        },
+        {
+          "paliMm": "သယံ",
+          "paliRoman": "Sayaṃ",
+          "translateMm": "ကိုယ်တိုင် / မိမိဘာသာ",
+          "translateEn": "By oneself, personally",
+          "example": {
+            "paliMm": "လေခကော သယံ လိခတိ။",
+            "paliRoman": "Lekhako sayaṃ cāmūṃ likhati.",
+            "translateMm": "စာရေးသူသည် မိမိကိုယ်တိုင် ရေးသား၏။",
+            "translateEn": "The writer writes by himself."
+          }
+        },
+        {
+          "paliMm": "မုသာ",
+          "paliRoman": "Musā",
+          "translateMm": "မဟုတ်မမှန် / မုသာဝါဒဖြင့်",
+          "translateEn": "Falsely, untruthfully",
+          "example": {
+            "paliMm": "ဒုဇ္ဇနော မုသာ ဘာသတိ။",
+            "paliRoman": "Dujjano musā bhāsati.",
+            "translateMm": "သူယုတ်မာသည် မဟုတ်မမှန် စကားကို ပြောဆို၏။",
+            "translateEn": "The bad person speaks falsely."
+          }
+        },
+        {
+          "paliMm": "သစ္စံ",
+          "paliRoman": "Saccaṃ",
+          "translateMm": "အမှန်အတိုင်း / စိစစ်စွာ",
+          "translateEn": "Truly, truthfully",
+          "example": {
+            "paliMm": "ဂန္ထကာရော သစ္စံ နိဒ္ဒိသတိ။",
+            "paliRoman": "Ganthakāro saccaṃ niddisati.",
+            "translateMm": "စာရေးဆရာသည် အမှန်အတိုင်း ညွှန်ပြဖော်ပြ၏။",
+            "translateEn": "The author indicates truthfully."
+          }
+        },
+        {
+          "paliMm": "ပုနပ္ပုနံ",
+          "paliRoman": "Punappunaṃ",
+          "translateMm": "ဖန်ဖန် / အထပ်ထပ်",
+          "translateEn": "Repeatedly, again and again",
+          "example": {
+            "paliMm": "သိဿော ပုနပ္ပုနံ ဂန္ထံ ပဌတိ။",
+            "paliRoman": "Sisso punappunaṃ ganthaṃ paṭhati.",
+            "translateMm": "ကျောင်းသားသည် ကျမ်းဂန်ကို အထပ်ထပ် ဖတ်ရှုလေ့လာ၏။",
+            "translateEn": "The student reads the text repeatedly."
+          }
+        },
+        {
+          "paliMm": "အထ",
+          "paliRoman": "Atha",
+          "translateMm": "ထို့နောက်",
+          "translateEn": "Then / Thereupon",
+          "example": {
+            "paliMm": "အထ အာစရိယော သုတ္တံ ဝါစေတိ။",
+            "paliRoman": "Atha ācariyo suttaṃ vāceti.",
+            "translateMm": "ထို့နောက် ဆရာသည် သုတ်ဒေသနာကို သင်ကြားပေး၏။",
+            "translateEn": "Then the teacher teaches the discourse."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "နေရာဒေသပြနိပါတ်ပုဒ်များ",
+      "titleEn": "Place Particles",
+      "vocabList": [
+        {
+          "paliMm": "ဣဓ",
+          "paliRoman": "Idha",
+          "translateMm": "ဤနေရာ၌",
+          "translateEn": "Here",
+          "example": {
+            "paliMm": "အာစရိယော ဣဓ ဝသတိ။",
+            "paliRoman": "Ācariyo idha vasati.",
+            "translateMm": "ဆရာသည် ဤနေရာ၌ နေထိုင်၏။",
+            "translateEn": "The teacher lives here."
+          }
+        },
+        {
+          "paliMm": "တတ္ထ / တဟိံ",
+          "paliRoman": "Tattha / Tahiṃ",
+          "translateMm": "ထိုနေရာ၌",
+          "translateEn": "There",
+          "example": {
+            "paliMm": "သိဿော တတ္ထ ဂစ္ဆတိ။",
+            "paliRoman": "Sisso tattha gacchati.",
+            "translateMm": "ကျောင်းသားသည် ထိုနေရာသို့ သွား၏။",
+            "translateEn": "The student goes there."
+          }
+        },
+        {
+          "paliMm": "အညတ္ထ",
+          "paliRoman": "Aññattha",
+          "translateMm": "အခြားနေရာ၌",
+          "translateEn": "Elsewhere",
+          "example": {
+            "paliMm": "ပထိကော အညတ္ထ ဝိဿမတိ။",
+            "paliRoman": "Pathikko aññattha vissamati.",
+            "translateMm": "ခရီးသည်သည် အခြားနေရာ၌ အနားယူ၏။",
+            "translateEn": "The traveler rests elsewhere."
+          }
+        },
+        {
+          "paliMm": "သဗ္ဗတ္ထ",
+          "paliRoman": "Sabbattha",
+          "translateMm": "ခပ်သိမ်းသော နေရာ၌",
+          "translateEn": "Everywhere",
+          "example": {
+            "paliMm": "ဗုဒ္ဓရံသီ သဗ္ဗတ္ထ ဖရတိ။",
+            "paliRoman": "Buddharaṃsī sabbattha pharati.",
+            "translateMm": "ဘုရားရောင်ခြည်တော်သည် ခပ်သိမ်းသော နေရာသို့ ပျံ့နှံ့၏။",
+            "translateEn": "The Buddha's rays spread everywhere."
+          }
+        },
+        {
+          "paliMm": "ကတ္ထ / ကုဟိံ",
+          "paliRoman": "Kattha / Kuhiṃ",
+          "translateMm": "အဘယ်နေရာ၌",
+          "translateEn": "Where",
+          "example": {
+            "paliMm": "တွံ ကတ္ထ ဂစ္ဆသိ။",
+            "paliRoman": "Tvaṃ kattha gacchasi.",
+            "translateMm": "သင်သည် အဘယ်နေရာသို့ သွားသနည်း။",
+            "translateEn": "Where are you going?"
+          }
+        },
+        {
+          "paliMm": "ဥပရိ",
+          "paliRoman": "Upari",
+          "translateMm": "အထက်၌ / အပေါ်၌",
+          "translateEn": "Above, on top of",
+          "example": {
+            "paliMm": "သကုဏော ရုက္ခဿ ဥပရိ နိသီဒတိ။",
+            "paliRoman": "Sakuṇo rukkhassa upari nisīdati.",
+            "translateMm": "ငှက်သည် သစ်ပင်၏ အပေါ်၌ ထိုင်၏။",
+            "translateEn": "The bird sits on top of the tree."
+          }
+        },
+        {
+          "paliMm": "အဓော",
+          "paliRoman": "Adho",
+          "translateMm": "အောက်၌",
+          "translateEn": "Below, underneath",
+          "example": {
+            "paliMm": "ပုရိသော ရုက္ခဿ အဓော တိဋ္ဌတိ။",
+            "paliRoman": "Puriso rukkhassa adho tiṭṭhati.",
+            "translateMm": "ယောက်ျားသည် သစ်ပင်၏ အောက်၌ ရပ်နား၏။",
+            "translateEn": "The man stands under the tree."
+          }
+        },
+        {
+          "paliMm": "အန္တော",
+          "paliRoman": "Anto",
+          "translateMm": "အတွင်း၌",
+          "translateEn": "Inside, within",
+          "example": {
+            "paliMm": "ဇနာ ဝိဟာရဿ အန္တော နိသီဒန္တိ။",
+            "paliRoman": "Janā vihārassa anto nisīdanti.",
+            "translateMm": "လူတို့သည် ကျောင်းတိုက်၏ အတွင်း၌ ထိုင်ကြ၏။",
+            "translateEn": "People sit inside the monastery."
+          }
+        },
+        {
+          "paliMm": "ဗဟိ",
+          "paliRoman": "Bahi",
+          "translateMm": "အပြင်၌",
+          "translateEn": "Outside",
+          "example": {
+            "paliMm": "ဒါရကော ဂဟဿ ဗဟိ ကီဠတိ။",
+            "paliRoman": "Dārako gahassa bahi kīḷati.",
+            "translateMm": "ကလေးသည် အိမ်၏ အပြင်၌ ဆော့ကစား၏။",
+            "translateEn": "The child plays outside the house."
+          }
+        },
+        {
+          "paliMm": "သမန္တာ",
+          "paliRoman": "Samantā",
+          "translateMm": "ပတ်ဝန်းကျင်၌ / အနီးအပါး၌",
+          "translateEn": "All around, everywhere around",
+          "example": {
+            "paliMm": "သမန္တာ ရမ္မဏီယာ ဝနရာဇီ ပဿတိ။",
+            "paliRoman": "Samantā ramaṇīyā vanarājī passati.",
+            "translateMm": "ပတ်ဝန်းကျင်၌ သာယာဖွယ်ရာ တောအုပ်တန်းကို မြင်တွေ့ရ၏။",
+            "translateEn": "One sees pleasant forest ranges all around."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "အကြောင်းရင်းပြ နိပါတ်ပုဒ်များ",
+      "titleEn": "Causal Particles",
+      "vocabList": [
+        {
+          "paliMm": "ဟိ",
+          "paliRoman": "Hi",
+          "translateMm": "အဘယ့်ကြောင့်ဆိုသော်",
+          "translateEn": "For, because",
+          "example": {
+            "paliMm": "သော သုခံ ဝိန္ဒတိ၊ သုစရိတံ ဟိ ကရောတိ။",
+            "paliRoman": "So sukhaṃ vindati, sucaritaṃ hi karoti.",
+            "translateMm": "သူသည် ချမ်းသာကို ရ၏၊ အဘယ့်ကြောင့်ဆိုသော် သုစရိုက်တရားကို ပြုသောကြောင့်တည်း။",
+            "translateEn": "He finds happiness, for he does good deeds."
+          }
+        },
+        {
+          "paliMm": "တသ္မာ",
+          "paliRoman": "Tasmā",
+          "translateMm": "ထို့ကြောင့်",
+          "translateEn": "Therefore",
+          "example": {
+            "paliMm": "တသ္မာ ဓမ္မံ သုဏောဟိ။",
+            "paliRoman": "Tasmā dhammaṃ suṇohi.",
+            "translateMm": "ထို့ကြောင့် တရားဓမ္မကို နာယူပါလော့။",
+            "translateEn": "Therefore, listen to the Dhamma."
+          }
+        },
+        {
+          "paliMm": "ယသ္မာ",
+          "paliRoman": "Yasmā",
+          "translateMm": "အကြင်ကြောင့်",
+          "translateEn": "Because, as",
+          "example": {
+            "paliMm": "ယသ္မာ ကုသလံ ကရောတိ၊ တသ္မာ သုခိတော ဟောတိ။",
+            "paliRoman": "Yasmā kusalaṃ karoti, tasmā sukhito hoti.",
+            "translateMm": "အကြင်ကြောင့် ကုသိုလ်ပြု၏၊ ထို့ကြောင့် ချမ်းသာသူ ဖြစ်၏။",
+            "translateEn": "Because he does good deeds, therefore he is happy."
+          }
+        },
+        {
+          "paliMm": "တေန",
+          "paliRoman": "Tena",
+          "translateMm": "ထိုအကြောင်းကြောင့်",
+          "translateEn": "Account of that, so",
+          "example": {
+            "paliMm": "တေန သော နဂရံ ဂစ္ဆတိ။",
+            "paliRoman": "Tena so nagaraṃ gacchati.",
+            "translateMm": "ထိုအကြောင်းကြောင့် သူသည် မြို့သို့ သွား၏။",
+            "translateEn": "On account of that, he goes to the city."
+          }
+        },
+        {
+          "paliMm": "ယေန",
+          "paliRoman": "Yena",
+          "translateMm": "အကြင်အကြောင်းကြောင့်",
+          "translateEn": "Wherefore, since",
+          "example": {
+            "paliMm": "ယေန သော ဝါယမတိ၊ တေန သိဇ္ဈတိ။",
+            "paliRoman": "Yena so vāyamati, tena sizzhati.",
+            "translateMm": "အကြင်အကြောင်းကြောင့် သူသည် ကြိုးစား၏၊ ထိုအကြောင်းကြောင့် အောင်မြင်၏။",
+            "translateEn": "Since he strives, therefore he succeeds."
+          }
+        },
+        {
+          "paliMm": "ကသ္မာ",
+          "paliRoman": "Kasmā",
+          "translateMm": "အဘယ်ကြောင့်",
+          "translateEn": "Why",
+          "example": {
+            "paliMm": "တွံ ကသ္မာ သောစသိ။",
+            "paliRoman": "Tvaṃ kasmā socasi.",
+            "translateMm": "သင်သည် အဘယ်ကြောင့် စိုးရိမ်ပူဆွေးသနည်း။",
+            "translateEn": "Why do you grieve?"
+          }
+        },
+        {
+          "paliMm": "ကေန",
+          "paliRoman": "Kena",
+          "translateMm": "မည်သည့်အကြောင်းကြောင့်",
+          "translateEn": "By what reason, why",
+          "example": {
+            "paliMm": "ကေန သော ဇိနာတိ။",
+            "paliRoman": "Kena so jināti.",
+            "translateMm": "မည်သည့်အကြောင်းကြောင့် သူသည် အနိုင်ရသနည်း။",
+            "translateEn": "By what reason does he win?"
+          }
+        },
+        {
+          "paliMm": "အထ ကသ္မာ",
+          "paliRoman": "Atha kasmā",
+          "translateMm": "သို့ဖြစ်ပါက အဘယ်ကြောင့်",
+          "translateEn": "Then why",
+          "example": {
+            "paliMm": "အထ ကသ္မာ တွံ န အာဂစ္ဆသိ။",
+            "paliRoman": "Atha kasmā tvaṃ na āဂစ္ဆသိ.",
+            "translateMm": "သို့ဖြစ်ပါက သင်သည် အဘယ်ကြောင့် မလာသနည်း။",
+            "translateEn": "Then why do you not come?"
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "သံသယပြ နိပါတ်ပုဒ်များ",
+      "titleEn": "Doubt Particles",
+      "vocabList": [
+        {
+          "paliMm": "နူန",
+          "paliRoman": "Nūna",
+          "translateMm": "စင်စစ်၊ ဖြစ်နိုင်သည်",
+          "translateEn": "Perhaps, surely",
+          "example": {
+            "paliMm": "သော နူန ဓမ္မိကော ဟောတိ။",
+            "paliRoman": "So nūna dhammiko hoti.",
+            "translateMm": "သူသည် စင်စစ် တရားစောင့်သောသူ ဖြစ်ပေလိမ့်မည်။",
+            "translateEn": "He is surely / perhaps righteous."
+          }
+        },
+        {
+          "paliMm": "အပ္ပေဝ",
+          "paliRoman": "Appeva",
+          "translateMm": "ထိုသို့လည်း ဖြစ်နိုင်၏",
+          "translateEn": "Perhaps, maybe",
+          "example": {
+            "paliMm": "အပ္ပေဝ သော သုဝေ အာဂစ္ဆေယျ။",
+            "paliRoman": "Appeva so suve āgaccheyya.",
+            "translateMm": "သူသည် မနက်ဖြန်၌ လာကောင်း လာပေလိမ့်မည်။",
+            "translateEn": "Perhaps he might come tomorrow."
+          }
+        },
+        {
+          "paliMm": "မညေ",
+          "paliRoman": "Maññe",
+          "translateMm": "ထင်၏၊ ဖြစ်ပုံရ၏",
+          "translateEn": "Methinks, it seems",
+          "example": {
+            "paliMm": "သော ပဏ္ဍိတော မညေ။",
+            "paliRoman": "So paṇḍito maññe.",
+            "translateMm": "သူသည် ပညာရှိ ဖြစ်ဟန်တူ၏ (ဟု ထင်၏)။",
+            "translateEn": "Methinks he is a scholar."
+          }
+        },
+        {
+          "paliMm": "အပ္ပေဝ နာမ",
+          "paliRoman": "Appeva nāma",
+          "translateMm": "ဖြစ်နိုင်ကောင်းပါ၏",
+          "translateEn": "It may well be",
+          "example": {
+            "paliMm": "အပ္ပေဝ နာမ မယံ တတ္ထ ပါပုဏေယျာမ။",
+            "paliRoman": "Appeva nāma mayaṃ tattha pāpuṇeyyāma.",
+            "translateMm": "ငါတို့သည် ထိုနေရာသို့ ရောက်နိုင်ကောင်းပါ၏။",
+            "translateEn": "It may well be that we reach there."
+          }
+        },
+        {
+          "paliMm": "ကိဉ္စာပိ",
+          "paliRoman": "Kiñcāpi",
+          "translateMm": "သို့သော်လည်း",
+          "translateEn": "Although, maybe",
+          "example": {
+            "paliMm": "သော ကိဉ္စာပိ ဂစ္ဆတိ၊ သုခံ န လဘတိ။",
+            "paliRoman": "So kiñcāpi gacchati, sukhaṃ na labhati.",
+            "translateMm": "သူသည် သွားစေကာမူ ချမ်းသာကို မရ။",
+            "translateEn": "Although he goes, he does not get happiness."
+          }
+        },
+        {
+          "paliMm": "ယဒိ",
+          "paliRoman": "Yadi",
+          "translateMm": "အကယ်၍၊ ဖြစ်ခဲ့လျှင်",
+          "translateEn": "If, in case",
+          "example": {
+            "paliMm": "ယဒိ သော အာဂစ္ဆတိ၊ အဟံ ဂစ္ဆာမိ။",
+            "paliRoman": "Yadi so āgacchati, ahaṃ gacchāmi.",
+            "translateMm": "အကယ်၍ သူ လာပါက ငါ သွားမည်။",
+            "translateEn": "If he comes, I will go."
+          }
+        },
+        {
+          "paliMm": "သစေ",
+          "paliRoman": "Sace",
+          "translateMm": "အကယ်၍",
+          "translateEn": "If",
+          "example": {
+            "paliMm": "သစေ တွံ သိက္ခသိ၊ ပဏ္ဍိတော ဘဝိဿသိ။",
+            "paliRoman": "Sace tvaṃ sikkhasi, paṇḍito bhavissasi.",
+            "translateMm": "အကယ်၍ သင် သင်ယူပါက ပညာရှိ ဖြစ်လိမ့်မည်။",
+            "translateEn": "If you learn, you will become wise."
+          }
+        },
+        {
+          "paliMm": "စေ",
+          "paliRoman": "Ce",
+          "translateMm": "အကယ်၍",
+          "translateEn": "If",
+          "example": {
+            "paliMm": "သော စေ ဝါယမတိ၊ သိဇ္ဈတိ။",
+            "paliRoman": "So ce vāyamati, sizzhati.",
+            "translateMm": "သူသည် အကယ်၍ ကြိုးစားပါက အောင်မြင်၏။",
+            "translateEn": "If he strives, he succeeds."
+          }
+        },
+        {
+          "paliMm": "ကစ္စိ",
+          "paliRoman": "Kacci",
+          "translateMm": "အဘယ်သို့နည်း၊ ကောင်းစွာ ရှိပါစ၏လော",
+          "translateEn": "I hope, is it that",
+          "example": {
+            "paliMm": "ကစ္စိ တွံ အာရောဂေါ ဟောသိ။",
+            "paliRoman": "Kacci tvaṃ ārogo hosi.",
+            "translateMm": "သင်သည် ကျန်းကျန်းမာမာ ရှိပါစ၏လော။",
+            "translateEn": "I hope you are in good health."
+          }
+        },
+        {
+          "paliMm": "ဥဒါဟု",
+          "paliRoman": "Udāhu",
+          "translateMm": "သို့မဟုတ်ပါက၊ အဘယ်သို့နည်း",
+          "translateEn": "Or else, is it not",
+          "example": {
+            "paliMm": "သော အာဂစ္ဆတိ ဥဒါဟု န အာဂစ္ဆတိ။",
+            "paliRoman": "So āgacchati udāhu na āgacchati.",
+            "translateMm": "သူသည် လာသလော သို့မဟုတ် မလာပေသလော။",
+            "translateEn": "Is he coming or is he not?"
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "ပမာဏပြ နိပါတ်ပုဒ်များ",
+      "titleEn": "Quantity / Degree Particles",
+      "vocabList": [
+        {
+          "paliMm": "ကိတ္တကံ",
+          "paliRoman": "Kittakaṃ",
+          "translateMm": "မည်မျှလောက်",
+          "translateEn": "How much",
+          "example": {
+            "paliMm": "တွံ ကိတ္တကံ ဓနံ ဣစ္ဆသိ။",
+            "paliRoman": "Tvaṃ kittakaṃ dhanaṃ icchasi.",
+            "translateMm": "သင်သည် မည်မျှလောက်သော ဥစ္စာကို အလိုရှိသနည်း။",
+            "translateEn": "How much wealth do you desire?"
+          }
+        },
+        {
+          "paliMm": "ဧတ္တကံ",
+          "paliRoman": "Ettakaṃ",
+          "translateMm": "ဤမျှလောက်",
+          "translateEn": "This much",
+          "example": {
+            "paliMm": "သော ဧတ္တကံ ဓနံ ဒဒါတိ။",
+            "paliRoman": "So ettakaṃ dhanaṃ dadāti.",
+            "translateMm": "သူသည် ဤမျှလောက်သော ဥစ္စာကို လှူဒါန်း၏။",
+            "translateEn": "He gives this much wealth."
+          }
+        },
+        {
+          "paliMm": "တတ္တကံ",
+          "paliRoman": "Tattakaṃ",
+          "translateMm": "ထိုမျှလောက်",
+          "translateEn": "That much",
+          "example": {
+            "paliMm": "တတ္တကံ ပမာဏံ အလံ ဟောတိ။",
+            "paliRoman": "Tattakaṃ pamāṇaṃ alaṃ hoti.",
+            "translateMm": "ထိုမျှလောက်သော ပမာဏသည် လုံလောက်၏။",
+            "translateEn": "That much amount is sufficient."
+          }
+        },
+        {
+          "paliMm": "ယာဝတ္တကံ",
+          "paliRoman": "Yāvattakaṃ",
+          "translateMm": "အကြင်မျှလောက်",
+          "translateEn": "As much as",
+          "example": {
+            "paliMm": "ယာဝတ္တကံ ဣစ္ဆသိ တာဝတ္တကံ ဂဏှာဟိ။",
+            "paliRoman": "Yāvattakaṃ icchasi tāvattakaṃ gaṇhāhi.",
+            "translateMm": "အကြင်မျှလောက် အလိုရှိ၏၊ ထိုမျှလောက် ယူပါလော့။",
+            "translateEn": "Take as much as you wish."
+          }
+        },
+        {
+          "paliMm": "ဗဟုံ",
+          "paliRoman": "Bahuṃ",
+          "translateMm": "များစွာ",
+          "translateEn": "Much, many",
+          "example": {
+            "paliMm": "သော ဗဟုံ သုတံ ဓာရေတိ။",
+            "paliRoman": "So bahuṃ sutaṃ dhāreti.",
+            "translateMm": "သူသည် များစွာသော အကြားအမြင်ကို ဆောင်၏။",
+            "translateEn": "He holds much learning."
+          }
+        },
+        {
+          "paliMm": "အပ္ပကံ",
+          "paliRoman": "Appakaṃ",
+          "translateMm": "နည်းငယ်မျှ",
+          "translateEn": "A little, few",
+          "example": {
+            "paliMm": "ဒါသဿ အပ္ပကံ ဘောဇနံ ဟောတိ။",
+            "paliRoman": "Dāsassa appakaṃ bhojanaṃ hoti.",
+            "translateMm": "အစေခံအား နည်းငယ်မျှသော အစားအစာ ရှိ၏။",
+            "translateEn": "The servant has a little food."
+          }
+        },
+        {
+          "paliMm": "သမတိတ္တိကံ",
+          "paliRoman": "Samatittikaṃ",
+          "translateMm": "ပြည့်လျှံရုံမျှ",
+          "translateEn": "Brimful",
+          "example": {
+            "paliMm": "ကညာ သမတိတ္တိကံ ဥဒကံ အာဟရတိ။",
+            "paliRoman": "Kaññā samatittikaṃ udakaṃ āharati.",
+            "translateMm": "အမျိုးသမီးငယ်သည် နှုတ်ခမ်းထိ ပြည့်လျှံရုံမျှသော ရေကို ဆောင်ယူခဲ့၏။",
+            "translateEn": "The maiden brings water filled to the brim."
+          }
+        },
+        {
+          "paliMm": "ကိဉ္စိ",
+          "paliRoman": "Kiñci",
+          "translateMm": "အနည်းငယ်မျှ",
+          "translateEn": "Anything, a little",
+          "example": {
+            "paliMm": "သော ကိဉ္စိ န ဘာသတိ။",
+            "paliRoman": "So kiñci na bhāsati.",
+            "translateMm": "သူသည် အနည်းငယ်မျှ စကားမပြော။",
+            "translateEn": "He says nothing at all / a little."
+          }
+        },
+        {
+          "paliMm": "အတိဝိယ",
+          "paliRoman": "Ativiya",
+          "translateMm": "အလွန်အမင်း",
+          "translateEn": "Exceedingly, very",
+          "example": {
+            "paliMm": "ဧသ ဓမ္မော အတိဝိယ ဂမ္ဘီရော ဟောတိ။",
+            "paliRoman": "Esa dhammo ativiya gambhīro hoti.",
+            "translateMm": "ဤတရားသည် အလွန်အမင်း နက်နဲ၏။",
+            "translateEn": "This Dhamma is exceedingly deep."
+          }
+        },
+        {
+          "paliMm": "သဗ္ဗံ",
+          "paliRoman": "Sabbaṃ",
+          "translateMm": "အလုံးစုံ",
+          "translateEn": "All, whole",
+          "example": {
+            "paliMm": "သော သဗ္ဗံ ဓနံ စဇတိ။",
+            "paliRoman": "So sabbaṃ dhanaṃ cajati.",
+            "translateMm": "သူသည် အလုံးစုံသော ဥစ္စာကို စွန့်လွှတ်၏။",
+            "translateEn": "He abandons all wealth."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "သမုစ္စည်းပြ နှင့် ဝိဘာဂပြ နိပါတ်ပုဒ်များ",
+      "titleEn": "Conjunctions / Disjunctions",
+      "vocabList": [
+        {
+          "paliMm": "စ",
+          "paliRoman": "Ca",
+          "translateMm": "လည်းကောင်း၊ ၎င်းပြင်",
+          "translateEn": "And, as well as",
+          "example": {
+            "paliMm": "ဗုဒ္ဓေါ စ ဓမ္မော စ သံဃော စ မမ သရဏံ။",
+            "paliRoman": "Buddho ca dhammo ca saṅgho ca mama saraṇaṃ.",
+            "translateMm": "မြတ်စွာဘုရားသည် လည်းကောင်း၊ တရားတော်သည် လည်းကောင်း၊ သံဃာတော်သည် လည်းကောင်း ငါ၏ ကိုးကွယ်ရာ ဖြစ်၏။",
+            "translateEn": "The Buddha, the Dhamma, and the Saṅgha are my refuge."
+          }
+        },
+        {
+          "paliMm": "ဝါ",
+          "paliRoman": "Vā",
+          "translateMm": "သို့မဟုတ်",
+          "translateEn": "Or",
+          "example": {
+            "paliMm": "ဂါမံ ဝါ နဂရံ ဝါ သော ဂစ္ဆတိ။",
+            "paliRoman": "Gāmaṃ vā nagaraṃ vā so gacchati.",
+            "translateMm": "သူသည် ရွာသို့ သို့မဟုတ် မြို့သို့ သွား၏။",
+            "translateEn": "He goes either to the village or to the city."
+          }
+        },
+        {
+          "paliMm": "အထော",
+          "paliRoman": "Atho",
+          "translateMm": "ထို့ပြင်၊ လည်းကောင်း",
+          "translateEn": "And also, furthermore",
+          "example": {
+            "paliMm": "ပဏ္ဍိတော ဓမ္မံ ဇာနာတိ အထော အတ္ထံ နယတိ။",
+            "paliRoman": "Paṇḍito dhammaṃ jānāti atho atthaṃ nayati.",
+            "translateMm": "ပညာရှိသည် တရားတော်ကို သိ၏၊ ထို့ပြင် အဓိပ္ပာယ်ကိုလည်း ဆောင်ယူ၏။",
+            "translateEn": "The wise person knows the Dhamma, and also leads to the meaning."
+          }
+        },
+        {
+          "paliMm": "အပိ စ",
+          "paliRoman": "Api ca",
+          "translateMm": "ထို့ပြင်၊ သို့သော်လည်း",
+          "translateEn": "Moreover, even so",
+          "example": {
+            "paliMm": "သော ဓနဝါ၊ အပိ စ ဒါနံ န ဒဒါတိ။",
+            "paliRoman": "So dhanavā, api ca dānaṃ na dadāti.",
+            "translateMm": "သူသည် ချမ်းသာကြွယ်ဝ၏၊ ထို့ပြင်/သို့သော်လည်း အလှူမပေး။",
+            "translateEn": "He is wealthy, moreover/yet he does not give charity."
+          }
+        },
+        {
+          "paliMm": "ဥဒါဟု",
+          "paliRoman": "Udāhu",
+          "translateMm": "သို့မဟုတ်၊ သို့မဟုတ်မူကား",
+          "translateEn": "Or else, whether",
+          "example": {
+            "paliMm": "တွံ ဣဓ ဝသသိ ဥဒါဟု ဂစ္ဆသိ။",
+            "paliRoman": "Tvaṃ idha vasasi udāhu gacchasi.",
+            "translateMm": "သင်သည် ဤ၌ နေသလော သို့မဟုတ် သွားသလော။",
+            "translateEn": "Do you stay here or do you go?"
+          }
+        },
+        {
+          "paliMm": "ပန",
+          "paliRoman": "Pana",
+          "translateMm": "သို့သော်၊ အခြားတစ်ဖက်၌",
+          "translateEn": "But, however, on the other hand",
+          "example": {
+            "paliMm": "သိဿော ကိစ္စံ ကရောတိ၊ အာစရိယော ပန ဩဝဒတိ။",
+            "paliRoman": "Sisso kiccaṃ karoti, ācariyo pana ovadati.",
+            "translateMm": "ကျောင်းသားသည် ဝတ်ကြီးဝတ်ငယ်ပြု၏၊ ဆရာသည် သို့သော်/အခြားတစ်ဖက်၌ ဆုံးမ၏။",
+            "translateEn": "The student performs the duty, but the teacher advises."
+          }
+        },
+        {
+          "paliMm": "တထာ",
+          "paliRoman": "Tathā",
+          "translateMm": "ထို့အတူ",
+          "translateEn": "Likewise, and also",
+          "example": {
+            "paliMm": "ပိတာ ဂစ္ဆတိ၊ တထာ ပုတ္တော အနုဂစ္ဆတိ။",
+            "paliRoman": "Pitā gacchati, tathā putto anugacchati.",
+            "translateMm": "အဖေသည် သွား၏၊ ထို့အတူ သားသည်လည်း နောက်သို့ လိုက်၏။",
+            "translateEn": "The father goes, likewise the son follows."
+          }
+        },
+        {
+          "paliMm": "အထ",
+          "paliRoman": "Atha",
+          "translateMm": "ထိုမှတစ်ပါး၊ ထို့နောက်",
+          "translateEn": "Then, furthermore",
+          "example": {
+            "paliMm": "သော သုတွာ အထ သုခံ ဝိန္ဒတိ။",
+            "paliRoman": "So sutvā atha sukhaṃ vindati.",
+            "translateMm": "သူသည် နားထောင်ပြီး၍ ထို့နောက် ချမ်းသာကို ရ၏။",
+            "translateEn": "Having listened, then he finds happiness."
+          }
+        },
+        {
+          "paliMm": "အပိ",
+          "paliRoman": "Api",
+          "translateMm": "လည်း၊ သို့သော်",
+          "translateEn": "Also, even, though",
+          "example": {
+            "paliMm": "အဟမ္ပိ တတ္ထ ဂစ္ဆာမိ။",
+            "paliRoman": "Ahampi tattha gacchāmi.",
+            "translateMm": "ငါသည်လည်း ထိုနေရာသို့ သွားမည်။",
+            "translateEn": "I also will go there."
+          }
+        },
+        {
+          "paliMm": "စေ ပန",
+          "paliRoman": "Ce pana",
+          "translateMm": "သို့သော် အကယ်၍",
+          "translateEn": "But if",
+          "example": {
+            "paliMm": "စေ ပန သော န အာဂစ္ဆတိ၊ အဟံ ဂစ္ဆာမိ။",
+            "paliRoman": "Ce pana so na āgacchati, ahaṃ gacchāmi.",
+            "translateMm": "သို့သော် အကယ်၍ သူ မလာပါက ငါ သွားမည်။",
+            "translateEn": "But if he does not come, I will go."
+          }
+        },
+        {
+          "paliMm": "အထ ဝါ",
+          "paliRoman": "Atha vā",
+          "translateMm": "သို့မဟုတ်ပါက",
+          "translateEn": "Or else, alternatively",
+          "example": {
+            "paliMm": "တွံ လိခ၊ အထ ဝါ ဂန္ထံ ပဌ။",
+            "paliRoman": "Tvaṃ likha, atha vā ganthaṃ paṭha.",
+            "translateMm": "သင်သည် စာမူကို ရေးပါ၊ သို့မဟုတ်ပါက ကျမ်းဂန်ကို ဖတ်ပါ။",
+            "translateEn": "Write the manuscript, or else read the text."
+          }
+        },
+        {
+          "paliMm": "ကိဉ္စာပိ",
+          "paliRoman": "Kiñcāpi",
+          "translateMm": "သို့သော်လည်း၊ ပေကတ္တံ့",
+          "translateEn": "Although, even though",
+          "example": {
+            "paliMm": "သော ကိဉ္စာပိ ဗာလော၊ သာဓုဇနံ သုဏောတိ။",
+            "paliRoman": "So kiñcāpi bālo, sādhujanaṃ suṇāti.",
+            "translateMm": "သူသည် လူမိုက် ဖြစ်သော်လည်း သူတော်ကောင်း၏ စကားကို နားထောင်၏။",
+            "translateEn": "Although he is foolish, he listens to the virtuous person."
+          }
+        },
+        {
+          "paliMm": "အထ စ",
+          "paliRoman": "Atha ca",
+          "translateMm": "သို့သော်လည်း၊ ရောက်ပြန်မူ",
+          "translateEn": "And yet, nevertheless",
+          "example": {
+            "paliMm": "သော ဒုက္ခိတော၊ အထ စ သဟတိ။",
+            "paliRoman": "So dukkhito, atha ca sahati.",
+            "translateMm": "သူသည် ဆင်းရဲဒုက္ခ ရောက်၏၊ သို့သော်လည်း သီးခံ၏။",
+            "translateEn": "He is suffering, and yet he endures."
+          }
+        },
+        {
+          "paliMm": "တထာပိ",
+          "paliRoman": "Tathāpi",
+          "translateMm": "သို့သော်လည်း၊ ထို့သို့ ဖြစ်သော်လည်း",
+          "translateEn": "Even so, nevertheless",
+          "example": {
+            "paliMm": "ကိစ္စံ ဂရု၊ တထာပိ သော ကရောတိ။",
+            "paliRoman": "Kiccaṃ garu, tathāpi so karoti.",
+            "translateMm": "တာဝန်သည် ကြီးမား၏၊ သို့သော်လည်း သူသည် ဆောင်ရွက်၏။",
+            "translateEn": "The task is heavy, even so he does it."
+          }
+        },
+        {
+          "paliMm": "န စ",
+          "paliRoman": "Na ca",
+          "translateMm": "မဟုတ်လည်း မဟုတ်",
+          "translateEn": "And not, nor",
+          "example": {
+            "paliMm": "သော န ပဏ္ဍိတော၊ န စ သုတဝါ။",
+            "paliRoman": "So na paṇḍito, na ca sutavā.",
+            "translateMm": "သူသည် ပညာရှိလည်း မဟုတ်၊ အကြားအမြင် ရှိသူလည်း မဟုတ်။",
+            "translateEn": "He is neither wise nor learned."
+          }
+        },
+        {
+          "paliMm": "ယဒိ ဝါ",
+          "paliRoman": "Yadi vā",
+          "translateMm": "သို့မဟုတ်ပါက၊ မဟုတ်လျှင်လည်း",
+          "translateEn": "Or if, whether",
+          "example": {
+            "paliMm": "ဒိဝါ ယဒိ ဝါ ရတ္တိံ သော ဝါယမတိ။",
+            "paliRoman": "Divā yadi vā rattiṃ so vāyamati.",
+            "translateMm": "နေ့အခါ၌ ဖြစ်စေ သို့မဟုတ်ပါက ညဉ့်အခါ၌ ဖြစ်စေ သူသည် ကြိုးစား၏။",
+            "translateEn": "Whether by day or by night, he strives."
+          }
+        },
+        {
+          "paliMm": "ပုန စ",
+          "paliRoman": "Puna ca",
+          "translateMm": "ထို့ပြင်၊ မကသေး",
+          "translateEn": "And again, moreover",
+          "example": {
+            "paliMm": "သော ကုသလံ ကရောတိ၊ ပုန စ အညေ ပသာဒေတိ။",
+            "paliRoman": "So kusalaṃ karoti, puna ca aññe pasādeti.",
+            "translateMm": "သူသည် ကုသိုလ်ပြု၏၊ ထို့ပြင် အခြားသူများကိုလည်း ကြည်ညိုစေ၏။",
+            "translateEn": "He does good deeds, and again inspires others."
+          }
+        },
+        {
+          "paliMm": "တေန ဟိ",
+          "paliRoman": "Tena hi",
+          "translateMm": "သို့ဖြစ်ပါက၊ ထို့ကြောင့်",
+          "translateEn": "Well then, therefore",
+          "example": {
+            "paliMm": "တေန ဟိ တွံ ဓမ္မံ သုဏောဟိ။",
+            "paliRoman": "Tena hi tvaṃ dhammaṃ suṇohi.",
+            "translateMm": "သို့ဖြစ်ပါက သင်သည် တရားဓမ္မကို နာယူပါလော့။",
+            "translateEn": "Well then, listen to the Dhamma."
+          }
+        },
+        {
+          "paliMm": "အဟံ ဝါ",
+          "paliRoman": "Ahaṃ vā",
+          "translateMm": "ငါ သို့မဟုတ်",
+          "translateEn": "Either I",
+          "example": {
+            "paliMm": "အဟံ ဝါ တွံ ဝါ တတ္ထ ဂစ္ဆာမ။",
+            "paliRoman": "Ahaṃ vā tvaṃ vā tattha gacchāma.",
+            "translateMm": "ငါ သို့မဟုတ် သင် ထိုနေရာသို့ သွားကြစို့။",
+            "translateEn": "Either I or you shall go there."
+          }
+        },
+        {
+          "paliMm": "န ဝါ",
+          "paliRoman": "Na vā",
+          "translateMm": "သို့မဟုတ်မဟုတ်ပါက",
+          "translateEn": "Or not",
+          "example": {
+            "paliMm": "သော အာဂစ္ဆတိ န ဝါ။",
+            "paliRoman": "So āgacchati na vā.",
+            "translateMm": "သူသည် လာမည် သို့မဟုတ် မလာပေလော။",
+            "translateEn": "Is he coming or not?"
+          }
+        }
+      ]
+    }
+  ]
+}

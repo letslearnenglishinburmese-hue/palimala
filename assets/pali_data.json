@@ -4608,7 +4608,7 @@
           {
             "paliMm": "ပူဇေတိ",
             "paliRoman": "Pūjeti",
-            "translateMm": "ပူဇော်သည်၊ မြတ်နိုးသည်",
+            "translateMm": "ပူဇော်သည်",
             "translateEn": "Honors / Worships",
             "example": {
               "paliMm": "သော ပုပ္ဖေဟိ ဗုဒ္ဓံ ပူဇေတိ။",
@@ -4620,8 +4620,8 @@
           {
             "paliMm": "ဘာဝေတိ",
             "paliRoman": "Bhāveti",
-            "translateMm": "ပွားများသည်၊ ကျင့်ကြံသည်",
-            "translateEn": "Cultivates / Meditates",
+            "translateMm": "ပွားများသည်",
+            "translateEn": "Cultivates / Develops",
             "example": {
               "paliMm": "ယတိ မေတ္တံ ဘာဝေတိ။",
               "paliRoman": "Yati mettaṃ bhāveti.",
@@ -4656,8 +4656,8 @@
           {
             "paliMm": "ဒေသေတိ",
             "paliRoman": "Deseti",
-            "translateMm": "ဟောကြားသည်၊ သင်ပြသည်",
-            "translateEn": "Preaches / Teaches",
+            "translateMm": "ဟောကြားသည်",
+            "translateEn": "Preaches",
             "example": {
               "paliMm": "ဗုဒ္ဓေါ ဇနာနံ ဓမ္မံ ဒေသေတိ။",
               "paliRoman": "Buddho janānaṃ dhammaṃ deseti.",
@@ -4668,7 +4668,7 @@
           {
             "paliMm": "သုဏာတိ",
             "paliRoman": "Suṇāti",
-            "translateMm": "နာယူသည်၊ တရားနာသည်",
+            "translateMm": "နာယူသည်",
             "translateEn": "Listens / Hears",
             "example": {
               "paliMm": "ဥပါသကော သက္ကစ္စံ ဓမ္မံ သုဏာတိ။",
@@ -4680,7 +4680,7 @@
           {
             "paliMm": "သရတိ",
             "paliRoman": "Sarati",
-            "translateMm": "အမှတ်ရသည်၊ အနုဿတိပွားသည်",
+            "translateMm": "အမှတ်ရသည်",
             "translateEn": "Remembers / Recalls",
             "example": {
               "paliMm": "သော ဗုဒ္ဓဿ ဂုဏံ သရတိ။",
@@ -4854,138 +4854,6 @@
     "titleEn": "Adjectives",
     "icon": "auto_awesome_rounded",
     "subCategories": [
-      {
-        "titleMm": "အနာဂတ်ပြ နာမဝိသေသနများ",
-        "titleEn": "Future Participial Adjectives",
-        "vocabList": [
-          {
-            "paliMm": "ကတ္တဗ္ဗံ",
-            "paliRoman": "Kattabbaṃ",
-            "translateMm": "ပြုလုပ်အပ်သော / ပြုလုပ်ရန်",
-            "translateEn": "To be done / Must be done",
-            "example": {
-              "paliMm": "ကုသလကမ္မံ သဗ္ဗေဟိ ကတ္တဗ္ဗံ ဟောတိ။",
-              "paliRoman": "Kusalakammaṃ sabbehi kattabbaṃ hoti.",
-              "translateMm": "ကုသိုလ်ကံကို ခပ်သိမ်းသောသူတို့သည် ပြုလုပ်အပ်၏။",
-              "translateEn": "Good deeds must be done by everyone."
-            }
-          },
-          {
-            "paliMm": "ပူဇနီယော",
-            "paliRoman": "Pūjanīyo",
-            "translateMm": "ပူဇော်ထိုက်သော",
-            "translateEn": "Worthy of veneration",
-            "example": {
-              "paliMm": "အာစရိယော သဗ္ဗသိဿာနံ ပူဇနီယော ဟောတိ။",
-              "paliRoman": "Ācariyo sabbasissānaṃ pūjanīyo hoti.",
-              "translateMm": "ဆရာသည် ခပ်သိမ်းသော ကျောင်းသားတို့၏ ပူဇော်ထိုက်သောသူ ဖြစ်၏။",
-              "translateEn": "The teacher is worthy of veneration by all students."
-            }
-          },
-          {
-            "paliMm": "ပိဝိတဗ္ဗံ",
-            "paliRoman": "Pivitabbaṃ",
-            "translateMm": "သောက်သုံးအပ်သော / သောက်ရန်",
-            "translateEn": "Drinkable / Must be drunk",
-            "example": {
-              "paliMm": "ဣဒံ သုဒ္ဓဥဒကံ ပိဝိတဗ္ဗံ ဟောတိ။",
-              "paliRoman": "Idaá¹ suddha'udakaá¹ pivitabbaá¹ hoti.",
-              "translateMm": "ဤသန့်ရှင်းသော ရေကို သောက်သုံးအပ်၏/သောက်ရန် ဖြစ်၏။",
-              "translateEn": "This pure water is to be drunk."
-            }
-          },
-          {
-            "paliMm": "ဂန္တဗ္ဗံ",
-            "paliRoman": "Gantabbaṃ",
-            "translateMm": "သွားအပ်သော / သွားရန်",
-            "translateEn": "To be gone / Must go",
-            "example": {
-              "paliMm": "သတ္ထာလယံ သဒါ သိဿေဟိ ဂန္တဗ္ဗံ ဟောတိ။",
-              "paliRoman": "Satthālayaṃ sadā sissehi gantabbaṃ hoti.",
-              "translateMm": "ကျောင်းသို့ အခါတိုင်း ကျောင်းသားတို့သည် သွားအပ်၏/သွားရန် ဖြစ်၏။",
-              "translateEn": "Students must always go to school."
-            }
-          },
-          {
-            "paliMm": "ဝန္ဒနီယော",
-            "paliRoman": "Vandanīyo",
-            "translateMm": "ရှိခိုးထိုက်သော",
-            "translateEn": "Worthy of respect",
-            "example": {
-              "paliMm": "ဗုဒ္ဓေါ သဗ္ဗလောကဿ ဝန္ဒနီယော ဟောတိ။",
-              "paliRoman": "Buddho sabbalokassa vandanīyo hoti.",
-              "translateMm": "မြတ်စွာဘုရားသည် ခပ်သိမ်းသော လောက၏ ရှိခိုးထိုက်သောသူ ဖြစ်၏။",
-              "translateEn": "The Buddha is worthy of respect by the whole world."
-            }
-          }
-        ]
-      },
-      {
-        "titleMm": "အတိတ်ပြ နာမဝိသေသနများ",
-        "titleEn": "Past Participial Adjectives",
-        "vocabList": [
-          {
-            "paliMm": "ကတံ",
-            "paliRoman": "Kataṃ",
-            "translateMm": "ပြုလုပ်ပြီးသော",
-            "translateEn": "Done / Accomplished",
-            "example": {
-              "paliMm": "မယာ ကိစ္စံ ကတံ ဟောတိ။",
-              "paliRoman": "Mayā kiccaṃ kataṃ hoti.",
-              "translateMm": "ငါသည် အလုပ်ကို ပြုလုပ်ပြီး ဖြစ်၏။",
-              "translateEn": "The work has been done by me."
-            }
-          },
-          {
-            "paliMm": "ဂတော",
-            "paliRoman": "Gato",
-            "translateMm": "သွားပြီးသော",
-            "translateEn": "Gone",
-            "example": {
-              "paliMm": "သိဿော ဝိဇ္ဇာလယံ ဂတော ဟောတိ။",
-              "paliRoman": "Sisso vijjālayaṃ gato hoti.",
-              "translateMm": "ကျောင်းသားသည် တက္ကသိုလ်သို့ သွားပြီး ဖြစ်၏။",
-              "translateEn": "The student has gone to the university."
-            }
-          },
-          {
-            "paliMm": "ဘုတ္တံ",
-            "paliRoman": "Bhuttaṃ",
-            "translateMm": "စားပြီးသော",
-            "translateEn": "Eaten",
-            "example": {
-              "paliMm": "တေန အာဟာရော ဘုတ္တော ဟောတိ။",
-              "paliRoman": "Tena āhāro bhutto hoti.",
-              "translateMm": "သူသည် အာဟာရကို စားသောက်ပြီး ဖြစ်၏။",
-              "translateEn": "The food has been eaten by him."
-            }
-          },
-          {
-            "paliMm": "လိခိတံ",
-            "paliRoman": "Likhitaṃ",
-            "translateMm": "ရေးသားပြီးသော",
-            "translateEn": "Written",
-            "example": {
-              "paliMm": "အာစရိယေန ပေါတ္ထကံ လိခိတံ ဟောတိ။",
-              "paliRoman": "Ācariyena potthakaṃ likhitaṃ hoti.",
-              "translateMm": "ဆရာသည် စာအုပ်ကို ရေးသားပြီး ဖြစ်၏။",
-              "translateEn": "The book has been written by the teacher."
-            }
-          },
-          {
-            "paliMm": "သုတံ",
-            "paliRoman": "Sutaṃ",
-            "translateMm": "ကြားနာပြီးသော",
-            "translateEn": "Heard",
-            "example": {
-              "paliMm": "မယာ ဓမ္မော သုတော ဟောတိ။",
-              "paliRoman": "Mayā dhammo suto hoti.",
-              "translateMm": "ငါသည် တရားတော်ကို ကြားနာပြီး ဖြစ်၏။",
-              "translateEn": "The Dhamma has been heard by me."
-            }
-          }
-        ]
-      },
       {
         "titleMm": "အတိုင်းအဆပမာဏပြဝိသေသနများ",
         "titleEn": "Quantitative Adjectives",
@@ -5216,252 +5084,6 @@
               "paliRoman": "So atirekaṃ cīvaraṃ dhāreti.",
               "translateMm": "သူ အပို သင်္ကန်းကို ဆောင်ထားတယ်။",
               "translateEn": "He keeps an extra robe."
-            }
-          }
-        ]
-      },
-      {
-        "titleMm": "ဂုဏဝိသေသနများ",
-        "titleEn": "Qualitative Adjectives",
-        "vocabList": [
-          {
-            "paliMm": "သုက္က",
-            "paliRoman": "Sukka",
-            "translateMm": "ဖြူသော",
-            "translateEn": "White",
-            "example": {
-              "paliMm": "သော သုက္ကံ ဝတ္ထံ ပရိဒဟတိ။",
-              "paliRoman": "So sukkaṃ vatthaṃ paridahati.",
-              "translateMm": "သူ ဖြူတဲ့ အဝတ်ကို ဝတ်ထားတယ်။",
-              "translateEn": "He wears white clothes."
-            }
-          },
-          {
-            "paliMm": "ကဏှ",
-            "paliRoman": "Kaṇha",
-            "translateMm": "မည်းသော",
-            "translateEn": "Black, Dark",
-            "example": {
-              "paliMm": "ကဏှော ကာကော ရုက္ခေ နိသီဒတိ။",
-              "paliRoman": "Kaṇho kāko rukkhe nisīdati.",
-              "translateMm": "ကျီးကန်းမည်းကြီး သစ်ပင်ပေါ်မှာ နားနေတယ်။",
-              "translateEn": "The black crow sits on the tree."
-            }
-          },
-          {
-            "paliMm": "ရတ္တ",
-            "paliRoman": "Ratta",
-            "translateMm": "နီသော",
-            "translateEn": "Red",
-            "example": {
-              "paliMm": "ကညာ ရတ္တံ ပုပ္ဖံ ဓာရေတိ။",
-              "paliRoman": "Kaññā rattaṃ pupphaṃ dhāreti.",
-              "translateMm": "ကောင်မလေးက အနီရောင်ပန်းကို ပန်ထားတယ်။",
-              "translateEn": "The girl holds/wears a red flower."
-            }
-          },
-          {
-            "paliMm": "မဟန္တ",
-            "paliRoman": "Mahanta",
-            "translateMm": "ကြီးသော",
-            "translateEn": "Big, Great",
-            "example": {
-              "paliMm": "မဟန္တော ဂဇော ဝနံ ပဝိသတိ။",
-              "paliRoman": "Mahanto gajo vanaṃ pavisati.",
-              "translateMm": "ဆင်ကြီးက တောထဲ ဝင်သွားတယ်။",
-              "translateEn": "The big elephant enters the forest."
-            }
-          },
-          {
-            "paliMm": "ခုဒ္ဒက",
-            "paliRoman": "Khuddaka",
-            "translateMm": "သေးသော",
-            "translateEn": "Small, Little",
-            "example": {
-              "paliMm": "ခုဒ္ဒကော မက္ကဋော သာခါယံ ကီဠတိ။",
-              "paliRoman": "Khuddako makkaṭo sākhāyaṃ kīḷati.",
-              "translateMm": "မျောက်ကလေးက သစ်ခက်ပေါ်မှာ ဆော့ကစားနေတယ်။",
-              "translateEn": "The small monkey plays on the branch."
-            }
-          },
-          {
-            "paliMm": "ဒီဃ",
-            "paliRoman": "Dīgha",
-            "translateMm": "ရှည်သော",
-            "translateEn": "Long",
-            "example": {
-              "paliMm": "ဒီဃော သပ္ပေါ တိဏေ စရတိ။",
-              "paliRoman": "Dīgho sappo tiṇe carati.",
-              "translateMm": "မြွေရှည်ကြီးက မြက်တောထဲ လျှောက်သွားနေတယ်။",
-              "translateEn": "The long snake slithers in the grass."
-            }
-          },
-          {
-            "paliMm": "ရဿ",
-            "paliRoman": "Rassa",
-            "translateMm": "တိုသော၊ ပုသော",
-            "translateEn": "Short",
-            "example": {
-              "paliMm": "သော ရဿံ ဒဏ္ဍံ ဂဏှာတိ။",
-              "paliRoman": "So rassaṃ daṇḍaṃ gaṇhāti.",
-              "translateMm": "သူ တုတ်တိုလေးကို ကိုင်ထားတယ်။",
-              "translateEn": "He takes the short stick."
-            }
-          },
-          {
-            "paliMm": "သာဓု",
-            "paliRoman": "Sādhu",
-            "translateMm": "ကောင်းသော",
-            "translateEn": "Good, Noble",
-            "example": {
-              "paliMm": "သာဓု ပုရိသော ဇနံ ရက္ခတိ။",
-              "paliRoman": "Sādhu puriso janaṃ rakkhati.",
-              "translateMm": "လူကောင်းတစ်ယောက်က လူတွေကို ကူညီစောင့်ရှောက်တယ်။",
-              "translateEn": "A good man protects the people."
-            }
-          },
-          {
-            "paliMm": "ပါပ",
-            "paliRoman": "Pāpa",
-            "translateMm": "ယုတ်မာသော၊ မကောင်းသော",
-            "translateEn": "Bad, Evil",
-            "example": {
-              "paliMm": "ပါပေါ နရော ဒုက္ခံ ဝိန္ဒတိ။",
-              "paliRoman": "Pāpo naro dukkhaṃ vindati.",
-              "translateMm": "လူဆိုးက ဒုက္ခရောက်ရတယ်။",
-              "translateEn": "The evil man experiences suffering."
-            }
-          },
-          {
-            "paliMm": "မဓုရ",
-            "paliRoman": "Madhura",
-            "translateMm": "ချိုသော၊ သာယာသော",
-            "translateEn": "Sweet",
-            "example": {
-              "paliMm": "ကညာ မဓုရံ ဇလံ ပိဝတိ။",
-              "paliRoman": "Kaññā madhuraṃ jalaṃ pivati.",
-              "translateMm": "ကောင်မလေးက ချိုတဲ့ရေကို သောက်တယ်။",
-              "translateEn": "The girl drinks sweet water."
-            }
-          },
-          {
-            "paliMm": "တိတ္တက",
-            "paliRoman": "Tittaka",
-            "translateMm": "ခါးသော",
-            "translateEn": "Bitter",
-            "example": {
-              "paliMm": "ဂိလာနော တိတ္တကံ ဩသဓံ အဇ္စျောဟရတိ။",
-              "paliRoman": "Gilāno tittakaṃ osadhaṃ ajjhoharati.",
-              "translateMm": "လူနာက ခါးတဲ့ဆေးကို သောက်ရတယ်။",
-              "translateEn": "The sick person takes the bitter medicine."
-            }
-          },
-          {
-            "paliMm": "သီတ",
-            "paliRoman": "Sīta",
-            "translateMm": "အေးသော",
-            "translateEn": "Cold",
-            "example": {
-              "paliMm": "သော သီတံ ဇလံ အာနယတိ။",
-              "paliRoman": "So sītaṃ jalaṃ ānayati.",
-              "translateMm": "သူ ရေအေးအေးကို သယ်လာတယ်။",
-              "translateEn": "He brings cold water."
-            }
-          },
-          {
-            "paliMm": "ဥဏှ",
-            "paliRoman": "Uṇha",
-            "translateMm": "ပူသော",
-            "translateEn": "Hot",
-            "example": {
-              "paliMm": "ဥဏှံ ဘတ္တံ မဇ္ဈနှိကေ ဘုဉ္ဇတိ။",
-              "paliRoman": "Uṇhaṃ bhattaṃ majjhanhike bhuñjati.",
-              "translateMm": "ထမင်းပူပူကို နေ့လယ်ဘက်မှာ စားတယ်။",
-              "translateEn": "He eats hot rice at noon."
-            }
-          },
-          {
-            "paliMm": "ဗလဝန္တ",
-            "paliRoman": "Balavanta",
-            "translateMm": "အားသန်သော၊ သန်မာသော",
-            "translateEn": "Strong, Powerful",
-            "example": {
-              "paliMm": "ဗလဝန္တော ယောဓော ယုဇ္ဈတိ။",
-              "paliRoman": "Balavanto yodho yujjhati.",
-              "translateMm": "သန်မာတဲ့ စစ်သူကြီးက တိုက်ခိုက်တယ်။",
-              "translateEn": "The strong warrior fights."
-            }
-          },
-          {
-            "paliMm": "ဒုဗ္ဗလ",
-            "paliRoman": "Dubbala",
-            "translateMm": "အားနည်းသော",
-            "translateEn": "Weak, Feeble",
-            "example": {
-              "paliMm": "ဒုဗ္ဗလော မဟလ္လကော မဂ္ဂေ အာဟိဏ္ဍတိ။",
-              "paliRoman": "Dubbalo mahallako magge āhiṇḍati.",
-              "translateMm": "အားနည်းတဲ့ အဘိုးအိုက လမ်းပေါ်မှာ လျှောက်သွားနေတယ်။",
-              "translateEn": "The weak old man wanders on the road."
-            }
-          },
-          {
-            "paliMm": "ပဏ္ဍိတ",
-            "paliRoman": "Paṇḍita",
-            "translateMm": "လိမ္မာပါးနပ်သော၊ ပညာရှိသော",
-            "translateEn": "Wise, Clever",
-            "example": {
-              "paliMm": "ပဏ္ဍိတော သိဿော ပဉှံ ပုစ္ဆတိ။",
-              "paliRoman": "Paṇḍito sisso pañhaṃ pucchati.",
-              "translateMm": "လိမ္မာတဲ့ ကျောင်းသားက မေးခွန်းမေးတယ်။",
-              "translateEn": "The wise student asks a question."
-            }
-          },
-          {
-            "paliMm": "မူဠှ",
-            "paliRoman": "Mūḷha",
-            "translateMm": "တွေ့ဝေသော၊ မိုက်မဲသော",
-            "translateEn": "Foolish, Confused",
-            "example": {
-              "paliMm": "မူဠှော နရော မဂ္ဂံ အပဿတိ။",
-              "paliRoman": "Mūḷho naro maggaṃ apassati.",
-              "translateMm": "တွေဝေနေတဲ့သူက လမ်းကို မမြင်ဘူး။",
-              "translateEn": "The confused person does not see the path."
-            }
-          },
-          {
-            "paliMm": "တရုဏ",
-            "paliRoman": "Taruṇa",
-            "translateMm": "ငယ်ရွယ်သော",
-            "translateEn": "Young, Tender",
-            "example": {
-              "paliMm": "တရုဏော သုနခေါ ဓာဝတိ။",
-              "paliRoman": "Taruṇo sunakho dhāvati.",
-              "translateMm": "ခွေးကလေးက ပြေးနေတယ်။",
-              "translateEn": "The young dog runs."
-            }
-          },
-          {
-            "paliMm": "ဝုဍ္ဎော",
-            "paliRoman": "Vuḍḍha",
-            "translateMm": "ကြီးရင့်သော၊ အသက်ကြီးသော",
-            "translateEn": "Old, Aged",
-            "example": {
-              "paliMm": "ဝုဍ္ဎော ဗြာဟ္မဏော ဓမ္မံ ဘာသတိ။",
-              "paliRoman": "Vuḍḍho brāhmaṇo dhammaṃ bhāsati.",
-              "translateMm": "အသက်ကြီးတဲ့ ပုဏ္ဏားက တရားဟောတယ်။",
-              "translateEn": "The aged Brahmin speaks the Dhamma."
-            }
-          },
-          {
-            "paliMm": "သုစိ",
-            "paliRoman": "Suci",
-            "translateMm": "သန့်ရှင်းသော၊ စင်ကြယ်သော",
-            "translateEn": "Pure, Clean",
-            "example": {
-              "paliMm": "သုစိံ ဇလံ နဒိယံ ဝဟတိ။",
-              "paliRoman": "Suciṃ jalaṃ nadiyaṃ vahati.",
-              "translateMm": "စင်ကြယ်တဲ့ ရေက မြစ်ထဲမှာ စီးဆင်းနေတယ်။",
-              "translateEn": "Clean water flows in the river."
             }
           }
         ]
@@ -5708,6 +5330,252 @@
               "paliRoman": "Dasamo māso sampatto.",
               "translateMm": "ဆယ်လမြောက်လကို ရောက်ရှိလာခဲ့ပြီ။",
               "translateEn": "The tenth month has arrived."
+            }
+          }
+        ]
+      },
+      {
+        "titleMm": "ဂုဏဝိသေသနများ",
+        "titleEn": "Qualitative Adjectives",
+        "vocabList": [
+          {
+            "paliMm": "သုက္က",
+            "paliRoman": "Sukka",
+            "translateMm": "ဖြူသော",
+            "translateEn": "White",
+            "example": {
+              "paliMm": "သော သုက္ကံ ဝတ္ထံ ပရိဒဟတိ။",
+              "paliRoman": "So sukkaṃ vatthaṃ paridahati.",
+              "translateMm": "သူ ဖြူတဲ့ အဝတ်ကို ဝတ်ထားတယ်။",
+              "translateEn": "He wears white clothes."
+            }
+          },
+          {
+            "paliMm": "ကဏှ",
+            "paliRoman": "Kaṇha",
+            "translateMm": "မည်းသော",
+            "translateEn": "Black, Dark",
+            "example": {
+              "paliMm": "ကဏှော ကာကော ရုက္ခေ နိသီဒတိ။",
+              "paliRoman": "Kaṇho kāko rukkhe nisīdati.",
+              "translateMm": "ကျီးကန်းမည်းကြီး သစ်ပင်ပေါ်မှာ နားနေတယ်။",
+              "translateEn": "The black crow sits on the tree."
+            }
+          },
+          {
+            "paliMm": "ရတ္တ",
+            "paliRoman": "Ratta",
+            "translateMm": "နီသော",
+            "translateEn": "Red",
+            "example": {
+              "paliMm": "ကညာ ရတ္တံ ပုပ္ဖံ ဓာရေတိ။",
+              "paliRoman": "Kaññā rattaṃ pupphaṃ dhāreti.",
+              "translateMm": "ကောင်မလေးက အနီရောင်ပန်းကို ပန်ထားတယ်။",
+              "translateEn": "The girl holds/wears a red flower."
+            }
+          },
+          {
+            "paliMm": "မဟန္တ",
+            "paliRoman": "Mahanta",
+            "translateMm": "ကြီးသော",
+            "translateEn": "Big, Great",
+            "example": {
+              "paliMm": "မဟန္တော ဂဇော ဝနံ ပဝိသတိ။",
+              "paliRoman": "Mahanto gajo vanaṃ pavisati.",
+              "translateMm": "ဆင်ကြီးက တောထဲ ဝင်သွားတယ်။",
+              "translateEn": "The big elephant enters the forest."
+            }
+          },
+          {
+            "paliMm": "ခုဒ္ဒက",
+            "paliRoman": "Khuddaka",
+            "translateMm": "သေးသော",
+            "translateEn": "Small, Little",
+            "example": {
+              "paliMm": "ခုဒ္ဒကော မက္ကဋော သာခါယံ ကီဠတိ။",
+              "paliRoman": "Khuddako makkaṭo sākhāyaṃ kīḷati.",
+              "translateMm": "မျောက်ကလေးက သစ်ခက်ပေါ်မှာ ဆော့ကစားနေတယ်။",
+              "translateEn": "The small monkey plays on the branch."
+            }
+          },
+          {
+            "paliMm": "ဒီဃ",
+            "paliRoman": "Dīgha",
+            "translateMm": "ရှည်သော",
+            "translateEn": "Long",
+            "example": {
+              "paliMm": "ဒီဃော သပ္ပေါ တိဏေ စရတိ။",
+              "paliRoman": "Dīgho sappo tiṇe carati.",
+              "translateMm": "မြွေရှည်ကြီးက မြက်တောထဲ လျှောက်သွားနေတယ်။",
+              "translateEn": "The long snake slithers in the grass."
+            }
+          },
+          {
+            "paliMm": "ရဿ",
+            "paliRoman": "Rassa",
+            "translateMm": "တိုသော၊ ပုသော",
+            "translateEn": "Short",
+            "example": {
+              "paliMm": "သော ရဿံ ဒဏ္ဍံ ဂဏှာတိ။",
+              "paliRoman": "So rassaṃ daṇḍaṃ gaṇhāti.",
+              "translateMm": "သူ တုတ်တိုလေးကို ကိုင်ထားတယ်။",
+              "translateEn": "He takes the short stick."
+            }
+          },
+          {
+            "paliMm": "သာဓု",
+            "paliRoman": "Sādhu",
+            "translateMm": "ကောင်းသော",
+            "translateEn": "Good, Noble",
+            "example": {
+              "paliMm": "သာဓု ပုရိသော ဇနံ ရက္ခတိ။",
+              "paliRoman": "Sādhu puriso janaṃ rakkhati.",
+              "translateMm": "လူကောင်းတစ်ယောက်က လူတွေကို ကူညီစောင့်ရှောက်တယ်။",
+              "translateEn": "A good man protects the people."
+            }
+          },
+          {
+            "paliMm": "ပါပ",
+            "paliRoman": "Pāpa",
+            "translateMm": "ယုတ်မာသော၊ မကောင်းသော",
+            "translateEn": "Bad, Evil",
+            "example": {
+              "paliMm": "ပါပေါ နရော ဒုက္ခံ ဝိန္ဒတိ။",
+              "paliRoman": "Pāpo naro dukkhaṃ vindati.",
+              "translateMm": "လူဆိုးက ဒုက္ခရောက်ရတယ်။",
+              "translateEn": "The evil man experiences suffering."
+            }
+          },
+          {
+            "paliMm": "မဓုရ",
+            "paliRoman": "Madhura",
+            "translateMm": "ချိုသော၊ သာယာသော",
+            "translateEn": "Sweet",
+            "example": {
+              "paliMm": "ကညာ မဓုရံ ဇလံ ပိဝတိ။",
+              "paliRoman": "Kaññā madhuraṃ jalaṃ pivati.",
+              "translateMm": "ကောင်မလေးက ချိုတဲ့ရေကို သောက်တယ်။",
+              "translateEn": "The girl drinks sweet water."
+            }
+          },
+          {
+            "paliMm": "တိတ္တက",
+            "paliRoman": "Tittaka",
+            "translateMm": "ခါးသော",
+            "translateEn": "Bitter",
+            "example": {
+              "paliMm": "ဂိလာနော တိတ္တကံ ဩသဓံ အဇ္စျောဟရတိ။",
+              "paliRoman": "Gilāno tittakaṃ osadhaṃ ajjhoharati.",
+              "translateMm": "လူနာက ခါးတဲ့ဆေးကို သောက်ရတယ်။",
+              "translateEn": "The sick person takes the bitter medicine."
+            }
+          },
+          {
+            "paliMm": "သီတ",
+            "paliRoman": "Sīta",
+            "translateMm": "အေးသော",
+            "translateEn": "Cold",
+            "example": {
+              "paliMm": "သော သီတံ ဇလံ အာနယတိ။",
+              "paliRoman": "So sītaṃ jalaṃ ānayati.",
+              "translateMm": "သူ ရေအေးအေးကို သယ်လာတယ်။",
+              "translateEn": "He brings cold water."
+            }
+          },
+          {
+            "paliMm": "ဥဏှ",
+            "paliRoman": "Uṇha",
+            "translateMm": "ပူသော",
+            "translateEn": "Hot",
+            "example": {
+              "paliMm": "ဥဏှံ ဘတ္တံ မဇ္ဈနှိကေ ဘုဉ္ဇတိ။",
+              "paliRoman": "Uṇhaṃ bhattaṃ majjhanhike bhuñjati.",
+              "translateMm": "ထမင်းပူပူကို နေ့လယ်ဘက်မှာ စားတယ်။",
+              "translateEn": "He eats hot rice at noon."
+            }
+          },
+          {
+            "paliMm": "ဗလဝန္တ",
+            "paliRoman": "Balavanta",
+            "translateMm": "အားသန်သော၊ သန်မာသော",
+            "translateEn": "Strong, Powerful",
+            "example": {
+              "paliMm": "ဗလဝန္တော ယောဓော ယုဇ္ဈတိ။",
+              "paliRoman": "Balavanto yodho yujjhati.",
+              "translateMm": "သန်မာတဲ့ စစ်သူကြီးက တိုက်ခိုက်တယ်။",
+              "translateEn": "The strong warrior fights."
+            }
+          },
+          {
+            "paliMm": "ဒုဗ္ဗလ",
+            "paliRoman": "Dubbala",
+            "translateMm": "အားနည်းသော",
+            "translateEn": "Weak, Feeble",
+            "example": {
+              "paliMm": "ဒုဗ္ဗလော မဟလ္လကော မဂ္ဂေ အာဟိဏ္ဍတိ။",
+              "paliRoman": "Dubbalo mahallako magge āhiṇḍati.",
+              "translateMm": "အားနည်းတဲ့ အဘိုးအိုက လမ်းပေါ်မှာ လျှောက်သွားနေတယ်။",
+              "translateEn": "The weak old man wanders on the road."
+            }
+          },
+          {
+            "paliMm": "ပဏ္ဍိတ",
+            "paliRoman": "Paṇḍita",
+            "translateMm": "လိမ္မာပါးနပ်သော၊ ပညာရှိသော",
+            "translateEn": "Wise, Clever",
+            "example": {
+              "paliMm": "ပဏ္ဍိတော သိဿော ပဉှံ ပုစ္ဆတိ။",
+              "paliRoman": "Paṇḍito sisso pañhaṃ pucchati.",
+              "translateMm": "လိမ္မာတဲ့ ကျောင်းသားက မေးခွန်းမေးတယ်။",
+              "translateEn": "The wise student asks a question."
+            }
+          },
+          {
+            "paliMm": "မူဠှ",
+            "paliRoman": "Mūḷha",
+            "translateMm": "တွေ့ဝေသော၊ မိုက်မဲသော",
+            "translateEn": "Foolish, Confused",
+            "example": {
+              "paliMm": "မူဠှော နရော မဂ္ဂံ အပဿတိ။",
+              "paliRoman": "Mūḷho naro maggaṃ apassati.",
+              "translateMm": "တွေဝေနေတဲ့သူက လမ်းကို မမြင်ဘူး။",
+              "translateEn": "The confused person does not see the path."
+            }
+          },
+          {
+            "paliMm": "တရုဏ",
+            "paliRoman": "Taruṇa",
+            "translateMm": "ငယ်ရွယ်သော",
+            "translateEn": "Young, Tender",
+            "example": {
+              "paliMm": "တရုဏော သုနခေါ ဓာဝတိ။",
+              "paliRoman": "Taruṇo sunakho dhāvati.",
+              "translateMm": "ခွေးကလေးက ပြေးနေတယ်။",
+              "translateEn": "The young dog runs."
+            }
+          },
+          {
+            "paliMm": "ဝုဍ္ဎော",
+            "paliRoman": "Vuḍḍha",
+            "translateMm": "ကြီးရင့်သော၊ အသက်ကြီးသော",
+            "translateEn": "Old, Aged",
+            "example": {
+              "paliMm": "ဝုဍ္ဎော ဗြာဟ္မဏော ဓမ္မံ ဘာသတိ။",
+              "paliRoman": "Vuḍḍho brāhmaṇo dhammaṃ bhāsati.",
+              "translateMm": "အသက်ကြီးတဲ့ ပုဏ္ဏားက တရားဟောတယ်။",
+              "translateEn": "The aged Brahmin speaks the Dhamma."
+            }
+          },
+          {
+            "paliMm": "သုစိ",
+            "paliRoman": "Suci",
+            "translateMm": "သန့်ရှင်းသော၊ စင်ကြယ်သော",
+            "translateEn": "Pure, Clean",
+            "example": {
+              "paliMm": "သုစိံ ဇလံ နဒိယံ ဝဟတိ။",
+              "paliRoman": "Suciṃ jalaṃ nadiyaṃ vahati.",
+              "translateMm": "စင်ကြယ်တဲ့ ရေက မြစ်ထဲမှာ စီးဆင်းနေတယ်။",
+              "translateEn": "Clean water flows in the river."
             }
           }
         ]
