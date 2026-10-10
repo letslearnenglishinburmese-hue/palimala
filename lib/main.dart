@@ -1,17 +1,20 @@
 import 'dart:async';
 
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'app_data.dart';
 import 'dictionary_data.dart';
+import 'firebase_options.dart';
 import 'pali_transliteration.dart';
 
 late List<MainCategory> appData;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   appData = await AppDataRepository.load();
   runApp(const PaliLearningApp());
 }
@@ -586,8 +589,7 @@ class _HomeScreenState extends State<HomeScreen> {
           (entry) =>
               entry.normalizedWord != query &&
               (entry.normalizedWord.contains(query) ||
-                  (hasMyanmarCharacters &&
-                      entry.definition.contains(query))),
+                  (hasMyanmarCharacters && entry.definition.contains(query))),
         )
         .take(100 - exactMatches.length);
     return [...exactMatches, ...otherMatches];

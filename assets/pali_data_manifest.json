@@ -18,8 +18,8 @@
       "icon": "directions_run_rounded",
       "asset": "assets/pali_data/verbs.json",
       "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/verbs.json",
-      "sha256": "3eb8499f254ae441cb4fb9be79150ee267d7e077c71fcdf814b186e3a20b6c3a",
-      "bytes": 97542
+      "sha256": "e84d3272111549be72aa41c2e68b9f039e541930a2b7f8d869b05bcad26610b3",
+      "bytes": 201939
     },
     {
       "id": "adjectives",

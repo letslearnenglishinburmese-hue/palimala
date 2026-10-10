@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218739446606",
+    "project_id": "palimala-18c4c",
+    "storage_bucket": "palimala-18c4c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218739446606:android:2d2551a228642b8cb6441f",
+        "android_client_info": {
+          "package_name": "com.example.palimala"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaQQ9-kO_Iu4GxTXr4uhP_0ErosvqM8cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

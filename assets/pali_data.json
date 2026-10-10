@@ -4846,6 +4846,1974 @@
             }
           }
         ]
+      },
+      {
+        "titleMm": "ကုန်ကူးသန်းရောင်းဝယ်ရေးနှင့် စီးပွားရေးဆိုင်ရာ ကြိယာများ",
+        "titleEn": "Verbs of Commerce & Trade",
+        "vocabList": [
+          {
+            "paliMm": "ကိဏာတိ",
+            "paliRoman": "Kiṇāti",
+            "translateMm": "ဝယ်ယူသည်",
+            "translateEn": "Buys",
+            "example": {
+              "paliMm": "သော အာပဏတော ဝတ္ထုံ ကိဏာတိ။",
+              "paliRoman": "So āpaṇato vatthuṃ kiṇāti.",
+              "translateMm": "သူ ဈေးကနေ ပစ္စည်းတစ်ခု ဝယ်ယူနေတယ်။",
+              "translateEn": "He buys an item from the market."
+            }
+          },
+          {
+            "paliMm": "ဝိက္ကိဏာတိ",
+            "paliRoman": "Vikkiṇāti",
+            "translateMm": "ရောင်းချသည်",
+            "translateEn": "Sells",
+            "example": {
+              "paliMm": "ဝါဏိဇော အာပဏသ္မိံ ဖလံ ဝိက္ကိဏာတိ။",
+              "paliRoman": "Vāṇijo āpaṇasmiṃ phalaṃ vikkiṇāti.",
+              "translateMm": "ကုန်သည်က ဈေးထဲမှာ အသီးအနှံတွေကို ရောင်းချနေတယ်။",
+              "translateEn": "The merchant sells fruits in the market."
+            }
+          },
+          {
+            "paliMm": "ဓာရေတိ",
+            "paliRoman": "Dhāreti",
+            "translateMm": "ကြွေးတင်သည်၊ အကြွေးထားသည်",
+            "translateEn": "Owes",
+            "example": {
+              "paliMm": "သော ဝါဏိဇဿ ဓနံ ဓာရေတိ။",
+              "paliRoman": "So vāṇijassa dhanaṃ dhāreti.",
+              "translateMm": "သူ ကုန်သည်ဆီမှာ ငွေကြေး အကြွေးတင်နေတယ်။",
+              "translateEn": "He owes money to the merchant."
+            }
+          },
+          {
+            "paliMm": "ပရိဘုဉ္ဇတိ",
+            "paliRoman": "Paribhuñjati",
+            "translateMm": "သုံးစွဲသည်",
+            "translateEn": "Spends",
+            "example": {
+              "paliMm": "သော ကမ္မတော လဒ္ဓံ ဓနံ ပရိဘုဉ္ဇတိ။",
+              "paliRoman": "So kammato laddhaṃ dhanaṃ paribhuñjati.",
+              "translateMm": "သူ အလုပ်ကရတဲ့ ငွေကို သုံးစွဲလိုက်တယ်။",
+              "translateEn": "He spends the money earned from work."
+            }
+          },
+          {
+            "paliMm": "သဉ္စိနာတိ",
+            "paliRoman": "Sañcināti",
+            "translateMm": "စုဆောင်းသည်၊ သိုလှောင်သည်",
+            "translateEn": "Accumulates / Saves",
+            "example": {
+              "paliMm": "သော အနာဂတတ္ထာယ ဓနံ သဉ္စိနာတိ။",
+              "paliRoman": "So anāgatatthāya dhanaṃ sañcināti.",
+              "translateMm": "သူ အနာဂတ်အတွက် ငွေစုဆောင်းနေတယ်။",
+              "translateEn": "He saves money for the future."
+            }
+          },
+          {
+            "paliMm": "နိဓေတိ",
+            "paliRoman": "Nidheti",
+            "translateMm": "ရင်းနှီးမြှုပ်နှံသည်",
+            "translateEn": "Invests",
+            "example": {
+              "paliMm": "ဝါဏိဇော ဝါဏိဇ္ဇာယ ဓနံ နိဓေတိ။",
+              "paliRoman": "Vāṇijo vāṇijjāya dhanaṃ nidheti.",
+              "translateMm": "ကုန်သည်က ကူးသန်းရောင်းဝယ်ရေးမှာ ငွေကြေး ရင်းနှီးမြှုပ်နှံတယ်။",
+              "translateEn": "The merchant invests money in trade."
+            }
+          },
+          {
+            "paliMm": "ဇိနာတိ",
+            "paliRoman": "Jināti",
+            "translateMm": "အမြတ်ရသည်၊ အနိုင်ရသည်",
+            "translateEn": "Profits / Gains",
+            "example": {
+              "paliMm": "သော ဝါဏိဇ္ဇေန မဟန္တံ ဓနံ ဇိနာတိ။",
+              "paliRoman": "So vāṇijjena mahantaṃ dhanaṃ jināti.",
+              "translateMm": "သူ ကုန်ကူးစရာကနေ အမြတ်ငွေ အများကြီး ရရှိတယ်။",
+              "translateEn": "He gains a lot of wealth through trade."
+            }
+          },
+          {
+            "paliMm": "ဇီယတိ",
+            "paliRoman": "Jīyati",
+            "translateMm": "အရှုံးပေါ်သည်၊ ဆုံးရှုံးသည်",
+            "translateEn": "Suffers a loss",
+            "example": {
+              "paliMm": "သော ဗဟုပရိဘုဉ္ဇနေန ဓနံ ဇီယတိ။",
+              "paliRoman": "So bahuparibhuñjanena dhanaṃ jīyati.",
+              "translateMm": "သူ သုံးစွဲမှုများလို့ ငွေကြေး အရှုံးပေါ်သွားတယ်။",
+              "translateEn": "He suffers a loss of money due to spending."
+            }
+          },
+          {
+            "paliMm": "ဣဏံ ဂဏှာတိ",
+            "paliRoman": "Iṇaṃ gaṇhāti",
+            "translateMm": "ချေးငွေယူသည်၊ အကြွေးယူသည်",
+            "translateEn": "Borrows money",
+            "example": {
+              "paliMm": "သော မိတ္တတော ဣဏံ ဂဏှာတိ။",
+              "paliRoman": "So mittato iṇaṃ gaṇhāti.",
+              "translateMm": "သူ သူငယ်ချင်းဆီကနေ ချေးငွေ ယူလိုက်တယ်။",
+              "translateEn": "He borrows money from a friend."
+            }
+          },
+          {
+            "paliMm": "ဣဏံ ပဋိဒဒါတိ",
+            "paliRoman": "Iṇaṃ paṭidadāti",
+            "translateMm": "ကြွေးဆပ်သည်၊ ချေးငွေပြန်ဆပ်သည်",
+            "translateEn": "Repays debt",
+            "example": {
+              "paliMm": "သော ကာလေ ဣဏံ ပဋိဒဒါတိ။",
+              "paliRoman": "So kāle iṇaṃ paṭidadāti.",
+              "translateMm": "သူ အချိန်တန်တော့ အကြွေး ပြန်ဆပ်လိုက်တယ်။",
+              "translateEn": "He repays the debt in time."
+            }
+          },
+          {
+            "paliMm": "အဂ္ဃတိ",
+            "paliRoman": "Agghati",
+            "translateMm": "တန်ဖိုးရှိသည်၊ အဖိုးထိုက်သည်",
+            "translateEn": "Costs / Is worth",
+            "example": {
+              "paliMm": "ဣဒံ ဝတ္ထု သတံ ဓနံ အဂ္ဃတိ။",
+              "paliRoman": "Idaṃ vatthu sataṃ dhanaṃ agghati.",
+              "translateMm": "ဒီပစ္စည်းက ငွေတစ်ရာ တန်ကြေးရှိတယ်။",
+              "translateEn": "This item costs one hundred units of money."
+            }
+          },
+          {
+            "paliMm": "အဂ္ဃံ အပ္ပေတိ",
+            "paliRoman": "Agghaṃ appeti",
+            "translateMm": "အဖိုးဖြတ်သည်၊ ဈေးသတ်မှတ်သည်",
+            "translateEn": "Appraises / Sets a price",
+            "example": {
+              "paliMm": "ဝါဏိဇော ဝတ္ထုဿ အဂ္ဃံ အပ္ပေတိ။",
+              "paliRoman": "Vāṇijo vatthussa agghaṃ appeti.",
+              "translateMm": "ကုန်သည်က ပစ္စည်းရဲ့ ဈေးနှုန်းကို သတ်မှတ်လိုက်တယ်။",
+              "translateEn": "The merchant sets the price of the goods."
+            }
+          },
+          {
+            "paliMm": "သမ္မသတိ",
+            "paliRoman": "Sammasati",
+            "translateMm": "စိစစ်တွက်ချက်သည်၊ စစ်ဆေးသည်",
+            "translateEn": "Calculates / Inspects",
+            "example": {
+              "paliMm": "သော အာယဗ္ဗယံ သမ္မသတိ။",
+              "paliRoman": "So āyabbayaṃ sammasati.",
+              "translateMm": "သူ ဝင်ငွေထွက်ငွေ စာရင်းကို စိစစ်တွက်ချက်နေတယ်။",
+              "translateEn": "He calculates the income and expenditure."
+            }
+          },
+          {
+            "paliMm": "နိဟာရေတိ",
+            "paliRoman": "Nihāreti",
+            "translateMm": "တင်ပို့သည်၊ ထုတ်ယူသည်",
+            "translateEn": "Exports / Takes out",
+            "example": {
+              "paliMm": "သော ရဋ္ဌတော ဝတ္ထုံ နိဟာရေတိ။",
+              "paliRoman": "So raṭṭhato vatthuṃ nihāreti.",
+              "translateMm": "သူ တိုင်းပြည်ကနေ ပစ္စည်းတွေကို ပြင်ပသို့ တင်ပို့တယ်။",
+              "translateEn": "He exports goods from the country."
+            }
+          },
+          {
+            "paliMm": "အာနယတိ",
+            "paliRoman": "Ānayati",
+            "translateMm": "တင်သွင်းသည်၊ ယူဆောင်လာသည်",
+            "translateEn": "Imports / Brings in",
+            "example": {
+              "paliMm": "ဝါဏိဇော ပရရဋ္ဌတော ဝတ္ထုံ အာနယတိ။",
+              "paliRoman": "Vāṇijo pararaṭṭhato vatthuṃ ānayati.",
+              "translateMm": "ကုန်သည်က နိုင်ငံခြားကနေ ပစ္စည်းတွေကို တင်သွင်းလာတယ်။",
+              "translateEn": "The merchant imports goods from another country."
+            }
+          },
+          {
+            "paliMm": "စာရေတိ",
+            "paliRoman": "Cāreti",
+            "translateMm": "ကုန်ပစ္စည်းများကို လှည့်လည်ရောင်းချစေသည်",
+            "translateEn": "Circulates goods / Trades around",
+            "example": {
+              "paliMm": "သော နဂရေသု ဘဏ္ဍံ စာရေတိ။",
+              "paliRoman": "So nagaresu bhaṇḍaṃ cāreti.",
+              "translateMm": "သူ မြို့အသီးသီးမှာ ကုန်ပစ္စည်းတွေကို လှည့်လည်ရောင်းချစေတယ်။",
+              "translateEn": "He circulates goods across various cities."
+            }
+          },
+          {
+            "paliMm": "ပါလေတိ",
+            "paliRoman": "Pāleti",
+            "translateMm": "စီးပွားဥစ္စာကို ထိန်းသိမ်းသည်",
+            "translateEn": "Manages wealth",
+            "example": {
+              "paliMm": "သော သကံ ဓနံ သမ္မာ ပါလေတိ။",
+              "paliRoman": "So sakaṃ dhanaṃ sammā pāleti.",
+              "translateMm": "သူ မိမိရဲ့ စီးပွားဥစ္စာကို စနစ်တကျ ထိန်းသိမ်းစောင့်ရှောက်တယ်။",
+              "translateEn": "He properly manages his own wealth."
+            }
+          },
+          {
+            "paliMm": "ကရံ ဟရတိ",
+            "paliRoman": "Karaṃ harati",
+            "translateMm": "အခွန်ကောက်ခံသည်",
+            "translateEn": "Collects tax",
+            "example": {
+              "paliMm": "ရာဇပုရိသော မဟာဇနတော ကရံ ဟရတိ။",
+              "paliRoman": "Rājapuriso mahājanato karaṃ harati.",
+              "translateMm": "မင်းချင်းက ပြည်သူလူထုဆီကနေ အခွန်ကောက်ခံတယ်။",
+              "translateEn": "The official collects tax from the public."
+            }
+          },
+          {
+            "paliMm": "ကရံ ဒဒါတိ",
+            "paliRoman": "Karaṃ dadāti",
+            "translateMm": "အခွန်ပေးဆောင်သည်",
+            "translateEn": "Pays tax",
+            "example": {
+              "paliMm": "ဝါဏိဇော ရာဇိနော ကရံ ဒဒါတိ။",
+              "paliRoman": "Vāṇijo rājino karaṃ dadāti.",
+              "translateMm": "ကုန်သည်က ဘုရင်ထံ အခွန်ပေးဆောင်တယ်။",
+              "translateEn": "The merchant pays tax to the king."
+            }
+          },
+          {
+            "paliMm": "လာဘံ နိဗ္ဗတ္တေတိ",
+            "paliRoman": "Lābhaṃ nibbatteti",
+            "translateMm": "အမြတ်အစွန်း ဖြစ်ထွန်းစေသည်",
+            "translateEn": "Yields profit / Produces wealth",
+            "example": {
+              "paliMm": "ဝါဏိဇ္ဇံ မဟန္တံ လာဘံ နိဗ္ဗတ္တေတိ။",
+              "paliRoman": "Vāṇijjaṃ mahantaṃ lābhaṃ nibbatteti.",
+              "translateMm": "ကုန်သွယ်မှုက အလွန်ကြီးမားတဲ့ အမြတ်အစွန်းကို ဖြစ်ထွန်းစေတယ်။",
+              "translateEn": "Trade yields a great profit."
+            }
+          }
+        ]
+      },
+      {
+        "titleMm": "သတိ၊ အသိပညာနှင့် အတွေးအခေါ်ဆိုင်ရာ ကြိယာများ",
+        "titleEn": "Verbs of Cognition & Thinking",
+        "vocabList": [
+          {
+            "paliMm": "စိန္တေတိ",
+            "paliRoman": "Cinteti",
+            "translateMm": "စဉ်းစားသည်",
+            "translateEn": "Thinks / Considers",
+            "example": {
+              "paliMm": "သော မနသာ အတ္ထံ စိန္တေတိ။",
+              "paliRoman": "So manasā atthaṃ cinteti.",
+              "translateMm": "သူ စိတ်ထဲကနေ အဓိပ္ပာယ်ကို စဉ်းစားနေတယ်။",
+              "translateEn": "He thinks of the meaning in his mind."
+            }
+          },
+          {
+            "paliMm": "ဇာနာတိ",
+            "paliRoman": "Jānāti",
+            "translateMm": "သိသည်၊ သိရှိသည်",
+            "translateEn": "Knows / Understands",
+            "example": {
+              "paliMm": "သိဿော သစ္စံ ဇာနာတိ။",
+              "paliRoman": "Sisso saccaṃ jānāti.",
+              "translateMm": "ကျောင်းသားက အမှန်တရားကို သိရှိသွားတယ်။",
+              "translateEn": "The student knows the truth."
+            }
+          },
+          {
+            "paliMm": "ဗုဇ္ဈတိ",
+            "paliRoman": "Bujjhati",
+            "translateMm": "နားလည်သည်၊ ထိုးထွင်းသိသည်",
+            "translateEn": "Comprehends / Perceives",
+            "example": {
+              "paliMm": "သော ဓမ္မံ သမ္မာ ဗုဇ္ဈတိ။",
+              "paliRoman": "So dhammaṃ sammā bujjhati.",
+              "translateMm": "သူ တရားဓမ္မကို စနစ်တကျ ထိုးထွင်းနားလည်တယ်။",
+              "translateEn": "He properly comprehends the Dhamma."
+            }
+          },
+          {
+            "paliMm": "သရတိ",
+            "paliRoman": "Sarati",
+            "translateMm": "အမှတ်ရသည်၊ သတိရသည်",
+            "translateEn": "Remembers / Recalls",
+            "example": {
+              "paliMm": "သော ပုဗ္ဗေ ကတံ သရတိ။",
+              "paliRoman": "So pubbe kataṃ sarati.",
+              "translateMm": "သူ အရင်က လုပ်ခဲ့တာကို အမှတ်ရနေတယ်။",
+              "translateEn": "He remembers what was done before."
+            }
+          },
+          {
+            "paliMm": "ဝိဇာနာတိ",
+            "paliRoman": "Vijānāti",
+            "translateMm": "ပိုင်းခြားသိသည်၊ သိမြင်သည်",
+            "translateEn": "Discerns / Cognizes",
+            "example": {
+              "paliMm": "ယတိ ရသံ ဝိဇာနာတိ။",
+              "paliRoman": "Yati rasaṃ vijānāti.",
+              "translateMm": "ရဟန်းတော်က အရသာကို ပိုင်းခြားသိမြင်တယ်။",
+              "translateEn": "The monk discerns the taste."
+            }
+          },
+          {
+            "paliMm": "သလ္လက္ခေတိ",
+            "paliRoman": "Sallakkheti",
+            "translateMm": "မှတ်သားသည်၊ သတိပြုသည်",
+            "translateEn": "Observes / Notes mentally",
+            "example": {
+              "paliMm": "သော လက္ခဏံ သလ္လက္ခေတိ။",
+              "paliRoman": "So lakkhaṇaṃ sallakkheti.",
+              "translateMm": "သူ အမှတ်လက္ခဏာကို သေချာ စိစစ်မှတ်သားတယ်။",
+              "translateEn": "He mentally notes the characteristic."
+            }
+          },
+          {
+            "paliMm": "သဒ္ဓဟတိ",
+            "paliRoman": "Saddahati",
+            "translateMm": "ယုံကြည်သည်",
+            "translateEn": "Believes / Has faith",
+            "example": {
+              "paliMm": "ဥပါသကော ဗုဒ္ဓဿ ဝစနံ သဒ္ဓဟတိ။",
+              "paliRoman": "Upāsako buddhassa vacanaṃ saddahati.",
+              "translateMm": "ဥပါသကာက ဘုရားရှင်၏ စကားတော်ကို ယုံကြည်တယ်။",
+              "translateEn": "The lay devotee believes the word of the Buddha."
+            }
+          },
+          {
+            "paliMm": "ဝီမံသတိ",
+            "paliRoman": "Vīmaṃsati",
+            "translateMm": "စုံစမ်းစိစစ်သည်",
+            "translateEn": "Investigates / Examines",
+            "example": {
+              "paliMm": "သိဿော ဓမ္မံ ဝီမံသတိ။",
+              "paliRoman": "Sisso dhammaṃ vīmaṃsati.",
+              "translateMm": "ကျောင်းသားက တရားအကြောင်းကို စုံစမ်းစိစစ်နေတယ်။",
+              "translateEn": "The student investigates the doctrine."
+            }
+          },
+          {
+            "paliMm": "နိစ္ဆယံ ကရောတိ",
+            "paliRoman": "Nicchayaṃ karoti",
+            "translateMm": "ဆုံးဖြတ်သည်၊ အတည်ပြုသည်",
+            "translateEn": "Decides / Determines",
+            "example": {
+              "paliMm": "သော ကမ္မသ္မိံ နိစ္ဆယံ ကရောတိ။",
+              "paliRoman": "So kammasmiṃ nicchayaṃ karoti.",
+              "translateMm": "သူ အလုပ်နဲ့ ပတ်သက်ပြီး ဆုံးဖြတ်ချက် ချလိုက်တယ်။",
+              "translateEn": "He makes a decision regarding the work."
+            }
+          },
+          {
+            "paliMm": "ပညာယတိ",
+            "paliRoman": "Paññāyati",
+            "translateMm": "ထင်ရှားသိမြင်သည်၊ ပေါ်လွင်သည်",
+            "translateEn": "Is perceived / Manifests",
+            "example": {
+              "paliMm": "အတ္ထော သမ္မာ ပညာယတိ။",
+              "paliRoman": "Attho sammā paññāyati.",
+              "translateMm": "အဓိပ္ပာယ်က စနစ်တကျ ထင်ရှားပေါ်လွင်လာတယ်။",
+              "translateEn": "The meaning is clearly perceived."
+            }
+          },
+          {
+            "paliMm": "အဝဗုဇ္ဈတိ",
+            "paliRoman": "Avabujjhati",
+            "translateMm": "သဘောပေါက်သည်၊ နားလည်သည်",
+            "translateEn": "Grasps / Understands",
+            "example": {
+              "paliMm": "သော ဂဟိတတ္ထံ အဝဗုဇ္ဈတိ။",
+              "paliRoman": "So gahitatthaṃ avabujjhati.",
+              "translateMm": "သူ သင်ယူခဲ့တဲ့ အဓိပ္ပာယ်ကို သဘောပေါက်သွားတယ်။",
+              "translateEn": "He grasps the learned meaning."
+            }
+          },
+          {
+            "paliMm": "သမနုပဿတိ",
+            "paliRoman": "Samanupassati",
+            "translateMm": "အဖန်ဖန် ရှုမြင်သည်၊ သုံးသပ်သည်",
+            "translateEn": "Considers / Contemplates",
+            "example": {
+              "paliMm": "သော ခန္ဓေ အနိစ္စတော သမနုပဿတိ။",
+              "paliRoman": "So khandhe aniccato samanupassati.",
+              "translateMm": "သူ ခန္ဓာငါးပါးကို အနိစ္စအဖြစ် အဖန်ဖန် ရှုမြင်သုံးသပ်တယ်။",
+              "translateEn": "He contemplates the aggregates as impermanent."
+            }
+          },
+          {
+            "paliMm": "ဥပပရိက္ခတိ",
+            "paliRoman": "Upaparikkhati",
+            "translateMm": "စုံစမ်းစစ်ဆေးသည်",
+            "translateEn": "Inspects / Scrutinizes",
+            "example": {
+              "paliMm": "ပဏ္ဍိတော နယံ ဥပပရိက္ခတိ။",
+              "paliRoman": "Paṇḍito nayaṃ upaparikkhati.",
+              "translateMm": "ပညာရှိက အကြောင်းနည်းလမ်းကို သေချာ စုံစမ်းစစ်ဆေးတယ်။",
+              "translateEn": "The wise person scrutinizes the method."
+            }
+          },
+          {
+            "paliMm": "ကင်္ခတိ",
+            "paliRoman": "Kaṅkhati",
+            "translateMm": "တွေးတောယုံမှားဖြစ်သည်၊ သံသယရှိသည်",
+            "translateEn": "Doubts / Hesitates",
+            "example": {
+              "paliMm": "သော မဂ္ဂေ ကင်္ခတိ။",
+              "paliRoman": "So magge kaṅkhati.",
+              "translateMm": "သူ လမ်းကြောင်းအပေါ် သံသယဖြစ်နေတယ်။",
+              "translateEn": "He doubts about the path."
+            }
+          },
+          {
+            "paliMm": "ပကပ္ပေတိ",
+            "paliRoman": "Pakappeti",
+            "translateMm": "ကြံစည်သည်၊ အယူအဆပြုသည်",
+            "translateEn": "Imagines / Conceptualizes",
+            "example": {
+              "paliMm": "သော အဘူတံ အတ္ထံ ပကပ္ပေတိ။",
+              "paliRoman": "So abhūtaṃ atthaṃ pakappeti.",
+              "translateMm": "သူ မဟုတ်မမှန်တဲ့ အဓိပ္ပာယ်ကို စိတ်ကူးကြံဆနေတယ်။",
+              "translateEn": "He imagines an untrue meaning."
+            }
+          },
+          {
+            "paliMm": "မနသိ ကရောတိ",
+            "paliRoman": "Manasi karoti",
+            "translateMm": "နှလုံးသွင်းသည်၊ စိတ်ထဲထားသည်",
+            "translateEn": "Attends to / Pays attention",
+            "example": {
+              "paliMm": "သော သာဓုကံ မနသိ ကရောတိ။",
+              "paliRoman": "So sādhukaṃ manasi karoti.",
+              "translateMm": "သူ ကောင်းကောင်းမွန်မွန် နှလုံးသွင်းထားတယ်။",
+              "translateEn": "He pays careful attention to it."
+            }
+          },
+          {
+            "paliMm": "ပရိဝိတက္ကေတိ",
+            "paliRoman": "Parivitakketi",
+            "translateMm": "ကြံဆတွေးတောသည်",
+            "translateEn": "Ponders / Reflects",
+            "example": {
+              "paliMm": "သော မနသာ ပရိဝိတက္ကေတိ။",
+              "paliRoman": "So manasā parivitakketi.",
+              "translateMm": "သူ စိတ်ထဲကနေ အကျယ်တဝင့် ကြံဆတွေးတောနေတယ်။",
+              "translateEn": "He ponders thoroughly in his mind."
+            }
+          },
+          {
+            "paliMm": "ပဿတိ",
+            "paliRoman": "Passati",
+            "translateMm": "အသိဉာဏ်ဖြင့် မြင်သည်၊ သဘောပေါက်သည်",
+            "translateEn": "Sees intellectually / Perceives",
+            "example": {
+              "paliMm": "သော ဉာဏေန ဓမ္မံ ပဿတိ။",
+              "paliRoman": "So ñāṇena dhammaṃ passati.",
+              "translateMm": "သူ အသိဉာဏ်နဲ့ တရားသဘောကို မြင်တွေ့သွားတယ်။",
+              "translateEn": "He sees the truth with knowledge."
+            }
+          },
+          {
+            "paliMm": "မုဿတိ",
+            "paliRoman": "Mussati",
+            "translateMm": "မေ့လျော့သည်၊ သတိလွတ်သည်",
+            "translateEn": "Forgets",
+            "example": {
+              "paliMm": "သော ဥဂ္ဂဟိတံ မုဿတိ။",
+              "paliRoman": "So uggahitaṃ mussati.",
+              "translateMm": "သူ သင်ယူထားတာကို မေ့လျော့သွားတယ်။",
+              "translateEn": "He forgets what was learned."
+            }
+          },
+          {
+            "paliMm": "နိဇ္ဈာယတိ",
+            "paliRoman": "Nijjhāyati",
+            "translateMm": "နက်နက်နဲနဲ ရှုမြင်သည်",
+            "translateEn": "Comprehends deeply / Reflects",
+            "example": {
+              "paliMm": "သော ဓမ္မံ နိဇ္ဈာယတိ။",
+              "paliRoman": "So dhammaṃ nijjhāyati.",
+              "translateMm": "သူ တရားသဘောကို နက်နက်နဲနဲ စိစစ်ရှုမြင်တယ်။",
+              "translateEn": "He reflects deeply on the Dhamma."
+            }
+          }
+        ]
+      },
+      {
+        "titleMm": "ပိုင်ဆိုင်မှု၊ ရယူခြင်းနှင့် စွန့်လွှတ်ခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleEn": "Verbs of Possession, Giving & Taking",
+        "vocabList": [
+          {
+            "paliMm": "ဒဒါတိ / ဒေတိ",
+            "paliRoman": "Dadāti / Deti",
+            "translateMm": "ပေးသည်၊ လှူဒါန်းသည်",
+            "translateEn": "Gives / Offers",
+            "example": {
+              "paliMm": "သော ယာစကဿ အာဟာရံ ဒဒါတိ။",
+              "paliRoman": "So yācakassa āhāraṃ dadāti.",
+              "translateMm": "သူ သူတောင်းစားကို အစားအသောက် ပေးလိုက်တယ်။",
+              "translateEn": "He gives food to the beggar."
+            }
+          },
+          {
+            "paliMm": "ဂဏှာတိ",
+            "paliRoman": "Gaṇhāti",
+            "translateMm": "ယူသည်၊ ကိုင်ဆုပ်သည်",
+            "translateEn": "Takes / Holds",
+            "example": {
+              "paliMm": "သော ဟတ္ထေန ပုတ္ထကံ ဂဏှာတိ။",
+              "paliRoman": "So hatthena putthakaṃ gaṇhāti.",
+              "translateMm": "သူ လက်နဲ့ စာအုပ်ကို ယူလိုက်တယ်။",
+              "translateEn": "He takes the book with his hand."
+            }
+          },
+          {
+            "paliMm": "လဘတိ",
+            "paliRoman": "Labhati",
+            "translateMm": "ရရှိသည်၊ ရသည်",
+            "translateEn": "Receives / Gets",
+            "example": {
+              "paliMm": "သော ကမ္မတော ဓနံ လဘတိ။",
+              "paliRoman": "So kammato dhanaṃ labhati.",
+              "translateMm": "သူ အလုပ်ကနေ ငွေကြေး ရရှိတယ်။",
+              "translateEn": "He receives money from his work."
+            }
+          },
+          {
+            "paliMm": "ဇဟာတိ / စဇတိ",
+            "paliRoman": "Jahāti / Cajati",
+            "translateMm": "စွန့်လွှတ်သည်၊ စွန့်ပစ်သည်",
+            "translateEn": "Abandons / Relinquishes",
+            "example": {
+              "paliMm": "သော ပါပကမ္မံ ဇဟာတိ။",
+              "paliRoman": "So pāpakammaṃ jahāti.",
+              "translateMm": "သူ မကောင်းမှုအလုပ်ကို စွန့်လွှတ်လိုက်တယ်။",
+              "translateEn": "He abandons evil deeds."
+            }
+          },
+          {
+            "paliMm": "ဓာရေတိ",
+            "paliRoman": "Dhāreti",
+            "translateMm": "ပိုင်ဆိုင်သည်၊ ဆောင်ထားသည်",
+            "translateEn": "Possesses / Holds",
+            "example": {
+              "paliMm": "သော မဏိံ ဓာရေတိ။",
+              "paliRoman": "So maṇiṃ dhāreti.",
+              "translateMm": "သူ ကျောက်မျက်ရတနာကို ပိုင်ဆိုင်ထားတယ်။",
+              "translateEn": "He possesses a gem."
+            }
+          },
+          {
+            "paliMm": "အာဒါတိ",
+            "paliRoman": "Ādāti",
+            "translateMm": "ယူဆောင်သည်၊ လက်ခံသည်",
+            "translateEn": "Takes / Accepts",
+            "example": {
+              "paliMm": "သော ဒိန္နံ အာဒါတိ။",
+              "paliRoman": "So dinnaṃ ādāti.",
+              "translateMm": "သူ ပေးကမ်းတာကို လက်ခံယူလိုက်တယ်။",
+              "translateEn": "He accepts what is given."
+            }
+          },
+          {
+            "paliMm": "နိဿဇ္ဇေတိ",
+            "paliRoman": "Nissajjeti",
+            "translateMm": "စွန့်ပစ်သည်၊ စွန့်လွှတ်သည်",
+            "translateEn": "Gives up / Discards",
+            "example": {
+              "paliMm": "သမဏော ဃရာဝါသံ နိဿဇ္ဇေတိ။",
+              "paliRoman": "Samaṇo gharāvāsaṃ nissajjeti.",
+              "translateMm": "ရဟန်းတော်က လူ့ဘောင်အိမ်ထောင်ကို စွန့်လွှတ်လိုက်တယ်။",
+              "translateEn": "The ascetic gives up household life."
+            }
+          },
+          {
+            "paliMm": "ပဋိဂဏှာတိ",
+            "paliRoman": "Paṭigaṇhāti",
+            "translateMm": "လက်ခံရယူသည်",
+            "translateEn": "Receives / Accepts",
+            "example": {
+              "paliMm": "ဘိက္ခု ဒါနံ ပဋိဂဏှာတိ။",
+              "paliRoman": "Bhikkhu dānaṃ paṭigaṇhāti.",
+              "translateMm": "ရဟန်းတော်က လှူဒါန်းဝတ္ထုကို လက်ခံရယူတော်မူတယ်။",
+              "translateEn": "The monk accepts the offering."
+            }
+          },
+          {
+            "paliMm": "အာနယတိ",
+            "paliRoman": "Ānayati",
+            "translateMm": "ယူဆောင်လာသည်",
+            "translateEn": "Brings",
+            "example": {
+              "paliMm": "သော အာပဏတော ဖလံ အာနယတိ။",
+              "paliRoman": "So āpaṇato phalaṃ ānayati.",
+              "translateMm": "သူ ဈေးကနေ အသီးကို ယူဆောင်လာတယ်။",
+              "translateEn": "He brings fruit from the market."
+            }
+          },
+          {
+            "paliMm": "နေတိ / ဟရတိ",
+            "paliRoman": "Neti / Harati",
+            "translateMm": "ယူဆောင်သွားသည်",
+            "translateEn": "Takes away / Carries",
+            "example": {
+              "paliMm": "သော ဓနံ ဂေဟံ နေတိ။",
+              "paliRoman": "So dhanaṃ gehaṃ neti.",
+              "translateMm": "သူ ပစ္စည်းဥစ္စာကို အိမ်သို့ ယူဆောင်သွားတယ်။",
+              "translateEn": "He takes the wealth home."
+            }
+          },
+          {
+            "paliMm": "ပရိစ္စဇတိ",
+            "paliRoman": "Pariccajati",
+            "translateMm": "စွန့်လှူသည်၊ စွန့်လွှတ်သည်",
+            "translateEn": "Bestows / Surrenders",
+            "example": {
+              "paliMm": "ရာဇာ သကံ ဓနံ ပရိစ္စဇတိ။",
+              "paliRoman": "Rājā sakaṃ dhanaṃ pariccajati.",
+              "translateMm": "ဘုရင်က မိမိရဲ့ ပစ္စည်းဥစ္စာကို စွန့်လှူလိုက်တယ်။",
+              "translateEn": "The king surrenders his wealth for charity."
+            }
+          },
+          {
+            "paliMm": "သန္တပ္ပေတိ",
+            "paliRoman": "Santappeti",
+            "translateMm": "ဝလင်စေသည်၊ ရောင့်ရဲစေသည်",
+            "translateEn": "Satisfies / Gratifies",
+            "example": {
+              "paliMm": "သော မဟာဇနံ အာဟာရေန သန္တပ္ပေတိ။",
+              "paliRoman": "So mahājanaṃ āhārena santappeti.",
+              "translateMm": "သူ ပြည်သူတွေကို အစားအသောက်နဲ့ ရောင့်ရဲဝလင်စေတယ်။",
+              "translateEn": "He satisfies the public with food."
+            }
+          },
+          {
+            "paliMm": "အာဟရတိ",
+            "paliRoman": "Āharati",
+            "translateMm": "ယူဆောင်လာသည်၊ ဆက်သသည်",
+            "translateEn": "Fetches / Presents",
+            "example": {
+              "paliMm": "သာ ဥဒကံ အာဟရတိ။",
+              "paliRoman": "Sā udakaṃ āharati.",
+              "translateMm": "သူငယ်မလေးက ရေကို ခပ်ယူဆောင်လာတယ်။",
+              "translateEn": "She fetches water."
+            }
+          },
+          {
+            "paliMm": "ဝိဿဇ္ဇေတိ",
+            "paliRoman": "Vissajjeti",
+            "translateMm": "ပေးကမ်းသည်၊ ဝေငှသည်",
+            "translateEn": "Distributes / Grants",
+            "example": {
+              "paliMm": "သော ဒါနံ ဝိဿဇ္ဇေတိ။",
+              "paliRoman": "So dānaṃ vissajjeti.",
+              "translateMm": "သူ အလှူဒါန ပစ္စည်းတွေကို ပေးကမ်းဝေငှလိုက်တယ်။",
+              "translateEn": "He distributes charitable gifts."
+            }
+          },
+          {
+            "paliMm": "ပရိဂဏှာတိ",
+            "paliRoman": "Parigaṇhāti",
+            "translateMm": "သိမ်းပိုက်သည်၊ ပိုင်ဆိုင်သည်",
+            "translateEn": "Grasps / Possesses fully",
+            "example": {
+              "paliMm": "သော ခေတ္တံ ပရိဂဏှာတိ။",
+              "paliRoman": "So khettaṃ parigaṇhāti.",
+              "translateMm": "သူ လယ်ကွင်းကို မိမိပိုင်အဖြစ် သိမ်းပိုက်ထားတယ်။",
+              "translateEn": "He possesses the field."
+            }
+          },
+          {
+            "paliMm": "နိဓာတိ / နိဓေတိ",
+            "paliRoman": "Nidhāti / Nidheti",
+            "translateMm": "မြှုပ်နှံသည်၊ သိမ်းဆည်းသည်",
+            "translateEn": "Deposits / Stores",
+            "example": {
+              "paliMm": "သော ဘူမိယံ ဓနံ နိဓာတိ။",
+              "paliRoman": "So bhūmiyaṃ dhanaṃ nidhāti.",
+              "translateMm": "သူ မြေကြီးထဲမှာ ငွေကြေးကို မြှုပ်နှံသိမ်းဆည်းထားတယ်။",
+              "translateEn": "He deposits wealth in the ground."
+            }
+          },
+          {
+            "paliMm": "ယာစတိ",
+            "paliRoman": "Yācati",
+            "translateMm": "တောင်းခံသည်",
+            "translateEn": "Begs / Asks for",
+            "example": {
+              "paliMm": "ယာစကော အာဟာရံ ယာစတိ။",
+              "paliRoman": "Yācako āhāraṃ yācati.",
+              "translateMm": "သူတောင်းစားက အစားအသောက် တောင်းခံနေတယ်။",
+              "translateEn": "The beggar asks for food."
+            }
+          },
+          {
+            "paliMm": "သာဟသာ ဟရတိ",
+            "paliRoman": "Sāhasā harati",
+            "translateMm": "လုယက်ယူသည်၊ အဓမ္မယူသည်",
+            "translateEn": "Seizes / Robs",
+            "example": {
+              "paliMm": "စောရော ဓနံ သာဟသာ ဟရတိ။",
+              "paliRoman": "Coro dhanaṃ sāhasā harati.",
+              "translateMm": "သူခိုးက ပစ္စည်းဥစ္စာကို အတင်းအဓမ္မ လုယက်ယူဆောင်သွားတယ်။",
+              "translateEn": "The thief seizes the wealth forcefully."
+            }
+          },
+          {
+            "paliMm": "ပဋိဒဒါတိ",
+            "paliRoman": "Paṭidadāti",
+            "translateMm": "ပြန်ပေးသည်၊ ပြန်ဆပ်သည်",
+            "translateEn": "Returns / Gives back",
+            "example": {
+              "paliMm": "သော ဂဟိတံ ပေါတ္ထကံ ပဋိဒဒါတိ။",
+              "paliRoman": "So gahitaṃ potthakaṃ paṭidadāti.",
+              "translateMm": "သူ ယူထားတဲ့ စာအုပ်ကို ပြန်ပေးလိုက်တယ်။",
+              "translateEn": "He gives back the borrowed book."
+            }
+          },
+          {
+            "paliMm": "သာဒိယတိ",
+            "paliRoman": "Sādiyati",
+            "translateMm": "နှစ်သက်စွာ လက်ခံသည်",
+            "translateEn": "Accepts / Takes pleasure in receiving",
+            "example": {
+              "paliMm": "သော ပရိက္ခာရံ သာဒိယတိ။",
+              "paliRoman": "So parikkhāraṃ sādiyati.",
+              "translateMm": "သူ ပရိက္ခရာကို ဝမ်းမြောက်စွာ လက်ခံယူတယ်။",
+              "translateEn": "He accepts the requisite with pleasure."
+            }
+          }
+        ]
+      },
+      {
+        "titleMm": "သဘာဝတ္ထုနှင့် ရာသီဥတု ဖြစ်ပျက်မှုဆိုင်ရာ ကြိယာများ",
+        "titleEn": "Verbs of Natural Phenomena",
+        "vocabList": [
+          {
+            "paliMm": "ဝဿတိ",
+            "paliRoman": "Vassati",
+            "translateMm": "မိုးရွာသည်",
+            "translateEn": "Rains",
+            "example": {
+              "paliMm": "မဟာ မေဃော ဝဿတိ။",
+              "paliRoman": "Mahā megho vassati.",
+              "translateMm": "မိုးတိမ်ကြီးကနေ မိုးရွာသွန်းနေတယ်။",
+              "translateEn": "Rain falls from the large cloud."
+            }
+          },
+          {
+            "paliMm": "ဝါယတိ",
+            "paliRoman": "Vāyati",
+            "translateMm": "လေတိုက်သည်",
+            "translateEn": "Blows",
+            "example": {
+              "paliMm": "သီတလော ဝါတော ဝါယတိ။",
+              "paliRoman": "Sītalo vāto vāyati.",
+              "translateMm": "အေးမြတဲ့ လေတိုက်ခတ်နေတယ်။",
+              "translateEn": "A cold wind blows."
+            }
+          },
+          {
+            "paliMm": "ဥဒေတိ",
+            "paliRoman": "Udeti",
+            "translateMm": "ထွက်ပေါ်သည်၊ တက်လာသည်",
+            "translateEn": "Rises",
+            "example": {
+              "paliMm": "သူရိယော ပုဗ္ဗဒိသာယံ ဥဒေတိ။",
+              "paliRoman": "Sūriyo purimadisāyaṃ udeti.",
+              "translateMm": "နေမင်းက အရှေ့အရပ်မှာ ထွက်ပေါ်လာတယ်။",
+              "translateEn": "The sun rises in the east."
+            }
+          },
+          {
+            "paliMm": "အတ္ထံ ဂစ္ဆတိ",
+            "paliRoman": "Atthaṃ gacchati",
+            "translateMm": "ဝင်သည်၊ ချုပ်ပျောက်သည်",
+            "translateEn": "Sets",
+            "example": {
+              "paliMm": "သာယဏှေ သူရိယော အတ္ထံ ဂစ္ဆတိ။",
+              "paliRoman": "Sāyaṇhe sūriyo atthaṃ gacchati.",
+              "translateMm": "ညနေပိုင်းမှာ နေမင်းက ဝင်သွားတယ်။",
+              "translateEn": "The sun sets in the evening."
+            }
+          },
+          {
+            "paliMm": "တပတိ",
+            "paliRoman": "Tapati",
+            "translateMm": "ပူပြင်းသည်၊ တောက်ပသည်",
+            "translateEn": "Shines / Burns",
+            "example": {
+              "paliMm": "မဇ္ဈနှေ သူရိယော ဗလဝံ တပတိ။",
+              "paliRoman": "Majjhanhe sūriyo balavaṃ tapati.",
+              "translateMm": "နေ့လယ်မှာ နေမင်းက ပြင်းပြင်းထန်ထန် ပူပြင်းတောက်ပတယ်။",
+              "translateEn": "The sun shines strongly at midday."
+            }
+          },
+          {
+            "paliMm": "သောဘတိ / ဝိရောစတိ",
+            "paliRoman": "Sobhati / Virocati",
+            "translateMm": "တင့်တယ်သည်၊ တောက်ပသည်",
+            "translateEn": "Shines / Glistens",
+            "example": {
+              "paliMm": "စန္ဒော ရတ္တိယံ အာကာသေ သောဘတိ။",
+              "paliRoman": "Cando rattiyaṃ ākāse sobhati.",
+              "translateMm": "ညဉ့်အခါမှာ လမင်းက ကောင်းကင်မှာ တင့်တယ်နေတယ်။",
+              "translateEn": "The moon shines beautifully in the sky at night."
+            }
+          },
+          {
+            "paliMm": "သန္ဒတိ",
+            "paliRoman": "Sandati",
+            "translateMm": "စီးဆင်းသည်",
+            "translateEn": "Flows",
+            "example": {
+              "paliMm": "နဒီ ပဗ္ဗတတော သမုဒ္ဒံ သန္ဒတိ။",
+              "paliRoman": "Nadī pabbatato samuddaṃ sandati.",
+              "translateMm": "မြစ်ရေက တောင်ပေါ်ကနေ ပင်လယ်ဆီ စီးဆင်းနေတယ်။",
+              "translateEn": "The river flows from the mountain to the sea."
+            }
+          },
+          {
+            "paliMm": "ကမ္ပတိ",
+            "paliRoman": "Kampati",
+            "translateMm": "တုန်လှုပ်သည်၊ ငလျင်လှုပ်သည်",
+            "translateEn": "Trembles / Shakes",
+            "example": {
+              "paliMm": "မဟာ ပထဝီ ကမ္ပတိ။",
+              "paliRoman": "Mahā pathavī kampati.",
+              "translateMm": "ကမ္ဘာမြေကြီး တုန်လှုပ်သွားတယ်။",
+              "translateEn": "The great earth trembles."
+            }
+          },
+          {
+            "paliMm": "ဝိဇ္ဇောတတိ",
+            "paliRoman": "Vijjotati",
+            "translateMm": "လျှပ်စီးလက်သည်",
+            "translateEn": "Flashes",
+            "example": {
+              "paliMm": "အာကာသေ ဝိဇ္ဇု ဝိဇ္ဇောတတိ။",
+              "paliRoman": "Ākāse vijju vijjotati.",
+              "translateMm": "ကောင်းကင်မှာ လျှပ်စီး လက်နေတယ်။",
+              "translateEn": "Lightning flashes in the sky."
+            }
+          },
+          {
+            "paliMm": "ဂဇ္ဇတိ",
+            "paliRoman": "Gajjati",
+            "translateMm": "မိုးခြိမ်းသည်၊ ဟိန်းဟောက်သည်",
+            "translateEn": "Thunders / Roars",
+            "example": {
+              "paliMm": "မေဃော ဂမ္ဘီရံ ဂဇ္ဇတိ။",
+              "paliRoman": "Megho gambhīraṃ gajjati.",
+              "translateMm": "မိုးတိမ်ကြီးက နက်ရှိုင်းစွာ မိုးခြိမ်းနေတယ်။",
+              "translateEn": "The cloud thunders deeply."
+            }
+          },
+          {
+            "paliMm": "ပဇ္ဇလတိ",
+            "paliRoman": "Pajjalati",
+            "translateMm": "တောက်လောင်သည်",
+            "translateEn": "Blazes / Burns brightly",
+            "example": {
+              "paliMm": "မဟာ အဂ္ဂိ ဝနေ ပဇ္ဇလတိ။",
+              "paliRoman": "Mahā aggi vane pajjalati.",
+              "translateMm": "တောထဲမှာ မီးကြီး တောက်လောင်နေတယ်။",
+              "translateEn": "A great fire blazes in the forest."
+            }
+          },
+          {
+            "paliMm": "နိဗ္ဗာယတိ",
+            "paliRoman": "Nibbāyati",
+            "translateMm": "ငြိမ်းအေးသည်၊ မီးငြိမ်းသည်",
+            "translateEn": "Is extinguished / Cools down",
+            "example": {
+              "paliMm": "ဝုဋ္ဌိယာ အဂ္ဂိ နိဗ္ဗာယတိ။",
+              "paliRoman": "Vuṭṭhiyā aggi nibbāyati.",
+              "translateMm": "မိုးရွာလိုက်လို့ မီးငြိမ်းသွားတယ်။",
+              "translateEn": "The fire is extinguished by the rain."
+            }
+          },
+          {
+            "paliMm": "ဖုသတိ",
+            "paliRoman": "Phusati",
+            "translateMm": "မိုးဖွဲဖွဲကျသည်၊ ထိတွေ့သည်",
+            "translateEn": "Drizzles / Touches",
+            "example": {
+              "paliMm": "သုခေန ဝုဋ္ဌိ ဖုသတိ။",
+              "paliRoman": "Sukhena vuṭṭhi phusati.",
+              "translateMm": "မိုးဖွဲဖွဲလေး စိမ့်ကျရွာသွန်းနေတယ်။",
+              "translateEn": "The rain drizzles gently."
+            }
+          },
+          {
+            "paliMm": "ပတတိ",
+            "paliRoman": "Patati",
+            "translateMm": "ကျဆင်းသည်",
+            "translateEn": "Falls",
+            "example": {
+              "paliMm": "ရုက္ခတော ပဏ္ဏံ ဘူမိယံ ပတတိ။",
+              "paliRoman": "Rukkhato paṇṇaṃ bhūmiyaṃ patati.",
+              "translateMm": "သစ်ပင်ကနေ သစ်ရွက်က မြေကြီးပေါ် ကျဆင်းလာတယ်။",
+              "translateEn": "The leaf falls from the tree to the ground."
+            }
+          },
+          {
+            "paliMm": "ပပတတိ",
+            "paliRoman": "Papatati",
+            "translateMm": "လျှောကျသည်၊ ရေတံခွန်ကဲ့သို့ စီးဆင်းသည်",
+            "translateEn": "Cascades / Falls down",
+            "example": {
+              "paliMm": "ဥဒကံ ပဗ္ဗတာ ပပတတိ။",
+              "paliRoman": "Udakaṃ pabbatā papatati.",
+              "translateMm": "ရေက တောင်ပေါ်ကနေ အောက်သို့ လျှောကျစီးဆင်းနေတယ်။",
+              "translateEn": "Water cascades down from the mountain."
+            }
+          },
+          {
+            "paliMm": "ပဖုလ္လတိ",
+            "paliRoman": "Paphullati",
+            "translateMm": "ပွင့်လန်းသည်",
+            "translateEn": "Blooms / Blossoms",
+            "example": {
+              "paliMm": "ဥယျာနေ ပုပ္ဖံ ပဖုလ္လတိ။",
+              "paliRoman": "Uyyāne pupphaṃ paphullati.",
+              "translateMm": "ဥယျာဉ်ထဲမှာ ပန်းတွေ ပွင့်လန်းနေကြတယ်။",
+              "translateEn": "The flower blooms in the garden."
+            }
+          },
+          {
+            "paliMm": "ဝိကသတိ",
+            "paliRoman": "Vikasati",
+            "translateMm": "ပွင့်ကားသည်",
+            "translateEn": "Opens / Expands",
+            "example": {
+              "paliMm": "သူရိယေန ပဒုမံ ဝိကသတိ။",
+              "paliRoman": "Sūriyena padumaṃ vikasati.",
+              "translateMm": "နေရောင်ကြောင့် ကြာပန်း ပွင့်ကားလာတယ်။",
+              "translateEn": "The lotus blooms due to the sunlight."
+            }
+          },
+          {
+            "paliMm": "မိလာယတိ",
+            "paliRoman": "Milāyati",
+            "translateMm": "ညှိုးနွမ်းသည်",
+            "translateEn": "Withers / Fades",
+            "example": {
+              "paliMm": "အာတပေန ပုပ္ဖံ မိလာယတိ။",
+              "paliRoman": "Ātapena pupphaṃ milāyati.",
+              "translateMm": "နေပူရှိန်းလို့ ပန်းတွေ ညှိုးနွမ်းသွားတယ်။",
+              "translateEn": "The flower withers from the heat of the sun."
+            }
+          },
+          {
+            "paliMm": "ဖလတိ",
+            "paliRoman": "Phalati",
+            "translateMm": "သီးပွင့်သည်၊ သီးသည်",
+            "translateEn": "Bears fruit",
+            "example": {
+              "paliMm": "ကာလေ ရုက္ခော ဖလတိ။",
+              "paliRoman": "Kāle rukkho phalati.",
+              "translateMm": "အချိန်တန်တော့ သစ်ပင်က အသီး သီးလာတယ်။",
+              "translateEn": "The tree bears fruit in due time."
+            }
+          },
+          {
+            "paliMm": "သုဿတိ",
+            "paliRoman": "Sussati",
+            "translateMm": "ခြောက်သွေ့သည်",
+            "translateEn": "Dries up",
+            "example": {
+              "paliMm": "အာတပေန သရသိ ဥဒကံ သုဿတိ။",
+              "paliRoman": "Ātapena sarasi udakaṃ sussati.",
+              "translateMm": "နေပူလွန်းလို့ ရေကန်ထဲက ရေတွေ ခြောက်သွေ့ကုန်တယ်။",
+              "translateEn": "The water in the lake dries up due to the sun's heat."
+            }
+          }
+        ]
+      },
+      {
+        "titleMm": "သန့်ရှင်းရေးနှင့် ပြုပြင်ထိန်းသိမ်းခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleEn": "Verbs of Cleaning & Maintenance",
+        "vocabList": [
+          {
+            "paliMm": "ဓောဝတိ",
+            "paliRoman": "Dhovati",
+            "translateMm": "လျှော်ဖွပ်သည်၊ ဆေးကြောသည်",
+            "translateEn": "Washes / Cleanses",
+            "example": {
+              "paliMm": "ရဇကော နဒိယံ ဝတ္ထံ ဓောဝတိ။",
+              "paliRoman": "Rajako nadiyaṃ vatthaṃ dhovati.",
+              "translateMm": "အဝတ်လျှော်သမားက မြစ်ထဲမှာ အဝတ်ကို လျှော်ဖွပ်နေတယ်။",
+              "translateEn": "The washerman washes the cloth in the river."
+            }
+          },
+          {
+            "paliMm": "သောဓေတိ",
+            "paliRoman": "Sodheti",
+            "translateMm": "သန့်ရှင်းစေသည်၊ သန့်စင်သည်",
+            "translateEn": "Clears / Purifies / Cleans",
+            "example": {
+              "paliMm": "သော မဂ္ဂံ သောဓေတိ။",
+              "paliRoman": "So maggaṃ sodheti.",
+              "translateMm": "သူ လမ်းမကြီးကို သန့်ရှင်းအောင် ရှင်းလင်းနေတယ်။",
+              "translateEn": "He clears the road."
+            }
+          },
+          {
+            "paliMm": "သမ္မဇ္ဇတိ",
+            "paliRoman": "Sammajjati",
+            "translateMm": "တံမြက်လှည်းသည်",
+            "translateEn": "Sweeps",
+            "example": {
+              "paliMm": "သိဿော ဝိဟာရင်္ဂဏံ သမ္မဇ္ဇတိ။",
+              "paliRoman": "Sisso vihāraṅgaṇaṃ sammajjati.",
+              "translateMm": "ကျောင်းသားက ကျောင်းဝင်းကို တံမြက်လှည်းနေတယ်။",
+              "translateEn": "The student sweeps the monastery yard."
+            }
+          },
+          {
+            "paliMm": "ပဋိသင်္ခရောတိ",
+            "paliRoman": "Paṭisaṅkharoti",
+            "translateMm": "ပြုပြင်မွမ်းမံသည်၊ ပြန်လည်ပြင်ဆင်သည်",
+            "translateEn": "Repairs / Restores",
+            "example": {
+              "paliMm": "ဝဍ္ဎကိ ဇိဏ္ဏံ ဂေဟံ ပဋိသင်္ခရောတိ။",
+              "paliRoman": "Vaḍḍhaki jiṇṇaṃ gehaṃ paṭisaṅkharoti.",
+              "translateMm": "လက်သမားက ဟောင်းနွမ်းနေတဲ့ အိမ်ကို ပြုပြင်မွမ်းမံနေတယ်။",
+              "translateEn": "The carpenter repairs the old house."
+            }
+          },
+          {
+            "paliMm": "အာလိမ္ပတိ / လိမ္ပတိ",
+            "paliRoman": "Ālimpati / Limpati",
+            "translateMm": "လိမ်းကျံသည်၊ သုတ်လိမ်းသည်",
+            "translateEn": "Plasters / Smears / Anoints",
+            "example": {
+              "paliMm": "သော မတ္တိကာယ သာလံ အာလိမ္ပတိ။",
+              "paliRoman": "So mattikāya sālaṃ ālimpati.",
+              "translateMm": "သူ မြေညှင်းနဲ့ အဆောက်အအုံကို သုတ်လိမ်းနေတယ်။",
+              "translateEn": "He plasters the hall with clay."
+            }
+          },
+          {
+            "paliMm": "ပက္ခာလေတိ",
+            "paliRoman": "Pakkhāleti",
+            "translateMm": "ဆေးကြောသန့်စင်သည်",
+            "translateEn": "Washes off / Rinses",
+            "example": {
+              "paliMm": "သော ဟတ္ထေ စ ပါဒေ စ ပက္ခာလေတိ။",
+              "paliRoman": "So hatthe ca pāde ca pakkhāleti.",
+              "translateMm": "သူ လက်တွေနဲ့ ခြေထောက်တွေကို ဆေးကြောသန့်စင်တယ်။",
+              "translateEn": "He washes his hands and feet."
+            }
+          },
+          {
+            "paliMm": "ပုဉ္ဆတိ",
+            "paliRoman": "Puñchati",
+            "translateMm": "သုတ်သင်သည်၊ သုတ်သည်",
+            "translateEn": "Wipes / Dries",
+            "example": {
+              "paliMm": "သာ ဝတ္ထေန ပီဌံ ပုဉ္ဆတိ။",
+              "paliRoman": "Sā vatthena pīṭhaṃ puñchati.",
+              "translateMm": "သူငယ်မလေးက အဝတ်စနဲ့ ခုံကို သုတ်သင်နေတယ်။",
+              "translateEn": "She wipes the chair with a cloth."
+            }
+          },
+          {
+            "paliMm": "ပူရေတိ",
+            "paliRoman": "Pūreti",
+            "translateMm": "ပြည့်စုံစေသည်၊ ရေဖြည့်သည်",
+            "translateEn": "Fills / Refills",
+            "example": {
+              "paliMm": "သော ကုမ္ဘံ ဥဒကေန ပူရေတိ။",
+              "paliRoman": "So kumbhaṃ udakena pūreti.",
+              "translateMm": "သူ အိုးထဲကို ရေ ဖြည့်ပေးနေတယ်။",
+              "translateEn": "He fills the pot with water."
+            }
+          },
+          {
+            "paliMm": "ဝိသောဓေတိ",
+            "paliRoman": "Visodheti",
+            "translateMm": "စိစစ်သန့်စင်သည်",
+            "translateEn": "Purifies thoroughly",
+            "example": {
+              "paliMm": "ယတိ စိတ္တံ ဝိသောဓေတိ။",
+              "paliRoman": "Yati cittaṃ visodheti.",
+              "translateMm": "ရဟန်းတော်က မိမိစိတ်ကို သန့်ရှင်းစင်ကြယ်အောင် ပြုလုပ်တယ်။",
+              "translateEn": "The monk thoroughly purifies his mind."
+            }
+          },
+          {
+            "paliMm": "ပရိပူရေတိ",
+            "paliRoman": "Paripūreti",
+            "translateMm": "ဖြည့်ဆည်းပေးသည်၊ ပြည့်စုံစေသည်",
+            "translateEn": "Fulfills / Maintains completely",
+            "example": {
+              "paliMm": "သော သီလံ သမ္မာ ပရိပူရေတိ။",
+              "paliRoman": "So sīlaṃ sammā paripūreti.",
+              "translateMm": "သူ သီလကို စနစ်တကျ ဖြည့်ဆည်းထိန်းသိမ်းတယ်။",
+              "translateEn": "He completely fulfills the precepts."
+            }
+          },
+          {
+            "paliMm": "အဘိသိဉ္စတိ",
+            "paliRoman": "Abhisiñcati",
+            "translateMm": "ရေဖျန်းပက်သည်၊ သန့်စင်စေသည်",
+            "translateEn": "Sprinkles water / Bathes",
+            "example": {
+              "paliMm": "သော ပုပ္ဖေသု ဥဒကံ အဘိသိဉ္စတိ။",
+              "paliRoman": "So pupphesu udakaṃ abhisiñcati.",
+              "translateMm": "သူ ပန်းတွေကို ရေဖျန်းပက်ပေးနေတယ်။",
+              "translateEn": "He sprinkles water on the flowers."
+            }
+          },
+          {
+            "paliMm": "နိဟာရေတိ",
+            "paliRoman": "Nihāreti",
+            "translateMm": "အမှိုက်သရိုက်များကို ဖယ်ရှားသည်",
+            "translateEn": "Removes / Clears away",
+            "example": {
+              "paliMm": "သော ဂေဟတော ကစဝရံ နိဟာရေတိ။",
+              "paliRoman": "So gehato kacavaraṃ nihāreti.",
+              "translateMm": "သူ အိမ်ထဲကနေ အမှိုက်တွေကို ရှင်းလင်းထုတ်ပစ်တယ်။",
+              "translateEn": "He removes the rubbish from the house."
+            }
+          },
+          {
+            "paliMm": "သဇ္ဇေတိ",
+            "paliRoman": "Sajjeti",
+            "translateMm": "ပြင်ဆင်မွမ်းမံသည်၊ တန်ဆာဆင်သည်",
+            "translateEn": "Prepares / Decorates / Tidies up",
+            "example": {
+              "paliMm": "သာ ဂေဟံ သုန္ဒရံ သဇ္ဇေတိ။",
+              "paliRoman": "Sā gehaṃ sundaraṃ sajjeti.",
+              "translateMm": "သူငယ်မလေးက အိမ်ကို လှပအောင် ပြင်ဆင်မွမ်းမံနေတယ်။",
+              "translateEn": "She tidies up and decorates the house nicely."
+            }
+          },
+          {
+            "paliMm": "သံဟရတိ",
+            "paliRoman": "Saṃharati",
+            "translateMm": "သိမ်းဆည်းသည်၊ စုစည်းသည်",
+            "translateEn": "Gathers / Stores neatly",
+            "example": {
+              "paliMm": "သော ဝတ္ထာနိ သံဟရတိ။",
+              "paliRoman": "So vatthāni saṃharati.",
+              "translateMm": "သူ အဝတ်အထည်တွေကို သေချာ ခေါက်သိမ်းနေတယ်။",
+              "translateEn": "He gathers and folds the clothes neatly."
+            }
+          },
+          {
+            "paliMm": "ပရိဟာရေတိ",
+            "paliRoman": "Parihāreti",
+            "translateMm": "စောင့်ရှောက်ထိန်းသိမ်းသည်",
+            "translateEn": "Maintains / Takes care of",
+            "example": {
+              "paliMm": "သော သကံ သရီရံ သမ္မာ ပရိဟာရေတိ။",
+              "paliRoman": "So sakaṃ sarīraṃ sammā parihāreti.",
+              "translateMm": "သူ မိမိရဲ့ ခန္ဓာကိုယ်ကို စနစ်တကျ ပြုစုထိန်းသိမ်းတယ်။",
+              "translateEn": "He properly maintains his body."
+            }
+          },
+          {
+            "paliMm": "မဇ္ဇတိ",
+            "paliRoman": "Majjati",
+            "translateMm": "ပွတ်တိုက်သည်၊ ပြောင်လက်အောင်ပြုသည်",
+            "translateEn": "Polishes / Cleans",
+            "example": {
+              "paliMm": "သော သုဝဏ္ဏံ မဇ္ဇတိ။",
+              "paliRoman": "So suvaṇṇaṃ majjati.",
+              "translateMm": "သူ ရွှေကို ပြောင်လက်အောင် ပွတ်တိုက်နေတယ်။",
+              "translateEn": "He polishes the gold."
+            }
+          },
+          {
+            "paliMm": "ပါလေတိ",
+            "paliRoman": "Pāleti",
+            "translateMm": "ထိန်းသိမ်းသည်၊ စောင့်ရှောက်သည်",
+            "translateEn": "Preserves / Protects",
+            "example": {
+              "paliMm": "သော ပေါတ္ထကံ သမ္မာ ပါလေတိ။",
+              "paliRoman": "So potthakaṃ sammā pāleti.",
+              "translateMm": "သူ စာအုပ်ကို စနစ်တကျ ထိန်းသိမ်းစောင့်ရှောက်တယ်။",
+              "translateEn": "He preserves the book properly."
+            }
+          },
+          {
+            "paliMm": "ဝိက္ခာလေတိ",
+            "paliRoman": "Vikkhāleti",
+            "translateMm": "ဆေးကြောသန့်စင်သည်",
+            "translateEn": "Rinses / Washes clean",
+            "example": {
+              "paliMm": "သာ ပါတ္တံ ဝိက္ခာလေတိ။",
+              "paliRoman": "Sā pāttaṃ vikkhāleti.",
+              "translateMm": "သူငယ်မလေးက ခွက်ကို ဆေးကြောသန့်စင်နေတယ်။",
+              "translateEn": "She rinses the bowl."
+            }
+          },
+          {
+            "paliMm": "အာကိရတိ",
+            "paliRoman": "Ākirati",
+            "translateMm": "ရေပက်သည်၊ ရေလောင်းသည်",
+            "translateEn": "Sprinkles / Scatters",
+            "example": {
+              "paliMm": "သော ဘူမိယံ ဥဒကံ အာကိရတိ။",
+              "paliRoman": "So bhūmiyaṃ udakaṃ ākirati.",
+              "translateMm": "သူ မြေကြီးပေါ်ကို ရေဖျန်းပက်နေတယ်။",
+              "translateEn": "He sprinkles water on the ground."
+            }
+          },
+          {
+            "paliMm": "မလံ နိဟာရေတိ",
+            "paliRoman": "Malaṃ nihāreti",
+            "translateMm": "အညစ်အကြေးကို ဖယ်ရှားသည်",
+            "translateEn": "Removes dirt / Stains",
+            "example": {
+              "paliMm": "သော ဝတ္ထတော မလံ နိဟာရေတိ။",
+              "paliRoman": "So vatthato malaṃ nihāreti.",
+              "translateMm": "သူ အဝတ်ပေါ်က အညစ်အကြေးကို ဖယ်ရှားသန့်စင်တယ်။",
+              "translateEn": "He removes dirt from the cloth."
+            }
+          }
+        ]
+      },
+      {
+        "titleMm": "ပြောင်းလဲခြင်းနှင့် ဖြစ်ပေါ်လာခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleEn": "Verbs of Change & Becoming",
+        "vocabList": [
+          {
+            "paliMm": "ဟောတိ / ဘဝတိ",
+            "paliRoman": "Hoti / Bhavati",
+            "translateMm": "ဖြစ်သည်၊ ဖြစ်ပေါ်သည်",
+            "translateEn": "Becomes / Exists",
+            "example": {
+              "paliMm": "သော ပဏ္ဍိတော ဟောတိ။",
+              "paliRoman": "So paṇḍito hoti.",
+              "translateMm": "သူ ပညာရှိတစ်ယောက် ဖြစ်လာတယ်။",
+              "translateEn": "He becomes a wise man."
+            }
+          },
+          {
+            "paliMm": "ဇာယတိ",
+            "paliRoman": "Jāyati",
+            "translateMm": "ဖြစ်ပေါ်သည်၊ မွေးဖွားသည်",
+            "translateEn": "Arises / Is born",
+            "example": {
+              "paliMm": "ကုလသ္မိံ ဒါရကော ဇာယတိ။",
+              "paliRoman": "Kulasmiṃ dārako jāyati.",
+              "translateMm": "အမျိုးအနွယ်ထဲမှာ သားငယ်လေး မွေးဖွားလာတယ်။",
+              "translateEn": "A child is born in the family."
+            }
+          },
+          {
+            "paliMm": "ပရိဏမတိ",
+            "paliRoman": "Pariṇamati",
+            "translateMm": "ပြောင်းလဲသည်၊ ကျက်သည်",
+            "translateEn": "Changes / Transforms / Digests",
+            "example": {
+              "paliMm": "အာဟာရော သုခေန ပရိဏမတိ။",
+              "paliRoman": "Āhāro sukhena pariṇamati.",
+              "translateMm": "အစားအသောက်က အစာအိမ်ထဲမှာ သက်သောင့်သက်သာ ကြေညက်သွားတယ်။",
+              "translateEn": "The food digests easily."
+            }
+          },
+          {
+            "paliMm": "ဝဍ္ဎတိ",
+            "paliRoman": "Vaḍḍhati",
+            "translateMm": "ကြီးထွားသည်၊ တိုးတက်သည်",
+            "translateEn": "Grows / Increases",
+            "example": {
+              "paliMm": "ရုက္ခော မဟန္တော ဝဍ္ဎတိ။",
+              "paliRoman": "Rukkho mahanto vaḍḍhati.",
+              "translateMm": "သစ်ပင်ကြီးက တဖြည်းဖြည်း ကြီးထွားလာတယ်။",
+              "translateEn": "The tree grows big."
+            }
+          },
+          {
+            "paliMm": "ခီယတိ",
+            "paliRoman": "Khīyati",
+            "translateMm": "ကုန်ခမ်းသည်၊ ဆုတ်ယုတ်သည်",
+            "translateEn": "Decays / Wastes away",
+            "example": {
+              "paliMm": "အာယု ဒိဝသေ ဒိဝသေ ခီယတိ။",
+              "paliRoman": "Āyu divase divase khīyati.",
+              "translateMm": "အသက်အရွယ်က တစ်နေ့ထက်တစ်နေ့ ကုန်ခမ်းဆုတ်ယုတ်လာတယ်။",
+              "translateEn": "Life wastes away day by day."
+            }
+          },
+          {
+            "paliMm": "မီယတိ / မရတိ",
+            "paliRoman": "Mīyati / Marati",
+            "translateMm": "သေဆုံးသည်",
+            "translateEn": "Dies / Passes away",
+            "example": {
+              "paliMm": "သဗ္ဗေ သတ္တာ မီယန္တိ။",
+              "paliRoman": "Sabbe sattā mīyanti.",
+              "translateMm": "သတ္တဝါအားလုံး သေဆုံးကြရတယ်။",
+              "translateEn": "All living beings die."
+            }
+          },
+          {
+            "paliMm": "နိဗ္ဗတ္တတိ",
+            "paliRoman": "Nibbattati",
+            "translateMm": "ဖြစ်ထွန်းသည်၊ ဖြစ်ပေါ်သည်",
+            "translateEn": "Is reborn / Comes into existence",
+            "example": {
+              "paliMm": "သော သဂ္ဂေ နိဗ္ဗတ္တတိ။",
+              "paliRoman": "So sagge nibbattati.",
+              "translateMm": "သူ နတ်ပြည်မှာ ဖြစ်ပေါ်လာတယ်။",
+              "translateEn": "He is reborn in the heavenly realm."
+            }
+          },
+          {
+            "paliMm": "ဝိပရိဏမတိ",
+            "paliRoman": "Vipariṇamati",
+            "translateMm": "အခြားသို့ ပြောင်းလဲသည်၊ ဖောက်ပြန်သည်",
+            "translateEn": "Alters / Changes",
+            "example": {
+              "paliMm": "ရူပံ အနိစ္စံ ဝိပရိဏမတိ။",
+              "paliRoman": "Rūpaṃ aniccaṃ vipariṇamati.",
+              "translateMm": "ရုပ်တရားက အနိစ္စဖြစ်ပြီး ဖောက်ပြန်ပြောင်းလဲတယ်။",
+              "translateEn": "Form is impermanent and alters."
+            }
+          },
+          {
+            "paliMm": "အတ္ထံ ဂစ္ဆတိ / ဝိနဿတိ",
+            "paliRoman": "Atthaṃ gacchati / Vinassati",
+            "translateMm": "ပျက်စီးသည်၊ ပျောက်ကွယ်သည်",
+            "translateEn": "Perishes / Disappears",
+            "example": {
+              "paliMm": "သဗ္ဗေ သင်္ခါရာ ဝိနဿန္တိ။",
+              "paliRoman": "Sabbe saṅkhārā vinassanti.",
+              "translateMm": "သင်္ခါရတရားအားလုံး ပျက်စီးသွားကြတယ်။",
+              "translateEn": "All conditioned things perish."
+            }
+          },
+          {
+            "paliMm": "ဥပ္ပဇ္ဇတိ",
+            "paliRoman": "Uppajjati",
+            "translateMm": "ဖြစ်ပေါ်လာသည်၊ ပေါ်ပေါက်သည်",
+            "translateEn": "Arises / Originates",
+            "example": {
+              "paliMm": "စိတ္တသ္မိံ ဉာဏံ ဥပ္ပဇ္ဇတိ။",
+              "paliRoman": "Cittasmiṃ ñāṇaṃ uppajjati.",
+              "translateMm": "စိတ်ထဲမှာ အသိဉာဏ် ဖြစ်ပေါ်လာတယ်။",
+              "translateEn": "Knowledge arises in the mind."
+            }
+          },
+          {
+            "paliMm": "အန္တရဓာယတိ",
+            "paliRoman": "Antaradhāyati",
+            "translateMm": "ကွယ်ပျောက်သည်",
+            "translateEn": "Vanishes / Disappears",
+            "example": {
+              "paliMm": "အာကာသေ မေဃော အန္တရဓာယတိ။",
+              "paliRoman": "Ākāse megho antaradhāyati.",
+              "translateMm": "ကောင်းကင်မှာ မိုးတိမ်က ကွယ်ပျောက်သွားတယ်။",
+              "translateEn": "The cloud vanishes in the sky."
+            }
+          },
+          {
+            "paliMm": "ပါတုဘဝတိ",
+            "paliRoman": "Pātubhavati",
+            "translateMm": "ထင်ရှားဖြစ်ပေါ်သည်၊ ပေါ်ထွန်းသည်",
+            "translateEn": "Appears / Manifests",
+            "example": {
+              "paliMm": "လောကသ္မိံ ဗုဒ္ဓေါ ပါတုဘဝတိ။",
+              "paliRoman": "Lokasmiṃ buddho pātubhavati.",
+              "translateMm": "လောကမှာ ဘုရားရှင် ပွင့်ထွန်းပေါ်ပေါက်လာတော်မူတယ်။",
+              "translateEn": "The Buddha appears in the world."
+            }
+          },
+          {
+            "paliMm": "ပစတိ",
+            "paliRoman": "Pacati",
+            "translateMm": "ကျက်သည်၊ မှည့်သည်",
+            "translateEn": "Ripens / Cooks",
+            "example": {
+              "paliMm": "ရုက္ခသ္မိံ ဖလံ ပစတိ။",
+              "paliRoman": "Rukkhasmiṃ phalaṃ pacati.",
+              "translateMm": "သစ်ပင်မှာ အသီးက မှည့်ဝင်းလာတယ်။",
+              "translateEn": "The fruit ripens on the tree."
+            }
+          },
+          {
+            "paliMm": "ဇီရတိ",
+            "paliRoman": "Jīrati",
+            "translateMm": "အိုမင်းသည်၊ ဇရာရောက်သည်",
+            "translateEn": "Grows old / Decays",
+            "example": {
+              "paliMm": "ကာယော သဗ္ဗော ဇီရတိ။",
+              "paliRoman": "Kāyo sabbo jīrati.",
+              "translateMm": "ခန္ဓာကိုယ်တစ်ခုလုံး အိုမင်းဆုတ်ယုတ်လာတယ်။",
+              "translateEn": "The whole body grows old."
+            }
+          },
+          {
+            "paliMm": "သန္တပ္ပတိ",
+            "paliRoman": "Santappati",
+            "translateMm": "ပူလောင်သည်၊ ဆင်းရဲပင်ပန်းသည်",
+            "translateEn": "Is distressed / Burns",
+            "example": {
+              "paliMm": "သော သောကေန သန္တပ္ပတိ။",
+              "paliRoman": "So sokena santappati.",
+              "translateMm": "သူ စိုးရိမ်မှုနဲ့ ပူလောင်နေရတယ်။",
+              "translateEn": "He burns with sorrow."
+            }
+          },
+          {
+            "paliMm": "ပရိဟီယတိ",
+            "paliRoman": "Parihīyati",
+            "translateMm": "လျော့ပါးသည်၊ ဆုတ်ယုတ်သည်",
+            "translateEn": "Declines / Dwindles",
+            "example": {
+              "paliMm": "တဿ ဓနံ ပရိဟီယတိ။",
+              "paliRoman": "Tassa dhanaṃ parihīyati.",
+              "translateMm": "သူ့ရဲ့ ပစ္စည်းဥစ္စာတွေ လျော့ပါးဆုတ်ယုတ်သွားတယ်။",
+              "translateEn": "His wealth declines."
+            }
+          },
+          {
+            "paliMm": "အဘိဝဍ္ဎတိ",
+            "paliRoman": "Abhivaḍḍhati",
+            "translateMm": "ပိုမိုကြီးထွားသည်၊ တိုးတက်ဖြစ်ထွန်းသည်",
+            "translateEn": "Flourishes / Thrives",
+            "example": {
+              "paliMm": "တဿ ပညာ အဘိဝဍ္ဎတိ။",
+              "paliRoman": "Tassa paññā abhivaḍḍhati.",
+              "translateMm": "သူ့ရဲ့ အသိပညာက ပိုမို တိုးတက်ပွားများလာတယ်။",
+              "translateEn": "His wisdom flourishes."
+            }
+          },
+          {
+            "paliMm": "ဘိဇ္ဇတိ",
+            "paliRoman": "Bhijjati",
+            "translateMm": "ပျက်စီးသည်၊ ကွဲအက်သည်",
+            "translateEn": "Breaks up / Dissolves",
+            "example": {
+              "paliMm": "ကာယော မရဏေ ဘိဇ္ဇတိ။",
+              "paliRoman": "Kāyo maraṇe bhijjati.",
+              "translateMm": "သေလွန်တဲ့အခါ ခန္ဓာကိုယ်က ပျက်စီးသွားတယ်။",
+              "translateEn": "The body dissolves at death."
+            }
+          },
+          {
+            "paliMm": "ပဟီယတိ",
+            "paliRoman": "Pahīyati",
+            "translateMm": "ကင်းကွာသည်၊ ပပျောက်သည်",
+            "translateEn": "Disappears / Is eliminated",
+            "example": {
+              "paliMm": "တဿ ကိလေသော ပဟီယတိ။",
+              "paliRoman": "Tassa kileso pahīyati.",
+              "translateMm": "သူ့ရဲ့ ကိလေသာတရားတွေ ကင်းကွာပပျောက်သွားတယ်။",
+              "translateEn": "His defilements are eliminated."
+            }
+          },
+          {
+            "paliMm": "သန္တိဋ္ဌတိ",
+            "paliRoman": "Santiṭṭhati",
+            "translateMm": "တည်ငြိမ်လာသည်၊ ဖြစ်တည်လာသည်",
+            "translateEn": "Settles / Remains established",
+            "example": {
+              "paliMm": "စိတ္တံ သမာဓိမှိ သန္တိဋ္ဌတိ။",
+              "paliRoman": "Cittaṃ samādhimhi santiṭṭhati.",
+              "translateMm": "စိတ်က သမာဓိမှာ တည်ငြိမ်လာတယ်။",
+              "translateEn": "The mind becomes established in concentration."
+            }
+          }
+        ]
+      },
+      {
+        "titleMm": "အစားအသောက်နှင့် သောက်သုံးခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleEn": "Verbs of Eating & Drinking",
+        "vocabList": [
+          {
+            "paliMm": "ဘုဉ္ဇတိ",
+            "paliRoman": "Bhuñjati",
+            "translateMm": "သုံးဆောင်သည်၊ စားသည်",
+            "translateEn": "Eats / Partakes",
+            "example": {
+              "paliMm": "သော မဓုရံ အာဟာရံ ဘုဉ္ဇတိ။",
+              "paliRoman": "So madhuraṃ āhāraṃ bhuñjati.",
+              "translateMm": "သူ အရသာရှိတဲ့ အစားအသောက်ကို စားသုံးနေတယ်။",
+              "translateEn": "He eats delicious food."
+            }
+          },
+          {
+            "paliMm": "ခါဒတိ",
+            "paliRoman": "Khādati",
+            "translateMm": "ဝါးစားသည်၊ စားသည်",
+            "translateEn": "Chews / Eats solid food",
+            "example": {
+              "paliMm": "ဒါရကော ဖလံ ခါဒတိ။",
+              "paliRoman": "Dārako phalaṃ khādati.",
+              "translateMm": "ကလေးလေးက အသီးကို ဝါးစားနေတယ်။",
+              "translateEn": "The child eats the fruit."
+            }
+          },
+          {
+            "paliMm": "ပိဝတိ",
+            "paliRoman": "Pivati",
+            "translateMm": "သောက်သည်၊ သောက်သုံးသည်",
+            "translateEn": "Drinks",
+            "example": {
+              "paliMm": "သော သီတလံ ဥဒကံ ပိဝတိ။",
+              "paliRoman": "So sītalaṃ udakaṃ pivati.",
+              "translateMm": "သူ အေးမြတဲ့ ရေကို သောက်နေတယ်။",
+              "translateEn": "He drinks cold water."
+            }
+          },
+          {
+            "paliMm": "ဂိလတိ",
+            "paliRoman": "Gilati",
+            "translateMm": "မြိုချသည်",
+            "translateEn": "Swallows",
+            "example": {
+              "paliMm": "ဂိလာနော ဩသဓံ ဂိလတိ။",
+              "paliRoman": "Gilāno osadhaṃ gilati.",
+              "translateMm": "လူနာက ဆေးကို မြိုချလိုက်တယ်။",
+              "translateEn": "The sick person swallows the medicine."
+            }
+          },
+          {
+            "paliMm": "သာယတိ",
+            "paliRoman": "Sāyati",
+            "translateMm": "မြည်းစမ်းသည်၊ အရသာခံသည်",
+            "translateEn": "Tastes",
+            "example": {
+              "paliMm": "သော သူပဿ ရသံ သာယတိ။",
+              "paliRoman": "So sūpassa rasaṃ sāyati.",
+              "translateMm": "သူ ဟင်းရည်ရဲ့ အရသာကို မြည်းစမ်းနေတယ်။",
+              "translateEn": "He tastes the flavor of the soup."
+            }
+          },
+          {
+            "paliMm": "လေဟတိ",
+            "paliRoman": "Lehati",
+            "translateMm": "လျက်သည်",
+            "translateEn": "Licks",
+            "example": {
+              "paliMm": "သုနခေါ မဓုံ လေဟတိ။",
+              "paliRoman": "Sunakho madhuṃ lehati.",
+              "translateMm": "ခွေးလေးက ပျားရည်ကို လျက်နေတယ်။",
+              "translateEn": "The dog licks the honey."
+            }
+          },
+          {
+            "paliMm": "စူသတိ",
+            "paliRoman": "Cūsati",
+            "translateMm": "စုပ်သည်၊ စုပ်ယူသည်",
+            "translateEn": "Sucks",
+            "example": {
+              "paliMm": "ဒါရကော ခီရံ စူသတိ။",
+              "paliRoman": "Dārako khīraṃ cūsati.",
+              "translateMm": "ကလေးလေးက နို့ကို စုပ်သောက်နေတယ်။",
+              "translateEn": "The child sucks the milk."
+            }
+          },
+          {
+            "paliMm": "စဗ္ဗတိ",
+            "paliRoman": "Cabbati",
+            "translateMm": "ဝါးသည်၊ ကြေအောင်ဝါးသည်",
+            "translateEn": "Chews / Masticates",
+            "example": {
+              "paliMm": "သော တမ္ဗူလံ စဗ္ဗတိ။",
+              "paliRoman": "So tambūlaṃ cabbati.",
+              "translateMm": "သူ ကွမ်းကို ဝါးနေတယ်။",
+              "translateEn": "He chews the betel leaf."
+            }
+          },
+          {
+            "paliMm": "အာစမတိ",
+            "paliRoman": "Ācamati",
+            "translateMm": "စုပ်သောက်သည်၊ နည်းနည်းစီသောက်သည်",
+            "translateEn": "Sips / Drinks lightly",
+            "example": {
+              "paliMm": "သော ဥဒကံ အာစမတိ။",
+              "paliRoman": "So udakaṃ ācamati.",
+              "translateMm": "သူ ရေကို နည်းနည်းစီ စိမ့်ပြီး သောက်နေတယ်။",
+              "translateEn": "He sips the water."
+            }
+          },
+          {
+            "paliMm": "အဇ္ဈောဟရတိ",
+            "paliRoman": "Ajjhoharati",
+            "translateMm": "မျိုသွင်းသည်၊ စားသောက်သည်",
+            "translateEn": "Consumes / Takes in food",
+            "example": {
+              "paliMm": "သော အာဟာရံ သမ္မာ အဇ္ဈောဟရတိ။",
+              "paliRoman": "So āhāraṃ sammā ajjhoharati.",
+              "translateMm": "သူ အာဟာရကို စနစ်တကျ မျိုသွင်းစားသုံးတယ်။",
+              "translateEn": "He consumes the food properly."
+            }
+          },
+          {
+            "paliMm": "ပရိဘုဉ္ဇတိ",
+            "paliRoman": "Paribhuñjati",
+            "translateMm": "သုံးဆောင်သည်၊ မှီဝဲသည်",
+            "translateEn": "Enjoys food / Consumes fully",
+            "example": {
+              "paliMm": "ဘိက္ခု ပဏီတံ အာဟာရံ ပရိဘုဉ္ဇတိ။",
+              "paliRoman": "Bhikkhu paṇītaṃ āhāraṃ paribhuñjati.",
+              "translateMm": "ရဟန်းတော်က မွန်မြတ်တဲ့ ဆွမ်းအာဟာရကို သုံးဆောင်တော်မူတယ်။",
+              "translateEn": "The monk partakes of the refined food."
+            }
+          },
+          {
+            "paliMm": "သမ္ပဋိစ္ဆတိ",
+            "paliRoman": "Sampaṭicchati",
+            "translateMm": "ခံယူစားသုံးသည်၊ လက်ခံသည်",
+            "translateEn": "Receives and partakes",
+            "example": {
+              "paliMm": "သော ဒါနံ သမ္ပဋိစ္ဆိတွာ ဘုဉ္ဇတိ။",
+              "paliRoman": "So dānaṃ sampaṭicchitvā bhuñjati.",
+              "translateMm": "သူ အလှူဝတ္ထုကို လက်ခံပြီး စားသုံးတယ်။",
+              "translateEn": "He receives the offering and eats it."
+            }
+          },
+          {
+            "paliMm": "အာဟရတိ",
+            "paliRoman": "Āharati",
+            "translateMm": "စားသုံးသည်၊ အာဟာရယူသည်",
+            "translateEn": "Takes food",
+            "example": {
+              "paliMm": "သော ကာလေ အာဟာရံ အာဟရတိ။",
+              "paliRoman": "So kāle āhāraṃ āharati.",
+              "translateMm": "သူ အချိန်မှန် အာဟာရ စားသုံးတယ်။",
+              "translateEn": "He takes food at the right time."
+            }
+          },
+          {
+            "paliMm": "ပိဏ္ဍေတိ",
+            "paliRoman": "Piṇḍeti",
+            "translateMm": "ထမင်းဆုပ်ပြုသည်၊ စားသည်",
+            "translateEn": "Forms alms-balls / Eats",
+            "example": {
+              "paliMm": "သော ဩဒနံ ပိဏ္ဍေတွာ ခါဒတိ။",
+              "paliRoman": "So odanaṃ piṇḍetvā khādati.",
+              "translateMm": "သူ ထမင်းကို ဆုပ်ပြီး စားနေတယ်။",
+              "translateEn": "He rolls the rice into a ball and eats it."
+            }
+          },
+          {
+            "paliMm": "ပါယေတိ",
+            "paliRoman": "Pāyeti",
+            "translateMm": "ရေတိုက်သည်၊ သောက်စေသည်",
+            "translateEn": "Makes drink / Feeds liquid",
+            "example": {
+              "paliMm": "မာတာ ဒါရကံ ခီရံ ပါယေတိ။",
+              "paliRoman": "Mātā dārakaṃ khīraṃ pāyeti.",
+              "translateMm": "မိခင်က ကလေးကို နို့တိုက်နေတယ်။",
+              "translateEn": "The mother feeds milk to the child."
+            }
+          },
+          {
+            "paliMm": "ဘောဇေတိ",
+            "paliRoman": "Bhojeti",
+            "translateMm": "ကျွေးမွေးသည်၊ စားစေသည်",
+            "translateEn": "Feeds / Serves food",
+            "example": {
+              "paliMm": "သာ အာဂန္တုကေ အာဟာရေန ဘောဇေတိ။",
+              "paliRoman": "Sā āgantuke āhārena bhojeti.",
+              "translateMm": "သူငယ်မလေးက ဧည့်သည်တွေကို အစားအသောက်နဲ့ ကျွေးမွေးတယ်။",
+              "translateEn": "She feeds the guests with food."
+            }
+          },
+          {
+            "paliMm": "မိတ္တံ ဥဒကံ ပါယေတိ",
+            "paliRoman": "Mittaṃ udakaṃ pāyeti",
+            "translateMm": "သူငယ်ချင်းကို ရေတိုက်သည်",
+            "translateEn": "Offers a drink",
+            "example": {
+              "paliMm": "သော မိတ္တံ ဥဒကံ ပါယေတိ။",
+              "paliRoman": "So mittaṃ udakaṃ pāyeti.",
+              "translateMm": "သူ သူငယ်ချင်းကို ရေတိုက်လိုက်တယ်။",
+              "translateEn": "He gives a drink of water to his friend."
+            }
+          },
+          {
+            "paliMm": "ဝိက္ခာလေတွာ ဘုဉ္ဇတိ",
+            "paliRoman": "Vikkhāletvā bhuñjati",
+            "translateMm": "ဆေးကြောပြီး စားသည်",
+            "translateEn": "Washes and eats",
+            "example": {
+              "paliMm": "သော ဖလံ ဝိက္ခာလေတွာ ခါဒတိ။",
+              "paliRoman": "So phalaṃ vikkhāletvā khādati.",
+              "translateMm": "သူ အသီးကို ဆေးကြောပြီးမှ စားတယ်။",
+              "translateEn": "He washes the fruit before eating it."
+            }
+          },
+          {
+            "paliMm": "မတ္တံ ဇာနာတိ",
+            "paliRoman": "Mattaṃ jānāti",
+            "translateMm": "အစားအတိုင်းအရှည်ကို သိသည်",
+            "translateEn": "Eats moderately",
+            "example": {
+              "paliMm": "သော အာဟာရေ မတ္တံ ဇာနာတိ။",
+              "paliRoman": "So āhāre mattaṃ jānāti.",
+              "translateMm": "သူ အစားအသောက်မှာ အတိုင်းအရှည်သိစွာ စားသုံးတယ်။",
+              "translateEn": "He eats food in moderation."
+            }
+          },
+          {
+            "paliMm": "ပရိဿဝေတိ",
+            "paliRoman": "Parissaveti",
+            "translateMm": "စစ်ထုတ်သောက်သုံးသည်",
+            "translateEn": "Filters and drinks",
+            "example": {
+              "paliMm": "သမဏော ဥဒကံ ပရိဿဝေတွာ ပိဝတိ။",
+              "paliRoman": "Samaṇo udakaṃ parissavetvā pivati.",
+              "translateMm": "ရဟန်းတော်က ရေကို စစ်ထုတ်ပြီးမှ သောက်သုံးတော်မူတယ်။",
+              "translateEn": "The ascetic filters the water before drinking."
+            }
+          }
+        ]
+      },
+      {
+        "titleMm": "နေထိုင်မှုနှင့် အိပ်စက်ခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleEn": "Verbs of Living & Resting",
+        "vocabList": [
+          {
+            "paliMm": "ဝသတိ",
+            "paliRoman": "Vasati",
+            "translateMm": "နေထိုင်သည်",
+            "translateEn": "Lives / Dwells",
+            "example": {
+              "paliMm": "သော နဂရေ ဝသတိ။",
+              "paliRoman": "So nagare vasati.",
+              "translateMm": "သူ မြို့မှာ နေထိုင်တယ်။",
+              "translateEn": "He lives in the city."
+            }
+          },
+          {
+            "paliMm": "သုပတိ / သယတိ",
+            "paliRoman": "Supati / Sayati",
+            "translateMm": "အိပ်စက်သည်",
+            "translateEn": "Sleeps / Lies down",
+            "example": {
+              "paliMm": "ဒါရကော မဉ္စေ သုပတိ။",
+              "paliRoman": "Dārako mañce supati.",
+              "translateMm": "ကလေးလေးက ခုတင်ပေါ်မှာ အိပ်စက်နေတယ်။",
+              "translateEn": "The child sleeps on the bed."
+            }
+          },
+          {
+            "paliMm": "ဥဋ္ဌာတိ",
+            "paliRoman": "Uṭṭhāti",
+            "translateMm": "နိုးထသည်၊ ထရပ်သည်",
+            "translateEn": "Wakes up / Rises",
+            "example": {
+              "paliMm": "သော ပဘာတေ သယနာ ဥဋ္ဌာတိ။",
+              "paliRoman": "So pabhāte sayanā uṭṭhāti.",
+              "translateMm": "သူ မနက်စောစော အိပ်ရာက နိုးထလာတယ်။",
+              "translateEn": "He wakes up from sleep in the early morning."
+            }
+          },
+          {
+            "paliMm": "ဝိဿမတိ",
+            "paliRoman": "Vissamati",
+            "translateMm": "နားနေသည်၊ အနားယူသည်",
+            "translateEn": "Rests / Relaxes",
+            "example": {
+              "paliMm": "သမဏော ရုက္ခမူလေ ဝိဿမတိ။",
+              "paliRoman": "Samaṇo rukkhamūle vissamati.",
+              "translateMm": "ရဟန်းတော်က သစ်ပင်ရင်းမှာ အနားယူနေတော်မူတယ်။",
+              "translateEn": "The ascetic rests at the foot of the tree."
+            }
+          },
+          {
+            "paliMm": "တိဋ္ဌတိ",
+            "paliRoman": "Tiṭṭhati",
+            "translateMm": "ရပ်သည်၊ တည်ရှိသည်၊ စောင့်ဆိုင်းသည်",
+            "translateEn": "Stands / Stays / Remains",
+            "example": {
+              "paliMm": "သော ဒွါရမူလေ တိဋ္ဌတိ။",
+              "paliRoman": "So dvāramūle tiṭṭhati.",
+              "translateMm": "သူ တံခါးဝမှာ ရပ်နေတယ်။",
+              "translateEn": "He stands at the doorway."
+            }
+          },
+          {
+            "paliMm": "နိသီဒတိ",
+            "paliRoman": "Nisīdati",
+            "translateMm": "ထိုင်သည်",
+            "translateEn": "Sits",
+            "example": {
+              "paliMm": "ယတိ ပီဌေ နိသီဒတိ။",
+              "paliRoman": "Yati pīṭhe nisīdati.",
+              "translateMm": "ရဟန်းတော်က ခုံပေါ်မှာ ထိုင်နေတော်မူတယ်။",
+              "translateEn": "The monk sits on the chair."
+            }
+          },
+          {
+            "paliMm": "နိပဇ္ဇတိ",
+            "paliRoman": "Nipajjati",
+            "translateMm": "လဲလျောင်းသည်၊ အိပ်စက်သည်",
+            "translateEn": "Lies down / Reclines",
+            "example": {
+              "paliMm": "သော သေယျာယံ နိပဇ္ဇတိ။",
+              "paliRoman": "So seyyāyaṃ nipajjati.",
+              "translateMm": "သူ အိပ်ရာပေါ်မှာ လဲလျောင်းနေတယ်။",
+              "translateEn": "He lies down on the bed."
+            }
+          },
+          {
+            "paliMm": "ဝိဟရတိ",
+            "paliRoman": "Viharati",
+            "translateMm": "သီတင်းသုံး နေထိုင်သည်",
+            "translateEn": "Resides / Dwells / Abides",
+            "example": {
+              "paliMm": "ဗုဒ္ဓေါ ဇေတဝနေ ဝိဟရတိ။",
+              "paliRoman": "Buddho Jetavane viharati.",
+              "translateMm": "မြတ်စွာဘုရားက ဇေတဝန်ကျောင်းတော်မှာ သီတင်းသုံး နေထိုင်တော်မူတယ်။",
+              "translateEn": "The Buddha resides in Jetavana monastery."
+            }
+          },
+          {
+            "paliMm": "အဇ္ဈာဝသတိ",
+            "paliRoman": "Ajjhāvasati",
+            "translateMm": "အိမ်ထောင်ပြုနေထိုင်သည်",
+            "translateEn": "Inhabits / Lives as a householder",
+            "example": {
+              "paliMm": "သော ဃရံ အဇ္ဈာဝသတိ။",
+              "paliRoman": "So gharaṃ ajjhāvasati.",
+              "translateMm": "သူ အိမ်ထောင်ကျပြီး အိမ်မှာ နေထိုင်တယ်။",
+              "translateEn": "He lives as a householder."
+            }
+          },
+          {
+            "paliMm": "ပဋိဝသတိ",
+            "paliRoman": "Paṭivasati",
+            "translateMm": "မှီတင်းနေထိုင်သည်",
+            "translateEn": "Dwells / Inhabits",
+            "example": {
+              "paliMm": "သော ဂါမေ ပဋိဝသတိ။",
+              "paliRoman": "So gāme paṭivasati.",
+              "translateMm": "သူ ရွာမှာ မှီတင်းနေထိုင်တယ်။",
+              "translateEn": "He dwells in the village."
+            }
+          },
+          {
+            "paliMm": "နိဝသတိ",
+            "paliRoman": "Nivasati",
+            "translateMm": "သီးသန့် နေထိုင်သည်",
+            "translateEn": "Dwells / Resides",
+            "example": {
+              "paliMm": "သော အရညေ နိဝသတိ။",
+              "paliRoman": "So araññe nivasati.",
+              "translateMm": "သူ တောထဲမှာ သီးသန့် နေထိုင်တယ်။",
+              "translateEn": "He resides in the forest."
+            }
+          },
+          {
+            "paliMm": "သံဝသတိ",
+            "paliRoman": "Saṃvasati",
+            "translateMm": "အတူတကွ နေထိုင်သည်",
+            "translateEn": "Lives together / Cohabits",
+            "example": {
+              "paliMm": "ဒွေ မိတ္တာ သဟ သံဝသန္တိ။",
+              "paliRoman": "Dve mittā saha saṃvasanti.",
+              "translateMm": "သူငယ်ချင်းနှစ်ယောက် အတူတူ နေထိုင်ကြတယ်။",
+              "translateEn": "Two friends live together."
+            }
+          },
+          {
+            "paliMm": "သန္တိဋ္ဌတိ",
+            "paliRoman": "Santiṭṭhati",
+            "translateMm": "ရပ်တန့်တည်ရှိသည်၊ ငြိမ်သက်သည်",
+            "translateEn": "Remains / Pauses",
+            "example": {
+              "paliMm": "သော ခဏံ သန္တိဋ္ဌတိ။",
+              "paliRoman": "So khaṇaṃ santiṭṭhati.",
+              "translateMm": "သူ ခဏလောက် ရပ်တန့်နေတယ်။",
+              "translateEn": "He pauses for a moment."
+            }
+          },
+          {
+            "paliMm": "ပဗုဇ္ဈတိ",
+            "paliRoman": "Pabujjhati",
+            "translateMm": "နိုးကြားသည်၊ နိုးထသည်",
+            "translateEn": "Awakens / Wakes up",
+            "example": {
+              "paliMm": "သော ပဘာတကာလေ ပဗုဇ္ဈတိ။",
+              "paliRoman": "So pabhātakāle pabujjhati.",
+              "translateMm": "သူ မိုးသောက်ယံမှာ နိုးထလာတယ်။",
+              "translateEn": "He awakens at dawn."
+            }
+          },
+          {
+            "paliMm": "နိဒ္ဒါယတိ",
+            "paliRoman": "Niddāyati",
+            "translateMm": "အိပ်မောကျသည်",
+            "translateEn": "Falls asleep / Slumbers",
+            "example": {
+              "paliMm": "သော သုခေန နိဒ္ဒါယတိ။",
+              "paliRoman": "So sukhena niddāyati.",
+              "translateMm": "သူ နှစ်နှစ်ခြိုက်ခြိုက် အိပ်မောကျနေတယ်။",
+              "translateEn": "He slumbers peacefully."
+            }
+          },
+          {
+            "paliMm": "ခေဒံ အပနေတိ",
+            "paliRoman": "Khedaṃ apaneti",
+            "translateMm": "မောပန်းမှုကို ဖယ်ရှားသည်၊ အမောဖြေသည်",
+            "translateEn": "Relieves fatigue / Rests",
+            "example": {
+              "paliMm": "သော ရုက္ခဆာယာယံ ခေဒံ အပနေတိ။",
+              "paliRoman": "So rukkhachāyāyaṃ khedaṃ apaneti.",
+              "translateMm": "သူ သစ်ပင်ရိပ်မှာ အမောဖြေနေတယ်။",
+              "translateEn": "He relieves his fatigue in the shade of the tree."
+            }
+          },
+          {
+            "paliMm": "ရမတိ",
+            "paliRoman": "Ramati",
+            "translateMm": "မွေ့လျော်စွာ နေထိုင်သည်",
+            "translateEn": "Delights in living / Enjoys staying",
+            "example": {
+              "paliMm": "သမဏော အရညေ ရမတိ။",
+              "paliRoman": "Samaṇo araññe ramati.",
+              "translateMm": "ရဟန်းတော်က တောကျောင်းမှာ မွေ့လျော်စွာ နေထိုင်တော်မူတယ်။",
+              "translateEn": "The ascetic delights in staying in the forest."
+            }
+          },
+          {
+            "paliMm": "ဥပနိဿာယ ဝသတိ",
+            "paliRoman": "Upanissāya vasati",
+            "translateMm": "မှီခိုနေထိုင်သည်",
+            "translateEn": "Lives in dependence on",
+            "example": {
+              "paliMm": "သိဿော အာစရိယံ ဥပနိဿာယ ဝသတိ။",
+              "paliRoman": "Sisso ācariyaṃ upanissāya vasati.",
+              "translateMm": "ကျောင်းသားက ဆရာ့ကို မှီခိုပြီး နေထိုင်တယ်။",
+              "translateEn": "The student lives in dependence on the teacher."
+            }
+          },
+          {
+            "paliMm": "ဝဿံ ဥပေတိ / ဝဿံ ဝသတိ",
+            "paliRoman": "Vassaṃ upeti / Vassaṃ vasati",
+            "translateMm": "ဝါကပ်တော်မူသည်",
+            "translateEn": "Observes the rain retreat",
+            "example": {
+              "paliMm": "ဘိက္ခု ဝိဟာရေ ဝဿံ ဝသတိ။",
+              "paliRoman": "Bhikkhu vihāre vassaṃ vasati.",
+              "translateMm": "ရဟန်းတော်က ကျောင်းတော်မှာ ဝါကပ်တော်မူတယ်။",
+              "translateEn": "The monk observes the rain retreat in the monastery."
+            }
+          },
+          {
+            "paliMm": "ဌိတိံ ကရောတိ",
+            "paliRoman": "Ṭhitiṃ karoti",
+            "translateMm": "တည်းခိုစခန်းချသည်",
+            "translateEn": "Makes a halt / Stays temporarily",
+            "example": {
+              "paliMm": "သာရထိ မဂ္ဂသ္မိံ ဌိတိံ ကရောတိ။",
+              "paliRoman": "Sārathi maggasmiṃ ṭhitiṃ karoti.",
+              "translateMm": "ရထားထိန်းက လမ်းခရီးမှာ ခဏ တည်းခိုစခန်းချတယ်။",
+              "translateEn": "The charioteer makes a halt on the way."
+            }
+          }
+        ]
       }
     ]
   },

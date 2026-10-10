@@ -602,6 +602,36 @@ void main() {
     expect(vocabList.every((item) => item.example != null), isTrue);
   });
 
+  test('New verb chapters include twenty unique entries and examples', () {
+    const chapterTitles = [
+      'ကုန်ကူးသန်းရောင်းဝယ်ရေးနှင့် စီးပွားရေးဆိုင်ရာ ကြိယာများ',
+      'သတိ၊ အသိပညာနှင့် အတွေးအခေါ်ဆိုင်ရာ ကြိယာများ',
+      'ပိုင်ဆိုင်မှု၊ ရယူခြင်းနှင့် စွန့်လွှတ်ခြင်းဆိုင်ရာ ကြိယာများ',
+      'သဘာဝတ္ထုနှင့် ရာသီဥတု ဖြစ်ပျက်မှုဆိုင်ရာ ကြိယာများ',
+      'သန့်ရှင်းရေးနှင့် ပြုပြင်ထိန်းသိမ်းခြင်းဆိုင်ရာ ကြိယာများ',
+      'ပြောင်းလဲခြင်းနှင့် ဖြစ်ပေါ်လာခြင်းဆိုင်ရာ ကြိယာများ',
+      'အစားအသောက်နှင့် သောက်သုံးခြင်းဆိုင်ရာ ကြိယာများ',
+      'နေထိုင်မှုနှင့် အိပ်စက်ခြင်းဆိုင်ရာ ကြိယာများ',
+    ];
+    final verbs = appData[1];
+
+    for (final title in chapterTitles) {
+      final chapter = verbs.subCategories.firstWhere(
+        (category) => category.titleMm == title,
+      );
+      final vocabList = chapter.vocabList!;
+
+      expect(chapter.titleEn, isNotEmpty, reason: title);
+      expect(vocabList, hasLength(20), reason: title);
+      expect(
+        vocabList.map((item) => item.paliRoman).toSet(),
+        hasLength(20),
+        reason: title,
+      );
+      expect(vocabList.every((item) => item.example != null), isTrue);
+    }
+  });
+
   test('Main vocabulary has exactly six requested sections', () {
     final categoryTitles = appData.map((category) => category.titleMm).toSet();
 
@@ -986,32 +1016,37 @@ void main() {
     }
   });
 
-  test('A cached copy older than the manifest is reported as outdated', () async {
-    final original = await rootBundle.loadString('assets/pali_data/nouns.json');
-    final stale = original.replaceFirst(
-      '"titleEn": "Nouns (Nāma)"',
-      '"titleEn": "Nouns (older cached copy)"',
-    );
-    expect(stale, isNot(original));
-    final staleHash = sha256.convert(utf8.encode(stale)).toString();
+  test(
+    'A cached copy older than the manifest is reported as outdated',
+    () async {
+      final original = await rootBundle.loadString(
+        'assets/pali_data/nouns.json',
+      );
+      final stale = original.replaceFirst(
+        '"titleEn": "Nouns (Nāma)"',
+        '"titleEn": "Nouns (older cached copy)"',
+      );
+      expect(stale, isNot(original));
+      final staleHash = sha256.convert(utf8.encode(stale)).toString();
 
-    SharedPreferences.setMockInitialValues({
-      'pali_dataset_json_nouns': stale,
-      'pali_dataset_sha256_nouns': staleHash,
-    });
-    await AppDataRepository.loadBundled();
+      SharedPreferences.setMockInitialValues({
+        'pali_dataset_json_nouns': stale,
+        'pali_dataset_sha256_nouns': staleHash,
+      });
+      await AppDataRepository.loadBundled();
 
-    final nouns = AppDataRepository.datasets.firstWhere(
-      (dataset) => dataset.id == 'nouns',
-    );
-    expect(AppDataRepository.hasDownloadedCopy(nouns), isTrue);
-    expect(AppDataRepository.statusOf(nouns), DatasetStatus.updateAvailable);
-    expect(AppDataRepository.updatesAvailable, 1);
+      final nouns = AppDataRepository.datasets.firstWhere(
+        (dataset) => dataset.id == 'nouns',
+      );
+      expect(AppDataRepository.hasDownloadedCopy(nouns), isTrue);
+      expect(AppDataRepository.statusOf(nouns), DatasetStatus.updateAvailable);
+      expect(AppDataRepository.updatesAvailable, 1);
 
-    // Restore the pristine bundled state for the tests that follow.
-    SharedPreferences.setMockInitialValues({});
-    await AppDataRepository.loadBundled();
-  });
+      // Restore the pristine bundled state for the tests that follow.
+      SharedPreferences.setMockInitialValues({});
+      await AppDataRepository.loadBundled();
+    },
+  );
 
   test('downloadDataset verifies the hash, caches it and notifies', () async {
     final bytes = utf8.encode(
