@@ -517,9 +517,8 @@ class _DashboardStat extends StatelessWidget {
               children: [
                 Text(
                   value,
-                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontFamily: isMyanmar ? null : 'SourceSans3',
-                  ),
+                  style: Theme.of(context).textTheme.titleLarge
+                      ?.copyWith(fontFamily: isMyanmar ? null : 'SourceSans3'),
                 ),
                 Text(label, maxLines: 1, overflow: TextOverflow.ellipsis),
               ],
