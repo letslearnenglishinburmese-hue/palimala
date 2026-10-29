@@ -1,0 +1,330 @@
+{
+  "titleMm": "အဝတ်အစားများ",
+  "titleEn": "Apparel and Accessories",
+  "vocabList": [
+    {
+      "paliMm": "ဝတ္ထံ (န)",
+      "paliRoman": "Vatthaṃ (N)",
+      "translateMm": "အဝတ်",
+      "translateEn": "Cloth / dress",
+      "example": {
+        "paliMm": "သီသေန သုဒ္ဓံ ဝတ္ထံ ဓာရီယတိ။",
+        "paliRoman": "Sissena suddhaṃ vatthaṃ dhārīyati.",
+        "translateMm": "ကျောင်းသားသည် သန့်ရှင်းသော အဝတ်ကို ဝတ်ဆင်၏။",
+        "translateEn": "The student wears clean cloth/dress."
+      }
+    },
+    {
+      "paliMm": "ကပ္ပါသိကံ (န)",
+      "paliRoman": "Kappāsikaṃ (N)",
+      "translateMm": "ဝါချည်အဝတ်",
+      "translateEn": "Calico / cloth of cotton",
+      "example": {
+        "paliMm": "အဟံ ကပ္ပါသိကံ ဝတ္ထံ ဣစ္ဆာမိ။",
+        "paliRoman": "Ahaṃ kappāsikaṃ vatthaṃ icchāmi.",
+        "translateMm": "ငါသည် ဝါချည်အဝတ်ကို လိုချင်၏။",
+        "translateEn": "I want cotton cloth."
+      }
+    },
+    {
+      "paliMm": "ကောသေယျံ (န)",
+      "paliRoman": "Koseyyaṃ (N)",
+      "translateMm": "ပိုးချည်အဝတ်",
+      "translateEn": "Silk",
+      "example": {
+        "paliMm": "ကောသေယျံ ဝတ္ထံ မဟဂ္ဃံ ဟောတိ။",
+        "paliRoman": "Koseyyaṃ vatthaṃ mahagghaṃ hoti.",
+        "translateMm": "ပိုးချည်အဝတ်သည် အဖိုးတန်/ဈေးကြီး၏။",
+        "translateEn": "Silk cloth is expensive."
+      }
+    },
+    {
+      "paliMm": "နိဝါသနံ (န)",
+      "paliRoman": "Nivāsanaṃ (N)",
+      "translateMm": "ခါးဝတ်",
+      "translateEn": "Lower garment",
+      "example": {
+        "paliMm": "သမဏော သုန္ဒရံ နိဝါသနံ နိဝါသေတိ။",
+        "paliRoman": "Samaṇo sundaraṃ nivāsanaṃ nivāseti.",
+        "translateMm": "ရဟန်းသည် လှပသော ခါးဝတ်ကို ဝတ်ရုံ၏။",
+        "translateEn": "The monk wears a proper lower garment."
+      }
+    },
+    {
+      "paliMm": "ဥတ္တရီယံ (န)",
+      "paliRoman": "Uttarīyaṃ (N)",
+      "translateMm": "အပေါ်ရုံ",
+      "translateEn": "Upper garment",
+      "example": {
+        "paliMm": "ဥပါသကော သေတံ ဥတ္တရီယံ ပါရုပတိ။",
+        "paliRoman": "Upāsako setaṃ uttarīyaṃ pārupati.",
+        "translateMm": "ဥပါသကာသည် အဖြူရောင် အပေါ်ရုံကို ခြုံရုံ၏။",
+        "translateEn": "The lay devotee wears a white upper garment."
+      }
+    },
+    {
+      "paliMm": "ကဉ္စုကော (ပု)",
+      "paliRoman": "Kañcuko (M)",
+      "translateMm": "အင်္ကျီ",
+      "translateEn": "Jacket / coat",
+      "example": {
+        "paliMm": "ပုရိသော ရတ္တံ ကဉ္စုကံ ပရိဒဟာတိ။",
+        "paliRoman": "Puriso rattaṃ kañcukaṃ paridahāti.",
+        "translateMm": "ယောက်ျားသည် အနီရောင် အင်္ကျီကို ဝတ်ဆင်၏။",
+        "translateEn": "The man wears a red jacket/coat."
+      }
+    },
+    {
+      "paliMm": "အန္တရကဉ္စုကော (ပု)",
+      "paliRoman": "Antarakañcuko (M)",
+      "translateMm": "ရှပ်အင်္ကျီ",
+      "translateEn": "Shirt",
+      "example": {
+        "paliMm": "သတ္ထာရစာရီ သုက္ကံ အန္တရကဉ္စုကံ ဓာရေတိ။",
+        "paliRoman": "Satthāracārī sukkaṃ antarakañcukaṃ dhāreti.",
+        "translateMm": "ကျောင်းသားသည် အဖြူရောင် ရှပ်အင်္ကျီကို ဝတ်ဆင်၏။",
+        "translateEn": "The student wears a white shirt."
+      }
+    },
+    {
+      "paliMm": "ကမ္ဗလံ (ပု)",
+      "paliRoman": "Kambalaṃ (M)",
+      "translateMm": "သကလတ်၊ စောင်းပါး",
+      "translateEn": "Blanket / woolen cloth",
+      "example": {
+        "paliMm": "သီတကာလေ အဟံ ကမ္ဗလံ ပါရုပါမိ။",
+        "paliRoman": "Sītakāle ahaṃ kambalaṃ pārupāmi.",
+        "translateMm": "ဆောင်းရာသီ၌ ငါသည် သကလတ်/စောင်းပါးကို ခြုံ၏။",
+        "translateEn": "In the cold season, I cover myself with a blanket."
+      }
+    },
+    {
+      "paliMm": "ဂီဝေယျံ (န)",
+      "paliRoman": "Gīveyyaṃ (N)",
+      "translateMm": "လည်ပတ်",
+      "translateEn": "Collar",
+      "example": {
+        "paliMm": "ကဉ္စုကဿ ဂီဝေယျံ သုန္ဒရံ ဟောတိ။",
+        "paliRoman": "Kañcukassa gīveyyaṃ sundaraṃ hoti.",
+        "translateMm": "အင်္ကျီ၏ လည်ပတ်သည် လှပ၏။",
+        "translateEn": "The collar of the jacket is beautiful."
+      }
+    },
+    {
+      "paliMm": "ဂဏ္ဌိ (ပု)",
+      "paliRoman": "Gaṇṭhi (M)",
+      "translateMm": "ကြယ်သီး",
+      "translateEn": "Button",
+      "example": {
+        "paliMm": "သော ကဉ္စုကေ ဂဏ္ဌိံ ဗန္ဓတိ။",
+        "paliRoman": "So kañcuke gaṇṭhiṃ bandhati.",
+        "translateMm": "သူသည် အင်္ကျီ၌ ကြယ်သီးကို တပ်၏။",
+        "translateEn": "He fastens the button on the coat."
+      }
+    },
+    {
+      "paliMm": "နာလိပဋ္ဋော (ပု)",
+      "paliRoman": "Nālipaṭṭo (M)",
+      "translateMm": "ဦးထုပ်",
+      "translateEn": "Hat / cap",
+      "example": {
+        "paliMm": "ပုရိသော သီသေ နာလိပဋ္ဋံ ဓာရေတိ။",
+        "paliRoman": "Puriso sīse nālipaṭṭaṃ dhāreti.",
+        "translateMm": "ယောက်ျားသည် ခေါင်းပေါ်၌ ဦးထုပ်ကို ဆောင်း၏။",
+        "translateEn": "The man wears a hat on his head."
+      }
+    },
+    {
+      "paliMm": "သီသဝေဌနံ (န)",
+      "paliRoman": "Sīsaveṭhanaṃ (N)",
+      "translateMm": "ဦးရစ်ခေါင်းပေါင်း",
+      "translateEn": "Turban",
+      "example": {
+        "paliMm": "ရာဇာ သုဝဏ္ဏမယံ သီသဝေဌနံ ဗန္ဓတိ။",
+        "paliRoman": "Rājā suvaṇṇamayaṃ sīsaveṭhanaṃ bandhati.",
+        "translateMm": "မင်းသည် ရွှေဖြင့်ပြီးသော ဦးရစ်ခေါင်းပေါင်းကို ပေါင်း၏။",
+        "translateEn": "The king binds a golden turban on his head."
+      }
+    },
+    {
+      "paliMm": "ကိရီဋံ (န)",
+      "paliRoman": "Kirīṭaṃ (N)",
+      "translateMm": "သရဖူ",
+      "translateEn": "Crown / diadem",
+      "example": {
+        "paliMm": "ရာဇာ မုဒ္ဓနိ ကိရီဋံ ဓာရေတိ။",
+        "paliRoman": "Rājā muddhani kirīṭaṃ dhāreti.",
+        "translateMm": "မင်းသည် ဦးခေါင်းထက်၌ သရဖူကို ဆောင်း၏။",
+        "translateEn": "The king wears a crown on his head."
+      }
+    },
+    {
+      "paliMm": "ဥဏှီသံ (န)",
+      "paliRoman": "Uṇhīsaṃ (N)",
+      "translateMm": "သင်းကျစ်",
+      "translateEn": "Frontlet",
+      "example": {
+        "paliMm": "ရာဇဒေဝီ သုဝဏ္ဏမယံ ဥဏှီသံ ဓာရေတိ။",
+        "paliRoman": "Rājadevī suvaṇṇamayaṃ uṇhīsaṃ dhāreti.",
+        "translateMm": "မိဖုရားကြီးသည် ရွှေဖြင့်ပြီးသော သင်းကျစ်ကို ဆင်မြန်း၏။",
+        "translateEn": "The queen wears a golden frontlet."
+      }
+    },
+    {
+      "paliMm": "ကုဏ္ဍလံ (န)",
+      "paliRoman": "Kuṇḍalaṃ (N)",
+      "translateMm": "နားတောင်း၊ နားဆွဲ",
+      "translateEn": "Earring",
+      "example": {
+        "paliMm": "ကညာ ကဏ္ဏေသု ကုဏ္ဍလာနိ ဓာရေတိ။",
+        "paliRoman": "Kaññā kaṇṇesu kuṇḍalāni dhāreti.",
+        "translateMm": "အမျိုးသမီးငယ်သည် နားနှစ်ဖက်တို့၌ နားတောင်း/နားဆွဲများကို ဆင်မြန်း၏။",
+        "translateEn": "The maiden wears earrings in her ears."
+      }
+    },
+    {
+      "paliMm": "ဝလယော (ပု)",
+      "paliRoman": "Valayo (M)",
+      "translateMm": "လက်ကောက်",
+      "translateEn": "Bracelet",
+      "example": {
+        "paliMm": "နာရီ ဟတ္ထေ ဝလယံ ဓာရေတိ။",
+        "paliRoman": "Nārī hatte valayaṃ dhāreti.",
+        "translateMm": "အမျိုးသမီးသည် လက်၌ လက်ကောက်ကို ဆင်မြန်း၏။",
+        "translateEn": "The woman wears a bracelet on her hand."
+      }
+    },
+    {
+      "paliMm": "ကဏ္ဌာဘူသနံ (န)",
+      "paliRoman": "Kaṇṭhābhūsanaṃ (N)",
+      "translateMm": "လည်ဆွဲတန်ဆာ",
+      "translateEn": "Necklace",
+      "example": {
+        "paliMm": "ဒေဝီ ဂီဝါယံ ကဏ္ဌာဘူသနံ ဓာရေတိ။",
+        "paliRoman": "Devī gīvāyaṃ kaṇṭhābhūsanaṃ dhāreti.",
+        "translateMm": "မိဖုရားသည် လည်ပင်း၌ လည်ဆွဲတန်ဆာကို ဆင်မြန်း၏။",
+        "translateEn": "The queen wears a necklace on her neck."
+      }
+    },
+    {
+      "paliMm": "ဟာရော / မုတ္တာဝလိ (ပု/ထီ)",
+      "paliRoman": "Hāro / Muttāvali (M/F)",
+      "translateMm": "ပုလဲသွယ်",
+      "translateEn": "Pearl necklace",
+      "example": {
+        "paliMm": "သာ မုတ္တာဝလိံ ကဏ္ဌေ ဓာရေတိ။",
+        "paliRoman": "Sā muttāvaliṃ kaṇṭhe dhāreti.",
+        "translateMm": "သူမသည် လည်ပင်း၌ ပုလဲသွယ်ကို ဆင်မြန်း၏။",
+        "translateEn": "She wears a pearl necklace around her neck."
+      }
+    },
+    {
+      "paliMm": "အင်္ဂုလိယကံ / မုဒ္ဒိကာ (န/ထီ)",
+      "paliRoman": "Aṅguliyakaṃ / Muddikā (N/F)",
+      "translateMm": "လက်စွပ်၊ တံဆိပ်လက်စွပ်",
+      "translateEn": "Finger ring / signet ring",
+      "example": {
+        "paliMm": "ရာဇာ အင်္ဂုလိယာ သုဝဏ္ဏမယံ မုဒ္ဒိကံ ဓာရေတိ။",
+        "paliRoman": "Rājā aṅguliyā suvaṇṇamayaṃ muddikaṃ dhāreti.",
+        "translateMm": "မင်းသည် လက်ချောင်း၌ ရွှေဖြင့်ပြီးသော လက်စွပ်/တံဆိပ်လက်စွပ်ကို ဝတ်ဆင်၏။",
+        "translateEn": "The king wears a golden signet ring on his finger."
+      }
+    },
+    {
+      "paliMm": "ကာယဗန္ဓနံ (န)",
+      "paliRoman": "Kāyabandhanaṃ (N)",
+      "translateMm": "ခါးပတ်",
+      "translateEn": "Belt / waist band",
+      "example": {
+        "paliMm": "သမဏော ကာယဗန္ဓနံ ဗန္ဓတိ။",
+        "paliRoman": "Samaṇo kāyabandhanaṃ bandhati.",
+        "translateMm": "ရဟန်းသည် ခါးပတ်ကို ဖွဲ့ချည်၏။",
+        "translateEn": "The monk ties a waist band."
+      }
+    },
+    {
+      "paliMm": "မေခလာ (ထီ)",
+      "paliRoman": "Mekhalā (F)",
+      "translateMm": "မိန်းမတို့ ခါးကြိုးတန်ဆာ",
+      "translateEn": "A woman's girdle",
+      "example": {
+        "paliMm": "ကညာ ကဋိယံ မေခလံ ဓာရေတိ။",
+        "paliRoman": "Kaññā kaṭiyaṃ mekhalaṃ dhāreti.",
+        "translateMm": "အမျိုးသမီးငယ်သည် ခါး၌ ခါးကြိုးတန်ဆာကို ဆင်မြန်း၏။",
+        "translateEn": "The maiden wears a girdle around her waist."
+      }
+    },
+    {
+      "paliMm": "ပါဒဒံ (န)",
+      "paliRoman": "Pādadaṃ (N)",
+      "translateMm": "ခြေကျင်း",
+      "translateEn": "Anklet",
+      "example": {
+        "paliMm": "ဒေဝီ ပါဒေသု ပါဒဒံ ဓာရေတိ။",
+        "paliRoman": "Devī pādesu pādadaṃ dhāreti.",
+        "translateMm": "မိဖုရားသည် ခြေထောက်တို့၌ ခြေကျင်းကို ဆင်မြန်း၏။",
+        "translateEn": "The queen wears anklets on her feet."
+      }
+    },
+    {
+      "paliMm": "ဥပါဟနော (ပု)",
+      "paliRoman": "Upāhano (M)",
+      "translateMm": "ဖိနပ်",
+      "translateEn": "Sandal / shoe",
+      "example": {
+        "paliMm": "ပုရိသော ပါဒေဟိ ဥပါဟနံ ပဋိမုဉ္စတိ။",
+        "paliRoman": "Puriso pādehi upāhanaṃ paṭimuñcati.",
+        "translateMm": "ယောက်ျားသည် ခြေတို့၌ ဖိနပ်ကို စီး၏။",
+        "translateEn": "The man wears shoes on his feet."
+      }
+    },
+    {
+      "paliMm": "ပါဒုကာ (ထီ)",
+      "paliRoman": "Pādukā (F)",
+      "translateMm": "ခြေနင်း",
+      "translateEn": "Slipper",
+      "example": {
+        "paliMm": "သော ဂဟေ ပါဒုကံ အာရောဟတိ။",
+        "paliRoman": "So gahe pādukaṃ ārohati.",
+        "translateMm": "သူသည် အိမ်၌ ခြေနင်း/ခုံဖိနပ်ကို စီး၏။",
+        "translateEn": "He wears slippers inside the house."
+      }
+    },
+    {
+      "paliMm": "ဆတ္တံ (န)",
+      "paliRoman": "Chattaṃ (N)",
+      "translateMm": "ထီး",
+      "translateEn": "Umbrella",
+      "example": {
+        "paliMm": "ဥပါသကော အာတပေ ဆတ္တံ ဓာရေတိ။",
+        "paliRoman": "Upāsako ātape chattaṃ dhāreti.",
+        "translateMm": "ဥပါသကာသည် နေပူထဲ၌ ထီးကို ဆောင်း၏။",
+        "translateEn": "The devotee holds an umbrella in the sun."
+      }
+    },
+    {
+      "paliMm": "ဟတ္ထပုဉ္ဆနံ (န)",
+      "paliRoman": "Hatthapuñchanaṃ (N)",
+      "translateMm": "လက်ကိုင်ပဝါ၊ လက်သုတ်ပဝါ",
+      "translateEn": "Handkerchief",
+      "example": {
+        "paliMm": "သော ဟတ္ထပုဉ္ဆနေန ဟတ္ထေ ပုဉ္ဆတိ။",
+        "paliRoman": "So hatthapuñchanena hatthe puñchati.",
+        "translateMm": "သူသည် လက်သုတ်ပဝါဖြင့် လက်များကို သုတ်၏။",
+        "translateEn": "He wipes his hands with a handkerchief."
+      }
+    },
+    {
+      "paliMm": "မုခပုဉ္ဆနံ (န)",
+      "paliRoman": "Mukhapuñchanaṃ (N)",
+      "translateMm": "မျက်နှာသုတ်ပဝါ",
+      "translateEn": "Towel",
+      "example": {
+        "paliMm": "သိဿော မုခပုဉ္ဆနေန မုခံ ပုဉ္ဆတိ။",
+        "paliRoman": "Sisso mukhapuñchanena mukhaṃ puñchati.",
+        "translateMm": "ကျောင်းသားသည် မျက်နှာသုတ်ပဝါဖြင့် မျက်နှာကို သုတ်၏။",
+        "translateEn": "The student wipes his face with a towel."
+      }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "titleMm": "ကာလပြနိပါတ်ပုဒ်များ",
+  "titleEn": "Time Particles",
+  "vocabList": [
+    {
+      "paliMm": "အဇ္ဇ",
+      "paliRoman": "Ajja",
+      "translateMm": "ယနေ့",
+      "translateEn": "Today",
+      "example": {
+        "paliMm": "အဇ္ဇ အဟံ သတ္ထာလယံ ဂစ္ဆာမိ။",
+        "paliRoman": "Ajja ahaṃ satthālayaṃ gacchāmi.",
+        "translateMm": "ယနေ့ ငါသည် ကျောင်းသို့ သွား၏။",
+        "translateEn": "Today I go to school."
+      }
+    },
+    {
+      "paliMm": "ဟိယျော",
+      "paliRoman": "Hiyyo",
+      "translateMm": "မနေ့က",
+      "translateEn": "Yesterday",
+      "example": {
+        "paliMm": "ဟိယျော သိဿော အာဂတော။",
+        "paliRoman": "Hiyyo sisso āgato.",
+        "translateMm": "မနေ့က ကျောင်းသားသည် လာခဲ့၏။",
+        "translateEn": "Yesterday the student came."
+      }
+    },
+    {
+      "paliMm": "သုဝေ",
+      "paliRoman": "Suve",
+      "translateMm": "မနက်ဖြန်၌",
+      "translateEn": "Tomorrow",
+      "example": {
+        "paliMm": "သိဿော သုဝေ နဂရံ ဂစ္ဆတိ။",
+        "paliRoman": "Sisso suve nagaraṃ gacchati.",
+        "translateMm": "ကျောင်းသားသည် မနက်ဖြန်၌ မြို့သို့ သွား၏။",
+        "translateEn": "The student goes to the city tomorrow."
+      }
+    },
+    {
+      "paliMm": "သဒါ",
+      "paliRoman": "Sadā",
+      "translateMm": "အမြဲ / အခါတိုင်း",
+      "translateEn": "Always",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော သဒါ သစ္စံ ဝဒတိ။",
+        "paliRoman": "Paṇḍito sadā saccaṃ vadati.",
+        "translateMm": "ပညာရှိသည် အခါတိုင်း အမှန်ကို ပြောဆို၏။",
+        "translateEn": "The wise person always speaks the truth."
+      }
+    },
+    {
+      "paliMm": "ဣဒါနိ",
+      "paliRoman": "Idāni",
+      "translateMm": "ယခုအခါ",
+      "translateEn": "Now",
+      "example": {
+        "paliMm": "ဣဒါနိ သိဿော ပါဠိဘာသံ သိက္ခတိ။",
+        "paliRoman": "Idāni sisso pāḷibhāsaṃ sikkhati.",
+        "translateMm": "ယခုအခါ ကျောင်းသားသည် ပါဠိဘာသာကို သင်ယူ၏။",
+        "translateEn": "Now the student learns the Pali language."
+      }
+    },
+    {
+      "paliMm": "ပုဗ္ဗေ",
+      "paliRoman": "Pubbe",
+      "translateMm": "ရှေးက / အတိတ်၌",
+      "translateEn": "Formerly / In the past",
+      "example": {
+        "paliMm": "ပုဗ္ဗေ သုကတံ ကမ္မံ သုခဖလံ ဒေတိ။",
+        "paliRoman": "Pubbe sukataṃ kammaṃ sukhaphalaṃ deti.",
+        "translateMm": "ရှေးက ကောင်းစွာ ပြုအပ်သော ကံသည် ချမ်းသာသော အကျိုးကို ပေး၏။",
+        "translateEn": "A good deed done in the past yields a happy result."
+      }
+    },
+    {
+      "paliMm": "ပါတော",
+      "paliRoman": "Pāto",
+      "translateMm": "နံနက်စောစော၌",
+      "translateEn": "Early in the morning",
+      "example": {
+        "paliMm": "ပထိကော ပါတော နိက္ခမတိ။",
+        "paliRoman": "Pathiko pāto nikkhamati.",
+        "translateMm": "ခရီးသည်သည် နံနက်စောစော၌ ထွက်ခွာ၏။",
+        "translateEn": "The traveler departs early in the morning."
+      }
+    },
+    {
+      "paliMm": "သာယံ",
+      "paliRoman": "Sāyaṃ",
+      "translateMm": "ညနေချမ်း၌",
+      "translateEn": "In the evening",
+      "example": {
+        "paliMm": "သိဿော သာယံ ဂေဟံ နိဝတ္တတိ။",
+        "paliRoman": "Sisso sāyaṃ gehaṃ nivattati.",
+        "translateMm": "ကျောင်းသားသည် ညနေချမ်း၌ အိမ်သို့ ပြန်လာ၏။",
+        "translateEn": "The student returns home in the evening."
+      }
+    },
+    {
+      "paliMm": "ဒိဝါ",
+      "paliRoman": "Divā",
+      "translateMm": "နေ့အခါ၌",
+      "translateEn": "During the day",
+      "example": {
+        "paliMm": "ဇနော ဒိဝါ ကမ္မံ ကရောတိ။",
+        "paliRoman": "Jano divā kammaṃ karoti.",
+        "translateMm": "လူသည် နေ့အခါ၌ အလုပ်လုပ်၏။",
+        "translateEn": "The person works during the day."
+      }
+    },
+    {
+      "paliMm": "ရတ္တိံ",
+      "paliRoman": "Rattiṃ",
+      "translateMm": "ညဉ့်အခါ၌",
+      "translateEn": "At night",
+      "example": {
+        "paliMm": "ယတိ ရတ္တိံ ဓမ္မံ ဈာယတိ။",
+        "paliRoman": "Yati rattiṃ dhammaṃ jhāyati.",
+        "translateMm": "ရဟန်းသည် ညဉ့်အခါ၌ တရားဓမ္မကို ရှုမှတ်ပွားများ၏။",
+        "translateEn": "The monk meditates at night."
+      }
+    },
+    {
+      "paliMm": "သဗ္ဗဒါ",
+      "paliRoman": "Sabbadā",
+      "translateMm": "အခါခပ်သိမ်း",
+      "translateEn": "Always, all the time",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော သဗ္ဗဒါ အပ္ပမတ္တော ဟောတိ။",
+        "paliRoman": "Paṇḍito sabbadā appamatto hoti.",
+        "translateMm": "ပညာရှိသည် အခါခပ်သိမ်း မမေ့မလျော့သောသူ ဖြစ်၏။",
+        "translateEn": "The wise person is always mindful."
+      }
+    },
+    {
+      "paliMm": "ကဒါစိ",
+      "paliRoman": "Kadāci",
+      "translateMm": "အခါတစ်ရံ",
+      "translateEn": "Sometimes, occasionally",
+      "example": {
+        "paliMm": "သော ကဒါစိ ဣဓ အာဂစ္ဆတိ။",
+        "paliRoman": "So kadāci idha āgacchati.",
+        "translateMm": "သူသည် အခါတစ်ရံ ဒီနေရာသို့ လာ၏။",
+        "translateEn": "He comes here sometimes."
+      }
+    },
+    {
+      "paliMm": "သမ္ပတိ",
+      "paliRoman": "Sampati",
+      "translateMm": "ယခုအခါ၌ / အခုတင်",
+      "translateEn": "Just now, presently",
+      "example": {
+        "paliMm": "အာစရိယော သမ္ပတိ ဓမ္မံ ဒေသေတိ။",
+        "paliRoman": "Ācariyo sampati dhammaṃ deseti.",
+        "translateMm": "ဆရာသည် ယခုအခါ၌ တရားဟောကြား၏။",
+        "translateEn": "The teacher preaches the Dhamma just now."
+      }
+    },
+    {
+      "paliMm": "အာယတိံ",
+      "paliRoman": "Āyatiṃ",
+      "translateMm": "နောင်အခါ၌ / နောင်အနာဂတ်၌",
+      "translateEn": "In the future",
+      "example": {
+        "paliMm": "သာဓုဇနော အာယတိံ ကုသလံ ကရိဿတိ။",
+        "paliRoman": "Sādhujano āyatiṃ kusalaṃ karissati.",
+        "translateMm": "သူတော်ကောင်းသည် နောင်အခါ၌ ကုသိုလ်ပြုလိမ့်မယ်။",
+        "translateEn": "The virtuous person will do good deeds in the future."
+      }
+    },
+    {
+      "paliMm": "ဧတရဟိ",
+      "paliRoman": "Etarahi",
+      "translateMm": "ယခုအခါ၌",
+      "translateEn": "At present, nowadays",
+      "example": {
+        "paliMm": "ဇနာ ဧတရဟိ သုခေန ဝသန္တိ။",
+        "paliRoman": "Janā etarahi sukhena vasanti.",
+        "translateMm": "လူတို့သည် ယခုအခါ၌ ချမ်းသာစွာ နေထိုင်ကြ၏။",
+        "translateEn": "People live happily nowadays."
+      }
+    },
+    {
+      "paliMm": "တာဝ",
+      "paliRoman": "Tāva",
+      "translateMm": "ထိုမျှလောက် / ခေတ္တမျှ",
+      "translateEn": "For the time being, so long",
+      "example": {
+        "paliMm": "တွံ တာဝ ဣဓ တိဋ္ဌ။",
+        "paliRoman": "Tvaṃ tāva idha tiṭṭha.",
+        "translateMm": "သင်သည် ခေတ္တမျှ ဒီမှာ ရပ်နားပါ။",
+        "translateEn": "You stay here for the time being."
+      }
+    },
+    {
+      "paliMm": "သယံ",
+      "paliRoman": "Sayaṃ",
+      "translateMm": "မိမိကိုယ်တိုင် / ညနေ၌",
+      "translateEn": "By oneself / In the evening",
+      "example": {
+        "paliMm": "သိဿော သယံ ကမ္မံ ကရောတိ။",
+        "paliRoman": "Sisso sayaṃ kammaṃ karoti.",
+        "translateMm": "ကျောင်းသားသည် မိမိကိုယ်တိုင် အလုပ်ကို ပြုလုပ်၏။",
+        "translateEn": "The student does the work by himself."
+      }
+    },
+    {
+      "paliMm": "ပစ္ဆာ",
+      "paliRoman": "Pacchā",
+      "translateMm": "နောက်၌ / နောင်အခါ",
+      "translateEn": "Afterwards, later on",
+      "example": {
+        "paliMm": "သော ပစ္ဆာ အနုတာပေတိ။",
+        "paliRoman": "So pacchā anutāpeti.",
+        "translateMm": "သူသည် နောက်အခါ၌ နောင်တရ၏။",
+        "translateEn": "He regrets later on."
+      }
+    },
+    {
+      "paliMm": "စိရံ",
+      "paliRoman": "Ciraṃ",
+      "translateMm": "ရှည်လျားသော ကာလပတ်လုံး",
+      "translateEn": "For a long time",
+      "example": {
+        "paliMm": "သဒ္ဓမ္မော စိရံ တိဋ္ဌတု။",
+        "paliRoman": "Saddhammo ciraṃ tiṭṭhatu.",
+        "translateMm": "သူတော်ကောင်းတရားသည် ရှည်လျားသော ကာလပတ်လုံး တည်တံ့ပါစေ။",
+        "translateEn": "May the true Dhamma endure for a long time."
+      }
+    }
+  ]
+}

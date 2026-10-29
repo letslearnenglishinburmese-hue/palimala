@@ -1,0 +1,246 @@
+{
+  "titleMm": "သမုစ္စည်းပြ နှင့် ဝိဘာဂပြ နိပါတ်ပုဒ်များ",
+  "titleEn": "Conjunctions / Disjunctions",
+  "vocabList": [
+    {
+      "paliMm": "စ",
+      "paliRoman": "Ca",
+      "translateMm": "လည်းကောင်း၊ ၎င်းပြင်",
+      "translateEn": "And, as well as",
+      "example": {
+        "paliMm": "ဗုဒ္ဓေါ စ ဓမ္မော စ သံဃော စ မမ သရဏံ။",
+        "paliRoman": "Buddho ca dhammo ca saṅgho ca mama saraṇaṃ.",
+        "translateMm": "မြတ်စွာဘုရားသည် လည်းကောင်း၊ တရားတော်သည် လည်းကောင်း၊ သံဃာတော်သည် လည်းကောင်း ငါ၏ ကိုးကွယ်ရာ ဖြစ်၏။",
+        "translateEn": "The Buddha, the Dhamma, and the Saṅgha are my refuge."
+      }
+    },
+    {
+      "paliMm": "ဝါ",
+      "paliRoman": "Vā",
+      "translateMm": "သို့မဟုတ်",
+      "translateEn": "Or",
+      "example": {
+        "paliMm": "ဂါမံ ဝါ နဂရံ ဝါ သော ဂစ္ဆတိ။",
+        "paliRoman": "Gāmaṃ vā nagaraṃ vā so gacchati.",
+        "translateMm": "သူသည် ရွာသို့ သို့မဟုတ် မြို့သို့ သွား၏။",
+        "translateEn": "He goes either to the village or to the city."
+      }
+    },
+    {
+      "paliMm": "အထော",
+      "paliRoman": "Atho",
+      "translateMm": "ထို့ပြင်၊ လည်းကောင်း",
+      "translateEn": "And also, furthermore",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော ဓမ္မံ ဇာနာတိ အထော အတ္ထံ နယတိ။",
+        "paliRoman": "Paṇḍito dhammaṃ jānāti atho atthaṃ nayati.",
+        "translateMm": "ပညာရှိသည် တရားတော်ကို သိ၏၊ ထို့ပြင် အဓိပ္ပာယ်ကိုလည်း ဆောင်ယူ၏။",
+        "translateEn": "The wise person knows the Dhamma, and also leads to the meaning."
+      }
+    },
+    {
+      "paliMm": "အပိ စ",
+      "paliRoman": "Api ca",
+      "translateMm": "ထို့ပြင်၊ သို့သော်လည်း",
+      "translateEn": "Moreover, even so",
+      "example": {
+        "paliMm": "သော ဓနဝါ၊ အပိ စ ဒါနံ န ဒဒါတိ။",
+        "paliRoman": "So dhanavā, api ca dānaṃ na dadāti.",
+        "translateMm": "သူသည် ချမ်းသာကြွယ်ဝ၏၊ ထို့ပြင်/သို့သော်လည်း အလှူမပေး။",
+        "translateEn": "He is wealthy, moreover/yet he does not give charity."
+      }
+    },
+    {
+      "paliMm": "ဥဒါဟု",
+      "paliRoman": "Udāhu",
+      "translateMm": "သို့မဟုတ်၊ သို့မဟုတ်မူကား",
+      "translateEn": "Or else, whether",
+      "example": {
+        "paliMm": "တွံ ဣဓ ဝသသိ ဥဒါဟု ဂစ္ဆသိ။",
+        "paliRoman": "Tvaṃ idha vasasi udāhu gacchasi.",
+        "translateMm": "သင်သည် ဤ၌ နေသလော သို့မဟုတ် သွားသလော။",
+        "translateEn": "Do you stay here or do you go?"
+      }
+    },
+    {
+      "paliMm": "ပန",
+      "paliRoman": "Pana",
+      "translateMm": "သို့သော်၊ အခြားတစ်ဖက်၌",
+      "translateEn": "But, however, on the other hand",
+      "example": {
+        "paliMm": "သိဿော ကိစ္စံ ကရောတိ၊ အာစရိယော ပန ဩဝဒတိ။",
+        "paliRoman": "Sisso kiccaṃ karoti, ācariyo pana ovadati.",
+        "translateMm": "ကျောင်းသားသည် ဝတ်ကြီးဝတ်ငယ်ပြု၏၊ ဆရာသည် သို့သော်/အခြားတစ်ဖက်၌ ဆုံးမ၏။",
+        "translateEn": "The student performs the duty, but the teacher advises."
+      }
+    },
+    {
+      "paliMm": "တထာ",
+      "paliRoman": "Tathā",
+      "translateMm": "ထို့အတူ",
+      "translateEn": "Likewise, and also",
+      "example": {
+        "paliMm": "ပိတာ ဂစ္ဆတိ၊ တထာ ပုတ္တော အနုဂစ္ဆတိ။",
+        "paliRoman": "Pitā gacchati, tathā putto anugacchati.",
+        "translateMm": "အဖေသည် သွား၏၊ ထို့အတူ သားသည်လည်း နောက်သို့ လိုက်၏။",
+        "translateEn": "The father goes, likewise the son follows."
+      }
+    },
+    {
+      "paliMm": "အထ",
+      "paliRoman": "Atha",
+      "translateMm": "ထိုမှတစ်ပါး၊ ထို့နောက်",
+      "translateEn": "Then, furthermore",
+      "example": {
+        "paliMm": "သော သုတွာ အထ သုခံ ဝိန္ဒတိ။",
+        "paliRoman": "So sutvā atha sukhaṃ vindati.",
+        "translateMm": "သူသည် နားထောင်ပြီး၍ ထို့နောက် ချမ်းသာကို ရ၏။",
+        "translateEn": "Having listened, then he finds happiness."
+      }
+    },
+    {
+      "paliMm": "အပိ",
+      "paliRoman": "Api",
+      "translateMm": "လည်း၊ သို့သော်",
+      "translateEn": "Also, even, though",
+      "example": {
+        "paliMm": "အဟမ္ပိ တတ္ထ ဂစ္ဆာမိ။",
+        "paliRoman": "Ahampi tattha gacchāmi.",
+        "translateMm": "ငါသည်လည်း ထိုနေရာသို့ သွားမည်။",
+        "translateEn": "I also will go there."
+      }
+    },
+    {
+      "paliMm": "စေ ပန",
+      "paliRoman": "Ce pana",
+      "translateMm": "သို့သော် အကယ်၍",
+      "translateEn": "But if",
+      "example": {
+        "paliMm": "စေ ပန သော န အာဂစ္ဆတိ၊ အဟံ ဂစ္ဆာမိ။",
+        "paliRoman": "Ce pana so na āgacchati, ahaṃ gacchāmi.",
+        "translateMm": "သို့သော် အကယ်၍ သူ မလာပါက ငါ သွားမည်။",
+        "translateEn": "But if he does not come, I will go."
+      }
+    },
+    {
+      "paliMm": "အထ ဝါ",
+      "paliRoman": "Atha vā",
+      "translateMm": "သို့မဟုတ်ပါက",
+      "translateEn": "Or else, alternatively",
+      "example": {
+        "paliMm": "တွံ လိခ၊ အထ ဝါ ဂန္ထံ ပဌ။",
+        "paliRoman": "Tvaṃ likha, atha vā ganthaṃ paṭha.",
+        "translateMm": "သင်သည် စာမူကို ရေးပါ၊ သို့မဟုတ်ပါက ကျမ်းဂန်ကို ဖတ်ပါ။",
+        "translateEn": "Write the manuscript, or else read the text."
+      }
+    },
+    {
+      "paliMm": "ကိဉ္စာပိ",
+      "paliRoman": "Kiñcāpi",
+      "translateMm": "သို့သော်လည်း၊ ပေကတ္တံ့",
+      "translateEn": "Although, even though",
+      "example": {
+        "paliMm": "သော ကိဉ္စာပိ ဗာလော၊ သာဓုဇနံ သုဏောတိ။",
+        "paliRoman": "So kiñcāpi bālo, sādhujanaṃ suṇāti.",
+        "translateMm": "သူသည် လူမိုက် ဖြစ်သော်လည်း သူတော်ကောင်း၏ စကားကို နားထောင်၏။",
+        "translateEn": "Although he is foolish, he listens to the virtuous person."
+      }
+    },
+    {
+      "paliMm": "အထ စ",
+      "paliRoman": "Atha ca",
+      "translateMm": "သို့သော်လည်း၊ ရောက်ပြန်မူ",
+      "translateEn": "And yet, nevertheless",
+      "example": {
+        "paliMm": "သော ဒုက္ခိတော၊ အထ စ သဟတိ။",
+        "paliRoman": "So dukkhito, atha ca sahati.",
+        "translateMm": "သူသည် ဆင်းရဲဒုက္ခ ရောက်၏၊ သို့သော်လည်း သီးခံ၏။",
+        "translateEn": "He is suffering, and yet he endures."
+      }
+    },
+    {
+      "paliMm": "တထာပိ",
+      "paliRoman": "Tathāpi",
+      "translateMm": "သို့သော်လည်း၊ ထို့သို့ ဖြစ်သော်လည်း",
+      "translateEn": "Even so, nevertheless",
+      "example": {
+        "paliMm": "ကိစ္စံ ဂရု၊ တထာပိ သော ကရောတိ။",
+        "paliRoman": "Kiccaṃ garu, tathāpi so karoti.",
+        "translateMm": "တာဝန်သည် ကြီးမား၏၊ သို့သော်လည်း သူသည် ဆောင်ရွက်၏။",
+        "translateEn": "The task is heavy, even so he does it."
+      }
+    },
+    {
+      "paliMm": "န စ",
+      "paliRoman": "Na ca",
+      "translateMm": "မဟုတ်လည်း မဟုတ်",
+      "translateEn": "And not, nor",
+      "example": {
+        "paliMm": "သော န ပဏ္ဍိတော၊ န စ သုတဝါ။",
+        "paliRoman": "So na paṇḍito, na ca sutavā.",
+        "translateMm": "သူသည် ပညာရှိလည်း မဟုတ်၊ အကြားအမြင် ရှိသူလည်း မဟုတ်။",
+        "translateEn": "He is neither wise nor learned."
+      }
+    },
+    {
+      "paliMm": "ယဒိ ဝါ",
+      "paliRoman": "Yadi vā",
+      "translateMm": "သို့မဟုတ်ပါက၊ မဟုတ်လျှင်လည်း",
+      "translateEn": "Or if, whether",
+      "example": {
+        "paliMm": "ဒိဝါ ယဒိ ဝါ ရတ္တိံ သော ဝါယမတိ။",
+        "paliRoman": "Divā yadi vā rattiṃ so vāyamati.",
+        "translateMm": "နေ့အခါ၌ ဖြစ်စေ သို့မဟုတ်ပါက ညဉ့်အခါ၌ ဖြစ်စေ သူသည် ကြိုးစား၏။",
+        "translateEn": "Whether by day or by night, he strives."
+      }
+    },
+    {
+      "paliMm": "ပုန စ",
+      "paliRoman": "Puna ca",
+      "translateMm": "ထို့ပြင်၊ မကသေး",
+      "translateEn": "And again, moreover",
+      "example": {
+        "paliMm": "သော ကုသလံ ကရောတိ၊ ပုန စ အညေ ပသာဒေတိ။",
+        "paliRoman": "So kusalaṃ karoti, puna ca aññe pasādeti.",
+        "translateMm": "သူသည် ကုသိုလ်ပြု၏၊ ထို့ပြင် အခြားသူများကိုလည်း ကြည်ညိုစေ၏။",
+        "translateEn": "He does good deeds, and again inspires others."
+      }
+    },
+    {
+      "paliMm": "တေန ဟိ",
+      "paliRoman": "Tena hi",
+      "translateMm": "သို့ဖြစ်ပါက၊ ထို့ကြောင့်",
+      "translateEn": "Well then, therefore",
+      "example": {
+        "paliMm": "တေန ဟိ တွံ ဓမ္မံ သုဏောဟိ။",
+        "paliRoman": "Tena hi tvaṃ dhammaṃ suṇohi.",
+        "translateMm": "သို့ဖြစ်ပါက သင်သည် တရားဓမ္မကို နာယူပါလော့။",
+        "translateEn": "Well then, listen to the Dhamma."
+      }
+    },
+    {
+      "paliMm": "အဟံ ဝါ",
+      "paliRoman": "Ahaṃ vā",
+      "translateMm": "ငါ သို့မဟုတ်",
+      "translateEn": "Either I",
+      "example": {
+        "paliMm": "အဟံ ဝါ တွံ ဝါ တတ္ထ ဂစ္ဆာမ။",
+        "paliRoman": "Ahaṃ vā tvaṃ vā tattha gacchāma.",
+        "translateMm": "ငါ သို့မဟုတ် သင် ထိုနေရာသို့ သွားကြစို့။",
+        "translateEn": "Either I or you shall go there."
+      }
+    },
+    {
+      "paliMm": "န ဝါ",
+      "paliRoman": "Na vā",
+      "translateMm": "သို့မဟုတ်မဟုတ်ပါက",
+      "translateEn": "Or not",
+      "example": {
+        "paliMm": "သော အာဂစ္ဆတိ န ဝါ။",
+        "paliRoman": "So āgacchati na vā.",
+        "translateMm": "သူသည် လာမည် သို့မဟုတ် မလာပေလော။",
+        "translateEn": "Is he coming or not?"
+      }
+    }
+  ]
+}

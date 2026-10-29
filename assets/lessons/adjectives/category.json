@@ -1,0 +1,11 @@
+{
+  "titleMm": "နာမဝိသေသနပုဒ်များ",
+  "titleEn": "Adjectives",
+  "icon": "auto_awesome_rounded",
+  "subCategoryFiles": [
+    "subcategories/01-quantitative-adjectives.json",
+    "subcategories/02-numeral-adjectives.json",
+    "subcategories/03-qualitative-adjectives.json",
+    "subcategories/04-adjectives-of-color-time.json"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "titleMm": "စိတ်ခံစားမှုဆိုင်ရာကြိယာများ",
+  "titleEn": "Emotional Verbs",
+  "vocabList": [
+    {
+      "paliMm": "ပမောဒတိ",
+      "paliRoman": "Pamodati",
+      "translateMm": "ဝမ်းမြောက်သည်",
+      "translateEn": "Rejoices / Is joyful",
+      "example": {
+        "paliMm": "ဥပါသကော တဿ ပုတ္တဿ သုစရိတေန ပမောဒတိ။",
+        "paliRoman": "Upāsako tassa puttassa sucaritena pamodati.",
+        "translateMm": "ဥပါသကာသည် သားဖြစ်သူ၏ ကောင်းမွန်သော အကျင့်ကြောင့် ဝမ်းမြောက်၏။",
+        "translateEn": "The lay devotee rejoices in good conduct."
+      }
+    },
+    {
+      "paliMm": "ကုဇ္ဈတိ",
+      "paliRoman": "Kujjhati",
+      "translateMm": "စိတ်ဆိုးသည် / အမျက်ထွက်သည်",
+      "translateEn": "Gets angry",
+      "example": {
+        "paliMm": "ဗာလော နိစ္စံ ကုဇ္ဈတိ။",
+        "paliRoman": "Bālo niccaṃ kujjhati.",
+        "translateMm": "လူမိုက်သည် အမြဲ စိတ်ဆိုး၏။",
+        "translateEn": "The foolish person always gets angry."
+      }
+    },
+    {
+      "paliMm": "သောစတိ",
+      "paliRoman": "Socati",
+      "translateMm": "စိုးရိမ်ပူဆွေးသည်",
+      "translateEn": "Grieves / Sorrows",
+      "example": {
+        "paliMm": "မာတာ ပုတ္တဿ ဝိယောဂေန သောစတိ။",
+        "paliRoman": "Mātā puttassa viyogena socati.",
+        "translateMm": "အမေသည် သားနှင့် ခွဲခွာရသဖြင့် စိုးရိမ်ပူဆွေး၏။",
+        "translateEn": "The mother grieves due to separation from her son."
+      }
+    },
+    {
+      "paliMm": "ဘာယတိ",
+      "paliRoman": "Bhāyati",
+      "translateMm": "ကြောက်ရွံ့သည်",
+      "translateEn": "Fears / Is afraid",
+      "example": {
+        "paliMm": "သိဿော အဓမ္မတော ဘာယတိ။",
+        "paliRoman": "Sisso adhammato bhāyati.",
+        "translateMm": "ကျောင်းသားသည် မတရားမှုကို ကြောက်ရွံ့၏။",
+        "translateEn": "The student fears unrighteousness."
+      }
+    },
+    {
+      "paliMm": "ကင်္ခတိ",
+      "paliRoman": "Kaṅkhati",
+      "translateMm": "သံသယဖြစ်သည် / ဇဝေဇဝါဖြစ်သည်",
+      "translateEn": "Doubts / Hesitates",
+      "example": {
+        "paliMm": "သော မဂ္ဂေ ကင်္ခတိ။",
+        "paliRoman": "So magge kaṅkhati.",
+        "translateMm": "သူသည် လမ်းခရီး၌ သံသယဖြစ်၏ / ဇဝေဇဝါဖြစ်၏။",
+        "translateEn": "He doubts about the path."
+      }
+    },
+    {
+      "paliMm": "သိနေဟေတိ",
+      "paliRoman": "Sineheti",
+      "translateMm": "ချစ်ခင်သည်",
+      "translateEn": "Loves / Cherishes",
+      "example": {
+        "paliMm": "ပိတာ ပုတ္တံ သိနေဟေတိ။",
+        "paliRoman": "Pitā puttaṃ sineheti.",
+        "translateMm": "အဖေသည် သားကို ချစ်ခင်၏။",
+        "translateEn": "The father loves his son."
+      }
+    },
+    {
+      "paliMm": "ဇိဂုစ္ဆတိ",
+      "paliRoman": "Jigucchati",
+      "translateMm": "စက်ဆုပ်သည် / ရွံရှာသည်",
+      "translateEn": "Loathes / Feels disgust",
+      "example": {
+        "paliMm": "သုစိတ္တော ပါပကမ္မံ ဇိဂုစ္ဆတိ။",
+        "paliRoman": "Sucitto pāpakammaṃ jigucchati.",
+        "translateMm": "စိတ်ကောင်းရှိသူသည် မကောင်းမှုကို စက်ဆုပ်ရွံရှာ၏။",
+        "translateEn": "The pure-minded person loathes evil deeds."
+      }
+    },
+    {
+      "paliMm": "ဣဿယတိ",
+      "paliRoman": "Issayati",
+      "translateMm": "မနာလိုဖြစ်သည် / ငြူစူသည်",
+      "translateEn": "Envy",
+      "example": {
+        "paliMm": "အသုဇနော ပရဿ သမ္ပတ္တိံ ဣဿယတိ။",
+        "paliRoman": "Asujano parassa sampattiṃ issayati.",
+        "translateMm": "သူယုတ်မာသည် သူတစ်ပါး၏ ချမ်းသာကြွယ်ဝမှုကို ငြူစူမနာလိုဖြစ်၏။",
+        "translateEn": "The bad person envies another's prosperity."
+      }
+    },
+    {
+      "paliMm": "အနုဒ္ဒယတိ",
+      "paliRoman": "Anuddayati",
+      "translateMm": "သနားကရုဏာသက်သည်",
+      "translateEn": "Sympathizes / Pities",
+      "example": {
+        "paliMm": "သုဇနော ဒုက္ခိတံ သတ္တံ အနုဒ္ဒယတိ။",
+        "paliRoman": "Sujano dukkhitaṃ sattaṃ anuddayati.",
+        "translateMm": "သူတော်ကောင်းသည် ဆင်းရဲဒုက္ခရောက်သူကို သနားကရုဏာသက်၏။",
+        "translateEn": "The virtuous person pities the suffering being."
+      }
+    },
+    {
+      "paliMm": "ပသာဒေတိ",
+      "paliRoman": "Pasādeti",
+      "translateMm": "ကြည်ညိုသည် / သဒ္ဓါတိုးသည်",
+      "translateEn": "Feels devotion / Admires",
+      "example": {
+        "paliMm": "ဥပါသိကာ ဗုဒ္ဓဂုဏေ စိတ္တံ ပသာဒေတိ။",
+        "paliRoman": "Upāsikā buddhaguṇe cittaṃ pasādeti.",
+        "translateMm": "ဥပါသကာမသည် မြတ်စွာဘုရား၏ ဂုဏ်တော်၌ စိတ်ကို ကြည်ညိုစေ၏။",
+        "translateEn": "The female devotee feels devotion towards the virtues of the Buddha."
+      }
+    },
+    {
+      "paliMm": "ဝိသီဒတိ",
+      "paliRoman": "Visīdati",
+      "translateMm": "အားလျှော့သည်/လက်လျှော့သည်",
+      "translateEn": "Is discouraged",
+      "example": {
+        "paliMm": "သိဿော ပရိဿမေန န ဝိသီဒတိ။",
+        "paliRoman": "Sisso parissamena na visīdati.",
+        "translateMm": "ကျောင်းသားသည် ပင်ပန်းမှုကြောင့် လက်မလျှော့ပါ/အားမလျှော့ပါ။",
+        "translateEn": "The student does not get discouraged by hardship."
+      }
+    },
+    {
+      "paliMm": "အဿာသေတိ",
+      "paliRoman": "Assāseti",
+      "translateMm": "စိတ်သက်သာရာရ၏",
+      "translateEn": "Breathes freely / Is relieved",
+      "example": {
+        "paliMm": "ဇနော ဘယတော မုတ္တော အဿာသေတိ။",
+        "paliRoman": "Jano bhayato mutto assāseti.",
+        "translateMm": "လူသည် ဘေးအန္တရာယ်မှ လွတ်မြောက်၍ စိတ်သက်သာရာရ၏။",
+        "translateEn": "The person is relieved having escaped from danger."
+      }
+    }
+  ]
+}

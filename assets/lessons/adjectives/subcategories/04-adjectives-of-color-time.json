@@ -1,0 +1,126 @@
+{
+  "titleMm": "အရောင်ကာလပြ နာမဝိသေသနများ",
+  "titleEn": "Adjectives of Color & Time",
+  "vocabList": [
+    {
+      "paliMm": "နီလ",
+      "paliRoman": "Nīla",
+      "translateMm": "အပြာရောင်၊ အနက်ရောင်",
+      "translateEn": "Blue, Dark",
+      "example": {
+        "paliMm": "နီလံ ဥပ္ပလံ ဇလေ ရောဟတိ။",
+        "paliRoman": "Nīlaṃ uppalaṃ jale rohati.",
+        "translateMm": "ကြာညိုပန်းဟာ ရေထဲမှာ ပွင့်သီးကြီးထွားတယ်။",
+        "translateEn": "The blue lotus grows in the water."
+      }
+    },
+    {
+      "paliMm": "ရတ္တ",
+      "paliRoman": "Ratta",
+      "translateMm": "အနီရောင်",
+      "translateEn": "Red",
+      "example": {
+        "paliMm": "ရတ္တံ ပုပ္ဖံ ရုက္ခေ တိဋ္ဌတိ။",
+        "paliRoman": "Rattaṃ pupphaṃ rukkhe tiṭṭhati.",
+        "translateMm": "အနီရောင်ပန်းဟာ သစ်ပင်ပေါ်မှာ ရှိနေတယ်။",
+        "translateEn": "The red flower is on the tree."
+      }
+    },
+    {
+      "paliMm": "သုက္က",
+      "paliRoman": "Sukka / Seta",
+      "translateMm": "အဖြူရောင်",
+      "translateEn": "White",
+      "example": {
+        "paliMm": "သုက္ကံ ဝတ္ထံ ပုရိသော ဓာရေတိ။",
+        "paliRoman": "Sukkaṃ vatthaṃ puriso dhāreti.",
+        "translateMm": "ဒီလူက အဖြူရောင်အဝတ်ကို ဝတ်ဆင်ထားတယ်။",
+        "translateEn": "The man wears white cloth."
+      }
+    },
+    {
+      "paliMm": "ပိတ",
+      "paliRoman": "Pīta",
+      "translateMm": "အဝါရောင်",
+      "translateEn": "Yellow",
+      "example": {
+        "paliMm": "ပီတံ စီဝရံ သမဏော ပရိဒဟတိ။",
+        "paliRoman": "Pītaṃ cīvaraṃ samaṇo paridahati.",
+        "translateMm": "ရဟန်းတော်က အဝါရောင်သင်္ကန်းကို ဝတ်ရုံတော်မူတယ်။",
+        "translateEn": "The monk wears a yellow robe."
+      }
+    },
+    {
+      "paliMm": "ကဏှ",
+      "paliRoman": "Kaṇha / Kāḷa",
+      "translateMm": "အနက်ရောင်",
+      "translateEn": "Black, Dark",
+      "example": {
+        "paliMm": "ကဏှော သပ္ပေါ တရုတော အာဂစ္ဆတိ။",
+        "paliRoman": "Kaṇho sappo taruto āgacchati.",
+        "translateMm": "မြွေနက်ကြီးက သစ်ပင်အောက်ကနေ ထွက်လာတယ်။",
+        "translateEn": "The black snake comes from under the tree."
+      }
+    },
+    {
+      "paliMm": "ဟရိတ",
+      "paliRoman": "Harita",
+      "translateMm": "အစိမ်းရောင်",
+      "translateEn": "Green",
+      "example": {
+        "paliMm": "ဟရိတံ ပဏ္ဏံ ဘူမိယံ ပတတိ။",
+        "paliRoman": "Haritaṃ paṇṇaṃ bhūmiyaṃ patati.",
+        "translateMm": "အစိမ်းရောင်သစ်ရွက်က မြေကြီးပေါ် ပြုတ်ကျတယ်။",
+        "translateEn": "The green leaf falls on the ground."
+      }
+    },
+    {
+      "paliMm": "မဉ္ဇိဋ္ဌ",
+      "paliRoman": "Mañjiṭṭha",
+      "translateMm": "ခရမ်းရောင်၊ မဲနယ်ရောင်",
+      "translateEn": "Crimson, Purple",
+      "example": {
+        "paliMm": "သာ မဉ္ဇိဋ္ဌံ ဝတ္ထံ နိဝါသေတိ။",
+        "paliRoman": "Sā mañjiṭṭhaṃ vatthaṃ nivāseti.",
+        "translateMm": "သူငယ်မလေးက ခရမ်းရောင်အဝတ်ကို ဝတ်ဆင်တယ်။",
+        "translateEn": "She wears purple clothing."
+      }
+    },
+    {
+      "paliMm": "ပိင်္ဂလ",
+      "paliRoman": "Piṅgala",
+      "translateMm": "အဝါညိုရောင်၊ ရွှေဝါရောင်",
+      "translateEn": "Tawny, Reddish-yellow",
+      "example": {
+        "paliMm": "ပိင်္ဂလော သီဟော ဝနေ နဒတိ။",
+        "paliRoman": "Piṅgalo sīho vane nadati.",
+        "translateMm": "အဝါညိုရောင် ခြင်္သေ့ကြီးက တောထဲမှာ ဟိန်းဟောက်တယ်။",
+        "translateEn": "The tawny lion roars in the forest."
+      }
+    },
+    {
+      "paliMm": "အာရုဏ",
+      "paliRoman": "Āruṇa",
+      "translateMm": "အရုဏ်ရောင်၊ အနီဝါရောင်",
+      "translateEn": "Dawn-colored, Reddish-pink",
+      "example": {
+        "paliMm": "အာရုဏော ဩဘာသော သုရိယသ္မိံ ဥဒေန္တေ ဒိဿတိ။",
+        "paliRoman": "Āruṇo obhāso suriyasmiṃ udente dissati.",
+        "translateMm": "နေထွက်လာတဲ့အခါ အရုဏ်ရောင်အလင်းတန်းကို မြင်တွေ့ရတယ်။",
+        "translateEn": "The dawn-colored light appears when the sun rises."
+      }
+    },
+    {
+      "paliMm": "သုဝဏ္ဏဝဏ္ဏ",
+      "paliRoman": "Suvaṇṇavaṇṇa",
+      "translateMm": "ရွှေရောင်",
+      "translateEn": "Golden-colored",
+      "example": {
+        "paliMm": "ဗုဒ္ဓဿ သုဝဏ္ဏဝဏ္ဏော ကာယော သောဘတိ။",
+        "paliRoman": "Buddhassa suvaṇṇavaṇṇo kāyo sobhati.",
+        "translateMm": "မြတ်စွာဘုရား၏ ရွှေရောင်ဝင်းသော သပ္ပါယ်တော်မူသော သရီရကိုယ်တော်သည် တင့်တယ်တော်မူ၏။",
+        "translateEn": "The Buddha's golden-colored body shines beautifully."
+      }
+    }
+  ]
+}

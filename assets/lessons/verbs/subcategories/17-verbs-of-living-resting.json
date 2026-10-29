@@ -1,0 +1,246 @@
+{
+  "titleMm": "နေထိုင်မှုနှင့် အိပ်စက်ခြင်းဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Living & Resting",
+  "vocabList": [
+    {
+      "paliMm": "ဝသတိ",
+      "paliRoman": "Vasati",
+      "translateMm": "နေထိုင်သည်",
+      "translateEn": "Lives / Dwells",
+      "example": {
+        "paliMm": "သော နဂရေ ဝသတိ။",
+        "paliRoman": "So nagare vasati.",
+        "translateMm": "သူ မြို့မှာ နေထိုင်တယ်။",
+        "translateEn": "He lives in the city."
+      }
+    },
+    {
+      "paliMm": "သုပတိ / သယတိ",
+      "paliRoman": "Supati / Sayati",
+      "translateMm": "အိပ်စက်သည်",
+      "translateEn": "Sleeps / Lies down",
+      "example": {
+        "paliMm": "ဒါရကော မဉ္စေ သုပတိ။",
+        "paliRoman": "Dārako mañce supati.",
+        "translateMm": "ကလေးလေးက ခုတင်ပေါ်မှာ အိပ်စက်နေတယ်။",
+        "translateEn": "The child sleeps on the bed."
+      }
+    },
+    {
+      "paliMm": "ဥဋ္ဌာတိ",
+      "paliRoman": "Uṭṭhāti",
+      "translateMm": "နိုးထသည်၊ ထရပ်သည်",
+      "translateEn": "Wakes up / Rises",
+      "example": {
+        "paliMm": "သော ပဘာတေ သယနာ ဥဋ္ဌာတိ။",
+        "paliRoman": "So pabhāte sayanā uṭṭhāti.",
+        "translateMm": "သူ မနက်စောစော အိပ်ရာက နိုးထလာတယ်။",
+        "translateEn": "He wakes up from sleep in the early morning."
+      }
+    },
+    {
+      "paliMm": "ဝိဿမတိ",
+      "paliRoman": "Vissamati",
+      "translateMm": "နားနေသည်၊ အနားယူသည်",
+      "translateEn": "Rests / Relaxes",
+      "example": {
+        "paliMm": "သမဏော ရုက္ခမူလေ ဝိဿမတိ။",
+        "paliRoman": "Samaṇo rukkhamūle vissamati.",
+        "translateMm": "ရဟန်းတော်က သစ်ပင်ရင်းမှာ အနားယူနေတော်မူတယ်။",
+        "translateEn": "The ascetic rests at the foot of the tree."
+      }
+    },
+    {
+      "paliMm": "တိဋ္ဌတိ",
+      "paliRoman": "Tiṭṭhati",
+      "translateMm": "ရပ်သည်၊ တည်ရှိသည်၊ စောင့်ဆိုင်းသည်",
+      "translateEn": "Stands / Stays / Remains",
+      "example": {
+        "paliMm": "သော ဒွါရမူလေ တိဋ္ဌတိ။",
+        "paliRoman": "So dvāramūle tiṭṭhati.",
+        "translateMm": "သူ တံခါးဝမှာ ရပ်နေတယ်။",
+        "translateEn": "He stands at the doorway."
+      }
+    },
+    {
+      "paliMm": "နိသီဒတိ",
+      "paliRoman": "Nisīdati",
+      "translateMm": "ထိုင်သည်",
+      "translateEn": "Sits",
+      "example": {
+        "paliMm": "ယတိ ပီဌေ နိသီဒတိ။",
+        "paliRoman": "Yati pīṭhe nisīdati.",
+        "translateMm": "ရဟန်းတော်က ခုံပေါ်မှာ ထိုင်နေတော်မူတယ်။",
+        "translateEn": "The monk sits on the chair."
+      }
+    },
+    {
+      "paliMm": "နိပဇ္ဇတိ",
+      "paliRoman": "Nipajjati",
+      "translateMm": "လဲလျောင်းသည်၊ အိပ်စက်သည်",
+      "translateEn": "Lies down / Reclines",
+      "example": {
+        "paliMm": "သော သေယျာယံ နိပဇ္ဇတိ။",
+        "paliRoman": "So seyyāyaṃ nipajjati.",
+        "translateMm": "သူ အိပ်ရာပေါ်မှာ လဲလျောင်းနေတယ်။",
+        "translateEn": "He lies down on the bed."
+      }
+    },
+    {
+      "paliMm": "ဝိဟရတိ",
+      "paliRoman": "Viharati",
+      "translateMm": "သီတင်းသုံး နေထိုင်သည်",
+      "translateEn": "Resides / Dwells / Abides",
+      "example": {
+        "paliMm": "ဗုဒ္ဓေါ ဇေတဝနေ ဝိဟရတိ။",
+        "paliRoman": "Buddho Jetavane viharati.",
+        "translateMm": "မြတ်စွာဘုရားက ဇေတဝန်ကျောင်းတော်မှာ သီတင်းသုံး နေထိုင်တော်မူတယ်။",
+        "translateEn": "The Buddha resides in Jetavana monastery."
+      }
+    },
+    {
+      "paliMm": "အဇ္ဈာဝသတိ",
+      "paliRoman": "Ajjhāvasati",
+      "translateMm": "အိမ်ထောင်ပြုနေထိုင်သည်",
+      "translateEn": "Inhabits / Lives as a householder",
+      "example": {
+        "paliMm": "သော ဃရံ အဇ္ဈာဝသတိ။",
+        "paliRoman": "So gharaṃ ajjhāvasati.",
+        "translateMm": "သူ အိမ်ထောင်ကျပြီး အိမ်မှာ နေထိုင်တယ်။",
+        "translateEn": "He lives as a householder."
+      }
+    },
+    {
+      "paliMm": "ပဋိဝသတိ",
+      "paliRoman": "Paṭivasati",
+      "translateMm": "မှီတင်းနေထိုင်သည်",
+      "translateEn": "Dwells / Inhabits",
+      "example": {
+        "paliMm": "သော ဂါမေ ပဋိဝသတိ။",
+        "paliRoman": "So gāme paṭivasati.",
+        "translateMm": "သူ ရွာမှာ မှီတင်းနေထိုင်တယ်။",
+        "translateEn": "He dwells in the village."
+      }
+    },
+    {
+      "paliMm": "နိဝသတိ",
+      "paliRoman": "Nivasati",
+      "translateMm": "သီးသန့် နေထိုင်သည်",
+      "translateEn": "Dwells / Resides",
+      "example": {
+        "paliMm": "သော အရညေ နိဝသတိ။",
+        "paliRoman": "So araññe nivasati.",
+        "translateMm": "သူ တောထဲမှာ သီးသန့် နေထိုင်တယ်။",
+        "translateEn": "He resides in the forest."
+      }
+    },
+    {
+      "paliMm": "သံဝသတိ",
+      "paliRoman": "Saṃvasati",
+      "translateMm": "အတူတကွ နေထိုင်သည်",
+      "translateEn": "Lives together / Cohabits",
+      "example": {
+        "paliMm": "ဒွေ မိတ္တာ သဟ သံဝသန္တိ။",
+        "paliRoman": "Dve mittā saha saṃvasanti.",
+        "translateMm": "သူငယ်ချင်းနှစ်ယောက် အတူတူ နေထိုင်ကြတယ်။",
+        "translateEn": "Two friends live together."
+      }
+    },
+    {
+      "paliMm": "သန္တိဋ္ဌတိ",
+      "paliRoman": "Santiṭṭhati",
+      "translateMm": "ရပ်တန့်တည်ရှိသည်၊ ငြိမ်သက်သည်",
+      "translateEn": "Remains / Pauses",
+      "example": {
+        "paliMm": "သော ခဏံ သန္တိဋ္ဌတိ။",
+        "paliRoman": "So khaṇaṃ santiṭṭhati.",
+        "translateMm": "သူ ခဏလောက် ရပ်တန့်နေတယ်။",
+        "translateEn": "He pauses for a moment."
+      }
+    },
+    {
+      "paliMm": "ပဗုဇ္ဈတိ",
+      "paliRoman": "Pabujjhati",
+      "translateMm": "နိုးကြားသည်၊ နိုးထသည်",
+      "translateEn": "Awakens / Wakes up",
+      "example": {
+        "paliMm": "သော ပဘာတကာလေ ပဗုဇ္ဈတိ။",
+        "paliRoman": "So pabhātakāle pabujjhati.",
+        "translateMm": "သူ မိုးသောက်ယံမှာ နိုးထလာတယ်။",
+        "translateEn": "He awakens at dawn."
+      }
+    },
+    {
+      "paliMm": "နိဒ္ဒါယတိ",
+      "paliRoman": "Niddāyati",
+      "translateMm": "အိပ်မောကျသည်",
+      "translateEn": "Falls asleep / Slumbers",
+      "example": {
+        "paliMm": "သော သုခေန နိဒ္ဒါယတိ။",
+        "paliRoman": "So sukhena niddāyati.",
+        "translateMm": "သူ နှစ်နှစ်ခြိုက်ခြိုက် အိပ်မောကျနေတယ်။",
+        "translateEn": "He slumbers peacefully."
+      }
+    },
+    {
+      "paliMm": "ခေဒံ အပနေတိ",
+      "paliRoman": "Khedaṃ apaneti",
+      "translateMm": "မောပန်းမှုကို ဖယ်ရှားသည်၊ အမောဖြေသည်",
+      "translateEn": "Relieves fatigue / Rests",
+      "example": {
+        "paliMm": "သော ရုက္ခဆာယာယံ ခေဒံ အပနေတိ။",
+        "paliRoman": "So rukkhachāyāyaṃ khedaṃ apaneti.",
+        "translateMm": "သူ သစ်ပင်ရိပ်မှာ အမောဖြေနေတယ်။",
+        "translateEn": "He relieves his fatigue in the shade of the tree."
+      }
+    },
+    {
+      "paliMm": "ရမတိ",
+      "paliRoman": "Ramati",
+      "translateMm": "မွေ့လျော်စွာ နေထိုင်သည်",
+      "translateEn": "Delights in living / Enjoys staying",
+      "example": {
+        "paliMm": "သမဏော အရညေ ရမတိ။",
+        "paliRoman": "Samaṇo araññe ramati.",
+        "translateMm": "ရဟန်းတော်က တောကျောင်းမှာ မွေ့လျော်စွာ နေထိုင်တော်မူတယ်။",
+        "translateEn": "The ascetic delights in staying in the forest."
+      }
+    },
+    {
+      "paliMm": "ဥပနိဿာယ ဝသတိ",
+      "paliRoman": "Upanissāya vasati",
+      "translateMm": "မှီခိုနေထိုင်သည်",
+      "translateEn": "Lives in dependence on",
+      "example": {
+        "paliMm": "သိဿော အာစရိယံ ဥပနိဿာယ ဝသတိ။",
+        "paliRoman": "Sisso ācariyaṃ upanissāya vasati.",
+        "translateMm": "ကျောင်းသားက ဆရာ့ကို မှီခိုပြီး နေထိုင်တယ်။",
+        "translateEn": "The student lives in dependence on the teacher."
+      }
+    },
+    {
+      "paliMm": "ဝဿံ ဥပေတိ / ဝဿံ ဝသတိ",
+      "paliRoman": "Vassaṃ upeti / Vassaṃ vasati",
+      "translateMm": "ဝါကပ်တော်မူသည်",
+      "translateEn": "Observes the rain retreat",
+      "example": {
+        "paliMm": "ဘိက္ခု ဝိဟာရေ ဝဿံ ဝသတိ။",
+        "paliRoman": "Bhikkhu vihāre vassaṃ vasati.",
+        "translateMm": "ရဟန်းတော်က ကျောင်းတော်မှာ ဝါကပ်တော်မူတယ်။",
+        "translateEn": "The monk observes the rain retreat in the monastery."
+      }
+    },
+    {
+      "paliMm": "ဌိတိံ ကရောတိ",
+      "paliRoman": "Ṭhitiṃ karoti",
+      "translateMm": "တည်းခိုစခန်းချသည်",
+      "translateEn": "Makes a halt / Stays temporarily",
+      "example": {
+        "paliMm": "သာရထိ မဂ္ဂသ္မိံ ဌိတိံ ကရောတိ။",
+        "paliRoman": "Sārathi maggasmiṃ ṭhitiṃ karoti.",
+        "translateMm": "ရထားထိန်းက လမ်းခရီးမှာ ခဏ တည်းခိုစခန်းချတယ်။",
+        "translateEn": "The charioteer makes a halt on the way."
+      }
+    }
+  ]
+}

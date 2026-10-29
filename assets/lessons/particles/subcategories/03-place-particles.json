@@ -1,0 +1,126 @@
+{
+  "titleMm": "နေရာဒေသပြနိပါတ်ပုဒ်များ",
+  "titleEn": "Place Particles",
+  "vocabList": [
+    {
+      "paliMm": "ဣဓ",
+      "paliRoman": "Idha",
+      "translateMm": "ဤနေရာ၌",
+      "translateEn": "Here",
+      "example": {
+        "paliMm": "အာစရိယော ဣဓ ဝသတိ။",
+        "paliRoman": "Ācariyo idha vasati.",
+        "translateMm": "ဆရာသည် ဤနေရာ၌ နေထိုင်၏။",
+        "translateEn": "The teacher lives here."
+      }
+    },
+    {
+      "paliMm": "တတ္ထ / တဟိံ",
+      "paliRoman": "Tattha / Tahiṃ",
+      "translateMm": "ထိုနေရာ၌",
+      "translateEn": "There",
+      "example": {
+        "paliMm": "သိဿော တတ္ထ ဂစ္ဆတိ။",
+        "paliRoman": "Sisso tattha gacchati.",
+        "translateMm": "ကျောင်းသားသည် ထိုနေရာသို့ သွား၏။",
+        "translateEn": "The student goes there."
+      }
+    },
+    {
+      "paliMm": "အညတ္ထ",
+      "paliRoman": "Aññattha",
+      "translateMm": "အခြားနေရာ၌",
+      "translateEn": "Elsewhere",
+      "example": {
+        "paliMm": "ပထိကော အညတ္ထ ဝိဿမတိ။",
+        "paliRoman": "Pathikko aññattha vissamati.",
+        "translateMm": "ခရီးသည်သည် အခြားနေရာ၌ အနားယူ၏။",
+        "translateEn": "The traveler rests elsewhere."
+      }
+    },
+    {
+      "paliMm": "သဗ္ဗတ္ထ",
+      "paliRoman": "Sabbattha",
+      "translateMm": "ခပ်သိမ်းသော နေရာ၌",
+      "translateEn": "Everywhere",
+      "example": {
+        "paliMm": "ဗုဒ္ဓရံသီ သဗ္ဗတ္ထ ဖရတိ။",
+        "paliRoman": "Buddharaṃsī sabbattha pharati.",
+        "translateMm": "ဘုရားရောင်ခြည်တော်သည် ခပ်သိမ်းသော နေရာသို့ ပျံ့နှံ့၏။",
+        "translateEn": "The Buddha's rays spread everywhere."
+      }
+    },
+    {
+      "paliMm": "ကတ္ထ / ကုဟိံ",
+      "paliRoman": "Kattha / Kuhiṃ",
+      "translateMm": "အဘယ်နေရာ၌",
+      "translateEn": "Where",
+      "example": {
+        "paliMm": "တွံ ကတ္ထ ဂစ္ဆသိ။",
+        "paliRoman": "Tvaṃ kattha gacchasi.",
+        "translateMm": "သင်သည် အဘယ်နေရာသို့ သွားသနည်း။",
+        "translateEn": "Where are you going?"
+      }
+    },
+    {
+      "paliMm": "ဥပရိ",
+      "paliRoman": "Upari",
+      "translateMm": "အထက်၌ / အပေါ်၌",
+      "translateEn": "Above, on top of",
+      "example": {
+        "paliMm": "သကုဏော ရုက္ခဿ ဥပရိ နိသီဒတိ။",
+        "paliRoman": "Sakuṇo rukkhassa upari nisīdati.",
+        "translateMm": "ငှက်သည် သစ်ပင်၏ အပေါ်၌ ထိုင်၏။",
+        "translateEn": "The bird sits on top of the tree."
+      }
+    },
+    {
+      "paliMm": "အဓော",
+      "paliRoman": "Adho",
+      "translateMm": "အောက်၌",
+      "translateEn": "Below, underneath",
+      "example": {
+        "paliMm": "ပုရိသော ရုက္ခဿ အဓော တိဋ္ဌတိ။",
+        "paliRoman": "Puriso rukkhassa adho tiṭṭhati.",
+        "translateMm": "ယောက်ျားသည် သစ်ပင်၏ အောက်၌ ရပ်နား၏။",
+        "translateEn": "The man stands under the tree."
+      }
+    },
+    {
+      "paliMm": "အန္တော",
+      "paliRoman": "Anto",
+      "translateMm": "အတွင်း၌",
+      "translateEn": "Inside, within",
+      "example": {
+        "paliMm": "ဇနာ ဝိဟာရဿ အန္တော နိသီဒန္တိ။",
+        "paliRoman": "Janā vihārassa anto nisīdanti.",
+        "translateMm": "လူတို့သည် ကျောင်းတိုက်၏ အတွင်း၌ ထိုင်ကြ၏။",
+        "translateEn": "People sit inside the monastery."
+      }
+    },
+    {
+      "paliMm": "ဗဟိ",
+      "paliRoman": "Bahi",
+      "translateMm": "အပြင်၌",
+      "translateEn": "Outside",
+      "example": {
+        "paliMm": "ဒါရကော ဂဟဿ ဗဟိ ကီဠတိ။",
+        "paliRoman": "Dārako gahassa bahi kīḷati.",
+        "translateMm": "ကလေးသည် အိမ်၏ အပြင်၌ ဆော့ကစား၏။",
+        "translateEn": "The child plays outside the house."
+      }
+    },
+    {
+      "paliMm": "သမန္တာ",
+      "paliRoman": "Samantā",
+      "translateMm": "ပတ်ဝန်းကျင်၌ / အနီးအပါး၌",
+      "translateEn": "All around, everywhere around",
+      "example": {
+        "paliMm": "သမန္တာ ရမ္မဏီယာ ဝနရာဇီ ပဿတိ။",
+        "paliRoman": "Samantā ramaṇīyā vanarājī passati.",
+        "translateMm": "ပတ်ဝန်းကျင်၌ သာယာဖွယ်ရာ တောအုပ်တန်းကို မြင်တွေ့ရ၏။",
+        "translateEn": "One sees pleasant forest ranges all around."
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "titleMm": "ခရီးသွားလာခြင်းဆိုင်ရာကြိယာများ",
+  "titleEn": "Travel Verbs",
+  "vocabList": [
+    {
+      "paliMm": "ဂစ္ဆတိ",
+      "paliRoman": "Gacchati",
+      "translateMm": "သွားသည်",
+      "translateEn": "Goes",
+      "example": {
+        "paliMm": "ပထိကော နဂရံ ဂစ္ဆတိ။",
+        "paliRoman": "Pathiko nagaraṃ gacchati.",
+        "translateMm": "ခရီးသည်သည် မြို့သို့ သွား၏။",
+        "translateEn": "The traveler goes to the city."
+      }
+    },
+    {
+      "paliMm": "အာဂစ္ဆတိ",
+      "paliRoman": "Āgacchati",
+      "translateMm": "လာသည်",
+      "translateEn": "Comes",
+      "example": {
+        "paliMm": "ယာနံ သီဃံ အာဂစ္ဆတိ။",
+        "paliRoman": "Yānaṃ sīghaṃ āgacchati.",
+        "translateMm": "ယာဉ်သည် အလျင်အမြန် လာ၏။",
+        "translateEn": "The vehicle comes quickly."
+      }
+    },
+    {
+      "paliMm": "စရတိ / အာဟိဏ္ဍတိ",
+      "paliRoman": "Carati / Āhiṇḍati",
+      "translateMm": "လှည့်လည်သည် / ခရီးလှည့်လည်သည်",
+      "translateEn": "Wanders / Travels around",
+      "example": {
+        "paliMm": "ပထိကော နာနာဒေသံ စရတိ။",
+        "paliRoman": "Pathiko nānādesaṃ carati.",
+        "translateMm": "ခရီးသည်သည် ဒေသအသီးသီးသို့ လှည့်လည်၏။",
+        "translateEn": "The traveler travels around various regions."
+      }
+    },
+    {
+      "paliMm": "တိဋ္ဌတိ",
+      "paliRoman": "Tiṭṭhati",
+      "translateMm": "ရပ်နားသည် / တည်းခိုသည်",
+      "translateEn": "Stops / Stays",
+      "example": {
+        "paliMm": "ပထိကော ဝိဟာရေ တိဋ္ဌတိ။",
+        "paliRoman": "Pathiko vihāre tiṭṭhati.",
+        "translateMm": "ခရီးသည်သည် ကျောင်းတိုက်၌ ရပ်နားတည်းခို၏။",
+        "translateEn": "The traveler stops at the monastery."
+      }
+    },
+    {
+      "paliMm": "နိသီဒတိ",
+      "paliRoman": "Nisīdati",
+      "translateMm": "ထိုင်သည် / စီးနင်းသည်",
+      "translateEn": "Sits / Boards",
+      "example": {
+        "paliMm": "ပုရိသော ယာနေ နိသီဒတိ။",
+        "paliRoman": "Puriso yāne nisīdati.",
+        "translateMm": "ယောက်ျားသည် ယာဉ်ပေါ်၌ ထိုင်၏။",
+        "translateEn": "The man sits in the vehicle."
+      }
+    },
+    {
+      "paliMm": "အာရောဟတိ",
+      "paliRoman": "Ārohati",
+      "translateMm": "တက်သည် / စီးနင်းသည်",
+      "translateEn": "Climbs / Boards",
+      "example": {
+        "paliMm": "ပထိကော ပဗ္ဗတံ အာရောဟတိ။",
+        "paliRoman": "Pathiko pabbataṃ ārohati.",
+        "translateMm": "ခရီးသည်သည် တောင်သို့ တက်၏။",
+        "translateEn": "The traveler climbs the mountain."
+      }
+    },
+    {
+      "paliMm": "ဩတရတိ",
+      "paliRoman": "Otarati",
+      "translateMm": "ဆင်းသည်",
+      "translateEn": "Descends / Alights",
+      "example": {
+        "paliMm": "သော ယာနတော ဩတရတိ။",
+        "paliRoman": "So yānato otarati.",
+        "translateMm": "သူသည် ယာဉ်ပေါ်မှ ဆင်း၏။",
+        "translateEn": "He gets down from the vehicle."
+      }
+    },
+    {
+      "paliMm": "ကီဏာတိ",
+      "paliRoman": "Kīṇāti",
+      "translateMm": "ဝယ်ယူသည်",
+      "translateEn": "Buys",
+      "example": {
+        "paliMm": "ပထိကော အာပဏိကသာလာယံ ပရိက္ခာရံ ကီဏာတိ။",
+        "paliRoman": "Pathiko āpaṇikasālāyaṃ parikkhāraṃ kīṇāti.",
+        "translateMm": "ခရီးသည်သည် ဈေးဆိုင်၌ အသုံးအဆောင်ကို ဝယ်ယူ၏။",
+        "translateEn": "The traveler buys goods at the shop."
+      }
+    },
+    {
+      "paliMm": "ပဿတိ",
+      "paliRoman": "Passati",
+      "translateMm": "ကြည့်ရှုသည် / လည်ပတ်သည်",
+      "translateEn": "Sees / Visits",
+      "example": {
+        "paliMm": "ပထိကာ ရမဏီယံ ဌာနံ ပဿန္တိ။",
+        "paliRoman": "Pathikā ramaṇīyaṃ ṭhānaṃ passanti.",
+        "translateMm": "ခရီးသည်တို့သည် သာယာဖွယ်နေရာကို ကြည့်ရှုလည်ပတ်ကြ၏။",
+        "translateEn": "The travelers visit a pleasant place."
+      }
+    },
+    {
+      "paliMm": "ပါပုဏာတိ",
+      "paliRoman": "Pāpuṇāti",
+      "translateMm": "ရောက်ရှိသည်",
+      "translateEn": "Reaches / Arrives",
+      "example": {
+        "paliMm": "ပထိကော သာယဏှကာလေ နဂရံ ပါပုဏာတိ။",
+        "paliRoman": "Pathiko sāyaṇhakāle nagaraṃ pāpuṇāti.",
+        "translateMm": "ခရီးသည်သည် ညနေချမ်းအချိန်၌ မြို့သို့ ရောက်ရှိ၏။",
+        "translateEn": "The traveler arrives in the city in the evening."
+      }
+    },
+    {
+      "paliMm": "နိက္ခမတိ",
+      "paliRoman": "Nikkhamati",
+      "translateMm": "ထွက်ခွာသည်",
+      "translateEn": "Departs / Sets out",
+      "example": {
+        "paliMm": "ပထိကော ပါတော ဝိဟာရတော နိက္ခမတိ။",
+        "paliRoman": "Pathiko pāto vihārato nikkhamati.",
+        "translateMm": "ခရီးသည်သည် နံနက်စောစော၌ ကျောင်းတိုက်မှ ထွက်ခွာ၏။",
+        "translateEn": "The traveler departs from the monastery early in the morning."
+      }
+    },
+    {
+      "paliMm": "ပဋ္ဌာပေတိ",
+      "paliRoman": "Paṭṭhāpeti",
+      "translateMm": "ခရီးစတင်သည်",
+      "translateEn": "Starts a journey",
+      "example": {
+        "paliMm": "သော သုဘေ ခဏေ ဒီဃဒ္ဓါနံ ပဋ္ဌာပေတိ။",
+        "paliRoman": "So subhe khaṇe yattaṃ paṭṭhāpeti.",
+        "translateMm": "သူသည် မင်္ဂလာရှိသောအချိန်၌ ခရီးရှည်ကို စတင်၏။",
+        "translateEn": "He starts the journey at an auspicious moment."
+      }
+    },
+    {
+      "paliMm": "အဘိရူဟတိ",
+      "paliRoman": "Abhirūhati",
+      "translateMm": "တက်ရောက်စီးနင်းသည်",
+      "translateEn": "Boards / Ascends",
+      "example": {
+        "paliMm": "ပထိကော နာဝံ အဘိရူဟတိ။",
+        "paliRoman": "Pathiko nāvaṃ abhirūhati.",
+        "translateMm": "ခရီးသည်သည် သင်္ဘောပေါ်သို့ တက်ရောက်စီးနင်း၏။",
+        "translateEn": "The traveler boards the ship."
+      }
+    },
+    {
+      "paliMm": "တရတိ",
+      "paliRoman": "Tarati",
+      "translateMm": "ဖြတ်ကူးသည်",
+      "translateEn": "Crosses over",
+      "example": {
+        "paliMm": "ပုရိသော နဒိံ နာဝါယ တရတိ။",
+        "paliRoman": "Puriso nadiṃ nāvāya tarati.",
+        "translateMm": "ယောက်ျားသည် မြစ်ကို လှေဖြင့် ဖြတ်ကူး၏။",
+        "translateEn": "The man crosses the river by boat."
+      }
+    },
+    {
+      "paliMm": "နိဝတ္တတိ",
+      "paliRoman": "Nivattati",
+      "translateMm": "ပြန်လှည့်သည် / ပြန်လာသည်",
+      "translateEn": "Returns / Turns back",
+      "example": {
+        "paliMm": "ပထိကော သာယံ ဂေဟံ နိဝတ္တတိ။",
+        "paliRoman": "Pathiko sāyaṃ gehaṃ nivattati.",
+        "translateMm": "ခရီးသည်သည် ညနေ၌ အိမ်သို့ ပြန်လာ၏။",
+        "translateEn": "The traveler returns home in the evening."
+      }
+    },
+    {
+      "paliMm": "ဝါသိတံ ကရောတိ / ဝသတိ",
+      "paliRoman": "Vāsitaṃ karoti / Vasati",
+      "translateMm": "တည်းခိုနေထိုင်သည်",
+      "translateEn": "Lodges / Stays overnight",
+      "example": {
+        "paliMm": "ပထိကာ ရတ္တိယံ အာဂန္တုကသာလာယံ ဝသန္တိ။",
+        "paliRoman": "Pathikā rattiyaṃ āgantukasālāyaṃ vasanti.",
+        "translateMm": "ခရီးသည်တို့သည် ညအခါ၌ တည်းခိုဇရပ်တွင် နေထိုင်ကြ၏။",
+        "translateEn": "The travelers stay overnight at the guesthouse."
+      }
+    },
+    {
+      "paliMm": "ပရိယေသတိ",
+      "paliRoman": "Pariyessati",
+      "translateMm": "ရှာဖွေသည်",
+      "translateEn": "Searches / Looks for",
+      "example": {
+        "paliMm": "သော နဂရေ မဂ္ဂံ ပရိယေသတိ။",
+        "paliRoman": "So nagare maggaṃ pariyessati.",
+        "translateMm": "သူသည် မြို့၌ လမ်းကို ရှာဖွေ၏။",
+        "translateEn": "He searches for the way in the city."
+      }
+    },
+    {
+      "paliMm": "ပရိဝဇ္ဇေတိ",
+      "paliRoman": "Parivajjeti",
+      "translateMm": "ရှောင်ကွင်းသည်",
+      "translateEn": "Avoids / Bypasses",
+      "example": {
+        "paliMm": "ပထိကော ဘယဇနကံ မဂ္ဂံ ပရိဝဇ္ဇေတိ။",
+        "paliRoman": "Pathiko bhayajanakaṃ maggaṃ parivajjeti.",
+        "translateMm": "ခရီးသည်သည် အန္တရာယ်ရှိသော လမ်းကို ရှောင်ကွင်း၏။",
+        "translateEn": "The traveler avoids the dangerous route."
+      }
+    },
+    {
+      "paliMm": "အနုဂစ္ဆတိ",
+      "paliRoman": "Anugacchati",
+      "translateMm": "နောက်သို့ လိုက်သည်",
+      "translateEn": "Follows",
+      "example": {
+        "paliMm": "သိဿော မဂ္ဂဒေသကံ အနုဂစ္ဆတိ။",
+        "paliRoman": "Sisso maggadesakaṃ anugacchati.",
+        "translateMm": "ကျောင်းသားသည် လမ်းပြ၏နောက်သို့ လိုက်၏။",
+        "translateEn": "The student follows the guide."
+      }
+    },
+    {
+      "paliMm": "ဝိဿမတိ",
+      "paliRoman": "Vissamati",
+      "translateMm": "အနားယူသည်",
+      "translateEn": "Rests / Takes a break",
+      "example": {
+        "paliMm": "ပထိကာ ရုက္ခမူလေ သဏိကံ ဝိဿမန္တိ။",
+        "paliRoman": "Pathikā rukkhamūle saṇikaṃ vissamanti.",
+        "translateMm": "ခရီးသည်တို့သည် သစ်ပင်ရင်း၌ ခေတ္တ အနားယူကြ၏။",
+        "translateEn": "The travelers rest briefly under the tree."
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "titleMm": "ချက်ပြုတ်ခြင်းဆိုင်ရာကြိယာများ",
+  "titleEn": "Cooking and Kitchen Verbs",
+  "vocabList": [
+    {
+      "paliMm": "ပစတိ",
+      "paliRoman": "Pacati",
+      "translateMm": "ချက်ပြုတ်သည်",
+      "translateEn": "Cooks",
+      "example": {
+        "paliMm": "သူဒေါ မဟာနသေ ပစတိ။",
+        "paliRoman": "Sūdo mahānase pacati.",
+        "translateMm": "စားဖိုမှူးသည် မီးဖိုချောင်၌ ချက်ပြုတ်၏။",
+        "translateEn": "The cook cooks in the kitchen."
+      }
+    },
+    {
+      "paliMm": "ဓောဝတိ",
+      "paliRoman": "Dhovati",
+      "translateMm": "ဆေးကြောသည်",
+      "translateEn": "Washes / Cleanses",
+      "example": {
+        "paliMm": "ကညာ ဘာဇနာနိ ဓောဝတိ။",
+        "paliRoman": "Kaññā bhājanāni dhovati.",
+        "translateMm": "အမျိုးသမီးငယ်သည် ခွက်ပန်းကန်များကို ဆေးကြော၏။",
+        "translateEn": "The maiden washes the dishes."
+      }
+    },
+    {
+      "paliMm": "ဆိန္ဒတိ",
+      "paliRoman": "Chindati",
+      "translateMm": "လှီးဖြတ်သည်",
+      "translateEn": "Cuts / Chops",
+      "example": {
+        "paliMm": "သူဒေါ သာကံ သတ္ထေန ဆိန္ဒတိ။",
+        "paliRoman": "Sūdo sākaṃ satthena chindati.",
+        "translateMm": "စားဖိုမှူးသည် ဟင်းသီးဟင်းရွက်ကို ဓားဖြင့် လှီးဖြတ်၏။",
+        "translateEn": "The cook chops vegetables with a knife."
+      }
+    },
+    {
+      "paliMm": "ကောဋ္ဋေတိ",
+      "paliRoman": "Koṭṭeti",
+      "translateMm": "ထောင်းသည် / ညှပ်သည်",
+      "translateEn": "Pounds / Crushes",
+      "example": {
+        "paliMm": "ဒါသီ မရိစံ ဥဒုက္ခလေ ကောဋ္ဋေတိ။",
+        "paliRoman": "Dāsī maricaṃ udukkhale koṭṭeti.",
+        "translateMm": "အစေခံမသည် ငရုတ်ကောင်းကို ဆုံ၌ ထောင်း၏။",
+        "translateEn": "The maidservant pounds pepper in a mortar."
+      }
+    },
+    {
+      "paliMm": "ဘဇ္ဇတိ",
+      "paliRoman": "Bhajjati",
+      "translateMm": "ကြော်သည်",
+      "translateEn": "Fries",
+      "example": {
+        "paliMm": "သူဒေါ မစ္ဆံ တိလေန ဘဇ္ဇတိ။",
+        "paliRoman": "Sūdo macchaṃ tilena bhajjati.",
+        "translateMm": "စားဖိုမှူးသည် ငါးကို ဆီဖြင့် ကြော်၏။",
+        "translateEn": "The cook fries the fish in oil."
+      }
+    },
+    {
+      "paliMm": "ပက္ကုထိတံ ကရောတိ",
+      "paliRoman": "Pakkuthitaṃ karoti",
+      "translateMm": "ဆူပွက်စေသည်",
+      "translateEn": "Boils",
+      "example": {
+        "paliMm": "သာ ဥဒကံ ပက္ကုထိတံ ကရောတိ။",
+        "paliRoman": "Sā udakaṃ pakkuthitaṃ karoti.",
+        "translateMm": "သူသည် ရေကို ဆူပွက်အောင် ကြို၏။",
+        "translateEn": "She boils the water."
+      }
+    },
+    {
+      "paliMm": "အာသိဉ္စတိ",
+      "paliRoman": "Āsiñcati",
+      "translateMm": "လောင်းထည့်သည်",
+      "translateEn": "Pours",
+      "example": {
+        "paliMm": "ကညာ သူပေ တေလံ အာသိဉ္စတိ။",
+        "paliRoman": "Kaññā sūpe telaṃ āsiñcati.",
+        "translateMm": "အမျိုးသမီးငယ်သည် ဟင်းရည်ထဲသို့ ဆီလောင်းထည့်၏။",
+        "translateEn": "The maiden pours oil into the soup."
+      }
+    },
+    {
+      "paliMm": "မိဿေတိ",
+      "paliRoman": "Misseti",
+      "translateMm": "ရောစပ်သည်",
+      "translateEn": "Mixes / Combines",
+      "example": {
+        "paliMm": "သူဒေါ သာကေဟိ သဒ္ဓိံ မံသံ မိဿေတိ။",
+        "paliRoman": "Sūdo sākehi saddhiṃ maṃsaṃ misseti.",
+        "translateMm": "စားဖိုမှူးသည် အသားကို ဟင်းသီးဟင်းရွက်တို့နှင့် ရောစပ်၏။",
+        "translateEn": "The cook mixes the meat with vegetables."
+      }
+    },
+    {
+      "paliMm": "သဇ္ဇေတိ / သမ္ပာဒေတိ",
+      "paliRoman": "Sajjeti / Sampādeti",
+      "translateMm": "ပြင်ဆင်သည် / တည်ခင်းသည်",
+      "translateEn": "Prepares / Serves",
+      "example": {
+        "paliMm": "ဒါသီ ဘောဇနံ ထာလကေ သဇ္ဇေတိ။",
+        "paliRoman": "Dāsī bhojanaṃ thālake sajjeti.",
+        "translateMm": "အစေခံမသည် အစားအစာကို ပန်းကန်၌ ပြင်ဆင်၏။",
+        "translateEn": "The maidservant prepares the food on the plate."
+      }
+    },
+    {
+      "paliMm": "သာဒေတိ",
+      "paliRoman": "Sādeti",
+      "translateMm": "မြည်းစမ်းသည်",
+      "translateEn": "Tastes",
+      "example": {
+        "paliMm": "သူဒေါ သူပဿ ရသံ သာဒေတိ။",
+        "paliRoman": "Sūdo sūpassa rasaṃ sādeti.",
+        "translateMm": "စားဖိုမှူးသည် ဟင်းရည်၏ အရသာကို မြည်းစမ်း၏။",
+        "translateEn": "The cook tastes the flavor of the soup."
+      }
+    }
+  ]
+}

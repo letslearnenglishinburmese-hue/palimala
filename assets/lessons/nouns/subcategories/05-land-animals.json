@@ -1,0 +1,78 @@
+{
+  "titleMm": "ကုန်နေတိရိစ္ဆာန်များ",
+  "titleEn": "Land Animals",
+  "vocabList": [
+    {
+      "paliMm": "သီဟော (ပု)",
+      "paliRoman": "Sīho (M)",
+      "translateMm": "ခြင်္သေ့",
+      "translateEn": "Lion",
+      "example": {
+        "paliMm": "သီဟော ဝနေ နဒတိ။",
+        "paliRoman": "Sīho vane nadati.",
+        "translateMm": "ခြင်္သေ့သည် တော၌ ဟိန်းဟောက်၏။",
+        "translateEn": "The lion roars in the forest."
+      }
+    },
+    {
+      "paliMm": "ဗျဂ္ဃော (ပု)",
+      "paliRoman": "Byaggho (M)",
+      "translateMm": "ကျား",
+      "translateEn": "Tiger",
+      "example": {
+        "paliMm": "ဗျဂ္ဃော ပဗ္ဗတေ စရတိ။",
+        "paliRoman": "Byaggho pabbate carati.",
+        "translateMm": "ကျားသည် တောင်ပေါ်၌ လှည့်လည်၏။",
+        "translateEn": "The tiger roams on the mountain."
+      }
+    },
+    {
+      "paliMm": "ဟတ္ထီ / နာဂေါ (ပု)",
+      "paliRoman": "Hatthī / Nāgo (M)",
+      "translateMm": "ဆင်",
+      "translateEn": "Elephant",
+      "example": {
+        "paliMm": "ဟတ္ထီ ဝိပိနေ ပဏ္ဏာနိ ခါဒတိ။",
+        "paliRoman": "Hatthī vipine paṇṇāni khādati.",
+        "translateMm": "ဆင်သည် တောအုပ်အတွင်း၌ သစ်ရွက်များကို စား၏။",
+        "translateEn": "The elephant eats leaves in the forest."
+      }
+    },
+    {
+      "paliMm": "အဿော (ပု)",
+      "paliRoman": "Asso (M)",
+      "translateMm": "မြင်း",
+      "translateEn": "Horse",
+      "example": {
+        "paliMm": "အဿော မဂ္ဂေ သီဃံ ဓာဝတိ။",
+        "paliRoman": "Asso magge sīghaṃ dhāvati.",
+        "translateMm": "မြင်းသည် လမ်း၌ မြန်မြန် ပြေး၏။",
+        "translateEn": "The horse runs fast on the road."
+      }
+    },
+    {
+      "paliMm": "ဂေါနော / ဂါဝီ (ပု/ထီ)",
+      "paliRoman": "Gono / Gāvī (M/F)",
+      "translateMm": "နွား",
+      "translateEn": "Ox / Cow",
+      "example": {
+        "paliMm": "ဂေါနော ခေတ္တေ တိဏံ ခါဒတိ။",
+        "paliRoman": "Gono khette tiṇaṃ khādati.",
+        "translateMm": "နွားသည် လယ်ကွင်း၌ မြက်ကို စား၏။",
+        "translateEn": "The ox eats grass in the field."
+      }
+    },
+    {
+      "paliMm": "သုနခေါ (ပု)",
+      "paliRoman": "Sunakho (M)",
+      "translateMm": "ခွေး",
+      "translateEn": "Dog",
+      "example": {
+        "paliMm": "သုနခေါ ဂဟေ ဝသတိ။",
+        "paliRoman": "Sunakho gahe vasati.",
+        "translateMm": "ခွေးသည် အိမ်၌ နေ၏။",
+        "translateEn": "The dog lives at home."
+      }
+    }
+  ]
+}

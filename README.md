@@ -18,21 +18,28 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Pāḷi data files
 
-The lesson content is split into one file per top-level category so it can be
-edited and shipped independently:
+The editable lesson source is organized by category, with a separate JSON file
+for each subcategory:
 
 ```
-assets/pali_data/
-  nouns.json        # Nouns (Nāma)
-  verbs.json        # Finite Verbs (Ākhyāta)
-  adjectives.json   # Adjectives
-  adverbs.json      # Adverbs
-  particles.json    # Invariable Words & Particles (Nipāta)
-  dialogues.json    # Pāḷi Dialogues
+assets/lessons/
+  nouns/
+    category.json
+    subcategories/
+      01-*.json
+      02-*.json
+  verbs/
+    category.json
+    subcategories/
+      01-*.json
+  ...
 ```
 
-Each file holds a single category object with the same shape as the entries of
-the old combined `assets/pali_data.json`.
+`category.json` stores the category title, icon, and ordered list of its
+subcategory file paths. Each subcategory file holds that subcategory's words or
+dialogues. The app reads generated category data from `assets/pali_data/`.
+Those files and the combined `assets/pali_data.json` are generated from the
+editable source files.
 
 `assets/pali_data_manifest.json` is the index published to GitHub. It lists,
 for every data set, the raw URL and the SHA-256 of the file, so an installed app
@@ -41,9 +48,10 @@ the user download only the chapters they need.
 
 ### Publishing a data update
 
-1. Edit the relevant file(s) under `assets/pali_data/` (and add a new file for
-   a new category).
-2. Regenerate the manifest (and the legacy compatibility files):
+1. Edit a category's `category.json` or the relevant file under its
+   `subcategories/` directory. Add its path to `subCategoryFiles` when adding a
+   subcategory.
+2. Regenerate the app data, manifest, and legacy compatibility files:
 
    ```sh
    dart run tool/generate_data_manifest.dart

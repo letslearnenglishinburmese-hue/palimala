@@ -1,0 +1,246 @@
+{
+  "titleMm": "ကုန်ကူးသန်းရောင်းဝယ်ရေးနှင့် စီးပွားရေးဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Commerce & Trade",
+  "vocabList": [
+    {
+      "paliMm": "ကိဏာတိ",
+      "paliRoman": "Kiṇāti",
+      "translateMm": "ဝယ်ယူသည်",
+      "translateEn": "Buys",
+      "example": {
+        "paliMm": "သော အာပဏတော ဝတ္ထုံ ကိဏာတိ။",
+        "paliRoman": "So āpaṇato vatthuṃ kiṇāti.",
+        "translateMm": "သူ ဈေးကနေ ပစ္စည်းတစ်ခု ဝယ်ယူနေတယ်။",
+        "translateEn": "He buys an item from the market."
+      }
+    },
+    {
+      "paliMm": "ဝိက္ကိဏာတိ",
+      "paliRoman": "Vikkiṇāti",
+      "translateMm": "ရောင်းချသည်",
+      "translateEn": "Sells",
+      "example": {
+        "paliMm": "ဝါဏိဇော အာပဏသ္မိံ ဖလံ ဝိက္ကိဏာတိ။",
+        "paliRoman": "Vāṇijo āpaṇasmiṃ phalaṃ vikkiṇāti.",
+        "translateMm": "ကုန်သည်က ဈေးထဲမှာ အသီးအနှံတွေကို ရောင်းချနေတယ်။",
+        "translateEn": "The merchant sells fruits in the market."
+      }
+    },
+    {
+      "paliMm": "ဓာရေတိ",
+      "paliRoman": "Dhāreti",
+      "translateMm": "ကြွေးတင်သည်၊ အကြွေးထားသည်",
+      "translateEn": "Owes",
+      "example": {
+        "paliMm": "သော ဝါဏိဇဿ ဓနံ ဓာရေတိ။",
+        "paliRoman": "So vāṇijassa dhanaṃ dhāreti.",
+        "translateMm": "သူ ကုန်သည်ဆီမှာ ငွေကြေး အကြွေးတင်နေတယ်။",
+        "translateEn": "He owes money to the merchant."
+      }
+    },
+    {
+      "paliMm": "ပရိဘုဉ္ဇတိ",
+      "paliRoman": "Paribhuñjati",
+      "translateMm": "သုံးစွဲသည်",
+      "translateEn": "Spends",
+      "example": {
+        "paliMm": "သော ကမ္မတော လဒ္ဓံ ဓနံ ပရိဘုဉ္ဇတိ။",
+        "paliRoman": "So kammato laddhaṃ dhanaṃ paribhuñjati.",
+        "translateMm": "သူ အလုပ်ကရတဲ့ ငွေကို သုံးစွဲလိုက်တယ်။",
+        "translateEn": "He spends the money earned from work."
+      }
+    },
+    {
+      "paliMm": "သဉ္စိနာတိ",
+      "paliRoman": "Sañcināti",
+      "translateMm": "စုဆောင်းသည်၊ သိုလှောင်သည်",
+      "translateEn": "Accumulates / Saves",
+      "example": {
+        "paliMm": "သော အနာဂတတ္ထာယ ဓနံ သဉ္စိနာတိ။",
+        "paliRoman": "So anāgatatthāya dhanaṃ sañcināti.",
+        "translateMm": "သူ အနာဂတ်အတွက် ငွေစုဆောင်းနေတယ်။",
+        "translateEn": "He saves money for the future."
+      }
+    },
+    {
+      "paliMm": "နိဓေတိ",
+      "paliRoman": "Nidheti",
+      "translateMm": "ရင်းနှီးမြှုပ်နှံသည်",
+      "translateEn": "Invests",
+      "example": {
+        "paliMm": "ဝါဏိဇော ဝါဏိဇ္ဇာယ ဓနံ နိဓေတိ။",
+        "paliRoman": "Vāṇijo vāṇijjāya dhanaṃ nidheti.",
+        "translateMm": "ကုန်သည်က ကူးသန်းရောင်းဝယ်ရေးမှာ ငွေကြေး ရင်းနှီးမြှုပ်နှံတယ်။",
+        "translateEn": "The merchant invests money in trade."
+      }
+    },
+    {
+      "paliMm": "ဇိနာတိ",
+      "paliRoman": "Jināti",
+      "translateMm": "အမြတ်ရသည်၊ အနိုင်ရသည်",
+      "translateEn": "Profits / Gains",
+      "example": {
+        "paliMm": "သော ဝါဏိဇ္ဇေန မဟန္တံ ဓနံ ဇိနာတိ။",
+        "paliRoman": "So vāṇijjena mahantaṃ dhanaṃ jināti.",
+        "translateMm": "သူ ကုန်ကူးစရာကနေ အမြတ်ငွေ အများကြီး ရရှိတယ်။",
+        "translateEn": "He gains a lot of wealth through trade."
+      }
+    },
+    {
+      "paliMm": "ဇီယတိ",
+      "paliRoman": "Jīyati",
+      "translateMm": "အရှုံးပေါ်သည်၊ ဆုံးရှုံးသည်",
+      "translateEn": "Suffers a loss",
+      "example": {
+        "paliMm": "သော ဗဟုပရိဘုဉ္ဇနေန ဓနံ ဇီယတိ။",
+        "paliRoman": "So bahuparibhuñjanena dhanaṃ jīyati.",
+        "translateMm": "သူ သုံးစွဲမှုများလို့ ငွေကြေး အရှုံးပေါ်သွားတယ်။",
+        "translateEn": "He suffers a loss of money due to spending."
+      }
+    },
+    {
+      "paliMm": "ဣဏံ ဂဏှာတိ",
+      "paliRoman": "Iṇaṃ gaṇhāti",
+      "translateMm": "ချေးငွေယူသည်၊ အကြွေးယူသည်",
+      "translateEn": "Borrows money",
+      "example": {
+        "paliMm": "သော မိတ္တတော ဣဏံ ဂဏှာတိ။",
+        "paliRoman": "So mittato iṇaṃ gaṇhāti.",
+        "translateMm": "သူ သူငယ်ချင်းဆီကနေ ချေးငွေ ယူလိုက်တယ်။",
+        "translateEn": "He borrows money from a friend."
+      }
+    },
+    {
+      "paliMm": "ဣဏံ ပဋိဒဒါတိ",
+      "paliRoman": "Iṇaṃ paṭidadāti",
+      "translateMm": "ကြွေးဆပ်သည်၊ ချေးငွေပြန်ဆပ်သည်",
+      "translateEn": "Repays debt",
+      "example": {
+        "paliMm": "သော ကာလေ ဣဏံ ပဋိဒဒါတိ။",
+        "paliRoman": "So kāle iṇaṃ paṭidadāti.",
+        "translateMm": "သူ အချိန်တန်တော့ အကြွေး ပြန်ဆပ်လိုက်တယ်။",
+        "translateEn": "He repays the debt in time."
+      }
+    },
+    {
+      "paliMm": "အဂ္ဃတိ",
+      "paliRoman": "Agghati",
+      "translateMm": "တန်ဖိုးရှိသည်၊ အဖိုးထိုက်သည်",
+      "translateEn": "Costs / Is worth",
+      "example": {
+        "paliMm": "ဣဒံ ဝတ္ထု သတံ ဓနံ အဂ္ဃတိ။",
+        "paliRoman": "Idaṃ vatthu sataṃ dhanaṃ agghati.",
+        "translateMm": "ဒီပစ္စည်းက ငွေတစ်ရာ တန်ကြေးရှိတယ်။",
+        "translateEn": "This item costs one hundred units of money."
+      }
+    },
+    {
+      "paliMm": "အဂ္ဃံ အပ္ပေတိ",
+      "paliRoman": "Agghaṃ appeti",
+      "translateMm": "အဖိုးဖြတ်သည်၊ ဈေးသတ်မှတ်သည်",
+      "translateEn": "Appraises / Sets a price",
+      "example": {
+        "paliMm": "ဝါဏိဇော ဝတ္ထုဿ အဂ္ဃံ အပ္ပေတိ။",
+        "paliRoman": "Vāṇijo vatthussa agghaṃ appeti.",
+        "translateMm": "ကုန်သည်က ပစ္စည်းရဲ့ ဈေးနှုန်းကို သတ်မှတ်လိုက်တယ်။",
+        "translateEn": "The merchant sets the price of the goods."
+      }
+    },
+    {
+      "paliMm": "သမ္မသတိ",
+      "paliRoman": "Sammasati",
+      "translateMm": "စိစစ်တွက်ချက်သည်၊ စစ်ဆေးသည်",
+      "translateEn": "Calculates / Inspects",
+      "example": {
+        "paliMm": "သော အာယဗ္ဗယံ သမ္မသတိ။",
+        "paliRoman": "So āyabbayaṃ sammasati.",
+        "translateMm": "သူ ဝင်ငွေထွက်ငွေ စာရင်းကို စိစစ်တွက်ချက်နေတယ်။",
+        "translateEn": "He calculates the income and expenditure."
+      }
+    },
+    {
+      "paliMm": "နိဟာရေတိ",
+      "paliRoman": "Nihāreti",
+      "translateMm": "တင်ပို့သည်၊ ထုတ်ယူသည်",
+      "translateEn": "Exports / Takes out",
+      "example": {
+        "paliMm": "သော ရဋ္ဌတော ဝတ္ထုံ နိဟာရေတိ။",
+        "paliRoman": "So raṭṭhato vatthuṃ nihāreti.",
+        "translateMm": "သူ တိုင်းပြည်ကနေ ပစ္စည်းတွေကို ပြင်ပသို့ တင်ပို့တယ်။",
+        "translateEn": "He exports goods from the country."
+      }
+    },
+    {
+      "paliMm": "အာနယတိ",
+      "paliRoman": "Ānayati",
+      "translateMm": "တင်သွင်းသည်၊ ယူဆောင်လာသည်",
+      "translateEn": "Imports / Brings in",
+      "example": {
+        "paliMm": "ဝါဏိဇော ပရရဋ္ဌတော ဝတ္ထုံ အာနယတိ။",
+        "paliRoman": "Vāṇijo pararaṭṭhato vatthuṃ ānayati.",
+        "translateMm": "ကုန်သည်က နိုင်ငံခြားကနေ ပစ္စည်းတွေကို တင်သွင်းလာတယ်။",
+        "translateEn": "The merchant imports goods from another country."
+      }
+    },
+    {
+      "paliMm": "စာရေတိ",
+      "paliRoman": "Cāreti",
+      "translateMm": "ကုန်ပစ္စည်းများကို လှည့်လည်ရောင်းချစေသည်",
+      "translateEn": "Circulates goods / Trades around",
+      "example": {
+        "paliMm": "သော နဂရေသု ဘဏ္ဍံ စာရေတိ။",
+        "paliRoman": "So nagaresu bhaṇḍaṃ cāreti.",
+        "translateMm": "သူ မြို့အသီးသီးမှာ ကုန်ပစ္စည်းတွေကို လှည့်လည်ရောင်းချစေတယ်။",
+        "translateEn": "He circulates goods across various cities."
+      }
+    },
+    {
+      "paliMm": "ပါလေတိ",
+      "paliRoman": "Pāleti",
+      "translateMm": "စီးပွားဥစ္စာကို ထိန်းသိမ်းသည်",
+      "translateEn": "Manages wealth",
+      "example": {
+        "paliMm": "သော သကံ ဓနံ သမ္မာ ပါလေတိ။",
+        "paliRoman": "So sakaṃ dhanaṃ sammā pāleti.",
+        "translateMm": "သူ မိမိရဲ့ စီးပွားဥစ္စာကို စနစ်တကျ ထိန်းသိမ်းစောင့်ရှောက်တယ်။",
+        "translateEn": "He properly manages his own wealth."
+      }
+    },
+    {
+      "paliMm": "ကရံ ဟရတိ",
+      "paliRoman": "Karaṃ harati",
+      "translateMm": "အခွန်ကောက်ခံသည်",
+      "translateEn": "Collects tax",
+      "example": {
+        "paliMm": "ရာဇပုရိသော မဟာဇနတော ကရံ ဟရတိ။",
+        "paliRoman": "Rājapuriso mahājanato karaṃ harati.",
+        "translateMm": "မင်းချင်းက ပြည်သူလူထုဆီကနေ အခွန်ကောက်ခံတယ်။",
+        "translateEn": "The official collects tax from the public."
+      }
+    },
+    {
+      "paliMm": "ကရံ ဒဒါတိ",
+      "paliRoman": "Karaṃ dadāti",
+      "translateMm": "အခွန်ပေးဆောင်သည်",
+      "translateEn": "Pays tax",
+      "example": {
+        "paliMm": "ဝါဏိဇော ရာဇိနော ကရံ ဒဒါတိ။",
+        "paliRoman": "Vāṇijo rājino karaṃ dadāti.",
+        "translateMm": "ကုန်သည်က ဘုရင်ထံ အခွန်ပေးဆောင်တယ်။",
+        "translateEn": "The merchant pays tax to the king."
+      }
+    },
+    {
+      "paliMm": "လာဘံ နိဗ္ဗတ္တေတိ",
+      "paliRoman": "Lābhaṃ nibbatteti",
+      "translateMm": "အမြတ်အစွန်း ဖြစ်ထွန်းစေသည်",
+      "translateEn": "Yields profit / Produces wealth",
+      "example": {
+        "paliMm": "ဝါဏိဇ္ဇံ မဟန္တံ လာဘံ နိဗ္ဗတ္တေတိ။",
+        "paliRoman": "Vāṇijjaṃ mahantaṃ lābhaṃ nibbatteti.",
+        "translateMm": "ကုန်သွယ်မှုက အလွန်ကြီးမားတဲ့ အမြတ်အစွန်းကို ဖြစ်ထွန်းစေတယ်။",
+        "translateEn": "Trade yields a great profit."
+      }
+    }
+  ]
+}

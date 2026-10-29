@@ -490,11 +490,13 @@ class _DashboardStat extends StatelessWidget {
   final IconData icon;
   final String value;
   final String label;
+  final bool isMyanmar;
 
   const _DashboardStat({
     required this.icon,
     required this.value,
     required this.label,
+    required this.isMyanmar,
   });
 
   @override
@@ -513,7 +515,12 @@ class _DashboardStat extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(value, style: Theme.of(context).textTheme.titleLarge),
+                Text(
+                  value,
+                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontFamily: isMyanmar ? null : 'SourceSans3',
+                  ),
+                ),
                 Text(label, maxLines: 1, overflow: TextOverflow.ellipsis),
               ],
             ),
@@ -676,6 +683,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 icon: Icons.menu_book_rounded,
                 value: '${words.length}',
                 label: isMm ? 'ဝေါဟာရ' : 'Vocabulary',
+                isMyanmar: isMm,
               ),
             ),
             const SizedBox(width: 12),
@@ -684,6 +692,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 icon: Icons.bookmark_rounded,
                 value: '${widget.savedWords.length}',
                 label: isMm ? 'သိမ်းထားသည်' : 'Saved words',
+                isMyanmar: isMm,
               ),
             ),
           ],
@@ -712,7 +721,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisCount: columns,
                 crossAxisSpacing: 12,
                 mainAxisSpacing: 12,
-                childAspectRatio: 1.12,
+                childAspectRatio: 0.92,
               ),
               itemBuilder: (context, index) {
                 final category = appData[index];
@@ -753,28 +762,26 @@ class _HomeScreenState extends State<HomeScreen> {
                             children: [
                               SizedBox(
                                 width: double.infinity,
-                                child: FittedBox(
-                                  alignment: Alignment.centerLeft,
-                                  fit: BoxFit.scaleDown,
-                                  child: Text(
-                                    isMm ? category.titleMm : category.titleEn,
-                                    maxLines: 1,
-                                    softWrap: false,
-                                    overflow: TextOverflow.visible,
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 18,
-                                      color: Theme.of(context)
-                                          .colorScheme
-                                          .primary,
-                                    ),
+                                child: Text(
+                                  isMm ? category.titleMm : category.titleEn,
+                                  maxLines: 3,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 18,
+                                    color: Theme.of(context)
+                                        .colorScheme
+                                        .primary,
                                   ),
                                 ),
                               ),
                               const SizedBox(height: 4),
                               Text(
                                 isMm ? '$wordCount လုံး' : '$wordCount words',
-                                style: Theme.of(context).textTheme.bodySmall,
+                                style: Theme.of(context).textTheme.bodySmall
+                                    ?.copyWith(
+                                      fontFamily: isMm ? null : 'SourceSans3',
+                                    ),
                               ),
                             ],
                           ),
@@ -1362,12 +1369,15 @@ class _SubCategoryScreenState extends State<SubCategoryScreen> {
                   '${index + 1}',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
+                    fontFamily: isMm ? null : 'SourceSans3',
                     color: Theme.of(context).colorScheme.onSecondaryContainer,
                   ),
                 ),
               ),
               title: Text(
                 isMm ? subCat.titleMm : subCat.titleEn,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
                 style: const TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 16,

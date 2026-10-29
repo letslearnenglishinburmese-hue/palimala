@@ -1,0 +1,14 @@
+{
+  "titleMm": "နိပါတ်ပုဒ်များ",
+  "titleEn": "Invariable Words & Particles (Nipāta)",
+  "icon": "auto_awesome_mosaic_rounded",
+  "subCategoryFiles": [
+    "subcategories/01-time-particles.json",
+    "subcategories/02-manner-particles.json",
+    "subcategories/03-place-particles.json",
+    "subcategories/04-causal-particles.json",
+    "subcategories/05-doubt-particles.json",
+    "subcategories/06-quantity-degree-particles.json",
+    "subcategories/07-conjunctions-disjunctions.json"
+  ]
+}

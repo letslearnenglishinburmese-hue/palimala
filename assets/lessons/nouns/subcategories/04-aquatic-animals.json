@@ -1,0 +1,60 @@
+{
+  "titleMm": "ရေနေတိရိစ္ဆာန်များ",
+  "titleEn": "Aquatic Animals",
+  "vocabList": [
+    {
+      "paliMm": "မစ္ဆော (ပု)",
+      "paliRoman": "Maccho (M)",
+      "translateMm": "ငါး",
+      "translateEn": "Fish"
+    },
+    {
+      "paliMm": "ကုမ္ဘီလော (ပု)",
+      "paliRoman": "Kumbhīlo (M)",
+      "translateMm": "မိကျောင်း",
+      "translateEn": "Crocodile",
+      "example": {
+        "paliMm": "ကုမ္ဘီလော နဒိယံ ဝသတိ။",
+        "paliRoman": "Kumbhīlo nadiyaṃ vasati.",
+        "translateMm": "မိကျောင်းသည် မြစ်၌ နေ၏။",
+        "translateEn": "The crocodile lives in the river."
+      }
+    },
+    {
+      "paliMm": "ကစ္ဆပေါ (ပု)",
+      "paliRoman": "Kacchapo (M)",
+      "translateMm": "လိပ်",
+      "translateEn": "Turtle",
+      "example": {
+        "paliMm": "ကစ္ဆပေါ သရောသိံ သနိကံ ဂစ္ဆတိ။",
+        "paliRoman": "Kacchapo sarasiṃ sanikaṃ gacchati.",
+        "translateMm": "လိပ်သည် ရေကန်သို့ ဖြေးဖြေး သွား၏။",
+        "translateEn": "The turtle goes slowly to the pond."
+      }
+    },
+    {
+      "paliMm": "ကက္ကဋကော (ပု)",
+      "paliRoman": "Kakkaṭako (M)",
+      "translateMm": "ဂဏန်း",
+      "translateEn": "Crab",
+      "example": {
+        "paliMm": "ကက္ကဋကော ရဟဒေ စရတိ။",
+        "paliRoman": "Kakkaṭako rahade carati.",
+        "translateMm": "ဂဏန်းသည် အိုင်၌ လှည့်လည်၏။",
+        "translateEn": "The crab walks in the pool."
+      }
+    },
+    {
+      "paliMm": "သံသုမာရော (ပု)",
+      "paliRoman": "Suṃsumāro (M)",
+      "translateMm": "ရေဝက်/လင်းပိုင်",
+      "translateEn": "Porpoise / Dolphin",
+      "example": {
+        "paliMm": "သံသုမာရော မဟာသမုဒ္ဒေ ဥပ္ပတတိ။",
+        "paliRoman": "Suṃsumāro mahāsamudde uppatati.",
+        "translateMm": "ရေဝက်/လင်းပိုင်သည် သမုဒ္ဒရာကြီး၌ ခုန်ပျံ၏။",
+        "translateEn": "The dolphin leaps in the ocean."
+      }
+    }
+  ]
+}

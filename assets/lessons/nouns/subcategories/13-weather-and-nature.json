@@ -1,0 +1,126 @@
+{
+  "titleMm": "ရာသီဥတုနှင့် သဘာဝအရာများ",
+  "titleEn": "Weather and Nature",
+  "vocabList": [
+    {
+      "paliMm": "သူရိယ / အာဒိစ္စ (ပု)",
+      "paliRoman": "Sūriya / Ādicca (M)",
+      "translateMm": "နေ၊ နေမင်း",
+      "translateEn": "Sun",
+      "example": {
+        "paliMm": "သူရိယော အာကာသေ ဥဒေတိ။",
+        "paliRoman": "Sūriyo ākāse udeti.",
+        "translateMm": "နေမင်းက ကောင်းကင်မှာ ထွက်ပေါ်လာတယ်။",
+        "translateEn": "The sun rises in the sky."
+      }
+    },
+    {
+      "paliMm": "စန္ဒ / စန္ဒိမ (ပု)",
+      "paliRoman": "Canda / Candima (M)",
+      "translateMm": "လ၊ လမင်း",
+      "translateEn": "Moon",
+      "example": {
+        "paliMm": "စန္ဒော ရတ္တိယံ သောဘတိ။",
+        "paliRoman": "Cando rattiyaṃ sobhati.",
+        "translateMm": "လမင်းက ညအခါမှာ လှပတင့်တယ်နေတယ်။",
+        "translateEn": "The moon shines at night."
+      }
+    },
+    {
+      "paliMm": "မေဃ / ဝလ္လာဟက (ပု)",
+      "paliRoman": "Megha / Vallāhaka (M)",
+      "translateMm": "မိုးတိမ်",
+      "translateEn": "Cloud",
+      "example": {
+        "paliMm": "မဟာ မေဃော အာကာသေ ဥဋ္ဌာတိ။",
+        "paliRoman": "Mahā megho ākāse uṭṭhāti.",
+        "translateMm": "မိုးတိမ်ကြီးက ကောင်းကင်မှာ တက်လာတယ်။",
+        "translateEn": "A large cloud rises in the sky."
+      }
+    },
+    {
+      "paliMm": "ဝဿ / ဝုဋ္ဌိ (န/ထီ)",
+      "paliRoman": "Vassa / Vuṭṭhi (N/F)",
+      "translateMm": "မိုး၊ မိုးရေ",
+      "translateEn": "Rain",
+      "example": {
+        "paliMm": "မဟာ ဝုဋ္ဌိ ဘူမိယံ ပတတိ။",
+        "paliRoman": "Mahā vuṭṭhi bhūmiyaṃ patati.",
+        "translateMm": "မိုးသည်းထန်စွာ မြေကြီးပေါ် ရွာကျလာတယ်။",
+        "translateEn": "Heavy rain falls on the ground."
+      }
+    },
+    {
+      "paliMm": "ဝါတ / အနိလ (ပု)",
+      "paliRoman": "Vāta / Anila (M)",
+      "translateMm": "လေ",
+      "translateEn": "Wind",
+      "example": {
+        "paliMm": "ဗလဝါ ဝါတော ဝါယတိ။",
+        "paliRoman": "Balavā vāto vāyati.",
+        "translateMm": "လေပြင်းကြီး တိုက်ခတ်နေတယ်။",
+        "translateEn": "A strong wind blows."
+      }
+    },
+    {
+      "paliMm": "အာကာသ / ဂဂန (ပု/န)",
+      "paliRoman": "Ākāsa / Gagana (M/N)",
+      "translateMm": "ကောင်းကင်",
+      "translateEn": "Sky",
+      "example": {
+        "paliMm": "သကုဏော အာကာသေ ဍေတိ။",
+        "paliRoman": "Sakuṇo ākāse ḍeti.",
+        "translateMm": "ငှက်လေးက ကောင်းကင်မှာ ပျံသန်းနေတယ်။",
+        "translateEn": "The bird flies in the sky."
+      }
+    },
+    {
+      "paliMm": "ပဗ္ဗတ / ဂိရိ (ပု)",
+      "paliRoman": "Pabbata / Giri (M)",
+      "translateMm": "တောင်၊ တောင်ကုန်း",
+      "translateEn": "Mountain, Hill",
+      "example": {
+        "paliMm": "သော မဟန္တံ ပဗ္ဗတံ အာရောဟတိ။",
+        "paliRoman": "So mahantaṃ pabbataṃ ārohati.",
+        "translateMm": "သူ တောင်ကြီးပေါ်ကို တက်နေတယ်။",
+        "translateEn": "He climbs the high mountain."
+      }
+    },
+    {
+      "paliMm": "နဒီ (ထီ)",
+      "paliRoman": "Nadī (F)",
+      "translateMm": "မြစ်",
+      "translateEn": "River",
+      "example": {
+        "paliMm": "နဒီ သမုဒ္ဒံ အဘိမုခံ သန္ဒတိ။",
+        "paliRoman": "Nadī samuddaṃ abhimukhaṃ sandati.",
+        "translateMm": "မြစ်ရေက ပင်လယ်ဆီ ဦးတည် စီးဆင်းနေတယ်။",
+        "translateEn": "The river flows towards the ocean."
+      }
+    },
+    {
+      "paliMm": "သမုဒ္ဒ / သာဂရ (ပု)",
+      "paliRoman": "Samudda / Sāgara (M)",
+      "translateMm": "ပင်လယ်၊ သမုဒ္ဒရာ",
+      "translateEn": "Ocean, Sea",
+      "example": {
+        "paliMm": "မဟန္တော သမုဒ္ဒေါ ဂမ္ဘီရော ဟောတိ။",
+        "paliRoman": "Mahanto samuddo gambhīro hoti.",
+        "translateMm": "သမုဒ္ဒရာကြီးက အလွန် နက်ရှိုင်းတယ်။",
+        "translateEn": "The vast ocean is deep."
+      }
+    },
+    {
+      "paliMm": "ဘူမိ / ပထဝီ (ထီ)",
+      "paliRoman": "Bhūmi / Pathavī (F)",
+      "translateMm": "မြေကြီး၊ ကမ္ဘာမြေ",
+      "translateEn": "Earth, Ground",
+      "example": {
+        "paliMm": "ရုက္ခော ဘူမိယံ တိဋ္ဌတိ။",
+        "paliRoman": "Rukkho bhūmiyaṃ tiṭṭhati.",
+        "translateMm": "သစ်ပင်က မြေကြီးပေါ်မှာ ရပ်တည်နေတယ်။",
+        "translateEn": "The tree stands on the ground."
+      }
+    }
+  ]
+}

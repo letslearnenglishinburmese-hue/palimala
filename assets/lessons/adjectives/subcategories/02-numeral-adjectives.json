@@ -1,0 +1,246 @@
+{
+  "titleMm": "သင်္ချာဝိသေသနများ",
+  "titleEn": "Numeral Adjectives",
+  "vocabList": [
+    {
+      "paliMm": "ဧက",
+      "paliRoman": "Eka",
+      "translateMm": "တစ်ဦး၊ တစ်ခု",
+      "translateEn": "One",
+      "example": {
+        "paliMm": "ဧကော ပုရိသော ဝနံ ပဝိသတိ။",
+        "paliRoman": "Eko puriso vanaṃ pavisati.",
+        "translateMm": "လူတစ်ယောက် တောထဲ ဝင်သွားတယ်။",
+        "translateEn": "One man enters the forest."
+      }
+    },
+    {
+      "paliMm": "ဒွိ",
+      "paliRoman": "Dvi",
+      "translateMm": "နှစ်ဦး၊ နှစ်ခု",
+      "translateEn": "Two",
+      "example": {
+        "paliMm": "ဒွေ သမဏာ တိဋ္ဌန္တိ။",
+        "paliRoman": "Dve samaṇā tiṭṭhanti.",
+        "translateMm": "ရဟန်းနှစ်ပါး ရပ်နေကြတယ်။",
+        "translateEn": "Two recluses are standing."
+      }
+    },
+    {
+      "paliMm": "တိ",
+      "paliRoman": "Ti",
+      "translateMm": "သုံးဦး၊ သုံးခု",
+      "translateEn": "Three",
+      "example": {
+        "paliMm": "တယော ဇနာ အာဂစ္ဆန္တိ။",
+        "paliRoman": "Tayo janā āgacchanti.",
+        "translateMm": "လူသုံးယောက် လာနေကြတယ်။",
+        "translateEn": "Three people are coming."
+      }
+    },
+    {
+      "paliMm": "စတု",
+      "paliRoman": "Catu",
+      "translateMm": "လေးခု",
+      "translateEn": "Four",
+      "example": {
+        "paliMm": "စတ္တာရော ရုက္ခာ ပတန္တိ။",
+        "paliRoman": "Cattāro rukkhā patanti.",
+        "translateMm": "သစ်ပင်လေးပင် လဲကျသွားတယ်။",
+        "translateEn": "Four trees fall down."
+      }
+    },
+    {
+      "paliMm": "ပဉ္စ",
+      "paliRoman": "Pañca",
+      "translateMm": "ငါးခု",
+      "translateEn": "Five",
+      "example": {
+        "paliMm": "ပဉ္စ ဗုဒ္ဓါ ဧတေန မဂ္ဂေန ဂတာ။",
+        "paliRoman": "Pañca buddhā etena maggena gatā.",
+        "translateMm": "ဘုရားငါးဆူ ဒီလမ်းကြောင်းအတိုင်း ကြွသွားကြတယ်။",
+        "translateEn": "Five Buddhas went by this path."
+      }
+    },
+    {
+      "paliMm": "ဆ",
+      "paliRoman": "Cha",
+      "translateMm": "ခြောက်ခု",
+      "translateEn": "Six",
+      "example": {
+        "paliMm": "ဆ သာဝကာ ဓမ္မံ သုဏန္တိ။",
+        "paliRoman": "Cha sāvakā dhammaṃ suṇanti.",
+        "translateMm": "တပည့်ခြောက်ယောက် တရားနားထောင်နေကြတယ်။",
+        "translateEn": "Six disciples are listening to the Dhamma."
+      }
+    },
+    {
+      "paliMm": "သတ္တ",
+      "paliRoman": "Satta",
+      "translateMm": "ခုနစ်ခု",
+      "translateEn": "Seven",
+      "example": {
+        "paliMm": "သတ္တ မုနယော ဈာယန္တိ။",
+        "paliRoman": "Satta munayo jhāyanti.",
+        "translateMm": "ရဟန်းခုနစ်ပါး တရားရှုမှတ်နေကြတယ်။",
+        "translateEn": "Seven sages are meditating."
+      }
+    },
+    {
+      "paliMm": "အဋ္ဌ",
+      "paliRoman": "Aṭṭha",
+      "translateMm": "ရှစ်ခု",
+      "translateEn": "Eight",
+      "example": {
+        "paliMm": "အဋ္ဌ နရာ ကမ္မံ ကရောန္တိ။",
+        "paliRoman": "Aṭṭha narā kammaṃ karonti.",
+        "translateMm": "လူရှစ်ယောက် အလုပ်လုပ်နေကြတယ်။",
+        "translateEn": "Eight men are working."
+      }
+    },
+    {
+      "paliMm": "နဝ",
+      "paliRoman": "Nava",
+      "translateMm": "ကိုးခု",
+      "translateEn": "Nine",
+      "example": {
+        "paliMm": "နဝ အရဟန္တာ ဝိဟာရေ ဝသန္တိ။",
+        "paliRoman": "Nava arahantā vihāre vasanti.",
+        "translateMm": "ရဟန္တာကိုးပါး ကျောင်းမှာ သီးသန့်သီတင်းသုံးနေကြတယ်။",
+        "translateEn": "Nine Arahats reside in the monastery."
+      }
+    },
+    {
+      "paliMm": "ဒသ",
+      "paliRoman": "Dasa",
+      "translateMm": "ဆယ်ခု",
+      "translateEn": "Ten",
+      "example": {
+        "paliMm": "ဒသ သီဿာ ပဉှံ ပုစ္ဆန္တိ။",
+        "paliRoman": "Dasa sissā pañhaṃ pucchanti.",
+        "translateMm": "ကျောင်းသားဆယ်ယောက် မေးခွန်းမေးနေကြတယ်။",
+        "translateEn": "Ten students ask questions."
+      }
+    },
+    {
+      "paliMm": "ပဌမ",
+      "paliRoman": "Paṭhama",
+      "translateMm": "ပထမမြောက်",
+      "translateEn": "First",
+      "example": {
+        "paliMm": "ပဌမော ပရိစ္ဆေဒေါ နိဋ္ဌိတော။",
+        "paliRoman": "Paṭhamo paricchedo niṭṭhito.",
+        "translateMm": "ပထမမြောက် အပိုင်း ပြီးဆုံးသွားပြီ။",
+        "translateEn": "The first section is finished."
+      }
+    },
+    {
+      "paliMm": "ဒုတိယ",
+      "paliRoman": "Dutiya",
+      "translateMm": "ဒုတိယမြောက်",
+      "translateEn": "Second",
+      "example": {
+        "paliMm": "သော ဒုတိယံ ပုတ္တံ အာဝှယတိ။",
+        "paliRoman": "So dutiyaṃ puttaṃ āhvayati.",
+        "translateMm": "သူ ဒုတိယမြောက် သားကို လှမ်းခေါ်လိုက်တယ်။",
+        "translateEn": "He calls his second son."
+      }
+    },
+    {
+      "paliMm": "တတိယ",
+      "paliRoman": "Tatiya",
+      "translateMm": "တတိယမြောက်",
+      "translateEn": "Third",
+      "example": {
+        "paliMm": "တတိယော ဇနော သဒ္ဓမ္မံ သုဏောတိ။",
+        "paliRoman": "Tatiyo jano saddhammaṃ suṇāti.",
+        "translateMm": "တတိယမြောက်လူက တရားကောင်းကို နားထောင်တယ်။",
+        "translateEn": "The third person listens to the true Dhamma."
+      }
+    },
+    {
+      "paliMm": "စတုတ္ထ",
+      "paliRoman": "Catuttha",
+      "translateMm": "စတုတ္ထမြောက်",
+      "translateEn": "Fourth",
+      "example": {
+        "paliMm": "သော စတုတ္ထံ ဈာနံ သမာပဇ္ဇတိ။",
+        "paliRoman": "So catutthaṃ jhānaṃ samāpajjati.",
+        "translateMm": "သူ စတုတ္ထမြောက် ဈာန်ကို ဝင်စားတယ်။",
+        "translateEn": "He enters the fourth Jhāna (absorption)."
+      }
+    },
+    {
+      "paliMm": "ပဉ္စမ",
+      "paliRoman": "Pañcama",
+      "translateMm": "ပဉ္စမမြောက်",
+      "translateEn": "Fifth",
+      "example": {
+        "paliMm": "ပဉ္စမော ဒိဝသော အာဂတော။",
+        "paliRoman": "Pañcamo divaso āgato.",
+        "translateMm": "ငါးရက်မြောက်နေ့ကို ရောက်လာပြီ။",
+        "translateEn": "The fifth day has arrived."
+      }
+    },
+    {
+      "paliMm": "ဆဋ္ဌ",
+      "paliRoman": "Chaṭṭha",
+      "translateMm": "ဆဋ္ဌမြောက်",
+      "translateEn": "Sixth",
+      "example": {
+        "paliMm": "ဆဋ္ဌော သီဿော သာဓုကံ စိန္တေတိ။",
+        "paliRoman": "Chaṭṭho sisso sādhukaṃ cinteti.",
+        "translateMm": "ခြောက်ယောက်မြောက် ကျောင်းသားက သေချာ စဉ်းစားတယ်။",
+        "translateEn": "The sixth student thinks carefully."
+      }
+    },
+    {
+      "paliMm": "သတ္တမ",
+      "paliRoman": "Sattama",
+      "translateMm": "သတ္တမမြောက်",
+      "translateEn": "Seventh",
+      "example": {
+        "paliMm": "သတ္တမော ဗုဒ္ဓေါ သိခီ နာမ အာသိ။",
+        "paliRoman": "Sattamo buddho sikhī nāma āsi.",
+        "translateMm": "ခုနစ်ဆူမြောက် ဘုရားရှင်၏ ဘွဲ့တော်မှာ သိခီ ဖြစ်ခဲ့တယ်။",
+        "translateEn": "The seventh Buddha was named Sikhī."
+      }
+    },
+    {
+      "paliMm": "အဋ္ဌမ",
+      "paliRoman": "Aṭṭhama",
+      "translateMm": "အဋ္ဌမမြောက်",
+      "translateEn": "Eighth",
+      "example": {
+        "paliMm": "အဋ္ဌမော မဂ္ဂေါ အရိယော ဟောတိ။",
+        "paliRoman": "Aṭṭhamo maggo ariyo hoti.",
+        "translateMm": "ရှစ်ခုမြောက် လမ်းကြောင်းက မြင့်မြတ်တဲ့ လမ်းကြောင်းဖြစ်တယ်။",
+        "translateEn": "The eighth path is noble."
+      }
+    },
+    {
+      "paliMm": "နဝမ",
+      "paliRoman": "Navama",
+      "translateMm": "နဝမမြောက်",
+      "translateEn": "Ninth",
+      "example": {
+        "paliMm": "သော နဝမံ ပဏ္ဏံ ပဌတိ။",
+        "paliRoman": "So navamaṃ paṇṇaṃ paṭhati.",
+        "translateMm": "သူ ကိုးရွက်မြောက် စာရွက်ကို ဖတ်နေတယ်။",
+        "translateEn": "He reads the ninth leaf/page."
+      }
+    },
+    {
+      "paliMm": "ဒသမ",
+      "paliRoman": "Dasama",
+      "translateMm": "ဒသမမြောက်",
+      "translateEn": "Tenth",
+      "example": {
+        "paliMm": "ဒသမော မာသော သမ္ပတ္တော။",
+        "paliRoman": "Dasamo māso sampatto.",
+        "translateMm": "ဆယ်လမြောက်လကို ရောက်ရှိလာခဲ့ပြီ။",
+        "translateEn": "The tenth month has arrived."
+      }
+    }
+  ]
+}

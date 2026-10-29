@@ -1,0 +1,22 @@
+{
+  "titleMm": "ပါဠိဘာသာနှင့် ပတ်သက်သော ဆွေးနွေးခန်း",
+  "titleEn": "Discussion about Pāḷi Language",
+  "dialogueList": [
+    {
+      "speakerMm": "အနုရုဒ္ဓေါ",
+      "speakerEn": "Anuruddha",
+      "paliMm": "ဘော မိတ္တ၊ တဝ ပါဠိဘာသာယ နိပုဏတာ အဗ္ဘုတာ ဟောတိ။",
+      "paliRoman": "Bho mitta, tava pāḷibhāsāya nipuṇatā abbhutā hoti.",
+      "translateMm": "အဆွေခင်ပွန်း၊ သင့်၏ ပါဠိဘာသာစကား ပိုင်နိုင်ကျွမ်းကျင်မှုမှာ အံ့ဩဖွယ်ဖြစ်ပေ၏။",
+      "translateEn": "Dear friend, your proficiency in Pāḷi language is wonderful."
+    },
+    {
+      "speakerMm": "ဓမ္မပါလော",
+      "speakerEn": "Dhammapāla",
+      "paliMm": "အာမ၊ အဟံ ပဋိဒိနံ ပါဠိဘာသာယ သမ္ဘာသဏံ ကရောမိ၊ တသ္မာ သုလဘာ ဟောတိ။",
+      "paliRoman": "Āma, ahaṃ paṭidinaṃ pāḷibhāsāya sambhāsaṇaṃ karomi, tasmā sulabhā hoti.",
+      "translateMm": "ဟုတ်ပါသည်၊ ငါသည် နေ့စဉ် ပါဠိဘာသာဖြင့် စကားပြောဆိုမှု ပြု၏၊ ထို့ကြောင့် လွယ်ကူခြင်းဖြစ်၏။",
+      "translateEn": "Yes, I practice speaking in Pāḷi every day, that is why it becomes easy."
+    }
+  ]
+}

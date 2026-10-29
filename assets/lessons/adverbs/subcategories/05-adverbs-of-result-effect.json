@@ -1,0 +1,126 @@
+{
+  "titleMm": "ရလဒ်ပြ ကြိယာဝိသေသနများ",
+  "titleEn": "Adverbs of Result / Effect",
+  "vocabList": [
+    {
+      "paliMm": "မဓုရံ",
+      "paliRoman": "Madhuraṃ",
+      "translateMm": "သာယာသွားအောင် / နာပျော်ဖွယ်ဖြစ်အောင်",
+      "translateEn": "Sweetly, melodiously",
+      "example": {
+        "paliMm": "ကညာ မဓုရံ ဂါယတိ။",
+        "paliRoman": "Kaññā madhuraṃ gāyati.",
+        "translateMm": "ကောင်မလေးက နားထောင်လို့ နာပျော်ဖွယ်ဖြစ်အောင် သီဆိုတယ်။",
+        "translateEn": "The girl sings so sweetly that it sounds delightful."
+      }
+    },
+    {
+      "paliMm": "ဖရုသံ",
+      "paliRoman": "Pharusaṃ",
+      "translateMm": "နားမခံသာဖြစ်အောင် / ကြမ်းကြမ်းတမ်းတမ်းဖြစ်သွားအောင်",
+      "translateEn": "Harshly, roughly",
+      "example": {
+        "paliMm": "သော ဖရုသံ ဘာသတိ။",
+        "paliRoman": "So pharusaṃ bhāsati.",
+        "translateMm": "သူက နားမခံသာဖြစ်သွားအောင် ကြမ်းကြမ်းတမ်းတမ်း ပြောလိုက်တယ်။",
+        "translateEn": "He spoke so harshly that it sounded offensive."
+      }
+    },
+    {
+      "paliMm": "ပဘဿရံ",
+      "paliRoman": "Pabhassaraṃ",
+      "translateMm": "တောက်ပသွားအောင် / ဝင်းလက်သွားအောင်",
+      "translateEn": "Brightly, brilliantly",
+      "example": {
+        "paliMm": "ရံသိ ပဘဿရံ ဩဘာသတိ။",
+        "paliRoman": "Raṃsi pabhassaraṃ obhāsati.",
+        "translateMm": "ရောင်ခြည်တော်က ပတ်ဝန်းကျင် တောက်ပသွားအောင် လင်းလက်သွားတယ်။",
+        "translateEn": "The ray of light shines so brightly that it illuminates everything."
+      }
+    },
+    {
+      "paliMm": "ဘသ္မံ",
+      "paliRoman": "Bhasmaṃ",
+      "translateMm": "ပြာကျသွားအောင်",
+      "translateEn": "To ashes",
+      "example": {
+        "paliMm": "အဂ္ဂိ ရုက္ခံ ဘသ္မံ ဍဟတိ။",
+        "paliRoman": "Aggi rukkhaṃ bhasmaṃ ḍahati.",
+        "translateMm": "မီးက သစ်ပင်ကို ပြာကျသွားအောင် လောင်ကျွမ်းလိုက်တယ်။",
+        "translateEn": "The fire burns the tree to ashes."
+      }
+    },
+    {
+      "paliMm": "စုဏ္ဏံ",
+      "paliRoman": "Cuṇṇaṃ",
+      "translateMm": "အမှုန့်ဖြစ်သွားအောင် / အစိန်းစိန်းညှက်သွားအောင်",
+      "translateEn": "To powder, to dust",
+      "example": {
+        "paliMm": "သော ပါသာဏံ စုဏ္ဏံ ပေါထေတိ။",
+        "paliRoman": "So pāsāṇaṃ cuṇṇaṃ potheti.",
+        "translateMm": "သူက ကျောက်ခဲကို အမှုန့်ဖြစ်သွားအောင် ထုချေလိုက်တယ်။",
+        "translateEn": "He crushes the stone to dust."
+      }
+    },
+    {
+      "paliMm": "သမံ",
+      "paliRoman": "Samaṃ",
+      "translateMm": "ညီညာသွားအောင် / ပြန့်ပြူးသွားအောင်",
+      "translateEn": "Smoothly, evenly",
+      "example": {
+        "paliMm": "သော ဘူမိံ သမံ ကရောတိ။",
+        "paliRoman": "So bhūmiṃ samaṃ karoti.",
+        "translateMm": "သူက မြေပြင်ကို ညီညာပြန့်ပြူးသွားအောင် လုပ်လိုက်တယ်။",
+        "translateEn": "He levels the ground smooth."
+      }
+    },
+    {
+      "paliMm": "ဒွိဓာ",
+      "paliRoman": "Dvidhā",
+      "translateMm": "နှစ်ပိုင်းကွဲသွားအောင်",
+      "translateEn": "Into two parts",
+      "example": {
+        "paliMm": "ယောဓော ဒေါဏိံ ဒွိဓာ ဆိန္ဒတိ။",
+        "paliRoman": "Yodho doṇiṃ dvidhā chindati.",
+        "translateMm": "စစ်သူကြီးက လှေကို နှစ်ပိုင်းကွဲသွားအောင် ပိုင်းဖြတ်လိုက်တယ်။",
+        "translateEn": "The warrior cleaves the boat into two."
+      }
+    },
+    {
+      "paliMm": "ဒုက္ခံ",
+      "paliRoman": "Dukkhaṃ",
+      "translateMm": "ဒုက္ခရောက်သွားအောင် / ဆင်းရဲသွားအောင်",
+      "translateEn": "Painfully, to the point of suffering",
+      "example": {
+        "paliMm": "အကုသလံ သတ္တံ ဒုက္ခံ ပစတိ။",
+        "paliRoman": "Akusalaṃ sattaṃ dukkhaṃ pacati.",
+        "translateMm": "အကုသိုလ်က သတ္တဝါကို ဒုက္ခရောက်သွားအောင် အကျိုးပေးတယ်။",
+        "translateEn": "Bad action ripens so as to bring pain to the being."
+      }
+    },
+    {
+      "paliMm": "သုခံ",
+      "paliRoman": "Sukhaṃ",
+      "translateMm": "ချမ်းသာသွားအောင် / အဆင်ပြေသွားအောင်",
+      "translateEn": "Blissfully, to the point of happiness",
+      "example": {
+        "paliMm": "ကုသလံ သတ္တံ သုခံ နေတိ။",
+        "paliRoman": "Kusalaṃ sattaṃ sukhaṃ neti.",
+        "translateMm": "ကုသိုလ်က သတ္တဝါကို စိတ်ချမ်းသာသွားအောင် ပို့ဆောင်ပေးတယ်။",
+        "translateEn": "Good action leads the being to happiness."
+      }
+    },
+    {
+      "paliMm": "ဝိသဒံ",
+      "paliRoman": "Visadaṃ",
+      "translateMm": "ရှင်းရှင်းလင်းလင်းဖြစ်သွားအောင်",
+      "translateEn": "Clearly, distinctly",
+      "example": {
+        "paliMm": "အာစရိယော အတ္ထံ ဝိသဒံ ဓမ္မံ ဒေသေတိ။",
+        "paliRoman": "Ācariyo atthaṃ visadaṃ dhammaṃ deseti.",
+        "translateMm": "ဆရာတော်က အဓိပ္ပါယ် ရှင်းရှင်းလင်းလင်းဖြစ်သွားအောင် တရားဟောပေးတယ်။",
+        "translateEn": "The teacher expounds the Dhamma so clearly that the meaning becomes obvious."
+      }
+    }
+  ]
+}

@@ -66,8 +66,7 @@ flutter:
   assets:
     - assets/palimala_logo.png
     - assets/mmdict.json
-    - assets/lessons.json
-    # Split data sets, one file per top-level category.
+    # Generated category data consumed by the app.
     - assets/pali_data/
     # Per-dataset index (id, url, sha256) used for downloads and updates.
     - assets/pali_data_manifest.json

@@ -1,0 +1,78 @@
+{
+  "titleMm": "ကာလာအရောင်များ",
+  "titleEn": "Colors",
+  "vocabList": [
+    {
+      "paliMm": "ရတ္တော (ပု)",
+      "paliRoman": "Ratto (M)",
+      "translateMm": "အနီရောင်",
+      "translateEn": "Red",
+      "example": {
+        "paliMm": "ရတ္တံ ပုပ္ဖံ ဝိကသတိ။",
+        "paliRoman": "Rattaṃ pupphaṃ vikasati.",
+        "translateMm": "အနီရောင်ပန်းသည် ပွင့်၏။",
+        "translateEn": "The red flower blooms."
+      }
+    },
+    {
+      "paliMm": "နီလော (ပု)",
+      "paliRoman": "Nīlo (M)",
+      "translateMm": "အပြာရောင်",
+      "translateEn": "Blue",
+      "example": {
+        "paliMm": "နီလံ အာကသံ သုန္ဒရံ ဟောတိ။",
+        "paliRoman": "Nīlaṃ ākasaṃ sundaraṃ hoti.",
+        "translateMm": "အပြာရောင် ကောင်းကင်သည် လှပ၏။",
+        "translateEn": "The blue sky is beautiful."
+      }
+    },
+    {
+      "paliMm": "ပီတော (ပု)",
+      "paliRoman": "Pīto (M)",
+      "translateMm": "အဝါရောင်",
+      "translateEn": "Yellow",
+      "example": {
+        "paliMm": "သမဏော ပီတံ စီဝရံ ပာရုပတိ။",
+        "paliRoman": "Samaṇo pītaṃ cīvaraṃ pārupati.",
+        "translateMm": "ရဟန်းသည် အဝါရောင် သင်္ကန်းကို ဝတ်ရုံ၏။",
+        "translateEn": "The monk wears a yellow robe."
+      }
+    },
+    {
+      "paliMm": "သေတော / သုက္ကော (ပု)",
+      "paliRoman": "Seto / Sukko (M)",
+      "translateMm": "အဖြူရောင်",
+      "translateEn": "White",
+      "example": {
+        "paliMm": "သေတော ဟံသော သရောသိံ နဟာယတိ။",
+        "paliRoman": "Seto haṃso sarasiṃ nahāyati.",
+        "translateMm": "အဖြူရောင် ငန်းသည် ရေကန်၌ ရေချိုး၏။",
+        "translateEn": "The white swan bathes in the lake."
+      }
+    },
+    {
+      "paliMm": "ကဏှော (ပု)",
+      "paliRoman": "Kaṇho (M)",
+      "translateMm": "အနက်ရောင်",
+      "translateEn": "Black",
+      "example": {
+        "paliMm": "ကဏှော ကာကော ရုက္ခေ နိသီဒတိ။",
+        "paliRoman": "Kaṇho kāko rukkhe nisīdati.",
+        "translateMm": "အနက်ရောင် ကျီးကန်းသည် သစ်ပင်၌ ထိုင်၏/နား၏။",
+        "translateEn": "The black crow sits on the tree."
+      }
+    },
+    {
+      "paliMm": "ဟရိတော (ပု)",
+      "paliRoman": "Harito (M)",
+      "translateMm": "အစိမ်းရောင်",
+      "translateEn": "Green",
+      "example": {
+        "paliMm": "ဟရိတံ ပဏ္ဏံ ရုက္ခာ ပတတိ။",
+        "paliRoman": "Haritaṃ paṇṇaṃ rukkhā patati.",
+        "translateMm": "အစိမ်းရောင် သစ်ရွက်သည် သစ်ပင်မှ ကြွေကျ၏။",
+        "translateEn": "The green leaf falls from the tree."
+      }
+    }
+  ]
+}

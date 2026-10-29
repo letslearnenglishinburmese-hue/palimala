@@ -1,0 +1,126 @@
+{
+  "titleMm": "ခန္ဓာကိုယ်လှုပ်ရှားမှုနှင့် အမူအယာဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Physical Actions & Gestures",
+  "vocabList": [
+    {
+      "paliMm": "ဥဋ္ဌာတိ",
+      "paliRoman": "Uṭṭhāti",
+      "translateMm": "မတ်တပ်ထရပ်သည်၊ မတ်တပ်ရပ်သည်",
+      "translateEn": "Stands up",
+      "example": {
+        "paliMm": "သိဿော အာစရိယံ ပဿိတွာ ဥဋ္ဌာတိ။",
+        "paliRoman": "Sisso ācariyaṃ passitvā uṭṭhāti.",
+        "translateMm": "ကျောင်းသားက ဆရာ့ကို မြင်တော့ မတ်တပ်ထရပ်တယ်။",
+        "translateEn": "The student stands up upon seeing the teacher."
+      }
+    },
+    {
+      "paliMm": "နိသီဒတိ",
+      "paliRoman": "Nisīdati",
+      "translateMm": "ထိုင်ချသည်",
+      "translateEn": "Sits down",
+      "example": {
+        "paliMm": "သော ပီဌေ နိသီဒတိ။",
+        "paliRoman": "So pīṭhe nisīdati.",
+        "translateMm": "သူ ခုံပေါ်မှာ ထိုင်ချလိုက်တယ်။",
+        "translateEn": "He sits down on the chair."
+      }
+    },
+    {
+      "paliMm": "ပသာရေတိ",
+      "paliRoman": "Pasāreti",
+      "translateMm": "လက်၊ ခြေ ဆန့်ထုတ်သည်",
+      "translateEn": "Stretches out",
+      "example": {
+        "paliMm": "သော ဟတ္ထံ ပသာရေတိ။",
+        "paliRoman": "So hatthaṃ pasāreti.",
+        "translateMm": "သူ လက်ကို ဆန့်ထုတ်လိုက်တယ်။",
+        "translateEn": "He stretches out his hand."
+      }
+    },
+    {
+      "paliMm": "သမိဉ္ဇေတိ",
+      "paliRoman": "Samiñjeti",
+      "translateMm": "လက်၊ ခြေ ကွေးယူသည်",
+      "translateEn": "Bends / Folds",
+      "example": {
+        "paliMm": "သော ဗာဟုံ သမိဉ္ဇေတိ။",
+        "paliRoman": "So bāhuṃ samiñjeti.",
+        "translateMm": "သူ လက်မောင်းကို ကွေးလိုက်တယ်။",
+        "translateEn": "He bends his arm."
+      }
+    },
+    {
+      "paliMm": "အာလိင်္ဂတိ",
+      "paliRoman": "Āliṅgati",
+      "translateMm": "ဖက်ယမ်းသည်၊ သိုင်းဖက်သည်",
+      "translateEn": "Embraces / Hugs",
+      "example": {
+        "paliMm": "မာတာ ပုတ္တံ အာလိင်္ဂတိ။",
+        "paliRoman": "Mātā puttaṃ āliṅgati.",
+        "translateMm": "အမေက သားလေးကို ဖက်ယမ်းထားတယ်။",
+        "translateEn": "The mother embraces her son."
+      }
+    },
+    {
+      "paliMm": "သိရသာ နမဿတိ",
+      "paliRoman": "Sirasā namassati",
+      "translateMm": "ဦးခေါင်းညွှတ် ရှိခိုးသည်",
+      "translateEn": "Bows down",
+      "example": {
+        "paliMm": "သာ သတ္ထာရံ သိရသာ နမဿတိ။",
+        "paliRoman": "Sā satthāraṃ sirasā namassati.",
+        "translateMm": "သူငယ်မလေးက မြတ်စွာဘုရားကို ဦးခေါင်းညွှတ် ရှိခိုးတယ်။",
+        "translateEn": "She bows down to the Teacher with her head."
+      }
+    },
+    {
+      "paliMm": "သီသံ ကမ္ပေတိ",
+      "paliRoman": "Sīsaṃ kampeti",
+      "translateMm": "ခေါင်းရမ်းသည်၊ ခေါင်းညိတ်သည်",
+      "translateEn": "Shakes or nods the head",
+      "example": {
+        "paliMm": "သော “အာမ”တိ သီသံ ကမ္ပေတိ။",
+        "paliRoman": "So “āma” ti sīsaṃ kampeti.",
+        "translateMm": "သူက “ဟုတ်ကဲ့” ဆိုပြီး ခေါင်းညိတ်ပြတယ်။",
+        "translateEn": "He nods his head saying “yes”."
+      }
+    },
+    {
+      "paliMm": "ဟတ္ထံ ဓုနာတိ",
+      "paliRoman": "Hatthaṃ dhunāti",
+      "translateMm": "လက်ယမ်းပြသည်",
+      "translateEn": "Waves a hand",
+      "example": {
+        "paliMm": "သော မိတ္တဿ ဟတ္ထံ ဓုနာတိ။",
+        "paliRoman": "So mittassa hatthaṃ dhunāti.",
+        "translateMm": "သူက သူငယ်ချင်းကို လက်ယမ်းပြလိုက်တယ်။",
+        "translateEn": "He waves his hand to his friend."
+      }
+    },
+    {
+      "paliMm": "အက္ခိံ နိမေသေတိ",
+      "paliRoman": "Akkhiṃ nimeseti",
+      "translateMm": "မျက်စိမှိန်းသည်၊ မျက်စိပစ်သည်",
+      "translateEn": "Blinks / Winks",
+      "example": {
+        "paliMm": "ဒါရကော အက္ခိံ နိမေသေတိ။",
+        "paliRoman": "Dārako akkhiṃ nimeseti.",
+        "translateMm": "ကလေးလေးက မျက်စိမှိန်း၊ မျက်တောင်ခတ်ပြတယ်။",
+        "translateEn": "The child blinks his eye."
+      }
+    },
+    {
+      "paliMm": "အင်္ဂုလိံ စာလေတိ",
+      "paliRoman": "Aṅguliṃ cāleti",
+      "translateMm": "လက်ညှိုးထိုးပြသည်၊ လက်ချောင်းလှုပ်သည်",
+      "translateEn": "Points a finger / Gestures",
+      "example": {
+        "paliMm": "သော မဂ္ဂံ အင်္ဂုလိယာ စာလေတိ။",
+        "paliRoman": "So maggaṃ aṅguliyā cāleti.",
+        "translateMm": "သူက လမ်းကြောင်းကို လက်ညှိုးညွှန်ပြတယ်။",
+        "translateEn": "He points out the path with his finger."
+      }
+    }
+  ]
+}

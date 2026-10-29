@@ -1,0 +1,246 @@
+{
+  "titleMm": "တရားဓမ္မ၊ ဘာဝနာနှင့် သာသနာရေးဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Religious & Spiritual Actions",
+  "vocabList": [
+    {
+      "paliMm": "ပူဇေတိ",
+      "paliRoman": "Pūjeti",
+      "translateMm": "ပူဇော်သည်",
+      "translateEn": "Honors / Worships",
+      "example": {
+        "paliMm": "သော ပုပ္ဖေဟိ ဗုဒ္ဓံ ပူဇေတိ။",
+        "paliRoman": "So pupphehi buddhaṃ pūjeti.",
+        "translateMm": "သူ ပန်းတွေနဲ့ ဗုဒ္ဓဘုရားရှင်ကို ပူဇော်နေတယ်။",
+        "translateEn": "He worships the Buddha with flowers."
+      }
+    },
+    {
+      "paliMm": "ဘာဝေတိ",
+      "paliRoman": "Bhāveti",
+      "translateMm": "ပွားများသည်",
+      "translateEn": "Cultivates / Develops",
+      "example": {
+        "paliMm": "ယတိ မေတ္တံ ဘာဝေတိ။",
+        "paliRoman": "Yati mettaṃ bhāveti.",
+        "translateMm": "ရဟန်းတော်က မေတ္တာကမ္မဋ္ဌာန်း ပွားများနေတယ်။",
+        "translateEn": "The monk cultivates loving-kindness."
+      }
+    },
+    {
+      "paliMm": "စျာယတိ",
+      "paliRoman": "Jhāyati",
+      "translateMm": "ဈာန်ဝင်စားသည်၊ တရားရှုပွားသည်",
+      "translateEn": "Meditates / Contemplates",
+      "example": {
+        "paliMm": "သမဏော ရုက္ခမူလေ စျာယတိ။",
+        "paliRoman": "Samaṇo rukkhamūle jhāyati.",
+        "translateMm": "ရဟန်းတော်က သစ်ပင်ရင်းမှာ တရားရှုမှတ်နေတယ်။",
+        "translateEn": "The ascetic meditates at the foot of the tree."
+      }
+    },
+    {
+      "paliMm": "ဝန္ဒတိ",
+      "paliRoman": "Vandati",
+      "translateMm": "ရှိခိုးသည်၊ ဦးချသည်",
+      "translateEn": "Pays homage / Bows down",
+      "example": {
+        "paliMm": "သိဿော အာစရိယံ ဝန္ဒတိ။",
+        "paliRoman": "Sisso ācariyaṃ vandati.",
+        "translateMm": "ကျောင်းသားက ဆရာ့ကို အရိုအသေပေး ရှိခိုးတယ်။",
+        "translateEn": "The student pays homage to the teacher."
+      }
+    },
+    {
+      "paliMm": "ဒေသေတိ",
+      "paliRoman": "Deseti",
+      "translateMm": "ဟောကြားသည်",
+      "translateEn": "Preaches",
+      "example": {
+        "paliMm": "ဗုဒ္ဓေါ ဇနာနံ ဓမ္မံ ဒေသေတိ။",
+        "paliRoman": "Buddho janānaṃ dhammaṃ deseti.",
+        "translateMm": "မြတ်စွာဘုရားက လူတွေကို တရားဓမ္မ ဟောကြားတော်မူတယ်။",
+        "translateEn": "The Buddha preaches the Dhamma to the people."
+      }
+    },
+    {
+      "paliMm": "သုဏာတိ",
+      "paliRoman": "Suṇāti",
+      "translateMm": "နာယူသည်",
+      "translateEn": "Listens / Hears",
+      "example": {
+        "paliMm": "ဥပါသကော သက္ကစ္စံ ဓမ္မံ သုဏာတိ။",
+        "paliRoman": "Upāsako sakkaccaṃ dhammaṃ suṇāti.",
+        "translateMm": "ဥပါသကာက တရားတော်ကို ရိုရိုသေသေ နာယူနေတယ်။",
+        "translateEn": "The lay devotee listens attentively to the Dhamma."
+      }
+    },
+    {
+      "paliMm": "သရတိ",
+      "paliRoman": "Sarati",
+      "translateMm": "အမှတ်ရသည်",
+      "translateEn": "Remembers / Recalls",
+      "example": {
+        "paliMm": "သော ဗုဒ္ဓဿ ဂုဏံ သရတိ။",
+        "paliRoman": "So buddhassa guṇaṃ sarati.",
+        "translateMm": "သူ ဘုရားရှင်ရဲ့ ဂုဏ်တော်ကို အမှတ်ရပွားများနေတယ်။",
+        "translateEn": "He recalls the virtues of the Buddha."
+      }
+    },
+    {
+      "paliMm": "ပဗ္ဗဇတိ",
+      "paliRoman": "Pabbajati",
+      "translateMm": "ရဟန်းပြုသည်၊ တောထွက်သည်",
+      "translateEn": "Renounces the world / Ordains",
+      "example": {
+        "paliMm": "ကုလပုတ္တော သာသနေ ပဗ္ဗဇတိ။",
+        "paliRoman": "Kulaputto sāsane pabbajati.",
+        "translateMm": "အမျိုးကောင်းသားက သာသနာ့ဘောင်မှာ ရဟန်းပြုလိုက်တယ်။",
+        "translateEn": "The noble youth joins the monkhood in the Dispensation."
+      }
+    },
+    {
+      "paliMm": "သီလံ ရက္ခတိ",
+      "paliRoman": "Sīlaṃ rakkhati",
+      "translateMm": "သီလစောင့်ထိန်းသည်",
+      "translateEn": "Observes precepts",
+      "example": {
+        "paliMm": "ဥပါသိကာ ပဉ္စသီလံ ရက္ခတိ။",
+        "paliRoman": "Upāsikā pañcasīlaṃ rakkhati.",
+        "translateMm": "ဥပါသိကာမက ငါးပါးသီလကို စောင့်ထိန်းနေတယ်။",
+        "translateEn": "The female devotee observes the five precepts."
+      }
+    },
+    {
+      "paliMm": "ဒေတိ",
+      "paliRoman": "Deti",
+      "translateMm": "လှူဒါန်းသည်၊ ပေးကမ်းသည်",
+      "translateEn": "Gives / Offers alms",
+      "example": {
+        "paliMm": "သော ဘိက္ခုဿ ပိဏ္ဍပါတံ ဒေတိ။",
+        "paliRoman": "So bhikkhussa piṇḍapātaṃ deti.",
+        "translateMm": "သူ ရဟန်းတော်အား ဆွမ်းလှူဒါန်းနေတယ်။",
+        "translateEn": "He offers alms-food to the monk."
+      }
+    },
+    {
+      "paliMm": "အနုမောဒတိ",
+      "paliRoman": "Anumodati",
+      "translateMm": "ဝမ်းမြောက်သည်၊ သာဓုခေါ်သည်",
+      "translateEn": "Rejoices / Appreciates",
+      "example": {
+        "paliMm": "ဇနာ ပုညံ သုတွာ အနုမောဒန္တိ။",
+        "paliRoman": "Janā puññaṃ sutvā anumodanti.",
+        "translateMm": "လူတွေက ကုသိုလ်သတင်း ကြားရလို့ ဝမ်းမြောက်သာဓုခေါ်ကြတယ်။",
+        "translateEn": "People rejoice upon hearing about the meritorious deed."
+      }
+    },
+    {
+      "paliMm": "ခမာပေတိ",
+      "paliRoman": "Khamāpeti",
+      "translateMm": "တောင်းပန်သည်၊ ကန်တော့သည်",
+      "translateEn": "Asks forgiveness",
+      "example": {
+        "paliMm": "သိဿော အာစရိယံ ခမာပေတိ။",
+        "paliRoman": "Sisso ācariyaṃ khamāpeti.",
+        "translateMm": "တပည့်က ဆရာ့ကို ခွင့်လွှတ်မှုတောင်းခံ ကန်တော့တယ်။",
+        "translateEn": "The student asks forgiveness from the teacher."
+      }
+    },
+    {
+      "paliMm": "သလ္လက္ခေတိ",
+      "paliRoman": "Sallakkheti",
+      "translateMm": "မှတ်သားသည်၊ ရှုမှတ်သည်",
+      "translateEn": "Observes / Notes mentally",
+      "example": {
+        "paliMm": "ယတိ အနိစ္စံ သလ္လက္ခေတိ။",
+        "paliRoman": "Yati aniccaṃ sallakkheti.",
+        "translateMm": "ရဟန်းတော်က အနိစ္စသဘောကို ရှုမှတ်နေတယ်။",
+        "translateEn": "The monk notes the nature of impermanence."
+      }
+    },
+    {
+      "paliMm": "ဝိပဿတိ",
+      "paliRoman": "Vipassati",
+      "translateMm": "ဝိပဿနာရှုသည်၊ သဘောပေါက်သည်",
+      "translateEn": "Sees / Has insight",
+      "example": {
+        "paliMm": "သော ခန္ဓေ အနတ္တတော ဝိပဿတိ။",
+        "paliRoman": "So khandhe anattato vipassati.",
+        "translateMm": "သူ ခန္ဓာကိုယ်ကို အနတ္တအဖြစ် ရှုမြင်သုံးသပ်တယ်။",
+        "translateEn": "He sees the aggregates as non-self."
+      }
+    },
+    {
+      "paliMm": "သဇ္ဈာယတိ",
+      "paliRoman": "Sajjhāyati",
+      "translateMm": "သရဇ္ဈာယ်သည်၊ ရွတ်ဖတ်သည်",
+      "translateEn": "Recites / Chants",
+      "example": {
+        "paliMm": "သမဏော ပါဠိံ သဇ္ဈာယတိ။",
+        "paliRoman": "Samaṇo pāḷiṃ sajjhāyati.",
+        "translateMm": "ရဟန်းတော်က ပါဠိစာပေကို သရဇ္ဈာယ်ရွတ်ဖတ်နေတယ်။",
+        "translateEn": "The monk recites the Pāḷi text."
+      }
+    },
+    {
+      "paliMm": "ပတ္ထေတိ",
+      "paliRoman": "Pattheti",
+      "translateMm": "ဆုတောင်းသည်၊ လိုလားသည်",
+      "translateEn": "Aspires / Prays",
+      "example": {
+        "paliMm": "သော နိဗ္ဗာနံ ပတ္ထေတိ။",
+        "paliRoman": "So nibbānaṃ pattheti.",
+        "translateMm": "သူ နိဗ္ဗာန်ဆုကို တောင်းဆုပြုနေတယ်။",
+        "translateEn": "He aspires for Nibbāna."
+      }
+    },
+    {
+      "paliMm": "သမာပဇ္ဇတိ",
+      "paliRoman": "Samāpajjati",
+      "translateMm": "သမာပတ်ဝင်စားသည်",
+      "translateEn": "Enters a meditative state",
+      "example": {
+        "paliMm": "ယတိ နိရောဓသမာပတ္တိံ သမာပဇ္ဇတိ။",
+        "paliRoman": "Yati nirodhasamāpattiṃ samāpajjati.",
+        "translateMm": "ရဟန်းတော်က နိရောဓသမာပတ် ဝင်စားတော်မူတယ်။",
+        "translateEn": "The monk enters the attainment of cessation."
+      }
+    },
+    {
+      "paliMm": "ပါတိမောက္ခံ ဥဒ္ဒိသတိ",
+      "paliRoman": "Pātimokkhaṃ uddisati",
+      "translateMm": "ပါတိမောက် ရွတ်ပြသည်",
+      "translateEn": "Recites the Pātimokkha",
+      "example": {
+        "paliMm": "သံဃော ဥပေါသထေ ပါတိမောက္ခံ ဥဒ္ဒိသတိ။",
+        "paliRoman": "Saṅgho uposathe pātimokkhaṃ uddisati.",
+        "translateMm": "သံဃာတော်များက ဥပုသ်နေ့မှာ ပါတိမောက် ရွတ်ပြတော်မူကြတယ်။",
+        "translateEn": "The Sangha recites the Pātimokkha on the Uposatha day."
+      }
+    },
+    {
+      "paliMm": "ပတ္တိံ ဒဒါတိ",
+      "paliRoman": "Pattiṃ dadāti",
+      "translateMm": "အမျှဝေသည်",
+      "translateEn": "Shares merits",
+      "example": {
+        "paliMm": "သော သဗ္ဗသတ္တာနံ ပုညပတ္တိံ ဒဒါတိ။",
+        "paliRoman": "So sabbasattānaṃ puññapattiṃ dadāti.",
+        "translateMm": "သူ သတ္တဝါအားလုံးအတွက် ကုသိုလ်အမျှ ဝေဒါန်းတယ်။",
+        "translateEn": "He shares the merit with all beings."
+      }
+    },
+    {
+      "paliMm": "သစ္စာနိ ဗုဇ္ဈတိ",
+      "paliRoman": "Saccāni bujjhati",
+      "translateMm": "သစ္စာလေးပါး သိမြင်သည်",
+      "translateEn": "Comprehends the Truths",
+      "example": {
+        "paliMm": "သိဿော စတ္တာရိ အရိယသစ္စာနိ ဗုဇ္ဈတိ။",
+        "paliRoman": "Sisso cattāri ariyasaccāni bujjhati.",
+        "translateMm": "တပည့်က အရိယသစ္စာလေးပါးကို ထိုးထွင်းသိမြင်သွားတယ်။",
+        "translateEn": "The disciple comprehends the Four Noble Truths."
+      }
+    }
+  ]
+}

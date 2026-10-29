@@ -1,0 +1,78 @@
+{
+  "titleMm": "ကောင်းကင်နေတိရိစ္ဆာန်များ",
+  "titleEn": "Birds & Flying Creatures",
+  "vocabList": [
+    {
+      "paliMm": "သကုဏော (ပု)",
+      "paliRoman": "Sakuṇo (M)",
+      "translateMm": "ငှက်",
+      "translateEn": "Bird",
+      "example": {
+        "paliMm": "သကုဏော အာကသေ ဍေတိ။",
+        "paliRoman": "Sakuṇo ākase ḍeti.",
+        "translateMm": "ငှက်သည် ကောင်းကင်၌ ပျံသန်း၏။",
+        "translateEn": "The bird flies in the sky."
+      }
+    },
+    {
+      "paliMm": "ကာကော (ပု)",
+      "paliRoman": "Kāko (M)",
+      "translateMm": "ကျီးကန်း",
+      "translateEn": "Crow",
+      "example": {
+        "paliMm": "ကာကော ရုက္ခသာခါယံ နိသီဒတိ။",
+        "paliRoman": "Kāko rukkhasākhāyaṃ nisīdati.",
+        "translateMm": "ကျီးကန်းသည် သစ်ခက်၌ ထိုင်၏/နား၏။",
+        "translateEn": "The crow sits on the tree branch."
+      }
+    },
+    {
+      "paliMm": "မယူရော (ပု)",
+      "paliRoman": "Mayūro (M)",
+      "translateMm": "ဥဒေါင်း",
+      "translateEn": "Peacock",
+      "example": {
+        "paliMm": "မယူရော ပဗ္ဗတေ နစ္စတိ။",
+        "paliRoman": "Mayūro pabbate naccati.",
+        "translateMm": "ဥဒေါင်းသည် တောင်ပေါ်၌ ကခုန်၏။",
+        "translateEn": "The peacock dances on the mountain."
+      }
+    },
+    {
+      "paliMm": "ဟံသော (ပု)",
+      "paliRoman": "Haṃso (M)",
+      "translateMm": "ဟင်္သာ/ငန်း",
+      "translateEn": "Swan / Goose",
+      "example": {
+        "paliMm": "ဟံသော ပဒုမသရသိံ နဟာယတိ။",
+        "paliRoman": "Haṃso padumasarasiṃ nahāyati.",
+        "translateMm": "ဟင်္သာ/ငန်းသည် ကြာကန်၌ ရေချိုး၏။",
+        "translateEn": "The swan bathes in the lotus pond."
+      }
+    },
+    {
+      "paliMm": "မက္ခိကာ (ထီ)",
+      "paliRoman": "Makkhikā (F)",
+      "translateMm": "ယင်ကောင်",
+      "translateEn": "Fly",
+      "example": {
+        "paliMm": "မက္ခိကာ ဖလေ ဍေတိ။",
+        "paliRoman": "Makkhikā phale ḍeti.",
+        "translateMm": "ယင်ကောင်သည် သစ်သီးပေါ်၌ ပျံသန်း၏။",
+        "translateEn": "The fly flies over the fruit."
+      }
+    },
+    {
+      "paliMm": "ဘမရော (ပု)",
+      "paliRoman": "Bhamaro (M)",
+      "translateMm": "ပျား",
+      "translateEn": "Bee",
+      "example": {
+        "paliMm": "ဘမရော ပုပ္ဖေ မဓုံ သဉ္စိနာတိ။",
+        "paliRoman": "Bhamaro pupphe madhuṃ sañcināti.",
+        "translateMm": "ပျားသည် ပန်း၌ ပျားရည်ကို ဆည်းပူး၏။",
+        "translateEn": "The bee collects honey from the flower."
+      }
+    }
+  ]
+}

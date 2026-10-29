@@ -1,0 +1,90 @@
+{
+  "titleMm": "နေ့ရက်များ",
+  "titleEn": "Days of the Week",
+  "vocabList": [
+    {
+      "paliMm": "ရဝိဝါရ / သူရိယဝါရ (ပု)",
+      "paliRoman": "Ravivāra / Sūriyavāra (M)",
+      "translateMm": "တနင်္ဂနွေနေ့",
+      "translateEn": "Sunday",
+      "example": {
+        "paliMm": "သော ရဝိဝါရေ ဝိဟာရံ ဂစ္ဆတိ။",
+        "paliRoman": "So ravivāre vihāraṃ gacchati.",
+        "translateMm": "သူ တနင်္ဂနွေနေ့မှာ ကျောင်းတိုက်ဆီ သွားတယ်။",
+        "translateEn": "He goes to the monastery on Sunday."
+      }
+    },
+    {
+      "paliMm": "စန္ဒဝါရ (ပု)",
+      "paliRoman": "Candavāra (M)",
+      "translateMm": "တနင်္လာနေ့",
+      "translateEn": "Monday",
+      "example": {
+        "paliMm": "သာ စန္ဒဝါရေ ကမ္မံ အာရဘတိ။",
+        "paliRoman": "Sā candavāre kammaṃ ārabhati.",
+        "translateMm": "သူငယ်မလေးက တနင်္လာနေ့မှာ အလုပ် စလုပ်တယ်။",
+        "translateEn": "She starts working on Monday."
+      }
+    },
+    {
+      "paliMm": "အင်္ဂါရဝါရ (ပု)",
+      "paliRoman": "Aṅgāravāra (M)",
+      "translateMm": "အင်္ဂါနေ့",
+      "translateEn": "Tuesday",
+      "example": {
+        "paliMm": "သော အင်္ဂါရဝါရေ ပုတ္ထကံ ကိဏာတိ။",
+        "paliRoman": "So aṅgāravāre putthakaṃ kiṇāti.",
+        "translateMm": "သူ အင်္ဂါနေ့မှာ စာအုပ် ဝယ်ယူတယ်။",
+        "translateEn": "He buys a book on Tuesday."
+      }
+    },
+    {
+      "paliMm": "ဗုဓဝါရ (ပု)",
+      "paliRoman": "Budhavāra (M)",
+      "translateMm": "ဗုဒ္ဓဟူးနေ့",
+      "translateEn": "Wednesday",
+      "example": {
+        "paliMm": "သီဿာ ဗုဓဝါရေ ပါဠိံ သိက္ခန္တိ။",
+        "paliRoman": "Sissā budhavāre pāḷiṃ sikkhanti.",
+        "translateMm": "ကျောင်းသားတွေ ဗုဒ္ဓဟူးနေ့မှာ ပါဠိစာ သင်ယူကြတယ်။",
+        "translateEn": "Students study Pāḷi on Wednesday."
+      }
+    },
+    {
+      "paliMm": "ဂုရုဝါရ / ဗြဟပ္ပတိဝါရ (ပု)",
+      "paliRoman": "Guruvāra / Brahassapativāra (M)",
+      "translateMm": "ကြာသပတေးနေ့",
+      "translateEn": "Thursday",
+      "example": {
+        "paliMm": "အာစရိယော ဂုရုဝါရေ ဓမ္မံ ကထေတိ။",
+        "paliRoman": "Ācariyo guruvāre dhammaṃ katheti.",
+        "translateMm": "ဆရာက ကြာသပတေးနေ့မှာ တရားဓမ္မ ပြောပြပေးတယ်။",
+        "translateEn": "The teacher explains the Dhamma on Thursday."
+      }
+    },
+    {
+      "paliMm": "သုက္ကဝါရ (ပု)",
+      "paliRoman": "Sukkavāra (M)",
+      "translateMm": "သောကြာနေ့",
+      "translateEn": "Friday",
+      "example": {
+        "paliMm": "သော သုက္ကဝါရေ ကမ္မံ ပရိယောသာပေတိ။",
+        "paliRoman": "So sukkavāre kammaṃ pariyosāpeti.",
+        "translateMm": "သူ သောကြာနေ့မှာ အလုပ်ကို ပြီးစီးစေတယ်။",
+        "translateEn": "He finishes the work on Friday."
+      }
+    },
+    {
+      "paliMm": "သနိဝါရ (ပု)",
+      "paliRoman": "Sanivāra (M)",
+      "translateMm": "စနေနေ့",
+      "translateEn": "Saturday",
+      "example": {
+        "paliMm": "ဇနာ သနိဝါရေ ဥယျာနံ ဂစ္ဆန္တိ။",
+        "paliRoman": "Janā sanivāre uyyānaṃ gacchanti.",
+        "translateMm": "လူတွေ စနေနေ့မှာ ဥယျာဉ်ဆီ သွားကြတယ်။",
+        "translateEn": "People go to the park on Saturday."
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 Write a Dart class UploaderService with a static method uploadJsonToFirestore(BuildContext context).
-1. Load string from rootBundle.loadString('assets/lessons.json').
-2. Decode the JSON list.
-3. Upload each lesson to Firestore collection 'lessons' using lesson['id'].toString() as document ID.
-4. Use try-catch and show a SnackBar when upload succeeds or fails.
+1. Read the category asset paths from `assets/pali_data_manifest.json`.
+2. Load each category JSON file and upload its object to the Firestore
+   `lessons` collection.
+3. Show a SnackBar when the upload succeeds or fails.
 ```dart

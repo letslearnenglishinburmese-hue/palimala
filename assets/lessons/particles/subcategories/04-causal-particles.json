@@ -1,0 +1,102 @@
+{
+  "titleMm": "အကြောင်းရင်းပြ နိပါတ်ပုဒ်များ",
+  "titleEn": "Causal Particles",
+  "vocabList": [
+    {
+      "paliMm": "ဟိ",
+      "paliRoman": "Hi",
+      "translateMm": "အဘယ့်ကြောင့်ဆိုသော်",
+      "translateEn": "For, because",
+      "example": {
+        "paliMm": "သော သုခံ ဝိန္ဒတိ၊ သုစရိတံ ဟိ ကရောတိ။",
+        "paliRoman": "So sukhaṃ vindati, sucaritaṃ hi karoti.",
+        "translateMm": "သူသည် ချမ်းသာကို ရ၏၊ အဘယ့်ကြောင့်ဆိုသော် သုစရိုက်တရားကို ပြုသောကြောင့်တည်း။",
+        "translateEn": "He finds happiness, for he does good deeds."
+      }
+    },
+    {
+      "paliMm": "တသ္မာ",
+      "paliRoman": "Tasmā",
+      "translateMm": "ထို့ကြောင့်",
+      "translateEn": "Therefore",
+      "example": {
+        "paliMm": "တသ္မာ ဓမ္မံ သုဏောဟိ။",
+        "paliRoman": "Tasmā dhammaṃ suṇohi.",
+        "translateMm": "ထို့ကြောင့် တရားဓမ္မကို နာယူပါလော့။",
+        "translateEn": "Therefore, listen to the Dhamma."
+      }
+    },
+    {
+      "paliMm": "ယသ္မာ",
+      "paliRoman": "Yasmā",
+      "translateMm": "အကြင်ကြောင့်",
+      "translateEn": "Because, as",
+      "example": {
+        "paliMm": "ယသ္မာ ကုသလံ ကရောတိ၊ တသ္မာ သုခိတော ဟောတိ။",
+        "paliRoman": "Yasmā kusalaṃ karoti, tasmā sukhito hoti.",
+        "translateMm": "အကြင်ကြောင့် ကုသိုလ်ပြု၏၊ ထို့ကြောင့် ချမ်းသာသူ ဖြစ်၏။",
+        "translateEn": "Because he does good deeds, therefore he is happy."
+      }
+    },
+    {
+      "paliMm": "တေန",
+      "paliRoman": "Tena",
+      "translateMm": "ထိုအကြောင်းကြောင့်",
+      "translateEn": "Account of that, so",
+      "example": {
+        "paliMm": "တေန သော နဂရံ ဂစ္ဆတိ။",
+        "paliRoman": "Tena so nagaraṃ gacchati.",
+        "translateMm": "ထိုအကြောင်းကြောင့် သူသည် မြို့သို့ သွား၏။",
+        "translateEn": "On account of that, he goes to the city."
+      }
+    },
+    {
+      "paliMm": "ယေန",
+      "paliRoman": "Yena",
+      "translateMm": "အကြင်အကြောင်းကြောင့်",
+      "translateEn": "Wherefore, since",
+      "example": {
+        "paliMm": "ယေန သော ဝါယမတိ၊ တေန သိဇ္ဈတိ။",
+        "paliRoman": "Yena so vāyamati, tena sizzhati.",
+        "translateMm": "အကြင်အကြောင်းကြောင့် သူသည် ကြိုးစား၏၊ ထိုအကြောင်းကြောင့် အောင်မြင်၏။",
+        "translateEn": "Since he strives, therefore he succeeds."
+      }
+    },
+    {
+      "paliMm": "ကသ္မာ",
+      "paliRoman": "Kasmā",
+      "translateMm": "အဘယ်ကြောင့်",
+      "translateEn": "Why",
+      "example": {
+        "paliMm": "တွံ ကသ္မာ သောစသိ။",
+        "paliRoman": "Tvaṃ kasmā socasi.",
+        "translateMm": "သင်သည် အဘယ်ကြောင့် စိုးရိမ်ပူဆွေးသနည်း။",
+        "translateEn": "Why do you grieve?"
+      }
+    },
+    {
+      "paliMm": "ကေန",
+      "paliRoman": "Kena",
+      "translateMm": "မည်သည့်အကြောင်းကြောင့်",
+      "translateEn": "By what reason, why",
+      "example": {
+        "paliMm": "ကေန သော ဇိနာတိ။",
+        "paliRoman": "Kena so jināti.",
+        "translateMm": "မည်သည့်အကြောင်းကြောင့် သူသည် အနိုင်ရသနည်း။",
+        "translateEn": "By what reason does he win?"
+      }
+    },
+    {
+      "paliMm": "အထ ကသ္မာ",
+      "paliRoman": "Atha kasmā",
+      "translateMm": "သို့ဖြစ်ပါက အဘယ်ကြောင့်",
+      "translateEn": "Then why",
+      "example": {
+        "paliMm": "အထ ကသ္မာ တွံ န အာဂစ္ဆသိ။",
+        "paliRoman": "Atha kasmā tvaṃ na āဂစ္ဆသိ.",
+        "translateMm": "သို့ဖြစ်ပါက သင်သည် အဘယ်ကြောင့် မလာသနည်း။",
+        "translateEn": "Then why do you not come?"
+      }
+    }
+  ]
+}

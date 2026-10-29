@@ -1,0 +1,126 @@
+{
+  "titleMm": "သံသယပြ နိပါတ်ပုဒ်များ",
+  "titleEn": "Doubt Particles",
+  "vocabList": [
+    {
+      "paliMm": "နူန",
+      "paliRoman": "Nūna",
+      "translateMm": "စင်စစ်၊ ဖြစ်နိုင်သည်",
+      "translateEn": "Perhaps, surely",
+      "example": {
+        "paliMm": "သော နူန ဓမ္မိကော ဟောတိ။",
+        "paliRoman": "So nūna dhammiko hoti.",
+        "translateMm": "သူသည် စင်စစ် တရားစောင့်သောသူ ဖြစ်ပေလိမ့်မည်။",
+        "translateEn": "He is surely / perhaps righteous."
+      }
+    },
+    {
+      "paliMm": "အပ္ပေဝ",
+      "paliRoman": "Appeva",
+      "translateMm": "ထိုသို့လည်း ဖြစ်နိုင်၏",
+      "translateEn": "Perhaps, maybe",
+      "example": {
+        "paliMm": "အပ္ပေဝ သော သုဝေ အာဂစ္ဆေယျ။",
+        "paliRoman": "Appeva so suve āgaccheyya.",
+        "translateMm": "သူသည် မနက်ဖြန်၌ လာကောင်း လာပေလိမ့်မည်။",
+        "translateEn": "Perhaps he might come tomorrow."
+      }
+    },
+    {
+      "paliMm": "မညေ",
+      "paliRoman": "Maññe",
+      "translateMm": "ထင်၏၊ ဖြစ်ပုံရ၏",
+      "translateEn": "Methinks, it seems",
+      "example": {
+        "paliMm": "သော ပဏ္ဍိတော မညေ။",
+        "paliRoman": "So paṇḍito maññe.",
+        "translateMm": "သူသည် ပညာရှိ ဖြစ်ဟန်တူ၏ (ဟု ထင်၏)။",
+        "translateEn": "Methinks he is a scholar."
+      }
+    },
+    {
+      "paliMm": "အပ္ပေဝ နာမ",
+      "paliRoman": "Appeva nāma",
+      "translateMm": "ဖြစ်နိုင်ကောင်းပါ၏",
+      "translateEn": "It may well be",
+      "example": {
+        "paliMm": "အပ္ပေဝ နာမ မယံ တတ္ထ ပါပုဏေယျာမ။",
+        "paliRoman": "Appeva nāma mayaṃ tattha pāpuṇeyyāma.",
+        "translateMm": "ငါတို့သည် ထိုနေရာသို့ ရောက်နိုင်ကောင်းပါ၏။",
+        "translateEn": "It may well be that we reach there."
+      }
+    },
+    {
+      "paliMm": "ကိဉ္စာပိ",
+      "paliRoman": "Kiñcāpi",
+      "translateMm": "သို့သော်လည်း",
+      "translateEn": "Although, maybe",
+      "example": {
+        "paliMm": "သော ကိဉ္စာပိ ဂစ္ဆတိ၊ သုခံ န လဘတိ။",
+        "paliRoman": "So kiñcāpi gacchati, sukhaṃ na labhati.",
+        "translateMm": "သူသည် သွားစေကာမူ ချမ်းသာကို မရ။",
+        "translateEn": "Although he goes, he does not get happiness."
+      }
+    },
+    {
+      "paliMm": "ယဒိ",
+      "paliRoman": "Yadi",
+      "translateMm": "အကယ်၍၊ ဖြစ်ခဲ့လျှင်",
+      "translateEn": "If, in case",
+      "example": {
+        "paliMm": "ယဒိ သော အာဂစ္ဆတိ၊ အဟံ ဂစ္ဆာမိ။",
+        "paliRoman": "Yadi so āgacchati, ahaṃ gacchāmi.",
+        "translateMm": "အကယ်၍ သူ လာပါက ငါ သွားမည်။",
+        "translateEn": "If he comes, I will go."
+      }
+    },
+    {
+      "paliMm": "သစေ",
+      "paliRoman": "Sace",
+      "translateMm": "အကယ်၍",
+      "translateEn": "If",
+      "example": {
+        "paliMm": "သစေ တွံ သိက္ခသိ၊ ပဏ္ဍိတော ဘဝိဿသိ။",
+        "paliRoman": "Sace tvaṃ sikkhasi, paṇḍito bhavissasi.",
+        "translateMm": "အကယ်၍ သင် သင်ယူပါက ပညာရှိ ဖြစ်လိမ့်မည်။",
+        "translateEn": "If you learn, you will become wise."
+      }
+    },
+    {
+      "paliMm": "စေ",
+      "paliRoman": "Ce",
+      "translateMm": "အကယ်၍",
+      "translateEn": "If",
+      "example": {
+        "paliMm": "သော စေ ဝါယမတိ၊ သိဇ္ဈတိ။",
+        "paliRoman": "So ce vāyamati, sizzhati.",
+        "translateMm": "သူသည် အကယ်၍ ကြိုးစားပါက အောင်မြင်၏။",
+        "translateEn": "If he strives, he succeeds."
+      }
+    },
+    {
+      "paliMm": "ကစ္စိ",
+      "paliRoman": "Kacci",
+      "translateMm": "အဘယ်သို့နည်း၊ ကောင်းစွာ ရှိပါစ၏လော",
+      "translateEn": "I hope, is it that",
+      "example": {
+        "paliMm": "ကစ္စိ တွံ အာရောဂေါ ဟောသိ။",
+        "paliRoman": "Kacci tvaṃ ārogo hosi.",
+        "translateMm": "သင်သည် ကျန်းကျန်းမာမာ ရှိပါစ၏လော။",
+        "translateEn": "I hope you are in good health."
+      }
+    },
+    {
+      "paliMm": "ဥဒါဟု",
+      "paliRoman": "Udāhu",
+      "translateMm": "သို့မဟုတ်ပါက၊ အဘယ်သို့နည်း",
+      "translateEn": "Or else, is it not",
+      "example": {
+        "paliMm": "သော အာဂစ္ဆတိ ဥဒါဟု န အာဂစ္ဆတိ။",
+        "paliRoman": "So āgacchati udāhu na āgacchati.",
+        "translateMm": "သူသည် လာသလော သို့မဟုတ် မလာပေသလော။",
+        "translateEn": "Is he coming or is he not?"
+      }
+    }
+  ]
+}

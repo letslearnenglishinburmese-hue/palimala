@@ -1,0 +1,378 @@
+{
+  "titleMm": "ဆွေမျိုးများ",
+  "titleEn": "Ralitives and Family Members",
+  "vocabList": [
+    {
+      "paliMm": "ပိတာ (ပု)",
+      "paliRoman": "Pitā (M)",
+      "translateMm": "အဖေ",
+      "translateEn": "Father",
+      "example": {
+        "paliMm": "ပိတာ ဂေဟံ အာဂစ္ဆတိ။",
+        "paliRoman": "Pitā gehaṃ āgacchati.",
+        "translateMm": "အဖေသည် အိမ်သို့ လာ၏။",
+        "translateEn": "The father comes home."
+      }
+    },
+    {
+      "paliMm": "မာတာ (ထီ)",
+      "paliRoman": "Mātā (F)",
+      "translateMm": "အမေ",
+      "translateEn": "Mother",
+      "example": {
+        "paliMm": "မာတာ ပုတ္တံ သိနေဟတိ။",
+        "paliRoman": "Mātā puttaṃ sinehati.",
+        "translateMm": "အမေသည် သားကို ချစ်ခင်၏။",
+        "translateEn": "The mother loves her son."
+      }
+    },
+    {
+      "paliMm": "ပုတ္တော (ပု)",
+      "paliRoman": "Putto (M)",
+      "translateMm": "သား",
+      "translateEn": "Son",
+      "example": {
+        "paliMm": "ပုတ္တော ပေါတ္ထကံ ပဌတိ။",
+        "paliRoman": "Putto potthakaṃ paṭhati.",
+        "translateMm": "သားသည် စာအုပ်ကို ဖတ်၏။",
+        "translateEn": "The son reads a book."
+      }
+    },
+    {
+      "paliMm": "ဓီတာ (ထီ)",
+      "paliRoman": "Dhītā / Dhītu (F)",
+      "translateMm": "သမီး",
+      "translateEn": "Daughter",
+      "example": {
+        "paliMm": "ဓီတာ ပုပ္ဖံ အာဟရတိ။",
+        "paliRoman": "Dhītā pupphaṃ āharati.",
+        "translateMm": "သမီးသည် ပန်းကို ဆောင်ယူခဲ့၏။",
+        "translateEn": "The daughter brings a flower."
+      }
+    },
+    {
+      "paliMm": "ဘာတာ (ပု)",
+      "paliRoman": "Bhātā (M)",
+      "translateMm": "ညီအစ်ကို/မောင်",
+      "translateEn": "Brother",
+      "example": {
+        "paliMm": "ဘာတာ ဝိဟာရံ ဂစ္ဆတိ။",
+        "paliRoman": "Bhātā vihāraṃ gacchati.",
+        "translateMm": "ညီအစ်ကို/မောင်သည် ကျောင်းတိုက်သို့ သွား၏။",
+        "translateEn": "The brother goes to the monastery."
+      }
+    },
+    {
+      "paliMm": "ဘဂိနီ (ထီ)",
+      "paliRoman": "Bhaginī (F)",
+      "translateMm": "အစ်မ/နှမ",
+      "translateEn": "Sister",
+      "example": {
+        "paliMm": "ဘဂိနီ အာဟာရံ ပစတိ။",
+        "paliRoman": "Bhaginī āhāraṃ pacati.",
+        "translateMm": "အစ်မ/နှမသည် အာဟာရကို ချက်ပြုတ်၏။",
+        "translateEn": "The sister cooks food."
+      }
+    },
+    {
+      "paliMm": "ပိတာမဟော (ပု)",
+      "paliRoman": "Pitāmaho (M)",
+      "translateMm": "အဘိုး",
+      "translateEn": "Paternal grandfather",
+      "example": {
+        "paliMm": "ပိတာမဟော ဓမ္မံ သုဏောတိ။",
+        "paliRoman": "Pitāmaho dhammaṃ suṇāti.",
+        "translateMm": "အဘိုးသည် တရားတော်ကို နာယူ၏။",
+        "translateEn": "The paternal grandfather listens to the Dhamma."
+      }
+    },
+    {
+      "paliMm": "မာတာမဟီ (ထီ)",
+      "paliRoman": "Mātāmahī (F)",
+      "translateMm": "အဘွား",
+      "translateEn": "Maternal grandmother",
+      "example": {
+        "paliMm": "မာတာမဟီ ဒါနံ ဒေတိ။",
+        "paliRoman": "Mātāmahī dānaṃ deti.",
+        "translateMm": "အဘွားသည် အလှူဒါန ပေး၏။",
+        "translateEn": "The maternal grandmother gives alms."
+      }
+    },
+    {
+      "paliMm": "ဇေဋ္ဌဘာတာ (ပု)",
+      "paliRoman": "Jeṭṭhabhātā (M)",
+      "translateMm": "အစ်ကိုကြီး",
+      "translateEn": "Elder brother",
+      "example": {
+        "paliMm": "ဇေဋ္ဌဘာတာ ဂေဟံ ပါလေတိ။",
+        "paliRoman": "Jeṭṭhabhātā gehaṃ pāleti.",
+        "translateMm": "အစ်ကိုကြီးသည် အိမ်ကို စောင့်ရှောက်၏။",
+        "translateEn": "The elder brother takes care of the house."
+      }
+    },
+    {
+      "paliMm": "ကနိဋ္ဌဘာတာ (ပု)",
+      "paliRoman": "Kaniṭṭhabhātā (M)",
+      "translateMm": "ညီကလေး",
+      "translateEn": "Younger brother",
+      "example": {
+        "paliMm": "ကနိဋ္ဌဘာတာ ဝိဇ္ဇာလယံ ဂစ္ဆတိ။",
+        "paliRoman": "Kaniṭṭhabhātā vijjālayaṃ gacchati.",
+        "translateMm": "ညီကလေးသည် ကျောင်းသို့ သွား၏။",
+        "translateEn": "The younger brother goes to school."
+      }
+    },
+    {
+      "paliMm": "ဇေဋ္ဌဘဂိနီ (ထီ)",
+      "paliRoman": "Jeṭṭhabhaginī (F)",
+      "translateMm": "အစ်မကြီး",
+      "translateEn": "Elder sister",
+      "example": {
+        "paliMm": "ဇေဋ္ဌဘဂိနီ အာဟာရံ ပစတိ။",
+        "paliRoman": "Jeṭṭhabhaginī āhāraṃ pacati.",
+        "translateMm": "အစ်မကြီးသည် အာဟာရကို ချက်ပြုတ်၏။",
+        "translateEn": "The elder sister cooks food."
+      }
+    },
+    {
+      "paliMm": "ကနိဋ္ဌဘဂိနီ (ထီ)",
+      "paliRoman": "Kaniṭṭhabhaginī (F)",
+      "translateMm": "ညီမလေး",
+      "translateEn": "Younger sister",
+      "example": {
+        "paliMm": "ကနိဋ္ဌဘဂိနီ ပေါတ္ထကံ ပဌတိ။",
+        "paliRoman": "Kaniṭṭhabhaginī potthakaṃ paṭhati.",
+        "translateMm": "ညီမလေးသည် စာအုပ်ကို ဖတ်၏။",
+        "translateEn": "The younger sister reads a book."
+      }
+    },
+    {
+      "paliMm": "နတ္တာ (ပု)",
+      "paliRoman": "Nattā (M)",
+      "translateMm": "မြေး",
+      "translateEn": "Grandson",
+      "example": {
+        "paliMm": "နတ္တာ အယျကံ ဥပဋ္ဌာဟတိ။",
+        "paliRoman": "Nattā ayyakaṃ upaṭṭhāhati.",
+        "translateMm": "မြေးသည် အဘိုးကို လုပ်ကျွေးပြုစု၏။",
+        "translateEn": "The grandson serves his grandfather."
+      }
+    },
+    {
+      "paliMm": "ဘတ္တာ (ပု)",
+      "paliRoman": "Bhattā (M)",
+      "translateMm": "လင်",
+      "translateEn": "Husband",
+      "example": {
+        "paliMm": "ဘတ္တာ ကမ္မံ ကရောတိ။",
+        "paliRoman": "Bhattā kammaṃ karoti.",
+        "translateMm": "လင်သည် အလုပ်ကို ပြုလုပ်၏။",
+        "translateEn": "The husband works."
+      }
+    },
+    {
+      "paliMm": "ဘရိယာ (ထီ)",
+      "paliRoman": "Bhariyā (F)",
+      "translateMm": "မယား",
+      "translateEn": "Wife",
+      "example": {
+        "paliMm": "ဘရိယာ ဂေဟံ ပဋိဇဂ္ဂတိ။",
+        "paliRoman": "Bhariyā gehaṃ paṭijaggati.",
+        "translateMm": "မယားသည် အိမ်ကို ထိန်းသိမ်းစောင့်ရှောက်၏။",
+        "translateEn": "The wife takes care of the home."
+      }
+    },
+    {
+      "paliMm": "မဟာပိတာ (ပု)",
+      "paliRoman": "Mahāpitā (M)",
+      "translateMm": "ဘကြီး",
+      "translateEn": "Paternal uncle (father's elder brother)",
+      "example": {
+        "paliMm": "မဟာပိတာ ဓမ္မံ သုဏောတိ။",
+        "paliRoman": "Mahāpitā dhammaṃ suṇāti.",
+        "translateMm": "ဘကြီးသည် တရားတော်ကို နာယူ၏။",
+        "translateEn": "The paternal uncle (father's elder brother) listens to the Dhamma."
+      }
+    },
+    {
+      "paliMm": "စူဠပိတာ (ပု)",
+      "paliRoman": "Cūḷapitā (M)",
+      "translateMm": "ဘထွေး",
+      "translateEn": "Paternal uncle (father's younger brother)",
+      "example": {
+        "paliMm": "စူဠပိတာ ခေတ္တံ ဂစ္ဆတိ။",
+        "paliRoman": "Cūḷapitā khettaṃ gacchati.",
+        "translateMm": "ဘထွေးသည် လယ်ကွင်းသို့ သွား၏။",
+        "translateEn": "The paternal uncle (father's younger brother) goes to the field."
+      }
+    },
+    {
+      "paliMm": "မာတုလော (ပု)",
+      "paliRoman": "Mātulo (M)",
+      "translateMm": "ဦးရီး၊ ဦးလေး",
+      "translateEn": "Maternal uncle",
+      "example": {
+        "paliMm": "မာတုလော နဂရတော အာဂစ္ဆတိ။",
+        "paliRoman": "Mātulo nagarato āgacchati.",
+        "translateMm": "ဦးလေးသည် မြို့မှ လာ၏။",
+        "translateEn": "The maternal uncle comes from the city."
+      }
+    },
+    {
+      "paliMm": "မာတုလာနီ (ထီ)",
+      "paliRoman": "Mātulānī (F)",
+      "translateMm": "အရီး၊ အဒွေး",
+      "translateEn": "Aunt (uncle's wife)",
+      "example": {
+        "paliMm": "မာတုလာနီ ဒါနံ ဒေတိ။",
+        "paliRoman": "Mātulānī dānaṃ deti.",
+        "translateMm": "အဒွေးသည် အလှူဒါန ပေး၏။",
+        "translateEn": "The aunt (uncle’s wife) gives alms."
+      }
+    },
+    {
+      "paliMm": "မာတုစ္ဆာ (ထီ)",
+      "paliRoman": "Mātucchā (F)",
+      "translateMm": "မိကြီး၊ မိထွေး",
+      "translateEn": "Mother's sister",
+      "example": {
+        "paliMm": "မာတုစ္ဆာ ဗာလံ သိနေဟေတိ။",
+        "paliRoman": "Mātucchā bālaṃ sineheti.",
+        "translateMm": "မိထွေးသည် ကလေးကို ချစ်ခင်၏။",
+        "translateEn": "The mother's sister loves the child."
+      }
+    },
+    {
+      "paliMm": "ပိတုစ္ဆာ (ထီ)",
+      "paliRoman": "Pitucchā (F)",
+      "translateMm": "အရီး",
+      "translateEn": "Father's sister",
+      "example": {
+        "paliMm": "ပိတုစ္ဆာ ဝိဟာရံ ဂစ္ဆတိ။",
+        "paliRoman": "Pitucchā vihāraṃ gacchati.",
+        "translateMm": "အရီးသည် ကျောင်းတိုက်သို့ သွား၏။",
+        "translateEn": "The father's sister goes to the monastery."
+      }
+    },
+    {
+      "paliMm": "ဇာမာတာ (ပု)",
+      "paliRoman": "Jāmātā (M)",
+      "translateMm": "သမက်",
+      "translateEn": "Son-in-law",
+      "example": {
+        "paliMm": "ဇာမာတာ သဿုရံ ဝန္ဒတိ။",
+        "paliRoman": "Jāmātā sassuraṃ vandati.",
+        "translateMm": "သမက်သည် ယောက္ခမကို ရှိခိုး၏။",
+        "translateEn": "The son-in-law respects his father-in-law."
+      }
+    },
+    {
+      "paliMm": "သုဏိသာ (ထီ)",
+      "paliRoman": "Suṇisā (F)",
+      "translateMm": "ချွေးမ",
+      "translateEn": "Daughter-in-law",
+      "example": {
+        "paliMm": "သုဏိသာ သဿုံ ဥပဋ္ဌာဟတိ။",
+        "paliRoman": "Suṇisā sassuṃ upaṭṭhāhati.",
+        "translateMm": "ချွေးမသည် ယောက္ခမကို လုပ်ကျွေးပြုစု၏။",
+        "translateEn": "The daughter-in-law serves her mother-in-law."
+      }
+    },
+    {
+      "paliMm": "သာလော (ပု)",
+      "paliRoman": "Sālo (M)",
+      "translateMm": "ယောက်ဖ",
+      "translateEn": "Brother-in-law",
+      "example": {
+        "paliMm": "သာလော မိတ္တေန သဒ္ဓိံ သမ္ဘာသတိ။",
+        "paliRoman": "Sālo mittena saddhiṃ sambhāsati.",
+        "translateMm": "ယောက်ဖသည် မိတ်ဆွေနှင့်အတူ စကားပြောဆို၏။",
+        "translateEn": "The brother-in-law talks with a friend."
+      }
+    },
+    {
+      "paliMm": "နနန္ဒာ (ထီ)",
+      "paliRoman": "Nanandā (F)",
+      "translateMm": "ယောက်မ",
+      "translateEn": "Sister-in-law (husband's sister)",
+      "example": {
+        "paliMm": "နနန္ဒာ ပုပ္ဖံ သဉ္စိနာတိ။",
+        "paliRoman": "Nanandā pupphaṃ sañcināti.",
+        "translateMm": "ယောက်မသည် ပန်းကို ဆုဆောင်း၏/သီကုံး၏။",
+        "translateEn": "The sister-in-law collects flowers."
+      }
+    },
+    {
+      "paliMm": "ဘာဂိနေယျော (ပု)",
+      "paliRoman": "Bhāgineyyo (M)",
+      "translateMm": "တူ",
+      "translateEn": "Nephew (sister's son)",
+      "example": {
+        "paliMm": "ဘာဂိနေယျော ပါဠိဘာသံ သိက္ခတိ။",
+        "paliRoman": "Bhāgineyyo pāḷibhāsaṃ sikkhati.",
+        "translateMm": "တူသည် ပါဠိဘာသာကို သင်ယူ၏။",
+        "translateEn": "The nephew learns the Pali language."
+      }
+    },
+    {
+      "paliMm": "ဘာဂိနေယျာ (ထီ)",
+      "paliRoman": "Bhāgineyyā (F)",
+      "translateMm": "တူမ",
+      "translateEn": "Niece",
+      "example": {
+        "paliMm": "ဘာဂိနေယျာ ပဏ္ဏံ လိခတိ။",
+        "paliRoman": "Bhāgineyyā paṇṇaṃ likhati.",
+        "translateMm": "တူမသည် စာတစ်စောင် ရေး၏။",
+        "translateEn": "The niece writes a letter."
+      }
+    },
+    {
+      "paliMm": "အယျကော (ပု)",
+      "paliRoman": "Ayyako (M)",
+      "translateMm": "အဘိုး",
+      "translateEn": "Grandfather",
+      "example": {
+        "paliMm": "အယျကော ဂေဟေ နိသီဒတိ။",
+        "paliRoman": "Ayyako gehe nisīdati.",
+        "translateMm": "အဘိုးသည် အိမ်၌ ထိုင်၏။",
+        "translateEn": "The grandfather sits at home."
+      }
+    },
+    {
+      "paliMm": "အယျိကာ (ထီ)",
+      "paliRoman": "Ayyikā (F)",
+      "translateMm": "အဘွား",
+      "translateEn": "Grandmother",
+      "example": {
+        "paliMm": "အယျိကာ ဇာတကံ ဝဒတိ။",
+        "paliRoman": "Ayyikā jātakaṃ vadati.",
+        "translateMm": "အဘွားသည် ဇာတ်တော်ကို ပြောပြ၏။",
+        "translateEn": "The grandmother tells a Jataka story."
+      }
+    },
+    {
+      "paliMm": "သဿု (ထီ)",
+      "paliRoman": "Sassu (F)",
+      "translateMm": "ယောက္ခမ (မိန်းမ)",
+      "translateEn": "Mother-in-law",
+      "example": {
+        "paliMm": "သဿု သုဏိသံ သာဓု ပဋိဇဂ္ဂတိ။",
+        "paliRoman": "Sassu suṇisaṃ sādhu paṭijaggati.",
+        "translateMm": "ယောက္ခမသည် ချွေးမကို ကောင်းစွာ စောင့်ရှောက်၏။",
+        "translateEn": "The mother-in-law takes good care of the daughter-in-law."
+      }
+    },
+    {
+      "paliMm": "သဿုရော (ပု)",
+      "paliRoman": "Sassuro (M)",
+      "translateMm": "ယောက္ခမ (ယောက်ျား)",
+      "translateEn": "Father-in-law",
+      "example": {
+        "paliMm": "သဿုရော ဇာမာတရာ သဒ္ဓိံ စရတိ။",
+        "paliRoman": "Sassuro jāmātarā saddhiṃ carati.",
+        "translateMm": "ယောက္ခမသည် သမက်နှင့်အတူ လှည့်လည်၏။",
+        "translateEn": "The father-in-law walks together with his son-in-law."
+      }
+    }
+  ]
+}

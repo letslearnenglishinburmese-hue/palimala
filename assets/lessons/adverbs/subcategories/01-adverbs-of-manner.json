@@ -1,0 +1,246 @@
+{
+  "titleMm": "အပြုအမူပြ ကြိယာဝိသေသနများ",
+  "titleEn": "Adverbs of Manner",
+  "vocabList": [
+    {
+      "paliMm": "သီဃံ",
+      "paliRoman": "Sīghaṃ",
+      "translateMm": "လျင်မြန်စွာ",
+      "translateEn": "Quickly, fast",
+      "example": {
+        "paliMm": "မဂ္ဂိကော သီဃံ ဂစ္ဆတိ။",
+        "paliRoman": "Maggiko sīghaṃ gacchati.",
+        "translateMm": "ခရီးသွားသည် လျင်မြန်စွာ သွား၏။",
+        "translateEn": "The traveler goes quickly."
+      }
+    },
+    {
+      "paliMm": "သဏိကံ",
+      "paliRoman": "Saṇikaṃ",
+      "translateMm": "ဖြည်းဖြည်း၊ ဖြည်းညှင်းစွာ",
+      "translateEn": "Slowly, softly",
+      "example": {
+        "paliMm": "ထေရော သဏိကံ အာဂစ္ဆတိ။",
+        "paliRoman": "Theraṃ saṇikaṃ āgacchati.",
+        "translateMm": "မထေရ်မြတ်သည် ဖြည်းညှင်းစွာ ကြွလာ၏။",
+        "translateEn": "The elder monk comes slowly."
+      }
+    },
+    {
+      "paliMm": "သက္ကစ္စံ",
+      "paliRoman": "Sakkaccaṃ",
+      "translateMm": "ရိုသေစွာ၊ ရိုရိုသေသေ",
+      "translateEn": "Respectfully, carefully",
+      "example": {
+        "paliMm": "သိဿော သက္ကစ္စံ ဓမ္မံ သုဏောတိ။",
+        "paliRoman": "Sisso sakkaccaṃ dhammaṃ suṇāti.",
+        "translateMm": "ကျောင်းသားသည် ရိုသေစွာ တရားနား၏။",
+        "translateEn": "The student listens to the Dhamma respectfully."
+      }
+    },
+    {
+      "paliMm": "သာဓုကံ",
+      "paliRoman": "Sādhukaṃ",
+      "translateMm": "ကောင်းမွန်စွာ၊ ကောင်းကောင်းမွန်မွန်",
+      "translateEn": "Well, thoroughly",
+      "example": {
+        "paliMm": "သော သာဓုကံ မနသိ ကရောတိ။",
+        "paliRoman": "So sādhukaṃ manasi karoti.",
+        "translateMm": "သူသည် ကောင်းမွန်စွာ နှလုံးသွင်း၏။",
+        "translateEn": "He attends to it thoroughly."
+      }
+    },
+    {
+      "paliMm": "မန္ဒံ",
+      "paliRoman": "Mandaṃ",
+      "translateMm": "နှေးနှေး၊ ဖြည်းဖြည်း",
+      "translateEn": "Slowly, sluggishly",
+      "example": {
+        "paliMm": "ဝါဏိဇော မန္ဒံ စရတိ။",
+        "paliRoman": "Vāṇijo mandaṃ carati.",
+        "translateMm": "ကုန်သည်သည် နှေးနှေးဖြည်းဖြည်း သွားလာ၏။",
+        "translateEn": "The merchant walks slowly."
+      }
+    },
+    {
+      "paliMm": "ဖရုသံ",
+      "paliRoman": "Pharusaṃ",
+      "translateMm": "ကြမ်းတမ်းစွာ",
+      "translateEn": "Harshly, roughly",
+      "example": {
+        "paliMm": "သော ဖရုသံ န ဘာသတိ။",
+        "paliRoman": "So pharusaṃ na bhāsati.",
+        "translateMm": "သူသည် ကြမ်းတမ်းစွာ စကားမပြော။",
+        "translateEn": "He does not speak harshly."
+      }
+    },
+    {
+      "paliMm": "သလ္လဟုကံ",
+      "paliRoman": "Sallahukaṃ",
+      "translateMm": "ပေါ့ပါးစွာ",
+      "translateEn": "Lightly, easily",
+      "example": {
+        "paliMm": "ယာနံ သလ္လဟုကံ ဓာဝတိ။",
+        "paliRoman": "Yānaṃ sallahukaṃ dhāvati.",
+        "translateMm": "ယာဉ်သည် ပေါ့ပါးစွာ ပြေးလွှား၏။",
+        "translateEn": "The vehicle runs lightly."
+      }
+    },
+    {
+      "paliMm": "ဒုဋ္ဌု",
+      "paliRoman": "Duṭṭhu",
+      "translateMm": "မကောင်းမွန်စွာ၊ လွဲမှားစွာ",
+      "translateEn": "Badly, wrongly",
+      "example": {
+        "paliMm": "သော ဒုဋ္ဌု ဘာသတိ။",
+        "paliRoman": "So duṭṭhu bhāsati.",
+        "translateMm": "သူသည် မကောင်းမွန်စွာ/လွဲမှားစွာ ပြောဆို၏။",
+        "translateEn": "He speaks badly / wrongly."
+      }
+    },
+    {
+      "paliMm": "သုခါဝဟံ",
+      "paliRoman": "Sukhāvahaṃ",
+      "translateMm": "ချမ်းသာကို ဆောင်ရွက်စွာ",
+      "translateEn": "Blissfully, productively of happiness",
+      "example": {
+        "paliMm": "စိတ္တံ ဒန္တံ သုခါဝဟံ ဟောတိ။",
+        "paliRoman": "Cittaṃ dantaṃ sukhāvahaṃ hoti.",
+        "translateMm": "ဆုံးမပြီးသော စိတ်သည် ချမ်းသာကို ဆောင်ရွက်စွာ ဖြစ်၏။",
+        "translateEn": "The tamed mind functions to bring happiness blissfully."
+      }
+    },
+    {
+      "paliMm": "သုကရံ",
+      "paliRoman": "Sukaraṃ",
+      "translateMm": "လွယ်ကူစွာ",
+      "translateEn": "Easily",
+      "example": {
+        "paliMm": "သုဇနော ဧတံ ကိစ္စံ သုကရံ ကရောတိ။",
+        "paliRoman": "Sujano etaṃ kiccaṃ sukaraṃ karoti.",
+        "translateMm": "သူတော်ကောင်းသည် ဤကိစ္စကို လွယ်ကူစွာ ပြုလုပ်၏။",
+        "translateEn": "The virtuous person performs this task easily."
+      }
+    },
+    {
+      "paliMm": "သစ္စံ",
+      "paliRoman": "Saccaṃ",
+      "translateMm": "အမှန်အတိုင်း",
+      "translateEn": "Truly, truthfully",
+      "example": {
+        "paliMm": "သော သစ္စံ ဘာသတိ။",
+        "paliRoman": "So saccaṃ bhāsati.",
+        "translateMm": "သူသည် အမှန်အတိုင်း ပြောဆို၏။",
+        "translateEn": "He speaks truthfully."
+      }
+    },
+    {
+      "paliMm": "မဓုရံ",
+      "paliRoman": "Madhuraṃ",
+      "translateMm": "သာယာစွာ",
+      "translateEn": "Sweetly, melodiously",
+      "example": {
+        "paliMm": "ကညာ မဓုရံ ဂါယတိ။",
+        "paliRoman": "Kaññā madhuraṃ gāyati.",
+        "translateMm": "အမျိုးသမီးငယ်သည် သာယာစွာ သီဆို၏။",
+        "translateEn": "The maiden sings sweetly."
+      }
+    },
+    {
+      "paliMm": "ဣတ္ထံ",
+      "paliRoman": "Itthaṃ",
+      "translateMm": "ဤသို့သော အခြင်းအရာအားဖြင့်",
+      "translateEn": "Thus, in this manner",
+      "example": {
+        "paliMm": "ဆန္ဒော ဣတ္ထံ ဝဒတိ။",
+        "paliRoman": "Chando itthaṃ vadati.",
+        "translateMm": "ဆန္ဒသည် ဤသို့သော အခြင်းအရာအားဖြင့် ပြောဆို၏။",
+        "translateEn": "Chanda speaks in this manner."
+      }
+    },
+    {
+      "paliMm": "ဧဝံ",
+      "paliRoman": "Evaṃ",
+      "translateMm": "ဤသို့၊ သို့",
+      "translateEn": "Thus, so",
+      "example": {
+        "paliMm": "အာစရိယော ဧဝံ ဩဝဒတိ။",
+        "paliRoman": "Ācariyo evaṃ ovadati.",
+        "translateMm": "ဆရာသည် ဤသို့ ဆုံးမ၏။",
+        "translateEn": "The teacher advises thus."
+      }
+    },
+    {
+      "paliMm": "ကထံ",
+      "paliRoman": "Kathaṃ",
+      "translateMm": "အဘယ်သို့သော အခြင်းအရာအားဖြင့်",
+      "translateEn": "How, in what way",
+      "example": {
+        "paliMm": "တွံ ကထံ ဇာနာသိ။",
+        "paliRoman": "Tvaṃ kathaṃ jānāsi.",
+        "translateMm": "သင်သည် အဘယ်သို့သော အခြင်းအရာအားဖြင့် သိသနည်း။",
+        "translateEn": "How do you know?"
+      }
+    },
+    {
+      "paliMm": "သမံ",
+      "paliRoman": "Samaṃ",
+      "translateMm": "ညီမျှစွာ",
+      "translateEn": "Evenly, justly",
+      "example": {
+        "paliMm": "ရာဇာ သမံ ဓမ္မံ စရတိ။",
+        "paliRoman": "Rājā samaṃ dhammaṃ carati.",
+        "translateMm": "မင်းကြီးသည် ညီမျှစွာ တရားကျင့်၏။",
+        "translateEn": "The king practices the Dhamma justly."
+      }
+    },
+    {
+      "paliMm": "ဝိသမံ",
+      "paliRoman": "Visamaṃ",
+      "translateMm": "မညီမမျှ",
+      "translateEn": "Unevenly, improperly",
+      "example": {
+        "paliMm": "သော ဝိသမံ ကမ္မံ ကရောတိ။",
+        "paliRoman": "So visamaṃ kammaṃ karoti.",
+        "translateMm": "သူသည် မညီမမျှ လွဲမှားစွာ အလုပ်ကို ပြု၏။",
+        "translateEn": "He acts improperly / unevenly."
+      }
+    },
+    {
+      "paliMm": "အနုပုဗ္ဗံ",
+      "paliRoman": "Anupubbaṃ",
+      "translateMm": "အစဉ်အတိုင်း",
+      "translateEn": "Successively, gradually",
+      "example": {
+        "paliMm": "သိဿော အနုပုဗ္ဗံ သိက္ခတိ။",
+        "paliRoman": "Sisso anupubbaṃ sikkhati.",
+        "translateMm": "ကျောင်းသားသည် အစဉ်အတိုင်း သင်ယူ၏။",
+        "translateEn": "The student learns gradually / in order."
+      }
+    },
+    {
+      "paliMm": "အဘိဏှံ",
+      "paliRoman": "Abhiṇhaṃ",
+      "translateMm": "မပြတ်မကင်း၊ အမြဲမပြတ်",
+      "translateEn": "Frequently, constantly",
+      "example": {
+        "paliMm": "မုနိ အဘိဏှံ ဈာယတိ။",
+        "paliRoman": "Muni abhiṇhaṃ jhāyati.",
+        "translateMm": "ရဟန်းသည် အမြဲမပြတ် ကမ္မဋ္ဌာန်း စီးဖြန်း၏။",
+        "translateEn": "The sage meditates constantly."
+      }
+    },
+    {
+      "paliMm": "ပကာရေန",
+      "paliRoman": "Pakārena",
+      "translateMm": "ထူးခြားသော အခြင်းအရာအားဖြင့်",
+      "translateEn": "Distinctly, specifically",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော ပကာရေန ဓမ္မံ ဒေသေတိ။",
+        "paliRoman": "Paṇḍito pakārena dhammaṃ deseti.",
+        "translateMm": "ပညာရှိသည် ထူးခြားသော အခြင်းအရာအားဖြင့် တရားဟော၏။",
+        "translateEn": "The wise scholar teaches the Dhamma distinctly."
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "titleMm": "နာမ်ပုဒ်များ",
+  "titleEn": "Nouns (Nāma)",
+  "icon": "menu_book_rounded",
+  "subCategoryFiles": [
+    "subcategories/01-ralitives-and-family-members.json",
+    "subcategories/02-colors.json",
+    "subcategories/03-classroom-vocabulary.json",
+    "subcategories/04-aquatic-animals.json",
+    "subcategories/05-land-animals.json",
+    "subcategories/06-birds-flying-creatures.json",
+    "subcategories/07-apparel-and-accessories.json",
+    "subcategories/08-food-and-drinks.json",
+    "subcategories/09-fruits.json",
+    "subcategories/10-trees-and-plants.json",
+    "subcategories/11-body-parts.json",
+    "subcategories/12-household-items.json",
+    "subcategories/13-weather-and-nature.json",
+    "subcategories/14-places-towns-and-villages.json",
+    "subcategories/15-time-and-duration.json",
+    "subcategories/16-days-of-the-week.json",
+    "subcategories/17-seasons.json",
+    "subcategories/18-occupations-and-people.json"
+  ]
+}

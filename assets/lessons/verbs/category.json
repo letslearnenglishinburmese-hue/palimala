@@ -1,0 +1,24 @@
+{
+  "titleMm": "ကြိယာပုဒ်များ",
+  "titleEn": "Finite Verbs (Ākhyāta)",
+  "icon": "directions_run_rounded",
+  "subCategoryFiles": [
+    "subcategories/01-academic-learning-verbs.json",
+    "subcategories/02-emotional-verbs.json",
+    "subcategories/03-travel-verbs.json",
+    "subcategories/04-cooking-and-kitchen-verbs.json",
+    "subcategories/05-daily-life-verbs.json",
+    "subcategories/06-verbs-of-communication.json",
+    "subcategories/07-verbs-of-physical-actions-gestures.json",
+    "subcategories/08-verbs-of-governance-conflict.json",
+    "subcategories/09-verbs-of-religious-spiritual-actions.json",
+    "subcategories/10-verbs-of-commerce-trade.json",
+    "subcategories/11-verbs-of-cognition-thinking.json",
+    "subcategories/12-verbs-of-possession-giving-taking.json",
+    "subcategories/13-verbs-of-natural-phenomena.json",
+    "subcategories/14-verbs-of-cleaning-maintenance.json",
+    "subcategories/15-verbs-of-change-becoming.json",
+    "subcategories/16-verbs-of-eating-drinking.json",
+    "subcategories/17-verbs-of-living-resting.json"
+  ]
+}

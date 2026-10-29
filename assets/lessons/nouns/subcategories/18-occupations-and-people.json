@@ -1,0 +1,246 @@
+{
+  "titleMm": "အသက်မွေးဝမ်းကျောင်းနှင့် လူပုဂ္ဂိုလ်များ",
+  "titleEn": "Occupations and People",
+  "vocabList": [
+    {
+      "paliMm": "အာစရိယ (ပု)",
+      "paliRoman": "Ācariya (M)",
+      "translateMm": "ဆရာ",
+      "translateEn": "Teacher",
+      "example": {
+        "paliMm": "အာစရိယော သီဿေ သာသတိ။",
+        "paliRoman": "Ācariyo sisse sāsati.",
+        "translateMm": "ဆရာက ကျောင်းသားတွေကို သင်ပြ ဆုံးမနေတယ်။",
+        "translateEn": "The teacher instructs the students."
+      }
+    },
+    {
+      "paliMm": "သိဿ (ပု)",
+      "paliRoman": "Sissa (M)",
+      "translateMm": "ကျောင်းသား၊ တပည့်",
+      "translateEn": "Student, Pupil",
+      "example": {
+        "paliMm": "သိဿော ပါဠိံ သိက္ခတိ။",
+        "paliRoman": "Sisso pāḷiṃ sikkhati.",
+        "translateMm": "ကျောင်းသားက ပါဠိစာကို သင်ယူနေတယ်။",
+        "translateEn": "The student learns Pāḷi."
+      }
+    },
+    {
+      "paliMm": "ဝါဏိဇ (ပု)",
+      "paliRoman": "Bāṇija (M)",
+      "translateMm": "ကုန်သည်",
+      "translateEn": "Merchant, Trader",
+      "example": {
+        "paliMm": "ဝါဏိဇော အာပဏေ ဝတ္ထုံ ဝိက္ကိဏာတိ။",
+        "paliRoman": "Bāṇijo āpaṇe vatthuṃ vikkiṇāti.",
+        "translateMm": "ကုန်သည်က ဈေးထဲမှာ ပစ္စည်းတွေကို ရောင်းချနေတယ်။",
+        "translateEn": "The merchant sells goods in the market."
+      }
+    },
+    {
+      "paliMm": "ကဿက (ပု)",
+      "paliRoman": "Kassaka (M)",
+      "translateMm": "လယ်သမား",
+      "translateEn": "Farmer",
+      "example": {
+        "paliMm": "ကဿကော ခေတ္တံ ကသတိ။",
+        "paliRoman": "Kassako khettaṃ kasati.",
+        "translateMm": "လယ်သမားက လယ်ကွင်းကို ထွန်ယက်နေတယ်။",
+        "translateEn": "The farmer plows the field."
+      }
+    },
+    {
+      "paliMm": "ဝေဇ္ဇ (ပု)",
+      "paliRoman": "Vejja (M)",
+      "translateMm": "ဆရာဝန်၊ သမားတော်",
+      "translateEn": "Doctor, Physician",
+      "example": {
+        "paliMm": "ဝေဇ္ဇော ဂိလာနဿ ဩသဓံ ဒဒါတိ။",
+        "paliRoman": "Vejjo gilānassa osadhaṃ dadāti.",
+        "translateMm": "ဆရာဝန်က လူနာကို ဆေး ပေးနေတယ်။",
+        "translateEn": "The doctor gives medicine to the sick person."
+      }
+    },
+    {
+      "paliMm": "ဘူပါလ / ရာဇာ (ပု)",
+      "paliRoman": "Bhūpāla / Rājā (M)",
+      "translateMm": "မင်း၊ ဘုရင်",
+      "translateEn": "King, Ruler",
+      "example": {
+        "paliMm": "ရာဇာ ဓမ္မေန ရဋ္ဌံ ပသာသတိ။",
+        "paliRoman": "Rājā dhammena raṭṭhaṃ pasāsati.",
+        "translateMm": "ဘုရင်က တရားဓမ္မနဲ့အညီ တိုင်းပြည်ကို အုပ်ချုပ်တယ်။",
+        "translateEn": "The king rules the country righteously."
+      }
+    },
+    {
+      "paliMm": "သူပကာရ (ပု)",
+      "paliRoman": "Sūpakāra (M)",
+      "translateMm": "စားဖိုမှူး၊ ဟင်းချက်သမား",
+      "translateEn": "Cook, Chef",
+      "example": {
+        "paliMm": "သူပကာရော မဓုရံ အာဟာရံ ပစတိ။",
+        "paliRoman": "Sūpakāro madhuraṃ āhāraṃ pacati.",
+        "translateMm": "စားဖိုမှူးက အရသာရှိတဲ့ အစားအသောက်ကို ချက်ပြုတ်နေတယ်။",
+        "translateEn": "The cook prepares delicious food."
+      }
+    },
+    {
+      "paliMm": "ရဇက (ပု)",
+      "paliRoman": "Rajaka (M)",
+      "translateMm": "အဝတ်လျှော်သမား",
+      "translateEn": "Washerman",
+      "example": {
+        "paliMm": "ရဇကော နဒိယံ ဝတ္ထံ ဓောဝတိ။",
+        "paliRoman": "Rajako nadiyaṃ vatthaṃ dhovati.",
+        "translateMm": "အဝတ်လျှော်သမားက မြစ်ထဲမှာ အဝတ်တွေကို လျှော်နေတယ်။",
+        "translateEn": "The washerman washes clothes in the river."
+      }
+    },
+    {
+      "paliMm": "သုဝဏ္ဏကာရ (ပု)",
+      "paliRoman": "Suvaṇṇakāra (M)",
+      "translateMm": "ရွှေပန်းထိမ်သည်",
+      "translateEn": "Goldsmith",
+      "example": {
+        "paliMm": "သုဝဏ္ဏကာရော အလင်္ကာရံ ကရောတိ။",
+        "paliRoman": "Suvaṇṇakāro alaṅkāraṃ karoti.",
+        "translateMm": "ရွှေပန်းထိမ်သည်က အဆင်တန်ဆာ ပြုလုပ်နေတယ်။",
+        "translateEn": "The goldsmith makes ornaments."
+      }
+    },
+    {
+      "paliMm": "ဂေါပါလက (ပု)",
+      "paliRoman": "Gopālaka (M)",
+      "translateMm": "နွားကျောင်းသား",
+      "translateEn": "Herdsman, Cowherd",
+      "example": {
+        "paliMm": "ဂေါပါလော ဂါဝိယော ဝနံ နေတိ။",
+        "paliRoman": "Gopālo gāviyo vanaṃ neti.",
+        "translateMm": "နွားကျောင်းသားက နွားမတွေကို တောထဲ ဦးဆောင်ခေါ်သွားတယ်။",
+        "translateEn": "The cowherd leads the cows to the forest."
+      }
+    },
+    {
+      "paliMm": "စောရ (ပု)",
+      "paliRoman": "Cora (M)",
+      "translateMm": "သူခိုး၊ ဓားပြ",
+      "translateEn": "Thief, Robber",
+      "example": {
+        "paliMm": "စောရော ရတ္တိယံ ဓနံ ဟရတိ။",
+        "paliRoman": "Coro rattiyaṃ dhanaṃ harati.",
+        "translateMm": "သူခိုးက ညဉ့်အခါမှာ ပစ္စည်းဥစ္စာတွေကို ခိုးယူသွားတယ်။",
+        "translateEn": "The thief steals wealth at night."
+      }
+    },
+    {
+      "paliMm": "နာဝိက (ပု)",
+      "paliRoman": "Nāvika (M)",
+      "translateMm": "လှေသူကြီး၊ သင်္ဘောသား",
+      "translateEn": "Sailor, Boatman",
+      "example": {
+        "paliMm": "နာဝိကော နဒိယံ နာဝံ စာလေတိ။",
+        "paliRoman": "Nāviko nadiyaṃ nāvaṃ cāleti.",
+        "translateMm": "လှေသူကြီးက မြစ်ထဲမှာ လှေကို လှော်ခတ်မောင်းနှင်နေတယ်။",
+        "translateEn": "The sailor navigates the boat in the river."
+      }
+    },
+    {
+      "paliMm": "ကုမ္ဘကာရ (ပု)",
+      "paliRoman": "Kumbhakāra (M)",
+      "translateMm": "အိုးထိန်းသည်",
+      "translateEn": "Potter",
+      "example": {
+        "paliMm": "ကုမ္ဘကာရော မတ္တိကာယ ကုမ္ဘံ ကရောတိ။",
+        "paliRoman": "Kumbhakāro mattikāya kumbaṃ karoti.",
+        "translateMm": "အိုးထိန်းသည်က ရွံ့စေး/မြေကြီးနဲ့ အိုးကို ပြုလုပ်နေတယ်။",
+        "translateEn": "The potter makes a pot out of clay."
+      }
+    },
+    {
+      "paliMm": "ဝဍ္ဎကီ (ပု)",
+      "paliRoman": "Vaḍḍhaki (M)",
+      "translateMm": "လက်သမား",
+      "translateEn": "Carpenter",
+      "example": {
+        "paliMm": "ဝဍ္ဎကီ ကဋ္ဌေန ပီဌံ ကရောတိ။",
+        "paliRoman": "Vaḍḍhaki kaṭṭhena pīṭhaṃ karoti.",
+        "translateMm": "လက်သမားက သစ်သားနဲ့ ခုံ/ကုလားထိုင် ပြုလုပ်နေတယ်။",
+        "translateEn": "The carpenter makes a chair out of wood."
+      }
+    },
+    {
+      "paliMm": "ယောဓ (ပု)",
+      "paliRoman": "Yodha (M)",
+      "translateMm": "စစ်သူကြီး၊ စစ်သား",
+      "translateEn": "Soldier",
+      "example": {
+        "paliMm": "ယောဓော သတ္ထေန ရဋ္ဌံ ရက္ခတိ။",
+        "paliRoman": "Yodho satthena raṭṭhaṃ rakkhati.",
+        "translateMm": "စစ်သားက လက်နက်နဲ့ တိုင်းပြည်ကို ကာကွယ်တယ်။",
+        "translateEn": "The soldier protects the country with a weapon."
+      }
+    },
+    {
+      "paliMm": "ယာစက (ပု)",
+      "paliRoman": "Yācaka (M)",
+      "translateMm": "သူတောင်းစား",
+      "translateEn": "Beggar",
+      "example": {
+        "paliMm": "ယာစကော မဂ္ဂေ အာဟာရံ ယာစာတိ။",
+        "paliRoman": "Yācako magge āhāraṃ yācati.",
+        "translateMm": "သူတောင်းစားက လမ်းပေါ်မှာ အစားအသောက် တောင်းခံနေတယ်။",
+        "translateEn": "The beggar begs for food on the road."
+      }
+    },
+    {
+      "paliMm": "မာလာကာရ (ပု)",
+      "paliRoman": "Mālākāra (M)",
+      "translateMm": "ပန်းသည်၊ ပန်းသီသမား",
+      "translateEn": "Florist, Garland-maker",
+      "example": {
+        "paliMm": "မာလာကာရော ပုပ္ဖေဟိ မာလံ ကရောတိ။",
+        "paliRoman": "Mālākāro pupphehi mālaṃ karoti.",
+        "translateMm": "ပန်းသီသမားက ပန်းတွေနဲ့ ပန်းကုံး ပြုလုပ်နေတယ်။",
+        "translateEn": "The florist makes a garland with flowers."
+      }
+    },
+    {
+      "paliMm": "ဝေဏိက (ပု)",
+      "paliRoman": "Veṇika (M)",
+      "translateMm": "တူရိယာဆရာ၊ စောင်းဆရာ",
+      "translateEn": "Musician, Harpist",
+      "example": {
+        "paliMm": "ဝေဏိကော သရံ နာဒေတိ။",
+        "paliRoman": "Veṇiko saraṃ nādeti.",
+        "translateMm": "စောင်းဆရာက သာယာတဲ့ အသံမြည်အောင် တီးခတ်နေတယ်။",
+        "translateEn": "The harpist plays a melodic tune."
+      }
+    },
+    {
+      "paliMm": "ဒူတ (ပု)",
+      "paliRoman": "Dūta (M)",
+      "translateMm": "တမန်၊ သံတမန်",
+      "translateEn": "Messenger, Envoy",
+      "example": {
+        "paliMm": "ဒူတော ရာဇိနော သာသနံ အာနယတိ။",
+        "paliRoman": "Dūto rājino sāsanaṃ ānayati.",
+        "translateMm": "သံတမန်က မင်းကြီးရဲ့ သဝဏ်လွှာ/သတင်းကို ယူဆောင်လာတယ်။",
+        "translateEn": "The messenger brings the king’s message."
+      }
+    },
+    {
+      "paliMm": "ဂဏက (ပု)",
+      "paliRoman": "Gaṇaka (M)",
+      "translateMm": "ဗေဒင်ဆရာ၊ နက္ခတ်ဆရာ",
+      "translateEn": "Astrologer",
+      "example": {
+        "paliMm": "ဂဏကော နက္ခတ္တံ ပဿတိ။",
+        "paliRoman": "Gaṇako nakkhattaṃ passati.",
+        "translateMm": "ဗေဒင်ဆရာက ကြယ်နက္ခတ်တွေကို စိစစ်ကြည့်ရှုနေတယ်။",
+        "translateEn": "The astrologer examines the stars."
+      }
+    }
+  ]
+}

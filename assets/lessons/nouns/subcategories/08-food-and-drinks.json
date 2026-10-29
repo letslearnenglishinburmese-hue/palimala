@@ -1,0 +1,498 @@
+{
+  "titleMm": "အစားအသောက်များ",
+  "titleEn": "Food and Drinks",
+  "vocabList": [
+    {
+      "paliMm": "တဏ္ဍုလ (ပု)",
+      "paliRoman": "Taṇḍula (M)",
+      "translateMm": "ဆန်",
+      "translateEn": "Rice",
+      "example": {
+        "paliMm": "သော တဏ္ဍုလံ ကိဏာတိ။",
+        "paliRoman": "So taṇḍulaṃ kiṇāti.",
+        "translateMm": "သူ ဆန်ဝယ်နေတယ်။",
+        "translateEn": "He buys rice."
+      }
+    },
+    {
+      "paliMm": "သြဒန (ပု)",
+      "paliRoman": "Odana (M)",
+      "translateMm": "ထမင်း",
+      "translateEn": "Cooked rice",
+      "example": {
+        "paliMm": "သာ သြဒနံ ပစတိ။",
+        "paliRoman": "Sā odanaṃ pacati.",
+        "translateMm": "သူငယ်မလေးက ထမင်းချက်နေတယ်။",
+        "translateEn": "She is cooking rice."
+      }
+    },
+    {
+      "paliMm": "သူပ (ပု)",
+      "paliRoman": "Sūpa (M)",
+      "translateMm": "ဟင်း",
+      "translateEn": "Curry",
+      "example": {
+        "paliMm": "ဣဒံ သောနိတံ သူပံ သာဒု ဟောတိ။",
+        "paliRoman": "Idaṃ sonitaṃ sūpaṃ sādu hoti.",
+        "translateMm": "ဒီချက်ထားတဲ့ဟင်းက အရသာရှိတယ်။",
+        "translateEn": "This cooked curry is delicious."
+      }
+    },
+    {
+      "paliMm": "ဘတ္တ (န)",
+      "paliRoman": "Bhatta (N)",
+      "translateMm": "အစာ၊ တနပ်စာ",
+      "translateEn": "Meal",
+      "example": {
+        "paliMm": "သော ဘတ္တံ ဘုဉ္ဇတိ။",
+        "paliRoman": "So bhattaṃ bhuñjati.",
+        "translateMm": "သူ အစာ/ထမင်း စားနေတယ်။",
+        "translateEn": "He is eating a meal."
+      }
+    },
+    {
+      "paliMm": "ပါတရာသ (ပု)",
+      "paliRoman": "Pātarāsa (M)",
+      "translateMm": "နံနက်စာ",
+      "translateEn": "Breakfast",
+      "example": {
+        "paliMm": "အမှံ ပါတရာသံ သဇ္ဇိတံ ဟောတိ။",
+        "paliRoman": "Amhaṃ pātarāsaṃ saajjitaṃ hoti.",
+        "translateMm": "ငါတို့ရဲ့ နံနက်စာ ပြင်ဆင်ပြီးပါပြီ။",
+        "translateEn": "Our breakfast is prepared."
+      }
+    },
+    {
+      "paliMm": "ရတ္တိဘောဇန (န)",
+      "paliRoman": "Rattibhojana (N)",
+      "translateMm": "ညစာ",
+      "translateEn": "Dinner",
+      "example": {
+        "paliMm": "သော ရတ္တိဘောဇနံ ဘုဉ္ဇတိ။",
+        "paliRoman": "So rattibhojanaṃ bhuñjati.",
+        "translateMm": "သူ ညစာ စားနေတယ်။",
+        "translateEn": "He is eating dinner."
+      }
+    },
+    {
+      "paliMm": "ယာဂု (ထီ)",
+      "paliRoman": "Yāgu (F)",
+      "translateMm": "ရက်မုန့်",
+      "translateEn": "Gruel",
+      "example": {
+        "paliMm": "သာ ယာဂုံ ပိဝတိ။",
+        "paliRoman": "Sā yāguṃ pivati.",
+        "translateMm": "သူငယ်မလေးက ဆန်ပြုတ်/ရက်မုန့် သောက်နေတယ်။",
+        "translateEn": "She drinks gruel."
+      }
+    },
+    {
+      "paliMm": "ဥဒက (န)",
+      "paliRoman": "Udaka (N)",
+      "translateMm": "ရေ",
+      "translateEn": "Water",
+      "example": {
+        "paliMm": "မယှံ ဥဒကံ ဒေဟိ။",
+        "paliRoman": "Mayhaṃ udakaṃ dehi.",
+        "translateMm": "ငါ့ကို ရေပေးပါ။",
+        "translateEn": "Give me water."
+      }
+    },
+    {
+      "paliMm": "မစ္ဆ (ပု)",
+      "paliRoman": "Maccha (M)",
+      "translateMm": "ငါး",
+      "translateEn": "Fish",
+      "example": {
+        "paliMm": "မစ္ဆော ဇလေ သန္တရတိ။",
+        "paliRoman": "Maccho jale santarati.",
+        "translateMm": "ငါးက ရေထဲမှာ ကူးခတ်နေတယ်။",
+        "translateEn": "The fish swims in the water."
+      }
+    },
+    {
+      "paliMm": "သုက္ခမစ္ဆ (ပု)",
+      "paliRoman": "Sukkhamaccha (M)",
+      "translateMm": "ငါးခြောက်",
+      "translateEn": "Dried fish",
+      "example": {
+        "paliMm": "သော သုက္ခမစ္ဆံ ဘုဉ္ဇတိ။",
+        "paliRoman": "So sukkhamacchaṃ bhuñjati.",
+        "translateMm": "သူ ငါးခြောက် စားနေတယ်။",
+        "translateEn": "He eats dried fish."
+      }
+    },
+    {
+      "paliMm": "မံသ (န)",
+      "paliRoman": "Maṃsa (N)",
+      "translateMm": "အသား",
+      "translateEn": "Meat",
+      "example": {
+        "paliMm": "သော မံသံ ကိဏာတိ။",
+        "paliRoman": "So maṃsaṃ kiṇāti.",
+        "translateMm": "သူ အသား ဝယ်နေတယ်။",
+        "translateEn": "He buys meat."
+      }
+    },
+    {
+      "paliMm": "သုကရမံသ (န)",
+      "paliRoman": "Sukaramaṃsa (N)",
+      "translateMm": "ဝက်သား",
+      "translateEn": "Pork",
+      "example": {
+        "paliMm": "သာ သုကရမံသံ ပစတိ။",
+        "paliRoman": "Sā sukaramaṃsaṃ pacati.",
+        "translateMm": "သူ ဝက်သား ချက်နေတယ်။",
+        "translateEn": "She cooks pork."
+      }
+    },
+    {
+      "paliMm": "ကုက္ကုဋမံသ (န)",
+      "paliRoman": "Kukkuṭamaṃsa (N)",
+      "translateMm": "ကြက်သား",
+      "translateEn": "Fowl, Chicken",
+      "example": {
+        "paliMm": "ဣဒံ ကုက္ကုဋမံသံ သာဒု ဟောတိ။",
+        "paliRoman": "Idaṃ kukkuṭamaṃsaṃ sādu hoti.",
+        "translateMm": "ဒီကြက်သားဟင်းက အရသာရှိတယ်။",
+        "translateEn": "This chicken is delicious."
+      }
+    },
+    {
+      "paliMm": "လောဏ (န)",
+      "paliRoman": "Loṇa (N)",
+      "translateMm": "ဆား",
+      "translateEn": "Salt",
+      "example": {
+        "paliMm": "သော လောဏံ အာနယတိ။",
+        "paliRoman": "So loṇaṃ ānayati.",
+        "translateMm": "သူ ဆား ယူလာတယ်။",
+        "translateEn": "He brings salt."
+      }
+    },
+    {
+      "paliMm": "မရိစ (န)",
+      "paliRoman": "Marica (N)",
+      "translateMm": "ငရုတ်သီး",
+      "translateEn": "Capsicum, Chilli, Pepper",
+      "example": {
+        "paliMm": "မရိစံ တိက္ခံ ဟောတိ။",
+        "paliRoman": "Maricaṃ tikkhaṃ hoti.",
+        "translateMm": "ငရုတ်သီးက စပ်ပါတယ်။",
+        "translateEn": "Chilli is spicy."
+      }
+    },
+    {
+      "paliMm": "သက္ခရာ (ထီ)",
+      "paliRoman": "Sakkharā (F)",
+      "translateMm": "သကြား",
+      "translateEn": "Sugar",
+      "example": {
+        "paliMm": "သာ သက္ခရံ ခါဒတိ။",
+        "paliRoman": "Sā sakkharaṃ khādati.",
+        "translateMm": "သူငယ်မလေးက သကြား စားနေတယ်။",
+        "translateEn": "She eats sugar."
+      }
+    },
+    {
+      "paliMm": "မဓု (န)",
+      "paliRoman": "Madhu (N)",
+      "translateMm": "ပျားရည်",
+      "translateEn": "Honey",
+      "example": {
+        "paliMm": "ဣဒံ မဓု မဓုရံ ဟောတိ။",
+        "paliRoman": "Idaṃ madhu maduraṃ hoti.",
+        "translateMm": "ဒီပျားရည်က ချိုမြတ်တယ်။",
+        "translateEn": "This honey is sweet."
+      }
+    },
+    {
+      "paliMm": "ခီရ (န)",
+      "paliRoman": "Khīra (N)",
+      "translateMm": "နို့ရည်",
+      "translateEn": "Milk",
+      "example": {
+        "paliMm": "ဒါရကော ခီရံ ပိဝတိ။",
+        "paliRoman": "Dārako khīraṃ pivati.",
+        "translateMm": "ကလေးလေးက နို့သောက်နေတယ်။",
+        "translateEn": "The child drinks milk."
+      }
+    },
+    {
+      "paliMm": "တေလ (န)",
+      "paliRoman": "Tela (N)",
+      "translateMm": "ဆီ၊ နှမ်းဆီ",
+      "translateEn": "Oil",
+      "example": {
+        "paliMm": "သော တေလံ အာနယတိ။",
+        "paliRoman": "So telaṃ ānayati.",
+        "translateMm": "သူ ဆီ ယူလာခဲ့တယ်။",
+        "translateEn": "He brings oil."
+      }
+    },
+    {
+      "paliMm": "တိလ (ပု)",
+      "paliRoman": "Tila (M)",
+      "translateMm": "နှမ်း",
+      "translateEn": "Sesame",
+      "example": {
+        "paliMm": "သော တိလံ ဝပတိ။",
+        "paliRoman": "So tilaṃ vapati.",
+        "translateMm": "သူ နှမ်း စိုက်ပျိုးနေတယ်။",
+        "translateEn": "He sows sesame."
+      }
+    },
+    {
+      "paliMm": "မဓုကရသ (ပု)",
+      "paliRoman": "Madhukarasa (M)",
+      "translateMm": "ပျားရည်",
+      "translateEn": "Honey",
+      "example": {
+        "paliMm": "သော မဓုကရသံ ဘောဇနေ အာသိဉ္စတိ။",
+        "paliRoman": "So madhukarasaṃ bhojane āsiñcati.",
+        "translateMm": "သူ အစားအစာထဲမှာ ပျားရည် ဆမ်းလိုက်တယ်။",
+        "translateEn": "He pours honey on the food."
+      }
+    },
+    {
+      "paliMm": "ကာလိက / စောလင်္ဂ (န)",
+      "paliRoman": "Kālika / Colaṅga (N)",
+      "translateMm": "မုန်လာဥ၊ သစ်ဥသစ်ဖု",
+      "translateEn": "Yam, Radish",
+      "example": {
+        "paliMm": "သော ကာလိကံ ခနိတွာ အာနယတိ။",
+        "paliRoman": "So kālikaṃ khanitvā ānayati.",
+        "translateMm": "သူ တူးဖော်ပြီး သစ်ဥ/မုန်လာဥကို ယူလာတယ်။",
+        "translateEn": "He digs up and brings the yam/radish."
+      }
+    },
+    {
+      "paliMm": "မုဂ္ဂ (ပု)",
+      "paliRoman": "Mugga (M)",
+      "translateMm": "ပဲနောက်",
+      "translateEn": "Green pea, Mung bean",
+      "example": {
+        "paliMm": "သာ မုဂ္ဂံ ပစိတွာ ဘုဉ္ဇတိ။",
+        "paliRoman": "Sā muggaṃ pacitvā bhuñjati.",
+        "translateMm": "သူငယ်မလေးက ပဲနောက်ကို ချက်ပြုတ်ပြီး စားတယ်။",
+        "translateEn": "She cooks and eats green peas."
+      }
+    },
+    {
+      "paliMm": "မာသ (ပု)",
+      "paliRoman": "Māsa (M)",
+      "translateMm": "မတ်ပဲ",
+      "translateEn": "Bean, Black gram",
+      "example": {
+        "paliMm": "သော မာသံ ခေတ္တေ ဝပတိ။",
+        "paliRoman": "So māsaṃ khette vapati.",
+        "translateMm": "သူ လယ်ကွင်းထဲမှာ မတ်ပဲ စိုက်ပျိုးတယ်။",
+        "translateEn": "He sows beans in the field."
+      }
+    },
+    {
+      "paliMm": "ကလာယ (ပု)",
+      "paliRoman": "Kalāya (M)",
+      "translateMm": "ကုလားပဲ",
+      "translateEn": "Gram, Pea",
+      "example": {
+        "paliMm": "သော ကလာယံ ဘုဉ္ဇိတုံ ရုစိယတိ။",
+        "paliRoman": "So kalāyaṃ bhuñjituṃ ruciyasi.",
+        "translateMm": "သူ ကုလားပဲ စားရတာကို ကြိုက်တယ်။",
+        "translateEn": "He likes to eat gram/peas."
+      }
+    },
+    {
+      "paliMm": "သက္ခရာ / ဖာဏိတ (ထီ/န)",
+      "paliRoman": "Sakkharā / Phāṇita (F/N)",
+      "translateMm": "တင်လဲရည်၊ ထန်းလျက်",
+      "translateEn": "Treacle, Jaggery",
+      "example": {
+        "paliMm": "သော ဖာဏိတံ ယာဂုယာ မေလေတိ။",
+        "paliRoman": "So phāṇitaṃ yāguyā meleti.",
+        "translateMm": "သူ တင်လဲရည်ကို ဆန်ပြုတ်ထဲ ရောထည့်လိုက်တယ်။",
+        "translateEn": "He mixes treacle into the gruel."
+      }
+    },
+    {
+      "paliMm": "သုရာ (ထီ)",
+      "paliRoman": "Surā (F)",
+      "translateMm": "သေရည်သေရက်",
+      "translateEn": "Liquor, Alcohol",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော သုရံ န ပိဝတိ။",
+        "paliRoman": "Paṇḍito suraṃ na pivati.",
+        "translateMm": "ပညာရှိသူက သေရည်သေရက်ကို မသောက်ပါဘူး။",
+        "translateEn": "The wise person does not drink liquor."
+      }
+    },
+    {
+      "paliMm": "ထိနဇလ / အမ္ဗိလ (န)",
+      "paliRoman": "Thinajala / Ambila (N)",
+      "translateMm": "ပုံးရည်၊ ဖန်ရည်",
+      "translateEn": "Vinegar, Acid",
+      "example": {
+        "paliMm": "သာ အမ္ဗိလံ သူပေ အာသိဉ္စတိ။",
+        "paliRoman": "Sā ambilaṃ sūpe āsiñcati.",
+        "translateMm": "သူငယ်မလေးက ဟင်းထဲကို ပုံးရည်/အချဉ် ထည့်လိုက်တယ်။",
+        "translateEn": "She pours vinegar into the curry."
+      }
+    },
+    {
+      "paliMm": "ပူဝ (ပု)",
+      "paliRoman": "Pūva (M)",
+      "translateMm": "မုန့်",
+      "translateEn": "Cake, Sweetmeat",
+      "example": {
+        "paliMm": "ဒါရကော ပူဝံ ခါဒတိ။",
+        "paliRoman": "Dārako pūvaṃ khādati.",
+        "translateMm": "ကလေးလေးက မုန့် စားနေတယ်။",
+        "translateEn": "The child is eating cake/sweetmeat."
+      }
+    },
+    {
+      "paliMm": "လာဇ (ပု)",
+      "paliRoman": "Lāja (M)",
+      "translateMm": "ပေါက်ပေါက်",
+      "translateEn": "Parched grain",
+      "example": {
+        "paliMm": "သော လာဇံ ပုပ္ဖေဟိ သဒ္ဓိံ ပူဇေတိ။",
+        "paliRoman": "So lājaṃ pupphehi saddhiṃ pūjeti.",
+        "translateMm": "သူ ပေါက်ပေါက်တွေကို ပန်းတွေနဲ့အတူ လှူဒါန်းပူဇော်တယ်။",
+        "translateEn": "He offers parched grain along with flowers."
+      }
+    },
+    {
+      "paliMm": "သတ္တု (န)",
+      "paliRoman": "Sattu (N)",
+      "translateMm": "အမှုန့်၊ ပဲနုချော",
+      "translateEn": "Parched flour",
+      "example": {
+        "paliMm": "သော သတ္တုံ ဥဒကေန မေလေတွာ ပိဝတိ။",
+        "paliRoman": "So meletvā pivati.",
+        "translateMm": "သူ ပဲမှုန့်/အမှုန့်ကို ရေနဲ့ဖျော်ပြီး သောက်တယ်။",
+        "translateEn": "He mixes parched flour with water and drinks it."
+      }
+    },
+    {
+      "paliMm": "ဒဓိ (န)",
+      "paliRoman": "Dadhi (N)",
+      "translateMm": "ဒိန်ချဉ်",
+      "translateEn": "Curd",
+      "example": {
+        "paliMm": "သော ဒဓိံ မဓုနာ သဒ္ဓိံ ဘုဉ္ဇတိ။",
+        "paliRoman": "So dadhiṃ madhunā saddhiṃ bhuñjati.",
+        "translateMm": "သူ ဒိန်ချဉ်ကို ပျားရည်နဲ့ တွဲစားတယ်။",
+        "translateEn": "He eats curd with honey."
+      }
+    },
+    {
+      "paliMm": "သပ္ပိ (န)",
+      "paliRoman": "Sappi (N)",
+      "translateMm": "ထောပတ်",
+      "translateEn": "Clarified butter, Ghee",
+      "example": {
+        "paliMm": "သာ သပ္ပိံ ဘောဇနေ အာသိဉ္စတိ။",
+        "paliRoman": "Sā sappiṃ bhojane āsiñcati.",
+        "translateMm": "သူငယ်မလေးက အစားအစာထဲ ထောပတ် ထည့်လိုက်တယ်။",
+        "translateEn": "She adds clarified butter to the food."
+      }
+    },
+    {
+      "paliMm": "တက္က (န)",
+      "paliRoman": "Takka (N)",
+      "translateMm": "ရက်တက်ရည်",
+      "translateEn": "Buttermilk",
+      "example": {
+        "paliMm": "သော တက္ကံ ပိဝိတွာ တုဿတိ။",
+        "paliRoman": "So takkaṃ pivitvā tussati.",
+        "translateMm": "သူ ရက်တက်ရည် သောက်ပြီး ကျေနပ်သွားတယ်။",
+        "translateEn": "He drinks buttermilk and feels refreshed."
+      }
+    },
+    {
+      "paliMm": "နဝနီတ (န)",
+      "paliRoman": "Navanīta (N)",
+      "translateMm": "ဆီဦး",
+      "translateEn": "Fresh butter",
+      "example": {
+        "paliMm": "သာ နဝနီတံ ပတ္တေ ဌပေတိ။",
+        "paliRoman": "Sā navanītaṃ patte ṭhapeti.",
+        "translateMm": "သူငယ်မလေးက ခွက်ထဲမှာ ဆီဦးကို ထည့်ထားတယ်။",
+        "translateEn": "She puts fresh butter in the bowl."
+      }
+    },
+    {
+      "paliMm": "သာက (န)",
+      "paliRoman": "Sāka (N)",
+      "translateMm": "ဟင်းရွက်",
+      "translateEn": "Pot-herb, Leafy vegetable",
+      "example": {
+        "paliMm": "သာ သာကံ အာနယတိ။",
+        "paliRoman": "Sā sākaṃ ānayati.",
+        "translateMm": "သူငယ်မလေးက ဟင်းရွက်တွေကို ယူလာတယ်။",
+        "translateEn": "She brings leafy vegetables."
+      }
+    },
+    {
+      "paliMm": "သူပေယျပဏ္ဏဖလ (န)",
+      "paliRoman": "Sūpeyyapaṇṇaphala (N)",
+      "translateMm": "ဟင်းသီးဟင်းရွက်",
+      "translateEn": "Vegetables",
+      "example": {
+        "paliMm": "သော သူပေယျပဏ္ဏဖလံ ကိဏာတိ။",
+        "paliRoman": "So sūpeyyapaṇṇaphalaṃ kiṇāti.",
+        "translateMm": "သူ ဟင်းသီးဟင်းရွက်တွေကို ဝယ်ယူနေတယ်။",
+        "translateEn": "He is buying vegetables."
+      }
+    },
+    {
+      "paliMm": "ကောလက (ပု)",
+      "paliRoman": "Kolaka (M)",
+      "translateMm": "ငရုတ်ကောင်း",
+      "translateEn": "Pepper",
+      "example": {
+        "paliMm": "သာ ကောလကံ သူပေ အာသိဉ္စတိ။",
+        "paliRoman": "Sā kolakaṃ sūpe āsiñcati.",
+        "translateMm": "သူငယ်မလေးက ဟင်းထဲကို ငရုတ်ကောင်း ထည့်လိုက်တယ်။",
+        "translateEn": "She adds pepper to the curry."
+      }
+    },
+    {
+      "paliMm": "ပလဏ္ဍု (ပု)",
+      "paliRoman": "Palaṇḍu (M)",
+      "translateMm": "ကြက်သွန်နီ",
+      "translateEn": "Onion",
+      "example": {
+        "paliMm": "သော ပလဏ္ဍုံ ကန္တတိ။",
+        "paliRoman": "So palaṇḍuṃ kantati.",
+        "translateMm": "သူ ကြက်သွန်နီကို လှီးဖြတ်နေတယ်။",
+        "translateEn": "He is cutting onions."
+      }
+    },
+    {
+      "paliMm": "လသုဏ (န)",
+      "paliRoman": "Lasuṇa (N)",
+      "translateMm": "ကြက်သွန်ဖြူ",
+      "translateEn": "Garlic",
+      "example": {
+        "paliMm": "သာ လသုဏံ ပိသိတွာ သူပေ ဌပေတိ။",
+        "paliRoman": "Sā lasuṇaṃ pisitvā sūpe ṭhapeti.",
+        "translateMm": "သူငယ်မလေးက ကြက်သွန်ဖြူကို ထောင်းပြီး ဟင်းထဲ ထည့်လိုက်တယ်။",
+        "translateEn": "She crushes garlic and adds it to the curry."
+      }
+    },
+    {
+      "paliMm": "ဟလိဒ္ဒိ (ထီ)",
+      "paliRoman": "Haliddi (F)",
+      "translateMm": "နနွင်း",
+      "translateEn": "Turmeric",
+      "example": {
+        "paliMm": "သော ဟလိဒ္ဒိံ မံသေ မေလေတိ။",
+        "paliRoman": "So haliddiṃ maṃse meleti.",
+        "translateMm": "သူ အသားထဲကို နနွင်း ရောနယ်လိုက်တယ်။",
+        "translateEn": "He mixes turmeric with the meat."
+      }
+    }
+  ]
+}

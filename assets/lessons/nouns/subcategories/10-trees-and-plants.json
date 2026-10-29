@@ -1,0 +1,126 @@
+{
+  "titleMm": "သစ်ပင်နှင့် အပင်များ",
+  "titleEn": "Trees and Plants",
+  "vocabList": [
+    {
+      "paliMm": "ရုက္ခ (ပု)",
+      "paliRoman": "Rukkha (M)",
+      "translateMm": "သစ်ပင်",
+      "translateEn": "Tree",
+      "example": {
+        "paliMm": "မဟန္တော ရုက္ခော ဝနေ တိဋ္ဌတိ။",
+        "paliRoman": "Mahanto rukkho vane tiṭṭhati.",
+        "translateMm": "တောထဲမှာ သစ်ပင်ကြီးတစ်ပင် ရှိနေတယ်။",
+        "translateEn": "A large tree stands in the forest."
+      }
+    },
+    {
+      "paliMm": "တရု (ပု)",
+      "paliRoman": "Taru (M)",
+      "translateMm": "သစ်ပင်၊ အပင်",
+      "translateEn": "Tree, Plant",
+      "example": {
+        "paliMm": "သော တရုဿ ဆာယာယံ နိသီဒတိ။",
+        "paliRoman": "So tarussa chāyāyaṃ nisīdati.",
+        "translateMm": "သူ အပင်ရဲ့ အရိပ်မှာ ထိုင်နေတယ်။",
+        "translateEn": "He sits in the shade of the tree."
+      }
+    },
+    {
+      "paliMm": "လတာ (ထီ)",
+      "paliRoman": "Latā (F)",
+      "translateMm": "နွယ်ပင်",
+      "translateEn": "Creeper, Vine",
+      "example": {
+        "paliMm": "လတာ ရုက္ခံ ပရိဗ္ဗယောတိ။",
+        "paliRoman": "Latā rukkhaṃ paribbayoti.",
+        "translateMm": "နွယ်ပင်က သစ်ပင်ကို ရစ်ပတ်ထားတယ်။",
+        "translateEn": "The creeper twines around the tree."
+      }
+    },
+    {
+      "paliMm": "ပဏ္ဏ (န)",
+      "paliRoman": "Paṇṇa (N)",
+      "translateMm": "သစ်ရွက်",
+      "translateEn": "Leaf",
+      "example": {
+        "paliMm": "ဟရိတံ ပဏ္ဏံ ရုက္ခတော ပတတိ။",
+        "paliRoman": "Haritaṃ paṇṇaṃ rukkhato patati.",
+        "translateMm": "အစိမ်းရောင် သစ်ရွက်က သစ်ပင်ပေါ်က ပြုတ်ကျလာတယ်။",
+        "translateEn": "The green leaf falls from the tree."
+      }
+    },
+    {
+      "paliMm": "ပုပ္ဖ (န)",
+      "paliRoman": "Puppha (N)",
+      "translateMm": "ပန်းပွင့်",
+      "translateEn": "Flower",
+      "example": {
+        "paliMm": "သာ သုဂန္ဓိံ ပုပ္ဖံ အာနယတိ။",
+        "paliRoman": "Sā sugandhiṃ pupphaṃ ānayati.",
+        "translateMm": "သူငယ်မလေးက မွှေးကြိုင်တဲ့ ပန်းကို ယူလာတယ်။",
+        "translateEn": "She brings a fragrant flower."
+      }
+    },
+    {
+      "paliMm": "သာခါ (ထီ)",
+      "paliRoman": "Sākhā (F)",
+      "translateMm": "သစ်ခက်၊ သစ်ခက်သစ်နွယ်",
+      "translateEn": "Branch",
+      "example": {
+        "paliMm": "မက္ကဋော ရုက္ခဿ သာခါယံ ခိဍ္ဍတိ။",
+        "paliRoman": "Makkaṭo rukkhassa sākhāyaṃ khiḍḍati.",
+        "translateMm": "မျောက်က သစ်ပင်ရဲ့ သစ်ခက်ပေါ်မှာ ဆော့ကစားနေတယ်။",
+        "translateEn": "The monkey plays on the branch of the tree."
+      }
+    },
+    {
+      "paliMm": "မူလ (န)",
+      "paliRoman": "Mūla (N)",
+      "translateMm": "အမြစ်",
+      "translateEn": "Root",
+      "example": {
+        "paliMm": "မူလံ ဘူမိယံ ဂမ္ဘီရံ ပဝိသတိ။",
+        "paliRoman": "Mūlaṃ bhūmiyaṃ gambhīraṃ pavisati.",
+        "translateMm": "အမြစ်က မြေကြီးထဲ နက်နက်ရှိုင်းရှိုင်း ဝင်သွားတယ်။",
+        "translateEn": "The root goes deep into the ground."
+      }
+    },
+    {
+      "paliMm": "တစ (ပု/န)",
+      "paliRoman": "Taca (M/N)",
+      "translateMm": "သစ်ခေါက်၊ အခေါက်",
+      "translateEn": "Bark, Skin",
+      "example": {
+        "paliMm": "သော ရုက္ခဿ တစံ ဟရတိ။",
+        "paliRoman": "So rukkhassa tacaṃ harati.",
+        "translateMm": "သူ သစ်ပင်ရဲ့ အခေါက်ကို ခွာယူလိုက်တယ်။",
+        "translateEn": "He removes the bark of the tree."
+      }
+    },
+    {
+      "paliMm": "ဝန (န)",
+      "paliRoman": "Vana (N)",
+      "translateMm": "တော၊ သစ်တော",
+      "translateEn": "Forest, Wood",
+      "example": {
+        "paliMm": "သီဟော မဟန္တေ ဝနေ ဝသတိ။",
+        "paliRoman": "Sīho mahante vane vasati.",
+        "translateMm": "ခြင်္သေ့က သစ်တောကြီးထဲမှာ နေထိုင်တယ်။",
+        "translateEn": "The lion lives in the large forest."
+      }
+    },
+    {
+      "paliMm": "ဂစ္ဆ (ပု/န)",
+      "paliRoman": "Gaccha (M/N)",
+      "translateMm": "ခြုံပုတ်",
+      "translateEn": "Bush",
+      "example": {
+        "paliMm": "သသကော ဂစ္ဆသ္မိံ နိလီယတိ။",
+        "paliRoman": "Sasakako gacchasmiṃ nilīyati.",
+        "translateMm": "ယုန်လေးက ခြုံပုတ်ထဲမှာ ပုန်းနေတယ်။",
+        "translateEn": "The rabbit hides in the bush."
+      }
+    }
+  ]
+}

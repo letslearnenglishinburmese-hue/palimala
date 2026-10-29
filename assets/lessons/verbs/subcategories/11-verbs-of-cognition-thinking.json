@@ -1,0 +1,246 @@
+{
+  "titleMm": "သတိ၊ အသိပညာနှင့် အတွေးအခေါ်ဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Cognition & Thinking",
+  "vocabList": [
+    {
+      "paliMm": "စိန္တေတိ",
+      "paliRoman": "Cinteti",
+      "translateMm": "စဉ်းစားသည်",
+      "translateEn": "Thinks / Considers",
+      "example": {
+        "paliMm": "သော မနသာ အတ္ထံ စိန္တေတိ။",
+        "paliRoman": "So manasā atthaṃ cinteti.",
+        "translateMm": "သူ စိတ်ထဲကနေ အဓိပ္ပာယ်ကို စဉ်းစားနေတယ်။",
+        "translateEn": "He thinks of the meaning in his mind."
+      }
+    },
+    {
+      "paliMm": "ဇာနာတိ",
+      "paliRoman": "Jānāti",
+      "translateMm": "သိသည်၊ သိရှိသည်",
+      "translateEn": "Knows / Understands",
+      "example": {
+        "paliMm": "သိဿော သစ္စံ ဇာနာတိ။",
+        "paliRoman": "Sisso saccaṃ jānāti.",
+        "translateMm": "ကျောင်းသားက အမှန်တရားကို သိရှိသွားတယ်။",
+        "translateEn": "The student knows the truth."
+      }
+    },
+    {
+      "paliMm": "ဗုဇ္ဈတိ",
+      "paliRoman": "Bujjhati",
+      "translateMm": "နားလည်သည်၊ ထိုးထွင်းသိသည်",
+      "translateEn": "Comprehends / Perceives",
+      "example": {
+        "paliMm": "သော ဓမ္မံ သမ္မာ ဗုဇ္ဈတိ။",
+        "paliRoman": "So dhammaṃ sammā bujjhati.",
+        "translateMm": "သူ တရားဓမ္မကို စနစ်တကျ ထိုးထွင်းနားလည်တယ်။",
+        "translateEn": "He properly comprehends the Dhamma."
+      }
+    },
+    {
+      "paliMm": "သရတိ",
+      "paliRoman": "Sarati",
+      "translateMm": "အမှတ်ရသည်၊ သတိရသည်",
+      "translateEn": "Remembers / Recalls",
+      "example": {
+        "paliMm": "သော ပုဗ္ဗေ ကတံ သရတိ။",
+        "paliRoman": "So pubbe kataṃ sarati.",
+        "translateMm": "သူ အရင်က လုပ်ခဲ့တာကို အမှတ်ရနေတယ်။",
+        "translateEn": "He remembers what was done before."
+      }
+    },
+    {
+      "paliMm": "ဝိဇာနာတိ",
+      "paliRoman": "Vijānāti",
+      "translateMm": "ပိုင်းခြားသိသည်၊ သိမြင်သည်",
+      "translateEn": "Discerns / Cognizes",
+      "example": {
+        "paliMm": "ယတိ ရသံ ဝိဇာနာတိ။",
+        "paliRoman": "Yati rasaṃ vijānāti.",
+        "translateMm": "ရဟန်းတော်က အရသာကို ပိုင်းခြားသိမြင်တယ်။",
+        "translateEn": "The monk discerns the taste."
+      }
+    },
+    {
+      "paliMm": "သလ္လက္ခေတိ",
+      "paliRoman": "Sallakkheti",
+      "translateMm": "မှတ်သားသည်၊ သတိပြုသည်",
+      "translateEn": "Observes / Notes mentally",
+      "example": {
+        "paliMm": "သော လက္ခဏံ သလ္လက္ခေတိ။",
+        "paliRoman": "So lakkhaṇaṃ sallakkheti.",
+        "translateMm": "သူ အမှတ်လက္ခဏာကို သေချာ စိစစ်မှတ်သားတယ်။",
+        "translateEn": "He mentally notes the characteristic."
+      }
+    },
+    {
+      "paliMm": "သဒ္ဓဟတိ",
+      "paliRoman": "Saddahati",
+      "translateMm": "ယုံကြည်သည်",
+      "translateEn": "Believes / Has faith",
+      "example": {
+        "paliMm": "ဥပါသကော ဗုဒ္ဓဿ ဝစနံ သဒ္ဓဟတိ။",
+        "paliRoman": "Upāsako buddhassa vacanaṃ saddahati.",
+        "translateMm": "ဥပါသကာက ဘုရားရှင်၏ စကားတော်ကို ယုံကြည်တယ်။",
+        "translateEn": "The lay devotee believes the word of the Buddha."
+      }
+    },
+    {
+      "paliMm": "ဝီမံသတိ",
+      "paliRoman": "Vīmaṃsati",
+      "translateMm": "စုံစမ်းစိစစ်သည်",
+      "translateEn": "Investigates / Examines",
+      "example": {
+        "paliMm": "သိဿော ဓမ္မံ ဝီမံသတိ။",
+        "paliRoman": "Sisso dhammaṃ vīmaṃsati.",
+        "translateMm": "ကျောင်းသားက တရားအကြောင်းကို စုံစမ်းစိစစ်နေတယ်။",
+        "translateEn": "The student investigates the doctrine."
+      }
+    },
+    {
+      "paliMm": "နိစ္ဆယံ ကရောတိ",
+      "paliRoman": "Nicchayaṃ karoti",
+      "translateMm": "ဆုံးဖြတ်သည်၊ အတည်ပြုသည်",
+      "translateEn": "Decides / Determines",
+      "example": {
+        "paliMm": "သော ကမ္မသ္မိံ နိစ္ဆယံ ကရောတိ။",
+        "paliRoman": "So kammasmiṃ nicchayaṃ karoti.",
+        "translateMm": "သူ အလုပ်နဲ့ ပတ်သက်ပြီး ဆုံးဖြတ်ချက် ချလိုက်တယ်။",
+        "translateEn": "He makes a decision regarding the work."
+      }
+    },
+    {
+      "paliMm": "ပညာယတိ",
+      "paliRoman": "Paññāyati",
+      "translateMm": "ထင်ရှားသိမြင်သည်၊ ပေါ်လွင်သည်",
+      "translateEn": "Is perceived / Manifests",
+      "example": {
+        "paliMm": "အတ္ထော သမ္မာ ပညာယတိ။",
+        "paliRoman": "Attho sammā paññāyati.",
+        "translateMm": "အဓိပ္ပာယ်က စနစ်တကျ ထင်ရှားပေါ်လွင်လာတယ်။",
+        "translateEn": "The meaning is clearly perceived."
+      }
+    },
+    {
+      "paliMm": "အဝဗုဇ္ဈတိ",
+      "paliRoman": "Avabujjhati",
+      "translateMm": "သဘောပေါက်သည်၊ နားလည်သည်",
+      "translateEn": "Grasps / Understands",
+      "example": {
+        "paliMm": "သော ဂဟိတတ္ထံ အဝဗုဇ္ဈတိ။",
+        "paliRoman": "So gahitatthaṃ avabujjhati.",
+        "translateMm": "သူ သင်ယူခဲ့တဲ့ အဓိပ္ပာယ်ကို သဘောပေါက်သွားတယ်။",
+        "translateEn": "He grasps the learned meaning."
+      }
+    },
+    {
+      "paliMm": "သမနုပဿတိ",
+      "paliRoman": "Samanupassati",
+      "translateMm": "အဖန်ဖန် ရှုမြင်သည်၊ သုံးသပ်သည်",
+      "translateEn": "Considers / Contemplates",
+      "example": {
+        "paliMm": "သော ခန္ဓေ အနိစ္စတော သမနုပဿတိ။",
+        "paliRoman": "So khandhe aniccato samanupassati.",
+        "translateMm": "သူ ခန္ဓာငါးပါးကို အနိစ္စအဖြစ် အဖန်ဖန် ရှုမြင်သုံးသပ်တယ်။",
+        "translateEn": "He contemplates the aggregates as impermanent."
+      }
+    },
+    {
+      "paliMm": "ဥပပရိက္ခတိ",
+      "paliRoman": "Upaparikkhati",
+      "translateMm": "စုံစမ်းစစ်ဆေးသည်",
+      "translateEn": "Inspects / Scrutinizes",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော နယံ ဥပပရိက္ခတိ။",
+        "paliRoman": "Paṇḍito nayaṃ upaparikkhati.",
+        "translateMm": "ပညာရှိက အကြောင်းနည်းလမ်းကို သေချာ စုံစမ်းစစ်ဆေးတယ်။",
+        "translateEn": "The wise person scrutinizes the method."
+      }
+    },
+    {
+      "paliMm": "ကင်္ခတိ",
+      "paliRoman": "Kaṅkhati",
+      "translateMm": "တွေးတောယုံမှားဖြစ်သည်၊ သံသယရှိသည်",
+      "translateEn": "Doubts / Hesitates",
+      "example": {
+        "paliMm": "သော မဂ္ဂေ ကင်္ခတိ။",
+        "paliRoman": "So magge kaṅkhati.",
+        "translateMm": "သူ လမ်းကြောင်းအပေါ် သံသယဖြစ်နေတယ်။",
+        "translateEn": "He doubts about the path."
+      }
+    },
+    {
+      "paliMm": "ပကပ္ပေတိ",
+      "paliRoman": "Pakappeti",
+      "translateMm": "ကြံစည်သည်၊ အယူအဆပြုသည်",
+      "translateEn": "Imagines / Conceptualizes",
+      "example": {
+        "paliMm": "သော အဘူတံ အတ္ထံ ပကပ္ပေတိ။",
+        "paliRoman": "So abhūtaṃ atthaṃ pakappeti.",
+        "translateMm": "သူ မဟုတ်မမှန်တဲ့ အဓိပ္ပာယ်ကို စိတ်ကူးကြံဆနေတယ်။",
+        "translateEn": "He imagines an untrue meaning."
+      }
+    },
+    {
+      "paliMm": "မနသိ ကရောတိ",
+      "paliRoman": "Manasi karoti",
+      "translateMm": "နှလုံးသွင်းသည်၊ စိတ်ထဲထားသည်",
+      "translateEn": "Attends to / Pays attention",
+      "example": {
+        "paliMm": "သော သာဓုကံ မနသိ ကရောတိ။",
+        "paliRoman": "So sādhukaṃ manasi karoti.",
+        "translateMm": "သူ ကောင်းကောင်းမွန်မွန် နှလုံးသွင်းထားတယ်။",
+        "translateEn": "He pays careful attention to it."
+      }
+    },
+    {
+      "paliMm": "ပရိဝိတက္ကေတိ",
+      "paliRoman": "Parivitakketi",
+      "translateMm": "ကြံဆတွေးတောသည်",
+      "translateEn": "Ponders / Reflects",
+      "example": {
+        "paliMm": "သော မနသာ ပရိဝိတက္ကေတိ။",
+        "paliRoman": "So manasā parivitakketi.",
+        "translateMm": "သူ စိတ်ထဲကနေ အကျယ်တဝင့် ကြံဆတွေးတောနေတယ်။",
+        "translateEn": "He ponders thoroughly in his mind."
+      }
+    },
+    {
+      "paliMm": "ပဿတိ",
+      "paliRoman": "Passati",
+      "translateMm": "အသိဉာဏ်ဖြင့် မြင်သည်၊ သဘောပေါက်သည်",
+      "translateEn": "Sees intellectually / Perceives",
+      "example": {
+        "paliMm": "သော ဉာဏေန ဓမ္မံ ပဿတိ။",
+        "paliRoman": "So ñāṇena dhammaṃ passati.",
+        "translateMm": "သူ အသိဉာဏ်နဲ့ တရားသဘောကို မြင်တွေ့သွားတယ်။",
+        "translateEn": "He sees the truth with knowledge."
+      }
+    },
+    {
+      "paliMm": "မုဿတိ",
+      "paliRoman": "Mussati",
+      "translateMm": "မေ့လျော့သည်၊ သတိလွတ်သည်",
+      "translateEn": "Forgets",
+      "example": {
+        "paliMm": "သော ဥဂ္ဂဟိတံ မုဿတိ။",
+        "paliRoman": "So uggahitaṃ mussati.",
+        "translateMm": "သူ သင်ယူထားတာကို မေ့လျော့သွားတယ်။",
+        "translateEn": "He forgets what was learned."
+      }
+    },
+    {
+      "paliMm": "နိဇ္ဈာယတိ",
+      "paliRoman": "Nijjhāyati",
+      "translateMm": "နက်နက်နဲနဲ ရှုမြင်သည်",
+      "translateEn": "Comprehends deeply / Reflects",
+      "example": {
+        "paliMm": "သော ဓမ္မံ နိဇ္ဈာယတိ။",
+        "paliRoman": "So dhammaṃ nijjhāyati.",
+        "translateMm": "သူ တရားသဘောကို နက်နက်နဲနဲ စိစစ်ရှုမြင်တယ်။",
+        "translateEn": "He reflects deeply on the Dhamma."
+      }
+    }
+  ]
+}

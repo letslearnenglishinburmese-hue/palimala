@@ -1,0 +1,186 @@
+{
+  "titleMm": "အခြေအနေပြနိပါတ်ပုဒ်များ",
+  "titleEn": "Manner Particles",
+  "vocabList": [
+    {
+      "paliMm": "ဧဝံ",
+      "paliRoman": "Evaṃ",
+      "translateMm": "ဤသို့ / ဤကဲ့သို့",
+      "translateEn": "Thus / In this way",
+      "example": {
+        "paliMm": "ဧဝံ မေ သုတံ။",
+        "paliRoman": "Evaṃ me sutaṃ.",
+        "translateMm": "အကျွန်ုပ်သည် ဤသို့ ကြားနာခဲ့ရပါ၏။",
+        "translateEn": "Thus have I heard."
+      }
+    },
+    {
+      "paliMm": "ကထံ",
+      "paliRoman": "Kathaṃ",
+      "translateMm": "မည်သို့ / ဘယ်လို",
+      "translateEn": "How / In what way",
+      "example": {
+        "paliMm": "တွံ ကထံ ပါဠိဘာသံ သိက္ခသိ?",
+        "paliRoman": "Tvaṃ kathaṃ pāḷibhāsaṃ sikkhasi?",
+        "translateMm": "သင်သည် ပါဠိဘာသာစကားကို မည်သို့ လေ့လာသင်ယူသနည်း။",
+        "translateEn": "How do you learn the Pali language?"
+      }
+    },
+    {
+      "paliMm": "သဟသာ",
+      "paliRoman": "Sahasā",
+      "translateMm": "ရုတ်တရက် / စေ့စပ်မှုမရှိဘဲ",
+      "translateEn": "Suddenly / Rashly",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော ကိစ္စံ သဟသာ န ကရောတိ။",
+        "paliRoman": "Paṇḍito kiccaṃ sahasā na karoti.",
+        "translateMm": "ပညာရှိသည် အလုပ်ကို စေ့စပ်မှုမရှိဘဲ မပြုလုပ်။",
+        "translateEn": "A wise person does not act rashly."
+      }
+    },
+    {
+      "paliMm": "ပုန",
+      "paliRoman": "Puna",
+      "translateMm": "ထပ်မံ၍ / နောက်တစ်ကြိမ်",
+      "translateEn": "Again",
+      "example": {
+        "paliMm": "သိဿော ပေါတ္ထကံ ပုန ပဌတိ။",
+        "paliRoman": "Sisso potthakaṃ puna paṭhati.",
+        "translateMm": "ကျောင်းသားသည် စာအုပ်ကို ထပ်မံ၍ ဖတ်၏။",
+        "translateEn": "The student reads the book again."
+      }
+    },
+    {
+      "paliMm": "သီဃံ",
+      "paliRoman": "Sīghaṃ",
+      "translateMm": "လျင်မြန်စွာ",
+      "translateEn": "Quickly, fast",
+      "example": {
+        "paliMm": "ယာနံ သီဃံ အာဂစ္ဆတိ။",
+        "paliRoman": "Yānaṃ sīghaṃ āgacchati.",
+        "translateMm": "ယာဉ်သည် လျင်မြန်စွာ လာ၏။",
+        "translateEn": "The vehicle comes quickly."
+      }
+    },
+    {
+      "paliMm": "သဏိကံ",
+      "paliRoman": "Saṇikaṃ",
+      "translateMm": "ဖြည်းဖြည်း / စိစစ်စွာ",
+      "translateEn": "Slowly, carefully",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော သဏိကံ ဝိစိနောတိ။",
+        "paliRoman": "Paṇḍito saṇikaṃ vicināti.",
+        "translateMm": "ပညာရှိသည် ဖြည်းဖြည်းစိစစ်၍ သုတေသနပြု၏။",
+        "translateEn": "The scholar investigates carefully."
+      }
+    },
+    {
+      "paliMm": "သုဋ္ဌု",
+      "paliRoman": "Suṭṭhu",
+      "translateMm": "ကောင်းစွာ / နိုင်နင်းစွာ",
+      "translateEn": "Well, thoroughly",
+      "example": {
+        "paliMm": "ဝိညူ ဓမ္မံ သုဋ္ဌု ဝိပဿတိ။",
+        "paliRoman": "Viññū dhammaṃ suṭṭhu vipassati.",
+        "translateMm": "ပညာရှိသည် သဘောတရားကို ကောင်းစွာ လေ့လာသုံးသပ်၏။",
+        "translateEn": "The wise person observes the phenomenon thoroughly."
+      }
+    },
+    {
+      "paliMm": "သုခေန",
+      "paliRoman": "Sukhena",
+      "translateMm": "ချမ်းသာစွာ / လွယ်ကူစွာ",
+      "translateEn": "Happily, easily",
+      "example": {
+        "paliMm": "ဇနာ သုခေန ဝသန္တိ။",
+        "paliRoman": "Janā sukhena vasanti.",
+        "translateMm": "လူတို့သည် ချမ်းသာစွာ နေထိုင်ကြ၏။",
+        "translateEn": "People live happily."
+      }
+    },
+    {
+      "paliMm": "ဒုက္ခေန",
+      "paliRoman": "Dukkhena",
+      "translateMm": "ဆင်းရဲစွာ / ခက်ခဲစွာ",
+      "translateEn": "With difficulty, painfully",
+      "example": {
+        "paliMm": "သော ဒုက္ခေန မဂ္ဂံ ဂစ္ဆတိ။",
+        "paliRoman": "So dukkhena maggaṃ gacchati.",
+        "translateMm": "သူသည် ခက်ခဲဆင်းရဲစွာ လမ်းခရီးသို့ သွား၏။",
+        "translateEn": "He travels the road with difficulty."
+      }
+    },
+    {
+      "paliMm": "သဗ္ဗထာ",
+      "paliRoman": "Sabbathā",
+      "translateMm": "အလုံးစုံသော နည်းဖြင့် / တိုင်း",
+      "translateEn": "In every way, completely",
+      "example": {
+        "paliMm": "သိဿော သဗ္ဗထာ ကိစ္စံ သမ္ပာဒေတိ။",
+        "paliRoman": "Sisso sabbathā kiccaṃ sampādeti.",
+        "translateMm": "ကျောင်းသားသည် အလုံးစုံသော နည်းလမ်းဖြင့် တာဝန်ကို ပြီးမြောက်အောင် ဆောင်ရွက်၏။",
+        "translateEn": "The student completes the duty in every way."
+      }
+    },
+    {
+      "paliMm": "သယံ",
+      "paliRoman": "Sayaṃ",
+      "translateMm": "ကိုယ်တိုင် / မိမိဘာသာ",
+      "translateEn": "By oneself, personally",
+      "example": {
+        "paliMm": "လေခကော သယံ လိခတိ။",
+        "paliRoman": "Lekhako sayaṃ cāmūṃ likhati.",
+        "translateMm": "စာရေးသူသည် မိမိကိုယ်တိုင် ရေးသား၏။",
+        "translateEn": "The writer writes by himself."
+      }
+    },
+    {
+      "paliMm": "မုသာ",
+      "paliRoman": "Musā",
+      "translateMm": "မဟုတ်မမှန် / မုသာဝါဒဖြင့်",
+      "translateEn": "Falsely, untruthfully",
+      "example": {
+        "paliMm": "ဒုဇ္ဇနော မုသာ ဘာသတိ။",
+        "paliRoman": "Dujjano musā bhāsati.",
+        "translateMm": "သူယုတ်မာသည် မဟုတ်မမှန် စကားကို ပြောဆို၏။",
+        "translateEn": "The bad person speaks falsely."
+      }
+    },
+    {
+      "paliMm": "သစ္စံ",
+      "paliRoman": "Saccaṃ",
+      "translateMm": "အမှန်အတိုင်း / စိစစ်စွာ",
+      "translateEn": "Truly, truthfully",
+      "example": {
+        "paliMm": "ဂန္ထကာရော သစ္စံ နိဒ္ဒိသတိ။",
+        "paliRoman": "Ganthakāro saccaṃ niddisati.",
+        "translateMm": "စာရေးဆရာသည် အမှန်အတိုင်း ညွှန်ပြဖော်ပြ၏။",
+        "translateEn": "The author indicates truthfully."
+      }
+    },
+    {
+      "paliMm": "ပုနပ္ပုနံ",
+      "paliRoman": "Punappunaṃ",
+      "translateMm": "ဖန်ဖန် / အထပ်ထပ်",
+      "translateEn": "Repeatedly, again and again",
+      "example": {
+        "paliMm": "သိဿော ပုနပ္ပုနံ ဂန္ထံ ပဌတိ။",
+        "paliRoman": "Sisso punappunaṃ ganthaṃ paṭhati.",
+        "translateMm": "ကျောင်းသားသည် ကျမ်းဂန်ကို အထပ်ထပ် ဖတ်ရှုလေ့လာ၏။",
+        "translateEn": "The student reads the text repeatedly."
+      }
+    },
+    {
+      "paliMm": "အထ",
+      "paliRoman": "Atha",
+      "translateMm": "ထို့နောက်",
+      "translateEn": "Then / Thereupon",
+      "example": {
+        "paliMm": "အထ အာစရိယော သုတ္တံ ဝါစေတိ။",
+        "paliRoman": "Atha ācariyo suttaṃ vāceti.",
+        "translateMm": "ထို့နောက် ဆရာသည် သုတ်ဒေသနာကို သင်ကြားပေး၏။",
+        "translateEn": "Then the teacher teaches the discourse."
+      }
+    }
+  ]
+}

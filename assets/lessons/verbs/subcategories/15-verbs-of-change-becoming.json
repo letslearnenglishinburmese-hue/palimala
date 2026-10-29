@@ -1,0 +1,246 @@
+{
+  "titleMm": "ပြောင်းလဲခြင်းနှင့် ဖြစ်ပေါ်လာခြင်းဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Change & Becoming",
+  "vocabList": [
+    {
+      "paliMm": "ဟောတိ / ဘဝတိ",
+      "paliRoman": "Hoti / Bhavati",
+      "translateMm": "ဖြစ်သည်၊ ဖြစ်ပေါ်သည်",
+      "translateEn": "Becomes / Exists",
+      "example": {
+        "paliMm": "သော ပဏ္ဍိတော ဟောတိ။",
+        "paliRoman": "So paṇḍito hoti.",
+        "translateMm": "သူ ပညာရှိတစ်ယောက် ဖြစ်လာတယ်။",
+        "translateEn": "He becomes a wise man."
+      }
+    },
+    {
+      "paliMm": "ဇာယတိ",
+      "paliRoman": "Jāyati",
+      "translateMm": "ဖြစ်ပေါ်သည်၊ မွေးဖွားသည်",
+      "translateEn": "Arises / Is born",
+      "example": {
+        "paliMm": "ကုလသ္မိံ ဒါရကော ဇာယတိ။",
+        "paliRoman": "Kulasmiṃ dārako jāyati.",
+        "translateMm": "အမျိုးအနွယ်ထဲမှာ သားငယ်လေး မွေးဖွားလာတယ်။",
+        "translateEn": "A child is born in the family."
+      }
+    },
+    {
+      "paliMm": "ပရိဏမတိ",
+      "paliRoman": "Pariṇamati",
+      "translateMm": "ပြောင်းလဲသည်၊ ကျက်သည်",
+      "translateEn": "Changes / Transforms / Digests",
+      "example": {
+        "paliMm": "အာဟာရော သုခေန ပရိဏမတိ။",
+        "paliRoman": "Āhāro sukhena pariṇamati.",
+        "translateMm": "အစားအသောက်က အစာအိမ်ထဲမှာ သက်သောင့်သက်သာ ကြေညက်သွားတယ်။",
+        "translateEn": "The food digests easily."
+      }
+    },
+    {
+      "paliMm": "ဝဍ္ဎတိ",
+      "paliRoman": "Vaḍḍhati",
+      "translateMm": "ကြီးထွားသည်၊ တိုးတက်သည်",
+      "translateEn": "Grows / Increases",
+      "example": {
+        "paliMm": "ရုက္ခော မဟန္တော ဝဍ္ဎတိ။",
+        "paliRoman": "Rukkho mahanto vaḍḍhati.",
+        "translateMm": "သစ်ပင်ကြီးက တဖြည်းဖြည်း ကြီးထွားလာတယ်။",
+        "translateEn": "The tree grows big."
+      }
+    },
+    {
+      "paliMm": "ခီယတိ",
+      "paliRoman": "Khīyati",
+      "translateMm": "ကုန်ခမ်းသည်၊ ဆုတ်ယုတ်သည်",
+      "translateEn": "Decays / Wastes away",
+      "example": {
+        "paliMm": "အာယု ဒိဝသေ ဒိဝသေ ခီယတိ။",
+        "paliRoman": "Āyu divase divase khīyati.",
+        "translateMm": "အသက်အရွယ်က တစ်နေ့ထက်တစ်နေ့ ကုန်ခမ်းဆုတ်ယုတ်လာတယ်။",
+        "translateEn": "Life wastes away day by day."
+      }
+    },
+    {
+      "paliMm": "မီယတိ / မရတိ",
+      "paliRoman": "Mīyati / Marati",
+      "translateMm": "သေဆုံးသည်",
+      "translateEn": "Dies / Passes away",
+      "example": {
+        "paliMm": "သဗ္ဗေ သတ္တာ မီယန္တိ။",
+        "paliRoman": "Sabbe sattā mīyanti.",
+        "translateMm": "သတ္တဝါအားလုံး သေဆုံးကြရတယ်။",
+        "translateEn": "All living beings die."
+      }
+    },
+    {
+      "paliMm": "နိဗ္ဗတ္တတိ",
+      "paliRoman": "Nibbattati",
+      "translateMm": "ဖြစ်ထွန်းသည်၊ ဖြစ်ပေါ်သည်",
+      "translateEn": "Is reborn / Comes into existence",
+      "example": {
+        "paliMm": "သော သဂ္ဂေ နိဗ္ဗတ္တတိ။",
+        "paliRoman": "So sagge nibbattati.",
+        "translateMm": "သူ နတ်ပြည်မှာ ဖြစ်ပေါ်လာတယ်။",
+        "translateEn": "He is reborn in the heavenly realm."
+      }
+    },
+    {
+      "paliMm": "ဝိပရိဏမတိ",
+      "paliRoman": "Vipariṇamati",
+      "translateMm": "အခြားသို့ ပြောင်းလဲသည်၊ ဖောက်ပြန်သည်",
+      "translateEn": "Alters / Changes",
+      "example": {
+        "paliMm": "ရူပံ အနိစ္စံ ဝိပရိဏမတိ။",
+        "paliRoman": "Rūpaṃ aniccaṃ vipariṇamati.",
+        "translateMm": "ရုပ်တရားက အနိစ္စဖြစ်ပြီး ဖောက်ပြန်ပြောင်းလဲတယ်။",
+        "translateEn": "Form is impermanent and alters."
+      }
+    },
+    {
+      "paliMm": "အတ္ထံ ဂစ္ဆတိ / ဝိနဿတိ",
+      "paliRoman": "Atthaṃ gacchati / Vinassati",
+      "translateMm": "ပျက်စီးသည်၊ ပျောက်ကွယ်သည်",
+      "translateEn": "Perishes / Disappears",
+      "example": {
+        "paliMm": "သဗ္ဗေ သင်္ခါရာ ဝိနဿန္တိ။",
+        "paliRoman": "Sabbe saṅkhārā vinassanti.",
+        "translateMm": "သင်္ခါရတရားအားလုံး ပျက်စီးသွားကြတယ်။",
+        "translateEn": "All conditioned things perish."
+      }
+    },
+    {
+      "paliMm": "ဥပ္ပဇ္ဇတိ",
+      "paliRoman": "Uppajjati",
+      "translateMm": "ဖြစ်ပေါ်လာသည်၊ ပေါ်ပေါက်သည်",
+      "translateEn": "Arises / Originates",
+      "example": {
+        "paliMm": "စိတ္တသ္မိံ ဉာဏံ ဥပ္ပဇ္ဇတိ။",
+        "paliRoman": "Cittasmiṃ ñāṇaṃ uppajjati.",
+        "translateMm": "စိတ်ထဲမှာ အသိဉာဏ် ဖြစ်ပေါ်လာတယ်။",
+        "translateEn": "Knowledge arises in the mind."
+      }
+    },
+    {
+      "paliMm": "အန္တရဓာယတိ",
+      "paliRoman": "Antaradhāyati",
+      "translateMm": "ကွယ်ပျောက်သည်",
+      "translateEn": "Vanishes / Disappears",
+      "example": {
+        "paliMm": "အာကာသေ မေဃော အန္တရဓာယတိ။",
+        "paliRoman": "Ākāse megho antaradhāyati.",
+        "translateMm": "ကောင်းကင်မှာ မိုးတိမ်က ကွယ်ပျောက်သွားတယ်။",
+        "translateEn": "The cloud vanishes in the sky."
+      }
+    },
+    {
+      "paliMm": "ပါတုဘဝတိ",
+      "paliRoman": "Pātubhavati",
+      "translateMm": "ထင်ရှားဖြစ်ပေါ်သည်၊ ပေါ်ထွန်းသည်",
+      "translateEn": "Appears / Manifests",
+      "example": {
+        "paliMm": "လောကသ္မိံ ဗုဒ္ဓေါ ပါတုဘဝတိ။",
+        "paliRoman": "Lokasmiṃ buddho pātubhavati.",
+        "translateMm": "လောကမှာ ဘုရားရှင် ပွင့်ထွန်းပေါ်ပေါက်လာတော်မူတယ်။",
+        "translateEn": "The Buddha appears in the world."
+      }
+    },
+    {
+      "paliMm": "ပစတိ",
+      "paliRoman": "Pacati",
+      "translateMm": "ကျက်သည်၊ မှည့်သည်",
+      "translateEn": "Ripens / Cooks",
+      "example": {
+        "paliMm": "ရုက္ခသ္မိံ ဖလံ ပစတိ။",
+        "paliRoman": "Rukkhasmiṃ phalaṃ pacati.",
+        "translateMm": "သစ်ပင်မှာ အသီးက မှည့်ဝင်းလာတယ်။",
+        "translateEn": "The fruit ripens on the tree."
+      }
+    },
+    {
+      "paliMm": "ဇီရတိ",
+      "paliRoman": "Jīrati",
+      "translateMm": "အိုမင်းသည်၊ ဇရာရောက်သည်",
+      "translateEn": "Grows old / Decays",
+      "example": {
+        "paliMm": "ကာယော သဗ္ဗော ဇီရတိ။",
+        "paliRoman": "Kāyo sabbo jīrati.",
+        "translateMm": "ခန္ဓာကိုယ်တစ်ခုလုံး အိုမင်းဆုတ်ယုတ်လာတယ်။",
+        "translateEn": "The whole body grows old."
+      }
+    },
+    {
+      "paliMm": "သန္တပ္ပတိ",
+      "paliRoman": "Santappati",
+      "translateMm": "ပူလောင်သည်၊ ဆင်းရဲပင်ပန်းသည်",
+      "translateEn": "Is distressed / Burns",
+      "example": {
+        "paliMm": "သော သောကေန သန္တပ္ပတိ။",
+        "paliRoman": "So sokena santappati.",
+        "translateMm": "သူ စိုးရိမ်မှုနဲ့ ပူလောင်နေရတယ်။",
+        "translateEn": "He burns with sorrow."
+      }
+    },
+    {
+      "paliMm": "ပရိဟီယတိ",
+      "paliRoman": "Parihīyati",
+      "translateMm": "လျော့ပါးသည်၊ ဆုတ်ယုတ်သည်",
+      "translateEn": "Declines / Dwindles",
+      "example": {
+        "paliMm": "တဿ ဓနံ ပရိဟီယတိ။",
+        "paliRoman": "Tassa dhanaṃ parihīyati.",
+        "translateMm": "သူ့ရဲ့ ပစ္စည်းဥစ္စာတွေ လျော့ပါးဆုတ်ယုတ်သွားတယ်။",
+        "translateEn": "His wealth declines."
+      }
+    },
+    {
+      "paliMm": "အဘိဝဍ္ဎတိ",
+      "paliRoman": "Abhivaḍḍhati",
+      "translateMm": "ပိုမိုကြီးထွားသည်၊ တိုးတက်ဖြစ်ထွန်းသည်",
+      "translateEn": "Flourishes / Thrives",
+      "example": {
+        "paliMm": "တဿ ပညာ အဘိဝဍ္ဎတိ။",
+        "paliRoman": "Tassa paññā abhivaḍḍhati.",
+        "translateMm": "သူ့ရဲ့ အသိပညာက ပိုမို တိုးတက်ပွားများလာတယ်။",
+        "translateEn": "His wisdom flourishes."
+      }
+    },
+    {
+      "paliMm": "ဘိဇ္ဇတိ",
+      "paliRoman": "Bhijjati",
+      "translateMm": "ပျက်စီးသည်၊ ကွဲအက်သည်",
+      "translateEn": "Breaks up / Dissolves",
+      "example": {
+        "paliMm": "ကာယော မရဏေ ဘိဇ္ဇတိ။",
+        "paliRoman": "Kāyo maraṇe bhijjati.",
+        "translateMm": "သေလွန်တဲ့အခါ ခန္ဓာကိုယ်က ပျက်စီးသွားတယ်။",
+        "translateEn": "The body dissolves at death."
+      }
+    },
+    {
+      "paliMm": "ပဟီယတိ",
+      "paliRoman": "Pahīyati",
+      "translateMm": "ကင်းကွာသည်၊ ပပျောက်သည်",
+      "translateEn": "Disappears / Is eliminated",
+      "example": {
+        "paliMm": "တဿ ကိလေသော ပဟီယတိ။",
+        "paliRoman": "Tassa kileso pahīyati.",
+        "translateMm": "သူ့ရဲ့ ကိလေသာတရားတွေ ကင်းကွာပပျောက်သွားတယ်။",
+        "translateEn": "His defilements are eliminated."
+      }
+    },
+    {
+      "paliMm": "သန္တိဋ္ဌတိ",
+      "paliRoman": "Santiṭṭhati",
+      "translateMm": "တည်ငြိမ်လာသည်၊ ဖြစ်တည်လာသည်",
+      "translateEn": "Settles / Remains established",
+      "example": {
+        "paliMm": "စိတ္တံ သမာဓိမှိ သန္တိဋ္ဌတိ။",
+        "paliRoman": "Cittaṃ samādhimhi santiṭṭhati.",
+        "translateMm": "စိတ်က သမာဓိမှာ တည်ငြိမ်လာတယ်။",
+        "translateEn": "The mind becomes established in concentration."
+      }
+    }
+  ]
+}

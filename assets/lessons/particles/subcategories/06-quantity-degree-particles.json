@@ -1,0 +1,126 @@
+{
+  "titleMm": "ပမာဏပြ နိပါတ်ပုဒ်များ",
+  "titleEn": "Quantity / Degree Particles",
+  "vocabList": [
+    {
+      "paliMm": "ကိတ္တကံ",
+      "paliRoman": "Kittakaṃ",
+      "translateMm": "မည်မျှလောက်",
+      "translateEn": "How much",
+      "example": {
+        "paliMm": "တွံ ကိတ္တကံ ဓနံ ဣစ္ဆသိ။",
+        "paliRoman": "Tvaṃ kittakaṃ dhanaṃ icchasi.",
+        "translateMm": "သင်သည် မည်မျှလောက်သော ဥစ္စာကို အလိုရှိသနည်း။",
+        "translateEn": "How much wealth do you desire?"
+      }
+    },
+    {
+      "paliMm": "ဧတ္တကံ",
+      "paliRoman": "Ettakaṃ",
+      "translateMm": "ဤမျှလောက်",
+      "translateEn": "This much",
+      "example": {
+        "paliMm": "သော ဧတ္တကံ ဓနံ ဒဒါတိ။",
+        "paliRoman": "So ettakaṃ dhanaṃ dadāti.",
+        "translateMm": "သူသည် ဤမျှလောက်သော ဥစ္စာကို လှူဒါန်း၏။",
+        "translateEn": "He gives this much wealth."
+      }
+    },
+    {
+      "paliMm": "တတ္တကံ",
+      "paliRoman": "Tattakaṃ",
+      "translateMm": "ထိုမျှလောက်",
+      "translateEn": "That much",
+      "example": {
+        "paliMm": "တတ္တကံ ပမာဏံ အလံ ဟောတိ။",
+        "paliRoman": "Tattakaṃ pamāṇaṃ alaṃ hoti.",
+        "translateMm": "ထိုမျှလောက်သော ပမာဏသည် လုံလောက်၏။",
+        "translateEn": "That much amount is sufficient."
+      }
+    },
+    {
+      "paliMm": "ယာဝတ္တကံ",
+      "paliRoman": "Yāvattakaṃ",
+      "translateMm": "အကြင်မျှလောက်",
+      "translateEn": "As much as",
+      "example": {
+        "paliMm": "ယာဝတ္တကံ ဣစ္ဆသိ တာဝတ္တကံ ဂဏှာဟိ။",
+        "paliRoman": "Yāvattakaṃ icchasi tāvattakaṃ gaṇhāhi.",
+        "translateMm": "အကြင်မျှလောက် အလိုရှိ၏၊ ထိုမျှလောက် ယူပါလော့။",
+        "translateEn": "Take as much as you wish."
+      }
+    },
+    {
+      "paliMm": "ဗဟုံ",
+      "paliRoman": "Bahuṃ",
+      "translateMm": "များစွာ",
+      "translateEn": "Much, many",
+      "example": {
+        "paliMm": "သော ဗဟုံ သုတံ ဓာရေတိ။",
+        "paliRoman": "So bahuṃ sutaṃ dhāreti.",
+        "translateMm": "သူသည် များစွာသော အကြားအမြင်ကို ဆောင်၏။",
+        "translateEn": "He holds much learning."
+      }
+    },
+    {
+      "paliMm": "အပ္ပကံ",
+      "paliRoman": "Appakaṃ",
+      "translateMm": "နည်းငယ်မျှ",
+      "translateEn": "A little, few",
+      "example": {
+        "paliMm": "ဒါသဿ အပ္ပကံ ဘောဇနံ ဟောတိ။",
+        "paliRoman": "Dāsassa appakaṃ bhojanaṃ hoti.",
+        "translateMm": "အစေခံအား နည်းငယ်မျှသော အစားအစာ ရှိ၏။",
+        "translateEn": "The servant has a little food."
+      }
+    },
+    {
+      "paliMm": "သမတိတ္တိကံ",
+      "paliRoman": "Samatittikaṃ",
+      "translateMm": "ပြည့်လျှံရုံမျှ",
+      "translateEn": "Brimful",
+      "example": {
+        "paliMm": "ကညာ သမတိတ္တိကံ ဥဒကံ အာဟရတိ။",
+        "paliRoman": "Kaññā samatittikaṃ udakaṃ āharati.",
+        "translateMm": "အမျိုးသမီးငယ်သည် နှုတ်ခမ်းထိ ပြည့်လျှံရုံမျှသော ရေကို ဆောင်ယူခဲ့၏။",
+        "translateEn": "The maiden brings water filled to the brim."
+      }
+    },
+    {
+      "paliMm": "ကိဉ္စိ",
+      "paliRoman": "Kiñci",
+      "translateMm": "အနည်းငယ်မျှ",
+      "translateEn": "Anything, a little",
+      "example": {
+        "paliMm": "သော ကိဉ္စိ န ဘာသတိ။",
+        "paliRoman": "So kiñci na bhāsati.",
+        "translateMm": "သူသည် အနည်းငယ်မျှ စကားမပြော။",
+        "translateEn": "He says nothing at all / a little."
+      }
+    },
+    {
+      "paliMm": "အတိဝိယ",
+      "paliRoman": "Ativiya",
+      "translateMm": "အလွန်အမင်း",
+      "translateEn": "Exceedingly, very",
+      "example": {
+        "paliMm": "ဧသ ဓမ္မော အတိဝိယ ဂမ္ဘီရော ဟောတိ။",
+        "paliRoman": "Esa dhammo ativiya gambhīro hoti.",
+        "translateMm": "ဤတရားသည် အလွန်အမင်း နက်နဲ၏။",
+        "translateEn": "This Dhamma is exceedingly deep."
+      }
+    },
+    {
+      "paliMm": "သဗ္ဗံ",
+      "paliRoman": "Sabbaṃ",
+      "translateMm": "အလုံးစုံ",
+      "translateEn": "All, whole",
+      "example": {
+        "paliMm": "သော သဗ္ဗံ ဓနံ စဇတိ။",
+        "paliRoman": "So sabbaṃ dhanaṃ cajati.",
+        "translateMm": "သူသည် အလုံးစုံသော ဥစ္စာကို စွန့်လွှတ်၏။",
+        "translateEn": "He abandons all wealth."
+      }
+    }
+  ]
+}

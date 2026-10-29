@@ -1,0 +1,234 @@
+{
+  "titleMm": "အတိုင်းအဆပမာဏပြဝိသေသနများ",
+  "titleEn": "Quantitative Adjectives",
+  "vocabList": [
+    {
+      "paliMm": "ဗဟု",
+      "paliRoman": "Bahu",
+      "translateMm": "များစွာသော",
+      "translateEn": "Many, Much",
+      "example": {
+        "paliMm": "ဗဟူ ဇနာ နဂရေ ဝသန္တိ။",
+        "paliRoman": "Bahū janā nagare vasanti.",
+        "translateMm": "မြို့ထဲမှာ လူတွေ အများကြီး နေကြတယ်။",
+        "translateEn": "Many people live in the city."
+      }
+    },
+    {
+      "paliMm": "အပ္ပ",
+      "paliRoman": "Appa",
+      "translateMm": "နည်းသော",
+      "translateEn": "Few, Little",
+      "example": {
+        "paliMm": "သော အပ္ပံ ဇလံ ပိဝတိ။",
+        "paliRoman": "So appaṃ jalaṃ pivati.",
+        "translateMm": "သူ ရေနည်းနည်းပဲ သောက်တယ်။",
+        "translateEn": "He drinks a little water."
+      }
+    },
+    {
+      "paliMm": "မဟန္တ",
+      "paliRoman": "Mahanta",
+      "translateMm": "ကြီးမားသော ပမာဏရှိသော",
+      "translateEn": "Great, Large amount",
+      "example": {
+        "paliMm": "သော မဟန္တံ ဓနံ လဘတိ။",
+        "paliRoman": "So mahantaṃ dhanaṃ labhati.",
+        "translateMm": "သူ စည်းစိမ်ဥစ္စာ အမြောက်အမြား ရလိုက်တယ်။",
+        "translateEn": "He receives a large amount of wealth."
+      }
+    },
+    {
+      "paliMm": "ထောက",
+      "paliRoman": "Thoka",
+      "translateMm": "အနည်းငယ်သော",
+      "translateEn": "A little, Few",
+      "example": {
+        "paliMm": "သော ထောကံ ဘတ္တံ ဘုဉ္ဇတိ။",
+        "paliRoman": "So thokaṃ bhattaṃ bhuñjati.",
+        "translateMm": "သူ ထမင်း နည်းနည်းပဲ စားတယ်။",
+        "translateEn": "He eats a little rice."
+      }
+    },
+    {
+      "paliMm": "ပဟူတ",
+      "paliRoman": "Pahūta",
+      "translateMm": "များပြားလှသော",
+      "translateEn": "Abundant, Plenty",
+      "example": {
+        "paliMm": "ဂဟပတိနော ပဟူတံ ဓနံ အတ္ထိ။",
+        "paliRoman": "Gahapatino pahūtaṃ dhanaṃ atthi.",
+        "translateMm": "အိမ်ထောင်ရှင်မှာ ပစ္စည်းဥစ္စာတွေ အများကြီး ရှိတယ်။",
+        "translateEn": "The householder has abundant wealth."
+      }
+    },
+    {
+      "paliMm": "သကလ",
+      "paliRoman": "Sakala",
+      "translateMm": "တစ်ခုလုံးသော",
+      "translateEn": "Whole, Entire",
+      "example": {
+        "paliMm": "သကလံ နဂရံ နဿတိ။",
+        "paliRoman": "Sakalaṃ nagaraṃ nassati.",
+        "translateMm": "မြို့တစ်မြို့လုံး ပျက်စီးသွားတယ်။",
+        "translateEn": "The whole city is destroyed."
+      }
+    },
+    {
+      "paliMm": "နိရဝသေသ",
+      "paliRoman": "Niravasesa",
+      "translateMm": "မကြွင်းမကျန် အကုန်လုံးသော",
+      "translateEn": "Complete, Without remainder",
+      "example": {
+        "paliMm": "သော နိရဝသေသံ ဘောဇနံ ဘုဉ္ဇတိ။",
+        "paliRoman": "So niravasesaṃ bhojanaṃ bhuñjati.",
+        "translateMm": "သူ အစားအစာတွေကို မကြွင်းမကျန် အကုန် စားလိုက်တယ်။",
+        "translateEn": "He eats the food completely without any leftover."
+      }
+    },
+    {
+      "paliMm": "အဝသေသ",
+      "paliRoman": "Avasesa",
+      "translateMm": "ကျန်ရှိသော",
+      "translateEn": "Remaining",
+      "example": {
+        "paliMm": "အဝသေသာ ဇနာ ဂစ္ဆန္တိ။",
+        "paliRoman": "Avasesā janā gacchanti.",
+        "translateMm": "ကျန်တဲ့လူတွေ ထွက်သွားကြတယ်။",
+        "translateEn": "The remaining people leave."
+      }
+    },
+    {
+      "paliMm": "ဧကဒေသ",
+      "paliRoman": "Ekadesa",
+      "translateMm": "အချို့သော အအစိတ်အပိုင်း",
+      "translateEn": "A part of, Some portion",
+      "example": {
+        "paliMm": "သော ဧကဒေသံ ကမ္မံ နိဋ္ဌာပေတိ။",
+        "paliRoman": "So ekadesaṃ kammaṃ niṭṭhāpeti.",
+        "translateMm": "သူ အလုပ်ရဲ့ အအစိတ်အပိုင်း အချို့ကို ပြီးစီးအောင် လုပ်လိုက်တယ်။",
+        "translateEn": "He completes a portion of the work."
+      }
+    },
+    {
+      "paliMm": "အနန္တ",
+      "paliRoman": "Ananta",
+      "translateMm": "အကန့်အသတ်မရှိသော",
+      "translateEn": "Infinite, Endless",
+      "example": {
+        "paliMm": "ဗုဒ္ဓဿ အနန္တံ ဉာဏံ အတ္ထိ။",
+        "paliRoman": "Buddhassa anantaṃ ñāṇaṃ atthi.",
+        "translateMm": "ဘုရားရှင်မှာ အကန့်အသတ်မရှိတဲ့ ဉာဏ်တော် ရှိတယ်။",
+        "translateEn": "The Buddha possesses infinite knowledge."
+      }
+    },
+    {
+      "paliMm": "အပရိမာဏ",
+      "paliRoman": "Aparimāṇa",
+      "translateMm": "အတိုင်းအဆမရှိသော",
+      "translateEn": "Immeasurable, Boundless",
+      "example": {
+        "paliMm": "မုနိ အပရိမာဏံ မေတ္တံ ဘာဝေတိ။",
+        "paliRoman": "Muni aparimāṇaṃ mettaṃ bhāveti.",
+        "translateMm": "ရဟန်းက အတိုင်းအဆမရှိတဲ့ မေတ္တာကို ပွားများတယ်။",
+        "translateEn": "The sage develops immeasurable loving-kindness."
+      }
+    },
+    {
+      "paliMm": "အနပ္ပက",
+      "paliRoman": "Anappaka",
+      "translateMm": "မနည်းသော၊ များစွာသော",
+      "translateEn": "Not a little, Considerable",
+      "example": {
+        "paliMm": "သော အနပ္ပကံ ပုညံ ကရောတိ။",
+        "paliRoman": "So anappakaṃ puññaṃ karoti.",
+        "translateMm": "သူ မနည်းလှတဲ့ ကုသိုလ်ကို ပြုလုပ်တယ်။",
+        "translateEn": "He performs a considerable amount of merit."
+      }
+    },
+    {
+      "paliMm": "ကိဉ္စိ",
+      "paliRoman": "Kiñci",
+      "translateMm": "အနည်းငယ်သော",
+      "translateEn": "A little bit, Any",
+      "example": {
+        "paliMm": "မယှံ ကိဉ္စိ ဇလံ ဒေဟိ။",
+        "paliRoman": "Mayhaṃ kiñci jalaṃ dehi.",
+        "translateMm": "ငါ့ကို ရေနည်းနည်းလောက် ပေးပါ။",
+        "translateEn": "Give me a little bit of water."
+      }
+    },
+    {
+      "paliMm": "အနဝသေသ",
+      "paliRoman": "Anavasesa",
+      "translateMm": "အကြွင်းမရှိသော",
+      "translateEn": "All, Complete without rest",
+      "example": {
+        "paliMm": "သော အနဝသေသံ ဓမ္မံ သိက္ခတိ။",
+        "paliRoman": "So anavasesaṃ dhammaṃ sikkhati.",
+        "translateMm": "သူ တရားအားလုံးကို မကြွင်းမကျန် သင်ယူတယ်။",
+        "translateEn": "He learns the Dhamma completely without leaving anything out."
+      }
+    },
+    {
+      "paliMm": "မတ္တ",
+      "paliRoman": "Matta",
+      "translateMm": "မျှသာရှိသော",
+      "translateEn": "Just a measure of, Only",
+      "example": {
+        "paliMm": "သော တိလမတ္တံ ဒါနံ ဒေတိ။",
+        "paliRoman": "So tilamattaṃ dānaṃ deti.",
+        "translateMm": "သူ နှမ်းစေ့မျှသာရှိတဲ့ အလှူကို ပေးတယ်။",
+        "translateEn": "He gives alms even just the measure of a sesame seed."
+      }
+    },
+    {
+      "paliMm": "ပရိတ္တ",
+      "paliRoman": "Paritta",
+      "translateMm": "နည်းပါးသော၊ အကန့်အသတ်ရှိသော",
+      "translateEn": "Small, Limited",
+      "example": {
+        "paliMm": "ပရိတ္တံ အာယု မနုဿာနံ ဟောတိ။",
+        "paliRoman": "Parittaṃ āyu manussānaṃ hoti.",
+        "translateMm": "လူတွေရဲ့ အသက်တမ်းက နည်းပါး အကန့်အသတ်ရှိတယ်။",
+        "translateEn": "The lifespan of humans is short and limited."
+      }
+    },
+    {
+      "paliMm": "အဓိက",
+      "paliRoman": "Adhika",
+      "translateMm": "ပိုလွန်သော",
+      "translateEn": "Exceeding, More",
+      "example": {
+        "paliMm": "သော အဓိကံ ဝေတနံ လဘတိ။",
+        "paliRoman": "So adhikaṃ vetanaṃ labhati.",
+        "translateMm": "သူ လုပ်ခလစာ ပိုမို ရရှိတယ်။",
+        "translateEn": "He receives extra wage."
+      }
+    },
+    {
+      "paliMm": "ဦန",
+      "paliRoman": "Ūna",
+      "translateMm": "လိုအပ်သော၊ လျော့နည်းသော",
+      "translateEn": "Deficient, Less",
+      "example": {
+        "paliMm": "ဣမသ္မိံ ပတ္တေ ဦနံ ဘောဇနံ အတ္ထိ။",
+        "paliRoman": "Imasmiṃ patte ūnaṃ bhojanaṃ atthi.",
+        "translateMm": "ဒီသပိတ်ထဲမှာ အစားအစာ လျော့နည်းနေတယ်။",
+        "translateEn": "There is less food in this bowl."
+      }
+    },
+    {
+      "paliMm": "အတိရေက",
+      "paliRoman": "Atireka",
+      "translateMm": "အပိုဖြစ်သော၊ ပိုလျှံသော",
+      "translateEn": "Extra, Surplus",
+      "example": {
+        "paliMm": "သော အတိရေကံ စီဝရံ ဓာရေတိ။",
+        "paliRoman": "So atirekaṃ cīvaraṃ dhāreti.",
+        "translateMm": "သူ အပို သင်္ကန်းကို ဆောင်ထားတယ်။",
+        "translateEn": "He keeps an extra robe."
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "titleMm": "ရာသီများ",
+  "titleEn": "Seasons",
+  "vocabList": [
+    {
+      "paliMm": "ဂိမှဥတု / ဂိမှ (ပု)",
+      "paliRoman": "Gimhautu / Gimha (M)",
+      "translateMm": "နွေရာသီ",
+      "translateEn": "Summer, Hot season",
+      "example": {
+        "paliMm": "ဂိမှဥတုမှိ သူရိယော ဗလဝံ တပတိ။",
+        "paliRoman": "Gimhautumhi sūriyo balavaṃ tapati.",
+        "translateMm": "နွေရာသီမှာ နေမင်းက ပြင်းပြင်းထန်ထန် ပူပြင်းတယ်။",
+        "translateEn": "The sun shines strongly in the summer season."
+      }
+    },
+    {
+      "paliMm": "ဝဿာနဥတု / ဝဿာန (ပု)",
+      "paliRoman": "Vassānautu / Vassāna (M)",
+      "translateMm": "မိုးရာသီ",
+      "translateEn": "Rainy season",
+      "example": {
+        "paliMm": "ဝဿာနဥတုမှိ မဟာ ဝုဋ္ဌိ ပတတိ။",
+        "paliRoman": "Vassānautumhi mahā vuṭṭhi patati.",
+        "translateMm": "မိုးရာသီမှာ မိုးသည်းထန်စွာ ရွာသွန်းတယ်။",
+        "translateEn": "Heavy rain falls in the rainy season."
+      }
+    },
+    {
+      "paliMm": "ဟေမန္တဥတု / ဟေမန္တ (ပု)",
+      "paliRoman": "Hemantautu / Hemanta (M)",
+      "translateMm": "ဆောင်းရာသီ",
+      "translateEn": "Winter, Cold season",
+      "example": {
+        "paliMm": "ဟေမန္တဥတုမှိ သီတလော ဝါတော ဝါယတိ။",
+        "paliRoman": "Hemantautumhi sītalo vāto vāyati.",
+        "translateMm": "ဆောင်းရာသီမှာ အေးမြတဲ့ လေတိုက်ခတ်တယ်။",
+        "translateEn": "A cold wind blows in the winter season."
+      }
+    },
+    {
+      "paliMm": "သရဒဥတု / သရဒ (ပု/န)",
+      "paliRoman": "Saradautu / Sarada (M/N)",
+      "translateMm": "သရဒဥတု၊ မိုးအကုန် ဆောင်းအကူးရာသီ",
+      "translateEn": "Autumn",
+      "example": {
+        "paliMm": "သရဒဥတုမှိ အာကာသော ဝိမလော ဟောတိ။",
+        "paliRoman": "Saradautumhi ākāso vimalo hoti.",
+        "translateMm": "သရဒဥတု (ဆောင်းဦးပေါက်) မှာ ကောင်းကင်ကြီး ကြည်လင်နေတယ်။",
+        "translateEn": "The sky is clear in the autumn season."
+      }
+    }
+  ]
+}

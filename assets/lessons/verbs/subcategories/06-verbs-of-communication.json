@@ -1,0 +1,246 @@
+{
+  "titleMm": "ဆက်သွယ်ပြောဆိုရေးဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Communication",
+  "vocabList": [
+    {
+      "paliMm": "ပုစ္ဆတိ",
+      "paliRoman": "Pucchati",
+      "translateMm": "မေးမြန်းသည်",
+      "translateEn": "Asks",
+      "example": {
+        "paliMm": "သီဿော အာစရိယံ ပဉှံ ပုစ္ဆတိ။",
+        "paliRoman": "Sisso ācariyaṃ pañhaṃ pucchati.",
+        "translateMm": "ကျောင်းသားက ဆရာ့ကို မေးခွန်း မေးနေတယ်။",
+        "translateEn": "The student asks the teacher a question."
+      }
+    },
+    {
+      "paliMm": "ဝိဿဇ္ဇေတိ",
+      "paliRoman": "Vissajjeti",
+      "translateMm": "ဖြေကြားသည်",
+      "translateEn": "Answers, Explains",
+      "example": {
+        "paliMm": "အာစရိယော ပဉှံ ဝိဿဇ္ဇေတိ။",
+        "paliRoman": "Ācariyo pañhaṃ vissajjeti.",
+        "translateMm": "ဆရာက မေးခွန်းကို ဖြေကြားပေးတယ်။",
+        "translateEn": "The teacher answers the question."
+      }
+    },
+    {
+      "paliMm": "ကထေတိ",
+      "paliRoman": "Katheti",
+      "translateMm": "ပြောပြသည်၊ ဟောပြောသည်",
+      "translateEn": "Tells, Speaks",
+      "example": {
+        "paliMm": "သော မိတ္တဿ ဇာတကံ ကထေတိ။",
+        "paliRoman": "So mittassa jātakaṃ katheti.",
+        "translateMm": "သူက သူငယ်ချင်းကို ဇာတ်ကြောင်း ပြောပြနေတယ်။",
+        "translateEn": "He tells a story to his friend."
+      }
+    },
+    {
+      "paliMm": "အာဝှယတိ / အာဝှေတိ",
+      "paliRoman": "Āhvayati / Āhveti",
+      "translateMm": "ခေါ်ယူသည်၊ ခေါ်ဆိုသည်",
+      "translateEn": "Calls",
+      "example": {
+        "paliMm": "ပိတာ ပုတ္တံ အာဝှယတိ။",
+        "paliRoman": "Pitā puttaṃ āhvayati.",
+        "translateMm": "အဖေက သားကို ခေါ်နေတယ်။",
+        "translateEn": "The father calls his son."
+      }
+    },
+    {
+      "paliMm": "နိမန္တေတိ",
+      "paliRoman": "Nimanteti",
+      "translateMm": "ဖိတ်ကြားသည်",
+      "translateEn": "Invites",
+      "example": {
+        "paliMm": "သော သမဏံ ဘတ္တာယ နိမန္တေတိ။",
+        "paliRoman": "So samaṇaṃ bhattāya nimanteti.",
+        "translateMm": "သူက ရဟန်းတော်ကို ဆွမ်းစား ဖိတ်ကြားတယ်။",
+        "translateEn": "He invites the monk for a meal."
+      }
+    },
+    {
+      "paliMm": "ဝန္ဒတိ",
+      "paliRoman": "Vandati",
+      "translateMm": "ရှိခိုးသည်၊ နှုတ်ဆက်သည်",
+      "translateEn": "Salutes, Greets, Worships",
+      "example": {
+        "paliMm": "ဒါရကော အာစရိယံ ဝန္ဒတိ။",
+        "paliRoman": "Dārako ācariyaṃ vandati.",
+        "translateMm": "ကလေးလေးက ဆရာ့ကို ရှိခိုး နှုတ်ဆက်တယ်။",
+        "translateEn": "The child greets the teacher."
+      }
+    },
+    {
+      "paliMm": "အာရောစေတိ",
+      "paliRoman": "Āroceti",
+      "translateMm": "အကြောင်းကြားသည်၊ သတင်းပို့သည်",
+      "translateEn": "Informs, Announces",
+      "example": {
+        "paliMm": "သော သာသနံ အာရောစေတိ။",
+        "paliRoman": "So sāsanaṃ āroceti.",
+        "translateMm": "သူက သတင်း/သဝဏ်လွှာကို အကြောင်းကြားတယ်။",
+        "translateEn": "He informs the message."
+      }
+    },
+    {
+      "paliMm": "ဩဝဒတိ",
+      "paliRoman": "Ovadati",
+      "translateMm": "ဆုံးမသည်၊ ဩဝါဒပေးသည်",
+      "translateEn": "Advises, Admonishes",
+      "example": {
+        "paliMm": "အာစရိယော သိဿံ ဩဝဒတိ။",
+        "paliRoman": "Ācariyo sissaṃ ovadati.",
+        "translateMm": "ဆရာက ကျောင်းသားကို ဆုံးမ ဩဝါဒပေးတယ်။",
+        "translateEn": "The teacher advises the student."
+      }
+    },
+    {
+      "paliMm": "အနုသာသတိ",
+      "paliRoman": "Anusāsati",
+      "translateMm": "ညွှန်ကြား ဆုံးမသည်",
+      "translateEn": "Instructs, Teaches",
+      "example": {
+        "paliMm": "မုနိ ဇနံ အနုသာသတိ။",
+        "paliRoman": "Muni janaṃ anusāsati.",
+        "translateMm": "ရဟန်းတော်က လူတွေကို သင်ပြ ဆုံးမတယ်။",
+        "translateEn": "The sage instructs the people."
+      }
+    },
+    {
+      "paliMm": "ဒေသေတိ",
+      "paliRoman": "Deseti",
+      "translateMm": "တရားဟောသည်",
+      "translateEn": "Preaches, Teaches",
+      "example": {
+        "paliMm": "ဗုဒ္ဓေါ ဓမ္မံ ဒေသေတိ။",
+        "paliRoman": "Buddho dhammaṃ deseti.",
+        "translateMm": "မြတ်စွာဘုရားက တရားတော်ကို ဟောကြားတော်မူတယ်။",
+        "translateEn": "The Buddha preaches the Dhamma."
+      }
+    },
+    {
+      "paliMm": "ယာစတိ",
+      "paliRoman": "Yācati",
+      "translateMm": "တောင်းဆိုသည်",
+      "translateEn": "Begs, Requests",
+      "example": {
+        "paliMm": "ယာစကော အာဟာရံ ယာစတိ။",
+        "paliRoman": "Yācako āhāraṃ yācati.",
+        "translateMm": "သူတောင်းစားက အစားအစာ တောင်းခံနေတယ်။",
+        "translateEn": "The beggar requests food."
+      }
+    },
+    {
+      "paliMm": "ထောမေတိ / ပသံသတိ",
+      "paliRoman": "Thometi / Pasaṃsati",
+      "translateMm": "ချီးမွမ်းသည်",
+      "translateEn": "Praises",
+      "example": {
+        "paliMm": "သော သီဿဿ သီလံ ထောမေတိ။",
+        "paliRoman": "So sissassa sīlaṃ thometi.",
+        "translateMm": "သူက ကျောင်းသားရဲ့ အကျင့်သီလကို ချီးမွမ်းတယ်။",
+        "translateEn": "He praises the student's virtue."
+      }
+    },
+    {
+      "paliMm": "အက္ကောသတိ",
+      "paliRoman": "Akkosati",
+      "translateMm": "ဆဲဆိုသည်၊ ရေရွတ်သည်",
+      "translateEn": "Scolds, Reviles",
+      "example": {
+        "paliMm": "ကောဓနော ပုရိသော အညံ အက္ကောသတိ။",
+        "paliRoman": "Kodhano puriso aññaṃ akkosati.",
+        "translateMm": "ဒေါသကြီးတဲ့သူက အခြားသူကို ဆဲဆိုနေတယ်။",
+        "translateEn": "The angry man scolds another person."
+      }
+    },
+    {
+      "paliMm": "သညပေတိ",
+      "paliRoman": "Saññāpeti",
+      "translateMm": "နားလည်အောင် ရှင်းပြသည်၊ ဖျောင်းဖျသည်",
+      "translateEn": "Persuades, Convinces",
+      "example": {
+        "paliMm": "သော မိတ္တံ သညပေတိ။",
+        "paliRoman": "So mittaṃ saññāpeti.",
+        "translateMm": "သူက သူငယ်ချင်း နားလည်အောင် ရှင်းပြ ဖျောင်းဖျတယ်။",
+        "translateEn": "He convinces his friend."
+      }
+    },
+    {
+      "paliMm": "ပဋိဿုဏာတိ",
+      "paliRoman": "Paṭissuṇāti",
+      "translateMm": "ကတိပေးသည်၊ လက်ခံသဘောတူသည်",
+      "translateEn": "Promises, Agrees",
+      "example": {
+        "paliMm": "သော \"အာမ\" တိ ပဋိဿုဏာတိ။",
+        "paliRoman": "So \"āma\" ti paṭissuṇāti.",
+        "translateMm": "သူက \"ဟုတ်ကဲ့\" လို့ လက်ခံ ကတိပေးတယ်။",
+        "translateEn": "He agrees by saying \"yes\"."
+      }
+    },
+    {
+      "paliMm": "ပဋိသေဓေတိ",
+      "paliRoman": "Paṭisedheti",
+      "translateMm": "ငြင်းပယ်သည်၊ တားမြစ်သည်",
+      "translateEn": "Refuses, Forbids",
+      "example": {
+        "paliMm": "ပိတာ ပုတ္တဿ ဂမနံ ပဋိသေဓေတိ။",
+        "paliRoman": "Pitā puttassa gamanaṃ paṭisedheti.",
+        "translateMm": "အဖေက သား သွားမှာကို တားမြစ် ငြင်းပယ်တယ်။",
+        "translateEn": "The father forbids his son from going."
+      }
+    },
+    {
+      "paliMm": "မန္တေတိ",
+      "paliRoman": "Manteti",
+      "translateMm": "တိုင်ပင်သည်၊ ဆွေးနွေးသည်",
+      "translateEn": "Consults, Discusses",
+      "example": {
+        "paliMm": "အမစ္စာ ရာဇိနာ သဒ္ဓိံ မန္တေန္တိ။",
+        "paliRoman": "Amaccā rājinā saddhiṃ mantenti.",
+        "translateMm": "အမတ်တွေက မင်းကြီးနဲ့ တိုင်ပင် ဆွေးနွေးကြတယ်။",
+        "translateEn": "The ministers consult with the king."
+      }
+    },
+    {
+      "paliMm": "အာမန္တေတိ",
+      "paliRoman": "Āmanteti",
+      "translateMm": "နှုတ်ခွန်းဆက်သည်၊ မိန့်ကြားသည်",
+      "translateEn": "Addresses, Speaks to",
+      "example": {
+        "paliMm": "သတ္ထာ ဘိက္ခူ အာမန္တေတိ။",
+        "paliRoman": "Satthā bhikkhū āmanteti.",
+        "translateMm": "မြတ်စွာဘုရားက ရဟန်းတွေကို မိန့်ကြားတော်မူတယ်။",
+        "translateEn": "The Teacher addresses the monks."
+      }
+    },
+    {
+      "paliMm": "ပကာသေတိ",
+      "paliRoman": "Pakāseti",
+      "translateMm": "ကြေညာသည်၊ ထုတ်ဖော်ပြောဆိုသည်",
+      "translateEn": "Declares, Expresses",
+      "example": {
+        "paliMm": "သော သကံ မတိံ ပကာသေတိ။",
+        "paliRoman": "So sakaṃ matiṃ pakāseti.",
+        "translateMm": "သူက မိမိရဲ့ သဘောထားကို ထုတ်ဖော် ကြေညာတယ်။",
+        "translateEn": "He declares his opinion."
+      }
+    },
+    {
+      "paliMm": "သန္တဇ္ဇေတိ",
+      "paliRoman": "Santajjeti",
+      "translateMm": "ခြိမ်းခြောက်သည်",
+      "translateEn": "Threatens",
+      "example": {
+        "paliMm": "စောရော ပုရိသံ သန္တဇ္ဇေတိ။",
+        "paliRoman": "Coro purisaṃ santajjeti.",
+        "translateMm": "သူခိုးက လူကို ခြိမ်းခြောက်တယ်။",
+        "translateEn": "The thief threatens the man."
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "titleMm": "သစ်သီးများ",
+  "titleEn": "Fruits",
+  "vocabList": [
+    {
+      "paliMm": "အမ္ဗ (ပု/န)",
+      "paliRoman": "Amba (M/N)",
+      "translateMm": "သရက်သီး",
+      "translateEn": "Mango",
+      "example": {
+        "paliMm": "သော မဓုရံ အမ္ဗံ ခါဒတိ။",
+        "paliRoman": "So madhuraṃ ambaṃ khādati.",
+        "translateMm": "သူ ချိုမြတ်တဲ့ သရက်သီးကို စားနေတယ်။",
+        "translateEn": "He eats a sweet mango."
+      }
+    },
+    {
+      "paliMm": "ကဒလိ (ထီ)",
+      "paliRoman": "Kadali (F)",
+      "translateMm": "ငှက်ပျောသီး",
+      "translateEn": "Banana",
+      "example": {
+        "paliMm": "သာ ကဒလိံ အာပဏတော ကိဏာတိ။",
+        "paliRoman": "Sā kadaliṃ āpaṇato kiṇāti.",
+        "translateMm": "သူငယ်မလေးက ဈေးကနေ ငှက်ပျောသီး ဝယ်လာတယ်။",
+        "translateEn": "She buys a banana from the market."
+      }
+    },
+    {
+      "paliMm": "ပနသ (ပု/န)",
+      "paliRoman": "Panasa (M/N)",
+      "translateMm": "ပိန္နဲသီး",
+      "translateEn": "Jackfruit",
+      "example": {
+        "paliMm": "သော မဟန္တံ ပနသံ ပဿတိ။",
+        "paliRoman": "So mahantaṃ panasaṃ passati.",
+        "translateMm": "သူ ပိန္နဲသီး အကြီးကြီးကို လှမ်းကြည့်နေတယ်။",
+        "translateEn": "He looks at a large jackfruit."
+      }
+    },
+    {
+      "paliMm": "နာဠိကေရ (ပု/န)",
+      "paliRoman": "Nāḷikera (M/N)",
+      "translateMm": "အုန်းသီး",
+      "translateEn": "Coconut",
+      "example": {
+        "paliMm": "သော နာဠိကေရဇလံ ပိဝတိ။",
+        "paliRoman": "So nāḷikerajalaṃ pivati.",
+        "translateMm": "သူ အုန်းရေ သောက်နေတယ်။",
+        "translateEn": "He drinks coconut water."
+      }
+    },
+    {
+      "paliMm": "ဇမ္ဗူ (ထီ)",
+      "paliRoman": "Jambū (F)",
+      "translateMm": "သပြေသီး",
+      "translateEn": "Rose-apple, Jamun",
+      "example": {
+        "paliMm": "ဒါရကာ ဇမ္ဗုံ ခါဒန္တိ။",
+        "paliRoman": "Dārakā jambūṃ khādanti.",
+        "translateMm": "ကလေးတွေ သပြေသီး စားနေကြတယ်။",
+        "translateEn": "Children are eating rose-apples."
+      }
+    },
+    {
+      "paliMm": "ဗဒရ (န)",
+      "paliRoman": "Badara (N)",
+      "translateMm": "ဇီးသီး",
+      "translateEn": "Jujube, Plum",
+      "example": {
+        "paliMm": "သာ အမ္ဗိလံ ဗဒရံ ခါဒတိ။",
+        "paliRoman": "Sā ambilaṃ badaraṃ khādati.",
+        "translateMm": "သူငယ်မလေးက အချဉ်ဇီးသီး စားနေတယ်။",
+        "translateEn": "She eats a sour jujube."
+      }
+    },
+    {
+      "paliMm": "ကပိဋ္ဌ (ပု/န)",
+      "paliRoman": "Kapiṭṭha (M/N)",
+      "translateMm": "သီးသီး၊ ဥသျှစ်သီး",
+      "translateEn": "Wood-apple, Bael",
+      "example": {
+        "paliMm": "သော ကပိဋ္ဌဖလံ ရုက္ခတော ပါတေတိ။",
+        "paliRoman": "So kapiṭṭhaphalaṃ rukkhato pāteti.",
+        "translateMm": "သူ သစ်ပင်ပေါ်ကနေ သီးသီး/ဥသျှစ်သီးကို ကြွေကျအောင် လုပ်လိုက်တယ်။",
+        "translateEn": "He knocks down a wood-apple from the tree."
+      }
+    },
+    {
+      "paliMm": "ဒါဠိမဖလ (န)",
+      "paliRoman": "Dāḷimaphala (N)",
+      "translateMm": "သလဲသီး",
+      "translateEn": "Pomegranate",
+      "example": {
+        "paliMm": "သာ ရတ္တံ ဒါဠိမဖလံ အာနယတိ။",
+        "paliRoman": "Sā rattaṃ dāḷimaphalaṃ ānayati.",
+        "translateMm": "သူငယ်မလေးက အနီရောင် သလဲသီးကို ယူလာတယ်။",
+        "translateEn": "She brings a red pomegranate."
+      }
+    },
+    {
+      "paliMm": "တာလ (ပု/န)",
+      "paliRoman": "Tāla (M/N)",
+      "translateMm": "ထန်းသီး",
+      "translateEn": "Toddy palm fruit",
+      "example": {
+        "paliMm": "တာလဖလံ ရုက္ခတော ပတတိ။",
+        "paliRoman": "Tālaphalaṃ rukkhato patati.",
+        "translateMm": "ထန်းသီးက ထန်းပင်ပေါ်ကနေ ပြုတ်ကျလာတယ်။",
+        "translateEn": "A palm fruit falls from the tree."
+      }
+    },
+    {
+      "paliMm": "မုဒ္ဒိကာ (ထီ)",
+      "paliRoman": "Muddikā (F)",
+      "translateMm": "စပျစ်သီး",
+      "translateEn": "Grape",
+      "example": {
+        "paliMm": "သော မုဒ္ဒိကာဖလံ ခါဒိတုံ ရုစိယတိ။",
+        "paliRoman": "So muddikāphalaṃ khādituṃ ruciyati.",
+        "translateMm": "သူ စပျစ်သီး စားရတာကို ကြိုက်တယ်။",
+        "translateEn": "He likes to eat grapes."
+      }
+    },
+    {
+      "paliMm": "ဇမ္ဗီရ (ပု)",
+      "paliRoman": "Jambīra (M)",
+      "translateMm": "သံပရာသီး၊ သံပုရိုသီး",
+      "translateEn": "Lime, Lemon",
+      "example": {
+        "paliMm": "သာ ဇမ္ဗီရရသံ ပိဝတိ။",
+        "paliRoman": "Sā jambīrarasaṃ pivati.",
+        "translateMm": "သူငယ်မလေးက သံပရာရည် သောက်နေတယ်။",
+        "translateEn": "She drinks lime juice."
+      }
+    },
+    {
+      "paliMm": "သိင်္ဂိဝေရ (ပု/န)",
+      "paliRoman": "Siṅgivera (M/N)",
+      "translateMm": "ချင်း",
+      "translateEn": "Ginger",
+      "example": {
+        "paliMm": "သာ သိင်္ဂိဝေရံ သူပေ ဌပေတိ။",
+        "paliRoman": "Sā siṅgiveraṃ sūpe ṭhapeti.",
+        "translateMm": "သူငယ်မလေးက ဂျင်းကို ဟင်းထဲ ထည့်လိုက်တယ်။",
+        "translateEn": "She puts ginger into the curry."
+      }
+    },
+    {
+      "paliMm": "အလာဗု (ထီ/န)",
+      "paliRoman": "Alābu (F/N)",
+      "translateMm": "ဘူးသီး",
+      "translateEn": "Gourd, Calabash",
+      "example": {
+        "paliMm": "သော အလာဗုံ ပစိတွာ ဘုဉ္ဇတိ။",
+        "paliRoman": "So alābuṃ pacitvā bhuñjati.",
+        "translateMm": "သူ ဘူးသီးကို ချက်ပြုတ်ပြီး စားတယ်။",
+        "translateEn": "He cooks and eats the gourd."
+      }
+    },
+    {
+      "paliMm": "ကက္ကရီ (ထီ)",
+      "paliRoman": "Kakkarī (F)",
+      "translateMm": "သခွားသီး",
+      "translateEn": "Cucumber",
+      "example": {
+        "paliMm": "သော သီတလံ ကက္ကရိံ ခါဒတိ။",
+        "paliRoman": "So sītalaṃ kakkariṃ khādati.",
+        "translateMm": "သူ အေးမြတဲ့ သခွားသီးကို စားနေတယ်။",
+        "translateEn": "He eats a cool cucumber."
+      }
+    },
+    {
+      "paliMm": "ကာလိန္ဒ (ပု)",
+      "paliRoman": "Kālinda (M)",
+      "translateMm": "ဖရဲသီး",
+      "translateEn": "Watermelon",
+      "example": {
+        "paliMm": "ဒါရကော မဓုရံ ကာလိန္ဒံ ခါဒတိ။",
+        "paliRoman": "Dārako madhuraṃ kālindaṃ khādati.",
+        "translateMm": "ကလေးလေးက ချိုမြတ်တဲ့ ဖရဲသီးကို စားနေတယ်။",
+        "translateEn": "The child eats a sweet watermelon."
+      }
+    },
+    {
+      "paliMm": "ဥဒုမ္ဗရ (ပု/န)",
+      "paliRoman": "Udumbara (M/N)",
+      "translateMm": "ရေသဖန်းသီး",
+      "translateEn": "Fig",
+      "example": {
+        "paliMm": "သော ဥဒုမ္ဗရဖလံ အာပဏေ ပဿတိ။",
+        "paliRoman": "So udumbaraphalaṃ āpaṇe passati.",
+        "translateMm": "သူ ဈေးထဲမှာ သဖန်းသီးကို လှမ်းကြည့်နေတယ်။",
+        "translateEn": "He looks at a fig in the market."
+      }
+    },
+    {
+      "paliMm": "အာမလက (န)",
+      "paliRoman": "Āmalaka (N)",
+      "translateMm": "သျှစ်သျှားသီး",
+      "translateEn": "Myrobalan, Gooseberry",
+      "example": {
+        "paliMm": "သာ အာမလကံ ဩသဓတ္ထာယ ဂဏှာတိ။",
+        "paliRoman": "Sā āmalakaṃ osadhatthāya gaṇhāti.",
+        "translateMm": "သူငယ်မလေးက ဆေးဝါးအတွက် သျှစ်သျှားသီးကို ယူလိုက်တယ်။",
+        "translateEn": "She takes gooseberry for medicine."
+      }
+    },
+    {
+      "paliMm": "ဟရီတကီ (ထီ)",
+      "paliRoman": "Harītakī (F)",
+      "translateMm": "ဖန်ခါးသီး",
+      "translateEn": "Yellow Myrobalan",
+      "example": {
+        "paliMm": "ယတိ ဟရီတကိံ ခါဒိတွာ အာရောဂေါ ဟောတိ။",
+        "paliRoman": "Yati harītakiṃ khāditvā ārogo hoti.",
+        "translateMm": "ရဟန်းတော်က ဖန်ခါးသီးကို စားပြီး ကျန်းမာရေးကောင်းမွန်လာတယ်။",
+        "translateEn": "The monk eats myrobalan and becomes healthy."
+      }
+    },
+    {
+      "paliMm": "ဝိဘီဋကဖလ (န)",
+      "paliRoman": "Vibhīṭakaphala (N)",
+      "translateMm": "သစ်ကြားသီး",
+      "translateEn": "Walnut",
+      "example": {
+        "paliMm": "သော ဝိဘီဋကဖလံ ဘိန္ဒိတွာ ခါဒတိ။",
+        "paliRoman": "So vibhīṭakaphalaṃ bhinditvā khādati.",
+        "translateMm": "သူ သစ်ကြားသီးကို ခွဲပြီး စားတယ်။",
+        "translateEn": "He breaks open and eats the walnut."
+      }
+    },
+    {
+      "paliMm": "သီတာဖလ (န)",
+      "paliRoman": "Sītāphala (N)",
+      "translateMm": "ပန်းသီး",
+      "translateEn": "Apple",
+      "example": {
+        "paliMm": "သာ ရတ္တံ သီတာဖလံ ကိဏာတိ။",
+        "paliRoman": "Sā rattaṃ sītāphalaṃ kiṇāti.",
+        "translateMm": "သူငယ်မလေးက အနီရောင် ပန်းသီးကို ဝယ်ယူနေတယ်။",
+        "translateEn": "She buys a red apple."
+      }
+    }
+  ]
+}

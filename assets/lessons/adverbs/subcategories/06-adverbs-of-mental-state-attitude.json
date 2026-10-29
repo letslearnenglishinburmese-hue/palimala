@@ -1,0 +1,126 @@
+{
+  "titleMm": "စိတ်နေသဘောထားပြ ကြိယာဝိသေသနများ",
+  "titleEn": "Adverbs of Mental State / Attitude",
+  "vocabList": [
+    {
+      "paliMm": "သက္ကစ္စံ",
+      "paliRoman": "Sakkaccaṃ",
+      "translateMm": "ရိုရိုသေသေ / ရိုသေလေးစားစွာ",
+      "translateEn": "Respectfully",
+      "example": {
+        "paliMm": "သိဿော သက္ကစ္စံ ဓမ္မံ သုဏာတိ။",
+        "paliRoman": "Sisso sakkaccaṃ dhammaṃ suṇāti.",
+        "translateMm": "ကျောင်းသားက ရိုရိုသေသေ တရားနားထောင်တယ်။",
+        "translateEn": "The student listens to the Dhamma respectfully."
+      }
+    },
+    {
+      "paliMm": "အသက္ကစ္စံ",
+      "paliRoman": "Asakkaccaṃ",
+      "translateMm": "မရိုမသေ / ပေါ့ပေါ့ဆဆ",
+      "translateEn": "Disrespectfully, carelessly",
+      "example": {
+        "paliMm": "သော အသက္ကစ္စံ ကမ္မံ ကရောတိ။",
+        "paliRoman": "So asakkaccaṃ kammaṃ karoti.",
+        "translateMm": "သူ အလုပ်ကို မရိုမသေ ပေါ့ပေါ့ဆဆ လုပ်တယ်။",
+        "translateEn": "He does the work carelessly."
+      }
+    },
+    {
+      "paliMm": "သာဓုကံ",
+      "paliRoman": "Sādhukaṃ",
+      "translateMm": "သေချာဂရုစိုက်ပြီး / သေချာပေါက်",
+      "translateEn": "Carefully, attentively",
+      "example": {
+        "paliMm": "သော သာဓုကံ မနသိ ကရောတိ။",
+        "paliRoman": "So sādhukaṃ manasi karoti.",
+        "translateMm": "သူ သေချာဂရုစိုက်ပြီး နှလုံးသွင်းတယ်။",
+        "translateEn": "He considers it very carefully."
+      }
+    },
+    {
+      "paliMm": "အနတ္တမနံ",
+      "paliRoman": "Anattamanaṃ",
+      "translateMm": "မကျေမနပ်နဲ့ / စိတ်မသာမယာနဲ့",
+      "translateEn": "Displeasedly, reluctantly",
+      "example": {
+        "paliMm": "သော အနတ္တမနံ ဘာသတိ။",
+        "paliRoman": "So anattamanaṃ bhāsati.",
+        "translateMm": "သူ စိတ်မသာမယာနဲ့ ပြောလိုက်တယ်။",
+        "translateEn": "He spoke discontentedly."
+      }
+    },
+    {
+      "paliMm": "ပသန္နံ",
+      "paliRoman": "Pasannaṃ",
+      "translateMm": "ကြည်ကြည်နူးနူးနဲ့ / လှိုက်လှိုက်လှဲလှဲ",
+      "translateEn": "Joyfully, with faith",
+      "example": {
+        "paliMm": "ဥပါသကော ပသန္နံ ဒါနံ ဒေတိ။",
+        "paliRoman": "Upāsako pasannaṃ dānaṃ deti.",
+        "translateMm": "ဒကာက ကြည်ကြည်နူးနူးနဲ့ အလှူပေးတယ်။",
+        "translateEn": "The devotee offers alms with joy and faith."
+      }
+    },
+    {
+      "paliMm": "ကုဒ္ဓံ",
+      "paliRoman": "Kuddhaṃ",
+      "translateMm": "ဒေါသတကြီးနဲ့ / စိတ်တိုတိုနဲ့",
+      "translateEn": "Angrily",
+      "example": {
+        "paliMm": "သော ကုဒ္ဓံ ဩဝဒတိ။",
+        "paliRoman": "So kuddhaṃ ovadati.",
+        "translateMm": "သူ ဒေါသတကြီးနဲ့ ဆူပူလိုက်တယ်။",
+        "translateEn": "He scolded angrily."
+      }
+    },
+    {
+      "paliMm": "ဘီတံ",
+      "paliRoman": "Bhītaṃ",
+      "translateMm": "ကြောက်ကြောက်လန့်လန့်နဲ့",
+      "translateEn": "Fearfully, anxiously",
+      "example": {
+        "paliMm": "သိဿော ဘီတံ တိဋ္ဌတိ။",
+        "paliRoman": "Sisso bhītaṃ tiṭṭhati.",
+        "translateMm": "ကျောင်းသားက ကြောက်ကြောက်လန့်လန့်နဲ့ ရပ်နေတယ်။",
+        "translateEn": "The student stands fearfully."
+      }
+    },
+    {
+      "paliMm": "တုရိတံ",
+      "paliRoman": "Turitaṃ",
+      "translateMm": "လောလောလောလောနဲ့ / အာရုံများပြီး",
+      "translateEn": "In a hurry, hastily",
+      "example": {
+        "paliMm": "သော တုရိတံ အာဂစ္ဆတိ။",
+        "paliRoman": "So turitaṃ āgacchati.",
+        "translateMm": "သူ လောလောလောလောနဲ့ ရောက်လာတယ်။",
+        "translateEn": "He came in a great hurry."
+      }
+    },
+    {
+      "paliMm": "အဝိက္ခိတ္တံ",
+      "paliRoman": "Avikkhittaṃ",
+      "translateMm": "တည်တည်ငြိမ်ငြိမ်နဲ့ / စိတ်မပျံ့လွင့်ဘဲ",
+      "translateEn": "Calmly, attentively",
+      "example": {
+        "paliMm": "ယတိ အဝိက္ခိတ္တံ ဈာယတိ။",
+        "paliRoman": "Yati avikkhittaṃ jhāyati.",
+        "translateMm": "ရဟန်းက တည်တည်ငြိမ်ငြိမ်နဲ့ ရှုမှတ်တယ်။",
+        "translateEn": "The monk meditates with a calm and undivided mind."
+      }
+    },
+    {
+      "paliMm": "အပ္ပမာဒံ",
+      "paliRoman": "Appamādaṃ",
+      "translateMm": "သတိလက်လွတ်မရှိဘဲ / သတိကပ်ပြီး",
+      "translateEn": "Soberly, mindfully",
+      "example": {
+        "paliMm": "သော အပ္ပမာဒံ စရတိ။",
+        "paliRoman": "So appamādaṃ carati.",
+        "translateMm": "သူ သတိလက်လွတ်မရှိဘဲ သွားလာတယ်။",
+        "translateEn": "He walks mindfully and soberly."
+      }
+    }
+  ]
+}

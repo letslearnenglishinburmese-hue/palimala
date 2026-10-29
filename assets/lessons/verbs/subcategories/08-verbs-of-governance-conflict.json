@@ -1,0 +1,246 @@
+{
+  "titleMm": "ဥပဒေ၊ အုပ်ချုပ်ရေးနှင့် တိုက်ခိုက်ရေးဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Governance & Conflict",
+  "vocabList": [
+    {
+      "paliMm": "ပသာသတိ",
+      "paliRoman": "Pasāsati",
+      "translateMm": "အုပ်ချုပ်သည်၊ ဆုံးမသည်",
+      "translateEn": "Rules / Governs",
+      "example": {
+        "paliMm": "ရာဇာ ဓမ္မေန ရဋ္ဌံ ပသာသတိ။",
+        "paliRoman": "Rājā dhammena raṭṭhaṃ pasāsati.",
+        "translateMm": "ဘုရင်က တရားဓမ္မနဲ့အညီ တိုင်းပြည်ကို အုပ်ချုပ်တယ်။",
+        "translateEn": "The king rules the country righteously."
+      }
+    },
+    {
+      "paliMm": "ရက္ခတိ",
+      "paliRoman": "Rakkhati",
+      "translateMm": "ကာကွယ်သည်၊ စောင့်ရှောက်သည်",
+      "translateEn": "Protects / Guards",
+      "example": {
+        "paliMm": "ယောဓာ သတ္ထေန နဂရံ ရက္ခတိ။",
+        "paliRoman": "Yodhā satthena nagaraṃ rakkhati.",
+        "translateMm": "စစ်သားက လက်နက်နဲ့ မြို့ကို ကာကွယ်ထားတယ်။",
+        "translateEn": "The soldier protects the city with a weapon."
+      }
+    },
+    {
+      "paliMm": "ဇိနာတိ",
+      "paliRoman": "Jināti",
+      "translateMm": "အောင်နိုင်သည်၊ အနိုင်ရသည်",
+      "translateEn": "Conquers / Wins",
+      "example": {
+        "paliMm": "ရာဇာ သတ္တုံ သင်္ဂါမေ ဇိနာတိ။",
+        "paliRoman": "Rājā sattuṃ saṅgāme jināti.",
+        "translateMm": "ဘုရင်က စစ်ပွဲမှာ ရန်သူကို အနိုင်ရတယ်။",
+        "translateEn": "The king conquers the enemy in battle."
+      }
+    },
+    {
+      "paliMm": "ပရာဇေတိ",
+      "paliRoman": "Parājeti",
+      "translateMm": "ရှုံးနိမ့်စေသည်၊ အနိုင်ယူသည်",
+      "translateEn": "Defeats / Vanquishes",
+      "example": {
+        "paliMm": "သေနာပတိ အမိတ္တေ ပရာဇေတိ။",
+        "paliRoman": "Senāpati amitte parājeti.",
+        "translateMm": "စစ်သူကြီးက ရန်သူတွေကို အနိုင်ယူလိုက်တယ်။",
+        "translateEn": "The general defeats the enemies."
+      }
+    },
+    {
+      "paliMm": "ယုဇ္ဈတိ",
+      "paliRoman": "Yujjhati",
+      "translateMm": "တိုက်ခိုက်သည်၊ စစ်တိုက်သည်",
+      "translateEn": "Fights / Battles",
+      "example": {
+        "paliMm": "ယောဓော သင်္ဂါမင်္ဂဏေ ယုဇ္ဈတိ။",
+        "paliRoman": "Yodho saṅgāmaṅgaṇe yujjhati.",
+        "translateMm": "စစ်သားက စစ်မြေပြင်မှာ တိုက်ခိုက်နေတယ်။",
+        "translateEn": "The soldier fights on the battlefield."
+      }
+    },
+    {
+      "paliMm": "ပက္ခန္ဒတိ",
+      "paliRoman": "Pakkhandati",
+      "translateMm": "ကျူးကျော်ဝင်တိုက်ခိုက်သည်",
+      "translateEn": "Invades",
+      "example": {
+        "paliMm": "သတ္တု နဂရံ ပက္ခန္ဒတိ။",
+        "paliRoman": "Sattu nagaraṃ pakkhandati.",
+        "translateMm": "ရန်သူက မြို့ကို ဝင်ရောက်တိုက်ခိုက်တယ်။",
+        "translateEn": "The enemy attacks the city."
+      }
+    },
+    {
+      "paliMm": "နိစ္ဆယံ ကရောတိ",
+      "paliRoman": "Nicchayaṃ karoti",
+      "translateMm": "ဆုံးဖြတ်သည်၊ စီရင်သည်",
+      "translateEn": "Decides / Judges",
+      "example": {
+        "paliMm": "အက္ခဒဿော အဋ္ဋံ နိစ္ဆယံ ကရောတိ။",
+        "paliRoman": "Akkhadasso aṭṭaṃ nicchayaṃ karoti.",
+        "translateMm": "တရားသူကြီးက အမှုအခင်းကို အဆုံးအဖြတ်ပေးတယ်။",
+        "translateEn": "The judge decides the lawsuit."
+      }
+    },
+    {
+      "paliMm": "အာဏာပေတိ",
+      "paliRoman": "Āṇāpeti",
+      "translateMm": "အမိန့်ပေးသည်၊ စေခိုင်းသည်",
+      "translateEn": "Commands / Orders",
+      "example": {
+        "paliMm": "ရာဇာ သေနံ အာဏာပေတိ။",
+        "paliRoman": "Rājā senaṃ āṇāpeti.",
+        "translateMm": "ဘုရင်က စစ်တပ်ကို အမိန့်ပေးလိုက်တယ်။",
+        "translateEn": "The king commands the army."
+      }
+    },
+    {
+      "paliMm": "နိဂ္ဂဏှာတိ",
+      "paliRoman": "Niggaṇhāti",
+      "translateMm": "နှိမ်နင်းသည်၊ ပြစ်ဒဏ်ခတ်သည်",
+      "translateEn": "Restrains / Punishes",
+      "example": {
+        "paliMm": "ရာဇာ စောရေ နိဂ္ဂဏှာတိ။",
+        "paliRoman": "Rājā core niggaṇhāti.",
+        "translateMm": "ဘုရင်က သူခိုးတွေကို နှိမ်နင်းတယ်။",
+        "translateEn": "The king restrains the thieves."
+      }
+    },
+    {
+      "paliMm": "ပဂ္ဂဏှာတိ",
+      "paliRoman": "Paggaṇhāti",
+      "translateMm": "ချီးမြှောက်သည်၊ ထောက်ပံ့သည်",
+      "translateEn": "Supports / Favors",
+      "example": {
+        "paliMm": "ရာဇာ သာဓုဇနေ ပဂ္ဂဏှာတိ။",
+        "paliRoman": "Rājā sādhujane paggaṇhāti.",
+        "translateMm": "ဘုရင်က သူတော်ကောင်းတွေကို ချီးမြှောက်တယ်။",
+        "translateEn": "The king supports the righteous people."
+      }
+    },
+    {
+      "paliMm": "ဗန္ဓတိ",
+      "paliRoman": "Bandhati",
+      "translateMm": "ဖမ်းဆီးသည်၊ နှောင်ဖွဲ့သည်",
+      "translateEn": "Binds / Arrests",
+      "example": {
+        "paliMm": "ရာဇပုရိသော စောရံ ရဇ္ဇုယာ ဗန္ဓတိ။",
+        "paliRoman": "Rājapuriso coraṃ rajjuyā bandhati.",
+        "translateMm": "မင်းချင်းက သူခိုးကို ကြိုးနဲ့ တုတ်နှောင်လိုက်တယ်။",
+        "translateEn": "The royal officer binds the thief with a rope."
+      }
+    },
+    {
+      "paliMm": "မုဉ္စတိ",
+      "paliRoman": "Muñcati",
+      "translateMm": "လွှတ်ပေးသည်၊ လွတ်မြောက်စေသည်",
+      "translateEn": "Releases / Frees",
+      "example": {
+        "paliMm": "ရာဇာ ဗန္ဓနတော ဇနံ မုဉ္စတိ။",
+        "paliRoman": "Rājā bandhanato janaṃ muñcati.",
+        "translateMm": "ဘုရင်က အကျဉ်းထောင်ကနေ လူကို လွှတ်ပေးလိုက်တယ်။",
+        "translateEn": "The king releases the person from prison."
+      }
+    },
+    {
+      "paliMm": "ဟနတိ",
+      "paliRoman": "Hanati",
+      "translateMm": "သတ်ဖြတ်သည်၊ ဖျက်ဆီးသည်",
+      "translateEn": "Kills / Slays",
+      "example": {
+        "paliMm": "ယောဓော သတ္တုံ သတ္ထေန ဟနတိ။",
+        "paliRoman": "Yodho sattuṃ satthena hanati.",
+        "translateMm": "စစ်သားက ရန်သူကို လက်နက်နဲ့ သတ်ဖြတ်လိုက်တယ်။",
+        "translateEn": "The soldier kills the enemy with a weapon."
+      }
+    },
+    {
+      "paliMm": "ပါလေတိ",
+      "paliRoman": "Pāleti",
+      "translateMm": "အုပ်ချုပ်သည်၊ စောင့်ရှောက်သည်",
+      "translateEn": "Governs / Protects",
+      "example": {
+        "paliMm": "ဘူပါလော ဇနပဒံ ပါလေတိ။",
+        "paliRoman": "Bhūpālo janapadaṃ pāleti.",
+        "translateMm": "မင်းကြီးက တိုင်းသူပြည်သားတို့၏ နယ်ပယ်ကို အုပ်ချုပ်စောင့်ရှောက်တယ်။",
+        "translateEn": "The ruler governs the district."
+      }
+    },
+    {
+      "paliMm": "စောဒေတိ",
+      "paliRoman": "Codeti",
+      "translateMm": "စွပ်စွဲသည်",
+      "translateEn": "Accuses",
+      "example": {
+        "paliMm": "အက္ခဒဿော စောရံ စောဒေတိ။",
+        "paliRoman": "Akkhadasso coraṃ codeti.",
+        "translateMm": "တရားသူကြီးက သူခိုးကို စွပ်စွဲစစ်ဆေးတယ်။",
+        "translateEn": "The judge accuses the thief."
+      }
+    },
+    {
+      "paliMm": "ဒဏ္ဍေတိ",
+      "paliRoman": "Daṇḍeti",
+      "translateMm": "ဒဏ်ခတ်သည်၊ ပြစ်ဒဏ်ပေးသည်",
+      "translateEn": "Punishes / Fines",
+      "example": {
+        "paliMm": "ရာဇာ ပါပကမ္မိံ ဒဏ္ဍေတိ။",
+        "paliRoman": "Rājā pāpakammiṃ daṇḍeti.",
+        "translateMm": "ဘုရင်က မကောင်းမှုပြုသူကို အပြစ်ဒဏ်ခတ်တယ်။",
+        "translateEn": "The king punishes the evildoer."
+      }
+    },
+    {
+      "paliMm": "ရုန္ဓတိ",
+      "paliRoman": "Rundhati",
+      "translateMm": "ပိတ်ဆို့သည်၊ ဝိုင်းရံထားသည်",
+      "translateEn": "Blockades / Besieges",
+      "example": {
+        "paliMm": "သေနာ နဂရံ ရုန္ဓတိ။",
+        "paliRoman": "Senā nagaraṃ rundhati.",
+        "translateMm": "စစ်တပ်က မြို့ကို ဝိုင်းရံပိတ်ဆို့ထားတယ်။",
+        "translateEn": "The army besieges the city."
+      }
+    },
+    {
+      "paliMm": "ဝိဟိံသတိ",
+      "paliRoman": "Vihiṃsati",
+      "translateMm": "နှိပ်စက်သည်",
+      "translateEn": "Harasses",
+      "example": {
+        "paliMm": "စောရော မဟာဇနံ ဝိဟိံသတိ။",
+        "paliRoman": "Coro mahājanaṃ vihiṃsati.",
+        "translateMm": "ဓားပြက ပြည်သူလူထုကို နှိပ်စက်နေတယ်။",
+        "translateEn": "The robber harasses the public."
+      }
+    },
+    {
+      "paliMm": "ခမာပေတိ",
+      "paliRoman": "Khamāpeti",
+      "translateMm": "တောင်းပန်သည်၊ ခွင့်လွှတ်မှုတောင်းခံသည်",
+      "translateEn": "Apologizes / Asks forgiveness",
+      "example": {
+        "paliMm": "ပရာဇိတော ရာဇာ ဇိနန္တံ ခမာပေတိ။",
+        "paliRoman": "Parājito rājā jinantaṃ khamāpeti.",
+        "translateMm": "ရှုံးနိမ့်သွားတဲ့ ဘုရင်က အနိုင်ရသူဆီမှာ ခွင့်လွှတ်မှုတောင်းခံတယ်။",
+        "translateEn": "The defeated king asks forgiveness from the victor."
+      }
+    },
+    {
+      "paliMm": "သန္ဓိံ ကရောတိ",
+      "paliRoman": "Sandhiṃ karoti",
+      "translateMm": "စစ်ပြေငြိမ်းသည်၊ မဟာမိတ်ဖွဲ့သည်",
+      "translateEn": "Makes peace / Forms an alliance",
+      "example": {
+        "paliMm": "ဒွေ ရာဇာနော သန္ဓိံ ကရောန္တိ။",
+        "paliRoman": "Dve rājāno sandhiṃ karonti.",
+        "translateMm": "ဘုရင်နှစ်ပါးတို့က စစ်ပြေငြိမ်းရေး မဟာမိတ်ဖွဲ့ကြတယ်။",
+        "translateEn": "The two kings make peace with each other."
+      }
+    }
+  ]
+}

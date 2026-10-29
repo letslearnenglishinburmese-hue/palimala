@@ -1,0 +1,246 @@
+{
+  "titleMm": "ပိုင်ဆိုင်မှု၊ ရယူခြင်းနှင့် စွန့်လွှတ်ခြင်းဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Possession, Giving & Taking",
+  "vocabList": [
+    {
+      "paliMm": "ဒဒါတိ / ဒေတိ",
+      "paliRoman": "Dadāti / Deti",
+      "translateMm": "ပေးသည်၊ လှူဒါန်းသည်",
+      "translateEn": "Gives / Offers",
+      "example": {
+        "paliMm": "သော ယာစကဿ အာဟာရံ ဒဒါတိ။",
+        "paliRoman": "So yācakassa āhāraṃ dadāti.",
+        "translateMm": "သူ သူတောင်းစားကို အစားအသောက် ပေးလိုက်တယ်။",
+        "translateEn": "He gives food to the beggar."
+      }
+    },
+    {
+      "paliMm": "ဂဏှာတိ",
+      "paliRoman": "Gaṇhāti",
+      "translateMm": "ယူသည်၊ ကိုင်ဆုပ်သည်",
+      "translateEn": "Takes / Holds",
+      "example": {
+        "paliMm": "သော ဟတ္ထေန ပုတ္ထကံ ဂဏှာတိ။",
+        "paliRoman": "So hatthena putthakaṃ gaṇhāti.",
+        "translateMm": "သူ လက်နဲ့ စာအုပ်ကို ယူလိုက်တယ်။",
+        "translateEn": "He takes the book with his hand."
+      }
+    },
+    {
+      "paliMm": "လဘတိ",
+      "paliRoman": "Labhati",
+      "translateMm": "ရရှိသည်၊ ရသည်",
+      "translateEn": "Receives / Gets",
+      "example": {
+        "paliMm": "သော ကမ္မတော ဓနံ လဘတိ။",
+        "paliRoman": "So kammato dhanaṃ labhati.",
+        "translateMm": "သူ အလုပ်ကနေ ငွေကြေး ရရှိတယ်။",
+        "translateEn": "He receives money from his work."
+      }
+    },
+    {
+      "paliMm": "ဇဟာတိ / စဇတိ",
+      "paliRoman": "Jahāti / Cajati",
+      "translateMm": "စွန့်လွှတ်သည်၊ စွန့်ပစ်သည်",
+      "translateEn": "Abandons / Relinquishes",
+      "example": {
+        "paliMm": "သော ပါပကမ္မံ ဇဟာတိ။",
+        "paliRoman": "So pāpakammaṃ jahāti.",
+        "translateMm": "သူ မကောင်းမှုအလုပ်ကို စွန့်လွှတ်လိုက်တယ်။",
+        "translateEn": "He abandons evil deeds."
+      }
+    },
+    {
+      "paliMm": "ဓာရေတိ",
+      "paliRoman": "Dhāreti",
+      "translateMm": "ပိုင်ဆိုင်သည်၊ ဆောင်ထားသည်",
+      "translateEn": "Possesses / Holds",
+      "example": {
+        "paliMm": "သော မဏိံ ဓာရေတိ။",
+        "paliRoman": "So maṇiṃ dhāreti.",
+        "translateMm": "သူ ကျောက်မျက်ရတနာကို ပိုင်ဆိုင်ထားတယ်။",
+        "translateEn": "He possesses a gem."
+      }
+    },
+    {
+      "paliMm": "အာဒါတိ",
+      "paliRoman": "Ādāti",
+      "translateMm": "ယူဆောင်သည်၊ လက်ခံသည်",
+      "translateEn": "Takes / Accepts",
+      "example": {
+        "paliMm": "သော ဒိန္နံ အာဒါတိ။",
+        "paliRoman": "So dinnaṃ ādāti.",
+        "translateMm": "သူ ပေးကမ်းတာကို လက်ခံယူလိုက်တယ်။",
+        "translateEn": "He accepts what is given."
+      }
+    },
+    {
+      "paliMm": "နိဿဇ္ဇေတိ",
+      "paliRoman": "Nissajjeti",
+      "translateMm": "စွန့်ပစ်သည်၊ စွန့်လွှတ်သည်",
+      "translateEn": "Gives up / Discards",
+      "example": {
+        "paliMm": "သမဏော ဃရာဝါသံ နိဿဇ္ဇေတိ။",
+        "paliRoman": "Samaṇo gharāvāsaṃ nissajjeti.",
+        "translateMm": "ရဟန်းတော်က လူ့ဘောင်အိမ်ထောင်ကို စွန့်လွှတ်လိုက်တယ်။",
+        "translateEn": "The ascetic gives up household life."
+      }
+    },
+    {
+      "paliMm": "ပဋိဂဏှာတိ",
+      "paliRoman": "Paṭigaṇhāti",
+      "translateMm": "လက်ခံရယူသည်",
+      "translateEn": "Receives / Accepts",
+      "example": {
+        "paliMm": "ဘိက္ခု ဒါနံ ပဋိဂဏှာတိ။",
+        "paliRoman": "Bhikkhu dānaṃ paṭigaṇhāti.",
+        "translateMm": "ရဟန်းတော်က လှူဒါန်းဝတ္ထုကို လက်ခံရယူတော်မူတယ်။",
+        "translateEn": "The monk accepts the offering."
+      }
+    },
+    {
+      "paliMm": "အာနယတိ",
+      "paliRoman": "Ānayati",
+      "translateMm": "ယူဆောင်လာသည်",
+      "translateEn": "Brings",
+      "example": {
+        "paliMm": "သော အာပဏတော ဖလံ အာနယတိ။",
+        "paliRoman": "So āpaṇato phalaṃ ānayati.",
+        "translateMm": "သူ ဈေးကနေ အသီးကို ယူဆောင်လာတယ်။",
+        "translateEn": "He brings fruit from the market."
+      }
+    },
+    {
+      "paliMm": "နေတိ / ဟရတိ",
+      "paliRoman": "Neti / Harati",
+      "translateMm": "ယူဆောင်သွားသည်",
+      "translateEn": "Takes away / Carries",
+      "example": {
+        "paliMm": "သော ဓနံ ဂေဟံ နေတိ။",
+        "paliRoman": "So dhanaṃ gehaṃ neti.",
+        "translateMm": "သူ ပစ္စည်းဥစ္စာကို အိမ်သို့ ယူဆောင်သွားတယ်။",
+        "translateEn": "He takes the wealth home."
+      }
+    },
+    {
+      "paliMm": "ပရိစ္စဇတိ",
+      "paliRoman": "Pariccajati",
+      "translateMm": "စွန့်လှူသည်၊ စွန့်လွှတ်သည်",
+      "translateEn": "Bestows / Surrenders",
+      "example": {
+        "paliMm": "ရာဇာ သကံ ဓနံ ပရိစ္စဇတိ။",
+        "paliRoman": "Rājā sakaṃ dhanaṃ pariccajati.",
+        "translateMm": "ဘုရင်က မိမိရဲ့ ပစ္စည်းဥစ္စာကို စွန့်လှူလိုက်တယ်။",
+        "translateEn": "The king surrenders his wealth for charity."
+      }
+    },
+    {
+      "paliMm": "သန္တပ္ပေတိ",
+      "paliRoman": "Santappeti",
+      "translateMm": "ဝလင်စေသည်၊ ရောင့်ရဲစေသည်",
+      "translateEn": "Satisfies / Gratifies",
+      "example": {
+        "paliMm": "သော မဟာဇနံ အာဟာရေန သန္တပ္ပေတိ။",
+        "paliRoman": "So mahājanaṃ āhārena santappeti.",
+        "translateMm": "သူ ပြည်သူတွေကို အစားအသောက်နဲ့ ရောင့်ရဲဝလင်စေတယ်။",
+        "translateEn": "He satisfies the public with food."
+      }
+    },
+    {
+      "paliMm": "အာဟရတိ",
+      "paliRoman": "Āharati",
+      "translateMm": "ယူဆောင်လာသည်၊ ဆက်သသည်",
+      "translateEn": "Fetches / Presents",
+      "example": {
+        "paliMm": "သာ ဥဒကံ အာဟရတိ။",
+        "paliRoman": "Sā udakaṃ āharati.",
+        "translateMm": "သူငယ်မလေးက ရေကို ခပ်ယူဆောင်လာတယ်။",
+        "translateEn": "She fetches water."
+      }
+    },
+    {
+      "paliMm": "ဝိဿဇ္ဇေတိ",
+      "paliRoman": "Vissajjeti",
+      "translateMm": "ပေးကမ်းသည်၊ ဝေငှသည်",
+      "translateEn": "Distributes / Grants",
+      "example": {
+        "paliMm": "သော ဒါနံ ဝိဿဇ္ဇေတိ။",
+        "paliRoman": "So dānaṃ vissajjeti.",
+        "translateMm": "သူ အလှူဒါန ပစ္စည်းတွေကို ပေးကမ်းဝေငှလိုက်တယ်။",
+        "translateEn": "He distributes charitable gifts."
+      }
+    },
+    {
+      "paliMm": "ပရိဂဏှာတိ",
+      "paliRoman": "Parigaṇhāti",
+      "translateMm": "သိမ်းပိုက်သည်၊ ပိုင်ဆိုင်သည်",
+      "translateEn": "Grasps / Possesses fully",
+      "example": {
+        "paliMm": "သော ခေတ္တံ ပရိဂဏှာတိ။",
+        "paliRoman": "So khettaṃ parigaṇhāti.",
+        "translateMm": "သူ လယ်ကွင်းကို မိမိပိုင်အဖြစ် သိမ်းပိုက်ထားတယ်။",
+        "translateEn": "He possesses the field."
+      }
+    },
+    {
+      "paliMm": "နိဓာတိ / နိဓေတိ",
+      "paliRoman": "Nidhāti / Nidheti",
+      "translateMm": "မြှုပ်နှံသည်၊ သိမ်းဆည်းသည်",
+      "translateEn": "Deposits / Stores",
+      "example": {
+        "paliMm": "သော ဘူမိယံ ဓနံ နိဓာတိ။",
+        "paliRoman": "So bhūmiyaṃ dhanaṃ nidhāti.",
+        "translateMm": "သူ မြေကြီးထဲမှာ ငွေကြေးကို မြှုပ်နှံသိမ်းဆည်းထားတယ်။",
+        "translateEn": "He deposits wealth in the ground."
+      }
+    },
+    {
+      "paliMm": "ယာစတိ",
+      "paliRoman": "Yācati",
+      "translateMm": "တောင်းခံသည်",
+      "translateEn": "Begs / Asks for",
+      "example": {
+        "paliMm": "ယာစကော အာဟာရံ ယာစတိ။",
+        "paliRoman": "Yācako āhāraṃ yācati.",
+        "translateMm": "သူတောင်းစားက အစားအသောက် တောင်းခံနေတယ်။",
+        "translateEn": "The beggar asks for food."
+      }
+    },
+    {
+      "paliMm": "သာဟသာ ဟရတိ",
+      "paliRoman": "Sāhasā harati",
+      "translateMm": "လုယက်ယူသည်၊ အဓမ္မယူသည်",
+      "translateEn": "Seizes / Robs",
+      "example": {
+        "paliMm": "စောရော ဓနံ သာဟသာ ဟရတိ။",
+        "paliRoman": "Coro dhanaṃ sāhasā harati.",
+        "translateMm": "သူခိုးက ပစ္စည်းဥစ္စာကို အတင်းအဓမ္မ လုယက်ယူဆောင်သွားတယ်။",
+        "translateEn": "The thief seizes the wealth forcefully."
+      }
+    },
+    {
+      "paliMm": "ပဋိဒဒါတိ",
+      "paliRoman": "Paṭidadāti",
+      "translateMm": "ပြန်ပေးသည်၊ ပြန်ဆပ်သည်",
+      "translateEn": "Returns / Gives back",
+      "example": {
+        "paliMm": "သော ဂဟိတံ ပေါတ္ထကံ ပဋိဒဒါတိ။",
+        "paliRoman": "So gahitaṃ potthakaṃ paṭidadāti.",
+        "translateMm": "သူ ယူထားတဲ့ စာအုပ်ကို ပြန်ပေးလိုက်တယ်။",
+        "translateEn": "He gives back the borrowed book."
+      }
+    },
+    {
+      "paliMm": "သာဒိယတိ",
+      "paliRoman": "Sādiyati",
+      "translateMm": "နှစ်သက်စွာ လက်ခံသည်",
+      "translateEn": "Accepts / Takes pleasure in receiving",
+      "example": {
+        "paliMm": "သော ပရိက္ခာရံ သာဒိယတိ။",
+        "paliRoman": "So parikkhāraṃ sādiyati.",
+        "translateMm": "သူ ပရိက္ခရာကို ဝမ်းမြောက်စွာ လက်ခံယူတယ်။",
+        "translateEn": "He accepts the requisite with pleasure."
+      }
+    }
+  ]
+}

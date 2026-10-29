@@ -1,0 +1,126 @@
+{
+  "titleMm": "ခန္ဓာကိုယ်အစိတ်အပိုင်းများ",
+  "titleEn": "Body Parts",
+  "vocabList": [
+    {
+      "paliMm": "သီသ / သိရ (န/ပု)",
+      "paliRoman": "Sīsa / Sira (N/M)",
+      "translateMm": "ဦးခေါင်း",
+      "translateEn": "Head",
+      "example": {
+        "paliMm": "သော သီသံ ဓောဝတိ။",
+        "paliRoman": "So sīsaṃ dhovati.",
+        "translateMm": "သူ ခေါင်း လျှော်နေတယ်။",
+        "translateEn": "He washes his head."
+      }
+    },
+    {
+      "paliMm": "မုခ (န)",
+      "paliRoman": "Mukha (N)",
+      "translateMm": "မျက်နှာ၊ ပါးစပ်",
+      "translateEn": "Face, Mouth",
+      "example": {
+        "paliMm": "သာ မုခံ ဓောဝိတွာ တုဿတိ။",
+        "paliRoman": "Sā mukhaṃ dhovitvā tussati.",
+        "translateMm": "သူငယ်မလေးက မျက်နှာသစ်ပြီး လန်းဆန်းသွားတယ်။",
+        "translateEn": "She washes her face and feels refreshed."
+      }
+    },
+    {
+      "paliMm": "အက္ခိ / နယန (န)",
+      "paliRoman": "Akkhi / Nayana (N)",
+      "translateMm": "မျက်စိ",
+      "translateEn": "Eye",
+      "example": {
+        "paliMm": "သော အက္ခီဟိ ရူပံ ပဿတိ။",
+        "paliRoman": "So akkhīhi rūpaṃ passati.",
+        "translateMm": "သူ မျက်စိနဲ့ ပုံရိပ်ကို ကြည့်နေတယ်။",
+        "translateEn": "He sees the object with his eyes."
+      }
+    },
+    {
+      "paliMm": "သောတ / ကဏ္ဏ (န/ပု)",
+      "paliRoman": "Sota / Kaṇṇa (N/M)",
+      "translateMm": "နား",
+      "translateEn": "Ear",
+      "example": {
+        "paliMm": "သော ကဏ္ဏေဟိ သဒ္ဒံ သုဏာတိ။",
+        "paliRoman": "So kaṇṇehi saddaṃ suṇāti.",
+        "translateMm": "သူ နားနဲ့ အသံကို ကြားနေရတယ်။",
+        "translateEn": "He hears the sound with his ears."
+      }
+    },
+    {
+      "paliMm": "နာသာ / နာသိကာ (ထီ)",
+      "paliRoman": "Nāsā / Nāsikā (F)",
+      "translateMm": "နှာခေါင်း",
+      "translateEn": "Nose",
+      "example": {
+        "paliMm": "သာ နာသိကာယ ဂန္ဓံ ဃာယတိ။",
+        "paliRoman": "Sā nāsikāya gandhaṃ ghāyati.",
+        "translateMm": "သူငယ်မလေးက နှာခေါင်းနဲ့ အနံ့ခံကြည့်တယ်။",
+        "translateEn": "She smells the fragrance with her nose."
+      }
+    },
+    {
+      "paliMm": "ဇိဝှာ (ထီ)",
+      "paliRoman": "Jivhā (F)",
+      "translateMm": "လျှာ",
+      "translateEn": "Tongue",
+      "example": {
+        "paliMm": "ဇိဝှာ ရသံ ဇာနာတိ။",
+        "paliRoman": "Jivhā rasaṃ jānāti.",
+        "translateMm": "လျှာက အရသာကို သိတယ်။",
+        "translateEn": "The tongue tastes the flavor."
+      }
+    },
+    {
+      "paliMm": "ဟတ္ထ / ကရ (ပု)",
+      "paliRoman": "Hattha / Kara (M)",
+      "translateMm": "လက်",
+      "translateEn": "Hand",
+      "example": {
+        "paliMm": "သော ဟတ္ထေန ပုတ္ထကံ ဂဏှာတိ။",
+        "paliRoman": "So hatthena putthakaṃ gaṇhāti.",
+        "translateMm": "သူ လက်နဲ့ စာအုပ်ကို ကိုင်ယူလိုက်တယ်။",
+        "translateEn": "He takes the book with his hand."
+      }
+    },
+    {
+      "paliMm": "ပါဒ (ပု)",
+      "paliRoman": "Pāda (M)",
+      "translateMm": "ခြေထောက်",
+      "translateEn": "Foot, Leg",
+      "example": {
+        "paliMm": "သော ပါဒေဟိ မဂ္ဂံ ဂစ္ဆတိ။",
+        "paliRoman": "So pādehi maggaṃ gacchati.",
+        "translateMm": "သူ ခြေထောက်နဲ့ လမ်းလျှောက်သွားတယ်။",
+        "translateEn": "He walks on the path with his feet."
+      }
+    },
+    {
+      "paliMm": "ဟဒယ (န)",
+      "paliRoman": "Hadaya (N)",
+      "translateMm": "နှလုံး",
+      "translateEn": "Heart",
+      "example": {
+        "paliMm": "သော ဟဒယေန သစ္စံ စိန္တေတိ။",
+        "paliRoman": "So hadayena saccaṃ cinteti.",
+        "translateMm": "သူ နှလုံးသားထဲကနေ အမှန်တရားကို စဉ်းစားတယ်။",
+        "translateEn": "He thinks of the truth with his heart."
+      }
+    },
+    {
+      "paliMm": "ကာယ (ပု)",
+      "paliRoman": "Kāya (M)",
+      "translateMm": "ကိုယ်ကာယ၊ ခန္ဓာကိုယ်",
+      "translateEn": "Body",
+      "example": {
+        "paliMm": "သော ကာယံ သုစိံ ကရောတိ။",
+        "paliRoman": "So kāyaṃ suciṃ karoti.",
+        "translateMm": "သူ ခန္ဓာကိုယ်ကို သန့်ရှင်းအောင် ပြုလုပ်တယ်။",
+        "translateEn": "He keeps his body clean."
+      }
+    }
+  ]
+}

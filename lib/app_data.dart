@@ -161,7 +161,7 @@ class MainCategory {
 
 /// A single downloadable chapter of the app data.
 ///
-/// Data is published as one file per top-level category under
+/// Generated data is published as one file per top-level category under
 /// `assets/pali_data/` and indexed by `assets/pali_data_manifest.json`. Each
 /// dataset carries its own SHA-256 so the app can tell whether the copy on
 /// device is older than the one on GitHub and offer only the chapters the user

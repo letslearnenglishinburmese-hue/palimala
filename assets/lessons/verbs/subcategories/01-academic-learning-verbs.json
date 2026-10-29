@@ -1,0 +1,234 @@
+{
+  "titleMm": "ပညာရပ်ဆိုင်ရာကြိယာများ",
+  "titleEn": "Academic & Learning Verbs",
+  "vocabList": [
+    {
+      "paliMm": "သိက္ခတိ",
+      "paliRoman": "Sikkhati",
+      "translateMm": "သင်ယူ၏ / လေ့လာ၏",
+      "translateEn": "Learns / Studies",
+      "example": {
+        "paliMm": "သိဿော ဝိဇ္ဇာလယေ ပါဠိဘာသံ သိက္ခတိ။",
+        "paliRoman": "Sisso vijjālaye pāḷibhāsaṃ sikkhati.",
+        "translateMm": "ကျောင်းသားသည် တက္ကသိုလ်၌ ပါဠိဘာသာစကားကို သင်ယူ၏။",
+        "translateEn": "The student learns the Pali language at the university."
+      }
+    },
+    {
+      "paliMm": "ဥပဓာရေတိ",
+      "paliRoman": "Upadhāreti",
+      "translateMm": "စဉ်းစားဆင်ခြင်၏",
+      "translateEn": "Examines / Considers",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော နယံ သုဋ္ဌု ဥပဓာရေတိ။",
+        "paliRoman": "Paṇḍito nayaṃ suṭṭhu upadhāreti.",
+        "translateMm": "ပညာရှိသည် နည်းလမ်းကို ကောင်းစွာ စဉ်းစားဆင်ခြင်၏။",
+        "translateEn": "The wise person carefully examines the method."
+      }
+    },
+    {
+      "paliMm": "ဝါစေတိ",
+      "paliRoman": "Vāceti",
+      "translateMm": "သင်ကြားပေး၏",
+      "translateEn": "Teaches",
+      "example": {
+        "paliMm": "အာစရိယော သိဿာနံ သုတ္တံ ဝါစေတိ။",
+        "paliRoman": "Ācariyo sissānaṃ suttaṃ vāceti.",
+        "translateMm": "ဆရာသည် ကျောင်းသားတို့အား သုတ်ဒေသနာကို သင်ကြားပေး၏",
+        "translateEn": "The teacher teaches the discourse to the students."
+      }
+    },
+    {
+      "paliMm": "ပုစ္ဆတိ",
+      "paliRoman": "Pucchati",
+      "translateMm": "မေးမြန်း၏",
+      "translateEn": "Asks",
+      "example": {
+        "paliMm": "သိဿော အာစရိယံ ပဥှံ ပုစ္ဆတိ။",
+        "paliRoman": "Sisso ācariyaṃ pañhaṃ pucchati.",
+        "translateMm": "ကျောင်းသားသည် ဆရာ့ကို မေးခွန်းကို မေးမြန်း၏။",
+        "translateEn": "The student asks the teacher a question."
+      }
+    },
+    {
+      "paliMm": "ဝိဿဇ္ဇေတိ",
+      "paliRoman": "Vissajjeti",
+      "translateMm": "ဖြေဆို၏",
+      "translateEn": "Answers",
+      "example": {
+        "paliMm": "အာစရိယော ပဥှံ သမ္မာ ဝိဿဇ္ဇေတိ။",
+        "paliRoman": "Ācariyo pañhaṃ sammā vissajjeti.",
+        "translateMm": "ဆရာသည် မေးခွန်းကို ကောင်းစွာ ဖြေဆို၏။",
+        "translateEn": "The teacher answers the question correctly."
+      }
+    },
+    {
+      "paliMm": "လိခတိ",
+      "paliRoman": "Likhati",
+      "translateMm": "ရေးသားပြုစုသည်",
+      "translateEn": "Writes / composes",
+      "example": {
+        "paliMm": "လေခကော သာရတ္ထံ လိခတိ။",
+        "paliRoman": "Lekhako sāratthaṃ likhati.",
+        "translateMm": "စာရေးသူသည် အနှစ်သာရကို ရေးသားပြုစု၏။",
+        "translateEn": "The writer composes the core concept."
+      }
+    },
+    {
+      "paliMm": "ပဿတိ",
+      "paliRoman": "Passati",
+      "translateMm": "လေ့လာသုံးသပ်သည်",
+      "translateEn": "Observes / analyzes",
+      "example": {
+        "paliMm": "ဝိညူ ဓမ္မံ သုဋ္ဌု ပဿတိ။",
+        "paliRoman": "Viññū dhammaṃ suṭṭhu passati.",
+        "translateMm": "ပညာရှိသည် သဘောတရားကို ကောင်းစွာ လေ့လာသုံးသပ်၏။",
+        "translateEn": "The wise person observes/analyzes the phenomenon thoroughly."
+      }
+    },
+    {
+      "paliMm": "ဝိစိနောတိ",
+      "paliRoman": "Vicināti",
+      "translateMm": "သုတေသနပြုသည် / စိစစ်စုံစမ်းသည်",
+      "translateEn": "Investigates / researches",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော အတ္ထံ သဏိကံ ဝိစိနောတိ။",
+        "paliRoman": "Paṇḍito atthaṃ saṇikaṃ vicināti.",
+        "translateMm": "ပညာရှိသည် အဓိပ္ပာယ်ကို ဖြည်းဖြည်းစိစစ်၍ သုတေသနပြု၏။",
+        "translateEn": "The scholar investigates the meaning carefully."
+      }
+    },
+    {
+      "paliMm": "နိဇ္ဈာယတိ",
+      "paliRoman": "Nijjhāyati",
+      "translateMm": "တွေးခေါ်ကြံဆသည်",
+      "translateEn": "Contemplates / reflects",
+      "example": {
+        "paliMm": "သိဿော ကာရဏံ နိဇ္ဈာယတိ။",
+        "paliRoman": "Sisso kāraṇaṃ nijjhāyati.",
+        "translateMm": "ကျောင်းသားသည် အကြောင်းအရင်းကို တွေးခေါ်ကြံဆ၏။",
+        "translateEn": "The student contemplates the reason."
+      }
+    },
+    {
+      "paliMm": "ဝိဘဇတိ",
+      "paliRoman": "Vibhajati",
+      "translateMm": "ခွဲခြားစိတ်ဖြာသည်",
+      "translateEn": "Classifies / analyzes",
+      "example": {
+        "paliMm": "အာစရိယော ဓမ္မေ ဝိဘဇတိ။",
+        "paliRoman": "Ācariyo dhamme vibhajati.",
+        "translateMm": "ဆရာသည် သဘောတရားများကို ခွဲခြားစိတ်ဖြာပြ၏။",
+        "translateEn": "The teacher classifies/analyzes the phenomena."
+      }
+    },
+    {
+      "paliMm": "ဥပနိဓေတိ",
+      "paliRoman": "Upanidheti",
+      "translateMm": "နှိုင်းယှဉ်သည်",
+      "translateEn": "Compares",
+      "example": {
+        "paliMm": "ဝိညူ စုန္နံ စုန္နေန ဥပနိဓေတိ။",
+        "paliRoman": "Viññū cunnaṃ cunnena upanidheti.",
+        "translateMm": "ပညာရှိသည် အချက်အလက်တစ်ခုကို အခြားတစ်ခုနှင့် နှိုင်းယှဉ်၏။",
+        "translateEn": "The scholar compares one detail with another."
+      }
+    },
+    {
+      "paliMm": "နိဒ္ဒိသတိ",
+      "paliRoman": "Niddisati",
+      "translateMm": "ညွှန်ပြဖော်ပြသည်",
+      "translateEn": "Indicates / points out",
+      "example": {
+        "paliMm": "ဂန္ထကာရော သစ္စံ နိဒ္ဒိသတိ။",
+        "paliRoman": "Ganthakāro saccaṃ niddisati.",
+        "translateMm": "စာရေးဆရာသည် အမှန်တရားကို ညွှန်ပြဖော်ပြ၏။",
+        "translateEn": "The author indicates the truth."
+      }
+    },
+    {
+      "paliMm": "သာဓေတိ",
+      "paliRoman": "Sādheti",
+      "translateMm": "သက်သေထူသည် / စိစစ်ပြသသည်",
+      "translateEn": "Proves / establishes",
+      "example": {
+        "paliMm": "သုတဝါ သကနယံ သာဓေတိ။",
+        "paliRoman": "Sutavā sakanayaṃ sādheti.",
+        "translateMm": "အကြားအမြင်ရှိသူသည် မိမိ၏ နည်းလမ်း/ယူဆချက်ကို သက်သေထူ၏။",
+        "translateEn": "The learned person proves his theory."
+      }
+    },
+    {
+      "paliMm": "ပကာသေတိ",
+      "paliRoman": "Pakāseti",
+      "translateMm": "ရှင်းလင်းထုတ်ဖော်သည်",
+      "translateEn": "Explains / illustrates",
+      "example": {
+        "paliMm": "အာစရိယော ပါဠိအတ္ထံ ပကာသေတိ။",
+        "paliRoman": "Ācariyo pāḷiatthaṃ pakāseti.",
+        "translateMm": "ဆရာသည် ပါဠိအဓိပ္ပာယ်ကို ရှင်းလင်းထုတ်ဖော်၏။",
+        "translateEn": "The teacher explains/illustrates the meaning of the Pali text."
+      }
+    },
+    {
+      "paliMm": "သံဟရတိ",
+      "paliRoman": "Saṃharati",
+      "translateMm": "အကျဉ်းချုပ်သည် / ပြုစုစုစည်းသည်",
+      "translateEn": "Summarizes / compiles",
+      "example": {
+        "paliMm": "သီဿော ကထံ သံဟရတိ။",
+        "paliRoman": "Sisso kathaṃ saṃharati.",
+        "translateMm": "ကျောင်းသားသည် စကား/အကြောင်းအရာကို အကျဉ်းချုပ်၏။",
+        "translateEn": "The student summarizes the content."
+      }
+    },
+    {
+      "paliMm": "ပဌတိ",
+      "paliRoman": "Paṭhati",
+      "translateMm": "ဖတ်ရှုလေ့လာသည်",
+      "translateEn": "Reads / studies text",
+      "example": {
+        "paliMm": "သီဿော ဂန္ထံ ပဌတိ။",
+        "paliRoman": "Sisso ganthaṃ paṭhati.",
+        "translateMm": "ကျောင်းသားသည် ကျမ်းဂန်ကို ဖတ်ရှုလေ့လာ၏။",
+        "translateEn": "The student reads the text."
+      }
+    },
+    {
+      "paliMm": "သာရေတိ",
+      "paliRoman": "Sāreti",
+      "translateMm": "အမှတ်ရစေသည် / ပြန်လည်သုံးသပ်သည်",
+      "translateEn": "Recalls / reviews",
+      "example": {
+        "paliMm": "ပဏ္ဍိတော ပုဗ္ဗဗုဒ္ဓိံ သာရေတိ။",
+        "paliRoman": "Paṇḍito pubbabuddhiṃ sāreti.",
+        "translateMm": "ပညာရှိသည် ရှေးအသိပညာကို ပြန်လည်သုံးသပ်၏။",
+        "translateEn": "The scholar recalls/reviews prior knowledge."
+      }
+    },
+    {
+      "paliMm": "သောဓေတိ",
+      "paliRoman": "Sodheti",
+      "translateMm": "ပြင်ဆင်တည်းဖြတ်သည်",
+      "translateEn": "Corrects / edits / verifies",
+      "example": {
+        "paliMm": "သောဓကော လေခနံ သောဓေတိ။",
+        "paliRoman": "Sodhako lekhanaṃ sodheti.",
+        "translateMm": "စာပြင်သူသည် စာမူကို ပြင်ဆင်တည်းဖြတ်၏။",
+        "translateEn": "The editor corrects/edits the text."
+      }
+    },
+    {
+      "paliMm": "သမ္ပာဒေတိ",
+      "paliRoman": "Sampādeti",
+      "translateMm": "ပြီးမြောက်အောင် ဆောင်ရွက်သည်",
+      "translateEn": "Completes / executes",
+      "example": {
+        "paliMm": "သီဿော ကိစ္စံ သမ္ပာဒေတိ။",
+        "paliRoman": "Sisso kiccaṃ sampādeti.",
+        "translateMm": "ကျောင်းသားသည် အလုပ်/တာဝန်ကို ပြီးမြောက်အောင် ဆောင်ရွက်၏။",
+        "translateEn": "The student completes the assignment."
+      }
+    }
+  ]
+}

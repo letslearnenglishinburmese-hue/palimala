@@ -1,0 +1,246 @@
+{
+  "titleMm": "သန့်ရှင်းရေးနှင့် ပြုပြင်ထိန်းသိမ်းခြင်းဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Cleaning & Maintenance",
+  "vocabList": [
+    {
+      "paliMm": "ဓောဝတိ",
+      "paliRoman": "Dhovati",
+      "translateMm": "လျှော်ဖွပ်သည်၊ ဆေးကြောသည်",
+      "translateEn": "Washes / Cleanses",
+      "example": {
+        "paliMm": "ရဇကော နဒိယံ ဝတ္ထံ ဓောဝတိ။",
+        "paliRoman": "Rajako nadiyaṃ vatthaṃ dhovati.",
+        "translateMm": "အဝတ်လျှော်သမားက မြစ်ထဲမှာ အဝတ်ကို လျှော်ဖွပ်နေတယ်။",
+        "translateEn": "The washerman washes the cloth in the river."
+      }
+    },
+    {
+      "paliMm": "သောဓေတိ",
+      "paliRoman": "Sodheti",
+      "translateMm": "သန့်ရှင်းစေသည်၊ သန့်စင်သည်",
+      "translateEn": "Clears / Purifies / Cleans",
+      "example": {
+        "paliMm": "သော မဂ္ဂံ သောဓေတိ။",
+        "paliRoman": "So maggaṃ sodheti.",
+        "translateMm": "သူ လမ်းမကြီးကို သန့်ရှင်းအောင် ရှင်းလင်းနေတယ်။",
+        "translateEn": "He clears the road."
+      }
+    },
+    {
+      "paliMm": "သမ္မဇ္ဇတိ",
+      "paliRoman": "Sammajjati",
+      "translateMm": "တံမြက်လှည်းသည်",
+      "translateEn": "Sweeps",
+      "example": {
+        "paliMm": "သိဿော ဝိဟာရင်္ဂဏံ သမ္မဇ္ဇတိ။",
+        "paliRoman": "Sisso vihāraṅgaṇaṃ sammajjati.",
+        "translateMm": "ကျောင်းသားက ကျောင်းဝင်းကို တံမြက်လှည်းနေတယ်။",
+        "translateEn": "The student sweeps the monastery yard."
+      }
+    },
+    {
+      "paliMm": "ပဋိသင်္ခရောတိ",
+      "paliRoman": "Paṭisaṅkharoti",
+      "translateMm": "ပြုပြင်မွမ်းမံသည်၊ ပြန်လည်ပြင်ဆင်သည်",
+      "translateEn": "Repairs / Restores",
+      "example": {
+        "paliMm": "ဝဍ္ဎကိ ဇိဏ္ဏံ ဂေဟံ ပဋိသင်္ခရောတိ။",
+        "paliRoman": "Vaḍḍhaki jiṇṇaṃ gehaṃ paṭisaṅkharoti.",
+        "translateMm": "လက်သမားက ဟောင်းနွမ်းနေတဲ့ အိမ်ကို ပြုပြင်မွမ်းမံနေတယ်။",
+        "translateEn": "The carpenter repairs the old house."
+      }
+    },
+    {
+      "paliMm": "အာလိမ္ပတိ / လိမ္ပတိ",
+      "paliRoman": "Ālimpati / Limpati",
+      "translateMm": "လိမ်းကျံသည်၊ သုတ်လိမ်းသည်",
+      "translateEn": "Plasters / Smears / Anoints",
+      "example": {
+        "paliMm": "သော မတ္တိကာယ သာလံ အာလိမ္ပတိ။",
+        "paliRoman": "So mattikāya sālaṃ ālimpati.",
+        "translateMm": "သူ မြေညှင်းနဲ့ အဆောက်အအုံကို သုတ်လိမ်းနေတယ်။",
+        "translateEn": "He plasters the hall with clay."
+      }
+    },
+    {
+      "paliMm": "ပက္ခာလေတိ",
+      "paliRoman": "Pakkhāleti",
+      "translateMm": "ဆေးကြောသန့်စင်သည်",
+      "translateEn": "Washes off / Rinses",
+      "example": {
+        "paliMm": "သော ဟတ္ထေ စ ပါဒေ စ ပက္ခာလေတိ။",
+        "paliRoman": "So hatthe ca pāde ca pakkhāleti.",
+        "translateMm": "သူ လက်တွေနဲ့ ခြေထောက်တွေကို ဆေးကြောသန့်စင်တယ်။",
+        "translateEn": "He washes his hands and feet."
+      }
+    },
+    {
+      "paliMm": "ပုဉ္ဆတိ",
+      "paliRoman": "Puñchati",
+      "translateMm": "သုတ်သင်သည်၊ သုတ်သည်",
+      "translateEn": "Wipes / Dries",
+      "example": {
+        "paliMm": "သာ ဝတ္ထေန ပီဌံ ပုဉ္ဆတိ။",
+        "paliRoman": "Sā vatthena pīṭhaṃ puñchati.",
+        "translateMm": "သူငယ်မလေးက အဝတ်စနဲ့ ခုံကို သုတ်သင်နေတယ်။",
+        "translateEn": "She wipes the chair with a cloth."
+      }
+    },
+    {
+      "paliMm": "ပူရေတိ",
+      "paliRoman": "Pūreti",
+      "translateMm": "ပြည့်စုံစေသည်၊ ရေဖြည့်သည်",
+      "translateEn": "Fills / Refills",
+      "example": {
+        "paliMm": "သော ကုမ္ဘံ ဥဒကေန ပူရေတိ။",
+        "paliRoman": "So kumbhaṃ udakena pūreti.",
+        "translateMm": "သူ အိုးထဲကို ရေ ဖြည့်ပေးနေတယ်။",
+        "translateEn": "He fills the pot with water."
+      }
+    },
+    {
+      "paliMm": "ဝိသောဓေတိ",
+      "paliRoman": "Visodheti",
+      "translateMm": "စိစစ်သန့်စင်သည်",
+      "translateEn": "Purifies thoroughly",
+      "example": {
+        "paliMm": "ယတိ စိတ္တံ ဝိသောဓေတိ။",
+        "paliRoman": "Yati cittaṃ visodheti.",
+        "translateMm": "ရဟန်းတော်က မိမိစိတ်ကို သန့်ရှင်းစင်ကြယ်အောင် ပြုလုပ်တယ်။",
+        "translateEn": "The monk thoroughly purifies his mind."
+      }
+    },
+    {
+      "paliMm": "ပရိပူရေတိ",
+      "paliRoman": "Paripūreti",
+      "translateMm": "ဖြည့်ဆည်းပေးသည်၊ ပြည့်စုံစေသည်",
+      "translateEn": "Fulfills / Maintains completely",
+      "example": {
+        "paliMm": "သော သီလံ သမ္မာ ပရိပူရေတိ။",
+        "paliRoman": "So sīlaṃ sammā paripūreti.",
+        "translateMm": "သူ သီလကို စနစ်တကျ ဖြည့်ဆည်းထိန်းသိမ်းတယ်။",
+        "translateEn": "He completely fulfills the precepts."
+      }
+    },
+    {
+      "paliMm": "အဘိသိဉ္စတိ",
+      "paliRoman": "Abhisiñcati",
+      "translateMm": "ရေဖျန်းပက်သည်၊ သန့်စင်စေသည်",
+      "translateEn": "Sprinkles water / Bathes",
+      "example": {
+        "paliMm": "သော ပုပ္ဖေသု ဥဒကံ အဘိသိဉ္စတိ။",
+        "paliRoman": "So pupphesu udakaṃ abhisiñcati.",
+        "translateMm": "သူ ပန်းတွေကို ရေဖျန်းပက်ပေးနေတယ်။",
+        "translateEn": "He sprinkles water on the flowers."
+      }
+    },
+    {
+      "paliMm": "နိဟာရေတိ",
+      "paliRoman": "Nihāreti",
+      "translateMm": "အမှိုက်သရိုက်များကို ဖယ်ရှားသည်",
+      "translateEn": "Removes / Clears away",
+      "example": {
+        "paliMm": "သော ဂေဟတော ကစဝရံ နိဟာရေတိ။",
+        "paliRoman": "So gehato kacavaraṃ nihāreti.",
+        "translateMm": "သူ အိမ်ထဲကနေ အမှိုက်တွေကို ရှင်းလင်းထုတ်ပစ်တယ်။",
+        "translateEn": "He removes the rubbish from the house."
+      }
+    },
+    {
+      "paliMm": "သဇ္ဇေတိ",
+      "paliRoman": "Sajjeti",
+      "translateMm": "ပြင်ဆင်မွမ်းမံသည်၊ တန်ဆာဆင်သည်",
+      "translateEn": "Prepares / Decorates / Tidies up",
+      "example": {
+        "paliMm": "သာ ဂေဟံ သုန္ဒရံ သဇ္ဇေတိ။",
+        "paliRoman": "Sā gehaṃ sundaraṃ sajjeti.",
+        "translateMm": "သူငယ်မလေးက အိမ်ကို လှပအောင် ပြင်ဆင်မွမ်းမံနေတယ်။",
+        "translateEn": "She tidies up and decorates the house nicely."
+      }
+    },
+    {
+      "paliMm": "သံဟရတိ",
+      "paliRoman": "Saṃharati",
+      "translateMm": "သိမ်းဆည်းသည်၊ စုစည်းသည်",
+      "translateEn": "Gathers / Stores neatly",
+      "example": {
+        "paliMm": "သော ဝတ္ထာနိ သံဟရတိ။",
+        "paliRoman": "So vatthāni saṃharati.",
+        "translateMm": "သူ အဝတ်အထည်တွေကို သေချာ ခေါက်သိမ်းနေတယ်။",
+        "translateEn": "He gathers and folds the clothes neatly."
+      }
+    },
+    {
+      "paliMm": "ပရိဟာရေတိ",
+      "paliRoman": "Parihāreti",
+      "translateMm": "စောင့်ရှောက်ထိန်းသိမ်းသည်",
+      "translateEn": "Maintains / Takes care of",
+      "example": {
+        "paliMm": "သော သကံ သရီရံ သမ္မာ ပရိဟာရေတိ။",
+        "paliRoman": "So sakaṃ sarīraṃ sammā parihāreti.",
+        "translateMm": "သူ မိမိရဲ့ ခန္ဓာကိုယ်ကို စနစ်တကျ ပြုစုထိန်းသိမ်းတယ်။",
+        "translateEn": "He properly maintains his body."
+      }
+    },
+    {
+      "paliMm": "မဇ္ဇတိ",
+      "paliRoman": "Majjati",
+      "translateMm": "ပွတ်တိုက်သည်၊ ပြောင်လက်အောင်ပြုသည်",
+      "translateEn": "Polishes / Cleans",
+      "example": {
+        "paliMm": "သော သုဝဏ္ဏံ မဇ္ဇတိ။",
+        "paliRoman": "So suvaṇṇaṃ majjati.",
+        "translateMm": "သူ ရွှေကို ပြောင်လက်အောင် ပွတ်တိုက်နေတယ်။",
+        "translateEn": "He polishes the gold."
+      }
+    },
+    {
+      "paliMm": "ပါလေတိ",
+      "paliRoman": "Pāleti",
+      "translateMm": "ထိန်းသိမ်းသည်၊ စောင့်ရှောက်သည်",
+      "translateEn": "Preserves / Protects",
+      "example": {
+        "paliMm": "သော ပေါတ္ထကံ သမ္မာ ပါလေတိ။",
+        "paliRoman": "So potthakaṃ sammā pāleti.",
+        "translateMm": "သူ စာအုပ်ကို စနစ်တကျ ထိန်းသိမ်းစောင့်ရှောက်တယ်။",
+        "translateEn": "He preserves the book properly."
+      }
+    },
+    {
+      "paliMm": "ဝိက္ခာလေတိ",
+      "paliRoman": "Vikkhāleti",
+      "translateMm": "ဆေးကြောသန့်စင်သည်",
+      "translateEn": "Rinses / Washes clean",
+      "example": {
+        "paliMm": "သာ ပါတ္တံ ဝိက္ခာလေတိ။",
+        "paliRoman": "Sā pāttaṃ vikkhāleti.",
+        "translateMm": "သူငယ်မလေးက ခွက်ကို ဆေးကြောသန့်စင်နေတယ်။",
+        "translateEn": "She rinses the bowl."
+      }
+    },
+    {
+      "paliMm": "အာကိရတိ",
+      "paliRoman": "Ākirati",
+      "translateMm": "ရေပက်သည်၊ ရေလောင်းသည်",
+      "translateEn": "Sprinkles / Scatters",
+      "example": {
+        "paliMm": "သော ဘူမိယံ ဥဒကံ အာကိရတိ။",
+        "paliRoman": "So bhūmiyaṃ udakaṃ ākirati.",
+        "translateMm": "သူ မြေကြီးပေါ်ကို ရေဖျန်းပက်နေတယ်။",
+        "translateEn": "He sprinkles water on the ground."
+      }
+    },
+    {
+      "paliMm": "မလံ နိဟာရေတိ",
+      "paliRoman": "Malaṃ nihāreti",
+      "translateMm": "အညစ်အကြေးကို ဖယ်ရှားသည်",
+      "translateEn": "Removes dirt / Stains",
+      "example": {
+        "paliMm": "သော ဝတ္ထတော မလံ နိဟာရေတိ။",
+        "paliRoman": "So vatthato malaṃ nihāreti.",
+        "translateMm": "သူ အဝတ်ပေါ်က အညစ်အကြေးကို ဖယ်ရှားသန့်စင်တယ်။",
+        "translateEn": "He removes dirt from the cloth."
+      }
+    }
+  ]
+}

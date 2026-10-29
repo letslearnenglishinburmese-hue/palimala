@@ -1,0 +1,126 @@
+{
+  "titleMm": "ကာလပြ ကြိယာဝိသေသနများ",
+  "titleEn": "Adverbs of Time",
+  "vocabList": [
+    {
+      "paliMm": "မုဟုတ္တံ",
+      "paliRoman": "Muhuttaṃ",
+      "translateMm": "ခဏလေးပဲ",
+      "translateEn": "For a moment",
+      "example": {
+        "paliMm": "မုနိ မုဟုတ္တံ ဈာယတိ။",
+        "paliRoman": "Muni muhuttaṃ jhāyati.",
+        "translateMm": "ရဟန်းက ခဏလေးပဲ တရားရှုလိုက်တယ်။",
+        "translateEn": "The monk meditates just for a moment."
+      }
+    },
+    {
+      "paliMm": "ရတ္တိံ",
+      "paliRoman": "Rattiṃ",
+      "translateMm": "ညဘက်မှာ",
+      "translateEn": "At night",
+      "example": {
+        "paliMm": "သော ရတ္တိံ စရတိ။",
+        "paliRoman": "So rattiṃ carati.",
+        "translateMm": "သူ ညဘက်မှာ လျှောက်သွားနေတယ်။",
+        "translateEn": "He walks around at night."
+      }
+    },
+    {
+      "paliMm": "ဒိဝသံ",
+      "paliRoman": "Divasaṃ",
+      "translateMm": "တစ်နေ့လုံး",
+      "translateEn": "All day long",
+      "example": {
+        "paliMm": "သိဿော ဒိဝသံ ပဌတိ။",
+        "paliRoman": "Sisso divasaṃ paṭhati.",
+        "translateMm": "ကျောင်းသားက တစ်နေ့လုံး စာဖတ်နေတယ်။",
+        "translateEn": "The student reads all day long."
+      }
+    },
+    {
+      "paliMm": "မာသံ",
+      "paliRoman": "Māsaṃ",
+      "translateMm": "တစ်လလုံး",
+      "translateEn": "For a whole month",
+      "example": {
+        "paliMm": "ယတိ မာသံ ဝိဟာရေ ဝသတိ။",
+        "paliRoman": "Yati māsaṃ vihāre vasati.",
+        "translateMm": "ရဟန်းက ကျောင်းမှာ တစ်လလုံး သီးသန့်နေတယ်။",
+        "translateEn": "The monk stays in the monastery for a whole month."
+      }
+    },
+    {
+      "paliMm": "သံဝစ္ဆရံ",
+      "paliRoman": "Saṃvaccharaṃ",
+      "translateMm": "တစ်နှစ်လုံး",
+      "translateEn": "For a full year",
+      "example": {
+        "paliMm": "သော သံဝစ္ဆရံ သိက္ခတိ။",
+        "paliRoman": "So saṃvaccharaṃ sikkhati.",
+        "translateMm": "သူ တစ်နှစ်လုံး သင်ယူနေတာ။",
+        "translateEn": "He studies for a full year."
+      }
+    },
+    {
+      "paliMm": "စိရရတ္တံ",
+      "paliRoman": "Cirarattaṃ",
+      "translateMm": "အကြာကြီး",
+      "translateEn": "For a long time",
+      "example": {
+        "paliMm": "သဒ္ဓမ္မော စိရရတ္တံ တိဋ္ဌတု။",
+        "paliRoman": "Saddhammo cirarattaṃ tiṭṭhatu.",
+        "translateMm": "သူတော်ကောင်းတရား အကြာကြီး တည်တံ့ပါစေ။",
+        "translateEn": "May the true Dhamma last for a very long time."
+      }
+    },
+    {
+      "paliMm": "ဒီဃရတ္တံ",
+      "paliRoman": "Dīgharattaṃ",
+      "translateMm": "ကာလပေါင်းများစွာ",
+      "translateEn": "For a long, long time",
+      "example": {
+        "paliMm": "ဇနာ ဒီဃရတ္တံ သုခံ ဝိန္ဒန္တိ။",
+        "paliRoman": "Janā dīgharattaṃ sukhaṃ vindanti.",
+        "translateMm": "လူတွေ ကာလပေါင်းများစွာ ချမ်းသာကြတယ်။",
+        "translateEn": "People enjoy happiness for a long, long time."
+      }
+    },
+    {
+      "paliMm": "ခဏံ",
+      "paliRoman": "Khaṇaṃ",
+      "translateMm": "ခဏတည်းနဲ့",
+      "translateEn": "In a second, momentarily",
+      "example": {
+        "paliMm": "သော ခဏံ တိဋ္ဌတိ။",
+        "paliRoman": "So khaṇaṃ tiṭṭhati.",
+        "translateMm": "သူ ခဏ ရပ်လိုက်တယ်။",
+        "translateEn": "He stops just for a second."
+      }
+    },
+    {
+      "paliMm": "ရတ္တိန္ဒိဝံ",
+      "paliRoman": "Rattindivaṃ",
+      "translateMm": "နေ့ရော ညပါ",
+      "translateEn": "Day and night",
+      "example": {
+        "paliMm": "သုဇနော ရတ္တိန္ဒိဝံ ကုသလံ ကရောတိ။",
+        "paliRoman": "Sujano rattindivaṃ kusalaṃ karoti.",
+        "translateMm": "သူတော်ကောင်းက နေ့ရော ညပါ ကုသိုလ်လုပ်တယ်။",
+        "translateEn": "The good person does good deeds day and night."
+      }
+    },
+    {
+      "paliMm": "ပုဗ္ဗဏှံ",
+      "paliRoman": "Pubbaṇhaṃ",
+      "translateMm": "မနက်ပိုင်းမှာ",
+      "translateEn": "In the morning",
+      "example": {
+        "paliMm": "မုနိ ပုဗ္ဗဏှံ ပိဏ္ဍာယ စရတိ။",
+        "paliRoman": "Muni pubbaṇhaṃ piṇḍāya carati.",
+        "translateMm": "ရဟန်းက မနက်ပိုင်းမှာ ဆွမ်းခံကြွတယ်။",
+        "translateEn": "The monk goes for alms in the morning."
+      }
+    }
+  ]
+}

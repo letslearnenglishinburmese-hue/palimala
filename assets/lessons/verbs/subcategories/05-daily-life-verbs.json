@@ -1,0 +1,246 @@
+{
+  "titleMm": "နေ့စဉ်ဘဝ ပြုမူဆောင်ရွက်မှုဆိုင်ရာ ကြိယာ",
+  "titleEn": "Daily Life Verbs",
+  "vocabList": [
+    {
+      "paliMm": "ဘုဉ္ဇတိ",
+      "paliRoman": "Bhuñjati",
+      "translateMm": "စားသည်",
+      "translateEn": "Eats",
+      "example": {
+        "paliMm": "သော သာဒုံ ဘောဇနံ ဘုဉ္ဇတိ။",
+        "paliRoman": "So sāduṃ bhojanaṃ bhuñjati.",
+        "translateMm": "သူ အရသာရှိတဲ့ အစားအစာကို စားနေတယ်။",
+        "translateEn": "He eats delicious food."
+      }
+    },
+    {
+      "paliMm": "ပိဝတိ",
+      "paliRoman": "Pivati",
+      "translateMm": "သောက်သည်",
+      "translateEn": "Drinks",
+      "example": {
+        "paliMm": "ဒါရကော သီတလံ ဥဒကံ ပိဝတိ။",
+        "paliRoman": "Dārako sītalaṃ udakaṃ pivati.",
+        "translateMm": "ကလေးလေးက အေးမြတဲ့ ရေကို သောက်နေတယ်။",
+        "translateEn": "The child drinks cold water."
+      }
+    },
+    {
+      "paliMm": "သယတိ / သုပတိ",
+      "paliRoman": "Sayati / Supati",
+      "translateMm": "အိပ်သည်",
+      "translateEn": "Sleeps",
+      "example": {
+        "paliMm": "သော မဉ္စေ သယတိ။",
+        "paliRoman": "So mañce sayati.",
+        "translateMm": "သူ ခုတင်ပေါ်မှာ အိပ်စက်နေတယ်။",
+        "translateEn": "He sleeps on the bed."
+      }
+    },
+    {
+      "paliMm": "ဥဋ္ဌာတိ",
+      "paliRoman": "Uṭṭhāti",
+      "translateMm": "အိပ်ယာထသည်",
+      "translateEn": "Gets up",
+      "example": {
+        "paliMm": "သော ပါတောဝ ဥဋ္ဌာတိ။",
+        "paliRoman": "So pātova uṭṭhāti.",
+        "translateMm": "သူ စောစောစီးစီး အိပ်ယာထတယ်။",
+        "translateEn": "He wakes up early in the morning."
+      }
+    },
+    {
+      "paliMm": "နိသီဒတိ",
+      "paliRoman": "Nisīdati",
+      "translateMm": "ထိုင်သည်",
+      "translateEn": "Sits",
+      "example": {
+        "paliMm": "သီဿော ပီဌေ နိသီဒတိ။",
+        "paliRoman": "Sisso pīṭhe nisīdati.",
+        "translateMm": "ကျောင်းသားက ထိုင်ခုံပေါ်မှာ ထိုင်နေတယ်။",
+        "translateEn": "The student sits on the chair."
+      }
+    },
+    {
+      "paliMm": "တိဋ္ဌတိ",
+      "paliRoman": "Tiṭṭhati",
+      "translateMm": "ရပ်သည်",
+      "translateEn": "Stands",
+      "example": {
+        "paliMm": "သော ဒွါရမူလေ တိဋ္ဌတိ။",
+        "paliRoman": "So dvāramūle tiṭṭhati.",
+        "translateMm": "သူ တံခါးဝမှာ ရပ်နေတယ်။",
+        "translateEn": "He stands at the doorway."
+      }
+    },
+    {
+      "paliMm": "နဟာယတိ",
+      "paliRoman": "Nahāyati",
+      "translateMm": "ရေချိုးသည်",
+      "translateEn": "Bathes",
+      "example": {
+        "paliMm": "သော နဒိယံ နဟာယတိ။",
+        "paliRoman": "So nadiyaṃ nahāyati.",
+        "translateMm": "သူ မြစ်ထဲမှာ ရေချိုးနေတယ်။",
+        "translateEn": "He bathes in the river."
+      }
+    },
+    {
+      "paliMm": "ဓောဝတိ",
+      "paliRoman": "Dhōvati",
+      "translateMm": "ဆေးကြောသည်",
+      "translateEn": "Washes",
+      "example": {
+        "paliMm": "သာ ဝတ္ထံ ဓောဝတိ။",
+        "paliRoman": "Sā vatthaṃ dhōvati.",
+        "translateMm": "သူငယ်မလေးက အဝတ်အထည်ကို ဆေးကြော လျှော်ဖွတ်နေတယ်။",
+        "translateEn": "She washes the clothes."
+      }
+    },
+    {
+      "paliMm": "ပစတိ",
+      "paliRoman": "Pacati",
+      "translateMm": "ချက်ပြုတ်သည်",
+      "translateEn": "Cooks",
+      "example": {
+        "paliMm": "သာ မဟိဠာ သြဒနံ ပစတိ။",
+        "paliRoman": "Sā mahiḷā odanaṃ pacati.",
+        "translateMm": "အမျိုးသမီးက ထမင်း ချက်ပြုတ်နေတယ်။",
+        "translateEn": "The woman cooks rice."
+      }
+    },
+    {
+      "paliMm": "ပဿတိ",
+      "paliRoman": "Passati",
+      "translateMm": "ကြည့်သည်၊ မြင်သည်",
+      "translateEn": "Sees, Looks",
+      "example": {
+        "paliMm": "သော ရုပ်ပတ္တံ ပဿတိ။",
+        "paliRoman": "So rūpattaṃ passati.",
+        "translateMm": "သူ ရုပ်ရှင်/ရုပ်ပုံကို ကြည့်နေတယ်။",
+        "translateEn": "He looks at the picture."
+      }
+    },
+    {
+      "paliMm": "သုဏာတိ",
+      "paliRoman": "Suṇāti",
+      "translateMm": "နားထောင်သည်",
+      "translateEn": "Listens, Hears",
+      "example": {
+        "paliMm": "သာ သင်္ဂီတံ သုဏာတိ။",
+        "paliRoman": "Sā saṅgītaṃ suṇāti.",
+        "translateMm": "သူငယ်မလေးက သီချင်း နားထောင်နေတယ်။",
+        "translateEn": "She listens to music."
+      }
+    },
+    {
+      "paliMm": "ဘာသတိ / ဝဒတိ",
+      "paliRoman": "Bhāsati / Vadati",
+      "translateMm": "ပြောဆိုသည်",
+      "translateEn": "Speaks, Says",
+      "example": {
+        "paliMm": "သော သစ္စံ ဘာသတိ။",
+        "paliRoman": "So saccaṃ bhāsati.",
+        "translateMm": "သူ အမှန်တရားကို ပြောဆိုတယ်။",
+        "translateEn": "He speaks the truth."
+      }
+    },
+    {
+      "paliMm": "စိန္တေတိ",
+      "paliRoman": "Cinteti",
+      "translateMm": "စဉ်းစားသည်",
+      "translateEn": "Thinks",
+      "example": {
+        "paliMm": "သော ပဉှံ စိန္တေတိ။",
+        "paliRoman": "So pañhaṃ cinteti.",
+        "translateMm": "သူ မေးခွန်း/ပြဿနာကို စဉ်းစားနေတယ်။",
+        "translateEn": "He thinks about the problem."
+      }
+    },
+    {
+      "paliMm": "လိခတိ",
+      "paliRoman": "Likhati",
+      "translateMm": "ရေးသားသည်",
+      "translateEn": "Writes",
+      "example": {
+        "paliMm": "သီဿော ပဏ္ဏံ လိခတိ။",
+        "paliRoman": "Sisso paṇṇaṃ likhati.",
+        "translateMm": "ကျောင်းသားက စာရေးနေတယ်။",
+        "translateEn": "The student writes a letter."
+      }
+    },
+    {
+      "paliMm": "ပဌတိ",
+      "paliRoman": "Paṭhati",
+      "translateMm": "စာဖတ်သည်",
+      "translateEn": "Reads",
+      "example": {
+        "paliMm": "သော ပေါတ္ထကံ ပဌတိ။",
+        "paliRoman": "So potthakaṃ paṭhati.",
+        "translateMm": "သူ စာအုပ် ဖတ်နေတယ်။",
+        "translateEn": "He reads a book."
+      }
+    },
+    {
+      "paliMm": "ကိဏာတိ",
+      "paliRoman": "Kiṇāti",
+      "translateMm": "ဝယ်ယူသည်",
+      "translateEn": "Buys",
+      "example": {
+        "paliMm": "သာ အာပဏေ ဖလံ ကိဏာတိ။",
+        "paliRoman": "Sā āpaṇe phalaṃ kiṇāti.",
+        "translateMm": "သူငယ်မလေးက ဈေးထဲမှာ သစ်သီး ဝယ်နေတယ်။",
+        "translateEn": "She buys fruit at the market."
+      }
+    },
+    {
+      "paliMm": "ဝိက္ကိဏာတိ",
+      "paliRoman": "Vikkiṇāti",
+      "translateMm": "ရောင်းချသည်",
+      "translateEn": "Sells",
+      "example": {
+        "paliMm": "သော ဝါဏိဇော ဝတ္ထံ ဝိက္ကိဏာတိ။",
+        "paliRoman": "So vāṇijo vatthaṃ vikkiṇāti.",
+        "translateMm": "ကုန်သည်က အထည် ရောင်းနေတယ်။",
+        "translateEn": "The merchant sells clothes."
+      }
+    },
+    {
+      "paliMm": "ဒဒါတိ",
+      "paliRoman": "Dadāti",
+      "translateMm": "ပေးကမ်းသည်",
+      "translateEn": "Gives",
+      "example": {
+        "paliMm": "သော ယာစကဿ ဓနံ ဒဒါတိ။",
+        "paliRoman": "So yācakassa dhanaṃ dadāti.",
+        "translateMm": "သူ သူတောင်းစားကို ငွေ ပေးကမ်းတယ်။",
+        "translateEn": "He gives money to the beggar."
+      }
+    },
+    {
+      "paliMm": "ဂဏှာတိ",
+      "paliRoman": "Gaṇhāti",
+      "translateMm": "ယူသည်၊ ကိုင်တွယ်သည်",
+      "translateEn": "Takes, Holds",
+      "example": {
+        "paliMm": "သော ပုတ္ထကံ ဟတ္ထေန ဂဏှာတိ။",
+        "paliRoman": "So putthakaṃ hatthena gaṇhāti.",
+        "translateMm": "သူ စာအုပ်ကို လက်နဲ့ ကိုင်ယူလိုက်တယ်။",
+        "translateEn": "He takes the book with his hand."
+      }
+    },
+    {
+      "paliMm": "ကရောတိ",
+      "paliRoman": "Karoti",
+      "translateMm": "ပြုလုပ်သည်",
+      "translateEn": "Does, Makes",
+      "example": {
+        "paliMm": "သော သကံ ကမ္မံ ကရောတိ။",
+        "paliRoman": "So sakaṃ kammaṃ karoti.",
+        "translateMm": "သူ မိမိအလုပ်ကို လုပ်ကိုင်နေတယ်။",
+        "translateEn": "He does his work."
+      }
+    }
+  ]
+}

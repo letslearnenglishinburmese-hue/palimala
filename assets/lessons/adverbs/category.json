@@ -1,0 +1,13 @@
+{
+  "titleMm": "ကြိယာဝိသေသနပုဒ်များ",
+  "titleEn": "Adverbs",
+  "icon": "speed_rounded",
+  "subCategoryFiles": [
+    "subcategories/01-adverbs-of-manner.json",
+    "subcategories/02-adverbs-of-degree-quantity.json",
+    "subcategories/03-adverbs-of-time.json",
+    "subcategories/04-adverbs-of-distance-extent.json",
+    "subcategories/05-adverbs-of-result-effect.json",
+    "subcategories/06-adverbs-of-mental-state-attitude.json"
+  ]
+}

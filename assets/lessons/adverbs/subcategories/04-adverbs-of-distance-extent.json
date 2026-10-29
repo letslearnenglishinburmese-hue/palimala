@@ -1,0 +1,126 @@
+{
+  "titleMm": "ဌာနပြ / အကွာအဝေးပြ ကြိယာဝိသေသနများ",
+  "titleEn": "Adverbs of Distance / Extent",
+  "vocabList": [
+    {
+      "paliMm": "ယောဇနံ",
+      "paliRoman": "Yojanaṃ",
+      "translateMm": "တစ်ယူဇနာလောက်",
+      "translateEn": "For a yojana (about 8-9 miles)",
+      "example": {
+        "paliMm": "သော ယောဇနံ ဧတိ။",
+        "paliRoman": "So yojanaṃ eti.",
+        "translateMm": "သူ တစ်ယူဇနာလောက် လမ်းလျှောက်လာတာ။",
+        "translateEn": "He walked for about a yojana."
+      }
+    },
+    {
+      "paliMm": "ကောသံ",
+      "paliRoman": "Kosaṃ",
+      "translateMm": "တစ်ကောသလောက်",
+      "translateEn": "For a kos (about 2 miles)",
+      "example": {
+        "paliMm": "မဂ္ဂိကော ကောသံ ဂစ္ဆတိ။",
+        "paliRoman": "Maggiko kosaṃ gacchati.",
+        "translateMm": "ခရီးသွားက တစ်ကောသလောက် ခရီးဆက်သွားတယ်။",
+        "translateEn": "The traveler goes for about a kos."
+      }
+    },
+    {
+      "paliMm": "ဂါဝုတံ",
+      "paliRoman": "Gāvutaṃ",
+      "translateMm": "တစ်ဂါဝုတ်လောက်",
+      "translateEn": "For a gāvuta (about 2 miles)",
+      "example": {
+        "paliMm": "သိဿော ဂါဝုတံ ဓာဝတိ။",
+        "paliRoman": "Sisso gāvutaṃ dhāvati.",
+        "translateMm": "ကျောင်းသားက တစ်ဂါဝုတ်လောက် ပြေးသွားတယ်။",
+        "translateEn": "The student runs for about a gāvuta."
+      }
+    },
+    {
+      "paliMm": "ဥသဘံ",
+      "paliRoman": "Usabhaṃ",
+      "translateMm": "ဥသဘပေါင်းများစွာ",
+      "translateEn": "For an usabha distance",
+      "example": {
+        "paliMm": "ယာနံ ဥသဘံ သရတိ။",
+        "paliRoman": "Yānaṃ usabhaṃ sarati.",
+        "translateMm": "လှည်းက ဥသဘ အကွာအဝေးလောက် ရွှေ့သွားတယ်။",
+        "translateEn": "The cart moves for an usabha distance."
+      }
+    },
+    {
+      "paliMm": "ဓနုံ",
+      "paliRoman": "Dhanuṃ",
+      "translateMm": "လေးတစ်ဓနူးအကွာ",
+      "translateEn": "For a bow-shot distance",
+      "example": {
+        "paliMm": "သော ဓနုံ ပတတိ။",
+        "paliRoman": "So dhanuṃ patati.",
+        "translateMm": "မြှားက လေးတစ်ဓနူးစာလောက် အကွာကို ကျသွားတယ်။",
+        "translateEn": "It falls a bow-shot distance away."
+      }
+    },
+    {
+      "paliMm": "ဟတ္ထံ",
+      "paliRoman": "Hatthaṃ",
+      "translateMm": "တစ်တောင်မက",
+      "translateEn": "For a cubit length",
+      "example": {
+        "paliMm": "သော ဟတ္ထံ ခနတိ။",
+        "paliRoman": "So hatthaṃ khanati.",
+        "translateMm": "သူ တူးတာ တစ်တောင်လောက် နက်သွားတယ်။",
+        "translateEn": "He digs a cubit deep."
+      }
+    },
+    {
+      "paliMm": "သမန္တာ",
+      "paliRoman": "Samantā",
+      "translateMm": "ပတ်ပတ်လည်",
+      "translateEn": "All around, on every side",
+      "example": {
+        "paliMm": "ဇနာ သမန္တာ ဓာဝန္တိ။",
+        "paliRoman": "Janā samantā dhāvanti.",
+        "translateMm": "လူတွေ ပတ်ပတ်လည် ပြေးလွှားနေကြတယ်။",
+        "translateEn": "People are running all around."
+      }
+    },
+    {
+      "paliMm": "ပါရံ",
+      "paliRoman": "Pāraṃ",
+      "translateMm": "ဟိုဘက်အထိ",
+      "translateEn": "Beyond, further away",
+      "example": {
+        "paliMm": "သော ပါရံ ဂစ္ဆတိ။",
+        "paliRoman": "So pāraṃ gacchati.",
+        "translateMm": "သူ ဟိုဘက်အထိ ဆက်သွားတယ်။",
+        "translateEn": "He goes further beyond."
+      }
+    },
+    {
+      "paliMm": "ဩရံ",
+      "paliRoman": "Oraṃ",
+      "translateMm": "ဒီဘက်မှာ",
+      "translateEn": "On this side, near",
+      "example": {
+        "paliMm": "သော ဩရံ တိဋ္ဌတိ။",
+        "paliRoman": "So oraṃ tiṭṭhati.",
+        "translateMm": "သူ ဒီဘက်နားမှာပဲ ရပ်နေတယ်။",
+        "translateEn": "He stops on this side."
+      }
+    },
+    {
+      "paliMm": "ဝိဒူရံ",
+      "paliRoman": "Vidūraṃ",
+      "translateMm": "အဝေးကြီး",
+      "translateEn": "Very far away",
+      "example": {
+        "paliMm": "သော ဝိဒူရံ ပက္ကမတိ။",
+        "paliRoman": "So vidūraṃ pakkamati.",
+        "translateMm": "သူ အဝေးကြီးကို ထွက်သွားတယ်။",
+        "translateEn": "He departs very far away."
+      }
+    }
+  ]
+}

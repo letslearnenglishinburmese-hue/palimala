@@ -1,0 +1,246 @@
+{
+  "titleMm": "သဘာဝတ္ထုနှင့် ရာသီဥတု ဖြစ်ပျက်မှုဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Natural Phenomena",
+  "vocabList": [
+    {
+      "paliMm": "ဝဿတိ",
+      "paliRoman": "Vassati",
+      "translateMm": "မိုးရွာသည်",
+      "translateEn": "Rains",
+      "example": {
+        "paliMm": "မဟာ မေဃော ဝဿတိ။",
+        "paliRoman": "Mahā megho vassati.",
+        "translateMm": "မိုးတိမ်ကြီးကနေ မိုးရွာသွန်းနေတယ်။",
+        "translateEn": "Rain falls from the large cloud."
+      }
+    },
+    {
+      "paliMm": "ဝါယတိ",
+      "paliRoman": "Vāyati",
+      "translateMm": "လေတိုက်သည်",
+      "translateEn": "Blows",
+      "example": {
+        "paliMm": "သီတလော ဝါတော ဝါယတိ။",
+        "paliRoman": "Sītalo vāto vāyati.",
+        "translateMm": "အေးမြတဲ့ လေတိုက်ခတ်နေတယ်။",
+        "translateEn": "A cold wind blows."
+      }
+    },
+    {
+      "paliMm": "ဥဒေတိ",
+      "paliRoman": "Udeti",
+      "translateMm": "ထွက်ပေါ်သည်၊ တက်လာသည်",
+      "translateEn": "Rises",
+      "example": {
+        "paliMm": "သူရိယော ပုဗ္ဗဒိသာယံ ဥဒေတိ။",
+        "paliRoman": "Sūriyo purimadisāyaṃ udeti.",
+        "translateMm": "နေမင်းက အရှေ့အရပ်မှာ ထွက်ပေါ်လာတယ်။",
+        "translateEn": "The sun rises in the east."
+      }
+    },
+    {
+      "paliMm": "အတ္ထံ ဂစ္ဆတိ",
+      "paliRoman": "Atthaṃ gacchati",
+      "translateMm": "ဝင်သည်၊ ချုပ်ပျောက်သည်",
+      "translateEn": "Sets",
+      "example": {
+        "paliMm": "သာယဏှေ သူရိယော အတ္ထံ ဂစ္ဆတိ။",
+        "paliRoman": "Sāyaṇhe sūriyo atthaṃ gacchati.",
+        "translateMm": "ညနေပိုင်းမှာ နေမင်းက ဝင်သွားတယ်။",
+        "translateEn": "The sun sets in the evening."
+      }
+    },
+    {
+      "paliMm": "တပတိ",
+      "paliRoman": "Tapati",
+      "translateMm": "ပူပြင်းသည်၊ တောက်ပသည်",
+      "translateEn": "Shines / Burns",
+      "example": {
+        "paliMm": "မဇ္ဈနှေ သူရိယော ဗလဝံ တပတိ။",
+        "paliRoman": "Majjhanhe sūriyo balavaṃ tapati.",
+        "translateMm": "နေ့လယ်မှာ နေမင်းက ပြင်းပြင်းထန်ထန် ပူပြင်းတောက်ပတယ်။",
+        "translateEn": "The sun shines strongly at midday."
+      }
+    },
+    {
+      "paliMm": "သောဘတိ / ဝိရောစတိ",
+      "paliRoman": "Sobhati / Virocati",
+      "translateMm": "တင့်တယ်သည်၊ တောက်ပသည်",
+      "translateEn": "Shines / Glistens",
+      "example": {
+        "paliMm": "စန္ဒော ရတ္တိယံ အာကာသေ သောဘတိ။",
+        "paliRoman": "Cando rattiyaṃ ākāse sobhati.",
+        "translateMm": "ညဉ့်အခါမှာ လမင်းက ကောင်းကင်မှာ တင့်တယ်နေတယ်။",
+        "translateEn": "The moon shines beautifully in the sky at night."
+      }
+    },
+    {
+      "paliMm": "သန္ဒတိ",
+      "paliRoman": "Sandati",
+      "translateMm": "စီးဆင်းသည်",
+      "translateEn": "Flows",
+      "example": {
+        "paliMm": "နဒီ ပဗ္ဗတတော သမုဒ္ဒံ သန္ဒတိ။",
+        "paliRoman": "Nadī pabbatato samuddaṃ sandati.",
+        "translateMm": "မြစ်ရေက တောင်ပေါ်ကနေ ပင်လယ်ဆီ စီးဆင်းနေတယ်။",
+        "translateEn": "The river flows from the mountain to the sea."
+      }
+    },
+    {
+      "paliMm": "ကမ္ပတိ",
+      "paliRoman": "Kampati",
+      "translateMm": "တုန်လှုပ်သည်၊ ငလျင်လှုပ်သည်",
+      "translateEn": "Trembles / Shakes",
+      "example": {
+        "paliMm": "မဟာ ပထဝီ ကမ္ပတိ။",
+        "paliRoman": "Mahā pathavī kampati.",
+        "translateMm": "ကမ္ဘာမြေကြီး တုန်လှုပ်သွားတယ်။",
+        "translateEn": "The great earth trembles."
+      }
+    },
+    {
+      "paliMm": "ဝိဇ္ဇောတတိ",
+      "paliRoman": "Vijjotati",
+      "translateMm": "လျှပ်စီးလက်သည်",
+      "translateEn": "Flashes",
+      "example": {
+        "paliMm": "အာကာသေ ဝိဇ္ဇု ဝိဇ္ဇောတတိ။",
+        "paliRoman": "Ākāse vijju vijjotati.",
+        "translateMm": "ကောင်းကင်မှာ လျှပ်စီး လက်နေတယ်။",
+        "translateEn": "Lightning flashes in the sky."
+      }
+    },
+    {
+      "paliMm": "ဂဇ္ဇတိ",
+      "paliRoman": "Gajjati",
+      "translateMm": "မိုးခြိမ်းသည်၊ ဟိန်းဟောက်သည်",
+      "translateEn": "Thunders / Roars",
+      "example": {
+        "paliMm": "မေဃော ဂမ္ဘီရံ ဂဇ္ဇတိ။",
+        "paliRoman": "Megho gambhīraṃ gajjati.",
+        "translateMm": "မိုးတိမ်ကြီးက နက်ရှိုင်းစွာ မိုးခြိမ်းနေတယ်။",
+        "translateEn": "The cloud thunders deeply."
+      }
+    },
+    {
+      "paliMm": "ပဇ္ဇလတိ",
+      "paliRoman": "Pajjalati",
+      "translateMm": "တောက်လောင်သည်",
+      "translateEn": "Blazes / Burns brightly",
+      "example": {
+        "paliMm": "မဟာ အဂ္ဂိ ဝနေ ပဇ္ဇလတိ။",
+        "paliRoman": "Mahā aggi vane pajjalati.",
+        "translateMm": "တောထဲမှာ မီးကြီး တောက်လောင်နေတယ်။",
+        "translateEn": "A great fire blazes in the forest."
+      }
+    },
+    {
+      "paliMm": "နိဗ္ဗာယတိ",
+      "paliRoman": "Nibbāyati",
+      "translateMm": "ငြိမ်းအေးသည်၊ မီးငြိမ်းသည်",
+      "translateEn": "Is extinguished / Cools down",
+      "example": {
+        "paliMm": "ဝုဋ္ဌိယာ အဂ္ဂိ နိဗ္ဗာယတိ။",
+        "paliRoman": "Vuṭṭhiyā aggi nibbāyati.",
+        "translateMm": "မိုးရွာလိုက်လို့ မီးငြိမ်းသွားတယ်။",
+        "translateEn": "The fire is extinguished by the rain."
+      }
+    },
+    {
+      "paliMm": "ဖုသတိ",
+      "paliRoman": "Phusati",
+      "translateMm": "မိုးဖွဲဖွဲကျသည်၊ ထိတွေ့သည်",
+      "translateEn": "Drizzles / Touches",
+      "example": {
+        "paliMm": "သုခေန ဝုဋ္ဌိ ဖုသတိ။",
+        "paliRoman": "Sukhena vuṭṭhi phusati.",
+        "translateMm": "မိုးဖွဲဖွဲလေး စိမ့်ကျရွာသွန်းနေတယ်။",
+        "translateEn": "The rain drizzles gently."
+      }
+    },
+    {
+      "paliMm": "ပတတိ",
+      "paliRoman": "Patati",
+      "translateMm": "ကျဆင်းသည်",
+      "translateEn": "Falls",
+      "example": {
+        "paliMm": "ရုက္ခတော ပဏ္ဏံ ဘူမိယံ ပတတိ။",
+        "paliRoman": "Rukkhato paṇṇaṃ bhūmiyaṃ patati.",
+        "translateMm": "သစ်ပင်ကနေ သစ်ရွက်က မြေကြီးပေါ် ကျဆင်းလာတယ်။",
+        "translateEn": "The leaf falls from the tree to the ground."
+      }
+    },
+    {
+      "paliMm": "ပပတတိ",
+      "paliRoman": "Papatati",
+      "translateMm": "လျှောကျသည်၊ ရေတံခွန်ကဲ့သို့ စီးဆင်းသည်",
+      "translateEn": "Cascades / Falls down",
+      "example": {
+        "paliMm": "ဥဒကံ ပဗ္ဗတာ ပပတတိ။",
+        "paliRoman": "Udakaṃ pabbatā papatati.",
+        "translateMm": "ရေက တောင်ပေါ်ကနေ အောက်သို့ လျှောကျစီးဆင်းနေတယ်။",
+        "translateEn": "Water cascades down from the mountain."
+      }
+    },
+    {
+      "paliMm": "ပဖုလ္လတိ",
+      "paliRoman": "Paphullati",
+      "translateMm": "ပွင့်လန်းသည်",
+      "translateEn": "Blooms / Blossoms",
+      "example": {
+        "paliMm": "ဥယျာနေ ပုပ္ဖံ ပဖုလ္လတိ။",
+        "paliRoman": "Uyyāne pupphaṃ paphullati.",
+        "translateMm": "ဥယျာဉ်ထဲမှာ ပန်းတွေ ပွင့်လန်းနေကြတယ်။",
+        "translateEn": "The flower blooms in the garden."
+      }
+    },
+    {
+      "paliMm": "ဝိကသတိ",
+      "paliRoman": "Vikasati",
+      "translateMm": "ပွင့်ကားသည်",
+      "translateEn": "Opens / Expands",
+      "example": {
+        "paliMm": "သူရိယေန ပဒုမံ ဝိကသတိ။",
+        "paliRoman": "Sūriyena padumaṃ vikasati.",
+        "translateMm": "နေရောင်ကြောင့် ကြာပန်း ပွင့်ကားလာတယ်။",
+        "translateEn": "The lotus blooms due to the sunlight."
+      }
+    },
+    {
+      "paliMm": "မိလာယတိ",
+      "paliRoman": "Milāyati",
+      "translateMm": "ညှိုးနွမ်းသည်",
+      "translateEn": "Withers / Fades",
+      "example": {
+        "paliMm": "အာတပေန ပုပ္ဖံ မိလာယတိ။",
+        "paliRoman": "Ātapena pupphaṃ milāyati.",
+        "translateMm": "နေပူရှိန်းလို့ ပန်းတွေ ညှိုးနွမ်းသွားတယ်။",
+        "translateEn": "The flower withers from the heat of the sun."
+      }
+    },
+    {
+      "paliMm": "ဖလတိ",
+      "paliRoman": "Phalati",
+      "translateMm": "သီးပွင့်သည်၊ သီးသည်",
+      "translateEn": "Bears fruit",
+      "example": {
+        "paliMm": "ကာလေ ရုက္ခော ဖလတိ။",
+        "paliRoman": "Kāle rukkho phalati.",
+        "translateMm": "အချိန်တန်တော့ သစ်ပင်က အသီး သီးလာတယ်။",
+        "translateEn": "The tree bears fruit in due time."
+      }
+    },
+    {
+      "paliMm": "သုဿတိ",
+      "paliRoman": "Sussati",
+      "translateMm": "ခြောက်သွေ့သည်",
+      "translateEn": "Dries up",
+      "example": {
+        "paliMm": "အာတပေန သရသိ ဥဒကံ သုဿတိ။",
+        "paliRoman": "Ātapena sarasi udakaṃ sussati.",
+        "translateMm": "နေပူလွန်းလို့ ရေကန်ထဲက ရေတွေ ခြောက်သွေ့ကုန်တယ်။",
+        "translateEn": "The water in the lake dries up due to the sun's heat."
+      }
+    }
+  ]
+}

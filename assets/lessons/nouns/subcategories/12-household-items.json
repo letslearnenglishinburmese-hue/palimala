@@ -1,0 +1,126 @@
+{
+  "titleMm": "အိမ်သုံးပစ္စည်းများ",
+  "titleEn": "Household Items",
+  "vocabList": [
+    {
+      "paliMm": "ဂေဟ / ဃရ (န)",
+      "paliRoman": "Geha / Ghara (N)",
+      "translateMm": "အိမ်",
+      "translateEn": "House",
+      "example": {
+        "paliMm": "ဣဒံ မဟန္တံ ဂေဟံ ဟောတိ။",
+        "paliRoman": "Idaṃ mahantaṃ gehaṃ hoti.",
+        "translateMm": "ဒါဟာ တကယ်ကြီးမားတဲ့ အိမ်တစ်လုံး ဖြစ်တယ်။",
+        "translateEn": "This is a large house."
+      }
+    },
+    {
+      "paliMm": "ပီဌ (န)",
+      "paliRoman": "Pīṭha (N)",
+      "translateMm": "ထိုင်ခုံ၊ ကုလားထိုင်",
+      "translateEn": "Chair, Stool",
+      "example": {
+        "paliMm": "သော ပီဌသ္မိံ နိသီဒတိ။",
+        "paliRoman": "So pīṭhasmiṃ nisīdati.",
+        "translateMm": "သူ ခုံပေါ်မှာ ထိုင်နေတယ်။",
+        "translateEn": "He sits on the chair."
+      }
+    },
+    {
+      "paliMm": "မဉ္စ (ပု)",
+      "paliRoman": "Mañca (M)",
+      "translateMm": "ခုတင်၊ အိပ်ရာ",
+      "translateEn": "Bed",
+      "example": {
+        "paliMm": "ဒါရကော မဉ္စေ သယတိ။",
+        "paliRoman": "Dārako mañce sayati.",
+        "translateMm": "ကလေးလေးက ခုတင်ပေါ်မှာ အိပ်ပျော်နေတယ်။",
+        "translateEn": "The child sleeps on the bed."
+      }
+    },
+    {
+      "paliMm": "ပတ္တ (ပု)",
+      "paliRoman": "Patta (M)",
+      "translateMm": "သပိတ်၊ ခွက်",
+      "translateEn": "Bowl",
+      "example": {
+        "paliMm": "သမဏော ဟတ္ထေန ပတ္တံ ဂဏှာတိ။",
+        "paliRoman": "Samaṇo hatthena pattaṃ gaṇhāti.",
+        "translateMm": "ရဟန်းတော်က သပိတ်/ခွက်ကို လက်နဲ့ ကိုင်ဆောင်ထားတော်မူတယ်။",
+        "translateEn": "The monk holds the bowl with his hand."
+      }
+    },
+    {
+      "paliMm": "ကဋာဟ (ပု/န)",
+      "paliRoman": "Kaṭāha (M/N)",
+      "translateMm": "ဒယ်အိုး",
+      "translateEn": "Frying pan, Cauldron",
+      "example": {
+        "paliMm": "သာ ကဋာဟေ အာဟာရံ ပစတိ။",
+        "paliRoman": "Sā kaṭāhe āhāraṃ pacati.",
+        "translateMm": "သူငယ်မလေးက ဒယ်အိုးထဲမှာ အစားအသောက် ချက်ပြုတ်နေတယ်။",
+        "translateEn": "She cooks food in the frying pan."
+      }
+    },
+    {
+      "paliMm": "ကုမ္ဘ (ပု)",
+      "paliRoman": "Kumba (M)",
+      "translateMm": "ရေအိုး၊ အိုး",
+      "translateEn": "Pot, Pitcher",
+      "example": {
+        "paliMm": "သာ ကုမ္ဘံ ဥဒကေန ပူရေတိ။",
+        "paliRoman": "Sā kumbaṃ udakena pūreti.",
+        "translateMm": "သူငယ်မလေးက အိုးထဲကို ရေဖြည့်လိုက်တယ်။",
+        "translateEn": "She fills the pot with water."
+      }
+    },
+    {
+      "paliMm": "သရက / စသက (ပု/န)",
+      "paliRoman": "Saraka / Casaka (M/N)",
+      "translateMm": "ခွက်၊ ရေသောက်ခွက်",
+      "translateEn": "Cup, Drinking glass",
+      "example": {
+        "paliMm": "သော စသကေန ဥဒကံ ပိဝတိ။",
+        "paliRoman": "So casakena udakaṃ pivati.",
+        "translateMm": "သူ ရေသောက်ခွက်နဲ့ ရေသောက်နေတယ်။",
+        "translateEn": "He drinks water with a glass."
+      }
+    },
+    {
+      "paliMm": "သုစီ (ထီ)",
+      "paliRoman": "Sucī (F)",
+      "translateMm": "အပ်",
+      "translateEn": "Needle",
+      "example": {
+        "paliMm": "သာ သုစိယာ ဝတ္ထံ သိဗ္ဗေတိ။",
+        "paliRoman": "Sā suciyā vatthaṃ sibbeti.",
+        "translateMm": "သူငယ်မလေးက အပ်နဲ့ အဝတ်ချုပ်နေတယ်။",
+        "translateEn": "She sews clothes with a needle."
+      }
+    },
+    {
+      "paliMm": "သတ္ထ / သတ္ထက (န)",
+      "paliRoman": "Sattha / Satthaka (N)",
+      "translateMm": "ဓား၊ ဓားငယ်",
+      "translateEn": "Knife",
+      "example": {
+        "paliMm": "သော သတ္ထကေန ဖလံ ကန္တတိ။",
+        "paliRoman": "So satthakena phalaṃ kantati.",
+        "translateMm": "သူ ဓားနဲ့ အသီးကို လှီးနေတယ်။",
+        "translateEn": "He cuts the fruit with a knife."
+      }
+    },
+    {
+      "paliMm": "ဒွါရ (န)",
+      "paliRoman": "Dvāra (N)",
+      "translateMm": "တံခါး",
+      "translateEn": "Door, Gate",
+      "example": {
+        "paliMm": "သော ဂေဟဿ ဒွါရံ ထကေတိ။",
+        "paliRoman": "So gehassa dvāraṃ thaketi.",
+        "translateMm": "သူ အိမ်တံခါးကို ပိတ်လိုက်တယ်။",
+        "translateEn": "He closes the door of the house."
+      }
+    }
+  ]
+}

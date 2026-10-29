@@ -1,0 +1,78 @@
+{
+  "titleMm": "စာသင်ခန်းသုံးများ",
+  "titleEn": "Classroom Vocabulary",
+  "vocabList": [
+    {
+      "paliMm": "သိဿော (ပု)",
+      "paliRoman": "Sisso (M)",
+      "translateMm": "ကျောင်းသား",
+      "translateEn": "Student",
+      "example": {
+        "paliMm": "သိဿော ဝိဇ္ဇာလယံ ဂစ္ဆတိ။",
+        "paliRoman": "Sisso satthālayaṃ gacchati.",
+        "translateMm": "ကျောင်းသားသည် ကျောင်းသို့ သွား၏။",
+        "translateEn": "The student goes to school."
+      }
+    },
+    {
+      "paliMm": "အာစရိယော (ပု)",
+      "paliRoman": "Ācariyo (M)",
+      "translateMm": "ဆရာ",
+      "translateEn": "Teacher",
+      "example": {
+        "paliMm": "အာစရိယော သိဿာနံ ဗျာကရဏံ ဝါစေတိ။",
+        "paliRoman": "Ācariyo sissānaṃ byākaraṇaṃ vāceti.",
+        "translateMm": "ဆရာသည် ကျောင်းသားတို့အား သဒ္ဒါကျမ်းကို သင်ကြားပေး၏။",
+        "translateEn": "The teacher teaches grammar to the students."
+      }
+    },
+    {
+      "paliMm": "ပေါတ္ထကံ (န)",
+      "paliRoman": "Potthakaṃ (N)",
+      "translateMm": "စာအုပ်",
+      "translateEn": "Book",
+      "example": {
+        "paliMm": "သိဿော ပေါတ္ထကံ ဥပဓာရေတိ။",
+        "paliRoman": "Sisso potthakaṃ upadhāreti.",
+        "translateMm": "ကျောင်းသားသည် စာအုပ်ကို လေ့လာကြည့်ရှု၏။",
+        "translateEn": "The student studies the book."
+      }
+    },
+    {
+      "paliMm": "လေခနီ (ထီ)",
+      "paliRoman": "Lekhanī (F)",
+      "translateMm": "ဖောင်တိန်",
+      "translateEn": "Pen",
+      "example": {
+        "paliMm": "အဟံ လေခနိယာ လိခါမိ။",
+        "paliRoman": "Ahaṃ lekhaniyā likhāmi.",
+        "translateMm": "ငါသည် ဖောင်တိန်ဖြင့် စာရေး၏။",
+        "translateEn": "I write a letter with a pen."
+      }
+    },
+    {
+      "paliMm": "ဖလကံ (န)",
+      "paliRoman": "Phalakaṃ (N)",
+      "translateMm": "ကျောက်သင်ပုန်း/ဘုတ်ပြား",
+      "translateEn": "Blackboard / Board",
+      "example": {
+        "paliMm": "အာစရိယော ဖလကေ အက္ခရာနိ လိခတိ။",
+        "paliRoman": "Ācariyo phalake akkharāni likhati.",
+        "translateMm": "ဆရာသည် ကျောက်သင်ပုန်း/ဘုတ်ပြားပေါ်၌ စာလုံးများကို ရေး၏။",
+        "translateEn": "The teacher writes letters on the board."
+      }
+    },
+    {
+      "paliMm": "ဝိဇ္ဇာလယော (ပု)",
+      "paliRoman": "Satthālayo / Vijjālayo (M)",
+      "translateMm": "ကောလိပ်/တက္ကသိုလ်",
+      "translateEn": "University",
+      "example": {
+        "paliMm": "ဗဟူ သိဿာ ဝိဇ္ဇာလယေ သိက္ခန္တိ။",
+        "paliRoman": "Bahū sissā vijjālaye sikkhanti.",
+        "translateMm": "များစွာသော ကျောင်းသားတို့သည် တက္ကသိုလ်၌ ပညာသင်ယူကြ၏။",
+        "translateEn": "Many students study at the university."
+      }
+    }
+  ]
+}

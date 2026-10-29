@@ -1,0 +1,246 @@
+{
+  "titleMm": "အစားအသောက်နှင့် သောက်သုံးခြင်းဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Eating & Drinking",
+  "vocabList": [
+    {
+      "paliMm": "ဘုဉ္ဇတိ",
+      "paliRoman": "Bhuñjati",
+      "translateMm": "သုံးဆောင်သည်၊ စားသည်",
+      "translateEn": "Eats / Partakes",
+      "example": {
+        "paliMm": "သော မဓုရံ အာဟာရံ ဘုဉ္ဇတိ။",
+        "paliRoman": "So madhuraṃ āhāraṃ bhuñjati.",
+        "translateMm": "သူ အရသာရှိတဲ့ အစားအသောက်ကို စားသုံးနေတယ်။",
+        "translateEn": "He eats delicious food."
+      }
+    },
+    {
+      "paliMm": "ခါဒတိ",
+      "paliRoman": "Khādati",
+      "translateMm": "ဝါးစားသည်၊ စားသည်",
+      "translateEn": "Chews / Eats solid food",
+      "example": {
+        "paliMm": "ဒါရကော ဖလံ ခါဒတိ။",
+        "paliRoman": "Dārako phalaṃ khādati.",
+        "translateMm": "ကလေးလေးက အသီးကို ဝါးစားနေတယ်။",
+        "translateEn": "The child eats the fruit."
+      }
+    },
+    {
+      "paliMm": "ပိဝတိ",
+      "paliRoman": "Pivati",
+      "translateMm": "သောက်သည်၊ သောက်သုံးသည်",
+      "translateEn": "Drinks",
+      "example": {
+        "paliMm": "သော သီတလံ ဥဒကံ ပိဝတိ။",
+        "paliRoman": "So sītalaṃ udakaṃ pivati.",
+        "translateMm": "သူ အေးမြတဲ့ ရေကို သောက်နေတယ်။",
+        "translateEn": "He drinks cold water."
+      }
+    },
+    {
+      "paliMm": "ဂိလတိ",
+      "paliRoman": "Gilati",
+      "translateMm": "မြိုချသည်",
+      "translateEn": "Swallows",
+      "example": {
+        "paliMm": "ဂိလာနော ဩသဓံ ဂိလတိ။",
+        "paliRoman": "Gilāno osadhaṃ gilati.",
+        "translateMm": "လူနာက ဆေးကို မြိုချလိုက်တယ်။",
+        "translateEn": "The sick person swallows the medicine."
+      }
+    },
+    {
+      "paliMm": "သာယတိ",
+      "paliRoman": "Sāyati",
+      "translateMm": "မြည်းစမ်းသည်၊ အရသာခံသည်",
+      "translateEn": "Tastes",
+      "example": {
+        "paliMm": "သော သူပဿ ရသံ သာယတိ။",
+        "paliRoman": "So sūpassa rasaṃ sāyati.",
+        "translateMm": "သူ ဟင်းရည်ရဲ့ အရသာကို မြည်းစမ်းနေတယ်။",
+        "translateEn": "He tastes the flavor of the soup."
+      }
+    },
+    {
+      "paliMm": "လေဟတိ",
+      "paliRoman": "Lehati",
+      "translateMm": "လျက်သည်",
+      "translateEn": "Licks",
+      "example": {
+        "paliMm": "သုနခေါ မဓုံ လေဟတိ။",
+        "paliRoman": "Sunakho madhuṃ lehati.",
+        "translateMm": "ခွေးလေးက ပျားရည်ကို လျက်နေတယ်။",
+        "translateEn": "The dog licks the honey."
+      }
+    },
+    {
+      "paliMm": "စူသတိ",
+      "paliRoman": "Cūsati",
+      "translateMm": "စုပ်သည်၊ စုပ်ယူသည်",
+      "translateEn": "Sucks",
+      "example": {
+        "paliMm": "ဒါရကော ခီရံ စူသတိ။",
+        "paliRoman": "Dārako khīraṃ cūsati.",
+        "translateMm": "ကလေးလေးက နို့ကို စုပ်သောက်နေတယ်။",
+        "translateEn": "The child sucks the milk."
+      }
+    },
+    {
+      "paliMm": "စဗ္ဗတိ",
+      "paliRoman": "Cabbati",
+      "translateMm": "ဝါးသည်၊ ကြေအောင်ဝါးသည်",
+      "translateEn": "Chews / Masticates",
+      "example": {
+        "paliMm": "သော တမ္ဗူလံ စဗ္ဗတိ။",
+        "paliRoman": "So tambūlaṃ cabbati.",
+        "translateMm": "သူ ကွမ်းကို ဝါးနေတယ်။",
+        "translateEn": "He chews the betel leaf."
+      }
+    },
+    {
+      "paliMm": "အာစမတိ",
+      "paliRoman": "Ācamati",
+      "translateMm": "စုပ်သောက်သည်၊ နည်းနည်းစီသောက်သည်",
+      "translateEn": "Sips / Drinks lightly",
+      "example": {
+        "paliMm": "သော ဥဒကံ အာစမတိ။",
+        "paliRoman": "So udakaṃ ācamati.",
+        "translateMm": "သူ ရေကို နည်းနည်းစီ စိမ့်ပြီး သောက်နေတယ်။",
+        "translateEn": "He sips the water."
+      }
+    },
+    {
+      "paliMm": "အဇ္ဈောဟရတိ",
+      "paliRoman": "Ajjhoharati",
+      "translateMm": "မျိုသွင်းသည်၊ စားသောက်သည်",
+      "translateEn": "Consumes / Takes in food",
+      "example": {
+        "paliMm": "သော အာဟာရံ သမ္မာ အဇ္ဈောဟရတိ။",
+        "paliRoman": "So āhāraṃ sammā ajjhoharati.",
+        "translateMm": "သူ အာဟာရကို စနစ်တကျ မျိုသွင်းစားသုံးတယ်။",
+        "translateEn": "He consumes the food properly."
+      }
+    },
+    {
+      "paliMm": "ပရိဘုဉ္ဇတိ",
+      "paliRoman": "Paribhuñjati",
+      "translateMm": "သုံးဆောင်သည်၊ မှီဝဲသည်",
+      "translateEn": "Enjoys food / Consumes fully",
+      "example": {
+        "paliMm": "ဘိက္ခု ပဏီတံ အာဟာရံ ပရိဘုဉ္ဇတိ။",
+        "paliRoman": "Bhikkhu paṇītaṃ āhāraṃ paribhuñjati.",
+        "translateMm": "ရဟန်းတော်က မွန်မြတ်တဲ့ ဆွမ်းအာဟာရကို သုံးဆောင်တော်မူတယ်။",
+        "translateEn": "The monk partakes of the refined food."
+      }
+    },
+    {
+      "paliMm": "သမ္ပဋိစ္ဆတိ",
+      "paliRoman": "Sampaṭicchati",
+      "translateMm": "ခံယူစားသုံးသည်၊ လက်ခံသည်",
+      "translateEn": "Receives and partakes",
+      "example": {
+        "paliMm": "သော ဒါနံ သမ္ပဋိစ္ဆိတွာ ဘုဉ္ဇတိ။",
+        "paliRoman": "So dānaṃ sampaṭicchitvā bhuñjati.",
+        "translateMm": "သူ အလှူဝတ္ထုကို လက်ခံပြီး စားသုံးတယ်။",
+        "translateEn": "He receives the offering and eats it."
+      }
+    },
+    {
+      "paliMm": "အာဟရတိ",
+      "paliRoman": "Āharati",
+      "translateMm": "စားသုံးသည်၊ အာဟာရယူသည်",
+      "translateEn": "Takes food",
+      "example": {
+        "paliMm": "သော ကာလေ အာဟာရံ အာဟရတိ။",
+        "paliRoman": "So kāle āhāraṃ āharati.",
+        "translateMm": "သူ အချိန်မှန် အာဟာရ စားသုံးတယ်။",
+        "translateEn": "He takes food at the right time."
+      }
+    },
+    {
+      "paliMm": "ပိဏ္ဍေတိ",
+      "paliRoman": "Piṇḍeti",
+      "translateMm": "ထမင်းဆုပ်ပြုသည်၊ စားသည်",
+      "translateEn": "Forms alms-balls / Eats",
+      "example": {
+        "paliMm": "သော ဩဒနံ ပိဏ္ဍေတွာ ခါဒတိ။",
+        "paliRoman": "So odanaṃ piṇḍetvā khādati.",
+        "translateMm": "သူ ထမင်းကို ဆုပ်ပြီး စားနေတယ်။",
+        "translateEn": "He rolls the rice into a ball and eats it."
+      }
+    },
+    {
+      "paliMm": "ပါယေတိ",
+      "paliRoman": "Pāyeti",
+      "translateMm": "ရေတိုက်သည်၊ သောက်စေသည်",
+      "translateEn": "Makes drink / Feeds liquid",
+      "example": {
+        "paliMm": "မာတာ ဒါရကံ ခီရံ ပါယေတိ။",
+        "paliRoman": "Mātā dārakaṃ khīraṃ pāyeti.",
+        "translateMm": "မိခင်က ကလေးကို နို့တိုက်နေတယ်။",
+        "translateEn": "The mother feeds milk to the child."
+      }
+    },
+    {
+      "paliMm": "ဘောဇေတိ",
+      "paliRoman": "Bhojeti",
+      "translateMm": "ကျွေးမွေးသည်၊ စားစေသည်",
+      "translateEn": "Feeds / Serves food",
+      "example": {
+        "paliMm": "သာ အာဂန္တုကေ အာဟာရေန ဘောဇေတိ။",
+        "paliRoman": "Sā āgantuke āhārena bhojeti.",
+        "translateMm": "သူငယ်မလေးက ဧည့်သည်တွေကို အစားအသောက်နဲ့ ကျွေးမွေးတယ်။",
+        "translateEn": "She feeds the guests with food."
+      }
+    },
+    {
+      "paliMm": "မိတ္တံ ဥဒကံ ပါယေတိ",
+      "paliRoman": "Mittaṃ udakaṃ pāyeti",
+      "translateMm": "သူငယ်ချင်းကို ရေတိုက်သည်",
+      "translateEn": "Offers a drink",
+      "example": {
+        "paliMm": "သော မိတ္တံ ဥဒကံ ပါယေတိ။",
+        "paliRoman": "So mittaṃ udakaṃ pāyeti.",
+        "translateMm": "သူ သူငယ်ချင်းကို ရေတိုက်လိုက်တယ်။",
+        "translateEn": "He gives a drink of water to his friend."
+      }
+    },
+    {
+      "paliMm": "ဝိက္ခာလေတွာ ဘုဉ္ဇတိ",
+      "paliRoman": "Vikkhāletvā bhuñjati",
+      "translateMm": "ဆေးကြောပြီး စားသည်",
+      "translateEn": "Washes and eats",
+      "example": {
+        "paliMm": "သော ဖလံ ဝိက္ခာလေတွာ ခါဒတိ။",
+        "paliRoman": "So phalaṃ vikkhāletvā khādati.",
+        "translateMm": "သူ အသီးကို ဆေးကြောပြီးမှ စားတယ်။",
+        "translateEn": "He washes the fruit before eating it."
+      }
+    },
+    {
+      "paliMm": "မတ္တံ ဇာနာတိ",
+      "paliRoman": "Mattaṃ jānāti",
+      "translateMm": "အစားအတိုင်းအရှည်ကို သိသည်",
+      "translateEn": "Eats moderately",
+      "example": {
+        "paliMm": "သော အာဟာရေ မတ္တံ ဇာနာတိ။",
+        "paliRoman": "So āhāre mattaṃ jānāti.",
+        "translateMm": "သူ အစားအသောက်မှာ အတိုင်းအရှည်သိစွာ စားသုံးတယ်။",
+        "translateEn": "He eats food in moderation."
+      }
+    },
+    {
+      "paliMm": "ပရိဿဝေတိ",
+      "paliRoman": "Parissaveti",
+      "translateMm": "စစ်ထုတ်သောက်သုံးသည်",
+      "translateEn": "Filters and drinks",
+      "example": {
+        "paliMm": "သမဏော ဥဒကံ ပရိဿဝေတွာ ပိဝတိ။",
+        "paliRoman": "Samaṇo udakaṃ parissavetvā pivati.",
+        "translateMm": "ရဟန်းတော်က ရေကို စစ်ထုတ်ပြီးမှ သောက်သုံးတော်မူတယ်။",
+        "translateEn": "The ascetic filters the water before drinking."
+      }
+    }
+  ]
+}

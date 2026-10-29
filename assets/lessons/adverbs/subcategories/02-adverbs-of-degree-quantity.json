@@ -1,0 +1,126 @@
+{
+  "titleMm": "ပမာဏပြ ကြိယာဝိသေသနများ",
+  "titleEn": "Adverbs of Degree / Quantity",
+  "vocabList": [
+    {
+      "paliMm": "ဗဟုကံ",
+      "paliRoman": "Bahukaṃ",
+      "translateMm": "အများကြီး",
+      "translateEn": "A lot, heavily",
+      "example": {
+        "paliMm": "သော ဗဟုကံ ဘုဉ္ဇတိ။",
+        "paliRoman": "So bahukaṃ bhuñjati.",
+        "translateMm": "သူ အများကြီး စားတယ်။",
+        "translateEn": "He eats a lot."
+      }
+    },
+    {
+      "paliMm": "အပ္ပကံ",
+      "paliRoman": "Appakaṃ",
+      "translateMm": "နည်းနည်းပဲ",
+      "translateEn": "A little bit, slightly",
+      "example": {
+        "paliMm": "သိဿော အပ္ပကံ ဘာသတိ။",
+        "paliRoman": "Sisso appakaṃ bhāsati.",
+        "translateMm": "ကျောင်းသားက နည်းနည်းပဲ ပြောတယ်။",
+        "translateEn": "The student speaks just a little bit."
+      }
+    },
+    {
+      "paliMm": "မဟန္တံ",
+      "paliRoman": "Mahantaṃ",
+      "translateMm": "အားရပါးရ၊ အပြင်းအထန်",
+      "translateEn": "Greatly, intensely",
+      "example": {
+        "paliMm": "သော မဟန္တံ ဝါယမတိ။",
+        "paliRoman": "So mahantaṃ vāyamati.",
+        "translateMm": "သူ အပြင်းအထန် ကြိုးစားနေတယ်။",
+        "translateEn": "He's trying really hard."
+      }
+    },
+    {
+      "paliMm": "မတ္တံ",
+      "paliRoman": "Mattaṃ",
+      "translateMm": "လိုသလောက်ပဲ၊ ကွက်တိ",
+      "translateEn": "Just enough, moderately",
+      "example": {
+        "paliMm": "ယာစကော မတ္တံ ဂဏှာတိ။",
+        "paliRoman": "Yācako mattaṃ gaṇhāti.",
+        "translateMm": "သူတောင်းစားက လိုသလောက်ပဲ ယူတယ်။",
+        "translateEn": "The beggar takes just enough."
+      }
+    },
+    {
+      "paliMm": "ယာဝဒတ္ထံ",
+      "paliRoman": "Yāvadatthaṃ",
+      "translateMm": "ဝအောင်၊ စိတ်ကြိုက်",
+      "translateEn": "To one's heart's content, as much as needed",
+      "example": {
+        "paliMm": "မဂ္ဂိကော ယာဝဒတ္ထံ ဥဒကံ ပိဗတိ။",
+        "paliRoman": "Maggiko yāvadatthaṃ udakaṃ pibati.",
+        "translateMm": "ခရီးသွားက ရေကို ဝအောင် သောက်တယ်။",
+        "translateEn": "The traveler drinks to his heart's content."
+      }
+    },
+    {
+      "paliMm": "ယာဝဇီဝံ",
+      "paliRoman": "Yāvajīvaṃ",
+      "translateMm": "တစ်သက်လုံး",
+      "translateEn": "For a lifetime, as long as life lasts",
+      "example": {
+        "paliMm": "သော ယာဝဇီဝံ ဓမ္မံ စရတိ။",
+        "paliRoman": "So yāvajīvaṃ dhammaṃ carati.",
+        "translateMm": "သူ တစ်သက်လုံး တရားကျင့်သွားတယ်။",
+        "translateEn": "He practices Dhamma all his life."
+      }
+    },
+    {
+      "paliMm": "သီဃတရံ",
+      "paliRoman": "Sīghataraṃ",
+      "translateMm": "ပိုမြန်မြန်",
+      "translateEn": "Much faster",
+      "example": {
+        "paliMm": "ယာနံ သီဃတရံ ဓာဝတိ။",
+        "paliRoman": "Yānaṃ sīghataraṃ dhāvati.",
+        "translateMm": "ကားက ပိုမြန်မြန် ပြေးတယ်။",
+        "translateEn": "The vehicle goes way faster."
+      }
+    },
+    {
+      "paliMm": "ထောကံ",
+      "paliRoman": "Thokaṃ",
+      "translateMm": "နည်းနည်းပါးပါး",
+      "translateEn": "Just a tiny bit",
+      "example": {
+        "paliMm": "သော ထောကံ သုပတိ။",
+        "paliRoman": "So thokaṃ supati.",
+        "translateMm": "သူ နည်းနည်းပါးပါးပဲ အိပ်လိုက်ရတယ်။",
+        "translateEn": "He only slept for a tiny bit."
+      }
+    },
+    {
+      "paliMm": "အဓိကံ",
+      "paliRoman": "Adhikaṃ",
+      "translateMm": "ပိုပြီးတော့",
+      "translateEn": "Extra, much more",
+      "example": {
+        "paliMm": "သော အဓိကံ ကမ္မံ ကရောတိ။",
+        "paliRoman": "So adhikaṃ kammaṃ karoti.",
+        "translateMm": "သူ အလုပ်ကို ပိုလုပ်ပေးထားတယ်။",
+        "translateEn": "He works extra hard."
+      }
+    },
+    {
+      "paliMm": "မန္ဒတရံ",
+      "paliRoman": "Mandataraṃ",
+      "translateMm": "ပိုနှေးနှေး",
+      "translateEn": "A lot slower",
+      "example": {
+        "paliMm": "ဝါဏိဇော မန္ဒတရံ စရတိ။",
+        "paliRoman": "Vāṇijo mandataraṃ carati.",
+        "translateMm": "ကုန်သည်က ပိုနှေးနှေး လျှောက်တယ်။",
+        "translateEn": "The merchant walks a lot slower."
+      }
+    }
+  ]
+}

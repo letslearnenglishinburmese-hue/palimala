@@ -1,0 +1,126 @@
+{
+  "titleMm": "မြို့ရွာနှင့် နေရာဌာနများ",
+  "titleEn": "Places, Towns and Villages",
+  "vocabList": [
+    {
+      "paliMm": "နဂရ / ပုရ (န)",
+      "paliRoman": "Nagara / Pura (N)",
+      "translateMm": "မြို့",
+      "translateEn": "City, Town",
+      "example": {
+        "paliMm": "သော မဟန္တံ နဂရံ ပဝိသတိ။",
+        "paliRoman": "So mahantaṃ nagaraṃ pavisati.",
+        "translateMm": "သူ မြို့ကြီးထဲကို ဝင်သွားတယ်။",
+        "translateEn": "He enters the large city."
+      }
+    },
+    {
+      "paliMm": "ဂါမ (ပု)",
+      "paliRoman": "Gāma (M)",
+      "translateMm": "ရွာ",
+      "translateEn": "Village",
+      "example": {
+        "paliMm": "သမဏော ဂါမံ ပိဏ္ဍာယ စရတိ။",
+        "paliRoman": "Samaṇo gāmaṃ piṇḍāya carati.",
+        "translateMm": "ရဟန်းတော်က ရွာထဲမှာ ဆွမ်းခံကြွနေတယ်။",
+        "translateEn": "The monk walks in the village for alms."
+      }
+    },
+    {
+      "paliMm": "ဝိဟာရ / အာရာမ (ပု)",
+      "paliRoman": "Vihāra / Ārāma (M)",
+      "translateMm": "ကျောင်းတိုက်၊ ကျောင်း",
+      "translateEn": "Monastery, Temple",
+      "example": {
+        "paliMm": "သော ရမ္မံ ဝိဟာရံ ဂစ္ဆတိ။",
+        "paliRoman": "So rammaṃ vihāraṃ gacchati.",
+        "translateMm": "သူ သာယာတဲ့ ကျောင်းတိုက်ဆီ သွားနေတယ်။",
+        "translateEn": "He goes to the pleasant monastery."
+      }
+    },
+    {
+      "paliMm": "အာပဏ (ပု/န)",
+      "paliRoman": "Āpaṇa (M/N)",
+      "translateMm": "ဈေး၊ ဈေးဆိုင်",
+      "translateEn": "Market, Shop",
+      "example": {
+        "paliMm": "သာ အာပဏတော ဖလံ ကိဏာတိ။",
+        "paliRoman": "Sā āpaṇato phalaṃ kiṇāti.",
+        "translateMm": "သူငယ်မလေးက ဈေးကနေ အသီး ဝယ်နေတယ်။",
+        "translateEn": "She buys fruit from the market."
+      }
+    },
+    {
+      "paliMm": "မဂ္ဂ (ပု)",
+      "paliRoman": "Magga (M)",
+      "translateMm": "လမ်း၊ လမ်းကြောင်း",
+      "translateEn": "Road, Path",
+      "example": {
+        "paliMm": "သော ဥဇုံ မဂ္ဂံ ဂစ္ဆတိ။",
+        "paliRoman": "So ujuṃ maggaṃ gacchati.",
+        "translateMm": "သူ ဖြောင့်မတ်တဲ့ လမ်းအတိုင်း သွားနေတယ်။",
+        "translateEn": "He walks along the straight road."
+      }
+    },
+    {
+      "paliMm": "သာလာ (ထီ)",
+      "paliRoman": "Sālā (F)",
+      "translateMm": "ဇရပ်၊ အဆောက်အအုံ",
+      "translateEn": "Hall, Pavilion",
+      "example": {
+        "paliMm": "မဟာဇနော သာလာယံ နိသီဒတိ။",
+        "paliRoman": "Mahājano sālāyaṃ nisīdati.",
+        "translateMm": "လူအများက ဇရပ်ပေါ်မှာ ထိုင်နေကြတယ်။",
+        "translateEn": "The crowd sits in the hall."
+      }
+    },
+    {
+      "paliMm": "နိဝေသန / ဂေဟ (န)",
+      "paliRoman": "Nivesana / Geha (N)",
+      "translateMm": "နေအိမ်၊ စံအိမ်",
+      "translateEn": "Residence, House",
+      "example": {
+        "paliMm": "သော သကံ နိဝေသနံ ပဝိသတိ။",
+        "paliRoman": "So sakaṃ nivesanaṃ pavisati.",
+        "translateMm": "သူ မိမိရဲ့ နေအိမ်ထဲကို ဝင်သွားတယ်။",
+        "translateEn": "He enters his own residence."
+      }
+    },
+    {
+      "paliMm": "ရဋ္ဌ / ဇနပဒ (န/ပု)",
+      "paliRoman": "Raṭṭha / Janapada (N/M)",
+      "translateMm": "တိုင်းပြည်၊ နယ်ပယ်",
+      "translateEn": "Country, Realm, District",
+      "example": {
+        "paliMm": "ရာဇာ သမိဒ္ဓံ ရဋ္ဌံ ပသာသတိ။",
+        "paliRoman": "Rājā samiddhaṃ raṭṭhaṃ pasāsati.",
+        "translateMm": "မင်းကြီးက စည်ပင်ဝပြောတဲ့ တိုင်းပြည်ကို အုပ်ချုပ်တယ်။",
+        "translateEn": "The king rules the prosperous country."
+      }
+    },
+    {
+      "paliMm": "တိတ္ထ (န)",
+      "paliRoman": "Tittha (N)",
+      "translateMm": "ဆိပ်ကမ်း၊ ရေဆိပ်",
+      "translateEn": "Landing place, Ford, Port",
+      "example": {
+        "paliMm": "ဇနာ နဒီတိတ္ထံ ဂစ္ဆန္တိ။",
+        "paliRoman": "Janā nadītitthaṃ gacchanti.",
+        "translateMm": "လူတွေက မြစ်ရေဆိပ်ဆီ သွားကြတယ်။",
+        "translateEn": "People go to the river port."
+      }
+    },
+    {
+      "paliMm": "ဥယျာန (န)",
+      "paliRoman": "Uyyāna (N)",
+      "translateMm": "ဥယျာဉ်၊ ပန်းခြံ",
+      "translateEn": "Park, Garden",
+      "example": {
+        "paliMm": "ဒါရကာ သုန္ဒရေ ဥယျာနေ ခိဍ္ဍန္တိ။",
+        "paliRoman": "Dārakā sundare uyyāne khiḍḍanti.",
+        "translateMm": "ကလေးတွေ သာယာလှပတဲ့ ဥယျာဉ်ထဲမှာ ဆော့ကစားနေကြတယ်။",
+        "translateEn": "Children play in the beautiful park."
+      }
+    }
+  ]
+}

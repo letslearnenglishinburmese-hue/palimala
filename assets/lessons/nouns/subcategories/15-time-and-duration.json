@@ -1,0 +1,126 @@
+{
+  "titleMm": "အချိန်နှင့် ကာလများ",
+  "titleEn": "Time and Duration",
+  "vocabList": [
+    {
+      "paliMm": "ကာလ (ပု)",
+      "paliRoman": "Kāla (M)",
+      "translateMm": "အချိန်၊ ကာလ",
+      "translateEn": "Time",
+      "example": {
+        "paliMm": "သော သောဘနံ ကာလံ ပဿတိ။",
+        "paliRoman": "So sobhanaṃ kālaṃ passati.",
+        "translateMm": "သူ ကောင်းမွန်တဲ့ အချိန်အခါကို စောင့်ကြည့်နေတယ်။",
+        "translateEn": "He watches for a good time."
+      }
+    },
+    {
+      "paliMm": "ဒိဝသ / အဟ (ပု/န)",
+      "paliRoman": "Divasa / Aha (M/N)",
+      "translateMm": "ရက်၊ နေ့",
+      "translateEn": "Day",
+      "example": {
+        "paliMm": "သော သဗ္ဗံ ဒိဝသံ ကမ္မံ ကရောတိ။",
+        "paliRoman": "So sabbaṃ divasaṃ kammaṃ karoti.",
+        "translateMm": "သူ တစ်နေ့လုံး အလုပ်လုပ်နေတယ်။",
+        "translateEn": "He works the whole day."
+      }
+    },
+    {
+      "paliMm": "ရတ္တိ (ထီ)",
+      "paliRoman": "Ratti (F)",
+      "translateMm": "ည၊ ညဉ့်",
+      "translateEn": "Night",
+      "example": {
+        "paliMm": "ရတ္တိယံ စန္ဒော သောဘတိ။",
+        "paliRoman": "Rattiyaṃ cando sobhati.",
+        "translateMm": "ညဉ့်အခါမှာ လမင်းက သပ္ပါယ်တင့်တယ်နေတယ်။",
+        "translateEn": "The moon shines at night."
+      }
+    },
+    {
+      "paliMm": "ပုဗ္ဗဏှ (ပု)",
+      "paliRoman": "Pubbaṇha (M)",
+      "translateMm": "နံနက်ပိုင်း၊ မနက်",
+      "translateEn": "Morning",
+      "example": {
+        "paliMm": "သော ပုဗ္ဗဏှသမယေ ဥဋ္ဌာတိ။",
+        "paliRoman": "So pubbaṇhasamaye uṭṭhāti.",
+        "translateMm": "သူ မနက်ပိုင်းမှာ အိပ်ရာထတယ်။",
+        "translateEn": "He gets up in the morning time."
+      }
+    },
+    {
+      "paliMm": "မဇ္ဈနှ (ပု)",
+      "paliRoman": "Majjhanha (M)",
+      "translateMm": "မွန်းလွဲ၊ နေ့လယ်",
+      "translateEn": "Midday, Noon",
+      "example": {
+        "paliMm": "မဇ္ဈနှေ သူရိယော တပတိ။",
+        "paliRoman": "Majjhanhe sūriyo tapati.",
+        "translateMm": "နေ့လယ်မွန်းတည့်မှာ နေပူရှိန်းလှတယ်။",
+        "translateEn": "The sun shines brightly at midday."
+      }
+    },
+    {
+      "paliMm": "သာယဏှ (ပု)",
+      "paliRoman": "Sāyaṇha (M)",
+      "translateMm": "ညနေပိုင်း၊ ညနေ",
+      "translateEn": "Evening",
+      "example": {
+        "paliMm": "သော သာယဏှသမယေ ဥယျာနံ ဂစ္ဆတိ။",
+        "paliRoman": "So sāyaṇhasamaye uyyānaṃ gacchati.",
+        "translateMm": "သူ ညနေပိုင်းမှာ ဥယျာဉ်ဆီ သွားတယ်။",
+        "translateEn": "He goes to the park in the evening."
+      }
+    },
+    {
+      "paliMm": "မာသ (ပု)",
+      "paliRoman": "Māsa (M)",
+      "translateMm": "လ",
+      "translateEn": "Month",
+      "example": {
+        "paliMm": "သော ဧကံ မာသံ ဣဓ ဝသတိ။",
+        "paliRoman": "So ekaṃ māsaṃ idha vasati.",
+        "translateMm": "သူ ဒီမှာ တစ်လကြာ နေထိုင်တယ်။",
+        "translateEn": "He lives here for one month."
+      }
+    },
+    {
+      "paliMm": "သံဝစ္ဆရ / ဝဿ (န/ပု)",
+      "paliRoman": "Saṃvacchara / Vassa (N/M)",
+      "translateMm": "နှစ်",
+      "translateEn": "Year",
+      "example": {
+        "paliMm": "သော ဧကံ သံဝစ္ဆရံ သိက္ခတိ။",
+        "paliRoman": "So ekaṃ saṃvaccharaṃ sikkhati.",
+        "translateMm": "သူ တစ်နှစ် စာသင်ယူ/လေ့ကျင့်တယ်။",
+        "translateEn": "He studies for one year."
+      }
+    },
+    {
+      "paliMm": "ခဏ (ပု)",
+      "paliRoman": "Khaṇa (M)",
+      "translateMm": "ခဏ၊ ခဏအတောအတွင်း",
+      "translateEn": "Moment",
+      "example": {
+        "paliMm": "သော ဧကံ ခဏံ တိဋ္ဌတိ။",
+        "paliRoman": "So ekaṃ khaṇaṃ tiṭṭhati.",
+        "translateMm": "သူ ခဏမျှ ရပ်တန့်လိုက်တယ်။",
+        "translateEn": "He stops for a moment."
+      }
+    },
+    {
+      "paliMm": "ဥတု (ပု/ထီ)",
+      "paliRoman": "Utu (M/F)",
+      "translateMm": "ရာသီ၊ ဥတု",
+      "translateEn": "Season",
+      "example": {
+        "paliMm": "ဟေမန္တဥတု သီတလော ဟောတိ။",
+        "paliRoman": "Hemantautu sītalo hoti.",
+        "translateMm": "ဆောင်းရာသီက အေးမြတယ်။",
+        "translateEn": "The winter season is cold."
+      }
+    }
+  ]
+}
