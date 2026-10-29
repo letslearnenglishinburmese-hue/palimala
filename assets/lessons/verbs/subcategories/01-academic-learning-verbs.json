@@ -87,12 +87,12 @@
       }
     },
     {
-      "paliMm": "ဝိစိနောတိ",
+      "paliMm": "ဝိစိနာတိ",
       "paliRoman": "Vicināti",
       "translateMm": "သုတေသနပြုသည် / စိစစ်စုံစမ်းသည်",
       "translateEn": "Investigates / researches",
       "example": {
-        "paliMm": "ပဏ္ဍိတော အတ္ထံ သဏိကံ ဝိစိနောတိ။",
+        "paliMm": "ပဏ္ဍိတော အတ္ထံ သဏိကံ ဝိစိနာတိ။",
         "paliRoman": "Paṇḍito atthaṃ saṇikaṃ vicināti.",
         "translateMm": "ပညာရှိသည် အဓိပ္ပာယ်ကို ဖြည်းဖြည်းစိစစ်၍ သုတေသနပြု၏။",
         "translateEn": "The scholar investigates the meaning carefully."
@@ -224,7 +224,7 @@
       "translateMm": "ပြီးမြောက်အောင် ဆောင်ရွက်သည်",
       "translateEn": "Completes / executes",
       "example": {
-        "paliMm": "သီဿော ကိစ္စံ သမ္ပာဒေတိ။",
+        "paliMm": "သိဿော ကိစ္စံ သမ္ပာဒေတိ။",
         "paliRoman": "Sisso kiccaṃ sampādeti.",
         "translateMm": "ကျောင်းသားသည် အလုပ်/တာဝန်ကို ပြီးမြောက်အောင် ဆောင်ရွက်၏။",
         "translateEn": "The student completes the assignment."
