@@ -39,6 +39,7 @@ dependencies:
   crypto: ^3.0.6
   http: ^1.4.0
   firebase_core: ^4.15.0
+  cloud_firestore: ^6.10.0
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +66,7 @@ flutter:
   assets:
     - assets/palimala_logo.png
     - assets/mmdict.json
+    - assets/lessons.json
     # Split data sets, one file per top-level category.
     - assets/pali_data/
     # Per-dataset index (id, url, sha256) used for downloads and updates.

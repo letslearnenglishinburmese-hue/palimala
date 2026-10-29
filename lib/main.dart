@@ -9,6 +9,7 @@ import 'app_data.dart';
 import 'dictionary_data.dart';
 import 'firebase_options.dart';
 import 'pali_transliteration.dart';
+import 'Services/uploader_service.dart';
 
 late List<MainCategory> appData;
 
@@ -1109,6 +1110,10 @@ class _HomeScreenState extends State<HomeScreen> {
             if (!mounted) return;
             setState(() {});
           },
+        ),
+        ElevatedButton(
+          onPressed: () => UploaderService.uploadJsonToFirestore(context),
+          child: const Text('Upload JSON to Firestore'),
         ),
       ],
     );
