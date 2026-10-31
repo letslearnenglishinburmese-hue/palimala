@@ -291,7 +291,7 @@ final class AppDataRepository {
     final preferences = await SharedPreferences.getInstance();
     _autoUpdate = preferences.getBool(_autoUpdateKey) ?? false;
     _datasets = _parseManifest(await rootBundle.loadString(_manifestAsset));
-    await _resolveDatasets(preferences);
+    await _resolveDatasets(preferences, preferBundled: true);
     _categories = _buildCategories();
     _initialized = true;
     return _categories;
@@ -356,6 +356,12 @@ final class AppDataRepository {
       }
       final manifestJson = utf8.decode(response.bodyBytes);
       _parseManifest(manifestJson); // Validate before trusting the manifest.
+      if (_manifestVersion(manifestJson).compareTo(_manifestVersion(bundled)) <
+          0) {
+        // GitHub can briefly lag behind a locally rebuilt app. Do not let its
+        // older manifest select cached data over the newer bundled assets.
+        return bundled;
+      }
       await preferences.setString(_cachedManifestKey, manifestJson);
       return manifestJson;
     } on http.ClientException catch (error) {
@@ -375,7 +381,9 @@ final class AppDataRepository {
     if (cached != null) {
       try {
         _parseManifest(cached);
-        return cached;
+        return _manifestVersion(cached).compareTo(_manifestVersion(bundled)) < 0
+            ? bundled
+            : cached;
       } on FormatException catch (error) {
         debugPrint('Ignoring unreadable cached manifest: $error');
       }
@@ -405,17 +413,34 @@ final class AppDataRepository {
     return datasets;
   }
 
-  static Future<void> _resolveDatasets(SharedPreferences preferences) async {
+  static String _manifestVersion(String source) {
+    final manifest = _object(jsonDecode(source), 'manifest');
+    final version = manifest['version'];
+    return version is String ? version : '';
+  }
+
+  static Future<void> _resolveDatasets(
+    SharedPreferences preferences, {
+    bool preferBundled = false,
+  }) async {
     for (final dataset in _datasets) {
       final bundledJson = await rootBundle.loadString(dataset.asset);
       final bundledHash = _sha256(utf8.encode(bundledJson));
       final cachedJson = preferences.getString('$_cachedJsonPrefix${dataset.id}');
       final cachedHash = preferences.getString('$_cachedHashPrefix${dataset.id}');
-      if (cachedJson != null &&
+      final cachedIsValid = cachedJson != null &&
           cachedHash != null &&
           _sha256(utf8.encode(cachedJson)) == cachedHash &&
-          _isReadable(cachedJson)) {
-        _setActive(dataset.id, cachedJson, cachedHash, 'cached');
+          _isReadable(cachedJson);
+
+      // A rebuilt app may ship newer JSON than the copy saved by an earlier
+      // app version. Prefer whichever copy matches the selected manifest, and
+      // prefer the bundled copy on equal hashes. This makes local data edits
+      // visible immediately after installing the rebuilt app.
+      if (preferBundled || bundledHash == dataset.sha256) {
+        _setActive(dataset.id, bundledJson, bundledHash, 'bundled');
+      } else if (cachedIsValid && cachedHash == dataset.sha256) {
+        _setActive(dataset.id, cachedJson!, cachedHash!, 'cached');
       } else {
         _setActive(dataset.id, bundledJson, bundledHash, 'bundled');
       }

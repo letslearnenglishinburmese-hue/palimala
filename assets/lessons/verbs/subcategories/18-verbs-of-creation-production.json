@@ -1,0 +1,246 @@
+{
+  "titleMm": "ထုတ်လုပ်မှုနှင့် ဖန်တီးတည်ဆောက်ခြင်းဆိုင်ရာ ကြိယာများ",
+  "titleEn": "Verbs of Creation & Production",
+  "vocabList": [
+    {
+      "paliMm": "ကရောတိ",
+      "paliRoman": "Karoti",
+      "translateMm": "ပြုလုပ်သည်၊ ဖန်တီးသည်",
+      "translateEn": "Makes / Creates",
+      "example": {
+        "paliMm": "သော ဟတ္ထေန ပီဌံ ကရောတိ။",
+        "paliRoman": "So hatthena pīṭhaṃ karoti.",
+        "translateMm": "သူ လက်နဲ့ ခုံကို ပြုလုပ်နေတယ်။",
+        "translateEn": "He makes a chair with his hand."
+      }
+    },
+    {
+      "paliMm": "မာပေတိ",
+      "paliRoman": "Māpeti",
+      "translateMm": "ဖန်ဆင်းသည်၊ တည်ဆောက်သည်",
+      "translateEn": "Creates / Constructs",
+      "example": {
+        "paliMm": "ဒေဝရာဇာ အာကာသေ နဂရံ မာပေတိ။",
+        "paliRoman": "Devarājā ākāse nagaraṃ māpeti.",
+        "translateMm": "နတ်ဘုရင်က ကောင်းကင်မှာ မြို့တော်ကြီး ဖန်ဆင်းတည်ဆောက်တယ်။",
+        "translateEn": "The king of gods creates a city in the sky."
+      }
+    },
+    {
+      "paliMm": "သဇ္ဇေတိ",
+      "paliRoman": "Sajjeti",
+      "translateMm": "ပြင်ဆင်သည်၊ ဖန်တီးပြုလုပ်သည်",
+      "translateEn": "Prepares / Creates",
+      "example": {
+        "paliMm": "သာ အာဟာရံ သုန္ဒရံ သဇ္ဇေတိ။",
+        "paliRoman": "Sā āhāraṃ sundaraṃ sajjeti.",
+        "translateMm": "သူငယ်မလေးက အစားအသောက်ကို သေချာ ပြင်ဆင်ချက်ပြုတ်တယ်။",
+        "translateEn": "She prepares the food nicely."
+      }
+    },
+    {
+      "paliMm": "ရစယတိ / ရစတိ",
+      "paliRoman": "Racayati / Racati",
+      "translateMm": "စီရင်သည်၊ ရေးသားပြုစုသည်",
+      "translateEn": "Composes / Authors",
+      "example": {
+        "paliMm": "အာစရိယော ဂန္ထံ ရစယတိ။",
+        "paliRoman": "Ācariyo ganthaṃ racayati.",
+        "translateMm": "ဆရာတော်က စာအုပ်ကျမ်းဂန် ရေးသားပြုစုနေတယ်။",
+        "translateEn": "The teacher composes a book."
+      }
+    },
+    {
+      "paliMm": "ပစတိ",
+      "paliRoman": "Pacati",
+      "translateMm": "ချက်ပြုတ်သည်",
+      "translateEn": "Cooks / Prepares food",
+      "example": {
+        "paliMm": "သူပကာရော မဓုရံ သူပံ ပစတိ။",
+        "paliRoman": "Sūpakāro madhuraṃ sūpaṃ pacati.",
+        "translateMm": "စားဖိုမှူးက အရသာရှိတဲ့ ဟင်းရည်ကို ချက်ပြုတ်နေတယ်။",
+        "translateEn": "The cook cooks delicious soup."
+      }
+    },
+    {
+      "paliMm": "နိဗ္ဗတ္တေတိ",
+      "paliRoman": "Nibbatteti",
+      "translateMm": "ဖြစ်ထွန်းစေသည်၊ ထုတ်လုပ်သည်",
+      "translateEn": "Produces / Yields",
+      "example": {
+        "paliMm": "ကဿကော ခေတ္တေ ဓညံ နိဗ္ဗတ္တေတိ။",
+        "paliRoman": "Kassako khette dhaññaṃ nibbatteti.",
+        "translateMm": "လယ်သမားက လယ်ကွင်းထဲမှာ စပါးသီးနှံတွေကို ထုတ်လုပ်ဖြစ်ထွန်းစေတယ်။",
+        "translateEn": "The farmer produces grain in the field."
+      }
+    },
+    {
+      "paliMm": "နိမ္မိနာတိ",
+      "paliRoman": "Nimmināti",
+      "translateMm": "ဖန်ဆင်းသည်၊ တည်ထွင်သည်",
+      "translateEn": "Creates (by supernatural power)",
+      "example": {
+        "paliMm": "ဗုဒ္ဓေါ အဘိညာယ ရူပံ နိမ္မိနာတိ။",
+        "paliRoman": "Buddho abhiññāya rūpaṃ nimmināti.",
+        "translateMm": "ဘုရားရှင်က အဘိညာဉ်တော်နဲ့ ရုပ်ပုံလွှာကို ဖန်ဆင်းတော်မူတယ်။",
+        "translateEn": "The Buddha creates a form through direct knowledge."
+      }
+    },
+    {
+      "paliMm": "နိဋ္ဌာပေတိ",
+      "paliRoman": "Niṭṭhāpeti",
+      "translateMm": "ပြီးစီးစေသည်၊ အပြီးသတ်သည်",
+      "translateEn": "Completes / Finishes",
+      "example": {
+        "paliMm": "ဝဍ္ဎကိ ဂေဟံ နိဋ္ဌာပေတိ။",
+        "paliRoman": "Vaḍḍhaki gehaṃ niṭṭhāpeti.",
+        "translateMm": "လက်သမားက အိမ်ဆောက်တာကို အပြီးသတ်လိုက်တယ်။",
+        "translateEn": "The carpenter finishes building the house."
+      }
+    },
+    {
+      "paliMm": "ဝါယတိ",
+      "paliRoman": "Vāyati",
+      "translateMm": "ရက်လုပ်သည်၊ အထည်ရက်သည်",
+      "translateEn": "Weaves",
+      "example": {
+        "paliMm": "သာ သုတ္တေန ဝတ္ထံ ဝါယတိ။",
+        "paliRoman": "Sā suttena vatthaṃ vāyati.",
+        "translateMm": "သူငယ်မလေးက ချည်မျှင်နဲ့ အဝတ်ထည် ရက်လုပ်နေတယ်။",
+        "translateEn": "She weaves cloth with thread."
+      }
+    },
+    {
+      "paliMm": "ဃဋေတိ",
+      "paliRoman": "Ghaṭeti",
+      "translateMm": "ဆက်စပ်သည်၊ တည်ဆောက်သည်",
+      "translateEn": "Connects / Builds / Constructs",
+      "example": {
+        "paliMm": "သော ကဋ္ဌာနိ ဃဋေတွာ ပီဌံ ကရောတိ။",
+        "paliRoman": "So kaṭṭhāni ghaṭetvā pīṭhaṃ karoti.",
+        "translateMm": "သူ သစ်သားတွေကို ဆက်စပ်ပြီး ခုံ ပြုလုပ်တယ်။",
+        "translateEn": "He constructs a chair by joining pieces of wood."
+      }
+    },
+    {
+      "paliMm": "ခဏတိ",
+      "paliRoman": "Khaṇati",
+      "translateMm": "တူးဖော်သည်၊ ကျင်းတူးသည်",
+      "translateEn": "Digs / Excavates",
+      "example": {
+        "paliMm": "သော ဘူမိယံ ဥဒပါဏံ ခဏတိ။",
+        "paliRoman": "So bhūmiyaṃ udapāṇaṃ khaṇati.",
+        "translateMm": "သူ မြေကြီးမှာ ရေတွင်း တူးဖော်နေတယ်။",
+        "translateEn": "He digs a water well in the ground."
+      }
+    },
+    {
+      "paliMm": "ရောပေတိ",
+      "paliRoman": "Ropeti",
+      "translateMm": "စိုက်ပျိုးသည်",
+      "translateEn": "Plants / Sows",
+      "example": {
+        "paliMm": "ကဿကော ဥယျာနေ ရုက္ခံ ရောပေတိ။",
+        "paliRoman": "Kassako uyyāne rukkhaṃ ropeti.",
+        "translateMm": "လယ်သမားက ဥယျာဉ်ထဲမှာ သစ်ပင် စိုက်ပျိုးနေတယ်။",
+        "translateEn": "The farmer plants a tree in the garden."
+      }
+    },
+    {
+      "paliMm": "ဥပ္ပါဒေတိ",
+      "paliRoman": "Uppādeti",
+      "translateMm": "ဖြစ်ပေါ်စေသည်၊ ထုတ်လုပ်ဖြစ်ထွန်းစေသည်",
+      "translateEn": "Generates / Produces",
+      "example": {
+        "paliMm": "သော ကမ္မေန ဓနံ ဥပ္ပါဒေတိ။",
+        "paliRoman": "So kammena dhanaṃ uppādeti.",
+        "translateMm": "သူ အလုပ်လုပ်ပြီး ဥစ္စာဓနကို ထုတ်လုပ်ဖြစ်ထွန်းစေတယ်။",
+        "translateEn": "He generates wealth through work."
+      }
+    },
+    {
+      "paliMm": "သံဟရတိ",
+      "paliRoman": "Saṃharati",
+      "translateMm": "စုစည်းတည်ဆောက်သည်",
+      "translateEn": "Assembles / Brings together",
+      "example": {
+        "paliMm": "သော ဒါရူနိ သံဟရိတွာ ဂေဟံ ကရောတိ။",
+        "paliRoman": "So dārūni saṃharitvā gehaṃ karoti.",
+        "translateMm": "သူ သစ်သားတွေကို စုစည်းပြီး အိမ် ဆောက်တယ်။",
+        "translateEn": "He assembles timber to build a house."
+      }
+    },
+    {
+      "paliMm": "ကန္တတိ",
+      "paliRoman": "Kantati",
+      "translateMm": "ချည်ငင်သည်၊ ပစ္စည်းပုံဖော်သည်",
+      "translateEn": "Spins yarn / Cuts to shape",
+      "example": {
+        "paliMm": "သာ ကပ္ပါသာ သုတ္တံ ကန္တတိ။",
+        "paliRoman": "Sā kappāsā suttaṃ kantati.",
+        "translateMm": "သူငယ်မလေးက ဝါဂွမ်းကနေ ချည် ငင်နေတယ်။",
+        "translateEn": "She spins thread from cotton."
+      }
+    },
+    {
+      "paliMm": "စိတ္တကရောတိ / စိတ္တေတိ",
+      "paliRoman": "Cittakaroti / Citteti",
+      "translateMm": "ပန်းချီဆွဲသည်၊ ဆေးခြယ်မွမ်းမံသည်",
+      "translateEn": "Paints / Decorates",
+      "example": {
+        "paliMm": "စိတ္တကာရော ကုဍ္ဍေ စိတ္တံ စိတ္တေတိ။",
+        "paliRoman": "Cittakāro kuḍḍe cittaṃ citteti.",
+        "translateMm": "ပန်းချီဆရာက နံရံပေါ်မှာ ပန်းချီကား ရေးဆွဲနေတယ်။",
+        "translateEn": "The painter paints a picture on the wall."
+      }
+    },
+    {
+      "paliMm": "ဘိန္နံ သန္ဓေတိ",
+      "paliRoman": "Bhinnaṃ sandheti",
+      "translateMm": "ကွဲအက်သွားသည်များကို ဆက်စပ်ပြုပြင်သည်",
+      "translateEn": "Repairs / Joins together",
+      "example": {
+        "paliMm": "သော ဘိန္နံ ကုမ္ဘံ သန္ဓေတိ။",
+        "paliRoman": "So bhinnaṃ kumbhaṃ sandheti.",
+        "translateMm": "သူ ကွဲသွားတဲ့ အိုးကို ပြန် ဆက်စပ်ပြုပြင်နေတယ်။",
+        "translateEn": "He joins the broken pot together."
+      }
+    },
+    {
+      "paliMm": "ပါသာဒံ တိဋ္ဌာပေတိ",
+      "paliRoman": "Pāsādaṃ tiṭṭhāpeti",
+      "translateMm": "အဆောက်အအုံ စိုက်ထူဆောက်လုပ်သည်",
+      "translateEn": "Erects / Constructs a building",
+      "example": {
+        "paliMm": "ရာဇာ မဟန္တံ ပါသာဒံ တိဋ္ဌာပေတိ။",
+        "paliRoman": "Rājā mahantaṃ pāsādaṃ tiṭṭhāpeti.",
+        "translateMm": "ဘုရင်က ကြီးမားတဲ့ ပြာသာဒ်ကျောင်းတော်ကြီးကို စိုက်ထူဆောက်လုပ်စေတယ်။",
+        "translateEn": "The king erects a great palace."
+      }
+    },
+    {
+      "paliMm": "ဝိက္ခာလေတွာ သဇ္ဇေတိ",
+      "paliRoman": "Vikkhāletvā sajjeti",
+      "translateMm": "သန့်စင်စိစစ်၍ ထုတ်လုပ်သည်",
+      "translateEn": "Refines and prepares",
+      "example": {
+        "paliMm": "သုဝဏ္ဏကာရော သုဝဏ္ဏံ ဝိက္ခာလေတွာ သဇ္ဇေတိ။",
+        "paliRoman": "Suvaṇṇakāro suvaṇṇaṃ vikkhāletvā sajjeti.",
+        "translateMm": "ရွှေပန်းထိမ်သည်က ရွှေကို သန့်စင်ပြီး အဆင်တန်ဆာ ပြုလုပ်တယ်။",
+        "translateEn": "The goldsmith refines the gold and crafts ornaments."
+      }
+    },
+    {
+      "paliMm": "သဉ္ဇနေတိ",
+      "paliRoman": "Sañjaneti",
+      "translateMm": "ဖြစ်ပွားစေသည်၊ မွေးဖွားဖြစ်ထွန်းစေသည်",
+      "translateEn": "Causes to be produced / Generates",
+      "example": {
+        "paliMm": "သော မဟန္တံ ဥဿာဟံ သဉ္ဇနေတိ။",
+        "paliRoman": "So mahantaṃ ussāhaṃ sañjanayati.",
+        "translateMm": "သူ အားထုတ်ကြိုးပမ်းမှုကို ကြီးစွာ ဖြစ်ပေါ်စေတယ်။",
+        "translateEn": "He generates great effort."
+      }
+    }
+  ]
+}

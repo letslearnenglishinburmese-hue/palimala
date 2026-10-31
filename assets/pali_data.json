@@ -3070,12 +3070,12 @@
             }
           },
           {
-            "paliMm": "ဝိစိနောတိ",
+            "paliMm": "ဝိစိနာတိ",
             "paliRoman": "Vicināti",
             "translateMm": "သုတေသနပြုသည် / စိစစ်စုံစမ်းသည်",
             "translateEn": "Investigates / researches",
             "example": {
-              "paliMm": "ပဏ္ဍိတော အတ္ထံ သဏိကံ ဝိစိနောတိ။",
+              "paliMm": "ပဏ္ဍိတော အတ္ထံ သဏိကံ ဝိစိနာတိ။",
               "paliRoman": "Paṇḍito atthaṃ saṇikaṃ vicināti.",
               "translateMm": "ပညာရှိသည် အဓိပ္ပာယ်ကို ဖြည်းဖြည်းစိစစ်၍ သုတေသနပြု၏။",
               "translateEn": "The scholar investigates the meaning carefully."
@@ -3207,7 +3207,7 @@
             "translateMm": "ပြီးမြောက်အောင် ဆောင်ရွက်သည်",
             "translateEn": "Completes / executes",
             "example": {
-              "paliMm": "သီဿော ကိစ္စံ သမ္ပာဒေတိ။",
+              "paliMm": "သိဿော ကိစ္စံ သမ္ပာဒေတိ။",
               "paliRoman": "Sisso kiccaṃ sampādeti.",
               "translateMm": "ကျောင်းသားသည် အလုပ်/တာဝန်ကို ပြီးမြောက်အောင် ဆောင်ရွက်၏။",
               "translateEn": "The student completes the assignment."
@@ -6814,6 +6814,252 @@
             }
           }
         ]
+      },
+      {
+        "titleMm": "ထုတ်လုပ်မှုနှင့် ဖန်တီးတည်ဆောက်ခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleEn": "Verbs of Creation & Production",
+        "vocabList": [
+          {
+            "paliMm": "ကရောတိ",
+            "paliRoman": "Karoti",
+            "translateMm": "ပြုလုပ်သည်၊ ဖန်တီးသည်",
+            "translateEn": "Makes / Creates",
+            "example": {
+              "paliMm": "သော ဟတ္ထေန ပီဌံ ကရောတိ။",
+              "paliRoman": "So hatthena pīṭhaṃ karoti.",
+              "translateMm": "သူ လက်နဲ့ ခုံကို ပြုလုပ်နေတယ်။",
+              "translateEn": "He makes a chair with his hand."
+            }
+          },
+          {
+            "paliMm": "မာပေတိ",
+            "paliRoman": "Māpeti",
+            "translateMm": "ဖန်ဆင်းသည်၊ တည်ဆောက်သည်",
+            "translateEn": "Creates / Constructs",
+            "example": {
+              "paliMm": "ဒေဝရာဇာ အာကာသေ နဂရံ မာပေတိ။",
+              "paliRoman": "Devarājā ākāse nagaraṃ māpeti.",
+              "translateMm": "နတ်ဘုရင်က ကောင်းကင်မှာ မြို့တော်ကြီး ဖန်ဆင်းတည်ဆောက်တယ်။",
+              "translateEn": "The king of gods creates a city in the sky."
+            }
+          },
+          {
+            "paliMm": "သဇ္ဇေတိ",
+            "paliRoman": "Sajjeti",
+            "translateMm": "ပြင်ဆင်သည်၊ ဖန်တီးပြုလုပ်သည်",
+            "translateEn": "Prepares / Creates",
+            "example": {
+              "paliMm": "သာ အာဟာရံ သုန္ဒရံ သဇ္ဇေတိ။",
+              "paliRoman": "Sā āhāraṃ sundaraṃ sajjeti.",
+              "translateMm": "သူငယ်မလေးက အစားအသောက်ကို သေချာ ပြင်ဆင်ချက်ပြုတ်တယ်။",
+              "translateEn": "She prepares the food nicely."
+            }
+          },
+          {
+            "paliMm": "ရစယတိ / ရစတိ",
+            "paliRoman": "Racayati / Racati",
+            "translateMm": "စီရင်သည်၊ ရေးသားပြုစုသည်",
+            "translateEn": "Composes / Authors",
+            "example": {
+              "paliMm": "အာစရိယော ဂန္ထံ ရစယတိ။",
+              "paliRoman": "Ācariyo ganthaṃ racayati.",
+              "translateMm": "ဆရာတော်က စာအုပ်ကျမ်းဂန် ရေးသားပြုစုနေတယ်။",
+              "translateEn": "The teacher composes a book."
+            }
+          },
+          {
+            "paliMm": "ပစတိ",
+            "paliRoman": "Pacati",
+            "translateMm": "ချက်ပြုတ်သည်",
+            "translateEn": "Cooks / Prepares food",
+            "example": {
+              "paliMm": "သူပကာရော မဓုရံ သူပံ ပစတိ။",
+              "paliRoman": "Sūpakāro madhuraṃ sūpaṃ pacati.",
+              "translateMm": "စားဖိုမှူးက အရသာရှိတဲ့ ဟင်းရည်ကို ချက်ပြုတ်နေတယ်။",
+              "translateEn": "The cook cooks delicious soup."
+            }
+          },
+          {
+            "paliMm": "နိဗ္ဗတ္တေတိ",
+            "paliRoman": "Nibbatteti",
+            "translateMm": "ဖြစ်ထွန်းစေသည်၊ ထုတ်လုပ်သည်",
+            "translateEn": "Produces / Yields",
+            "example": {
+              "paliMm": "ကဿကော ခေတ္တေ ဓညံ နိဗ္ဗတ္တေတိ။",
+              "paliRoman": "Kassako khette dhaññaṃ nibbatteti.",
+              "translateMm": "လယ်သမားက လယ်ကွင်းထဲမှာ စပါးသီးနှံတွေကို ထုတ်လုပ်ဖြစ်ထွန်းစေတယ်။",
+              "translateEn": "The farmer produces grain in the field."
+            }
+          },
+          {
+            "paliMm": "နိမ္မိနာတိ",
+            "paliRoman": "Nimmināti",
+            "translateMm": "ဖန်ဆင်းသည်၊ တည်ထွင်သည်",
+            "translateEn": "Creates (by supernatural power)",
+            "example": {
+              "paliMm": "ဗုဒ္ဓေါ အဘိညာယ ရူပံ နိမ္မိနာတိ။",
+              "paliRoman": "Buddho abhiññāya rūpaṃ nimmināti.",
+              "translateMm": "ဘုရားရှင်က အဘိညာဉ်တော်နဲ့ ရုပ်ပုံလွှာကို ဖန်ဆင်းတော်မူတယ်။",
+              "translateEn": "The Buddha creates a form through direct knowledge."
+            }
+          },
+          {
+            "paliMm": "နိဋ္ဌာပေတိ",
+            "paliRoman": "Niṭṭhāpeti",
+            "translateMm": "ပြီးစီးစေသည်၊ အပြီးသတ်သည်",
+            "translateEn": "Completes / Finishes",
+            "example": {
+              "paliMm": "ဝဍ္ဎကိ ဂေဟံ နိဋ္ဌာပေတိ။",
+              "paliRoman": "Vaḍḍhaki gehaṃ niṭṭhāpeti.",
+              "translateMm": "လက်သမားက အိမ်ဆောက်တာကို အပြီးသတ်လိုက်တယ်။",
+              "translateEn": "The carpenter finishes building the house."
+            }
+          },
+          {
+            "paliMm": "ဝါယတိ",
+            "paliRoman": "Vāyati",
+            "translateMm": "ရက်လုပ်သည်၊ အထည်ရက်သည်",
+            "translateEn": "Weaves",
+            "example": {
+              "paliMm": "သာ သုတ္တေန ဝတ္ထံ ဝါယတိ။",
+              "paliRoman": "Sā suttena vatthaṃ vāyati.",
+              "translateMm": "သူငယ်မလေးက ချည်မျှင်နဲ့ အဝတ်ထည် ရက်လုပ်နေတယ်။",
+              "translateEn": "She weaves cloth with thread."
+            }
+          },
+          {
+            "paliMm": "ဃဋေတိ",
+            "paliRoman": "Ghaṭeti",
+            "translateMm": "ဆက်စပ်သည်၊ တည်ဆောက်သည်",
+            "translateEn": "Connects / Builds / Constructs",
+            "example": {
+              "paliMm": "သော ကဋ္ဌာနိ ဃဋေတွာ ပီဌံ ကရောတိ။",
+              "paliRoman": "So kaṭṭhāni ghaṭetvā pīṭhaṃ karoti.",
+              "translateMm": "သူ သစ်သားတွေကို ဆက်စပ်ပြီး ခုံ ပြုလုပ်တယ်။",
+              "translateEn": "He constructs a chair by joining pieces of wood."
+            }
+          },
+          {
+            "paliMm": "ခဏတိ",
+            "paliRoman": "Khaṇati",
+            "translateMm": "တူးဖော်သည်၊ ကျင်းတူးသည်",
+            "translateEn": "Digs / Excavates",
+            "example": {
+              "paliMm": "သော ဘူမိယံ ဥဒပါဏံ ခဏတိ။",
+              "paliRoman": "So bhūmiyaṃ udapāṇaṃ khaṇati.",
+              "translateMm": "သူ မြေကြီးမှာ ရေတွင်း တူးဖော်နေတယ်။",
+              "translateEn": "He digs a water well in the ground."
+            }
+          },
+          {
+            "paliMm": "ရောပေတိ",
+            "paliRoman": "Ropeti",
+            "translateMm": "စိုက်ပျိုးသည်",
+            "translateEn": "Plants / Sows",
+            "example": {
+              "paliMm": "ကဿကော ဥယျာနေ ရုက္ခံ ရောပေတိ။",
+              "paliRoman": "Kassako uyyāne rukkhaṃ ropeti.",
+              "translateMm": "လယ်သမားက ဥယျာဉ်ထဲမှာ သစ်ပင် စိုက်ပျိုးနေတယ်။",
+              "translateEn": "The farmer plants a tree in the garden."
+            }
+          },
+          {
+            "paliMm": "ဥပ္ပါဒေတိ",
+            "paliRoman": "Uppādeti",
+            "translateMm": "ဖြစ်ပေါ်စေသည်၊ ထုတ်လုပ်ဖြစ်ထွန်းစေသည်",
+            "translateEn": "Generates / Produces",
+            "example": {
+              "paliMm": "သော ကမ္မေန ဓနံ ဥပ္ပါဒေတိ။",
+              "paliRoman": "So kammena dhanaṃ uppādeti.",
+              "translateMm": "သူ အလုပ်လုပ်ပြီး ဥစ္စာဓနကို ထုတ်လုပ်ဖြစ်ထွန်းစေတယ်။",
+              "translateEn": "He generates wealth through work."
+            }
+          },
+          {
+            "paliMm": "သံဟရတိ",
+            "paliRoman": "Saṃharati",
+            "translateMm": "စုစည်းတည်ဆောက်သည်",
+            "translateEn": "Assembles / Brings together",
+            "example": {
+              "paliMm": "သော ဒါရူနိ သံဟရိတွာ ဂေဟံ ကရောတိ။",
+              "paliRoman": "So dārūni saṃharitvā gehaṃ karoti.",
+              "translateMm": "သူ သစ်သားတွေကို စုစည်းပြီး အိမ် ဆောက်တယ်။",
+              "translateEn": "He assembles timber to build a house."
+            }
+          },
+          {
+            "paliMm": "ကန္တတိ",
+            "paliRoman": "Kantati",
+            "translateMm": "ချည်ငင်သည်၊ ပစ္စည်းပုံဖော်သည်",
+            "translateEn": "Spins yarn / Cuts to shape",
+            "example": {
+              "paliMm": "သာ ကပ္ပါသာ သုတ္တံ ကန္တတိ။",
+              "paliRoman": "Sā kappāsā suttaṃ kantati.",
+              "translateMm": "သူငယ်မလေးက ဝါဂွမ်းကနေ ချည် ငင်နေတယ်။",
+              "translateEn": "She spins thread from cotton."
+            }
+          },
+          {
+            "paliMm": "စိတ္တကရောတိ / စိတ္တေတိ",
+            "paliRoman": "Cittakaroti / Citteti",
+            "translateMm": "ပန်းချီဆွဲသည်၊ ဆေးခြယ်မွမ်းမံသည်",
+            "translateEn": "Paints / Decorates",
+            "example": {
+              "paliMm": "စိတ္တကာရော ကုဍ္ဍေ စိတ္တံ စိတ္တေတိ။",
+              "paliRoman": "Cittakāro kuḍḍe cittaṃ citteti.",
+              "translateMm": "ပန်းချီဆရာက နံရံပေါ်မှာ ပန်းချီကား ရေးဆွဲနေတယ်။",
+              "translateEn": "The painter paints a picture on the wall."
+            }
+          },
+          {
+            "paliMm": "ဘိန္နံ သန္ဓေတိ",
+            "paliRoman": "Bhinnaṃ sandheti",
+            "translateMm": "ကွဲအက်သွားသည်များကို ဆက်စပ်ပြုပြင်သည်",
+            "translateEn": "Repairs / Joins together",
+            "example": {
+              "paliMm": "သော ဘိန္နံ ကုမ္ဘံ သန္ဓေတိ။",
+              "paliRoman": "So bhinnaṃ kumbhaṃ sandheti.",
+              "translateMm": "သူ ကွဲသွားတဲ့ အိုးကို ပြန် ဆက်စပ်ပြုပြင်နေတယ်။",
+              "translateEn": "He joins the broken pot together."
+            }
+          },
+          {
+            "paliMm": "ပါသာဒံ တိဋ္ဌာပေတိ",
+            "paliRoman": "Pāsādaṃ tiṭṭhāpeti",
+            "translateMm": "အဆောက်အအုံ စိုက်ထူဆောက်လုပ်သည်",
+            "translateEn": "Erects / Constructs a building",
+            "example": {
+              "paliMm": "ရာဇာ မဟန္တံ ပါသာဒံ တိဋ္ဌာပေတိ။",
+              "paliRoman": "Rājā mahantaṃ pāsādaṃ tiṭṭhāpeti.",
+              "translateMm": "ဘုရင်က ကြီးမားတဲ့ ပြာသာဒ်ကျောင်းတော်ကြီးကို စိုက်ထူဆောက်လုပ်စေတယ်။",
+              "translateEn": "The king erects a great palace."
+            }
+          },
+          {
+            "paliMm": "ဝိက္ခာလေတွာ သဇ္ဇေတိ",
+            "paliRoman": "Vikkhāletvā sajjeti",
+            "translateMm": "သန့်စင်စိစစ်၍ ထုတ်လုပ်သည်",
+            "translateEn": "Refines and prepares",
+            "example": {
+              "paliMm": "သုဝဏ္ဏကာရော သုဝဏ္ဏံ ဝိက္ခာလေတွာ သဇ္ဇေတိ။",
+              "paliRoman": "Suvaṇṇakāro suvaṇṇaṃ vikkhāletvā sajjeti.",
+              "translateMm": "ရွှေပန်းထိမ်သည်က ရွှေကို သန့်စင်ပြီး အဆင်တန်ဆာ ပြုလုပ်တယ်။",
+              "translateEn": "The goldsmith refines the gold and crafts ornaments."
+            }
+          },
+          {
+            "paliMm": "သဉ္ဇနေတိ",
+            "paliRoman": "Sañjaneti",
+            "translateMm": "ဖြစ်ပွားစေသည်၊ မွေးဖွားဖြစ်ထွန်းစေသည်",
+            "translateEn": "Causes to be produced / Generates",
+            "example": {
+              "paliMm": "သော မဟန္တံ ဥဿာဟံ သဉ္ဇနေတိ။",
+              "paliRoman": "So mahantaṃ ussāhaṃ sañjanayati.",
+              "translateMm": "သူ အားထုတ်ကြိုးပမ်းမှုကို ကြီးစွာ ဖြစ်ပေါ်စေတယ်။",
+              "translateEn": "He generates great effort."
+            }
+          }
+        ]
       }
     ]
   },
@@ -9718,46 +9964,142 @@
     "icon": "record_voice_over_rounded",
     "subCategories": [
       {
-        "titleMm": "ဆရာတပည့် အပြန်အလှန်ဆွေးနွေးခန်း",
-        "titleEn": "Teacher & Student Dialogue",
+        "titleMm": "ဈေးဝယ်ထွက်ခြင်းဆိုင်ရာ ပါဠိစကားပြောခန်း",
+        "titleEn": "Shopping in Pāḷi",
         "dialogueList": [
           {
-            "speakerMm": "သိဿော (ကျောင်းသား)",
-            "speakerEn": "Student",
-            "paliMm": "ဝန္ဒာမိ ဘန္တေ၊ အာစရိယ။",
-            "paliRoman": "Vandāmi bhante, ācariya.",
-            "translateMm": "ဆရာတော်/ဆရာကြီး၊ ရှိခိုးပါ၏ခင်ဗျာ။",
-            "translateEn": "I pay respect to you, Teacher."
+            "speakerMm": "ကယိကော (ဝယ်သူ)",
+            "speakerEn": "Buyer",
+            "paliMm": "သုမင်္ဂလံ! ဣဒံ ဖလံ ကိံ အဂ္ဃတိ?",
+            "paliRoman": "Sumaṅgalaṃ! Idaṃ phalaṃ kiṃ agghati?",
+            "translateMm": "မင်္ဂလာပါ! ဒီအသီးက ဘယ်လောက် တန်ဖိုးရှိလဲ (ဈေးဘယ်လောက်လဲ)။",
+            "translateEn": "Hello! How much does this fruit cost?"
           },
           {
-            "speakerMm": "အာစရိယော (ဆရာ)",
-            "speakerEn": "Teacher",
-            "paliMm": "သုခီ ဟောဟိ။ အဇ္ဇ ကိံ ကာရဏာ စိရံ အာဂတောသိ?",
-            "paliRoman": "Sukhī hohi. Ajja kiṃ kāraṇā ciraṃ āgatosi?",
-            "translateMm": "ချမ်းသာပါစေ။ ယနေ့ အဘယ်ကြောင့် နောက်ကျမှ ရောက်လာသနည်း။",
-            "translateEn": "May you be happy. Why did you arrive late today?"
+            "speakerMm": "ဝါဏိဇော (ကုန်သည်)",
+            "speakerEn": "Merchant",
+            "paliMm": "သုမင်္ဂလံ! ဣဒံ ဖလံ ဒသ ဓနံ အဂ္ဃတိ။",
+            "paliRoman": "Sumaṅgalaṃ! Idaṃ phalaṃ dasa dhanaṃ agghati.",
+            "translateMm": "မင်္ဂလာပါဗျာ! ဒီအသီးက ငွေဆယ်ပြား တန်ပါတယ်။",
+            "translateEn": "Hello! This fruit costs ten units of money."
+          },
+          {
+            "speakerMm": "ကယိကော (ဝယ်သူ)",
+            "speakerEn": "Buyer",
+            "paliMm": "အတိမဟဂ္ဃံ! အပ္ပကံ ဓနံ ဒေမိ၊ ဂဏှာသိ ဝါ?",
+            "paliRoman": "Atimahagghaṃ! Appakaṃ dhanaṃ demi, gaṇhāsi vā?",
+            "translateMm": "ဈေးအရမ်းကြီးတာပဲ! ငွေနည်းနည်းပဲ ပေးမယ်၊ ယူမလား။",
+            "translateEn": "Too expensive! I will give a smaller amount of money; will you take it?"
+          },
+          {
+            "speakerMm": "ဝါဏိဇော (ကုန်သည်)",
+            "speakerEn": "Merchant",
+            "paliMm": "သာဓု၊ သာကံ ဝါ ဖလံ ဝါ အညံ ကိံ ကိဏိတုကာမောသိ?",
+            "paliRoman": "Sādhu, sākaṃ vā phalaṃ vā aññaṃ kiṃ kiṇitukāmosi?",
+            "translateMm": "ရပါတယ်ဗျာ၊ ဟင်းသီးဟင်းရွက်ဖြစ်စေ၊ အခြားအသီးအနှံဖြစ်စေ ဘာများ ထပ်ဝယ်ချင်သေးလဲဗျ?",
+            "translateEn": "All right, what else would you like to buy, vegetables or other fruits?"
+          },
+          {
+            "speakerMm": "ကယိကော (ဝယ်သူ)",
+            "speakerEn": "Buyer",
+            "paliMm": "မရိစံ လသုဏဉ္စ ဒွေ ဂဏှာမိ။",
+            "paliRoman": "Maricaṃ lasuṇañca dve gaṇhāmi.",
+            "translateMm": "ငရုတ်သီးနဲ့ ကြက်သွန်ဖြူ နှစ်မျိုး ယူမယ်။",
+            "translateEn": "I will take chili and garlic."
+          },
+          {
+            "speakerMm": "ဝါဏိဇော (ကုန်သည်)",
+            "speakerEn": "Merchant",
+            "paliMm": "ဣဒံ ဘဏ္ဍံ ဂဏှာဟိ၊ သဗ္ဗံ ဝီသတိဓနံ ဟောတိ။",
+            "paliRoman": "Idaṃ bhaṇḍaṃ gaṇhāhi, sabbaṃ vīsati dhanaṃ hoti.",
+            "translateMm": "ဒီပစ္စည်းတွေကို ယူပါ၊ အားလုံးပေါင်း ငွေနှစ်ဆယ် ဖြစ်ပါတယ်။",
+            "translateEn": "Take these goods; the total is twenty units of money."
+          },
+          {
+            "speakerMm": "ကယိကော (ဝယ်သူ)",
+            "speakerEn": "Buyer",
+            "paliMm": "ဣဒံ ဓနံ ဂဏှာဟိ။ သာဓု၊ ဗဟူပကာရော!",
+            "paliRoman": "Idaṃ dhanaṃ gaṇhāhi. Sādhu, bahūpakāro!",
+            "translateMm": "ဒီမှာ ငွေယူလိုက်ပါ။ ကျေးဇူးတင်ပါတယ်!",
+            "translateEn": "Here, take this money. Thank you!"
+          },
+          {
+            "speakerMm": "ဝါဏိဇော (ကုန်သည်)",
+            "speakerEn": "Merchant",
+            "paliMm": "တထေဝ၊ ပုန အာဂစ္ဆ။",
+            "paliRoman": "Tatheva, puna āgaccha.",
+            "translateMm": "ဟုတ်ကဲ့ပါ၊ နောက်လည်း လာခဲ့ပါဦး။",
+            "translateEn": "Likewise, come again. Goodbye!"
           }
         ]
       },
       {
-        "titleMm": "ပါဠိဘာသာနှင့် ပတ်သက်သော ဆွေးနွေးခန်း",
-        "titleEn": "Discussion about Pāḷi Language",
+        "titleMm": "ကျောင်းနှင့် စာသင်ခန်းဆိုင်ရာ ပါဠိစကားပြောခန်း",
+        "titleEn": "Classroom & School Life in Pāḷi",
         "dialogueList": [
           {
-            "speakerMm": "အနုရုဒ္ဓေါ",
-            "speakerEn": "Anuruddha",
-            "paliMm": "ဘော မိတ္တ၊ တဝ ပါဠိဘာသာယ နိပုဏတာ အဗ္ဘုတာ ဟောတိ။",
-            "paliRoman": "Bho mitta, tava pāḷibhāsāya nipuṇatā abbhutā hoti.",
-            "translateMm": "အဆွေခင်ပွန်း၊ သင့်၏ ပါဠိဘာသာစကား ပိုင်နိုင်ကျွမ်းကျင်မှုမှာ အံ့ဩဖွယ်ဖြစ်ပေ၏။",
-            "translateEn": "Dear friend, your proficiency in Pāḷi language is wonderful."
+            "speakerMm": "အာစရိယော (ဆရာ)",
+            "speakerEn": "Teacher",
+            "paliMm": "သိဿ၊ တွံ အဇ္ဇ ကိမတ္ထံ စိရံ အာဂစ္ဆသိ?",
+            "paliRoman": "Sissa, tvaṃ ajja kimatthaṃ ciraṃ āgacchasi?",
+            "translateMm": "ကျောင်းသား၊ မင်း ဒီနေ့ ဘာလို့ နောက်ကျမှ ရောက်လာတာလဲ။",
+            "translateEn": "Student, why do you arrive late today?"
           },
           {
-            "speakerMm": "ဓမ္မပါလော",
-            "speakerEn": "Dhammapāla",
-            "paliMm": "အာမ၊ အဟံ ပဋိဒိနံ ပါဠိဘာသာယ သမ္ဘာသဏံ ကရောမိ၊ တသ္မာ သုလဘာ ဟောတိ။",
-            "paliRoman": "Āma, ahaṃ paṭidinaṃ pāḷibhāsāya sambhāsaṇaṃ karomi, tasmā sulabhā hoti.",
-            "translateMm": "ဟုတ်ပါသည်၊ ငါသည် နေ့စဉ် ပါဠိဘာသာဖြင့် စကားပြောဆိုမှု ပြု၏၊ ထို့ကြောင့် လွယ်ကူခြင်းဖြစ်၏။",
-            "translateEn": "Yes, I practice speaking in Pāḷi every day, that is why it becomes easy."
+            "speakerMm": "သီဿော (တပည့်/ကျောင်းသား)",
+            "speakerEn": "Student",
+            "paliMm": "အာစရိယ! မဂ္ဂေ မဟာဝုဋ္ဌိ ဝဿိ၊ တသ္မာ အဟံ စိရံ အာဂစ္ဆာမိ။",
+            "paliRoman": "Ācariya! Magge mahā vuṭṭhi vassi, tasmā ahaṃ ciraṃ āgacchāmi.",
+            "translateMm": "ဆရာ။ လမ်းမှာ မိုးတွေ အရမ်းရွာနေလို့ပါ၊ အဲဒါကြောင့် နောက်ကျသွားတာပါ။",
+            "translateEn": "Teacher! It rained heavily on the way, that is why I am late."
+          },
+          {
+            "speakerMm": "အာစရိယော (ဆရာ)",
+            "speakerEn": "Teacher",
+            "paliMm": "သာဓု၊ သမ္မာ နိသီဒ။ တွံ ဟိယျော ဥဂ္ဂဟိတံ ပါဌံ သရသိ ဝါ?",
+            "paliRoman": "Sādhu, sammā nisīda. Tvaṃ hiyyo uggahitaṃ pāṭhaṃ sarasi vā?",
+            "translateMm": "ကောင်းပါပြီ၊ သေချာ ထိုင်ပါ။ မင်း မနေ့က သင်ထားတဲ့ စာတွေကို မှတ်မိသေးရဲ့လား။",
+            "translateEn": "All right, sit down properly. Do you remember the lesson learned yesterday?"
+          },
+          {
+            "speakerMm": "သီဿော (တပည့်/ကျောင်းသား)",
+            "speakerEn": "Student",
+            "paliMm": "အာမ အာစရိယ၊ အဟံ သရာမိ။ စိန္တေတွာ သာဓုကံ မနသိ ကရောမိ။",
+            "paliRoman": "Āma ācariya, ahaṃ sarāmi. Cintetvā sādhukaṃ manasi karomi.",
+            "translateMm": "ဟုတ်ကဲ့ ဆရာ၊ တပည့်တော် မှတ်မိပါတယ်။ စဉ်းစားပြီး နှလုံးသွင်းထားပါတယ်။",
+            "translateEn": "Yes teacher, I remember it. I have thought it over and paid close attention to it."
+          },
+          {
+            "speakerMm": "အာစရိယော (ဆရာ)",
+            "speakerEn": "Teacher",
+            "paliMm": "သာဓု သာဓု! ဣဒံ ပေါတ္ထကံ ဥဂ္ဃါဋေတွာ ပါဠိဝစနံ သဇ္ဈာယ။",
+            "paliRoman": "Sādhu sādhu! Idaṃ putthakaṃ ugghāṭetvā pāḷivacanaṃ sajjhāya.",
+            "translateMm": "ကောင်းပါပြီဗျာ! ဒီစာအုပ်ကို ဖွင့်ပြီး ပါဠိစာလုံးတွေကို ရွတ်ဖတ်လိုက်ပါဦး။",
+            "translateEn": "Excellent! Open this book and recite the Pāḷi text."
+          },
+          {
+            "speakerMm": "သီဿော (တပည့်/ကျောင်းသား)",
+            "speakerEn": "Student",
+            "paliMm": "သာဓု အာစရိယ၊ အဟံ သက္ကစ္စံ သဇ္ဈာယိဿာမိ။",
+            "paliRoman": "Sādhu ācariya, ahaṃ sakkaccaṃ sajjhāyissāmi.",
+            "translateMm": "ဟုတ်ကဲ့ပါ ဆရာ၊ ကျွန်တော် ရိုရိုသေသေ ရွတ်ဖတ်ပါ့မယ်။",
+            "translateEn": "Yes teacher, I will recite it respectfully."
+          },
+          {
+            "speakerMm": "အာစရိယော (ဆရာ)",
+            "speakerEn": "Teacher",
+            "paliMm": "သုန္ဒရံ! တွံ ပါဠိံ သမ္မာ ဇာနာသိ။ ဓမ္မံ သိက္ခိတုံ ဥဿာဟံ ကရောဟိ။",
+            "paliRoman": "Sundaraṃ! Tvaṃ pāḷiṃ sammā jānāsi. Dhammaṃ sikkhituṃ ussāhaṃ karohi.",
+            "translateMm": "ကောင်းလိုက်တာ! မင်း ပါဠိကို စနစ်တကျ နားလည်တာပဲ။ တရားဓမ္မ သင်ယူဖို့လည်း ကြိုးစားပါဦး။",
+            "translateEn": "Wonderful! You understand Pāḷi well. Keep making an effort to learn the Dhamma."
+          },
+          {
+            "speakerMm": "သီဿော (တပည့်/ကျောင်းသား)",
+            "speakerEn": "Student",
+            "paliMm": "အာမ အာစရိယ၊ အဟံ နိစ္စံ ဥဿာဟံ ကရောမိ။ အနုဂ္ဂဟံ ကရောထ!",
+            "paliRoman": "Āma ācariya, ahaṃ niccaṃ ussāhaṃ karomi. Anuggahaṃ karotha!",
+            "translateMm": "ဟုတ်ကဲ့ပါ ဆရာ၊ တပည့်တော် အမြဲတမ်း ကြိုးစားပါ့မယ်။ ချီးမြှောက် စောင့်ရှောက်ပေးပါ။",
+            "translateEn": "Yes teacher, I will always make an effort. Please guide and support me!"
           }
         ]
       }

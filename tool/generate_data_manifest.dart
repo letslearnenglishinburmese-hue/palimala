@@ -140,7 +140,9 @@ void main() {
   const encoder = JsonEncoder.withIndent('  ');
 
   final manifest = {
-    'version': DateTime.now().toUtc().toIso8601String().substring(0, 10),
+    // Keep enough precision that two edits published on the same day can be
+    // ordered against a cached manifest from an earlier build.
+    'version': DateTime.now().toUtc().toIso8601String(),
     'datasets': datasets,
   };
   _write(_manifestPath, encoder.convert(manifest));
