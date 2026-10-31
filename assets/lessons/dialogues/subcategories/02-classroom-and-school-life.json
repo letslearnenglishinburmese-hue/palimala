@@ -1,0 +1,70 @@
+{
+  "titleMm": "ကျောင်းနှင့် စာသင်ခန်းဆိုင်ရာ ပါဠိစကားပြောခန်း",
+  "titleEn": "Classroom & School Life in Pāḷi",
+  "dialogueList": [
+    {
+      "speakerMm": "အာစရိယော (ဆရာ)",
+      "speakerEn": "Teacher",
+      "paliMm": "သိဿ၊ တွံ အဇ္ဇ ကိမတ္ထံ စိရံ အာဂစ္ဆသိ?",
+      "paliRoman": "Sissa, tvaṃ ajja kimatthaṃ ciraṃ āgacchasi?",
+      "translateMm": "ကျောင်းသား၊ မင်း ဒီနေ့ ဘာလို့ နောက်ကျမှ ရောက်လာတာလဲ။",
+      "translateEn": "Student, why do you arrive late today?"
+    },
+    {
+      "speakerMm": "သီဿော (တပည့်/ကျောင်းသား)",
+      "speakerEn": "Student",
+      "paliMm": "အာစရိယ! မဂ္ဂေ မဟာဝုဋ္ဌိ ဝဿိ၊ တသ္မာ အဟံ စိရံ အာဂစ္ဆာမိ။",
+      "paliRoman": "Ācariya! Magge mahā vuṭṭhi vassi, tasmā ahaṃ ciraṃ āgacchāmi.",
+      "translateMm": "ဆရာ။ လမ်းမှာ မိုးတွေ အရမ်းရွာနေလို့ပါ၊ အဲဒါကြောင့် နောက်ကျသွားတာပါ။",
+      "translateEn": "Teacher! It rained heavily on the way, that is why I am late."
+    },
+    {
+      "speakerMm": "အာစရိယော (ဆရာ)",
+      "speakerEn": "Teacher",
+      "paliMm": "သာဓု၊ သမ္မာ နိသီဒ။ တွံ ဟိယျော ဥဂ္ဂဟိတံ ပါဌံ သရသိ ဝါ?",
+      "paliRoman": "Sādhu, sammā nisīda. Tvaṃ hiyyo uggahitaṃ pāṭhaṃ sarasi vā?",
+      "translateMm": "ကောင်းပါပြီ၊ သေချာ ထိုင်ပါ။ မင်း မနေ့က သင်ထားတဲ့ စာတွေကို မှတ်မိသေးရဲ့လား။",
+      "translateEn": "All right, sit down properly. Do you remember the lesson learned yesterday?"
+    },
+    {
+      "speakerMm": "သီဿော (တပည့်/ကျောင်းသား)",
+      "speakerEn": "Student",
+      "paliMm": "အာမ အာစရိယ၊ အဟံ သရာမိ။ စိန္တေတွာ သာဓုကံ မနသိ ကရောမိ။",
+      "paliRoman": "Āma ācariya, ahaṃ sarāmi. Cintetvā sādhukaṃ manasi karomi.",
+      "translateMm": "ဟုတ်ကဲ့ ဆရာ၊ တပည့်တော် မှတ်မိပါတယ်။ စဉ်းစားပြီး နှလုံးသွင်းထားပါတယ်။",
+      "translateEn": "Yes teacher, I remember it. I have thought it over and paid close attention to it."
+    },
+    {
+      "speakerMm": "အာစရိယော (ဆရာ)",
+      "speakerEn": "Teacher",
+      "paliMm": "သာဓု သာဓု! ဣဒံ ပေါတ္ထကံ ဥဂ္ဃါဋေတွာ ပါဠိဝစနံ သဇ္ဈာယ။",
+      "paliRoman": "Sādhu sādhu! Idaṃ putthakaṃ ugghāṭetvā pāḷivacanaṃ sajjhāya.",
+      "translateMm": "ကောင်းပါပြီဗျာ! ဒီစာအုပ်ကို ဖွင့်ပြီး ပါဠိစာလုံးတွေကို ရွတ်ဖတ်လိုက်ပါဦး။",
+      "translateEn": "Excellent! Open this book and recite the Pāḷi text."
+    },
+    {
+      "speakerMm": "သီဿော (တပည့်/ကျောင်းသား)",
+      "speakerEn": "Student",
+      "paliMm": "သာဓု အာစရိယ၊ အဟံ သက္ကစ္စံ သဇ္ဈာယိဿာမိ။",
+      "paliRoman": "Sādhu ācariya, ahaṃ sakkaccaṃ sajjhāyissāmi.",
+      "translateMm": "ဟုတ်ကဲ့ပါ ဆရာ၊ ကျွန်တော် ရိုရိုသေသေ ရွတ်ဖတ်ပါ့မယ်။",
+      "translateEn": "Yes teacher, I will recite it respectfully."
+    },
+    {
+      "speakerMm": "အာစရိယော (ဆရာ)",
+      "speakerEn": "Teacher",
+      "paliMm": "သုန္ဒရံ! တွံ ပါဠိံ သမ္မာ ဇာနာသိ။ ဓမ္မံ သိက္ခိတုံ ဥဿာဟံ ကရောဟိ။",
+      "paliRoman": "Sundaraṃ! Tvaṃ pāḷiṃ sammā jānāsi. Dhammaṃ sikkhituṃ ussāhaṃ karohi.",
+      "translateMm": "ကောင်းလိုက်တာ! မင်း ပါဠိကို စနစ်တကျ နားလည်တာပဲ။ တရားဓမ္မ သင်ယူဖို့လည်း ကြိုးစားပါဦး။",
+      "translateEn": "Wonderful! You understand Pāḷi well. Keep making an effort to learn the Dhamma."
+    },
+    {
+      "speakerMm": "သီဿော (တပည့်/ကျောင်းသား)",
+      "speakerEn": "Student",
+      "paliMm": "အာမ အာစရိယ၊ အဟံ နိစ္စံ ဥဿာဟံ ကရောမိ။ အနုဂ္ဂဟံ ကရောထ!",
+      "paliRoman": "Āma ācariya, ahaṃ niccaṃ ussāhaṃ karomi. Anuggahaṃ karotha!",
+      "translateMm": "ဟုတ်ကဲ့ပါ ဆရာ၊ တပည့်တော် အမြဲတမ်း ကြိုးစားပါ့မယ်။ ချီးမြှောက် စောင့်ရှောက်ပေးပါ။",
+      "translateEn": "Yes teacher, I will always make an effort. Please guide and support me!"
+    }
+  ]
+}

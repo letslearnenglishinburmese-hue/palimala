@@ -58,8 +58,8 @@
       "icon": "record_voice_over_rounded",
       "asset": "assets/pali_data/dialogues.json",
       "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/dialogues.json",
-      "sha256": "cb89b35f5e8205716f45858881fdf715715257ef7a4a280e8cc1c75f43e1cf24",
-      "bytes": 4779
+      "sha256": "2dddb41293030a9e109955eb387543e1c2b9de1e90fc67770c9341f96ae86ba4",
+      "bytes": 10636
     }
   ]
 }
