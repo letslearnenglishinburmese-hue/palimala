@@ -3,7 +3,6 @@
   "titleEn": "Pāḷi Dialogues",
   "icon": "record_voice_over_rounded",
   "subCategoryFiles": [
-    "subcategories/01-teacher-student-dialogue.json",
-    "subcategories/02-discussion-about-p-i-language.json"
+    "subcategories/01-shopping-in-pali.json"
   ]
 }

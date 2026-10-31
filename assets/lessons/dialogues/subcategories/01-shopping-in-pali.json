@@ -1,0 +1,70 @@
+{
+  "titleMm": "ဈေးဝယ်ထွက်ခြင်းဆိုင်ရာ ပါဠိစကားပြောခန်း",
+  "titleEn": "Shopping in Pāḷi",
+  "dialogueList": [
+    {
+      "speakerMm": "ကယိကော (ဝယ်သူ)",
+      "speakerEn": "Buyer",
+      "paliMm": "သုမင်္ဂလံ! ဣဒံ ဖလံ ကိံ အဂ္ဃတိ?",
+      "paliRoman": "Sumaṅgalaṃ! Idaṃ phalaṃ kiṃ agghati?",
+      "translateMm": "မင်္ဂလာပါ! ဒီအသီးက ဘယ်လောက် တန်ဖိုးရှိလဲ (ဈေးဘယ်လောက်လဲ)။",
+      "translateEn": "Hello! How much does this fruit cost?"
+    },
+    {
+      "speakerMm": "ဝါဏိဇော (ကုန်သည်)",
+      "speakerEn": "Merchant",
+      "paliMm": "သုမင်္ဂလံ! ဣဒံ ဖလံ ဒသ ဓနံ အဂ္ဃတိ။",
+      "paliRoman": "Sumaṅgalaṃ! Idaṃ phalaṃ dasa dhanaṃ agghati.",
+      "translateMm": "မင်္ဂလာပါဗျာ! ဒီအသီးက ငွေဆယ်ပြား တန်ပါတယ်။",
+      "translateEn": "Hello! This fruit costs ten units of money."
+    },
+    {
+      "speakerMm": "ကယိကော (ဝယ်သူ)",
+      "speakerEn": "Buyer",
+      "paliMm": "အတိမဟဂ္ဃံ! အပ္ပကံ ဓနံ ဒေမိ၊ ဂဏှာသိ ဝါ?",
+      "paliRoman": "Atimahagghaṃ! Appakaṃ dhanaṃ demi, gaṇhāsi vā?",
+      "translateMm": "ဈေးအရမ်းကြီးတာပဲ! ငွေနည်းနည်းပဲ ပေးမယ်၊ ယူမလား။",
+      "translateEn": "Too expensive! I will give a smaller amount of money; will you take it?"
+    },
+    {
+      "speakerMm": "ဝါဏိဇော (ကုန်သည်)",
+      "speakerEn": "Merchant",
+      "paliMm": "သာဓု၊ သာကံ ဝါ ဖလံ ဝါ အညံ ကိံ ကိဏိတုကာမောသိ?",
+      "paliRoman": "Sādhu, sākaṃ vā phalaṃ vā aññaṃ kiṃ kiṇitukāmosi?",
+      "translateMm": "ရပါတယ်ဗျာ၊ ဟင်းသီးဟင်းရွက်ဖြစ်စေ၊ အခြားအသီးအနှံဖြစ်စေ ဘာများ ထပ်ဝယ်ချင်သေးလဲဗျ?",
+      "translateEn": "All right, what else would you like to buy, vegetables or other fruits?"
+    },
+    {
+      "speakerMm": "ကယိကော (ဝယ်သူ)",
+      "speakerEn": "Buyer",
+      "paliMm": "မရိစံ လသုဏဉ္စ ဒွေ ဂဏှာမိ။",
+      "paliRoman": "Maricaṃ lasuṇañca dve gaṇhāmi.",
+      "translateMm": "ငရုတ်သီးနဲ့ ကြက်သွန်ဖြူ နှစ်မျိုး ယူမယ်။",
+      "translateEn": "I will take chili and garlic."
+    },
+    {
+      "speakerMm": "ဝါဏိဇော (ကုန်သည်)",
+      "speakerEn": "Merchant",
+      "paliMm": "ဣဒံ ဘဏ္ဍံ ဂဏှာဟိ၊ သဗ္ဗံ ဝီသတိဓနံ ဟောတိ။",
+      "paliRoman": "Idaṃ bhaṇḍaṃ gaṇhāhi, sabbaṃ vīsati dhanaṃ hoti.",
+      "translateMm": "ဒီပစ္စည်းတွေကို ယူပါ၊ အားလုံးပေါင်း ငွေနှစ်ဆယ် ဖြစ်ပါတယ်။",
+      "translateEn": "Take these goods; the total is twenty units of money."
+    },
+    {
+      "speakerMm": "ကယိကော (ဝယ်သူ)",
+      "speakerEn": "Buyer",
+      "paliMm": "ဣဒံ ဓနံ ဂဏှာဟိ။ သာဓု၊ ဗဟူပကာရော!",
+      "paliRoman": "Idaṃ dhanaṃ gaṇhāhi. Sādhu, bahūpakāro!",
+      "translateMm": "ဒီမှာ ငွေယူလိုက်ပါ။ ကျေးဇူးတင်ပါတယ်!",
+      "translateEn": "Here, take this money. Thank you!"
+    },
+    {
+      "speakerMm": "ဝါဏိဇော (ကုန်သည်)",
+      "speakerEn": "Merchant",
+      "paliMm": "တထေဝ၊ ပုန အာဂစ္ဆ။",
+      "paliRoman": "Tatheva, puna āgaccha.",
+      "translateMm": "ဟုတ်ကဲ့ပါ၊ နောက်လည်း လာခဲ့ပါဦး။",
+      "translateEn": "Likewise, come again. Goodbye!"
+    }
+  ]
+}
