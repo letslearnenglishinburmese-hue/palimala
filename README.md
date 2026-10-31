@@ -37,9 +37,12 @@ assets/lessons/
 
 `category.json` stores the category title, icon, and ordered list of its
 subcategory file paths. Each subcategory file holds that subcategory's words or
-dialogues. The app reads generated category data from `assets/pali_data/`.
-Those files and the combined `assets/pali_data.json` are generated from the
-editable source files.
+dialogues. The app bundles and reads these lesson source files directly at
+startup, so edits in `assets/lessons/` are visible after a full app restart or
+rebuild, even when a device has an older data set cached. `assets/mmdict.json`
+is also loaded directly for the dictionary. Generated category files in
+`assets/pali_data/` remain the baseline for the online update system; edit the
+lesson source files rather than these generated copies.
 
 `assets/pali_data_manifest.json` is the index published to GitHub. It lists,
 for every data set, the raw URL and the SHA-256 of the file, so an installed app
@@ -50,8 +53,9 @@ the user download only the chapters they need.
 
 1. Edit a category's `category.json` or the relevant file under its
    `subcategories/` directory. Add its path to `subCategoryFiles` when adding a
-   subcategory.
-2. Regenerate the app data, manifest, and legacy compatibility files:
+   subcategory. Restart or rebuild the app to see local edits.
+2. To publish changes for existing installs, regenerate the app data, manifest,
+   and legacy compatibility files:
 
    ```sh
    dart run tool/generate_data_manifest.dart

@@ -223,11 +223,12 @@ enum DatasetStatus {
 
 /// Loads, caches and updates the Pāḷi data sets.
 ///
-/// The bundle ships every dataset so the app works offline. When GitHub is
-/// reachable the manifest is fetched from `assets/pali_data_manifest.json` and
-/// compared per dataset, letting the user download or update only what they
-/// need. Downloaded datasets are stored in [SharedPreferences] and take
-/// precedence over the bundled copies.
+/// Editable category and subcategory JSON files under `assets/lessons/` are
+/// loaded directly, so saving those files and rebuilding the app updates the
+/// bundled lesson data without a manual generation step. Generated datasets
+/// remain the baseline for the online update flow. Downloaded datasets are
+/// stored in [SharedPreferences] and used when the local lesson sources have
+/// not changed from that generated baseline.
 final class AppDataRepository {
   AppDataRepository._();
 
@@ -257,10 +258,13 @@ final class AppDataRepository {
       .where((dataset) => statusOf(dataset) == DatasetStatus.updateAvailable)
       .length;
 
-  static DatasetStatus statusOf(DatasetInfo dataset) =>
-      _activeHash[dataset.id] == dataset.sha256
-      ? DatasetStatus.upToDate
-      : DatasetStatus.updateAvailable;
+  static DatasetStatus statusOf(DatasetInfo dataset) {
+    if (_activeSource[dataset.id] == 'lessons' ||
+        _activeHash[dataset.id] == dataset.sha256) {
+      return DatasetStatus.upToDate;
+    }
+    return DatasetStatus.updateAvailable;
+  }
 
   /// Whether the on-device copy came from a previous download rather than the
   /// bundled asset.
@@ -285,8 +289,8 @@ final class AppDataRepository {
     return _categories;
   }
 
-  /// Loads only the bundled datasets without touching the network. Used by
-  /// tests and by callers that need a guaranteed offline result.
+  /// Loads local lesson assets without touching the network or using a
+  /// downloaded dataset cache.
   static Future<List<MainCategory>> loadBundled() async {
     final preferences = await SharedPreferences.getInstance();
     _autoUpdate = preferences.getBool(_autoUpdateKey) ?? false;
@@ -426,6 +430,8 @@ final class AppDataRepository {
     for (final dataset in _datasets) {
       final bundledJson = await rootBundle.loadString(dataset.asset);
       final bundledHash = _sha256(utf8.encode(bundledJson));
+      final lessonJson = await _loadLessonDataset(dataset.id);
+      final lessonHash = _sha256(utf8.encode(lessonJson));
       final cachedJson = preferences.getString('$_cachedJsonPrefix${dataset.id}');
       final cachedHash = preferences.getString('$_cachedHashPrefix${dataset.id}');
       final cachedIsValid = cachedJson != null &&
@@ -433,11 +439,12 @@ final class AppDataRepository {
           _sha256(utf8.encode(cachedJson)) == cachedHash &&
           _isReadable(cachedJson);
 
-      // A rebuilt app may ship newer JSON than the copy saved by an earlier
-      // app version. Prefer whichever copy matches the selected manifest, and
-      // prefer the bundled copy on equal hashes. This makes local data edits
-      // visible immediately after installing the rebuilt app.
-      if (preferBundled || bundledHash == dataset.sha256) {
+      // The lesson tree is the editable source of truth. If it differs from
+      // the generated bundle, use it even when an older downloaded copy is
+      // still cached on this device.
+      if (lessonHash != bundledHash) {
+        _setActive(dataset.id, lessonJson, lessonHash, 'lessons');
+      } else if (preferBundled || bundledHash == dataset.sha256) {
         _setActive(dataset.id, bundledJson, bundledHash, 'bundled');
       } else if (cachedIsValid && cachedHash == dataset.sha256) {
         _setActive(dataset.id, cachedJson!, cachedHash!, 'cached');
@@ -445,6 +452,30 @@ final class AppDataRepository {
         _setActive(dataset.id, bundledJson, bundledHash, 'bundled');
       }
     }
+  }
+
+  static Future<String> _loadLessonDataset(String id) async {
+    final indexPath = 'assets/lessons/$id/category.json';
+    final index = _object(
+      jsonDecode(await rootBundle.loadString(indexPath)),
+      indexPath,
+    );
+    final relativePaths = _array(index['subCategoryFiles'], 'subCategoryFiles');
+    final category = Map<String, dynamic>.from(index)
+      ..remove('subCategoryFiles');
+    final subCategories = <Map<String, dynamic>>[];
+    for (final value in relativePaths) {
+      if (value is! String || value.startsWith('/') || value.contains('..')) {
+        throw FormatException('Invalid subcategory path in $indexPath.');
+      }
+      final path = 'assets/lessons/$id/$value';
+      subCategories.add(
+        _object(jsonDecode(await rootBundle.loadString(path)), path),
+      );
+    }
+    category['subCategories'] = subCategories;
+    const encoder = JsonEncoder.withIndent('  ');
+    return '${encoder.convert(category)}\n';
   }
 
   static bool _isReadable(String source) {

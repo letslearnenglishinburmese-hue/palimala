@@ -66,6 +66,8 @@ flutter:
   assets:
     - assets/palimala_logo.png
     - assets/mmdict.json
+    # Editable lesson source files loaded directly by the app at startup.
+    - assets/lessons/
     # Generated category data consumed by the app.
     - assets/pali_data/
     # Per-dataset index (id, url, sha256) used for downloads and updates.
