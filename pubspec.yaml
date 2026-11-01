@@ -67,7 +67,19 @@ flutter:
     - assets/palimala_logo.png
     - assets/mmdict.json
     # Editable lesson source files loaded directly by the app at startup.
-    - assets/lessons/
+    # Flutter asset directories are not recursive, so list each level.
+    - assets/lessons/adjectives/
+    - assets/lessons/adjectives/subcategories/
+    - assets/lessons/adverbs/
+    - assets/lessons/adverbs/subcategories/
+    - assets/lessons/dialogues/
+    - assets/lessons/dialogues/subcategories/
+    - assets/lessons/nouns/
+    - assets/lessons/nouns/subcategories/
+    - assets/lessons/particles/
+    - assets/lessons/particles/subcategories/
+    - assets/lessons/verbs/
+    - assets/lessons/verbs/subcategories/
     # Generated category data consumed by the app.
     - assets/pali_data/
     # Per-dataset index (id, url, sha256) used for downloads and updates.
