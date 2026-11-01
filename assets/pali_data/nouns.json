@@ -2972,6 +2972,24 @@
           }
         }
       ]
+    },
+    {
+      "titleMm": "စမ်းသပ် ဝေါဟာရများ",
+      "titleEn": "Test Vocabulary",
+      "vocabList": [
+        {
+          "paliMm": "ပုရိသ (ပု)",
+          "paliRoman": "Purisa (M)",
+          "translateMm": "ယောက်ျား၊ လူ",
+          "translateEn": "Man, Person",
+          "example": {
+            "paliMm": "ပုရိသော ဂစ္ဆတိ။",
+            "paliRoman": "Puriso gacchati.",
+            "translateMm": "လူသည် သွား၏။",
+            "translateEn": "The man goes."
+          }
+        }
+      ]
     }
   ]
 }
