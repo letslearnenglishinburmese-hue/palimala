@@ -51,14 +51,10 @@ void main() {
     return;
   }
 
-  String idOf(Directory categoryDir) => categoryDir.uri.pathSegments
-      .where((segment) => segment.isNotEmpty)
-      .last;
+  String idOf(Directory categoryDir) =>
+      categoryDir.uri.pathSegments.where((segment) => segment.isNotEmpty).last;
 
-  final categoryDirs = dir
-      .listSync()
-      .whereType<Directory>()
-      .toList();
+  final categoryDirs = dir.listSync().whereType<Directory>().toList();
   final ids = categoryDirs.map(idOf).toList()
     ..sort((a, b) {
       final indexA = _order.indexOf(a);

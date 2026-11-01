@@ -41,6 +41,7 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
   @override
   void initState() {
     super.initState();
+    appData = AppDataRepository.categories;
     appDataRevision.addListener(_handleDataChanged);
     _loadSavedWords();
   }
@@ -1790,6 +1791,16 @@ class _DataDownloadSheetState extends State<DataDownloadSheet> {
             isMm
                 ? 'ဒေတာ $updated ခု မွမ်းမံပြီးပါပြီ'
                 : 'Updated $updated data set(s)',
+          ),
+        ),
+      );
+    } catch (error) {
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(
+            isMm
+                ? 'ဒေတာအချို့ကို မွမ်းမံ၍ မရပါ: $error'
+                : 'Some datasets could not be updated: $error',
           ),
         ),
       );

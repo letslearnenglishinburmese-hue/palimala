@@ -237,11 +237,15 @@ final class AppDataRepository {
       'https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data_manifest.json';
   static const _cachedJsonPrefix = 'pali_dataset_json_';
   static const _cachedHashPrefix = 'pali_dataset_sha256_';
+  static const _cachedVersionPrefix = 'pali_dataset_version_';
   static const _cachedManifestKey = 'pali_data_manifest_json';
   static const _autoUpdateKey = 'pali_auto_update_enabled';
   static const _requestTimeout = Duration(seconds: 8);
 
   static List<DatasetInfo> _datasets = const [];
+  static String _currentManifestVersion = '';
+  static Future<void>? _refreshTask;
+  static bool _manifestFetchedRemotely = false;
   static final Map<String, String> _activeJson = <String, String>{};
   static final Map<String, String> _activeHash = <String, String>{};
   static final Map<String, String> _activeSource = <String, String>{};
@@ -273,29 +277,34 @@ final class AppDataRepository {
     return source == 'cached' || source == 'downloaded';
   }
 
-  /// Loads the bundled data and, when reachable, checks GitHub for newer
-  /// datasets. Outdated datasets are downloaded automatically only when the
-  /// user enabled auto-update.
+  /// Makes the bundled or previously downloaded data available immediately,
+  /// then refreshes the GitHub manifest in the background.
   static Future<List<MainCategory>> load() async {
     final preferences = await SharedPreferences.getInstance();
     _autoUpdate = preferences.getBool(_autoUpdateKey) ?? false;
-    _datasets = _parseManifest(await _fetchManifest(preferences));
+    final manifest = await rootBundle.loadString(_manifestAsset);
+    _currentManifestVersion = _manifestVersion(manifest);
+    _datasets = _parseManifest(manifest);
     await _resolveDatasets(preferences);
-    if (_autoUpdate) {
-      await _downloadOutdated(preferences);
-    }
     _categories = _buildCategories();
     _initialized = true;
+    unawaited(
+      _refreshFromGitHub(preferences).catchError((Object error) {
+        debugPrint('Pāḷi data background refresh failed: $error');
+      }),
+    );
     return _categories;
   }
 
-  /// Loads local lesson assets without touching the network or using a
-  /// downloaded dataset cache.
+  /// Loads local lesson assets without touching the network. A valid cached
+  /// update remains active when it is newer than the bundled copy.
   static Future<List<MainCategory>> loadBundled() async {
     final preferences = await SharedPreferences.getInstance();
     _autoUpdate = preferences.getBool(_autoUpdateKey) ?? false;
-    _datasets = _parseManifest(await rootBundle.loadString(_manifestAsset));
-    await _resolveDatasets(preferences, preferBundled: true);
+    final manifest = await rootBundle.loadString(_manifestAsset);
+    _currentManifestVersion = _manifestVersion(manifest);
+    _datasets = _parseManifest(manifest);
+    await _resolveDatasets(preferences);
     _categories = _buildCategories();
     _initialized = true;
     return _categories;
@@ -311,7 +320,28 @@ final class AppDataRepository {
   /// downloading anything (unless auto-update is enabled).
   static Future<void> checkForUpdates() async {
     final preferences = await SharedPreferences.getInstance();
-    _datasets = _parseManifest(await _fetchManifest(preferences));
+    await _refreshFromGitHub(preferences);
+    if (!_manifestFetchedRemotely) {
+      throw const DataUpdateException(
+        'GitHub is unavailable. Existing local lesson data is still available.',
+      );
+    }
+  }
+
+  static Future<void> _refreshFromGitHub(SharedPreferences preferences) {
+    final current = _refreshTask;
+    if (current != null) return current;
+    final task = _refreshFromGitHubImpl(preferences);
+    _refreshTask = task.whenComplete(() => _refreshTask = null);
+    return _refreshTask!;
+  }
+
+  static Future<void> _refreshFromGitHubImpl(
+    SharedPreferences preferences,
+  ) async {
+    final manifest = await _fetchManifest(preferences);
+    _currentManifestVersion = _manifestVersion(manifest);
+    _datasets = _parseManifest(manifest);
     await _resolveDatasets(preferences);
     if (_autoUpdate) {
       await _downloadOutdated(preferences);
@@ -340,21 +370,36 @@ final class AppDataRepository {
   /// copy. Returns how many datasets were updated.
   static Future<int> downloadAllUpdates() async {
     final preferences = await SharedPreferences.getInstance();
-    var updated = 0;
-    for (final dataset in List<DatasetInfo>.of(_datasets)) {
-      if (statusOf(dataset) != DatasetStatus.updateAvailable) continue;
-      try {
-        if (await _download(dataset, preferences)) updated++;
-      } on Object catch (error) {
-        debugPrint('Updating "${dataset.id}" failed: $error');
-      }
-    }
+    final pending = _datasets
+        .where((dataset) => statusOf(dataset) == DatasetStatus.updateAvailable)
+        .toList();
+    final results = await Future.wait(
+      pending.map((dataset) async {
+        try {
+          return (updated: await _download(dataset, preferences), failed: '');
+        } on Object catch (error) {
+          debugPrint('Updating "${dataset.id}" failed: $error');
+          return (updated: false, failed: dataset.titleEn);
+        }
+      }),
+    );
+    final updated = results.where((result) => result.updated).length;
+    final failed = results
+        .map((result) => result.failed)
+        .where((name) => name.isNotEmpty)
+        .toList();
     if (updated > 0) _refresh();
+    if (failed.isNotEmpty) {
+      throw DataUpdateException(
+        'Updated $updated dataset(s); failed: ${failed.join(', ')}.',
+      );
+    }
     return updated;
   }
 
   static Future<String> _fetchManifest(SharedPreferences preferences) async {
     final bundled = await rootBundle.loadString(_manifestAsset);
+    _manifestFetchedRemotely = false;
     try {
       final response = await http
           .get(Uri.parse(_manifestUrl))
@@ -366,6 +411,8 @@ final class AppDataRepository {
       }
       final manifestJson = utf8.decode(response.bodyBytes);
       _parseManifest(manifestJson); // Validate before trusting the manifest.
+      _manifestVersion(manifestJson);
+      _manifestFetchedRemotely = true;
       if (_manifestVersion(manifestJson).compareTo(_manifestVersion(bundled)) <
           0) {
         // GitHub can briefly lag behind a locally rebuilt app. Do not let its
@@ -381,6 +428,10 @@ final class AppDataRepository {
     } on FormatException catch (error) {
       debugPrint('Pāḷi manifest has an invalid format: $error');
     } on DataUpdateException catch (error) {
+      debugPrint('Pāḷi manifest update failed: $error');
+    } on Exception catch (error) {
+      // Network failures can surface as platform-specific exceptions too.
+      // Keep startup working with bundled or cached data in those cases.
       debugPrint('Pāḷi manifest update failed: $error');
     }
 
@@ -410,14 +461,31 @@ final class AppDataRepository {
     if (datasets.isEmpty) {
       throw const FormatException('Manifest does not list any datasets.');
     }
+    final ids = <String>{};
     for (final dataset in datasets) {
+      if (!RegExp(r'^[a-z0-9_-]+$').hasMatch(dataset.id)) {
+        throw FormatException('Invalid dataset id "${dataset.id}".');
+      }
+      if (!ids.add(dataset.id)) {
+        throw FormatException('Duplicate dataset id "${dataset.id}".');
+      }
       if (!RegExp(r'^[a-f0-9]{64}$').hasMatch(dataset.sha256)) {
         throw FormatException(
           'Dataset "${dataset.id}" sha256 must be a SHA-256 hex digest.',
         );
       }
-      if (dataset.url.startsWith('http') == false) {
-        throw FormatException('Dataset "${dataset.id}" url must be absolute.');
+      if (Uri.tryParse(dataset.url)?.scheme != 'https') {
+        throw FormatException('Dataset "${dataset.id}" url must use HTTPS.');
+      }
+      if (dataset.asset != 'assets/pali_data/${dataset.id}.json') {
+        throw FormatException(
+          'Dataset "${dataset.id}" asset path does not match its id.',
+        );
+      }
+      if (dataset.bytes <= 0) {
+        throw FormatException(
+          'Dataset "${dataset.id}" bytes must be positive.',
+        );
       }
     }
     return datasets;
@@ -426,21 +494,38 @@ final class AppDataRepository {
   static String _manifestVersion(String source) {
     final manifest = _object(jsonDecode(source), 'manifest');
     final version = manifest['version'];
-    return version is String ? version : '';
+    if (version is! String || DateTime.tryParse(version) == null) {
+      throw const FormatException('Manifest version must be an ISO date.');
+    }
+    return version;
   }
 
-  static Future<void> _resolveDatasets(
-    SharedPreferences preferences, {
-    bool preferBundled = false,
-  }) async {
+  static Future<void> _resolveDatasets(SharedPreferences preferences) async {
+    _activeJson.clear();
+    _activeHash.clear();
+    _activeSource.clear();
+    final bundledManifest = await rootBundle.loadString(_manifestAsset);
+    final bundledVersion = _manifestVersion(bundledManifest);
     for (final dataset in _datasets) {
-      final bundledJson = await rootBundle.loadString(dataset.asset);
-      final bundledHash = _sha256(utf8.encode(bundledJson));
-      final lessonJson = await _loadLessonDataset(dataset.id);
-      final lessonHash = _sha256(utf8.encode(lessonJson));
-      final cachedJson = preferences.getString('$_cachedJsonPrefix${dataset.id}');
-      final cachedHash = preferences.getString('$_cachedHashPrefix${dataset.id}');
-      final cachedIsValid = cachedJson != null &&
+      final bundledJson = await _loadOptionalAsset(dataset.asset);
+      final bundledHash = bundledJson == null
+          ? null
+          : _sha256(utf8.encode(bundledJson));
+      final lessonJson = await _loadOptionalLessonDataset(dataset.id);
+      final lessonHash = lessonJson == null
+          ? null
+          : _sha256(utf8.encode(lessonJson));
+      final cachedJson = preferences.getString(
+        '$_cachedJsonPrefix${dataset.id}',
+      );
+      final cachedHash = preferences.getString(
+        '$_cachedHashPrefix${dataset.id}',
+      );
+      final cachedVersion = preferences.getString(
+        '$_cachedVersionPrefix${dataset.id}',
+      );
+      final cachedIsValid =
+          cachedJson != null &&
           cachedHash != null &&
           _sha256(utf8.encode(cachedJson)) == cachedHash &&
           _isReadable(cachedJson);
@@ -448,16 +533,49 @@ final class AppDataRepository {
       // The lesson tree is the editable source of truth. If it differs from
       // the generated bundle, use it even when an older downloaded copy is
       // still cached on this device.
-      if (lessonHash != bundledHash) {
-        _setActive(dataset.id, lessonJson, lessonHash, 'lessons');
-      } else if (preferBundled || bundledHash == dataset.sha256) {
-        _setActive(dataset.id, bundledJson, bundledHash, 'bundled');
-      } else if (cachedIsValid && cachedHash == dataset.sha256) {
-        _setActive(dataset.id, cachedJson!, cachedHash!, 'cached');
+      if (lessonJson != null && lessonHash != bundledHash) {
+        _setActive(dataset.id, lessonJson, lessonHash!, 'lessons');
+      } else if (cachedIsValid &&
+          (cachedHash == dataset.sha256 ||
+              (bundledJson == null ||
+                  _isVersionAfter(cachedVersion, bundledVersion) ||
+                  (cachedVersion == null && cachedHash != bundledHash)))) {
+        _setActive(dataset.id, cachedJson, cachedHash, 'cached');
+      } else if (bundledJson != null) {
+        _setActive(dataset.id, bundledJson, bundledHash!, 'bundled');
+      } else if (cachedIsValid) {
+        _setActive(dataset.id, cachedJson, cachedHash, 'cached');
       } else {
-        _setActive(dataset.id, bundledJson, bundledHash, 'bundled');
+        // A newly published dataset may not exist in this app version's
+        // bundled assets. Keep the app usable and let a later download add it.
+        continue;
       }
     }
+  }
+
+  static Future<String?> _loadOptionalAsset(String path) async {
+    try {
+      return await rootBundle.loadString(path);
+    } on FlutterError {
+      return null;
+    }
+  }
+
+  static Future<String?> _loadOptionalLessonDataset(String id) async {
+    try {
+      return await _loadLessonDataset(id);
+    } on FlutterError {
+      return null;
+    }
+  }
+
+  static bool _isVersionAfter(String? candidate, String baseline) {
+    if (candidate == null) return false;
+    final candidateDate = DateTime.tryParse(candidate);
+    final baselineDate = DateTime.tryParse(baseline);
+    return candidateDate != null &&
+        baselineDate != null &&
+        candidateDate.isAfter(baselineDate);
   }
 
   static Future<String> _loadLessonDataset(String id) async {
@@ -495,14 +613,18 @@ final class AppDataRepository {
   }
 
   static Future<void> _downloadOutdated(SharedPreferences preferences) async {
-    for (final dataset in List<DatasetInfo>.of(_datasets)) {
-      if (statusOf(dataset) != DatasetStatus.updateAvailable) continue;
-      try {
-        await _download(dataset, preferences);
-      } on Object catch (error) {
-        debugPrint('Auto-update of "${dataset.id}" failed: $error');
-      }
-    }
+    final pending = _datasets
+        .where((dataset) => statusOf(dataset) == DatasetStatus.updateAvailable)
+        .toList();
+    await Future.wait(
+      pending.map((dataset) async {
+        try {
+          await _download(dataset, preferences);
+        } on Object catch (error) {
+          debugPrint('Auto-update of "${dataset.id}" failed: $error');
+        }
+      }),
+    );
   }
 
   static Future<bool> _download(
@@ -527,8 +649,18 @@ final class AppDataRepository {
     }
     final downloadedJson = utf8.decode(bytes);
     MainCategory.fromJson(_object(jsonDecode(downloadedJson), 'dataset'));
-    await preferences.setString('$_cachedJsonPrefix${dataset.id}', downloadedJson);
-    await preferences.setString('$_cachedHashPrefix${dataset.id}', downloadedHash);
+    await preferences.setString(
+      '$_cachedJsonPrefix${dataset.id}',
+      downloadedJson,
+    );
+    await preferences.setString(
+      '$_cachedHashPrefix${dataset.id}',
+      downloadedHash,
+    );
+    await preferences.setString(
+      '$_cachedVersionPrefix${dataset.id}',
+      _currentManifestVersion,
+    );
     _setActive(dataset.id, downloadedJson, downloadedHash, 'downloaded');
     return true;
   }
@@ -542,7 +674,9 @@ final class AppDataRepository {
   static List<MainCategory> _buildCategories() => [
     for (final dataset in _datasets)
       if (_activeJson[dataset.id] != null)
-        MainCategory.fromJson(_object(jsonDecode(_activeJson[dataset.id]!), 'dataset')),
+        MainCategory.fromJson(
+          _object(jsonDecode(_activeJson[dataset.id]!), 'dataset'),
+        ),
   ];
 
   static String _sha256(List<int> bytes) => sha256.convert(bytes).toString();
@@ -602,5 +736,7 @@ IconData _iconForName(String name) => switch (name) {
   'speed_rounded' => Icons.speed_rounded,
   'auto_awesome_mosaic_rounded' => Icons.auto_awesome_mosaic_rounded,
   'record_voice_over_rounded' => Icons.record_voice_over_rounded,
-  _ => throw FormatException('Unknown category icon "$name".'),
+  // A newer GitHub manifest may add a category before this app version knows
+  // its preferred icon. Keep the dataset readable with a generic icon.
+  _ => Icons.category_rounded,
 };

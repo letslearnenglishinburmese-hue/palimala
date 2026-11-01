@@ -2982,7 +2982,7 @@
     "icon": "directions_run_rounded",
     "subCategories": [
       {
-        "titleMm": "ပညာရပ်ဆိုင်ရာကြိယာများ",
+        "titleMm": "ပညာရပ်ဆိုင်ရာ",
         "titleEn": "Academic & Learning Verbs",
         "vocabList": [
           {
@@ -3159,7 +3159,7 @@
             "translateMm": "အကျဉ်းချုပ်သည် / ပြုစုစုစည်းသည်",
             "translateEn": "Summarizes / compiles",
             "example": {
-              "paliMm": "သီဿော ကထံ သံဟရတိ။",
+              "paliMm": "သိဿော ကထံ သံဟရတိ။",
               "paliRoman": "Sisso kathaṃ saṃharati.",
               "translateMm": "ကျောင်းသားသည် စကား/အကြောင်းအရာကို အကျဉ်းချုပ်၏။",
               "translateEn": "The student summarizes the content."
@@ -3171,7 +3171,7 @@
             "translateMm": "ဖတ်ရှုလေ့လာသည်",
             "translateEn": "Reads / studies text",
             "example": {
-              "paliMm": "သီဿော ဂန္ထံ ပဌတိ။",
+              "paliMm": "သိဿော ဂန္ထံ ပဌတိ။",
               "paliRoman": "Sisso ganthaṃ paṭhati.",
               "translateMm": "ကျောင်းသားသည် ကျမ်းဂန်ကို ဖတ်ရှုလေ့လာ၏။",
               "translateEn": "The student reads the text."
@@ -3216,7 +3216,7 @@
         ]
       },
       {
-        "titleMm": "စိတ်ခံစားမှုဆိုင်ရာကြိယာများ",
+        "titleMm": "စိတ်ခံစားမှုဆိုင်ရာ",
         "titleEn": "Emotional Verbs",
         "vocabList": [
           {
@@ -3366,7 +3366,7 @@
         ]
       },
       {
-        "titleMm": "ခရီးသွားလာခြင်းဆိုင်ရာကြိယာများ",
+        "titleMm": "ခရီးသွားလာခြင်းဆိုင်ရာ",
         "titleEn": "Travel Verbs",
         "vocabList": [
           {
@@ -3612,7 +3612,7 @@
         ]
       },
       {
-        "titleMm": "ချက်ပြုတ်ခြင်းဆိုင်ရာကြိယာများ",
+        "titleMm": "ချက်ပြုတ်ခြင်းဆိုင်ရာ",
         "titleEn": "Cooking and Kitchen Verbs",
         "vocabList": [
           {
@@ -3738,7 +3738,7 @@
         ]
       },
       {
-        "titleMm": "နေ့စဉ်ဘဝ ပြုမူဆောင်ရွက်မှုဆိုင်ရာ ကြိယာ",
+        "titleMm": "နေ့စဉ်ဘဝ ပြုမူဆောင်ရွက်မှုဆိုင်ရာ",
         "titleEn": "Daily Life Verbs",
         "vocabList": [
           {
@@ -3984,7 +3984,7 @@
         ]
       },
       {
-        "titleMm": "ဆက်သွယ်ပြောဆိုရေးဆိုင်ရာ ကြိယာများ",
+        "titleMm": "ဆက်သွယ်ပြောဆိုရေးဆိုင်ရာ",
         "titleEn": "Verbs of Communication",
         "vocabList": [
           {
@@ -4230,7 +4230,7 @@
         ]
       },
       {
-        "titleMm": "ခန္ဓာကိုယ်လှုပ်ရှားမှုနှင့် အမူအယာဆိုင်ရာ ကြိယာများ",
+        "titleMm": "ခန္ဓာကိုယ်လှုပ်ရှားမှုနှင့် အမူအယာဆိုင်ရာ",
         "titleEn": "Verbs of Physical Actions & Gestures",
         "vocabList": [
           {
@@ -4356,7 +4356,7 @@
         ]
       },
       {
-        "titleMm": "ဥပဒေ၊ အုပ်ချုပ်ရေးနှင့် တိုက်ခိုက်ရေးဆိုင်ရာ ကြိယာများ",
+        "titleMm": "ဥပဒေ၊ အုပ်ချုပ်ရေးနှင့် တိုက်ခိုက်ရေးဆိုင်ရာ",
         "titleEn": "Verbs of Governance & Conflict",
         "vocabList": [
           {
@@ -4602,7 +4602,7 @@
         ]
       },
       {
-        "titleMm": "တရားဓမ္မ၊ ဘာဝနာနှင့် သာသနာရေးဆိုင်ရာ ကြိယာများ",
+        "titleMm": "တရားဓမ္မ၊ ဘာဝနာနှင့် သာသနာရေးဆိုင်ရာ",
         "titleEn": "Verbs of Religious & Spiritual Actions",
         "vocabList": [
           {
@@ -4848,7 +4848,7 @@
         ]
       },
       {
-        "titleMm": "ကုန်ကူးသန်းရောင်းဝယ်ရေးနှင့် စီးပွားရေးဆိုင်ရာ ကြိယာများ",
+        "titleMm": "ကုန်ကူးသန်းရောင်းဝယ်ရေးနှင့် စီးပွားရေးဆိုင်ရာ",
         "titleEn": "Verbs of Commerce & Trade",
         "vocabList": [
           {
@@ -5094,7 +5094,7 @@
         ]
       },
       {
-        "titleMm": "သတိ၊ အသိပညာနှင့် အတွေးအခေါ်ဆိုင်ရာ ကြိယာများ",
+        "titleMm": "သတိ၊ အသိပညာနှင့် အတွေးအခေါ်ဆိုင်ရာ",
         "titleEn": "Verbs of Cognition & Thinking",
         "vocabList": [
           {
@@ -5340,7 +5340,7 @@
         ]
       },
       {
-        "titleMm": "ပိုင်ဆိုင်မှု၊ ရယူခြင်းနှင့် စွန့်လွှတ်ခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleMm": "ပိုင်ဆိုင်မှု၊ ရယူခြင်းနှင့် စွန့်လွှတ်ခြင်းဆိုင်ရာ",
         "titleEn": "Verbs of Possession, Giving & Taking",
         "vocabList": [
           {
@@ -5586,7 +5586,7 @@
         ]
       },
       {
-        "titleMm": "သဘာဝတ္ထုနှင့် ရာသီဥတု ဖြစ်ပျက်မှုဆိုင်ရာ ကြိယာများ",
+        "titleMm": "သဘာဝတ္ထုနှင့် ရာသီဥတု ဖြစ်ပျက်မှုဆိုင်ရာ",
         "titleEn": "Verbs of Natural Phenomena",
         "vocabList": [
           {
@@ -5832,7 +5832,7 @@
         ]
       },
       {
-        "titleMm": "သန့်ရှင်းရေးနှင့် ပြုပြင်ထိန်းသိမ်းခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleMm": "သန့်ရှင်းရေးနှင့် ပြုပြင်ထိန်းသိမ်းခြင်းဆိုင်ရာ",
         "titleEn": "Verbs of Cleaning & Maintenance",
         "vocabList": [
           {
@@ -6078,7 +6078,7 @@
         ]
       },
       {
-        "titleMm": "ပြောင်းလဲခြင်းနှင့် ဖြစ်ပေါ်လာခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleMm": "ပြောင်းလဲခြင်းနှင့် ဖြစ်ပေါ်လာခြင်းဆိုင်ရာ",
         "titleEn": "Verbs of Change & Becoming",
         "vocabList": [
           {
@@ -6324,7 +6324,7 @@
         ]
       },
       {
-        "titleMm": "အစားအသောက်နှင့် သောက်သုံးခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleMm": "အစားအသောက်နှင့် သောက်သုံးခြင်းဆိုင်ရာ",
         "titleEn": "Verbs of Eating & Drinking",
         "vocabList": [
           {
@@ -6570,7 +6570,7 @@
         ]
       },
       {
-        "titleMm": "နေထိုင်မှုနှင့် အိပ်စက်ခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleMm": "နေထိုင်မှုနှင့် အိပ်စက်ခြင်းဆိုင်ရာ",
         "titleEn": "Verbs of Living & Resting",
         "vocabList": [
           {
@@ -6816,7 +6816,7 @@
         ]
       },
       {
-        "titleMm": "ထုတ်လုပ်မှုနှင့် ဖန်တီးတည်ဆောက်ခြင်းဆိုင်ရာ ကြိယာများ",
+        "titleMm": "ထုတ်လုပ်မှုနှင့် ဖန်တီးတည်ဆောက်ခြင်းဆိုင်ရာ",
         "titleEn": "Verbs of Creation & Production",
         "vocabList": [
           {

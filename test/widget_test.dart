@@ -20,6 +20,16 @@ import 'package:palimala/app_data.dart';
 String _withoutGenderMarker(String paliRoman) =>
     paliRoman.replaceFirst(RegExp(r' \([MFN/]+\)$'), '');
 
+Future<void> _tapNavigationIcon(WidgetTester tester, IconData icon) async {
+  await tester.tap(
+    find.descendant(
+      of: find.byType(NavigationBar),
+      matching: find.byIcon(icon),
+    ),
+  );
+  await tester.pumpAndSettle();
+}
+
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
   setUpAll(() async {
@@ -434,9 +444,7 @@ void main() {
 
   test('Emotional verbs include the requested verbs without duplicates', () {
     final emotionalVerbs = appData[1].subCategories
-        .firstWhere(
-          (category) => category.titleMm == 'စိတ်ခံစားမှုဆိုင်ရာကြိယာများ',
-        )
+        .firstWhere((category) => category.titleMm == 'စိတ်ခံစားမှုဆိုင်ရာ')
         .vocabList!;
     final romanWords = emotionalVerbs.map((item) => item.paliRoman).toSet();
 
@@ -474,7 +482,7 @@ void main() {
     () {
       final travelVerbs = appData[1].subCategories
           .firstWhere(
-            (category) => category.titleMm == 'ခရီးသွားလာခြင်းဆိုင်ရာကြိယာများ',
+            (category) => category.titleMm == 'ခရီးသွားလာခြင်းဆိုင်ရာ',
           )
           .vocabList!;
       final romanWords = travelVerbs.map((item) => item.paliRoman).toSet();
@@ -512,9 +520,7 @@ void main() {
 
   test('Cooking verbs include all ten requested verbs without duplicates', () {
     final cookingVerbs = appData[1].subCategories
-        .firstWhere(
-          (category) => category.titleMm == 'ချက်ပြုတ်ခြင်းဆိုင်ရာကြိယာများ',
-        )
+        .firstWhere((category) => category.titleMm == 'ချက်ပြုတ်ခြင်းဆိုင်ရာ')
         .vocabList!;
     final romanWords = cookingVerbs.map((item) => item.paliRoman).toSet();
 
@@ -541,8 +547,7 @@ void main() {
   test('Physical action verbs include all ten requested examples', () {
     final verbs = appData[1].subCategories.firstWhere(
       (category) =>
-          category.titleMm ==
-          'ခန္ဓာကိုယ်လှုပ်ရှားမှုနှင့် အမူအယာဆိုင်ရာ ကြိယာများ',
+          category.titleMm == 'ခန္ဓာကိုယ်လှုပ်ရှားမှုနှင့် အမူအယာဆိုင်ရာ',
     );
     final vocabList = verbs.vocabList!;
 
@@ -568,8 +573,7 @@ void main() {
   test('Governance and conflict verbs include all twenty examples', () {
     final verbs = appData[1].subCategories.firstWhere(
       (category) =>
-          category.titleMm ==
-          'ဥပဒေ၊ အုပ်ချုပ်ရေးနှင့် တိုက်ခိုက်ရေးဆိုင်ရာ ကြိယာများ',
+          category.titleMm == 'ဥပဒေ၊ အုပ်ချုပ်ရေးနှင့် တိုက်ခိုက်ရေးဆိုင်ရာ',
     );
     final vocabList = verbs.vocabList!;
 
@@ -604,8 +608,7 @@ void main() {
 
   test('Religious and spiritual verbs include all twenty examples', () {
     final verbs = appData[1].subCategories.firstWhere(
-      (category) =>
-          category.titleMm == 'တရားဓမ္မ၊ ဘာဝနာနှင့် သာသနာရေးဆိုင်ရာ ကြိယာများ',
+      (category) => category.titleMm == 'တရားဓမ္မ၊ ဘာဝနာနှင့် သာသနာရေးဆိုင်ရာ',
     );
     final vocabList = verbs.vocabList!;
 
@@ -640,14 +643,14 @@ void main() {
 
   test('New verb chapters include twenty unique entries and examples', () {
     const chapterTitles = [
-      'ကုန်ကူးသန်းရောင်းဝယ်ရေးနှင့် စီးပွားရေးဆိုင်ရာ ကြိယာများ',
-      'သတိ၊ အသိပညာနှင့် အတွေးအခေါ်ဆိုင်ရာ ကြိယာများ',
-      'ပိုင်ဆိုင်မှု၊ ရယူခြင်းနှင့် စွန့်လွှတ်ခြင်းဆိုင်ရာ ကြိယာများ',
-      'သဘာဝတ္ထုနှင့် ရာသီဥတု ဖြစ်ပျက်မှုဆိုင်ရာ ကြိယာများ',
-      'သန့်ရှင်းရေးနှင့် ပြုပြင်ထိန်းသိမ်းခြင်းဆိုင်ရာ ကြိယာများ',
-      'ပြောင်းလဲခြင်းနှင့် ဖြစ်ပေါ်လာခြင်းဆိုင်ရာ ကြိယာများ',
-      'အစားအသောက်နှင့် သောက်သုံးခြင်းဆိုင်ရာ ကြိယာများ',
-      'နေထိုင်မှုနှင့် အိပ်စက်ခြင်းဆိုင်ရာ ကြိယာများ',
+      'ကုန်ကူးသန်းရောင်းဝယ်ရေးနှင့် စီးပွားရေးဆိုင်ရာ',
+      'သတိ၊ အသိပညာနှင့် အတွေးအခေါ်ဆိုင်ရာ',
+      'ပိုင်ဆိုင်မှု၊ ရယူခြင်းနှင့် စွန့်လွှတ်ခြင်းဆိုင်ရာ',
+      'သဘာဝတ္ထုနှင့် ရာသီဥတု ဖြစ်ပျက်မှုဆိုင်ရာ',
+      'သန့်ရှင်းရေးနှင့် ပြုပြင်ထိန်းသိမ်းခြင်းဆိုင်ရာ',
+      'ပြောင်းလဲခြင်းနှင့် ဖြစ်ပေါ်လာခြင်းဆိုင်ရာ',
+      'အစားအသောက်နှင့် သောက်သုံးခြင်းဆိုင်ရာ',
+      'နေထိုင်မှုနှင့် အိပ်စက်ခြင်းဆိုင်ရာ',
     ];
     final verbs = appData[1];
 
@@ -847,19 +850,21 @@ void main() {
     expect(find.text('ပါဠိစကားပြောပုံစံများ'), findsNothing);
   });
 
-  testWidgets('Drawer displays the supplied logo and bilingual name', (
+  testWidgets('Drawer displays the bilingual vocabulary title', (
     WidgetTester tester,
   ) async {
     await tester.pumpWidget(const PaliLearningApp());
     await tester.tap(find.byTooltip('မီနူး'));
     await tester.pumpAndSettle();
 
-    expect(find.text('ပါဠိမာလာ'), findsOneWidget);
-    expect(find.text('Pāḷimālā'), findsOneWidget);
     expect(
-      (tester.widget<Image>(find.byType(Image)).image as AssetImage).assetName,
-      'assets/palimala_logo.png',
+      find.descendant(
+        of: find.byType(DrawerHeader),
+        matching: find.text('ပါဠိဝေါဟာရများ'),
+      ),
+      findsOneWidget,
     );
+    expect(find.byType(Image), findsNothing);
   });
 
   testWidgets('Vocabulary quiz records correct answers and completes', (
@@ -895,23 +900,19 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.text('ပါဠိစကားပြောခန်း'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('ဆရာတပည့် အပြန်အလှန်ဆွေးနွေးခန်း'));
+    await tester.tap(
+      find.text('ကျောင်းနှင့် စာသင်ခန်းဆိုင်ရာ ပါဠိစကားပြောခန်း'),
+    );
     await tester.pumpAndSettle();
     await tester.tap(find.text('ဤအခန်းကို လေ့ကျင့်မည်'));
     await tester.pumpAndSettle();
 
-    for (var questionIndex = 0; questionIndex < 2; questionIndex++) {
-      await tester.tap(find.byType(OutlinedButton).at(questionIndex));
-      await tester.pumpAndSettle();
-      if (questionIndex == 0) {
-        await tester.tap(find.text('နောက်မေးခွန်း'));
-        await tester.pumpAndSettle();
-      }
-    }
-
-    await tester.tap(find.text('နောက်မေးခွန်း'));
+    expect(find.text('မေးခွန်း 1 / 8'), findsOneWidget);
+    final firstAnswer = find.byType(OutlinedButton).first;
+    await tester.ensureVisible(firstAnswer);
+    await tester.tap(firstAnswer);
     await tester.pumpAndSettle();
-    expect(find.text('အဖြေမှန် 2 / 2 ခု'), findsOneWidget);
+    expect(find.text('အဖြေမှန်ပါသည်'), findsOneWidget);
   });
 
   testWidgets(
@@ -972,8 +973,7 @@ void main() {
     expect(find.text('Ralitives and Family Members'), findsOneWidget);
     expect(find.byType(NavigationBar), findsOneWidget);
 
-    await tester.tap(find.text('Search Word'));
-    await tester.pumpAndSettle();
+    await _tapNavigationIcon(tester, Icons.search_rounded);
     expect(find.byType(TextField), findsOneWidget);
   });
 
@@ -984,15 +984,13 @@ void main() {
 
     await tester.tap(find.text('မြန်မာ'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Search Word'));
-    await tester.pumpAndSettle();
+    await _tapNavigationIcon(tester, Icons.search_rounded);
     await tester.enterText(find.byType(TextField), 'Father');
     await tester.pumpAndSettle();
 
     expect(find.text('Pitā (M)'), findsOneWidget);
 
-    await tester.tap(find.text('Settings'));
-    await tester.pumpAndSettle();
+    await _tapNavigationIcon(tester, Icons.settings_outlined);
     expect(find.byType(Slider), findsOneWidget);
     await tester.tap(find.byType(SwitchListTile).first);
     await tester.pumpAndSettle();
@@ -1008,8 +1006,7 @@ void main() {
   ) async {
     await tester.pumpWidget(const PaliLearningApp());
 
-    await tester.tap(find.text('ရှာရန်'));
-    await tester.pumpAndSettle();
+    await _tapNavigationIcon(tester, Icons.search_rounded);
     await tester.enterText(find.byType(TextField), 'အဖေ');
     await tester.pumpAndSettle();
 
@@ -1031,8 +1028,7 @@ void main() {
 
     await tester.tap(find.byTooltip('သိမ်းရန်').first);
     await tester.pumpAndSettle();
-    await tester.tap(find.text('မှတ်ထားသည်များ'));
-    await tester.pumpAndSettle();
+    await _tapNavigationIcon(tester, Icons.bookmark_border_rounded);
 
     expect(find.text('ပိတာ (ပု)'), findsOneWidget);
     final preferences = await SharedPreferences.getInstance();
@@ -1194,8 +1190,7 @@ void main() {
 
     await tester.tap(find.text('မြန်မာ'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Settings'));
-    await tester.pumpAndSettle();
+    await _tapNavigationIcon(tester, Icons.settings_outlined);
 
     expect(find.text('Data downloads'), findsOneWidget);
     expect(find.text('Auto update'), findsOneWidget);
@@ -1222,8 +1217,7 @@ void main() {
 
     await tester.tap(find.text('မြန်မာ'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Settings'));
-    await tester.pumpAndSettle();
+    await _tapNavigationIcon(tester, Icons.settings_outlined);
 
     await tester.tap(find.text('Auto update'));
     await tester.pumpAndSettle();
