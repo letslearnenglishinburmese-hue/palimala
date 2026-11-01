@@ -154,6 +154,8 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
           valueListenable: _selectedTab,
           builder: (context, selectedIndex, _) => NavigationBar(
             selectedIndex: selectedIndex,
+            height: 60,
+            labelBehavior: NavigationDestinationLabelBehavior.alwaysHide,
             backgroundColor: _isDarkMode
                 ? const Color(0xFF302925)
                 : const Color(0xFFF1E9DF),
@@ -703,6 +705,27 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
         const SizedBox(height: 24),
+        SizedBox(
+          width: double.infinity,
+          child: OutlinedButton.icon(
+            onPressed: words.isEmpty
+                ? null
+                : () => Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                      builder: (context) => VocabularyQuizScreen(
+                        words: words.map((word) => word.item).toList(),
+                        isMyanmar: isMm,
+                      ),
+                    ),
+                  ),
+            icon: const Icon(Icons.quiz_rounded),
+            label: Text(
+              isMm ? 'ဝေါဟာရအားလုံး လေ့ကျင့်ရန်' : 'Practice all vocabulary',
+            ),
+          ),
+        ),
+        const SizedBox(height: 12),
         Row(
           children: [
             Expanded(
@@ -726,15 +749,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisCount: columns,
                 crossAxisSpacing: 12,
                 mainAxisSpacing: 12,
-                childAspectRatio: 0.92,
+                childAspectRatio: 1.25,
               ),
               itemBuilder: (context, index) {
                 final category = appData[index];
-                final wordCount = category.subCategories.fold<int>(
-                  0,
-                  (total, subCategory) =>
-                      total + (subCategory.vocabList?.length ?? 0),
-                );
                 return Card(
                   margin: EdgeInsets.zero,
                   clipBehavior: Clip.antiAlias,
@@ -752,14 +770,14 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.all(14),
+                      padding: const EdgeInsets.all(12),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Icon(
                             category.icon,
-                            size: 28,
+                            size: 24,
                             color: Theme.of(context).colorScheme.primary,
                           ),
                           Column(
@@ -779,14 +797,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                         .primary,
                                   ),
                                 ),
-                              ),
-                              const SizedBox(height: 4),
-                              Text(
-                                isMm ? '$wordCount လုံး' : '$wordCount words',
-                                style: Theme.of(context).textTheme.bodySmall
-                                    ?.copyWith(
-                                      fontFamily: isMm ? null : 'SourceSans3',
-                                    ),
                               ),
                             ],
                           ),
@@ -1150,48 +1160,32 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: EdgeInsets.zero,
         children: [
           DrawerHeader(
+            margin: EdgeInsets.zero,
             decoration: BoxDecoration(
               color: Theme.of(context).colorScheme.primary,
             ),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(12),
-                  child: Image.asset(
-                    'assets/palimala_logo.png',
-                    width: 96,
-                    height: 80,
-                    fit: BoxFit.contain,
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.menu_book_rounded,
+                    size: 38,
+                    color: Theme.of(context).colorScheme.onPrimary,
                   ),
-                ),
-                const SizedBox(width: 14),
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'ပါဠိမာလာ',
+                  const SizedBox(width: 14),
+                  Flexible(
+                    child: Text(
+                      isMm ? 'ပါဠိဝေါဟာရများ' : 'Pāḷi Vocabularies',
                       style: TextStyle(
                         color: Theme.of(context).colorScheme.onPrimary,
                         fontWeight: FontWeight.bold,
-                        fontSize: 18,
+                        fontSize: 20,
                       ),
                     ),
-                    const SizedBox(height: 4),
-                    Text(
-                      'Pāḷimālā',
-                      style: TextStyle(
-                        color: Theme.of(context).colorScheme.onPrimary
-                            .withValues(alpha: 0.86),
-                        fontFamily: 'GentiumPlus',
-                        fontWeight: FontWeight.bold,
-                        fontSize: 16,
-                      ),
-                    ),
-                  ],
-                ),
-              ],
+                  ),
+                ],
+              ),
             ),
           ),
           ListTile(
@@ -1202,11 +1196,13 @@ class _HomeScreenState extends State<HomeScreen> {
               showDialog(
                 context: context,
                 builder: (context) => AlertDialog(
-                  title: Text(isMm ? 'အက်ပ်အကြောင်း' : 'About app'),
-                  content: Text(
-                    isMm
-                        ? 'ဒီအက်ပ်သည် ပါဠိဘာသာစကားကို သင်ယူရန်အတွက် အခြေခံ vocabularies၊ အခြေခံအလေ့အကျင့်များနှင့် စကားဝိုင်းပုံစံအဓိကအချက်များကို တစ်နေရာတည်းတွင် စုစည်းထားသော လက်စွဲတစ်ခုဖြစ်ပါသည်။'
-                        : 'This app is a compact Pāḷi learning guide designed to help learners study vocabulary, example phrases, and simple conversational expressions in one place.',
+                  title: Text(isMm ? 'ပါဠိဝေါဟာရများ' : 'Pāḷi Vocabularies'),
+                  content: SingleChildScrollView(
+                    child: Text(
+                      isMm
+                          ? 'ပါဠိဘာသာကို အဆင့်လိုက် လေ့လာနိုင်ရန် ဝေါဟာရများကို အကြောင်းအရာအလိုက် စုစည်းပေးထားသော သင်ယူရေးအက်ပ်ဖြစ်ပါသည်။ စကားလုံးတစ်လုံးချင်းစီ၏ မြန်မာနှင့် အင်္ဂလိပ်အဓိပ္ပာယ်၊ ဥပမာဝါကျများကို ကြည့်ရှုနိုင်ပြီး အသံထွက်နားထောင်နိုင်ပါသည်။\n\nစကားလုံးနှင့် အဘိဓာန်ကို ရှာဖွေခြင်း၊ မိမိလေ့လာလိုသည့် စကားလုံးများကို မှတ်သားခြင်း၊ အခန်းလိုက် သို့မဟုတ် ဝေါဟာရအားလုံးကို ဉာဏ်စမ်းလေ့ကျင့်ခြင်းတို့ကိုလည်း အသုံးပြုနိုင်ပါသည်။ ဒေတာအသစ်များကို ဆက်တင်မှ စစ်ဆေးရယူနိုင်ပါသည်။'
+                          : 'A friendly guide for learning Pāḷi step by step. Vocabulary is grouped by topic, with Myanmar and English meanings and example sentences to help you learn words in context. You can listen to pronunciations, search vocabulary and dictionary entries, and save words for later review.\n\nPractice a chapter quiz or test yourself on all vocabulary. Lesson data can be checked and updated from Settings.',
+                    ),
                   ),
                   actions: [
                     TextButton(
