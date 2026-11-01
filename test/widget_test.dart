@@ -113,6 +113,42 @@ void main() {
     expect(classroom.first.example?.paliRoman, 'Sisso satthālayaṃ gacchati.');
   });
 
+  test('Travel dialogue has eight alternating quadruple-line turns', () {
+    final dialogues = appData
+        .firstWhere((category) => category.titleEn == 'Pāḷi Dialogues')
+        .subCategories
+        .firstWhere((category) => category.titleEn == 'Traveling in Pāḷi')
+        .dialogueList!;
+
+    expect(dialogues, hasLength(8));
+    for (var index = 0; index < dialogues.length; index++) {
+      final dialogue = dialogues[index];
+      expect(
+        dialogue.speakerEn,
+        index.isEven ? 'Pathaviko (Traveler)' : 'Māggiko (Local Guide)',
+      );
+      expect(dialogue.paliMm, isNotEmpty);
+      expect(dialogue.paliRoman, isNotEmpty);
+      expect(dialogue.translateMm, isNotEmpty);
+      expect(dialogue.translateEn, isNotEmpty);
+    }
+  });
+
+  test('Reloading local lessons notifies the app to rebuild', () async {
+    final previousRevision = appDataRevision.value;
+
+    await AppDataRepository.reloadBundled();
+
+    expect(appDataRevision.value, previousRevision + 1);
+    expect(
+      AppDataRepository.categories
+          .firstWhere((category) => category.titleEn == 'Pāḷi Dialogues')
+          .subCategories
+          .map((category) => category.titleEn),
+      contains('Traveling in Pāḷi'),
+    );
+  });
+
   test('Apparel vocabulary includes the requested clothes and accessories', () {
     final apparel = appData.first.subCategories
         .firstWhere((category) => category.titleMm == 'အဝတ်အစားများ')

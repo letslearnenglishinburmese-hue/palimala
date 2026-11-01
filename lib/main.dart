@@ -45,6 +45,12 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
     _loadSavedWords();
   }
 
+  @override
+  void reassemble() {
+    super.reassemble();
+    unawaited(AppDataRepository.reloadBundled());
+  }
+
   /// Keeps the shared [appData] in sync when a data set is downloaded or
   /// updated from the settings screen.
   void _handleDataChanged() {

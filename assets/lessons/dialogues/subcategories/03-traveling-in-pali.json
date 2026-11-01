@@ -1,0 +1,70 @@
+{
+  "titleMm": "ခရီးသွားလာခြင်းဆိုင်ရာ ပါဠိစကားပြောခန်း",
+  "titleEn": "Traveling in Pāḷi",
+  "dialogueList": [
+    {
+      "speakerMm": "ပထဝိကော (ခရီးသွား)",
+      "speakerEn": "Pathaviko (Traveler)",
+      "paliMm": "အဟံ ဂါမန္တရံ ဂန္တုမိစ္ဆာမိ။ ဣတော မဂ္ဂေါ ကတမော?",
+      "paliRoman": "Ahaṃ gāmantaraṃ gantum icchāmi. Ito maggo katamo?",
+      "translateMm": "ကျွန်တော် တခြားရွာကို သွားချင်ပါတယ်။ ဒီကနေ သွားရမယ့်လမ်းက ဘယ်လမ်းလဲ။",
+      "translateEn": "I wish to go to another village. Which way should I take from here?"
+    },
+    {
+      "speakerMm": "မာဂ္ဂိကော (ဒေသခံ/လမ်းပြ)",
+      "speakerEn": "Māggiko (Local Guide)",
+      "paliMm": "ဣမိနာ မဂ္ဂေန ရုက္ခမူလံ ဂစ္ဆ။ တတော ပုရတ္ထိမဒိသာယံ ဂစ္ဆာဟိ။",
+      "paliRoman": "Iminā maggena rukkhamūlaṃ gaccha. Tato puratthimadisāyaṃ gacchāhi.",
+      "translateMm": "ဒီလမ်းအတိုင်း သစ်ပင်ရင်းအထိ သွားပါ။ အဲဒီကနေ အရှေ့အရပ်ကို ဆက်သွားပါ။",
+      "translateEn": "Follow this path to the foot of the tree. From there, continue east."
+    },
+    {
+      "speakerMm": "ပထဝိကော (ခရီးသွား)",
+      "speakerEn": "Pathaviko (Traveler)",
+      "paliMm": "တတော ပန ကတိ ယောဇနာနိ ဟောန္တိ?",
+      "paliRoman": "Tato pana kati yojanāni honti?",
+      "translateMm": "အဲဒီကနေ ဘယ်လောက်ဝေးသေးလဲ။ ယူဇနာ ဘယ်နှစ်ယူဇနာ ရှိသေးလဲ။",
+      "translateEn": "And how far is it from there? How many yojanas is it?"
+    },
+    {
+      "speakerMm": "မာဂ္ဂိကော (ဒေသခံ/လမ်းပြ)",
+      "speakerEn": "Māggiko (Local Guide)",
+      "paliMm": "ဒွေ ယောဇနာနိ ဧဝ။ တတ္ထ ပေါက္ခရဏီ အတ္ထိ။",
+      "paliRoman": "Dve yojanāni eva. Tattha pokkharaṇī atthi.",
+      "translateMm": "နှစ်ယူဇနာပဲ ရှိပါတယ်။ အဲဒီမှာ ရေကန်တစ်ကန် ရှိတယ်။",
+      "translateEn": "It is only two yojanas. There is a pond there."
+    },
+    {
+      "speakerMm": "ပထဝိကော (ခရီးသွား)",
+      "speakerEn": "Pathaviko (Traveler)",
+      "paliMm": "အဟံ ခိပ္ပံ ဂန္တုမိစ္ဆာမိ။ မဂ္ဂေ ဝိဿမနဋ္ဌာနံ အတ္ထိ ကိံ?",
+      "paliRoman": "Ahaṃ khippaṃ gantum icchāmi. Magge vissamanaṭṭhānaṃ atthi kiṃ?",
+      "translateMm": "ကျွန်တော် အမြန်သွားချင်ပါတယ်။ လမ်းမှာ နားစရာနေရာ ရှိပါသလား။",
+      "translateEn": "I would like to travel quickly. Is there a place to rest along the way?"
+    },
+    {
+      "speakerMm": "မာဂ္ဂိကော (ဒေသခံ/လမ်းပြ)",
+      "speakerEn": "Māggiko (Local Guide)",
+      "paliMm": "အာမ၊ မဂ္ဂမဇ္ဈေ မဟာသာလာ အတ္ထိ။ တတ္ထ တွံ ဝိဿမာဟိ။",
+      "paliRoman": "Āma, maggamajjhe mahāsālā atthi. Tattha tvaṃ vissamāhi.",
+      "translateMm": "ဟုတ်ပါတယ်။ လမ်းအလယ်မှာ ဇရပ်ကြီးတစ်ဆောင် ရှိတယ်။ အဲဒီမှာ အနားယူပါ။",
+      "translateEn": "Yes. There is a large rest hall midway along the road. You can rest there."
+    },
+    {
+      "speakerMm": "ပထဝိကော (ခရီးသွား)",
+      "speakerEn": "Pathaviko (Traveler)",
+      "paliMm": "သာဓု၊ တဝ အနုဂ္ဂဟေန အဟံ သုခေန ဂစ္ဆာမိ။",
+      "paliRoman": "Sādhu, tava anuggahena ahaṃ sukhena gacchāmi.",
+      "translateMm": "ကျေးဇူးပါပဲ။ ခင်ဗျားရဲ့ အကူအညီကြောင့် ကျွန်တော် အဆင်ပြေပြေ သွားနိုင်ပါပြီ။ သွားတော့မယ်နော်။",
+      "translateEn": "Thank you. With your help, I can travel comfortably. I must be going now."
+    },
+    {
+      "speakerMm": "မာဂ္ဂိကော (ဒေသခံ/လမ်းပြ)",
+      "speakerEn": "Māggiko (Local Guide)",
+      "paliMm": "တထေဝ၊ တဝ အဒ္ဓါနံ ခေမံ ဟောတု။",
+      "paliRoman": "Tatheva, tava addhānaṃ khemaṃ hotu.",
+      "translateMm": "ဟုတ်ကဲ့ပါ။ ခင်ဗျားရဲ့ ခရီးလမ်း ဘေးကင်းပါစေ။",
+      "translateEn": "Likewise, may your journey be safe and auspicious."
+    }
+  ]
+}

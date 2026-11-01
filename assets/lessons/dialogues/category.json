@@ -4,6 +4,7 @@
   "icon": "record_voice_over_rounded",
   "subCategoryFiles": [
     "subcategories/01-shopping-in-pali.json",
-    "subcategories/02-classroom-and-school-life.json"
+    "subcategories/02-classroom-and-school-life.json",
+    "subcategories/03-traveling-in-pali.json"
   ]
 }

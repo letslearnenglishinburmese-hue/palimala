@@ -224,11 +224,11 @@ enum DatasetStatus {
 /// Loads, caches and updates the Pāḷi data sets.
 ///
 /// Editable category and subcategory JSON files under `assets/lessons/` are
-/// loaded directly, so saving those files and rebuilding the app updates the
-/// bundled lesson data without a manual generation step. Generated datasets
-/// remain the baseline for the online update flow. Downloaded datasets are
-/// stored in [SharedPreferences] and used when the local lesson sources have
-/// not changed from that generated baseline.
+/// loaded directly, so saving those files and hot-reloading or rebuilding the
+/// app updates the lesson data without a manual generation step. Generated
+/// datasets remain the baseline for the online update flow. Downloaded datasets
+/// are stored in [SharedPreferences] and used when the local lesson sources
+/// have not changed from that generated baseline.
 final class AppDataRepository {
   AppDataRepository._();
 
@@ -299,6 +299,12 @@ final class AppDataRepository {
     _categories = _buildCategories();
     _initialized = true;
     return _categories;
+  }
+
+  /// Reloads the local lesson assets and notifies screens to rebuild.
+  static Future<void> reloadBundled() async {
+    await loadBundled();
+    _notify();
   }
 
   /// Re-reads the manifest and refreshes the per-dataset status without
