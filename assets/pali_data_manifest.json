@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-01T16:38:07.962004Z",
+  "version": "2026-11-02T02:13:51.265711Z",
   "datasets": [
     {
       "id": "nouns",
@@ -8,8 +8,8 @@
       "icon": "menu_book_rounded",
       "asset": "assets/pali_data/nouns.json",
       "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/nouns.json",
-      "sha256": "dcbfd20f83652cadd1ce378ae3d0b7a57495486e8de866e009a0243f4eee1d1c",
-      "bytes": 151667
+      "sha256": "9e070794096141e2421a15b2af9877ab028a66c6d1b039eeb8bd77bf8a249745",
+      "bytes": 151051
     },
     {
       "id": "verbs",
