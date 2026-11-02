@@ -4,12 +4,12 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'app_data.dart';
 import 'dictionary_data.dart';
 import 'firebase_options.dart';
 import 'pali_transliteration.dart';
-import 'Services/uploader_service.dart';
 
 late List<MainCategory> appData;
 
@@ -706,27 +706,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
         const SizedBox(height: 24),
-        SizedBox(
-          width: double.infinity,
-          child: OutlinedButton.icon(
-            onPressed: words.isEmpty
-                ? null
-                : () => Navigator.push(
-                    context,
-                    MaterialPageRoute<void>(
-                      builder: (context) => VocabularyQuizScreen(
-                        words: words.map((word) => word.item).toList(),
-                        isMyanmar: isMm,
-                      ),
-                    ),
-                  ),
-            icon: const Icon(Icons.quiz_rounded),
-            label: Text(
-              isMm ? 'ဝေါဟာရအားလုံး လေ့ကျင့်ရန်' : 'Practice all vocabulary',
-            ),
-          ),
-        ),
-        const SizedBox(height: 12),
         Row(
           children: [
             Expanded(
@@ -1134,10 +1113,6 @@ class _HomeScreenState extends State<HomeScreen> {
             setState(() {});
           },
         ),
-        ElevatedButton(
-          onPressed: () => UploaderService.uploadJsonToFirestore(context),
-          child: const Text('Upload JSON to Firestore'),
-        ),
       ],
     );
   }
@@ -1153,6 +1128,59 @@ class _HomeScreenState extends State<HomeScreen> {
     return isMm
         ? 'မွမ်းမံရန် $updates ခု ရှိသည်'
         : '$updates update(s) available';
+  }
+
+  Widget _aboutSection(String heading, String description) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            heading,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Theme.of(context).colorScheme.primary,
+            ),
+          ),
+          const SizedBox(height: 4),
+          Text(description),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _openContactLink(
+    BuildContext context,
+    Uri uri,
+    bool isMm,
+  ) async {
+    try {
+      final opened = await launchUrl(uri, mode: LaunchMode.externalApplication);
+      if (!opened && context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(
+              isMm
+                  ? 'သက်ဆိုင်ရာ အက်ပ်ကို ဖွင့်၍မရပါ။ ဖုန်းတွင် Email သို့မဟုတ် Viber ရှိမရှိ စစ်ဆေးပါ။'
+                  : 'Could not open the app. Check that Email or Viber is installed.',
+            ),
+          ),
+        );
+      }
+    } on Exception catch (error) {
+      debugPrint('Could not open contact link: $error');
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            isMm
+                ? 'လင့်ခ်ကို ဖွင့်၍မရပါ။ ဖုန်းတွင် သက်ဆိုင်ရာ အက်ပ် ရှိမရှိ စစ်ဆေးပါ။'
+                : 'Could not open the link. Check that the required app is installed.',
+          ),
+        ),
+      );
+    }
   }
 
   Widget _buildDrawer(BuildContext context, bool isMm) {
@@ -1196,18 +1224,49 @@ class _HomeScreenState extends State<HomeScreen> {
               Navigator.pop(context);
               showDialog(
                 context: context,
-                builder: (context) => AlertDialog(
-                  title: Text(isMm ? 'ပါဠိဝေါဟာရများ' : 'Pāḷi Vocabularies'),
+                builder: (dialogContext) => AlertDialog(
+                  title: Text(isMm ? 'အက်ပ်အကြောင်း' : 'About this app'),
                   content: SingleChildScrollView(
-                    child: Text(
-                      isMm
-                          ? 'ပါဠိဘာသာကို အဆင့်လိုက် လေ့လာနိုင်ရန် ဝေါဟာရများကို အကြောင်းအရာအလိုက် စုစည်းပေးထားသော သင်ယူရေးအက်ပ်ဖြစ်ပါသည်။ စကားလုံးတစ်လုံးချင်းစီ၏ မြန်မာနှင့် အင်္ဂလိပ်အဓိပ္ပာယ်၊ ဥပမာဝါကျများကို ကြည့်ရှုနိုင်ပြီး အသံထွက်နားထောင်နိုင်ပါသည်။\n\nစကားလုံးနှင့် အဘိဓာန်ကို ရှာဖွေခြင်း၊ မိမိလေ့လာလိုသည့် စကားလုံးများကို မှတ်သားခြင်း၊ အခန်းလိုက် သို့မဟုတ် ဝေါဟာရအားလုံးကို ဉာဏ်စမ်းလေ့ကျင့်ခြင်းတို့ကိုလည်း အသုံးပြုနိုင်ပါသည်။ ဒေတာအသစ်များကို ဆက်တင်မှ စစ်ဆေးရယူနိုင်ပါသည်။'
-                          : 'A friendly guide for learning Pāḷi step by step. Vocabulary is grouped by topic, with Myanmar and English meanings and example sentences to help you learn words in context. You can listen to pronunciations, search vocabulary and dictionary entries, and save words for later review.\n\nPractice a chapter quiz or test yourself on all vocabulary. Lesson data can be checked and updated from Settings.',
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        _aboutSection(
+                          isMm ? 'မိတ်ဆက်' : 'Overview',
+                          isMm
+                              ? 'ပါဠိဝေါဟာရများသည် ပါဠိဘာသာကို အဆင့်လိုက် လေ့လာနိုင်ရန် ဖန်တီးထားသော သင်ယူရေးအက်ပ်ဖြစ်ပါသည်။ ဝေါဟာရများကို အကြောင်းအရာအလိုက် စုစည်းထားပြီး စကားလုံးတစ်လုံးချင်းစီ၏ အဓိပ္ပာယ်နှင့် ဥပမာဝါကျကို ဖော်ပြပေးပါသည်။'
+                              : 'Pāḷi Vocabularies is a learning app for studying Pāḷi step by step. Words are organized by topic and include meanings and example sentences.',
+                        ),
+                        _aboutSection(
+                          isMm ? 'လေ့လာနိုင်သော ကဏ္ဍများ' : 'Study sections',
+                          isMm
+                              ? 'နာမ်၊ ကြိယာ၊ နာမဝိသေသန၊ ကြိယာဝိသေသန၊ နိပါတ်နှင့် နေ့စဉ်သုံး စကားပြောခန်းများကို လေ့လာနိုင်ပါသည်။ အဘိဓာန်တွင်လည်း ပါဠိစကားလုံးများကို ရှာဖွေနိုင်ပါသည်။'
+                              : 'Study nouns, verbs, adjectives, adverbs, particles, and everyday dialogues. You can also look up Pāḷi words in the dictionary.',
+                        ),
+                        _aboutSection(
+                          isMm
+                              ? 'အသုံးဝင်သော လုပ်ဆောင်ချက်များ'
+                              : 'Learning tools',
+                          isMm
+                              ? 'မြန်မာနှင့် အင်္ဂလိပ်ဘာသာဖြင့် ကြည့်ရှုခြင်း၊ စကားလုံးနှင့် အဓိပ္ပာယ်ရှာဖွေခြင်း၊ အသံထွက်နားထောင်ခြင်း၊ စကားလုံးများကို မှတ်သားခြင်းနှင့် သင်ခန်းစာအလိုက် ဉာဏ်စမ်းလေ့ကျင့်ခြင်းတို့ ပါဝင်ပါသည်။'
+                              : 'Switch between Myanmar and English, search words and meanings, listen to pronunciation, save words, and take quizzes for individual lessons.',
+                        ),
+                        _aboutSection(
+                          isMm ? 'ဒေတာနှင့် အသုံးပြုမှု' : 'Data and updates',
+                          isMm
+                              ? 'ဒေါင်းလုဒ်လုပ်ထားသော သင်ခန်းစာများကို အင်တာနက်မရှိချိန်တွင်လည်း အသုံးပြုနိုင်ပါသည်။ ဆက်တင်မှ ဒေတာအသစ်များကို စစ်ဆေးပြီး ကိုယ်တိုင် သို့မဟုတ် အလိုအလျောက် ရယူနိုင်ပါသည်။'
+                              : 'Downloaded lessons remain available offline. Check Settings for new data and download updates manually or automatically.',
+                        ),
+                        _aboutSection(
+                          isMm ? 'အက်ပ်ဖန်တီးသူ' : 'Created by',
+                          'အရှင်ဣန္ဒကာလင်္ကာရ (Ven. Indakālaṅkāra)',
+                        ),
+                      ],
                     ),
                   ),
                   actions: [
                     TextButton(
-                      onPressed: () => Navigator.pop(context),
+                      onPressed: () => Navigator.pop(dialogContext),
                       child: Text(isMm ? 'ပိတ်ပါ' : 'Close'),
                     ),
                   ],
@@ -1222,16 +1281,48 @@ class _HomeScreenState extends State<HomeScreen> {
               Navigator.pop(context);
               showDialog(
                 context: context,
-                builder: (context) => AlertDialog(
+                builder: (dialogContext) => AlertDialog(
                   title: Text(isMm ? 'ဆက်သွယ်ရန်' : 'Contact'),
-                  content: Text(
-                    isMm
-                        ? 'အက်ပ်နှင့်ပတ်သက်၍ မေးမြန်းလိုပါက support@palimala.app သို့ အီးမေးလ်ပို့နိုင်ပါသည်။'
-                        : 'For app questions or feedback, please contact support@palimala.app.',
+                  content: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        isMm
+                            ? 'မေးမြန်းရန် သို့မဟုတ် အကြံပြုရန် အောက်ပါနည်းလမ်းကို နှိပ်ပါ။'
+                            : 'Tap an option below to get in touch or share feedback.',
+                      ),
+                      const SizedBox(height: 12),
+                      ListTile(
+                        contentPadding: EdgeInsets.zero,
+                        leading: const Icon(Icons.email_outlined),
+                        title: const Text('Email'),
+                        subtitle: const Text('ashinidk1993@gmail.com'),
+                        onTap: () => _openContactLink(
+                          dialogContext,
+                          Uri(scheme: 'mailto', path: 'ashinidk1993@gmail.com'),
+                          isMm,
+                        ),
+                      ),
+                      ListTile(
+                        contentPadding: EdgeInsets.zero,
+                        leading: const Icon(Icons.phone_in_talk_outlined),
+                        title: const Text('Viber'),
+                        subtitle: const Text('09426882932'),
+                        onTap: () => _openContactLink(
+                          dialogContext,
+                          Uri(
+                            scheme: 'viber',
+                            host: 'chat',
+                            queryParameters: const {'number': '+94742682932'},
+                          ),
+                          isMm,
+                        ),
+                      ),
+                    ],
                   ),
                   actions: [
                     TextButton(
-                      onPressed: () => Navigator.pop(context),
+                      onPressed: () => Navigator.pop(dialogContext),
                       child: Text(isMm ? 'ပိတ်ပါ' : 'Close'),
                     ),
                   ],
@@ -1940,25 +2031,15 @@ class _DataDownloadSheetState extends State<DataDownloadSheet> {
         isMm ? dataset.titleMm : dataset.titleEn,
         style: const TextStyle(fontWeight: FontWeight.bold),
       ),
-      subtitle: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text('${dataset.sizeLabel} · sha256 ${dataset.shortHash}…'),
-          const SizedBox(height: 2),
-          Text(
-            isUpToDate
-                ? (isMm ? 'နောက်ဆုံးဖြစ်သည်' : 'Up to date')
-                : (isMm ? 'မွမ်းမံရန် ရှိသည်' : 'Update available'),
-            style: TextStyle(
-              color: isUpToDate
-                  ? Colors.green.shade700
-                  : theme.colorScheme.error,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-        ],
+      subtitle: Text(
+        isUpToDate
+            ? (isMm ? 'နောက်ဆုံးဖြစ်သည်' : 'Up to date')
+            : (isMm ? 'မွမ်းမံရန် ရှိသည်' : 'Update available'),
+        style: TextStyle(
+          color: isUpToDate ? Colors.green.shade700 : theme.colorScheme.error,
+          fontWeight: FontWeight.w600,
+        ),
       ),
-      isThreeLine: true,
       trailing: isUpToDate
           ? const Icon(Icons.check_circle_rounded, color: Colors.green)
           : isBusy

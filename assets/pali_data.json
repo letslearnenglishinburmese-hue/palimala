@@ -3099,6 +3099,240 @@
             }
           }
         ]
+      },
+      {
+        "titleMm": "အိမ်၏အစိတ်အပိုင်းများ",
+        "titleEn": "Parts of a House",
+        "vocabList": [
+          {
+            "paliMm": "ရသဝတီ",
+            "paliRoman": "Rasavatī",
+            "translateMm": "မီးဖိုခန်း၊ ထမင်းချက်ခန်း",
+            "translateEn": "Kitchen",
+            "example": {
+              "paliMm": "မာတာ ရသဝတီယံ အာဟာရံ ပစတိ။",
+              "paliRoman": "Mātā rasavatīyaṃ āhāraṃ pacati.",
+              "translateMm": "မိခင်က မီးဖိုခန်းမှာ အစားအသောက် ချက်ပြုတ်နေတယ်။",
+              "translateEn": "The mother cooks food in the kitchen."
+            }
+          },
+          {
+            "paliMm": "သယနိဂ္ဂဟံ",
+            "paliRoman": "Sayani-ggahaṃ",
+            "translateMm": "အိပ်ခန်း",
+            "translateEn": "Bedroom",
+            "example": {
+              "paliMm": "ဒါရကော သယနိဂ္ဂဟေ သုပတိ။",
+              "paliRoman": "Dārako sayani-ggahe supati.",
+              "translateMm": "ကလေးလေးက အိပ်ခန်းထဲမှာ အိပ်စက်နေတယ်။",
+              "translateEn": "The child sleeps in the bedroom."
+            }
+          },
+          {
+            "paliMm": "ဩဝရကော / ဩရော",
+            "paliRoman": "Ovarako / Oro",
+            "translateMm": "အခန်း၊ တိုက်ခန်း",
+            "translateEn": "Inner room",
+            "example": {
+              "paliMm": "သော ဩဝရကေ နိသီဒတိ။",
+              "paliRoman": "So ovarake nisīdati.",
+              "translateMm": "သူ အခန်းထဲမှာ ထိုင်နေတယ်။",
+              "translateEn": "He sits in the inner room."
+            }
+          },
+          {
+            "paliMm": "ဘောဇနာဂါရံ",
+            "paliRoman": "Bhojanāgāraṃ",
+            "translateMm": "ထမင်းစားခန်း",
+            "translateEn": "Dining room",
+            "example": {
+              "paliMm": "ပရိဝါရော ဘောဇနာဂါရေ ဘုဉ္ဇတိ။",
+              "paliRoman": "Parivāro bhojanāgāre bhuñjati.",
+              "translateMm": "မိသားစုဝင်တွေက ထမင်းစားခန်းမှာ စားသုံးနေကြတယ်။",
+              "translateEn": "The family eats in the dining room."
+            }
+          },
+          {
+            "paliMm": "ပဋိက္ကမနံ",
+            "paliRoman": "Paṭikkamanaṃ",
+            "translateMm": "ဧည့်ခန်း၊ ဧည့်ခံခန်း",
+            "translateEn": "Drawing room",
+            "example": {
+              "paliMm": "အဂန္တုကော ပဋိက္ကမနေ တိဋ္ဌတိ။",
+              "paliRoman": "Āgantuko paṭikkamane tiṭṭhati.",
+              "translateMm": "ဧည့်သည်က ဧည့်ခန်းမှာ ရပ်/နေတယ်။",
+              "translateEn": "The visitor stays in the drawing room."
+            }
+          },
+          {
+            "paliMm": "အာလိန္ဒော",
+            "paliRoman": "Ālindo",
+            "translateMm": "အိမ်ဦး၊ ဆင်ဝင်",
+            "translateEn": "Porch",
+            "example": {
+              "paliMm": "သော အာလိန္ဒေ ဌိတော ဟောတိ။",
+              "paliRoman": "So ālinde ṭhito hoti.",
+              "translateMm": "သူ အိမ်ဦးဆင်ဝင်မှာ ရပ်နေတယ်။",
+              "translateEn": "He is standing on the porch."
+            }
+          },
+          {
+            "paliMm": "ဥဒ္ဓနံ",
+            "paliRoman": "Uddhanaṃ",
+            "translateMm": "မီးဖို၊ မီးဖိုခုံ",
+            "translateEn": "Stove, Oven",
+            "example": {
+              "paliMm": "ဥဒ္ဓနေ အဂ္ဂိ ပဇ္ဇလတိ။",
+              "paliRoman": "Uddhane aggi pajjalati.",
+              "translateMm": "မီးဖိုပေါ်မှာ မီးတောက်လောင်နေတယ်။",
+              "translateEn": "The fire is blazing on the stove."
+            }
+          },
+          {
+            "paliMm": "ဝစ္စကုဋိ",
+            "paliRoman": "Vaccakuṭi",
+            "translateMm": "အိမ်သာ",
+            "translateEn": "Latrine, Lavatory",
+            "example": {
+              "paliMm": "ဝစ္စကုဋိ ဂေဟတော ဘဟိဒ္ဓါ အတ္ထိ။",
+              "paliRoman": "Vaccakuṭi gehato bahiddhā atthi.",
+              "translateMm": "အိမ်သာက အိမ်ရဲ့အပြင်ဘက်မှာ ရှိတယ်။",
+              "translateEn": "The latrine is outside the house."
+            }
+          },
+          {
+            "paliMm": "အဇိရံ",
+            "paliRoman": "Ajiraṃ",
+            "translateMm": "အိမ်ရှေ့မြေပြင်",
+            "translateEn": "Courtyard",
+            "example": {
+              "paliMm": "ဒါရကာ အဇိရေ ကီဠန္တိ။",
+              "paliRoman": "Dārakā ajire kīḷanti.",
+              "translateMm": "ကလေးတွေ အိမ်ရှေ့မြေပြင်မှာ ကစားနေကြတယ်။",
+              "translateEn": "The children play in the courtyard."
+            }
+          },
+          {
+            "paliMm": "ဒွါရံ",
+            "paliRoman": "Dvāraṃ",
+            "translateMm": "တံခါး",
+            "translateEn": "Door",
+            "example": {
+              "paliMm": "သော ဒွါရံ ပိဒဟတိ။",
+              "paliRoman": "So dvāraṃ pidahati.",
+              "translateMm": "သူ တံခါးကို ပိတ်လိုက်တယ်။",
+              "translateEn": "He closes the door."
+            }
+          },
+          {
+            "paliMm": "ဝါတပါနံ",
+            "paliRoman": "Vātapānaṃ",
+            "translateMm": "ပြတင်းပေါက်",
+            "translateEn": "Window",
+            "example": {
+              "paliMm": "ဝါတပါနေန သီတလော ဝါတော ပဝိသတိ။",
+              "paliRoman": "Vātapānena sītalo vāto pavisati.",
+              "translateMm": "ပြတင်းပေါက်ကနေ အေးမြတဲ့လေ ဝင်ရောက်လာတယ်။",
+              "translateEn": "Cool wind enters through the window."
+            }
+          },
+          {
+            "paliMm": "ဒွါရဗာဟာ",
+            "paliRoman": "Dvārabāhā",
+            "translateMm": "တံခါးပေါင်",
+            "translateEn": "Door frame",
+            "example": {
+              "paliMm": "တက္ခကော ဒွါရဗာဟံ ကရောတိ။",
+              "paliRoman": "Takkako dvārabāhaṃ karoti.",
+              "translateMm": "လက်သမားက တံခါးပေါင်ကို ပြုလုပ်နေတယ်။",
+              "translateEn": "The carpenter makes the door frame."
+            }
+          },
+          {
+            "paliMm": "ဝိတာနံ",
+            "paliRoman": "Vitānaṃ",
+            "translateMm": "မျက်နှာကြက်",
+            "translateEn": "Ceiling / Canopy",
+            "example": {
+              "paliMm": "ဝိတာနံ သုန္ဒရံ ဒိဿတိ။",
+              "paliRoman": "Vitānaṃ sundaraṃ dissati.",
+              "translateMm": "မျက်နှာကြက်က လှပစွာ ထင်ရှားနေတယ်။",
+              "translateEn": "The ceiling canopy looks beautiful."
+            }
+          },
+          {
+            "paliMm": "ဆဒနံ",
+            "paliRoman": "Sadanaṃ",
+            "translateMm": "အမိုး",
+            "translateEn": "Roof",
+            "example": {
+              "paliMm": "ဝုဋ္ဌိယာ ဆဒနံ အဘိဝဿတိ။",
+              "paliRoman": "Vuṭṭhiyā sadanaṃ abhivassati.",
+              "translateMm": "မိုးက အမိုးပေါ်ကို ရွာသွန်းနေတယ်။",
+              "translateEn": "The rain falls on the roof."
+            }
+          },
+          {
+            "paliMm": "ထမ္ဘော",
+            "paliRoman": "Thambo",
+            "translateMm": "တိုင်",
+            "translateEn": "Pillar, Post",
+            "example": {
+              "paliMm": "ဂေဟသ္မိံ မဟန္တော ထမ္ဘော အတ္ထိ။",
+              "paliRoman": "Gehasmiṃ mahanto thambo atthi.",
+              "translateMm": "အိမ်မှာ ကြီးမားတဲ့တိုင် တစ်တိုင် ရှိတယ်။",
+              "translateEn": "There is a large pillar in the house."
+            }
+          },
+          {
+            "paliMm": "ဣဋ္ဌကာ",
+            "paliRoman": "Iṭṭhakā",
+            "translateMm": "အုတ်",
+            "translateEn": "Bricks",
+            "example": {
+              "paliMm": "သော ဣဋ္ဌကာဟိ ဘိတ္တိံ ကရောတိ။",
+              "paliRoman": "So iṭṭhakāhi bhittiṃ karoti.",
+              "translateMm": "သူ အုတ်တွေနဲ့ နံရံကို တည်ဆောက်တယ်။",
+              "translateEn": "He builds the wall with bricks."
+            }
+          },
+          {
+            "paliMm": "ဘိတ္တိ",
+            "paliRoman": "Bhitti",
+            "translateMm": "နံရံ၊ စည်းရိုး",
+            "translateEn": "Wall",
+            "example": {
+              "paliMm": "ဘိတ္တိယာ စိတ္တံ လိမ္ပတိ။",
+              "paliRoman": "Bhittiyā cittaṃ limpati.",
+              "translateMm": "နံရံပေါ်မှာ ဆေးသုတ်လိမ်းထားတယ်။",
+              "translateEn": "Paint is smeared on the wall."
+            }
+          },
+          {
+            "paliMm": "သောပါနော / သောပါဏော",
+            "paliRoman": "Sopāno / Sopāṇo",
+            "translateMm": "လှေကား",
+            "translateEn": "Stairs, Ladder",
+            "example": {
+              "paliMm": "သော သောပါနေန ဥပရိ အာဂစ္ဆတိ။",
+              "paliRoman": "So sopānena upari āgacchati.",
+              "translateMm": "သူ လှေကားအတိုင်း အပေါ်ထပ်ကို တက်လာတယ်။",
+              "translateEn": "He comes upstairs via the stairs."
+            }
+          },
+          {
+            "paliMm": "ကုဉ္စိကာ",
+            "paliRoman": "Kuñcikā",
+            "translateMm": "သော့",
+            "translateEn": "Key",
+            "example": {
+              "paliMm": "သော ကုဉ္စိကာယ ဒွါရံ အာဝဋေတိ။",
+              "paliRoman": "So kuñcikāya dvāraṃ āvaṭeti.",
+              "translateMm": "သူ သော့နဲ့ တံခါးကို ဖွင့်လိုက်တယ်။",
+              "translateEn": "He opens the door with a key."
+            }
+          }
+        ]
       }
     ]
   },

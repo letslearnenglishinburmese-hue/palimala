@@ -1,0 +1,126 @@
+{
+  "titleMm": "ရောဂါအမည်များ",
+  "titleEn": "Names of Diseases",
+  "vocabList": [
+    {
+      "paliMm": "ရောဂေါ",
+      "paliRoman": "Rogo",
+      "translateMm": "အနာရောဂါ",
+      "translateEn": "Illness / Disease",
+      "example": {
+        "paliMm": "ဂိလာနော ရောဂေန ပီဠိတော ဟောတိ။",
+        "paliRoman": "Gilāno rogena pīḷito hoti.",
+        "translateMm": "လူနာက အနာရောဂါကြောင့် နှိပ်စက်ခံနေရတယ်။",
+        "translateEn": "The patient is afflicted by illness."
+      }
+    },
+    {
+      "paliMm": "ဍာဟော",
+      "paliRoman": "Ḍāho",
+      "translateMm": "အဖျား၊ ကိုယ်ပူခြင်း",
+      "translateEn": "Fever",
+      "example": {
+        "paliMm": "ဂိလာနဿ သရီရေ ဍာဟော ဥပ္ပဇ္ဇတိ။",
+        "paliRoman": "Gilānassa sarīre ḍāho uppajjati.",
+        "translateMm": "လူနာရဲ့ ခန္ဓာကိုယ်မှာ အဖျားတက်လာတယ်။",
+        "translateEn": "Fever arises in the patient's body."
+      }
+    },
+    {
+      "paliMm": "ကာသော",
+      "paliRoman": "Kāso",
+      "translateMm": "ချောင်းဆိုးခြင်း",
+      "translateEn": "Cough",
+      "example": {
+        "paliMm": "ဂိလာနဿ ကာသော ဥပ္ပဇ္ဇတိ။",
+        "paliRoman": "Gilānassa kāso uppajjati.",
+        "translateMm": "လူနာမှာ ချောင်းဆိုးလာတယ်။",
+        "translateEn": "A cough develops in the patient."
+      }
+    },
+    {
+      "paliMm": "သာသော",
+      "paliRoman": "Sāso",
+      "translateMm": "ပန်းနာ၊ အသက်ရှူကျပ်ခြင်း",
+      "translateEn": "Asthma / Shortness of breath",
+      "example": {
+        "paliMm": "ဂိလာနဿ သာသော ဗလဝါ ဟောတိ။",
+        "paliRoman": "Gilānassa sāso balavā hoti.",
+        "translateMm": "လူနာရဲ့ ပန်းနာရောဂါက ပြင်းထန်နေတယ်။",
+        "translateEn": "The patient's asthma is severe."
+      }
+    },
+    {
+      "paliMm": "ပိနာသော",
+      "paliRoman": "Pināso",
+      "translateMm": "နှာစေးခြင်း၊ နှာခေါင်းအတွင်း အချွဲထွက်ခြင်း",
+      "translateEn": "Catarrh / Nasal congestion",
+      "example": {
+        "paliMm": "သီတကာလေ ပိနာသော ဥပ္ပဇ္ဇတိ။",
+        "paliRoman": "Sītakāle pināso uppajjati.",
+        "translateMm": "အေးတဲ့ရာသီမှာ နှာစေးခြင်း ဖြစ်ပေါ်တတ်တယ်။",
+        "translateEn": "Catarrh occurs during the cold season."
+      }
+    },
+    {
+      "paliMm": "သောသော",
+      "paliRoman": "Soso",
+      "translateMm": "အဆုတ်နာ၊ တီဘီရောဂါ",
+      "translateEn": "Pulmonary tuberculosis",
+      "example": {
+        "paliMm": "သောသော ဒီဃရောဂေါ ဟောတိ။",
+        "paliRoman": "Soso dīgharogo hoti.",
+        "translateMm": "အဆုတ်နာရောဂါဟာ နာတာရှည်ရောဂါ ဖြစ်တယ်။",
+        "translateEn": "Pulmonary tuberculosis is a chronic disease."
+      }
+    },
+    {
+      "paliMm": "မသူရိကာ",
+      "paliRoman": "Masūrikā",
+      "translateMm": "ကျောက်ရောဂါ",
+      "translateEn": "Smallpox",
+      "example": {
+        "paliMm": "မသူရိကာ ဗာလကေ ဗာဓတိ။",
+        "paliRoman": "Masūrikā bālake bādhati.",
+        "translateMm": "ကျောက်ရောဂါက ကလေးတွေကို ဒုက္ခပေးတတ်တယ်။",
+        "translateEn": "Smallpox affects children."
+      }
+    },
+    {
+      "paliMm": "ဝိသူစိကာ",
+      "paliRoman": "Visūcikā",
+      "translateMm": "ကာလဝမ်းရောဂါ",
+      "translateEn": "Cholera",
+      "example": {
+        "paliMm": "ဝိသူစိကာ ဇနပဒေ ဥပ္ပဇ္ဇတိ။",
+        "paliRoman": "Visūcikā janapade uppajjati.",
+        "translateMm": "ကာလဝမ်းရောဂါက ဒေသတစ်ခုမှာ ဖြစ်ပွားတယ်။",
+        "translateEn": "Cholera occurs in a region."
+      }
+    },
+    {
+      "paliMm": "အတိသာရော",
+      "paliRoman": "Atisāro",
+      "translateMm": "ဝမ်းလျှော၊ ဝမ်းကိုက်ရောဂါ",
+      "translateEn": "Diarrhoea",
+      "example": {
+        "paliMm": "အတိသာရော ဂိလာနံ ပီဠေတိ။",
+        "paliRoman": "Atisāro gilānaṃ pīḷeti.",
+        "translateMm": "ဝမ်းလျှောရောဂါက လူနာကို ဒုက္ခပေးတယ်။",
+        "translateEn": "Diarrhoea afflicts the patient."
+      }
+    },
+    {
+      "paliMm": "ဝမထု",
+      "paliRoman": "Vamathu",
+      "translateMm": "အန်ခြင်း",
+      "translateEn": "Vomiting",
+      "example": {
+        "paliMm": "ဂိလာနဿ ဝမထု ဥပ္ပဇ္ဇတိ။",
+        "paliRoman": "Gilānassa vamathu uppajjati.",
+        "translateMm": "လူနာမှာ အန်ခြင်း ဖြစ်ပေါ်လာတယ်။",
+        "translateEn": "Vomiting occurs in the patient."
+      }
+    }
+  ]
+}
