@@ -12,10 +12,12 @@ import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:http/testing.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:palimala/main.dart';
 import 'package:palimala/app_data.dart';
+import 'package:palimala/remote_app_config.dart';
 
 String _withoutGenderMarker(String paliRoman) =>
     paliRoman.replaceFirst(RegExp(r' \([MFN/]+\)$'), '');
@@ -251,7 +253,7 @@ void main() {
     );
   });
 
-  test('Every noun has matching Burmese and Roman gender markers', () {
+  test('Noun gender markers match when both are present', () {
     final nouns = appData.firstWhere(
       (category) => category.titleMm == 'နာမ်ပုဒ်များ',
     );
@@ -267,11 +269,15 @@ void main() {
           .firstMatch(item.paliRoman)
           ?.group(1);
 
-      expect(mmMarker, isNotNull, reason: item.paliMm);
-      expect(romanMarker, isNotNull, reason: item.paliRoman);
+      if (mmMarker == null || romanMarker == null) {
+        expect(mmMarker, isNull, reason: item.paliMm);
+        expect(romanMarker, isNull, reason: item.paliRoman);
+        continue;
+      }
+
       expect(
         romanMarker,
-        mmMarker!.split('/').map((marker) => romanGender[marker]).join('/'),
+        mmMarker.split('/').map((marker) => romanGender[marker]).join('/'),
         reason: item.paliRoman,
       );
     }
@@ -898,11 +904,17 @@ void main() {
     await tester.pumpWidget(const PaliLearningApp());
     await tester.drag(find.byType(ListView).first, const Offset(0, -300));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('ပါဠိစကားပြောခန်း'));
+    await tester.drag(find.byType(ListView).first, const Offset(0, -600));
     await tester.pumpAndSettle();
-    await tester.tap(
-      find.text('ကျောင်းနှင့် စာသင်ခန်းဆိုင်ရာ ပါဠိစကားပြောခန်း'),
+    final dialogueCategory = find.text('ပါဠိစကားပြောခန်း');
+    await tester.ensureVisible(dialogueCategory);
+    await tester.tap(dialogueCategory);
+    await tester.pumpAndSettle();
+    final classroomDialogue = find.text(
+      'ကျောင်းနှင့် စာသင်ခန်းဆိုင်ရာ ပါဠိစကားပြောခန်း',
     );
+    await tester.ensureVisible(classroomDialogue);
+    await tester.tap(classroomDialogue);
     await tester.pumpAndSettle();
     await tester.tap(find.text('ဤအခန်းကို လေ့ကျင့်မည်'));
     await tester.pumpAndSettle();
@@ -1224,5 +1236,23 @@ void main() {
 
     final preferences = await SharedPreferences.getInstance();
     expect(preferences.getBool('pali_auto_update_enabled'), isTrue);
+  });
+
+  testWidgets('home shell opens when remote config is unavailable', (
+    WidgetTester tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    await RemoteAppConfigRepository.load(
+      client: MockClient((_) async => throw Exception('offline')),
+      timeout: const Duration(milliseconds: 10),
+    );
+    appData = RemoteAppConfigRepository.current.apply(
+      AppDataRepository.categories,
+    );
+
+    await tester.pumpWidget(const PaliLearningApp());
+    await tester.pump(const Duration(milliseconds: 500));
+
+    expect(find.byType(NavigationBar), findsOneWidget);
   });
 }

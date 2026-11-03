@@ -65,6 +65,7 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/app_config.json
     - assets/palimala_logo.png
     - assets/mmdict.json
     # Editable lesson source files loaded directly by the app at startup.
