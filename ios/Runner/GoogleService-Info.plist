@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.palimala</string>
+	<string>com.palimala.app</string>
 	<key>PROJECT_ID</key>
 	<string>palimala-18c4c</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:218739446606:ios:1317e2c6f7b3bd44b6441f</string>
+	<string>1:218739446606:ios:687619966a674a93b6441f</string>
 </dict>
 </plist>

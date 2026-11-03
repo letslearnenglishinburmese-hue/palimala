@@ -76,4 +76,4 @@ Production signing ကို developer တစ်ဦးက လုံခြုံ�
 
 ## iOS ဖြန့်ချိခြင်း
 
-iOS `main` တွင် Bundle ID သည် `com.example.palimala` ဖြစ်ပြီး production အတွက် placeholder ဖြစ်သည်။ Owner က ID ကို အတည်ပြုပြီးမှ Apple Developer Team၊ Distribution certificate နှင့် provisioning profile ကို သတ်မှတ်ပါ။ Release မတိုင်မီ Xcode မှ signed archive တည်ဆောက်၍ App Store Connect/TestFlight ဖြင့် စမ်းပါ။ ယခု စစ်ဆေးမှုသည် `--no-codesign` compile သာဖြစ်ပြီး ဖြန့်ချိနိုင်သော build မဟုတ်ပါ။
+iOS `main` တွင် owner အတည်ပြုထားသော Bundle ID `com.palimala.app` ကို အသုံးပြုထားပြီး Firebase plist နှင့် ကိုက်ညီသည်။ Apple Developer Team၊ Distribution certificate နှင့် provisioning profile မသတ်မှတ်ရသေးပါ။ Release မတိုင်မီ Xcode မှ signed archive တည်ဆောက်၍ App Store Connect/TestFlight ဖြင့် စမ်းပါ။ ယခု စစ်ဆေးမှုသည် `--no-codesign` compile သာဖြစ်ပြီး ဖြန့်ချိနိုင်သော build မဟုတ်ပါ။

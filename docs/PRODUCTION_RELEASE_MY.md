@@ -2,13 +2,13 @@
 
 ဒီစာတမ်းက release ပြင်ဆင်သူအတွက် အဆင့်လိုက်လမ်းညွှန်ဖြစ်သည်။ Production signing password၊ private key၊ certificate သို့မဟုတ် Apple account အချက်အလက်ကို chat ထဲပို့ရန် မလိုပါ။ ကိုယ်တိုင်ထိန်းချုပ်သည့် developer စက်နှင့် password manager ထဲတွင်သာ စီမံပါ။
 
-လက်ရှိ GitHub `main` တွင် Android Application ID နှင့် iOS Bundle ID သည် `com.example.palimala` ဖြစ်ပြီး production အတွက် placeholder ဖြစ်သည်။ Owner က package/bundle ID ကို ရွေးချယ်အတည်ပြုမချင်း ID ပြောင်းခြင်း၊ Firebase config အစားထိုးခြင်း မလုပ်ပါနှင့်။ ID ပြောင်းလဲမှုသည် လက်ရှိ install များကို update မရစေနိုင်သည်။
+လက်ရှိ GitHub `main` တွင် Android Application ID နှင့် iOS Bundle ID သည် owner အတည်ပြုထားသော `com.palimala.app` ဖြစ်သည်။ Android/iOS Firebase registrations သည် ရှိပြီးသား `palimala-18c4c` project ထဲတွင် ရှိကြောင်း owner အတည်ပြုပြီး၊ local config များနှင့် ကိုက်ညီကြောင်း စစ်ထားသည်။ Apple Team၊ Store account နှင့် signing ကို သီးခြား owner က စီစဉ်ရမည်။ ယခင် `com.example.palimala` install များကို `.app` ID ဖြင့် update မလုပ်နိုင်ပါ။
 
 ## လက်ရှိတွေ့ရှိချက်
 
-- Android `applicationId` နှင့် namespace သည် `com.example.palimala` ဖြစ်သည်။ `google-services.json` သည် ဒီ ID/project ကို ရည်ညွှန်းသော်လည်း Firebase/Play Console ပိုင်ဆိုင်မှုကို ဒီ build စစ်ဆေးမှုက အတည်မပြုနိုင်ပါ။
+- Android `applicationId` နှင့် namespace သည် `com.palimala.app` ဖြစ်သည်။ `google-services.json` နှင့် FlutterFire mapping တွင် ဒီ package အတွက် `palimala-18c4c` registration ပါရှိသည်။ Google Play Console ပိုင်ဆိုင်မှုကို local build ဖြင့် အတည်မပြုနိုင်ပါ။
 - Android release signing သည် `android/key.properties` ရှိ production keystore ကိုသာ သုံးရန် ပြင်ဆင်ထားသည်။ ဖိုင်/keystore မရှိပါက release build ကို ရပ်တန့်စေပြီး debug key ဖြင့် ဆက်မလုပ်ပါ။ ယခု စက်တွင် signing ဖိုင်မရှိပါ။
-- iOS Bundle ID သည် `com.example.palimala` ဖြစ်သည်။ Firebase plist သည် ဒီ ID/project ကို ရည်ညွှန်းသည်။ Xcode project တွင် Apple Team မသတ်မှတ်ထားပါ။ `flutter build ios --release --no-codesign` ဖြင့်သာ အောင်မြင်ပြီး ထွက်လာသော app ကို ဖြန့်ချိရန် မသုံးနိုင်ပါ။
+- iOS Bundle ID သည် `com.palimala.app` ဖြစ်သည်။ Firebase plist/FlutterFire mapping တွင် ဒီ ID အတွက် `palimala-18c4c` registration ပါရှိသည်။ Xcode project တွင် Apple Team မသတ်မှတ်ထားပါ။ `flutter build ios --release --no-codesign` ဖြင့်သာ အောင်မြင်ပြီး ထွက်လာသော app ကို ဖြန့်ချိရန် မသုံးနိုင်ပါ။
 - `pubspec.yaml` version သည် `1.0.0+1` ဖြစ်သည်။ အရှေ့ပိုင်း `1.0.0` သည် user မြင်ရသော version၊ `+1` သည် build number ဖြစ်သည်။ ထုတ်ဝေမှုအသစ်တိုင်း build number ကို တိုးပါ။
 - `main/assets/app_config.json` နှင့် lesson manifest raw URL များကို 2026-11-03 တွင် HTTP 200 ဖြင့် စစ်ဆေးပြီး remote config နှင့် lesson update flow ကို automated test ဖြင့် အတည်ပြုခဲ့သည်။
 
@@ -16,8 +16,8 @@
 
 ### အရင်ဆုံး ဆုံးဖြတ်ရန်
 
-1. Owner က `com.example.palimala` ကို ထုတ်ဝေရန်သုံးမလား၊ organization ပိုင် ID အသစ်ကို သုံးမလား အတည်ပြုပါ။ ID ပြောင်းလျှင် Play Console/Firebase registration နှင့် installed-app upgrade အပေါ် သက်ရောက်မှုကို ကြိုတင်စစ်ပါ။
-2. ID အသစ်ရွေးပါက အဲဒီ package အတွက် Firebase Android app registration/config လိုအပ်မလား owner က စစ်ပါ။ လက်ရှိ `google-services.json` ကို မိမိသဘောဖြင့် ပြင်ခြင်း၊ Firebase Production data/accounts ပြောင်းခြင်း မလုပ်ပါနှင့်။
+1. Owner အတည်ပြုထားသော `com.palimala.app` ကို Google Play Console app record ထဲတွင် အသုံးပြုခွင့်ရှိကြောင်း စစ်ပါ။ ယခင် `.example` ID ဖြင့် install ရှိပါက ၎င်းတို့သည် သီးခြား app အဖြစ် ရှိနေမည်ဖြစ်ပြီး update အဖြစ် အစားထိုးမရပါ။
+2. ဒီ ID အတွက် Firebase Android registration/config ရှိပြီးသားဖြစ်သည်။ `google-services.json` နှင့် Firebase Production data/accounts ကို မပြင်ပါနှင့်။
 3. လက်ရှိ `applicationId` နှင့် namespace ကို အသုံးပြုမည့် store listing/Firebase Android app နှင့် ကိုက်ညီကြောင်း စစ်ပါ။ Application ID ပြောင်းခြင်းသည် အသုံးပြုသူများ၏ ယခင် install ကို update မလုပ်နိုင်စေဘဲ app အသစ်လို ဖြစ်စေနိုင်သည်။
 
 ### ကိုယ်တိုင်သော့တည်ဆောက်ခြင်းနှင့် လုံခြုံစွာထားခြင်း
@@ -32,7 +32,7 @@
 
 ## ၂။ iOS Bundle ID နှင့် Apple Signing
 
-1. Owner က App Store အတွက် Bundle ID ကို အတည်ပြုပါ။ လက်ရှိ `com.example.palimala` သည် placeholder ဖြစ်သဖြင့် Apple Developer Team ထိန်းချုပ်နိုင်သည့် Bundle ID ကို App Store Connect record နှင့် တိတိကျကျ ကိုက်ညီအောင် ရွေးပါ။
+1. `com.palimala.app` ကို Apple Developer Team ထိန်းချုပ်နိုင်ပြီး App Store Connect တွင် မှတ်ပုံတင်နိုင်ကြောင်း owner က အတည်ပြုပါ။ iOS Firebase registration ရှိပြီးသားဖြစ်သော်လည်း Apple App ID/Store record ကို သီးခြားစစ်ရမည်။
 2. Xcode ၏ Runner target > Signing & Capabilities တွင် သင့် Team ကို ရွေးပါ။ App Store ဖြန့်ချိမည်ဆိုလျှင် Automatic Signing သို့မဟုတ် စီမံထားသော Distribution certificate နှင့် App Store provisioning ကိုသုံးပါ။ Ad Hoc သည် သတ်မှတ်ထားသော device များအတွက်သာဖြစ်သည်။
 3. Associated Domains, Push, Keychain စသည့် capability များ အသုံးပြုပါက သက်ဆိုင်ရာ entitlement နှင့် provisioning မှန်ကြောင်း စစ်ပါ။ မသုံးသော capability များ မထည့်ပါနှင့်။
 4. Apple Distribution certificate ကို Xcode/Apple Developer ၏ လုံခြုံသောလုပ်ငန်းစဉ်မှတစ်ဆင့် release owner က မိမိစက်တွင် သတ်မှတ်ပါ။ `.p12`, private key သို့မဟုတ် provisioning profile ကို repository/chat ထဲ မထည့်ပါနှင့်။ `.gitignore` သည် `.mobileprovision` ဖိုင်များကို ကာကွယ်ထားသည်။ Certificate/profile နှင့် account ကို project owner ကသာ စီမံပါ။

@@ -55,7 +55,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBaQQ9-kO_Iu4GxTXr4uhP_0ErosvqM8cs',
-    appId: '1:218739446606:android:2d2551a228642b8cb6441f',
+    appId: '1:218739446606:android:99bd26e899968576b6441f',
     messagingSenderId: '218739446606',
     projectId: 'palimala-18c4c',
     storageBucket: 'palimala-18c4c.firebasestorage.app',
@@ -63,11 +63,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyDd6wVS_yiKk1MOJXTobA86g0SxE83nP-8',
-    appId: '1:218739446606:ios:1317e2c6f7b3bd44b6441f',
+    appId: '1:218739446606:ios:687619966a674a93b6441f',
     messagingSenderId: '218739446606',
     projectId: 'palimala-18c4c',
     storageBucket: 'palimala-18c4c.firebasestorage.app',
-    iosBundleId: 'com.example.palimala',
+    iosBundleId: 'com.palimala.app',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(

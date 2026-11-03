@@ -1,4 +1,4 @@
-package com.example.palimala
+package com.palimala.app
 
 import io.flutter.embedding.android.FlutterActivity
 
