@@ -2,13 +2,13 @@
 
 ဒီစာတမ်းက release ပြင်ဆင်သူအတွက် အဆင့်လိုက်လမ်းညွှန်ဖြစ်သည်။ Production signing password၊ private key၊ certificate သို့မဟုတ် Apple account အချက်အလက်ကို chat ထဲပို့ရန် မလိုပါ။ ကိုယ်တိုင်ထိန်းချုပ်သည့် developer စက်နှင့် password manager ထဲတွင်သာ စီမံပါ။
 
-လက်ရှိ GitHub `main` တွင် Android Application ID နှင့် iOS Bundle ID သည် owner အတည်ပြုထားသော `com.palimala.app` ဖြစ်သည်။ Android/iOS Firebase registrations သည် ရှိပြီးသား `palimala-18c4c` project ထဲတွင် ရှိကြောင်း owner အတည်ပြုပြီး၊ local config များနှင့် ကိုက်ညီကြောင်း စစ်ထားသည်။ Apple Team၊ Store account နှင့် signing ကို သီးခြား owner က စီစဉ်ရမည်။ ယခင် `com.example.palimala` install များကို `.app` ID ဖြင့် update မလုပ်နိုင်ပါ။
+ဤ feature branch ၏ လက်ရှိ Android Application ID နှင့် iOS Bundle ID သည် `com.palimala.app` ဖြစ်သည်။ Production အသုံးမပြုမီ Play Console/App Store Connect နှင့် Firebase registration တို့တွင် ဒီ ID များကို ပိုင်ဆိုင်/ထိန်းချုပ်ထားကြောင်း ထပ်မံစစ်ဆေးပါ။ ID ပြောင်းလဲမှုသည် လက်ရှိ install များကို update မရစေနိုင်သည်။
 
 ## လက်ရှိတွေ့ရှိချက်
 
-- Android `applicationId` နှင့် namespace သည် `com.palimala.app` ဖြစ်သည်။ `google-services.json` နှင့် FlutterFire mapping တွင် ဒီ package အတွက် `palimala-18c4c` registration ပါရှိသည်။ Google Play Console ပိုင်ဆိုင်မှုကို local build ဖြင့် အတည်မပြုနိုင်ပါ။
-- Android release signing သည် `android/key.properties` ရှိ production keystore ကိုသာ သုံးရန် ပြင်ဆင်ထားသည်။ ဖိုင်/keystore မရှိပါက release build ကို ရပ်တန့်စေပြီး debug key ဖြင့် ဆက်မလုပ်ပါ။ ယခု စက်တွင် signing ဖိုင်မရှိပါ။
-- iOS Bundle ID သည် `com.palimala.app` ဖြစ်သည်။ Firebase plist/FlutterFire mapping တွင် ဒီ ID အတွက် `palimala-18c4c` registration ပါရှိသည်။ Xcode project တွင် Apple Team မသတ်မှတ်ထားပါ။ `flutter build ios --release --no-codesign` ဖြင့်သာ အောင်မြင်ပြီး ထွက်လာသော app ကို ဖြန့်ချိရန် မသုံးနိုင်ပါ။
+- Android `applicationId` နှင့် namespace သည် `com.palimala.app` ဖြစ်သည်။ `android/app/google-services.json` တွင် `palimala-18c4c` project နှင့် `com.palimala.app` အတွက် Firebase Android App ID ကို ထည့်သွင်းထားသည်။ Firebase Console ရှိ registration နှင့် App ID ကို owner က ထပ်မံတိုက်စစ်ရမည်။ Play Console listing ပိုင်ဆိုင်မှုကို local project စစ်ဆေးမှုက အတည်မပြုနိုင်ပါ။
+- Android release signing သည် `android/key.properties` မှ local production keystore ကိုသာ ဖတ်သည်။ ဖိုင်/keystore မရှိပါက release build ကို ရပ်တန့်စေပြီး debug key ဖြင့် အစားထိုးမသုံးပါ။ လက်ရှိစက်တွင် properties နှင့် keystore မရှိပါ။
+- iOS Bundle ID သည် `com.palimala.app` ဖြစ်သည်။ Xcode project တွင် Apple Team/Distribution signing မသတ်မှတ်ရသေးပါ။ `flutter build ios --release --no-codesign` ဖြင့်သာ build လုပ်နိုင်ပြီး ဖြန့်ချိရန် မသုံးနိုင်ပါ။
 - `pubspec.yaml` version သည် `1.0.0+1` ဖြစ်သည်။ အရှေ့ပိုင်း `1.0.0` သည် user မြင်ရသော version၊ `+1` သည် build number ဖြစ်သည်။ ထုတ်ဝေမှုအသစ်တိုင်း build number ကို တိုးပါ။
 - `main/assets/app_config.json` နှင့် lesson manifest raw URL များကို 2026-11-03 တွင် HTTP 200 ဖြင့် စစ်ဆေးပြီး remote config နှင့် lesson update flow ကို automated test ဖြင့် အတည်ပြုခဲ့သည်။
 
@@ -16,23 +16,50 @@
 
 ### အရင်ဆုံး ဆုံးဖြတ်ရန်
 
-1. Owner အတည်ပြုထားသော `com.palimala.app` ကို Google Play Console app record ထဲတွင် အသုံးပြုခွင့်ရှိကြောင်း စစ်ပါ။ ယခင် `.example` ID ဖြင့် install ရှိပါက ၎င်းတို့သည် သီးခြား app အဖြစ် ရှိနေမည်ဖြစ်ပြီး update အဖြစ် အစားထိုးမရပါ။
-2. ဒီ ID အတွက် Firebase Android registration/config ရှိပြီးသားဖြစ်သည်။ `google-services.json` နှင့် Firebase Production data/accounts ကို မပြင်ပါနှင့်။
-3. လက်ရှိ `applicationId` နှင့် namespace ကို အသုံးပြုမည့် store listing/Firebase Android app နှင့် ကိုက်ညီကြောင်း စစ်ပါ။ Application ID ပြောင်းခြင်းသည် အသုံးပြုသူများ၏ ယခင် install ကို update မလုပ်နိုင်စေဘဲ app အသစ်လို ဖြစ်စေနိုင်သည်။
+1. အတည်ပြုထားသော ID `com.palimala.app` ကို Play Console app listing နှင့် Firebase Android registration တို့တွင် တိတိကျကျ ကိုက်ညီကြောင်း owner က စစ်ပါ။
+2. လက်ရှိ `google-services.json` သည် `com.palimala.app` နှင့် Firebase Project `palimala-18c4c` အတွက် ဖြစ်သည်။ Firebase Production data/accounts ကို မပြောင်းပါနှင့်။
+3. Application ID ပြောင်းလဲခြင်းသည် install ရှိပြီးသား App ကို update မလုပ်နိုင်စေဘဲ App အသစ်လို ဖြစ်စေနိုင်သည်။ ID ကို အတည်ပြုပြီးနောက်မှသာ store listing ထုတ်ပါ။
 
 ### ကိုယ်တိုင်သော့တည်ဆောက်ခြင်းနှင့် လုံခြုံစွာထားခြင်း
 
-1. Release owner က ကိုယ်ပိုင် developer စက်တွင် Android Studio/Android SDK ၏ `keytool` ဖြင့် upload/release keystore တစ်ခု တည်ဆောက်ပါ။ Keystore password နှင့် key password တို့ကို ခိုင်မာပြီး မတူညီသော password များထား၍ password manager ထဲသိမ်းပါ။ Chat, email, source code, shared drive ထဲ plain text ဖြင့် မထားပါနှင့်။
-2. Keystore ကို ကုဒ်ဝှက်ထားသော offline နေရာတွင် လုံခြုံစွာ backup လုပ်ပါ။ Keystore ပျောက်ခြင်း/ပျက်ခြင်းသည် လက်ရှိ install များကို update ထုတ်နိုင်ခြင်းကို ထိခိုက်နိုင်သည်။
-3. Keystore နှင့် password ကို repository ထဲ မထည့်ပါနှင့်။ ဒီ project ၏ `.gitignore` တွင် `android/key.properties`, `*.jks`, `*.keystore`, `*.p12`, `*.pfx` နှင့် `*.mobileprovision` ကို လျစ်လျူရှုရန် ထည့်ထားသည်။ Ignore ဖြစ်မဖြစ်ကို Git status တွင် စစ်ပါ။
-4. App owner က မိမိစက်တွင် `android/key.properties` ဖိုင်ကို ဖန်တီးပြီး `storeFile`, `storePassword`, `keyAlias`, `keyPassword` ကို ထည့်ပါ။ ဒီဖိုင်ကို မမျှဝေ၊ GitHub သို့ မတင်ပါနှင့်။ Gradle က အဲဒီ local ဖိုင်ကို ဖတ်ပြီး လိုအပ်သော setting မရှိပါက release build ကို fail-closed လုပ်ထားသည်။
-5. CI အသုံးပြုပါက secrets ကို CI secret store မှသာ ပေးပါ။ Secret ကို build log ထဲ echo မလုပ်ပါနှင့်။ လက်ရှိအဆင့်တွင် CI secret များမသတ်မှတ်ရသေးပါ။
+1. Google Play အတွက် ပထမဆုံး App ဖြစ်ပါက Play App Signing ကို အသုံးပြုရန် စီစဉ်ပြီး **upload key** ကို ကိုယ်ပိုင် Mac ပေါ်တွင် ဖန်တီးပါ။ App signing key နှင့် upload key ကို သီးခြားထားပါက Play က အသုံးပြုသူများထံ ဖြန့်မည့် App ကို ၎င်း၏ app signing key ဖြင့် လက်မှတ်ထိုးပြီး၊ သင်က AAB ကို upload key ဖြင့် လက်မှတ်ထိုးမည်။
+   Google Play မှ ဖြန့်သော App နှင့် Drive/Telegram မှ sideload လုပ်သော APK တို့ကို အပြန်အလှန် update လုပ်စေလိုပါက signing certificate တူညီရမည်။ Play-managed app signing ကိုရွေးလျှင် Play အပြင်ဘက်ဖြန့်မည့် APK အတွက် signer ကို သီးခြားစီစဉ်ပြီး upgrade လမ်းကြောင်းကို စမ်းသပ်ပါ။
+2. Mac ၏ Terminal တွင် အောက်ပါအတိုင်း key folder ကို ဖန်တီးပြီး permission ကို ကန့်သတ်ပါ။ ဒီလမ်းကြောင်းသည် project folder အပြင်ဘက်ဖြစ်သည်။
 
-ဒီအဆင့်တွင် keystore/password မဖန်တီးထား၊ မသိမ်းထားပါ။ Production signing ကို စတင်ရန် owner က အဆိုပြုထားသော Application ID ကို အတည်ပြုပြီး keystore ထိန်းသိမ်းမည့် release owner ကို ရွေးချယ်ကာ local secure setup ကို ကိုယ်တိုင်ပြုလုပ်ရပါမည်။
+   ```sh
+   mkdir -p "$HOME/Library/Application Support/PaliMala/signing"
+   chmod 700 "$HOME/Library/Application Support/PaliMala/signing"
+   ```
+
+3. Android Studio/Android SDK ပါလာသော `keytool` ဖြင့် upload keystore အသစ်ကို ဖန်တီးပါ။ Password များကို command ထဲ မရေးပါနှင့်။ `keytool` မေးသည့်အခါ Terminal ၌ ကိုယ်တိုင်ရိုက်ထည့်ပါ။ Terminal တွင် ပြသမည့် အမည်/အဖွဲ့အချက်အလက်များကို ကိုယ်တိုင်ဆုံးဖြတ်ပါ။
+
+   ```sh
+   keytool -genkeypair -v \
+     -keystore "$HOME/Library/Application Support/PaliMala/signing/palimala-upload.jks" \
+     -storetype JKS \
+     -alias palimala-upload \
+     -keyalg RSA -keysize 2048 -validity 10000
+   ```
+
+4. Keystore password နှင့် key password ကို ခိုင်မာပြီး မတူညီစွာထားကာ password manager ထဲသိမ်းပါ။ Keystore ကို ကုဒ်ဝှက်ထားသော offline backup နေရာတွင် ထပ်မံသိမ်းပါ။ Keystore ပျောက်ခြင်းသည် upload အသစ်များ လက်မှတ်ထိုးရာတွင် အခက်အခဲဖြစ်စေနိုင်သည်။
+5. Keystore နှင့် password ကို repository ထဲ မထည့်ပါနှင့်။ `.gitignore` က `android/key.properties`, `*.jks`, `*.keystore`, `*.p12`, `*.pfx` နှင့် `*.mobileprovision` ကို ignore လုပ်ထားသည်။
+6. Mac ပေါ်တွင် `android/key.properties` ကို ကိုယ်တိုင်ဖန်တီးပြီး အောက်ပါပုံစံအတိုင်း ဖြည့်ပါ။ Password အစား placeholder စာသားကို မထားပါနှင့်။ ဖိုင်ကို share မလုပ်၊ GitHub သို့ မတင်ပါနှင့်။ `storeFile` ကို keystore ၏ project အပြင်ဘက် path အပြည့်ဖြင့် သတ်မှတ်ပါ။
+
+   ```properties
+   storeFile=/Users/သင့်-Mac-အကောင့်/Library/Application Support/PaliMala/signing/palimala-upload.jks
+   storePassword=ကိုယ်တိုင်သတ်မှတ်ထားသော-store-password
+   keyAlias=palimala-upload
+   keyPassword=ကိုယ်တိုင်သတ်မှတ်ထားသော-key-password
+   ```
+
+   `android/key.properties` ကို စာသားတည်းဖြတ်စက်ဖြင့် သိမ်းပြီး file permission ကို ကိုယ်တိုင်သာဖတ်နိုင်စေရန် `chmod 600 android/key.properties` လုပ်ပါ။ Gradle က local file ကိုဖတ်ပြီး လိုအပ်ချက်မပြည့်ပါက release build ကို fail-closed လုပ်ထားသည်။
+7. CI အသုံးပြုပါက secrets ကို CI secret store မှသာ ပေးပါ။ Secret ကို build log ထဲ echo မလုပ်ပါနှင့်။ လက်ရှိအဆင့်တွင် CI secret များမသတ်မှတ်ရသေးပါ။
+
+ဒီစစ်ဆေးမှုတွင် keystore/password မဖန်တီးထား၊ မဖတ်ရှု၊ မသိမ်းထားပါ။ လက်ရှိ `android/key.properties` နှင့် keystore မရှိသေးသဖြင့် signed AAB ကို တည်ဆောက်ရန် မဖြစ်နိုင်ပါ။ Owner က အထက်ပါအဆင့်များကို မိမိ Mac ပေါ်တွင် လုံခြုံစွာ ပြီးစီးပြီးနောက် local AAB build/signature စစ်ဆေးမှုကို ပြန်လုပ်ပါ။
 
 ## ၂။ iOS Bundle ID နှင့် Apple Signing
 
-1. `com.palimala.app` ကို Apple Developer Team ထိန်းချုပ်နိုင်ပြီး App Store Connect တွင် မှတ်ပုံတင်နိုင်ကြောင်း owner က အတည်ပြုပါ။ iOS Firebase registration ရှိပြီးသားဖြစ်သော်လည်း Apple App ID/Store record ကို သီးခြားစစ်ရမည်။
+1. App Store အတွက် အတည်ပြုထားသော Bundle ID `com.palimala.app` ကို Apple Developer Team နှင့် App Store Connect record တွင် ပိုင်ဆိုင်/မှတ်ပုံတင်ထားကြောင်း စစ်ပါ။
 2. Xcode ၏ Runner target > Signing & Capabilities တွင် သင့် Team ကို ရွေးပါ။ App Store ဖြန့်ချိမည်ဆိုလျှင် Automatic Signing သို့မဟုတ် စီမံထားသော Distribution certificate နှင့် App Store provisioning ကိုသုံးပါ။ Ad Hoc သည် သတ်မှတ်ထားသော device များအတွက်သာဖြစ်သည်။
 3. Associated Domains, Push, Keychain စသည့် capability များ အသုံးပြုပါက သက်ဆိုင်ရာ entitlement နှင့် provisioning မှန်ကြောင်း စစ်ပါ။ မသုံးသော capability များ မထည့်ပါနှင့်။
 4. Apple Distribution certificate ကို Xcode/Apple Developer ၏ လုံခြုံသောလုပ်ငန်းစဉ်မှတစ်ဆင့် release owner က မိမိစက်တွင် သတ်မှတ်ပါ။ `.p12`, private key သို့မဟုတ် provisioning profile ကို repository/chat ထဲ မထည့်ပါနှင့်။ `.gitignore` သည် `.mobileprovision` ဖိုင်များကို ကာကွယ်ထားသည်။ Certificate/profile နှင့် account ကို project owner ကသာ စီမံပါ။
@@ -40,14 +67,16 @@
 
 ဒီ project တွင် Apple Team, production Bundle ID, Distribution certificate နှင့် provisioning profile မသတ်မှတ်ရသေးပါ။ ကိုယ်ပိုင် Apple Developer account လိုအပ်ချက်များကို app owner က ဖြည့်ဆည်းရပါမည်။
 
-## ၃။ Version၊ APK စစ်ဆေးခြင်းနှင့် Upgrade Test
+## ၃။ Version၊ AAB/APK စစ်ဆေးခြင်းနှင့် Upgrade Test
 
 1. `pubspec.yaml` ရှိ `version: A.B.C+N` ကို ပြင်ဆင်ပါ။ ဥပမာ user မြင်ရသော version ကို `1.0.1` သတ်မှတ်လျှင် build number ကို ယခင်ကထက် ကြီးသော `+2` သို့မဟုတ် ထိုထက်ကြီးသည့် တန်ဖိုးထားပါ။ Android `versionCode` နှင့် iOS `CFBundleVersion` တို့သည် build number ကို အသုံးပြုသည်။ Android update လုပ်နိုင်ရန် `applicationId` နှင့် production signer တူညီရမည်။
-2. Production signing သတ်မှတ်ပြီးနောက် `flutter build apk --release` ဖြင့် universal APK ထုတ်ပါ။ APK ကို `build/app/outputs/flutter-apk/app-release.apk` မှ ရယူပါ။
-3. Android SDK `apksigner` ဖြင့် `verify --verbose --print-certs` စစ်ပါ။ Command က verify အောင်မြင်ကြောင်း၊ signer certificate SHA-256 fingerprint ကို ထုတ်ပြကြောင်း အတည်ပြုပါ။ Fingerprint ကို release record တွင်သာ ထည့်ပါ။ Signing password များကို မထည့်ပါနှင့်။
-4. APK file အတွက် macOS `shasum -a 256 <APK-path>` ဖြင့် SHA-256 ရယူပါ။ Google Drive/Telegram ပို့မည့် APK တစ်ခုတည်း၏ hash နှင့် ပို့ပြီးရရှိသူ ထံမှပြန်ရသော hash တူရမည်။ APK ကို ပြန် compress/rename လုပ်ခြင်းက အကြောင်းမဲ့ မပြောင်းလဲစေသော်လည်း APK bytes ကို edit/rebuild လုပ်လျှင် hash ပြောင်းမည်။
-5. Upgrade test ကို Android သန့်ရှင်းသည့် test phone/emulator ပေါ်တွင်လုပ်ပါ။ Release signer ဖြင့် sign ထားသော ယခင် APK တင်၊ sample saved words/settings ကို စမ်းပြီး production candidate ကို အပေါ်က install လုပ်ပါ။ “update” အဖြစ် တက်ကြောင်း၊ app data နှင့် saved items မပျောက်ကြောင်း၊ app launch/search/dictionary/TTS/lesson download အလုပ်လုပ်ကြောင်း စစ်ပါ။ Version code လျော့မသွားကြောင်းလည်း စစ်ပါ။ Debug key ဖြင့် တင်ထားသော လက်ရှိ APK ကို production signer ဖြင့် တိုက်ရိုက် upgrade မလုပ်နိုင်နိုင်ပါ။ Production upgrade test အတွက် release signer အဟောင်းရှိပြီးသား APK ကို အသုံးပြုပါ။
-6. Release record တစ်ခုစီတွင် version, build number, APK SHA-256, signing certificate fingerprint, build date, release notes, approval, Drive link/Telegram post reference နှင့် upgrade test အခြေအနေကို မှတ်တမ်းတင်ပါ။
+2. Production signing သတ်မှတ်ပြီးနောက် `flutter build appbundle --release` ဖြင့် Android App Bundle ထုတ်ပါ။ Output သည် `build/app/outputs/bundle/release/app-release.aab` ဖြစ်သည်။
+3. AAB ကို `jarsigner -verify -verbose -certs build/app/outputs/bundle/release/app-release.aab` ဖြင့် စစ်ပါ။ Verify အောင်မြင်ကြောင်း အတည်ပြုပြီးမှ ဆက်လုပ်ပါ။ `jarsigner` output တွင် public certificate အချက်အလက်သာ ပါရမည်။ Private key/password ကို command argument ထဲ မရေးပါနှင့်။
+4. AAB အတွက် `shasum -a 256 build/app/outputs/bundle/release/app-release.aab` ဖြင့် SHA-256 ရယူပါ။ AAB ကို Play Console သို့ မတင်မီ owner က ပြန်လည်စစ်ဆေးအတည်ပြုပါ။
+5. APK လိုအပ်ပါက `flutter build apk --release` ဖြင့် universal APK ထုတ်ပါ။ APK ကို `build/app/outputs/flutter-apk/app-release.apk` မှ ရယူပြီး Android SDK `apksigner verify --verbose --print-certs <APK-path>` ဖြင့် signature စစ်ပါ။
+6. APK/AAB ဖိုင်အတွက် SHA-256 ရယူပါ။ Google Drive/Telegram ပို့မည့်ဖိုင်နှင့် လက်ခံသူရရှိသောဖိုင် hash တူကြောင်း စစ်ပါ။ APK bytes ကို edit/rebuild လုပ်လျှင် hash ပြောင်းမည်။
+7. Upgrade test ကို Android သန့်ရှင်းသည့် test phone/emulator ပေါ်တွင်လုပ်ပါ။ တူညီသော production signer ဖြင့် sign ထားသော ယခင် APK မှ candidate ကို upgrade လုပ်ပြီး app data နှင့် saved items မပျောက်ကြောင်း၊ App လုပ်ဆောင်ချက်များ မှန်ကန်ကြောင်း စစ်ပါ။ Debug key ဖြင့်တင်ထားသော App ကို production signer ဖြင့် တိုက်ရိုက် upgrade မလုပ်နိုင်နိုင်ပါ။
+8. Release record တွင် version, build number, APK/AAB SHA-256, certificate fingerprint, build date, approvals နှင့် upgrade test ရလဒ်ကို မှတ်တမ်းတင်ပါ။
 
 ### ဖြန့်ချိမည့် build အတွက် release notes မူကြမ်း
 
@@ -113,11 +142,11 @@ APK ကို server မှ အဝေးထိန်းဖျက်၍ မရပ
 
 Project owner က အောက်ပါအချက်များကို ကိုယ်တိုင်ပေး/ဆုံးဖြတ်ရမည်။ Password, private key, certificate file သို့မဟုတ် account login ကို မပေးပါနှင့်။
 
-- Android အတွက် ပိုင်ဆိုင်/ထိန်းချုပ်သော application ID နှင့် ထို ID ရှိပြီးသား user install များကို update လုပ်ရမရ ဆုံးဖြတ်ချက်။
+- Google Play Console တွင် `com.palimala.app` ကို အသုံးပြုနိုင်မှုနှင့် Play App Signing အတွက် Google-managed သို့မဟုတ် owner-managed app signing key ရွေးချယ်မှု။
 - Android production release ကို ထိန်းမည့်သူနှင့် keystore ကို လုံခြုံစွာဖန်တီး၊ backup လုပ်မည့် စက်/နေရာ။ Signing secrets များကို owner ကသာ စီမံရန်။
-- iOS အတွက် Apple Developer Team ရှိ/မရှိ၊ ရွေးချယ်မည့် unique Bundle ID၊ App Store/TestFlight/Ad Hoc ဖြန့်ချိမည့်ပုံစံ။ Team ID သို့မဟုတ် certificate များကို chat ထဲ မပို့ပါနှင့်။
+- iOS အတွက် Apple Developer Team ရှိ/မရှိနှင့် App Store/TestFlight/Ad Hoc ဖြန့်ချိမည့်ပုံစံ။ Team ID သို့မဟုတ် certificate များကို chat ထဲ မပို့ပါနှင့်။
 - Google Drive release folder ကို စီမံမည့်သူ၊ အခွင့်အရေးပေးမည့်လက်ခံသူများ၊ Telegram ဖြန့်ချိမည့် channel/group နှင့် release အတည်ပြုသူ။
 - GitHub `main` သို့ publish/merge လုပ်ရန် သီးခြားခွင့်ပြုချက်နှင့် release approval။ Dataset ပြောင်းလဲမည်ဆိုလျှင် သီးခြား Pali content review လည်းလိုသည်။
 - Release version/build number နှင့် Android/iOS ထုတ်ဝေမှုကို တပြိုင်တည်းလုပ်မလား ဆုံးဖြတ်ချက်။
 
-Rogo data ကို ဤစာတမ်းအတွက် မပြောင်းထားပါ။ Full test suite တွင် Rogo gender-marker စမ်းသပ်မှု ဆက်လက်မအောင်မြင်နေသည်ကို မှန်ကန်သည့်အတိုင်း ထားရှိသည်။ GitHub push/merge, Production Deployment, Firebase Production ပြောင်းလဲမှုနှင့် Drive/Telegram upload မလုပ်ရသေးပါ။
+Rogo data ကို ဤစာတမ်းအတွက် မပြောင်းထားပါ။ နောက်ဆုံး local Flutter test run တွင် tests အားလုံးအောင်မြင်ခဲ့သည်။ Dynamic Config/Furniture data commit `0152bbf6920e3e1a7ca460f32bfa675952ed77cb` ကို GitHub `main` တွင် ထုတ်ဝေထားသည်။ ဤ Android signing အဆင့်တွင် Production Deployment၊ Firebase Production ပြောင်းလဲမှုနှင့် Drive/Telegram upload မလုပ်ပါ။

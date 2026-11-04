@@ -58,7 +58,7 @@ Furniture lesson၊ nouns dataset/manifest နှင့် legacy aggregate/vers
 
 Config test များသည် မှန်သော config, invalid icon/color, duplicate ID, unknown field, category order/visibility/title/icon, light/dark theme, Home layout, offline cache, invalid-cache fallback နှင့် invalid remote config ကို cache မအစားထိုးကြောင်း စစ်သည်။ Dataset download စနစ်က SHA-256 မကိုက်ပါက download ကို မသိမ်းပါ။ iOS တွင် HTTP cleartext exception မထည့်ထားဘဲ HTTPS သုံးပြီး Android manifest တွင် Internet permission ထည့်ထားသည်။
 
-2026-11-03 စစ်ဆေးမှုတွင် `flutter analyze` အောင်မြင်ပြီး full `flutter test` တွင် ၅၉ ခု အောင်မြင်၊ live-only test ၂ ခု ပုံမှန် run မှာ skip ဖြစ်သည်။ သီးခြား live integration test ၂ ခုလုံးက GitHub manifest/config ရယူခြင်း၊ SHA-256 စစ်ခြင်း၊ download/cache နှင့် offline ပြန်ဖွင့်ခြင်းကို အောင်မြင်စွာ စစ်ဆေးသည်။ SHA verification mismatch, invalid manifest/config rejection, offline/cache fallback, category order/visibility/title/icon, allowed theme colors, Home options စမ်းသပ်မှုများလည်း ပါဝင်သည်။ Android debug APK build အောင်မြင်သည်။ Release AAB build သည် production signing မရှိသဖြင့် ရည်ရွယ်ချက်ရှိရှိ ရပ်တန့်သည်။ iOS release compile အောင်မြင်သော်လည်း `--no-codesign` ဖြစ်သည်။
+2026-11-03 စစ်ဆေးမှုတွင် `flutter analyze` အောင်မြင်ပြီး full `flutter test` တွင် ၅၉ ခု အောင်မြင်၊ live-only test ၂ ခု ပုံမှန် run မှာ skip ဖြစ်သည်။ Live integration run နှင့် Furniture မပါသည့် အရင် asset bundle ဖြင့် run သည့် remote test နှစ်ခုစလုံး အောင်မြင်သည်။ SHA verification mismatch, invalid manifest/config rejection, offline/cache fallback, category order/visibility/title/icon, allowed theme colors, Home options စမ်းသပ်မှုများ ပါဝင်သည်။ Android debug APK build အောင်မြင်သည်။ Release AAB build သည် production signing မရှိသဖြင့် ရည်ရွယ်ချက်ရှိရှိ ရပ်တန့်သည်။ iOS release compile အောင်မြင်သော်လည်း `--no-codesign` ဖြစ်သည်။
 
 ## Android APK ဖြန့်ဝေခြင်း (Google Drive / Telegram)
 
@@ -76,4 +76,4 @@ Production signing ကို developer တစ်ဦးက လုံခြုံ�
 
 ## iOS ဖြန့်ချိခြင်း
 
-iOS `main` တွင် owner အတည်ပြုထားသော Bundle ID `com.palimala.app` ကို အသုံးပြုထားပြီး Firebase plist နှင့် ကိုက်ညီသည်။ Apple Developer Team၊ Distribution certificate နှင့် provisioning profile မသတ်မှတ်ရသေးပါ။ Release မတိုင်မီ Xcode မှ signed archive တည်ဆောက်၍ App Store Connect/TestFlight ဖြင့် စမ်းပါ။ ယခု စစ်ဆေးမှုသည် `--no-codesign` compile သာဖြစ်ပြီး ဖြန့်ချိနိုင်သော build မဟုတ်ပါ။
+ဤ branch ၏ iOS Bundle ID သည် `com.palimala.app` ဖြစ်ပြီး owner က ID အသစ်ကို အသုံးပြုရန် အတည်ပြုပြီးဖြစ်သည်။ Production release မတိုင်မီ Apple Developer Team၊ Distribution certificate နှင့် provisioning profile ကို သတ်မှတ်ပြီး signed archive ကို App Store Connect/TestFlight ဖြင့် စမ်းသပ်ပါ။ ယခု စစ်ဆေးမှုသည် `--no-codesign` compile သာဖြစ်ပြီး ဖြန့်ချိနိုင်သော build မဟုတ်ပါ။
