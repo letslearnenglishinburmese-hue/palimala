@@ -7,7 +7,7 @@
     {"id":"adverbs","titleMm":"ကြိယာဝိသေသနပုဒ်များ","titleEn":"Adverbs","icon":"speed_rounded","visible":true,"order":40},
     {"id":"particles","titleMm":"နိပါတ်ပုဒ်များ","titleEn":"Invariable Words & Particles (Nipāta)","icon":"auto_awesome_mosaic_rounded","visible":true,"order":50},
     {"id":"dialogues","titleMm":"ပါဠိစကားပြောခန်း","titleEn":"Pāḷi Dialogues","icon":"record_voice_over_rounded","visible":true,"order":60},
-    {"id":"conversation_patterns","titleMm":"ပါဠိစကားပြောပုံစံများ(ကိုစမ်းသပ်မှု)","titleEn":"Pali Conversation Patterns","icon":"school_rounded","visible":true,"order":70}
+    {"id":"conversation_patterns","titleMm":"ပါဠိစကားပြောပုံစံများ","titleEn":"Pali Conversation Patterns","icon":"school_rounded","visible":true,"order":70}
   ],
   "theme": {
     "light": {"primary":"#8C1D11","secondary":"#D97706","surface":"#FDFBF7","background":"#F7F3ED"},
