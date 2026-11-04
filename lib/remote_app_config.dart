@@ -69,12 +69,21 @@ class RemoteAppConfig {
     final ordered = [...categories]..sort((a, b) => a.order.compareTo(b.order));
     return [
       for (final setting in ordered)
-        if ((setting.visible || includeHidden) && byId.containsKey(setting.id))
-          byId[setting.id]!.copyWith(
-            titleMm: setting.titleMm,
-            titleEn: setting.titleEn,
-            icon: _icons[setting.icon]!,
-          ),
+        if (setting.visible || includeHidden)
+          if (byId[setting.id] case final category?)
+            category.copyWith(
+              titleMm: setting.titleMm,
+              titleEn: setting.titleEn,
+              icon: _icons[setting.icon]!,
+            )
+          else
+            MainCategory(
+              id: setting.id,
+              titleMm: setting.titleMm,
+              titleEn: setting.titleEn,
+              icon: _icons[setting.icon]!,
+              subCategories: const [],
+            ),
       // Keep datasets introduced by a newer lesson manifest readable. They
       // appear after configured categories with their manifest metadata.
       for (final category in source)
