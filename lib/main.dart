@@ -1472,62 +1472,91 @@ class _SubCategoryScreenState extends State<SubCategoryScreen> {
           ),
         ],
       ),
-      body: ListView.builder(
-        padding: const EdgeInsets.all(12.0),
-        itemCount: widget.category.subCategories.length,
-        itemBuilder: (context, index) {
-          final subCat = widget.category.subCategories[index];
-          return Card(
-            margin: const EdgeInsets.symmetric(vertical: 8),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16),
-            ),
-            child: ListTile(
-              contentPadding: const EdgeInsets.symmetric(
-                horizontal: 20,
-                vertical: 8,
-              ),
-              leading: CircleAvatar(
-                backgroundColor: Theme.of(context)
-                    .colorScheme
-                    .secondaryContainer,
-                child: Text(
-                  '${index + 1}',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontFamily: isMm ? null : 'SourceSans3',
-                    color: Theme.of(context).colorScheme.onSecondaryContainer,
-                  ),
-                ),
-              ),
-              title: Text(
-                isMm ? subCat.titleMm : subCat.titleEn,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-                style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16,
-                ),
-              ),
-              trailing: const Icon(Icons.arrow_forward_ios_rounded, size: 18),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailContentScreen(
-                      subCategory: subCat,
-                      currentLang: _currentLang,
-                      onLanguageToggle: widget.onLanguageToggle,
-                      savedWords: widget.savedWords,
-                      onSavedWordToggle: widget.onSavedWordToggle,
+      body: widget.category.subCategories.isEmpty
+          ? Center(
+              child: Padding(
+                padding: const EdgeInsets.all(24),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(
+                      Icons.menu_book_outlined,
+                      size: 48,
+                      color: Theme.of(context).colorScheme.secondary,
                     ),
+                    const SizedBox(height: 12),
+                    Text(
+                      isMm
+                          ? 'ဤအမျိုးအစားတွင် သင်ခန်းစာ မရှိသေးပါ။'
+                          : 'No lessons in this category yet.',
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context).textTheme.titleMedium,
+                    ),
+                  ],
+                ),
+              ),
+            )
+          : ListView.builder(
+              padding: const EdgeInsets.all(12.0),
+              itemCount: widget.category.subCategories.length,
+              itemBuilder: (context, index) {
+                final subCat = widget.category.subCategories[index];
+                return Card(
+                  margin: const EdgeInsets.symmetric(vertical: 8),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: ListTile(
+                    contentPadding: const EdgeInsets.symmetric(
+                      horizontal: 20,
+                      vertical: 8,
+                    ),
+                    leading: CircleAvatar(
+                      backgroundColor: Theme.of(context)
+                          .colorScheme
+                          .secondaryContainer,
+                      child: Text(
+                        '${index + 1}',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontFamily: isMm ? null : 'SourceSans3',
+                          color: Theme.of(context)
+                              .colorScheme
+                              .onSecondaryContainer,
+                        ),
+                      ),
+                    ),
+                    title: Text(
+                      isMm ? subCat.titleMm : subCat.titleEn,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    trailing: const Icon(
+                      Icons.arrow_forward_ios_rounded,
+                      size: 18,
+                    ),
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => DetailContentScreen(
+                            subCategory: subCat,
+                            currentLang: _currentLang,
+                            onLanguageToggle: widget.onLanguageToggle,
+                            savedWords: widget.savedWords,
+                            onSavedWordToggle: widget.onSavedWordToggle,
+                          ),
+                        ),
+                      );
+                    },
                   ),
                 );
               },
             ),
-          );
-        },
-      ),
     );
   }
 }

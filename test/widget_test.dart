@@ -1254,5 +1254,33 @@ void main() {
     await tester.pump(const Duration(milliseconds: 500));
 
     expect(find.byType(NavigationBar), findsOneWidget);
+    expect(find.text('ပါဠိစကားပြောပုံစံများ'), findsOneWidget);
+  });
+
+  testWidgets('remote-only category opens and shows its empty state', (
+    WidgetTester tester,
+  ) async {
+    final category = MainCategory(
+      id: 'conversation_patterns',
+      titleMm: 'ပါဠိစကားပြောပုံစံများ',
+      titleEn: 'Pali Conversation Patterns',
+      icon: Icons.school_rounded,
+      subCategories: const [],
+    );
+
+    await tester.pumpWidget(
+      MaterialApp(
+        home: SubCategoryScreen(
+          category: category,
+          currentLang: AppLanguage.myanmar,
+          onLanguageToggle: () {},
+          savedWords: const {},
+          onSavedWordToggle: (_) {},
+        ),
+      ),
+    );
+
+    expect(find.text('ပါဠိစကားပြောပုံစံများ'), findsOneWidget);
+    expect(find.text('ဤအမျိုးအစားတွင် သင်ခန်းစာ မရှိသေးပါ။'), findsOneWidget);
   });
 }
