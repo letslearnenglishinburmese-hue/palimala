@@ -173,13 +173,13 @@
     {
       "paliMm": "သံဟရတိ",
       "paliRoman": "Saṃharati",
-      "translateMm": "အကျဉ်းချုပ်သည် / ပြုစုစုစည်းသည်",
-      "translateEn": "Summarizes / compiles",
+      "translateMm": "စုစည်းသည်",
+      "translateEn": "Collect",
       "example": {
         "paliMm": "သိဿော ကထံ သံဟရတိ။",
         "paliRoman": "Sisso kathaṃ saṃharati.",
-        "translateMm": "ကျောင်းသားသည် စကား/အကြောင်းအရာကို အကျဉ်းချုပ်၏။",
-        "translateEn": "The student summarizes the content."
+        "translateMm": "ကျောင်းသားသည် စကား/အကြောင်းအရာကို စုစည်း၏။",
+        "translateEn": "The student collects the content."
       }
     },
     {
