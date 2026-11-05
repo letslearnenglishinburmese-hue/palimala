@@ -10,14 +10,37 @@ import 'app_data.dart';
 import 'dictionary_data.dart';
 import 'firebase_options.dart';
 import 'pali_transliteration.dart';
+import 'remote_app_config.dart';
 
 late List<MainCategory> appData;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  appData = await AppDataRepository.load();
+  try {
+    appData = await AppDataRepository.load();
+  } on Object catch (error) {
+    // Keep the shell usable even if local preferences or bundled lessons fail.
+    appData = const [];
+    debugPrint(
+      'Local lesson bootstrap failed; opening the offline app shell: $error',
+    );
+  }
+  try {
+    await RemoteAppConfigRepository.load();
+    appData = RemoteAppConfigRepository.current.apply(appData);
+  } on Object catch (error) {
+    debugPrint('Using built-in app defaults: $error');
+  }
   runApp(const PaliLearningApp());
+  unawaited(
+    Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    ).then<void>((_) {}).catchError((Object error) {
+      debugPrint(
+        'Firebase initialization failed; offline features remain available: $error',
+      );
+    }),
+  );
 }
 
 // Language Enum
@@ -41,7 +64,9 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
   @override
   void initState() {
     super.initState();
-    appData = AppDataRepository.categories;
+    appData = RemoteAppConfigRepository.current.apply(
+      AppDataRepository.categories,
+    );
     appDataRevision.addListener(_handleDataChanged);
     _loadSavedWords();
   }
@@ -56,7 +81,11 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
   /// updated from the settings screen.
   void _handleDataChanged() {
     if (!mounted) return;
-    setState(() => appData = AppDataRepository.categories);
+    setState(
+      () => appData = RemoteAppConfigRepository.current.apply(
+        AppDataRepository.categories,
+      ),
+    );
   }
 
   Future<void> _loadSavedWords() async {
@@ -105,29 +134,14 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
 
   @override
   Widget build(BuildContext context) {
+    final config = RemoteAppConfigRepository.current;
+    final light = config.lightColors;
+    final dark = config.darkColors;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Pāḷi Learning App',
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF8C1D11),
-          primary: const Color(0xFF8C1D11),
-          secondary: const Color(0xFFD97706),
-          surface: const Color(0xFFFDFBF7),
-        ),
-        fontFamily: 'Pyidaungsu Numbers',
-        fontFamilyFallback: const ['Pyidaungsu', 'GentiumPlus', 'SourceSans3'],
-      ),
-      darkTheme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF8C1D11),
-          brightness: Brightness.dark,
-        ),
-        fontFamily: 'Pyidaungsu Numbers',
-        fontFamilyFallback: const ['Pyidaungsu', 'GentiumPlus', 'SourceSans3'],
-      ),
+      theme: buildRemoteTheme(config, dark: false),
+      darkTheme: buildRemoteTheme(config, dark: true),
       themeMode: _isDarkMode ? ThemeMode.dark : ThemeMode.light,
       builder: (context, child) => MediaQuery(
         data: MediaQuery.of(context)
@@ -157,10 +171,8 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
             selectedIndex: selectedIndex,
             height: 60,
             labelBehavior: NavigationDestinationLabelBehavior.alwaysHide,
-            backgroundColor: _isDarkMode
-                ? const Color(0xFF302925)
-                : const Color(0xFFF1E9DF),
-            indicatorColor: Theme.of(context).colorScheme.primary
+            backgroundColor: _isDarkMode ? dark['surface'] : light['surface'],
+            indicatorColor: (_isDarkMode ? dark['primary'] : light['primary'])!
                 .withValues(alpha: 0.14),
             onDestinationSelected: (index) {
               _navigatorKey.currentState?.popUntil((route) => route.isFirst);
@@ -573,7 +585,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
   List<_SearchWordResult> _allWords() {
     return [
-      for (final category in appData)
+      for (final category in RemoteAppConfigRepository.current.apply(
+        AppDataRepository.categories,
+        includeHidden: true,
+      ))
         for (final subCategory in category.subCategories)
           for (final item in subCategory.vocabList ?? [])
             _SearchWordResult(
@@ -612,7 +627,15 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildHome(bool isMm) {
+    final config = RemoteAppConfigRepository.current;
     final words = _allWords();
+    if (words.isEmpty) {
+      return Center(
+        child: Text(
+          isMm ? 'သင်ခန်းစာ မရရှိသေးပါ။' : 'No lessons are available yet.',
+        ),
+      );
+    }
     final today = DateTime.now();
     final dayIndex =
         today.difference(DateTime(today.year)).inDays % words.length;
@@ -621,106 +644,116 @@ class _HomeScreenState extends State<HomeScreen> {
     return ListView(
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 24),
       children: [
-        Container(
-          padding: const EdgeInsets.all(20),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(18),
-            gradient: const LinearGradient(
-              colors: [Color(0xFF762319), Color(0xFF9A4329), Color(0xFFB96A36)],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+        if (config.home.showDailyWord)
+          Container(
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(18),
+              gradient: const LinearGradient(
+                colors: [
+                  Color(0xFF762319),
+                  Color(0xFF9A4329),
+                  Color(0xFFB96A36),
+                ],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              ),
+            ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    const Icon(Icons.wb_sunny_outlined, color: Colors.white),
+                    const SizedBox(width: 8),
+                    Text(
+                      isMm ? 'ယနေ့လေ့လာရန်' : 'WORD OF THE DAY',
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    const Spacer(),
+                    IconButton(
+                      tooltip: isMm ? 'အသံနားထောင်ရန်' : 'Listen',
+                      onPressed: () =>
+                          TtsService.speakPali(dailyWord.paliRoman),
+                      color: Colors.white,
+                      icon: const Icon(Icons.volume_up_rounded),
+                    ),
+                    IconButton(
+                      tooltip: widget.savedWords.contains(dailyWord.paliRoman)
+                          ? (isMm
+                                ? 'သိမ်းထားမှုမှ ဖယ်ရန်'
+                                : 'Remove saved word')
+                          : (isMm ? 'သိမ်းရန်' : 'Save word'),
+                      onPressed: () => widget.onSavedWordToggle(dailyWord),
+                      color: Colors.white,
+                      icon: Icon(
+                        widget.savedWords.contains(dailyWord.paliRoman)
+                            ? Icons.bookmark_rounded
+                            : Icons.bookmark_border_rounded,
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  isMm ? dailyWord.paliMm : dailyWord.paliRoman,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  isMm ? dailyWord.translateMm : dailyWord.translateEn,
+                  style: const TextStyle(color: Colors.white, fontSize: 17),
+                ),
+              ],
             ),
           ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+        const SizedBox(height: 14),
+        if (config.home.showStatistics)
+          Row(
             children: [
-              Row(
-                children: [
-                  const Icon(Icons.wb_sunny_outlined, color: Colors.white),
-                  const SizedBox(width: 8),
-                  Text(
-                    isMm ? 'ယနေ့လေ့လာရန်' : 'WORD OF THE DAY',
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  const Spacer(),
-                  IconButton(
-                    tooltip: isMm ? 'အသံနားထောင်ရန်' : 'Listen',
-                    onPressed: () => TtsService.speakPali(dailyWord.paliRoman),
-                    color: Colors.white,
-                    icon: const Icon(Icons.volume_up_rounded),
-                  ),
-                  IconButton(
-                    tooltip: widget.savedWords.contains(dailyWord.paliRoman)
-                        ? (isMm ? 'သိမ်းထားမှုမှ ဖယ်ရန်' : 'Remove saved word')
-                        : (isMm ? 'သိမ်းရန်' : 'Save word'),
-                    onPressed: () => widget.onSavedWordToggle(dailyWord),
-                    color: Colors.white,
-                    icon: Icon(
-                      widget.savedWords.contains(dailyWord.paliRoman)
-                          ? Icons.bookmark_rounded
-                          : Icons.bookmark_border_rounded,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 8),
-              Text(
-                isMm ? dailyWord.paliMm : dailyWord.paliRoman,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
+              Expanded(
+                child: _DashboardStat(
+                  icon: Icons.menu_book_rounded,
+                  value: '${words.length}',
+                  label: isMm ? 'ဝေါဟာရ' : 'Vocabulary',
+                  isMyanmar: isMm,
                 ),
               ),
-              const SizedBox(height: 4),
-              Text(
-                isMm ? dailyWord.translateMm : dailyWord.translateEn,
-                style: const TextStyle(color: Colors.white, fontSize: 17),
+              const SizedBox(width: 12),
+              Expanded(
+                child: _DashboardStat(
+                  icon: Icons.bookmark_rounded,
+                  value: '${widget.savedWords.length}',
+                  label: isMm ? 'သိမ်းထားသည်' : 'Saved words',
+                  isMyanmar: isMm,
+                ),
               ),
             ],
           ),
-        ),
-        const SizedBox(height: 14),
-        Row(
-          children: [
-            Expanded(
-              child: _DashboardStat(
-                icon: Icons.menu_book_rounded,
-                value: '${words.length}',
-                label: isMm ? 'ဝေါဟာရ' : 'Vocabulary',
-                isMyanmar: isMm,
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: _DashboardStat(
-                icon: Icons.bookmark_rounded,
-                value: '${widget.savedWords.length}',
-                label: isMm ? 'သိမ်းထားသည်' : 'Saved words',
-                isMyanmar: isMm,
-              ),
-            ),
-          ],
-        ),
         const SizedBox(height: 24),
-        Row(
-          children: [
-            Expanded(
-              child: Text(
-                isMm ? 'အကြောင်းအရာများ' : 'Explore topics',
-                style: Theme.of(context).textTheme.titleLarge
-                    ?.copyWith(fontWeight: FontWeight.bold),
+        if (config.home.showExploreHeading)
+          Row(
+            children: [
+              Expanded(
+                child: Text(
+                  isMm ? 'အကြောင်းအရာများ' : 'Explore topics',
+                  style: Theme.of(context).textTheme.titleLarge
+                      ?.copyWith(fontWeight: FontWeight.bold),
+                ),
               ),
-            ),
-          ],
-        ),
+            ],
+          ),
         const SizedBox(height: 8),
         LayoutBuilder(
           builder: (context, constraints) {
-            final columns = constraints.maxWidth >= 600 ? 3 : 2;
+            final columns = config.home.columns;
             return GridView.builder(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
@@ -2031,14 +2064,23 @@ class _DataDownloadSheetState extends State<DataDownloadSheet> {
         isMm ? dataset.titleMm : dataset.titleEn,
         style: const TextStyle(fontWeight: FontWeight.bold),
       ),
-      subtitle: Text(
-        isUpToDate
-            ? (isMm ? 'နောက်ဆုံးဖြစ်သည်' : 'Up to date')
-            : (isMm ? 'မွမ်းမံရန် ရှိသည်' : 'Update available'),
-        style: TextStyle(
-          color: isUpToDate ? Colors.green.shade700 : theme.colorScheme.error,
-          fontWeight: FontWeight.w600,
-        ),
+      subtitle: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            isUpToDate
+                ? (isMm ? 'နောက်ဆုံးဖြစ်သည်' : 'Up to date')
+                : (isMm ? 'မွမ်းမံရန် ရှိသည်' : 'Update available'),
+            style: TextStyle(
+              color: isUpToDate
+                  ? Colors.green.shade700
+                  : theme.colorScheme.error,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          Text('sha256: ${dataset.shortHash}'),
+        ],
       ),
       trailing: isUpToDate
           ? const Icon(Icons.check_circle_rounded, color: Colors.green)

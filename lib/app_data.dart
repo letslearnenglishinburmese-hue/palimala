@@ -132,12 +132,14 @@ class SubCategory {
 }
 
 class MainCategory {
+  final String id;
   final String titleMm;
   final String titleEn;
   final IconData icon;
   final List<SubCategory> subCategories;
 
   MainCategory({
+    required this.id,
     required this.titleMm,
     required this.titleEn,
     required this.icon,
@@ -147,6 +149,7 @@ class MainCategory {
   factory MainCategory.fromJson(Map<String, dynamic> json) {
     final iconName = _stringField(json, 'icon');
     return MainCategory(
+      id: json['id'] is String ? json['id'] as String : '',
       titleMm: _stringField(json, 'titleMm'),
       titleEn: _stringField(json, 'titleEn'),
       icon: _iconForName(iconName),
@@ -157,6 +160,15 @@ class MainCategory {
           .toList(),
     );
   }
+
+  MainCategory copyWith({String? titleMm, String? titleEn, IconData? icon}) =>
+      MainCategory(
+        id: id,
+        titleMm: titleMm ?? this.titleMm,
+        titleEn: titleEn ?? this.titleEn,
+        icon: icon ?? this.icon,
+        subCategories: subCategories,
+      );
 }
 
 /// A single downloadable chapter of the app data.
@@ -279,7 +291,11 @@ final class AppDataRepository {
 
   /// Makes the bundled or previously downloaded data available immediately,
   /// then refreshes the GitHub manifest in the background.
-  static Future<List<MainCategory>> load() async {
+  static Future<List<MainCategory>> load({
+    http.Client? client,
+    Uri? manifestUri,
+    Duration timeout = _requestTimeout,
+  }) async {
     final preferences = await SharedPreferences.getInstance();
     _autoUpdate = preferences.getBool(_autoUpdateKey) ?? false;
     final manifest = await rootBundle.loadString(_manifestAsset);
@@ -289,7 +305,12 @@ final class AppDataRepository {
     _categories = _buildCategories();
     _initialized = true;
     unawaited(
-      _refreshFromGitHub(preferences).catchError((Object error) {
+      _refreshFromGitHub(
+        preferences,
+        client: client,
+        manifestUri: manifestUri,
+        timeout: timeout,
+      ).catchError((Object error) {
         debugPrint('Pāḷi data background refresh failed: $error');
       }),
     );
@@ -318,9 +339,18 @@ final class AppDataRepository {
 
   /// Re-reads the manifest and refreshes the per-dataset status without
   /// downloading anything (unless auto-update is enabled).
-  static Future<void> checkForUpdates() async {
+  static Future<void> checkForUpdates({
+    http.Client? client,
+    Uri? manifestUri,
+    Duration timeout = _requestTimeout,
+  }) async {
     final preferences = await SharedPreferences.getInstance();
-    await _refreshFromGitHub(preferences);
+    await _refreshFromGitHub(
+      preferences,
+      client: client,
+      manifestUri: manifestUri,
+      timeout: timeout,
+    );
     if (!_manifestFetchedRemotely) {
       throw const DataUpdateException(
         'GitHub is unavailable. Existing local lesson data is still available.',
@@ -328,23 +358,41 @@ final class AppDataRepository {
     }
   }
 
-  static Future<void> _refreshFromGitHub(SharedPreferences preferences) {
+  static Future<void> _refreshFromGitHub(
+    SharedPreferences preferences, {
+    http.Client? client,
+    Uri? manifestUri,
+    Duration timeout = _requestTimeout,
+  }) {
     final current = _refreshTask;
     if (current != null) return current;
-    final task = _refreshFromGitHubImpl(preferences);
+    final task = _refreshFromGitHubImpl(
+      preferences,
+      client: client,
+      manifestUri: manifestUri,
+      timeout: timeout,
+    );
     _refreshTask = task.whenComplete(() => _refreshTask = null);
     return _refreshTask!;
   }
 
   static Future<void> _refreshFromGitHubImpl(
-    SharedPreferences preferences,
-  ) async {
-    final manifest = await _fetchManifest(preferences);
+    SharedPreferences preferences, {
+    http.Client? client,
+    Uri? manifestUri,
+    Duration timeout = _requestTimeout,
+  }) async {
+    final manifest = await _fetchManifest(
+      preferences,
+      client: client,
+      manifestUri: manifestUri,
+      timeout: timeout,
+    );
     _currentManifestVersion = _manifestVersion(manifest);
     _datasets = _parseManifest(manifest);
     await _resolveDatasets(preferences);
     if (_autoUpdate) {
-      await _downloadOutdated(preferences);
+      await _downloadOutdated(preferences, client: client, timeout: timeout);
     }
     _categories = _buildCategories();
     _initialized = true;
@@ -359,16 +407,28 @@ final class AppDataRepository {
 
   /// Downloads (or updates) a single dataset. Throws [DataUpdateException]
   /// when the file is unreachable or does not match the published hash.
-  static Future<bool> downloadDataset(DatasetInfo dataset) async {
+  static Future<bool> downloadDataset(
+    DatasetInfo dataset, {
+    http.Client? client,
+    Duration timeout = _requestTimeout,
+  }) async {
     final preferences = await SharedPreferences.getInstance();
-    final updated = await _download(dataset, preferences);
+    final updated = await _download(
+      dataset,
+      preferences,
+      client: client,
+      timeout: timeout,
+    );
     if (updated) _refresh();
     return updated;
   }
 
   /// Downloads every dataset whose published hash differs from the device
   /// copy. Returns how many datasets were updated.
-  static Future<int> downloadAllUpdates() async {
+  static Future<int> downloadAllUpdates({
+    http.Client? client,
+    Duration timeout = _requestTimeout,
+  }) async {
     final preferences = await SharedPreferences.getInstance();
     final pending = _datasets
         .where((dataset) => statusOf(dataset) == DatasetStatus.updateAvailable)
@@ -376,7 +436,15 @@ final class AppDataRepository {
     final results = await Future.wait(
       pending.map((dataset) async {
         try {
-          return (updated: await _download(dataset, preferences), failed: '');
+          return (
+            updated: await _download(
+              dataset,
+              preferences,
+              client: client,
+              timeout: timeout,
+            ),
+            failed: '',
+          );
         } on Object catch (error) {
           debugPrint('Updating "${dataset.id}" failed: $error');
           return (updated: false, failed: dataset.titleEn);
@@ -397,13 +465,19 @@ final class AppDataRepository {
     return updated;
   }
 
-  static Future<String> _fetchManifest(SharedPreferences preferences) async {
+  static Future<String> _fetchManifest(
+    SharedPreferences preferences, {
+    http.Client? client,
+    Uri? manifestUri,
+    Duration timeout = _requestTimeout,
+  }) async {
     final bundled = await rootBundle.loadString(_manifestAsset);
     _manifestFetchedRemotely = false;
     try {
-      final response = await http
-          .get(Uri.parse(_manifestUrl))
-          .timeout(_requestTimeout);
+      final response =
+          await (client?.get(manifestUri ?? Uri.parse(_manifestUrl)) ??
+                  http.get(manifestUri ?? Uri.parse(_manifestUrl)))
+              .timeout(timeout);
       if (response.statusCode != 200) {
         throw DataUpdateException(
           'Manifest request returned HTTP ${response.statusCode}.',
@@ -612,14 +686,23 @@ final class AppDataRepository {
     }
   }
 
-  static Future<void> _downloadOutdated(SharedPreferences preferences) async {
+  static Future<void> _downloadOutdated(
+    SharedPreferences preferences, {
+    http.Client? client,
+    Duration timeout = _requestTimeout,
+  }) async {
     final pending = _datasets
         .where((dataset) => statusOf(dataset) == DatasetStatus.updateAvailable)
         .toList();
     await Future.wait(
       pending.map((dataset) async {
         try {
-          await _download(dataset, preferences);
+          await _download(
+            dataset,
+            preferences,
+            client: client,
+            timeout: timeout,
+          );
         } on Object catch (error) {
           debugPrint('Auto-update of "${dataset.id}" failed: $error');
         }
@@ -629,12 +712,15 @@ final class AppDataRepository {
 
   static Future<bool> _download(
     DatasetInfo dataset,
-    SharedPreferences preferences,
-  ) async {
+    SharedPreferences preferences, {
+    http.Client? client,
+    Duration timeout = _requestTimeout,
+  }) async {
     if (statusOf(dataset) == DatasetStatus.upToDate) return false;
-    final response = await http
-        .get(Uri.parse(dataset.url))
-        .timeout(_requestTimeout);
+    final response =
+        await (client?.get(Uri.parse(dataset.url)) ??
+                http.get(Uri.parse(dataset.url)))
+            .timeout(timeout);
     if (response.statusCode != 200) {
       throw DataUpdateException(
         '"${dataset.id}" request returned HTTP ${response.statusCode}.',
@@ -674,9 +760,10 @@ final class AppDataRepository {
   static List<MainCategory> _buildCategories() => [
     for (final dataset in _datasets)
       if (_activeJson[dataset.id] != null)
-        MainCategory.fromJson(
-          _object(jsonDecode(_activeJson[dataset.id]!), 'dataset'),
-        ),
+        MainCategory.fromJson({
+          ..._object(jsonDecode(_activeJson[dataset.id]!), 'dataset'),
+          'id': dataset.id,
+        }),
   ];
 
   static String _sha256(List<int> bytes) => sha256.convert(bytes).toString();

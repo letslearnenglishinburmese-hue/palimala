@@ -45,5 +45,13 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Local release signing material; never commit these files.
+/android/key.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.mobileprovision
+
 # Widget Preview related
 .widget_preview/

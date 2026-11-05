@@ -30,8 +30,7 @@ const _legacyDataPath = 'assets/pali_data.json';
 const _legacyVersionPath = 'assets/pali_data_version.json';
 
 const _rawBase =
-    'https://raw.githubusercontent.com/letslearnenglishinburmese-hue/'
-    'palimala/refs/heads/main/assets';
+    'https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets';
 
 /// Display order used by the app. Unknown files are appended alphabetically.
 const _order = <String>[

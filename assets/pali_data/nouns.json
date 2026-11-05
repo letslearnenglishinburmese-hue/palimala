@@ -85,7 +85,7 @@
           "translateMm": "အဘိုး",
           "translateEn": "Paternal grandfather",
           "example": {
-            "paliMm": "ပိတာမဟော ဓမ္မံ သုဏောတိ။",
+            "paliMm": "ပိတာမဟော ဓမ္မံ သုဏာတိ။",
             "paliRoman": "Pitāmaho dhammaṃ suṇāti.",
             "translateMm": "အဘိုးသည် တရားတော်ကို နာယူ၏။",
             "translateEn": "The paternal grandfather listens to the Dhamma."
@@ -3329,6 +3329,252 @@
             "paliRoman": "So kuñcikāya dvāraṃ āvaṭeti.",
             "translateMm": "သူ သော့နဲ့ တံခါးကို ဖွင့်လိုက်တယ်။",
             "translateEn": "He opens the door with a key."
+          }
+        }
+      ]
+    },
+    {
+      "titleMm": "ဂေဟဘဏ္ဍာနိ",
+      "titleEn": "Furniture",
+      "vocabList": [
+        {
+          "paliMm": "မဉ္စော",
+          "paliRoman": "Mañco",
+          "translateMm": "ခုတင်",
+          "translateEn": "Couch, Bedstead",
+          "example": {
+            "paliMm": "သော မဉ္စေ နိပဇ္ဇတိ။",
+            "paliRoman": "So mañce nipajjati.",
+            "translateMm": "သူ ခုတင်ပေါ်မှာ လဲလျောင်းနေတယ်။",
+            "translateEn": "He lies down on the bedstead."
+          }
+        },
+        {
+          "paliMm": "ပီဌံ",
+          "paliRoman": "Pīṭhaṃ",
+          "translateMm": "ကုလားထိုင်",
+          "translateEn": "Chair",
+          "example": {
+            "paliMm": "သီဿော ပီဌေ နိသီဒတိ။",
+            "paliRoman": "Sisso pīṭhe nisīdati.",
+            "translateMm": "ကျောင်းသားက ကုလားထိုင်ပေါ်မှာ ထိုင်နေတယ်။",
+            "translateEn": "The student sits on the chair."
+          }
+        },
+        {
+          "paliMm": "သေယျာ",
+          "paliRoman": "Seyyā",
+          "translateMm": "အိပ်ရာ",
+          "translateEn": "Bed",
+          "example": {
+            "paliMm": "သာ သုန္ဒရံ သေယျံ သဇ္ဇေတိ။",
+            "paliRoman": "Sā sundaraṃ seyyaṃ sajjeti.",
+            "translateMm": "သူငယ်မလေးက လှပတဲ့ အိပ်ရာကို ပြင်ဆင်နေတယ်။",
+            "translateEn": "She prepares a beautiful bed."
+          }
+        },
+        {
+          "paliMm": "ဘိသိ",
+          "paliRoman": "Bhisi",
+          "translateMm": "မွေ့ယာ",
+          "translateEn": "Mattress",
+          "example": {
+            "paliMm": "မဉ္စဿ ဥပရိ ဘိသိ အတ္ထိ။",
+            "paliRoman": "Mañcassa upari bhisi atthi.",
+            "translateMm": "ခုတင်ပေါ်မှာ မွေ့ယာ ရှိတယ်။",
+            "translateEn": "There is a mattress on the bed."
+          }
+        },
+        {
+          "paliMm": "ဗိမ္ဗောဟနံ",
+          "paliRoman": "Bimbohanaṃ",
+          "translateMm": "ခေါင်းအုံး",
+          "translateEn": "Pillow",
+          "example": {
+            "paliMm": "သော ဗိမ္ဗောဟနေ သီသံ ဌပေတိ။",
+            "paliRoman": "So bimbohane sīsaṃ ṭhapeti.",
+            "translateMm": "သူ ခေါင်းအုံးပေါ် ခေါင်းတင်ထားတယ်။",
+            "translateEn": "He rests his head on the pillow."
+          }
+        },
+        {
+          "paliMm": "ကောဇဝေါ",
+          "paliRoman": "Kojavo",
+          "translateMm": "ကော်ဇော",
+          "translateEn": "Carpet",
+          "example": {
+            "paliMm": "ဘူမိယံ မဟာ ကောဇဝေါ အတ္ထတော ဟောတိ။",
+            "paliRoman": "Bhūmiyaṃ mahā kojavo atthato hoti.",
+            "translateMm": "ကြမ်းပြင်ပေါ်မှာ ကော်ဇောကြီး ခင်းထားတယ်။",
+            "translateEn": "A large carpet is spread on the floor."
+          }
+        },
+        {
+          "paliMm": "ကိလဉ္ဇော",
+          "paliRoman": "Kilañjo",
+          "translateMm": "ဖျာ၊ သင်ဖြူး",
+          "translateEn": "Mat",
+          "example": {
+            "paliMm": "သော ကိလဉ္ဇေ နိသီဒတိ။",
+            "paliRoman": "So kilañje nisīdati.",
+            "translateMm": "သူ ဖျာပေါ်မှာ ထိုင်နေတယ်။",
+            "translateEn": "He sits on the mat."
+          }
+        },
+        {
+          "paliMm": "အတ္ထရဏံ",
+          "paliRoman": "Attharaṇaṃ",
+          "translateMm": "အခင်း",
+          "translateEn": "Bed sheet, Covering",
+          "example": {
+            "paliMm": "သာ သေယျာယံ အတ္ထရဏံ အတ္ထရတိ။",
+            "paliRoman": "Sā seyyāyaṃ attharaṇaṃ attharati.",
+            "translateMm": "သူငယ်မလေးက အိပ်ရာပေါ်မှာ အခင်း ခင်းနေတယ်။",
+            "translateEn": "She spreads a sheet on the bed."
+          }
+        },
+        {
+          "paliMm": "သာဏိ",
+          "paliRoman": "Sāṇi",
+          "translateMm": "ကန့်လန့်ကာ",
+          "translateEn": "Curtain",
+          "example": {
+            "paliMm": "သော ဒွါရေ သာဏိံ လဂ္ဂေတိ။",
+            "paliRoman": "So dvāre sāṇiṃ laggeti.",
+            "translateMm": "သူ တံခါးမှာ ကန့်လန့်ကာ ချိတ်ဆွဲထားတယ်။",
+            "translateEn": "He hangs a curtain at the door."
+          }
+        },
+        {
+          "paliMm": "မကသဇာလံ",
+          "paliRoman": "Makasajālaṃ",
+          "translateMm": "ခြင်ထောင်",
+          "translateEn": "Mosquito-net",
+          "example": {
+            "paliMm": "ရတ္တိယံ သော မကသဇာလံ ဗန္ဓတိ။",
+            "paliRoman": "Rattiyaṃ so makasajālaṃ bandhati.",
+            "translateMm": "ညဘက်မှာ သူ ခြင်ထောင် ထောင်ထားတယ်။",
+            "translateEn": "He ties up a mosquito-net at night."
+          }
+        },
+        {
+          "paliMm": "ဘောဇနဖလကော",
+          "paliRoman": "Bhojanaphalako",
+          "translateMm": "စားပွဲခုံ",
+          "translateEn": "Table",
+          "example": {
+            "paliMm": "ဘောဇနဖလကေ အာဟာရော အတ္ထိ။",
+            "paliRoman": "Bhojanaphalake āhāro atthi.",
+            "translateMm": "စားပွဲခုံပေါ်မှာ အစားအသောက် ရှိတယ်။",
+            "translateEn": "There is food on the dining table."
+          }
+        },
+        {
+          "paliMm": "စာဋိ",
+          "paliRoman": "Cāṭi",
+          "translateMm": "အိုး",
+          "translateEn": "Pot",
+          "example": {
+            "paliMm": "သာ စာဋိယာ ဥဒကံ အာနယတိ။",
+            "paliRoman": "Sā cāṭiyā udakaṃ ānayati.",
+            "translateMm": "သူငယ်မလေးက အိုးနဲ့ ရေ ယူလာတယ်။",
+            "translateEn": "She brings water in a pot."
+          }
+        },
+        {
+          "paliMm": "ထာလီ",
+          "paliRoman": "Thālī",
+          "translateMm": "ထမင်းအိုး",
+          "translateEn": "Rice pot",
+          "example": {
+            "paliMm": "မာတာ ထာလိယံ ဩဒနံ ပစတိ။",
+            "paliRoman": "Mātā thāliyaṃ odanaṃ pacati.",
+            "translateMm": "မိခင်က ထမင်းအိုးထဲမှာ ထမင်းချက်နေတယ်။",
+            "translateEn": "The mother cooks rice in the pot."
+          }
+        },
+        {
+          "paliMm": "ဘာဇနံ",
+          "paliRoman": "Bhājanaṃ",
+          "translateMm": "ခွက်၊ အိုးခွက်",
+          "translateEn": "Vessel, Container",
+          "example": {
+            "paliMm": "သော ဘာဇနေ ခီရံ ဌပေတိ။",
+            "paliRoman": "So bhājane khīraṃ ṭhapeti.",
+            "translateMm": "သူ ခွက်ထဲမှာ နို့ ထည့်ထားတယ်။",
+            "translateEn": "He keeps milk in the container."
+          }
+        },
+        {
+          "paliMm": "ထာလကော / ထာလံ",
+          "paliRoman": "Thālako / Thālaṃ",
+          "translateMm": "ခွက်၊ ပန်းကန်",
+          "translateEn": "Cup, Dish",
+          "example": {
+            "paliMm": "သော ထာလကေန သူပံ ပိဝတိ။",
+            "paliRoman": "So thālakena sūpaṃ pivati.",
+            "translateMm": "သူ ပန်းကန်လုံးနဲ့ ဟင်းရည် သောက်နေတယ်။",
+            "translateEn": "He drinks soup from the bowl/dish."
+          }
+        },
+        {
+          "paliMm": "ဃဋော",
+          "paliRoman": "Ghaṭo",
+          "translateMm": "ရေအိုး",
+          "translateEn": "Water pot",
+          "example": {
+            "paliMm": "ဒါရိကာ ဃဋေန ဥဒကံ အာဟာရတိ။",
+            "paliRoman": "Dārikā ghaṭena udakaṃ āharati.",
+            "translateMm": "မိန်းကလေးက ရေအိုးနဲ့ ရေ ခတ်လာတယ်။",
+            "translateEn": "The girl fetches water with a water pot."
+          }
+        },
+        {
+          "paliMm": "ပစ္ဆိ",
+          "paliRoman": "Pacchi",
+          "translateMm": "တောင်း",
+          "translateEn": "Basket",
+          "example": {
+            "paliMm": "သာ ပစ္ဆိယံ ဖလာနိ ဌပေတိ။",
+            "paliRoman": "Sā pacchiyaṃ phalāni ṭhapeti.",
+            "translateMm": "သူငယ်မလေးက တောင်းထဲမှာ အသီးအနှံတွေ ထည့်ထားတယ်။",
+            "translateEn": "She keeps fruits in the basket."
+          }
+        },
+        {
+          "paliMm": "ကဋစ္ဆု",
+          "paliRoman": "Kaṭacchu",
+          "translateMm": "ယောက်မ",
+          "translateEn": "Spoon, Ladle",
+          "example": {
+            "paliMm": "မာတာ ကဋစ္ဆုနာ သူပံ အာလောဠေတိ။",
+            "paliRoman": "Mātā kaṭacchunā sūpaṃ āloḷeti.",
+            "translateMm": "မိခင်က ယောက်မနဲ့ ဟင်းရည်ကို မွှေနေတယ်။",
+            "translateEn": "The mother stirs the soup with a ladle."
+          }
+        },
+        {
+          "paliMm": "မဉ္ဇူသာ",
+          "paliRoman": "Mañjūsā",
+          "translateMm": "သေတ္တာ",
+          "translateEn": "Box, Chest",
+          "example": {
+            "paliMm": "သော မဉ္ဇူသာယံ ဝတ္ထာနိ ဌပေတိ။",
+            "paliRoman": "So mañjūsāyaṃ vatthāni ṭhapeti.",
+            "translateMm": "သူ သေတ္တာထဲမှာ အဝတ်အထည်တွေ ထည့်ထားတယ်။",
+            "translateEn": "He keeps clothes in the chest/box."
+          }
+        },
+        {
+          "paliMm": "အာဒါသော",
+          "paliRoman": "Ādāso",
+          "translateMm": "မှန်",
+          "translateEn": "Mirror",
+          "example": {
+            "paliMm": "သာ အာဒါသေ မုခံ ပဿတိ။",
+            "paliRoman": "Sā ādāse mukhaṃ passati.",
+            "translateMm": "သူငယ်မလေးက မှန်ထဲမှာ မျက်နှာ ကြည့်နေတယ်။",
+            "translateEn": "She looks at her face in the mirror."
           }
         }
       ]
