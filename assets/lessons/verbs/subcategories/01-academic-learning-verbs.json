@@ -128,9 +128,9 @@
       "translateMm": "နှိုင်းယှဉ်သည်",
       "translateEn": "Compares",
       "example": {
-        "paliMm": "ဝိညူ စုန္နံ စုန္နေန ဥပနိဓေတိ။",
-        "paliRoman": "Viññū cunnaṃ cunnena upanidheti.",
-        "translateMm": "ပညာရှိသည် အချက်အလက်တစ်ခုကို အခြားတစ်ခုနှင့် နှိုင်းယှဉ်၏။",
+        "paliMm": "ဝိညူ အညေန အညံ ဥပနိဓေတိ။",
+        "paliRoman": "Viññū aññena aññaṃ upanidheti.",
+        "translateMm": "ပညာရှိသည် အကြောင်းအရာတစ်ခုနှင့် အခြားအကြောင်းအရာတစ်ခုကို နှိုင်းယှဉ်၏။",
         "translateEn": "The scholar compares one detail with another."
       }
     },
