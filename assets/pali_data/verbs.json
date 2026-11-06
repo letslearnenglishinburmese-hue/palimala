@@ -3844,8 +3844,8 @@
         {
           "paliMm": "ကရောတိ",
           "paliRoman": "Karoti",
-          "translateMm": "ပြုလုပ်သည်၊ ဖန်တီးသည်",
-          "translateEn": "Makes / Creates",
+          "translateMm": "ပြုလုပ်သည်",
+          "translateEn": "Makes",
           "example": {
             "paliMm": "သော ဟတ္ထေန ပီဌံ ကရောတိ။",
             "paliRoman": "So hatthena pīṭhaṃ karoti.",
