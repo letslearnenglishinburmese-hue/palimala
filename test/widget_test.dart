@@ -1219,7 +1219,7 @@ void main() {
 
     expect(find.text('Nouns (Nāma)'), findsOneWidget);
     expect(find.text('Finite Verbs (Ākhyāta)'), findsOneWidget);
-    expect(find.textContaining('sha256'), findsWidgets);
+    expect(find.textContaining('sha256'), findsNothing);
     expect(find.text('Up to date'), findsWidgets);
 
     await tester.drag(find.byType(ListView).last, const Offset(0, -400));
@@ -1242,6 +1242,21 @@ void main() {
 
     final preferences = await SharedPreferences.getInstance();
     expect(preferences.getBool('pali_auto_update_enabled'), isTrue);
+  });
+
+  testWidgets('Viber contact number uses Western digits in Myanmar UI', (
+    WidgetTester tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    await tester.pumpWidget(const PaliLearningApp());
+    await tester.tap(find.byIcon(Icons.menu_rounded));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('ဆက်သွယ်ရန်'));
+    await tester.pumpAndSettle();
+
+    final number = tester.widget<Text>(find.text('+959426882932'));
+    expect(number.locale, const Locale('en', 'US'));
+    expect(number.style?.fontFamily, 'SourceSans3');
   });
 
   testWidgets('home shell opens when remote config is unavailable', (

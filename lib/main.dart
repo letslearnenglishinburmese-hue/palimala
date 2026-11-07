@@ -502,6 +502,54 @@ class _VocabularyQuizScreenState extends State<VocabularyQuizScreen> {
 class _HomeScreenState extends State<HomeScreen> {
   String _searchQuery = '';
   final TextEditingController _searchController = TextEditingController();
+  static const _dailyLearningExcludedIds = {
+    'dialogues',
+    'conversation_patterns',
+    'pali_stories',
+  };
+  Set<String>? _selectedDailyCategoryIds;
+
+  List<MainCategory> get _dailyLearningCategories => appData
+      .where((category) => !_dailyLearningExcludedIds.contains(category.id))
+      .where(
+        (category) => category.subCategories.any(
+          (subCategory) => (subCategory.vocabList ?? []).isNotEmpty,
+        ),
+      )
+      .toList(growable: false);
+
+  @override
+  void initState() {
+    super.initState();
+    unawaited(_loadDailyLearningCategories());
+  }
+
+  Future<void> _loadDailyLearningCategories() async {
+    final preferences = await SharedPreferences.getInstance();
+    final available = _dailyLearningCategories
+        .map((category) => category.id)
+        .toSet();
+    final saved = preferences.getStringList('daily_learning_category_ids');
+    if (!mounted) return;
+    setState(
+      () => _selectedDailyCategoryIds = saved == null
+          ? available
+          : saved.toSet().intersection(available),
+    );
+  }
+
+  Future<void> _setDailyLearningCategories(Set<String> ids) async {
+    final available = _dailyLearningCategories
+        .map((category) => category.id)
+        .toSet();
+    final selection = ids.intersection(available);
+    setState(() => _selectedDailyCategoryIds = selection);
+    final preferences = await SharedPreferences.getInstance();
+    await preferences.setStringList(
+      'daily_learning_category_ids',
+      selection.toList()..sort(),
+    );
+  }
 
   @override
   void dispose() {
@@ -543,11 +591,18 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildHome(bool isMm) {
     final config = RemoteAppConfigRepository.current;
-    final words = _allWords();
+    final selectedIds =
+        _selectedDailyCategoryIds ??
+        _dailyLearningCategories.map((category) => category.id).toSet();
+    final words = _allWords()
+        .where((result) => selectedIds.contains(result.category.id))
+        .toList(growable: false);
     if (words.isEmpty) {
       return Center(
         child: Text(
-          isMm ? 'သင်ခန်းစာ မရရှိသေးပါ။' : 'No lessons are available yet.',
+          isMm
+              ? 'ရွေးချယ်ထားသော အမျိုးအစားတွင် သင်ခန်းစာ မရှိပါ။'
+              : 'No lessons are available in the selected categories.',
         ),
       );
     }
@@ -853,6 +908,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildSettings(bool isMm) {
+    final categories = _dailyLearningCategories;
+    final selected =
+        _selectedDailyCategoryIds ?? categories.map((item) => item.id).toSet();
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
@@ -880,6 +938,60 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           value: widget.isDarkMode,
           onChanged: widget.onThemeChanged,
+        ),
+        const Divider(height: 32),
+        ExpansionTile(
+          tilePadding: EdgeInsets.zero,
+          title: Text(
+            isMm
+                ? 'ယနေ့လေ့လာရန် အမျိုးအစားများ'
+                : 'Today’s learning categories',
+          ),
+          subtitle: Text(
+            '${selected.intersection(categories.map((c) => c.id).toSet()).length}/${categories.length} ${isMm ? 'ရွေးထားသည်' : 'selected'}',
+          ),
+          children: [
+            Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                isMm
+                    ? 'ရွေးချယ်ထားသော အမျိုးအစားများမှ စကားလုံးကို ပြသပါမည်။'
+                    : 'The daily word comes from your selected categories.',
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+            ),
+            Wrap(
+              spacing: 8,
+              children: [
+                TextButton(
+                  onPressed: () => _setDailyLearningCategories(
+                    categories.map((c) => c.id).toSet(),
+                  ),
+                  child: Text(isMm ? 'အားလုံးရွေးရန်' : 'Select all'),
+                ),
+                TextButton(
+                  onPressed: () => _setDailyLearningCategories({}),
+                  child: Text(isMm ? 'အားလုံးဖြုတ်ရန်' : 'Deselect all'),
+                ),
+              ],
+            ),
+            for (final category in categories)
+              CheckboxListTile(
+                contentPadding: EdgeInsets.zero,
+                controlAffinity: ListTileControlAffinity.leading,
+                title: Text(isMm ? category.titleMm : category.titleEn),
+                value: selected.contains(category.id),
+                onChanged: (value) {
+                  final next = Set<String>.from(selected);
+                  if (value == true) {
+                    next.add(category.id);
+                  } else {
+                    next.remove(category.id);
+                  }
+                  _setDailyLearningCategories(next);
+                },
+              ),
+          ],
         ),
         const Divider(height: 32),
         Text(
@@ -1052,7 +1164,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               : 'PaliMala is an educational app for learning Pāḷi step by step, with lessons and practical vocabulary available in Myanmar and English.',
                         ),
                         _aboutSection(
-                          isMm ? 'သင်ခန်းစာနှင့် လေ့လာစရာများ' : 'Learning resources',
+                          isMm
+                              ? 'သင်ခန်းစာနှင့် လေ့လာစရာများ'
+                              : 'Learning resources',
                           isMm
                               ? 'နာမ်၊ ကြိယာ၊ နာမဝိသေသန၊ ကြိယာဝိသေသန၊ နိပါတ်နှင့် အချိန်ပြနိပါတ်များ၊ ပညာရေးဆိုင်ရာ ကြိယာများ၊ နေ့စဉ်သုံး စကားပြောခန်းများနှင့် ပါဠိပုံပြင်များ ပါဝင်ပါသည်။'
                               : 'Explore nouns, verbs, adjectives, adverbs, particles including time particles, academic learning verbs, everyday dialogues, and Pāḷi stories.',
@@ -1124,15 +1238,17 @@ class _HomeScreenState extends State<HomeScreen> {
                         contentPadding: EdgeInsets.zero,
                         leading: const Icon(Icons.phone_in_talk_outlined),
                         title: const Text('Viber'),
-                        subtitle: const Text('+959426882932'),
+                        subtitle: const Text(
+                          '+959426882932',
+                          locale: Locale('en', 'US'),
+                          style: TextStyle(fontFamily: 'SourceSans3'),
+                        ),
                         onTap: () => _openContactLink(
                           dialogContext,
                           Uri(
                             scheme: 'viber',
                             host: 'chat',
-                            queryParameters: const {
-                              'number': '+959426882932',
-                            },
+                            queryParameters: const {'number': '+959426882932'},
                           ),
                           isMm,
                         ),
@@ -1896,8 +2012,8 @@ class _DataDownloadSheetState extends State<DataDownloadSheet> {
                   const SizedBox(height: 4),
                   Text(
                     isMm
-                        ? 'လိုအပ်သော အခန်းများကို ရွေးချယ်ရယူနိုင်ပါသည်။ ဖိုင်တစ်ခုစီကို ဟက်ရှ်ဖြင့် စစ်ဆေးပါသည်။'
-                        : 'Download only the chapters you need. Every file is verified against its published hash.',
+                        ? 'လိုအပ်သော အခန်းများကို ရွေးချယ်ရယူနိုင်ပါသည်။ ဖိုင်တစ်ခုစီကို အလိုအလျောက် စစ်ဆေးပါသည်။'
+                        : 'Download only the chapters you need. Every file is verified automatically.',
                     style: theme.textTheme.bodySmall,
                   ),
                 ],
@@ -2014,7 +2130,6 @@ class _DataDownloadSheetState extends State<DataDownloadSheet> {
               fontWeight: FontWeight.w600,
             ),
           ),
-          Text('sha256: ${dataset.shortHash}'),
         ],
       ),
       trailing: isUpToDate
