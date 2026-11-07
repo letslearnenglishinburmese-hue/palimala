@@ -67,7 +67,6 @@ flutter:
   assets:
     - assets/app_config.json
     - assets/palimala_logo.png
-    - assets/mmdict.json
     # Editable lesson source files loaded directly by the app at startup.
     # Flutter asset directories are not recursive, so list each level.
     - assets/lessons/adjectives/

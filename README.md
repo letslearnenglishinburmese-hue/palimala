@@ -39,10 +39,9 @@ assets/lessons/
 subcategory file paths. Each subcategory file holds that subcategory's words or
 dialogues. The app bundles and reads these lesson source files directly at
 startup, so edits in `assets/lessons/` are visible after a full app restart or
-rebuild, even when a device has an older data set cached. `assets/mmdict.json`
-is also loaded directly for the dictionary. Generated category files in
-`assets/pali_data/` remain the baseline for the online update system; edit the
-lesson source files rather than these generated copies.
+rebuild, even when a device has an older data set cached. Generated category
+files in `assets/pali_data/` remain the baseline for the online update system;
+edit the lesson source files rather than these generated copies.
 
 `assets/pali_data_manifest.json` is the index published to GitHub. It lists,
 for every data set, the raw URL and the SHA-256 of the file, so an installed app

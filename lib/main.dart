@@ -7,7 +7,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'app_data.dart';
-import 'dictionary_data.dart';
 import 'firebase_options.dart';
 import 'pali_transliteration.dart';
 import 'remote_app_config.dart';
@@ -203,13 +202,6 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
                 label: currentLang == AppLanguage.myanmar
                     ? 'ဆက်တင်'
                     : 'Settings',
-              ),
-              NavigationDestination(
-                icon: const Icon(Icons.menu_book_outlined),
-                selectedIcon: const Icon(Icons.menu_book_rounded),
-                label: currentLang == AppLanguage.myanmar
-                    ? 'အဘိဓာန်'
-                    : 'Dictionary',
               ),
             ],
           ),
@@ -554,16 +546,10 @@ class _DashboardStat extends StatelessWidget {
 class _HomeScreenState extends State<HomeScreen> {
   String _searchQuery = '';
   final TextEditingController _searchController = TextEditingController();
-  String _dictionaryQuery = '';
-  final TextEditingController _dictionaryController = TextEditingController();
-  Future<List<DictionaryEntry>>? _dictionaryLoad;
-  Timer? _dictionarySearchDebounce;
 
   @override
   void dispose() {
-    _dictionarySearchDebounce?.cancel();
     _searchController.dispose();
-    _dictionaryController.dispose();
     super.dispose();
   }
 
@@ -597,33 +583,6 @@ class _HomeScreenState extends State<HomeScreen> {
               subCategory: subCategory,
             ),
     ];
-  }
-
-  List<DictionaryEntry> _findDictionaryEntries(
-    List<DictionaryEntry> entries,
-    String query,
-  ) {
-    final hasMyanmarCharacters = query.runes.any(
-      (character) =>
-          (character >= 0x1000 && character <= 0x109f) ||
-          (character >= 0xa9e0 && character <= 0xa9ff) ||
-          (character >= 0xaa60 && character <= 0xaa7f),
-    );
-    final exactMatches = entries
-        .where((entry) => entry.normalizedWord == query)
-        .take(100)
-        .toList();
-    if (exactMatches.length == 100) return exactMatches;
-
-    final otherMatches = entries
-        .where(
-          (entry) =>
-              entry.normalizedWord != query &&
-              (entry.normalizedWord.contains(query) ||
-                  (hasMyanmarCharacters && entry.definition.contains(query))),
-        )
-        .take(100 - exactMatches.length);
-    return [...exactMatches, ...otherMatches];
   }
 
   Widget _buildHome(bool isMm) {
@@ -960,125 +919,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _buildDictionary(bool isMm) {
-    _dictionaryLoad ??= DictionaryRepository.loadBundled();
-
-    return FutureBuilder<List<DictionaryEntry>>(
-      future: _dictionaryLoad,
-      builder: (context, snapshot) {
-        final query = _dictionaryQuery.trim().toLowerCase();
-        final results = query.isEmpty || !snapshot.hasData
-            ? const <DictionaryEntry>[]
-            : _findDictionaryEntries(snapshot.data!, query);
-
-        return Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
-              child: TextField(
-                controller: _dictionaryController,
-                onChanged: (value) {
-                  _dictionarySearchDebounce?.cancel();
-                  _dictionarySearchDebounce = Timer(
-                    const Duration(milliseconds: 250),
-                    () {
-                      if (mounted) {
-                        setState(() => _dictionaryQuery = value);
-                      }
-                    },
-                  );
-                },
-                decoration: InputDecoration(
-                  hintText: isMm
-                      ? 'ပါဠိစကားလုံး သို့မဟုတ် အဓိပ္ပာယ် ရှာရန်'
-                      : 'Search Pāḷi words or definitions',
-                  prefixIcon: const Icon(Icons.search_rounded),
-                  suffixIcon: _dictionaryQuery.isEmpty
-                      ? null
-                      : IconButton(
-                          tooltip: isMm ? 'ဖျက်ရန်' : 'Clear',
-                          onPressed: () {
-                            _dictionarySearchDebounce?.cancel();
-                            _dictionaryController.clear();
-                            setState(() => _dictionaryQuery = '');
-                          },
-                          icon: const Icon(Icons.clear_rounded),
-                        ),
-                  border: const OutlineInputBorder(),
-                ),
-              ),
-            ),
-            Expanded(
-              child: snapshot.hasError
-                  ? Center(
-                      child: Padding(
-                        padding: const EdgeInsets.all(24),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            Text(
-                              isMm
-                                  ? 'အဘိဓာန်ကို ဖွင့်၍မရပါ။'
-                                  : 'The dictionary could not be loaded.',
-                              textAlign: TextAlign.center,
-                            ),
-                            const SizedBox(height: 12),
-                            FilledButton(
-                              onPressed: () => setState(() {
-                                _dictionaryLoad =
-                                    DictionaryRepository.loadBundled(
-                                      reload: true,
-                                    );
-                              }),
-                              child: Text(isMm ? 'ပြန်ကြိုးစားရန်' : 'Retry'),
-                            ),
-                          ],
-                        ),
-                      ),
-                    )
-                  : !snapshot.hasData
-                  ? const Center(child: CircularProgressIndicator())
-                  : _dictionaryQuery.trim().isEmpty
-                  ? Center(
-                      child: Text(
-                        isMm
-                            ? 'ပါဠိစကားလုံး သို့မဟုတ် မြန်မာအဓိပ္ပာယ်ကို ရိုက်ရှာပါ'
-                            : 'Type a Pāḷi word or Myanmar definition',
-                        textAlign: TextAlign.center,
-                      ),
-                    )
-                  : results.isEmpty
-                  ? Center(child: Text(isMm ? 'မတွေ့ပါ' : 'No entries found'))
-                  : ListView.builder(
-                      padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
-                      itemCount: results.length,
-                      itemBuilder: (context, index) {
-                        final entry = results[index];
-                        return Card(
-                          child: ListTile(
-                            title: Text(
-                              entry.word,
-                              style: TextStyle(
-                                color: Theme.of(context).colorScheme.primary,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            subtitle: Padding(
-                              padding: const EdgeInsets.only(top: 8),
-                              child: Text(entry.definition),
-                            ),
-                            isThreeLine: true,
-                          ),
-                        );
-                      },
-                    ),
-            ),
-          ],
-        );
-      },
-    );
-  }
-
   Widget _buildSettings(bool isMm) {
     return ListView(
       padding: const EdgeInsets.all(16),
@@ -1273,8 +1113,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         _aboutSection(
                           isMm ? 'လေ့လာနိုင်သော ကဏ္ဍများ' : 'Study sections',
                           isMm
-                              ? 'နာမ်၊ ကြိယာ၊ နာမဝိသေသန၊ ကြိယာဝိသေသန၊ နိပါတ်နှင့် နေ့စဉ်သုံး စကားပြောခန်းများကို လေ့လာနိုင်ပါသည်။ အဘိဓာန်တွင်လည်း ပါဠိစကားလုံးများကို ရှာဖွေနိုင်ပါသည်။'
-                              : 'Study nouns, verbs, adjectives, adverbs, particles, and everyday dialogues. You can also look up Pāḷi words in the dictionary.',
+                              ? 'နာမ်၊ ကြိယာ၊ နာမဝိသေသန၊ ကြိယာဝိသေသန၊ နိပါတ်နှင့် နေ့စဉ်သုံး စကားပြောခန်းများကို လေ့လာနိုင်ပါသည်။'
+                              : 'Study nouns, verbs, adjectives, adverbs, particles, and everyday dialogues.',
                         ),
                         _aboutSection(
                           isMm
@@ -1379,7 +1219,6 @@ class _HomeScreenState extends State<HomeScreen> {
           isMm ? 'စကားလုံးရှာရန်' : 'Search Word',
           isMm ? 'မှတ်ထားသည်များ' : 'Saved Words',
           isMm ? 'ဆက်တင်များ' : 'Settings',
-          isMm ? 'အဘိဓာန်' : 'Dictionary',
         ];
 
         return Scaffold(
@@ -1410,9 +1249,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ? _buildSearch(isMm)
               : selectedIndex == 2
               ? _buildSavedWords(isMm)
-              : selectedIndex == 3
-              ? _buildSettings(isMm)
-              : _buildDictionary(isMm),
+              : _buildSettings(isMm),
         );
       },
     );
