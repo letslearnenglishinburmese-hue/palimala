@@ -142,12 +142,12 @@
         {
           "paliMm": "ကဒါစိ",
           "paliRoman": "Kadāci",
-          "translateMm": "အခါတစ်ရံ",
+          "translateMm": "တစ်ခါတစ်ရံ",
           "translateEn": "Sometimes, occasionally",
           "example": {
             "paliMm": "သော ကဒါစိ ဣဓ အာဂစ္ဆတိ။",
             "paliRoman": "So kadāci idha āgacchati.",
-            "translateMm": "သူသည် အခါတစ်ရံ ဒီနေရာသို့ လာ၏။",
+            "translateMm": "သူသည် တစ်ခါတစ်ရံ ဒီနေရာသို့ လာ၏။",
             "translateEn": "He comes here sometimes."
           }
         },
@@ -202,8 +202,8 @@
         {
           "paliMm": "သယံ",
           "paliRoman": "Sayaṃ",
-          "translateMm": "မိမိကိုယ်တိုင် / ညနေ၌",
-          "translateEn": "By oneself / In the evening",
+          "translateMm": "မိမိကိုယ်တိုင်",
+          "translateEn": "By oneself",
           "example": {
             "paliMm": "သိဿော သယံ ကမ္မံ ကရောတိ။",
             "paliRoman": "Sisso sayaṃ kammaṃ karoti.",
