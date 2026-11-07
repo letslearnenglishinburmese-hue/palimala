@@ -107,6 +107,7 @@ void main() {
         exitCode = 1;
         return;
       }
+      _validateLesson(subcategory, subcategoryFile.path);
       (category['subCategories'] as List<Object?>).add(subcategory);
     }
 
@@ -157,6 +158,46 @@ void main() {
   stdout.writeln('\nWrote $_manifestPath (${datasets.length} datasets).');
   stdout.writeln('Wrote $_legacyDataPath (legacy compatibility).');
   stdout.writeln('Wrote $_legacyVersionPath (legacy compatibility).');
+}
+
+void _validateLesson(Map<String, dynamic> lesson, String path) {
+  final contentType = lesson['contentType'];
+  if (contentType == null) return; // Existing vocabulary/dialogue format.
+  if (contentType != 'story') {
+    throw FormatException('$path has unsupported contentType "$contentType".');
+  }
+  for (final field in ['titleMm', 'titleEn']) {
+    if (lesson[field] is! String || (lesson[field] as String).trim().isEmpty) {
+      throw FormatException('$path requires a non-empty $field.');
+    }
+  }
+  if (lesson['schemaVersion'] != 1) {
+    throw FormatException('$path has unsupported story schemaVersion.');
+  }
+  if (lesson.containsKey('vocabList') || lesson.containsKey('dialogueList')) {
+    throw FormatException('$path mixes story and legacy lesson content.');
+  }
+  final sentences = lesson['storyList'];
+  if (sentences is! List || sentences.isEmpty) {
+    throw FormatException(
+      '$path storyList must contain at least one sentence.',
+    );
+  }
+  const sentenceFields = ['paliMm', 'paliRoman', 'translateMm', 'translateEn'];
+  for (var i = 0; i < sentences.length; i++) {
+    final sentence = sentences[i];
+    if (sentence is! Map<String, dynamic>) {
+      throw FormatException('$path storyList[$i] must be a JSON object.');
+    }
+    for (final field in sentenceFields) {
+      if (sentence[field] is! String ||
+          (sentence[field] as String).trim().isEmpty) {
+        throw FormatException(
+          '$path storyList[$i] requires a non-empty $field.',
+        );
+      }
+    }
+  }
 }
 
 void _write(String path, String contents) {

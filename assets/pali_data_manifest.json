@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-04T02:18:15.443525Z",
+  "version": "2026-11-05T14:07:07.529195Z",
   "datasets": [
     {
       "id": "nouns",
@@ -18,8 +18,8 @@
       "icon": "directions_run_rounded",
       "asset": "assets/pali_data/verbs.json",
       "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/verbs.json",
-      "sha256": "e09a9c8d09ba07b91443a0e0162ea5622a25d4eb191fc8770a9346d777f83723",
-      "bytes": 215732
+      "sha256": "f262c069c8f48b8ef7413ba29f84e03f44a34b0b96c10bd8e91081e8be8f8449",
+      "bytes": 215642
     },
     {
       "id": "adjectives",
@@ -60,6 +60,16 @@
       "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/dialogues.json",
       "sha256": "2f0f5c1357507d71cb32a980cd8e5db131bf286c4e2a9592fe3c6f77ec60c8e7",
       "bytes": 16205
+    },
+    {
+      "id": "pali_stories",
+      "titleMm": "ပါဠိပုံပြင်များ",
+      "titleEn": "Pali Stories",
+      "icon": "menu_book_rounded",
+      "asset": "assets/pali_data/pali_stories.json",
+      "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/pali_stories.json",
+      "sha256": "f8045e9c327eb4e8e56a6aef13d061cc1b94dbfa0f519086b8783d7eb1daaaf1",
+      "bytes": 148
     }
   ]
 }

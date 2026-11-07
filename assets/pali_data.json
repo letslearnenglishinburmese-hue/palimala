@@ -3717,9 +3717,9 @@
             "translateMm": "နှိုင်းယှဉ်သည်",
             "translateEn": "Compares",
             "example": {
-              "paliMm": "ဝိညူ စုန္နံ စုန္နေန ဥပနိဓေတိ။",
-              "paliRoman": "Viññū cunnaṃ cunnena upanidheti.",
-              "translateMm": "ပညာရှိသည် အချက်အလက်တစ်ခုကို အခြားတစ်ခုနှင့် နှိုင်းယှဉ်၏။",
+              "paliMm": "ဝိညူ အညေန အညံ ဥပနိဓေတိ။",
+              "paliRoman": "Viññū aññena aññaṃ upanidheti.",
+              "translateMm": "ပညာရှိသည် အကြောင်းအရာတစ်ခုနှင့် အခြားအကြောင်းအရာတစ်ခုကို နှိုင်းယှဉ်၏။",
               "translateEn": "The scholar compares one detail with another."
             }
           },
@@ -3743,7 +3743,7 @@
             "example": {
               "paliMm": "သုတဝါ သကနယံ သာဓေတိ။",
               "paliRoman": "Sutavā sakanayaṃ sādheti.",
-              "translateMm": "အကြားအမြင်ရှိသူသည် မိမိ၏ နည်းလမ်း/ယူဆချက်ကို သက်သေထူ၏။",
+              "translateMm": "အကြားအမြင်ရှိသူသည် မိမိ၏ နည်းလမ်းကို သက်သေထူ၏။",
               "translateEn": "The learned person proves his theory."
             }
           },
@@ -3762,13 +3762,13 @@
           {
             "paliMm": "သံဟရတိ",
             "paliRoman": "Saṃharati",
-            "translateMm": "အကျဉ်းချုပ်သည် / ပြုစုစုစည်းသည်",
-            "translateEn": "Summarizes / compiles",
+            "translateMm": "စုစည်းသည်",
+            "translateEn": "Collect",
             "example": {
               "paliMm": "သိဿော ကထံ သံဟရတိ။",
               "paliRoman": "Sisso kathaṃ saṃharati.",
-              "translateMm": "ကျောင်းသားသည် စကား/အကြောင်းအရာကို အကျဉ်းချုပ်၏။",
-              "translateEn": "The student summarizes the content."
+              "translateMm": "ကျောင်းသားသည် စကား/အကြောင်းအရာကို စုစည်း၏။",
+              "translateEn": "The student collects the content."
             }
           },
           {
@@ -10780,5 +10780,11 @@
         ]
       }
     ]
+  },
+  {
+    "titleMm": "ပါဠိပုံပြင်များ",
+    "titleEn": "Pali Stories",
+    "icon": "menu_book_rounded",
+    "subCategories": []
   }
 ]

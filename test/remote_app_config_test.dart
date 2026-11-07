@@ -155,6 +155,49 @@ void main() {
     expect(includingHidden.first.titleMm, 'နာမ်');
   });
 
+  test('adds a visible remote-only category with no lessons', () async {
+    final source = _config();
+    (source['categories'] as List).add({
+      'id': 'conversation_patterns',
+      'titleMm': 'ပါဠိစကားပြောပုံစံများ',
+      'titleEn': 'Pali Conversation Patterns',
+      'icon': 'school_rounded',
+      'visible': true,
+      'order': 3,
+    });
+    SharedPreferences.setMockInitialValues({});
+    final client = MockClient(
+      (_) async => http.Response.bytes(utf8.encode(jsonEncode(source)), 200),
+    );
+    addTearDown(client.close);
+    await RemoteAppConfigRepository.refresh(
+      client: client,
+      remoteUri: Uri.https('example.invalid', '/app_config.json'),
+    );
+    final config = RemoteAppConfigRepository.current;
+    final result = config.apply([
+      MainCategory(
+        id: 'verbs',
+        titleMm: 'ကြိယာ',
+        titleEn: 'Verbs',
+        icon: Icons.directions_run_rounded,
+        subCategories: const [],
+      ),
+    ]);
+
+    final added = result.singleWhere(
+      (category) => category.id == 'conversation_patterns',
+    );
+    expect(added.titleMm, 'ပါဠိစကားပြောပုံစံများ');
+    expect(added.titleEn, 'Pali Conversation Patterns');
+    expect(added.icon, Icons.school_rounded);
+    expect(added.subCategories, isEmpty);
+    expect(result.map((category) => category.id), [
+      'verbs',
+      'conversation_patterns',
+    ]);
+  });
+
   test('rejects duplicate category IDs and unknown fields', () {
     final duplicate = _config();
     (duplicate['categories'] as List)[1]['id'] = 'verbs';
@@ -193,7 +236,7 @@ void main() {
       client: MockClient((_) async => throw Exception('offline')),
       remoteUri: Uri.https('example.invalid', '/app_config.json'),
     );
-    expect(RemoteAppConfigRepository.current.categories, hasLength(6));
+    expect(RemoteAppConfigRepository.current.categories, hasLength(8));
     expect(RemoteAppConfigRepository.current.home.showDailyWord, isTrue);
   });
 

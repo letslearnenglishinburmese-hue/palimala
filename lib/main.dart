@@ -1472,62 +1472,91 @@ class _SubCategoryScreenState extends State<SubCategoryScreen> {
           ),
         ],
       ),
-      body: ListView.builder(
-        padding: const EdgeInsets.all(12.0),
-        itemCount: widget.category.subCategories.length,
-        itemBuilder: (context, index) {
-          final subCat = widget.category.subCategories[index];
-          return Card(
-            margin: const EdgeInsets.symmetric(vertical: 8),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16),
-            ),
-            child: ListTile(
-              contentPadding: const EdgeInsets.symmetric(
-                horizontal: 20,
-                vertical: 8,
-              ),
-              leading: CircleAvatar(
-                backgroundColor: Theme.of(context)
-                    .colorScheme
-                    .secondaryContainer,
-                child: Text(
-                  '${index + 1}',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontFamily: isMm ? null : 'SourceSans3',
-                    color: Theme.of(context).colorScheme.onSecondaryContainer,
-                  ),
-                ),
-              ),
-              title: Text(
-                isMm ? subCat.titleMm : subCat.titleEn,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-                style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16,
-                ),
-              ),
-              trailing: const Icon(Icons.arrow_forward_ios_rounded, size: 18),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailContentScreen(
-                      subCategory: subCat,
-                      currentLang: _currentLang,
-                      onLanguageToggle: widget.onLanguageToggle,
-                      savedWords: widget.savedWords,
-                      onSavedWordToggle: widget.onSavedWordToggle,
+      body: widget.category.subCategories.isEmpty
+          ? Center(
+              child: Padding(
+                padding: const EdgeInsets.all(24),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(
+                      Icons.menu_book_outlined,
+                      size: 48,
+                      color: Theme.of(context).colorScheme.secondary,
                     ),
+                    const SizedBox(height: 12),
+                    Text(
+                      isMm
+                          ? 'ဤအမျိုးအစားတွင် သင်ခန်းစာ မရှိသေးပါ။'
+                          : 'No lessons in this category yet.',
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context).textTheme.titleMedium,
+                    ),
+                  ],
+                ),
+              ),
+            )
+          : ListView.builder(
+              padding: const EdgeInsets.all(12.0),
+              itemCount: widget.category.subCategories.length,
+              itemBuilder: (context, index) {
+                final subCat = widget.category.subCategories[index];
+                return Card(
+                  margin: const EdgeInsets.symmetric(vertical: 8),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: ListTile(
+                    contentPadding: const EdgeInsets.symmetric(
+                      horizontal: 20,
+                      vertical: 8,
+                    ),
+                    leading: CircleAvatar(
+                      backgroundColor: Theme.of(context)
+                          .colorScheme
+                          .secondaryContainer,
+                      child: Text(
+                        '${index + 1}',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontFamily: isMm ? null : 'SourceSans3',
+                          color: Theme.of(context)
+                              .colorScheme
+                              .onSecondaryContainer,
+                        ),
+                      ),
+                    ),
+                    title: Text(
+                      isMm ? subCat.titleMm : subCat.titleEn,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    trailing: const Icon(
+                      Icons.arrow_forward_ios_rounded,
+                      size: 18,
+                    ),
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => DetailContentScreen(
+                            subCategory: subCat,
+                            currentLang: _currentLang,
+                            onLanguageToggle: widget.onLanguageToggle,
+                            savedWords: widget.savedWords,
+                            onSavedWordToggle: widget.onSavedWordToggle,
+                          ),
+                        ),
+                      );
+                    },
                   ),
                 );
               },
             ),
-          );
-        },
-      ),
     );
   }
 }
@@ -1634,11 +1663,134 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
             ),
           ),
         Expanded(
-          child: widget.subCategory.dialogueList != null
+          child: widget.subCategory.story != null
+              ? _buildStory(context)
+              : widget.subCategory.dialogueList != null
               ? _buildDialogueList(context, isMm)
               : _buildVocabList(context, isMm),
         ),
       ],
+    );
+  }
+
+  Widget _buildStory(BuildContext context) {
+    final story = widget.subCategory.story!;
+    final colors = Theme.of(context).colorScheme;
+    final textTheme = Theme.of(context).textTheme;
+    String join(String Function(StorySentence) field) =>
+        story.sentences.map(field).join(' ');
+
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 28),
+      children: [
+        Card(
+          color: colors.surfaceContainerLow,
+          child: Padding(
+            padding: const EdgeInsets.all(20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'ပုံပြင်အပြည့်အစုံ · Full story',
+                  style: textTheme.titleMedium?.copyWith(
+                    color: colors.primary,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 16),
+                SelectableText(
+                  join((sentence) => sentence.paliMm),
+                  style: textTheme.titleLarge?.copyWith(
+                    height: 1.8,
+                    fontWeight: FontWeight.w600,
+                    color: colors.onSurface,
+                  ),
+                ),
+                const SizedBox(height: 8),
+                SelectableText(
+                  join((sentence) => sentence.paliRoman),
+                  style: textTheme.bodyLarge?.copyWith(
+                    height: 1.65,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+                const Divider(height: 28),
+                SelectableText(
+                  join((sentence) => sentence.translateMm),
+                  style: textTheme.bodyLarge?.copyWith(height: 1.8),
+                ),
+                const SizedBox(height: 12),
+                SelectableText(
+                  join((sentence) => sentence.translateEn),
+                  style: textTheme.bodyLarge?.copyWith(height: 1.65),
+                ),
+              ],
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(4, 20, 4, 8),
+          child: Text(
+            'စာကြောင်းအလိုက် · Sentence by sentence',
+            style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+          ),
+        ),
+        for (var index = 0; index < story.sentences.length; index++)
+          _buildStorySentenceCard(context, story.sentences[index], index),
+      ],
+    );
+  }
+
+  Widget _buildStorySentenceCard(
+    BuildContext context,
+    StorySentence sentence,
+    int index,
+  ) {
+    final colors = Theme.of(context).colorScheme;
+    final textTheme = Theme.of(context).textTheme;
+    Widget line(String label, String value, {bool primary = false}) => Padding(
+      padding: const EdgeInsets.only(top: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            label,
+            style: textTheme.labelMedium?.copyWith(
+              color: colors.onSurfaceVariant,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          const SizedBox(height: 3),
+          SelectableText(
+            value,
+            style: textTheme.bodyLarge?.copyWith(
+              height: 1.65,
+              color: primary ? colors.primary : colors.onSurface,
+              fontWeight: primary ? FontWeight.w600 : null,
+            ),
+          ),
+        ],
+      ),
+    );
+
+    return Card(
+      margin: const EdgeInsets.symmetric(vertical: 6),
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(16, 12, 16, 16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              '${index + 1}',
+              style: textTheme.labelLarge?.copyWith(color: colors.secondary),
+            ),
+            line('ပါဠိ · Pāḷi', sentence.paliMm, primary: true),
+            line('Roman Pāḷi', sentence.paliRoman),
+            line('မြန်မာဘာသာပြန် · Burmese', sentence.translateMm),
+            line('English translation', sentence.translateEn),
+          ],
+        ),
+      ),
     );
   }
 
