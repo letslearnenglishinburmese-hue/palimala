@@ -1,6 +1,10 @@
-# palimala
+# PaliMala
 
-A new Flutter project.
+PaliMala is a bilingual learning app for studying Pāḷi through structured
+lessons, topic-based vocabulary, grammar and particles, everyday dialogues,
+and Pāḷi stories. Learners can search words, save vocabulary, listen to
+pronunciation, and practice with lesson quizzes. Lessons are available offline,
+with optional GitHub-based data updates in Settings.
 
 ## Getting Started
 
