@@ -7,7 +7,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'app_data.dart';
-import 'dictionary_data.dart';
 import 'firebase_options.dart';
 import 'pali_transliteration.dart';
 import 'remote_app_config.dart';
@@ -203,13 +202,6 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
                 label: currentLang == AppLanguage.myanmar
                     ? 'ဆက်တင်'
                     : 'Settings',
-              ),
-              NavigationDestination(
-                icon: const Icon(Icons.menu_book_outlined),
-                selectedIcon: const Icon(Icons.menu_book_rounded),
-                label: currentLang == AppLanguage.myanmar
-                    ? 'အဘိဓာန်'
-                    : 'Dictionary',
               ),
             ],
           ),
@@ -507,63 +499,13 @@ class _VocabularyQuizScreenState extends State<VocabularyQuizScreen> {
   }
 }
 
-class _DashboardStat extends StatelessWidget {
-  final IconData icon;
-  final String value;
-  final String label;
-  final bool isMyanmar;
-
-  const _DashboardStat({
-    required this.icon,
-    required this.value,
-    required this.label,
-    required this.isMyanmar,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.all(14),
-      decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.surfaceContainerHighest,
-        borderRadius: BorderRadius.circular(12),
-      ),
-      child: Row(
-        children: [
-          Icon(icon, color: Theme.of(context).colorScheme.primary),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  value,
-                  style: Theme.of(context).textTheme.titleLarge
-                      ?.copyWith(fontFamily: isMyanmar ? null : 'SourceSans3'),
-                ),
-                Text(label, maxLines: 1, overflow: TextOverflow.ellipsis),
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
 class _HomeScreenState extends State<HomeScreen> {
   String _searchQuery = '';
   final TextEditingController _searchController = TextEditingController();
-  String _dictionaryQuery = '';
-  final TextEditingController _dictionaryController = TextEditingController();
-  Future<List<DictionaryEntry>>? _dictionaryLoad;
-  Timer? _dictionarySearchDebounce;
 
   @override
   void dispose() {
-    _dictionarySearchDebounce?.cancel();
     _searchController.dispose();
-    _dictionaryController.dispose();
     super.dispose();
   }
 
@@ -597,33 +539,6 @@ class _HomeScreenState extends State<HomeScreen> {
               subCategory: subCategory,
             ),
     ];
-  }
-
-  List<DictionaryEntry> _findDictionaryEntries(
-    List<DictionaryEntry> entries,
-    String query,
-  ) {
-    final hasMyanmarCharacters = query.runes.any(
-      (character) =>
-          (character >= 0x1000 && character <= 0x109f) ||
-          (character >= 0xa9e0 && character <= 0xa9ff) ||
-          (character >= 0xaa60 && character <= 0xaa7f),
-    );
-    final exactMatches = entries
-        .where((entry) => entry.normalizedWord == query)
-        .take(100)
-        .toList();
-    if (exactMatches.length == 100) return exactMatches;
-
-    final otherMatches = entries
-        .where(
-          (entry) =>
-              entry.normalizedWord != query &&
-              (entry.normalizedWord.contains(query) ||
-                  (hasMyanmarCharacters && entry.definition.contains(query))),
-        )
-        .take(100 - exactMatches.length);
-    return [...exactMatches, ...otherMatches];
   }
 
   Widget _buildHome(bool isMm) {
@@ -713,29 +628,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ],
             ),
-          ),
-        const SizedBox(height: 14),
-        if (config.home.showStatistics)
-          Row(
-            children: [
-              Expanded(
-                child: _DashboardStat(
-                  icon: Icons.menu_book_rounded,
-                  value: '${words.length}',
-                  label: isMm ? 'ဝေါဟာရ' : 'Vocabulary',
-                  isMyanmar: isMm,
-                ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: _DashboardStat(
-                  icon: Icons.bookmark_rounded,
-                  value: '${widget.savedWords.length}',
-                  label: isMm ? 'သိမ်းထားသည်' : 'Saved words',
-                  isMyanmar: isMm,
-                ),
-              ),
-            ],
           ),
         const SizedBox(height: 24),
         if (config.home.showExploreHeading)
@@ -960,125 +852,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _buildDictionary(bool isMm) {
-    _dictionaryLoad ??= DictionaryRepository.loadBundled();
-
-    return FutureBuilder<List<DictionaryEntry>>(
-      future: _dictionaryLoad,
-      builder: (context, snapshot) {
-        final query = _dictionaryQuery.trim().toLowerCase();
-        final results = query.isEmpty || !snapshot.hasData
-            ? const <DictionaryEntry>[]
-            : _findDictionaryEntries(snapshot.data!, query);
-
-        return Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
-              child: TextField(
-                controller: _dictionaryController,
-                onChanged: (value) {
-                  _dictionarySearchDebounce?.cancel();
-                  _dictionarySearchDebounce = Timer(
-                    const Duration(milliseconds: 250),
-                    () {
-                      if (mounted) {
-                        setState(() => _dictionaryQuery = value);
-                      }
-                    },
-                  );
-                },
-                decoration: InputDecoration(
-                  hintText: isMm
-                      ? 'ပါဠိစကားလုံး သို့မဟုတ် အဓိပ္ပာယ် ရှာရန်'
-                      : 'Search Pāḷi words or definitions',
-                  prefixIcon: const Icon(Icons.search_rounded),
-                  suffixIcon: _dictionaryQuery.isEmpty
-                      ? null
-                      : IconButton(
-                          tooltip: isMm ? 'ဖျက်ရန်' : 'Clear',
-                          onPressed: () {
-                            _dictionarySearchDebounce?.cancel();
-                            _dictionaryController.clear();
-                            setState(() => _dictionaryQuery = '');
-                          },
-                          icon: const Icon(Icons.clear_rounded),
-                        ),
-                  border: const OutlineInputBorder(),
-                ),
-              ),
-            ),
-            Expanded(
-              child: snapshot.hasError
-                  ? Center(
-                      child: Padding(
-                        padding: const EdgeInsets.all(24),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            Text(
-                              isMm
-                                  ? 'အဘိဓာန်ကို ဖွင့်၍မရပါ။'
-                                  : 'The dictionary could not be loaded.',
-                              textAlign: TextAlign.center,
-                            ),
-                            const SizedBox(height: 12),
-                            FilledButton(
-                              onPressed: () => setState(() {
-                                _dictionaryLoad =
-                                    DictionaryRepository.loadBundled(
-                                      reload: true,
-                                    );
-                              }),
-                              child: Text(isMm ? 'ပြန်ကြိုးစားရန်' : 'Retry'),
-                            ),
-                          ],
-                        ),
-                      ),
-                    )
-                  : !snapshot.hasData
-                  ? const Center(child: CircularProgressIndicator())
-                  : _dictionaryQuery.trim().isEmpty
-                  ? Center(
-                      child: Text(
-                        isMm
-                            ? 'ပါဠိစကားလုံး သို့မဟုတ် မြန်မာအဓိပ္ပာယ်ကို ရိုက်ရှာပါ'
-                            : 'Type a Pāḷi word or Myanmar definition',
-                        textAlign: TextAlign.center,
-                      ),
-                    )
-                  : results.isEmpty
-                  ? Center(child: Text(isMm ? 'မတွေ့ပါ' : 'No entries found'))
-                  : ListView.builder(
-                      padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
-                      itemCount: results.length,
-                      itemBuilder: (context, index) {
-                        final entry = results[index];
-                        return Card(
-                          child: ListTile(
-                            title: Text(
-                              entry.word,
-                              style: TextStyle(
-                                color: Theme.of(context).colorScheme.primary,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            subtitle: Padding(
-                              padding: const EdgeInsets.only(top: 8),
-                              child: Text(entry.definition),
-                            ),
-                            isThreeLine: true,
-                          ),
-                        );
-                      },
-                    ),
-            ),
-          ],
-        );
-      },
-    );
-  }
-
   Widget _buildSettings(bool isMm) {
     return ListView(
       padding: const EdgeInsets.all(16),
@@ -1194,9 +967,13 @@ class _HomeScreenState extends State<HomeScreen> {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text(
-              isMm
-                  ? 'သက်ဆိုင်ရာ အက်ပ်ကို ဖွင့်၍မရပါ။ ဖုန်းတွင် Email သို့မဟုတ် Viber ရှိမရှိ စစ်ဆေးပါ။'
-                  : 'Could not open the app. Check that Email or Viber is installed.',
+              uri.scheme == 'viber'
+                  ? (isMm
+                        ? 'Viber ကို ဖွင့်၍မရပါ။ Viber အက်ပ်ကို ထည့်သွင်းထားကြောင်း စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။'
+                        : 'Could not open Viber. Make sure it is installed, then try again.')
+                  : (isMm
+                        ? 'Email အက်ပ်ကို ဖွင့်၍မရပါ။ Email အက်ပ်တစ်ခု ထည့်သွင်းထားကြောင်း စစ်ဆေးပါ။'
+                        : 'Could not open an email app. Make sure one is installed, then try again.'),
             ),
           ),
         );
@@ -1207,9 +984,13 @@ class _HomeScreenState extends State<HomeScreen> {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(
-            isMm
-                ? 'လင့်ခ်ကို ဖွင့်၍မရပါ။ ဖုန်းတွင် သက်ဆိုင်ရာ အက်ပ် ရှိမရှိ စစ်ဆေးပါ။'
-                : 'Could not open the link. Check that the required app is installed.',
+            uri.scheme == 'viber'
+                ? (isMm
+                      ? 'Viber လင့်ခ်ကို ဖွင့်၍မရပါ။ Viber အက်ပ်ကို ထည့်သွင်းထားကြောင်း စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။'
+                      : 'Could not open the Viber link. Make sure Viber is installed, then try again.')
+                : (isMm
+                      ? 'Email လင့်ခ်ကို ဖွင့်၍မရပါ။ Email အက်ပ်တစ်ခု ထည့်သွင်းထားကြောင်း စစ်ဆေးပါ။'
+                      : 'Could not open the email link. Make sure an email app is installed, then try again.'),
           ),
         ),
       );
@@ -1267,22 +1048,22 @@ class _HomeScreenState extends State<HomeScreen> {
                         _aboutSection(
                           isMm ? 'မိတ်ဆက်' : 'Overview',
                           isMm
-                              ? 'ပါဠိဝေါဟာရများသည် ပါဠိဘာသာကို အဆင့်လိုက် လေ့လာနိုင်ရန် ဖန်တီးထားသော သင်ယူရေးအက်ပ်ဖြစ်ပါသည်။ ဝေါဟာရများကို အကြောင်းအရာအလိုက် စုစည်းထားပြီး စကားလုံးတစ်လုံးချင်းစီ၏ အဓိပ္ပာယ်နှင့် ဥပမာဝါကျကို ဖော်ပြပေးပါသည်။'
-                              : 'Pāḷi Vocabularies is a learning app for studying Pāḷi step by step. Words are organized by topic and include meanings and example sentences.',
+                              ? 'PaliMala သည် ပါဠိဘာသာကို အခြေခံမှစ၍ အဆင့်လိုက် လေ့လာနိုင်ရန် ရည်ရွယ်ထားသော ပညာရေးအက်ပ်ဖြစ်ပါသည်။ သင်ခန်းစာများနှင့် လက်တွေ့အသုံးချစကားလုံးများကို မြန်မာနှင့် အင်္ဂလိပ်ဘာသာဖြင့် လေ့လာနိုင်ပါသည်။'
+                              : 'PaliMala is an educational app for learning Pāḷi step by step, with lessons and practical vocabulary available in Myanmar and English.',
                         ),
                         _aboutSection(
-                          isMm ? 'လေ့လာနိုင်သော ကဏ္ဍများ' : 'Study sections',
+                          isMm ? 'သင်ခန်းစာနှင့် လေ့လာစရာများ' : 'Learning resources',
                           isMm
-                              ? 'နာမ်၊ ကြိယာ၊ နာမဝိသေသန၊ ကြိယာဝိသေသန၊ နိပါတ်နှင့် နေ့စဉ်သုံး စကားပြောခန်းများကို လေ့လာနိုင်ပါသည်။ အဘိဓာန်တွင်လည်း ပါဠိစကားလုံးများကို ရှာဖွေနိုင်ပါသည်။'
-                              : 'Study nouns, verbs, adjectives, adverbs, particles, and everyday dialogues. You can also look up Pāḷi words in the dictionary.',
+                              ? 'နာမ်၊ ကြိယာ၊ နာမဝိသေသန၊ ကြိယာဝိသေသန၊ နိပါတ်နှင့် အချိန်ပြနိပါတ်များ၊ ပညာရေးဆိုင်ရာ ကြိယာများ၊ နေ့စဉ်သုံး စကားပြောခန်းများနှင့် ပါဠိပုံပြင်များ ပါဝင်ပါသည်။'
+                              : 'Explore nouns, verbs, adjectives, adverbs, particles including time particles, academic learning verbs, everyday dialogues, and Pāḷi stories.',
                         ),
                         _aboutSection(
                           isMm
                               ? 'အသုံးဝင်သော လုပ်ဆောင်ချက်များ'
                               : 'Learning tools',
                           isMm
-                              ? 'မြန်မာနှင့် အင်္ဂလိပ်ဘာသာဖြင့် ကြည့်ရှုခြင်း၊ စကားလုံးနှင့် အဓိပ္ပာယ်ရှာဖွေခြင်း၊ အသံထွက်နားထောင်ခြင်း၊ စကားလုံးများကို မှတ်သားခြင်းနှင့် သင်ခန်းစာအလိုက် ဉာဏ်စမ်းလေ့ကျင့်ခြင်းတို့ ပါဝင်ပါသည်။'
-                              : 'Switch between Myanmar and English, search words and meanings, listen to pronunciation, save words, and take quizzes for individual lessons.',
+                              ? 'စကားလုံးများကို ရှာဖွေခြင်း၊ နေ့စဉ်စကားလုံးနှင့် အသံထွက်ကို လေ့လာခြင်း၊ စိတ်ဝင်စားသော စကားလုံးများကို သိမ်းဆည်းခြင်းနှင့် သင်ခန်းစာအလိုက် လေ့ကျင့်ခန်းများ ဖြေဆိုခြင်းတို့ ပြုလုပ်နိုင်ပါသည်။'
+                              : 'Search vocabulary, study the word of the day and its pronunciation, save useful words, and practice with lesson quizzes.',
                         ),
                         _aboutSection(
                           isMm ? 'ဒေတာနှင့် အသုံးပြုမှု' : 'Data and updates',
@@ -1329,10 +1110,13 @@ class _HomeScreenState extends State<HomeScreen> {
                         contentPadding: EdgeInsets.zero,
                         leading: const Icon(Icons.email_outlined),
                         title: const Text('Email'),
-                        subtitle: const Text('ashinidk1993@gmail.com'),
+                        subtitle: const Text('palimalafamily@gmail.com'),
                         onTap: () => _openContactLink(
                           dialogContext,
-                          Uri(scheme: 'mailto', path: 'ashinidk1993@gmail.com'),
+                          Uri(
+                            scheme: 'mailto',
+                            path: 'palimalafamily@gmail.com',
+                          ),
                           isMm,
                         ),
                       ),
@@ -1340,13 +1124,15 @@ class _HomeScreenState extends State<HomeScreen> {
                         contentPadding: EdgeInsets.zero,
                         leading: const Icon(Icons.phone_in_talk_outlined),
                         title: const Text('Viber'),
-                        subtitle: const Text('09426882932'),
+                        subtitle: const Text('+959426882932'),
                         onTap: () => _openContactLink(
                           dialogContext,
                           Uri(
                             scheme: 'viber',
                             host: 'chat',
-                            queryParameters: const {'number': '+94742682932'},
+                            queryParameters: const {
+                              'number': '+959426882932',
+                            },
                           ),
                           isMm,
                         ),
@@ -1379,7 +1165,6 @@ class _HomeScreenState extends State<HomeScreen> {
           isMm ? 'စကားလုံးရှာရန်' : 'Search Word',
           isMm ? 'မှတ်ထားသည်များ' : 'Saved Words',
           isMm ? 'ဆက်တင်များ' : 'Settings',
-          isMm ? 'အဘိဓာန်' : 'Dictionary',
         ];
 
         return Scaffold(
@@ -1410,9 +1195,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ? _buildSearch(isMm)
               : selectedIndex == 2
               ? _buildSavedWords(isMm)
-              : selectedIndex == 3
-              ? _buildSettings(isMm)
-              : _buildDictionary(isMm),
+              : _buildSettings(isMm),
         );
       },
     );
