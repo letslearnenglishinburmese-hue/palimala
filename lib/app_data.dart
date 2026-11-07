@@ -92,25 +92,87 @@ class DialogueSpeaker {
   }
 }
 
+class StorySentence {
+  final String paliMm;
+  final String paliRoman;
+  final String translateMm;
+  final String translateEn;
+
+  const StorySentence({
+    required this.paliMm,
+    required this.paliRoman,
+    required this.translateMm,
+    required this.translateEn,
+  });
+
+  factory StorySentence.fromJson(Map<String, dynamic> json) => StorySentence(
+    paliMm: _nonEmptyStringField(json, 'paliMm'),
+    paliRoman: _nonEmptyStringField(json, 'paliRoman'),
+    translateMm: _nonEmptyStringField(json, 'translateMm'),
+    translateEn: _nonEmptyStringField(json, 'translateEn'),
+  );
+}
+
+class StoryLesson {
+  final int schemaVersion;
+  final List<StorySentence> sentences;
+
+  const StoryLesson({required this.schemaVersion, required this.sentences});
+
+  factory StoryLesson.fromJson(Map<String, dynamic> json) {
+    if (json['contentType'] != 'story') {
+      throw const FormatException('Story contentType must be "story".');
+    }
+    if (json['schemaVersion'] != 1) {
+      throw const FormatException('Unsupported story schemaVersion.');
+    }
+    _nonEmptyStringField(json, 'titleMm');
+    _nonEmptyStringField(json, 'titleEn');
+    if (json.containsKey('vocabList') || json.containsKey('dialogueList')) {
+      throw const FormatException(
+        'Story lessons cannot contain vocabList or dialogueList.',
+      );
+    }
+    final values = _array(json['storyList'], 'storyList');
+    if (values.isEmpty) {
+      throw const FormatException(
+        'A story must contain at least one sentence.',
+      );
+    }
+    final sentences = values
+        .map((value) => StorySentence.fromJson(_object(value, 'storyList[]')))
+        .toList(growable: false);
+    return StoryLesson(schemaVersion: 1, sentences: sentences);
+  }
+}
+
 class SubCategory {
   final String titleMm;
   final String titleEn;
   final List<VocabItem>? vocabList;
   final List<DialogueSpeaker>? dialogueList;
+  final StoryLesson? story;
 
   SubCategory({
     required this.titleMm,
     required this.titleEn,
     this.vocabList,
     this.dialogueList,
+    this.story,
   });
 
   factory SubCategory.fromJson(Map<String, dynamic> json) {
+    final contentType = json['contentType'];
+    if (contentType != null && contentType != 'story') {
+      throw FormatException('Unsupported lesson contentType "$contentType".');
+    }
+    final story = contentType == 'story' ? StoryLesson.fromJson(json) : null;
     final vocabList = json['vocabList'];
     final dialogueList = json['dialogueList'];
     return SubCategory(
       titleMm: _stringField(json, 'titleMm'),
       titleEn: _stringField(json, 'titleEn'),
+      story: story,
       vocabList: vocabList == null
           ? null
           : _array(vocabList, 'vocabList')
@@ -805,6 +867,14 @@ String _stringField(Map<String, dynamic> json, String field) {
   final value = json[field];
   if (value is! String) {
     throw FormatException('$field must be a string.');
+  }
+  return value;
+}
+
+String _nonEmptyStringField(Map<String, dynamic> json, String field) {
+  final value = _stringField(json, field);
+  if (value.trim().isEmpty) {
+    throw FormatException('$field must not be empty.');
   }
   return value;
 }

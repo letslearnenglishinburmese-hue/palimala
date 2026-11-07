@@ -80,6 +80,8 @@ flutter:
     - assets/lessons/nouns/subcategories/
     - assets/lessons/particles/
     - assets/lessons/particles/subcategories/
+    - assets/lessons/pali_stories/
+    - assets/lessons/pali_stories/subcategories/
     - assets/lessons/verbs/
     - assets/lessons/verbs/subcategories/
     # Generated category data consumed by the app.

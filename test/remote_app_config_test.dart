@@ -236,7 +236,7 @@ void main() {
       client: MockClient((_) async => throw Exception('offline')),
       remoteUri: Uri.https('example.invalid', '/app_config.json'),
     );
-    expect(RemoteAppConfigRepository.current.categories, hasLength(7));
+    expect(RemoteAppConfigRepository.current.categories, hasLength(8));
     expect(RemoteAppConfigRepository.current.home.showDailyWord, isTrue);
   });
 

@@ -1663,11 +1663,134 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
             ),
           ),
         Expanded(
-          child: widget.subCategory.dialogueList != null
+          child: widget.subCategory.story != null
+              ? _buildStory(context)
+              : widget.subCategory.dialogueList != null
               ? _buildDialogueList(context, isMm)
               : _buildVocabList(context, isMm),
         ),
       ],
+    );
+  }
+
+  Widget _buildStory(BuildContext context) {
+    final story = widget.subCategory.story!;
+    final colors = Theme.of(context).colorScheme;
+    final textTheme = Theme.of(context).textTheme;
+    String join(String Function(StorySentence) field) =>
+        story.sentences.map(field).join(' ');
+
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 28),
+      children: [
+        Card(
+          color: colors.surfaceContainerLow,
+          child: Padding(
+            padding: const EdgeInsets.all(20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'ပုံပြင်အပြည့်အစုံ · Full story',
+                  style: textTheme.titleMedium?.copyWith(
+                    color: colors.primary,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 16),
+                SelectableText(
+                  join((sentence) => sentence.paliMm),
+                  style: textTheme.titleLarge?.copyWith(
+                    height: 1.8,
+                    fontWeight: FontWeight.w600,
+                    color: colors.onSurface,
+                  ),
+                ),
+                const SizedBox(height: 8),
+                SelectableText(
+                  join((sentence) => sentence.paliRoman),
+                  style: textTheme.bodyLarge?.copyWith(
+                    height: 1.65,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+                const Divider(height: 28),
+                SelectableText(
+                  join((sentence) => sentence.translateMm),
+                  style: textTheme.bodyLarge?.copyWith(height: 1.8),
+                ),
+                const SizedBox(height: 12),
+                SelectableText(
+                  join((sentence) => sentence.translateEn),
+                  style: textTheme.bodyLarge?.copyWith(height: 1.65),
+                ),
+              ],
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(4, 20, 4, 8),
+          child: Text(
+            'စာကြောင်းအလိုက် · Sentence by sentence',
+            style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+          ),
+        ),
+        for (var index = 0; index < story.sentences.length; index++)
+          _buildStorySentenceCard(context, story.sentences[index], index),
+      ],
+    );
+  }
+
+  Widget _buildStorySentenceCard(
+    BuildContext context,
+    StorySentence sentence,
+    int index,
+  ) {
+    final colors = Theme.of(context).colorScheme;
+    final textTheme = Theme.of(context).textTheme;
+    Widget line(String label, String value, {bool primary = false}) => Padding(
+      padding: const EdgeInsets.only(top: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            label,
+            style: textTheme.labelMedium?.copyWith(
+              color: colors.onSurfaceVariant,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          const SizedBox(height: 3),
+          SelectableText(
+            value,
+            style: textTheme.bodyLarge?.copyWith(
+              height: 1.65,
+              color: primary ? colors.primary : colors.onSurface,
+              fontWeight: primary ? FontWeight.w600 : null,
+            ),
+          ),
+        ],
+      ),
+    );
+
+    return Card(
+      margin: const EdgeInsets.symmetric(vertical: 6),
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(16, 12, 16, 16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              '${index + 1}',
+              style: textTheme.labelLarge?.copyWith(color: colors.secondary),
+            ),
+            line('ပါဠိ · Pāḷi', sentence.paliMm, primary: true),
+            line('Roman Pāḷi', sentence.paliRoman),
+            line('မြန်မာဘာသာပြန် · Burmese', sentence.translateMm),
+            line('English translation', sentence.translateEn),
+          ],
+        ),
+      ),
     );
   }
 

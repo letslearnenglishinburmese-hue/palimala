@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-06T17:07:01.556498Z",
+  "version": "2026-11-07T03:04:35.468560Z",
   "datasets": [
     {
       "id": "nouns",
@@ -60,6 +60,16 @@
       "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/dialogues.json",
       "sha256": "2f0f5c1357507d71cb32a980cd8e5db131bf286c4e2a9592fe3c6f77ec60c8e7",
       "bytes": 16205
+    },
+    {
+      "id": "pali_stories",
+      "titleMm": "ပါဠိပုံပြင်များ",
+      "titleEn": "Pali Stories",
+      "icon": "menu_book_rounded",
+      "asset": "assets/pali_data/pali_stories.json",
+      "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/pali_stories.json",
+      "sha256": "f8045e9c327eb4e8e56a6aef13d061cc1b94dbfa0f519086b8783d7eb1daaaf1",
+      "bytes": 148
     }
   ]
 }

@@ -14,6 +14,15 @@ const _lessonUri = 'https://example.invalid/pali_data/new_words.json';
 const _lessonJson =
     '{"id":"new_words","titleMm":"စကားလုံးအသစ်","titleEn":"New Words",'
     '"icon":"menu_book_rounded","subCategories":[]}';
+const _storyDatasetJson =
+    '{"titleMm":"စမ်းသပ်ပုံပြင်များ","titleEn":"Test Stories",'
+    '"icon":"menu_book_rounded","subCategories":['
+    '{"contentType":"story","schemaVersion":1,'
+    '"titleMm":"စမ်းသပ်ပုံပြင်","titleEn":"Test Story",'
+    '"storyList":[{"paliMm":"တေသ္ဋ်-ဝါကျံ ဧကံ။",'
+    '"paliRoman":"Tesṭa-vākyaṃ ekaṃ.",'
+    '"translateMm":"ဤသည် စမ်းသပ်ရန် ဖန်တီးထားသော စာကြောင်းဖြစ်သည်။",'
+    '"translateEn":"This sentence was created only for testing."}]}]}';
 
 String _manifest({String? hash, String id = 'new_words'}) => jsonEncode({
   'version': '2099-01-01T00:00:00.000Z',
@@ -162,4 +171,63 @@ void main() {
       );
     },
   );
+
+  test('downloads and reopens a cached story lesson offline', () async {
+    final bytes = utf8.encode(_storyDatasetJson);
+    final digest = sha256.convert(bytes).toString();
+    final manifest = _manifest(hash: digest, id: 'pali_stories');
+    final online = MockClient((request) async {
+      if (request.url.path.endsWith('pali_data_manifest.json')) {
+        return http.Response.bytes(utf8.encode(manifest), 200);
+      }
+      return http.Response.bytes(Uint8List.fromList(bytes), 200);
+    });
+
+    await AppDataRepository.loadBundled();
+    await AppDataRepository.checkForUpdates(
+      client: online,
+      manifestUri: Uri.parse(_manifestUri),
+    );
+    final dataset = AppDataRepository.datasets.single;
+    expect(dataset.id, 'pali_stories');
+    expect(
+      await AppDataRepository.downloadDataset(dataset, client: online),
+      isTrue,
+    );
+    expect(
+      AppDataRepository
+          .categories
+          .single
+          .subCategories
+          .single
+          .story!
+          .sentences
+          .single
+          .translateEn,
+      'This sentence was created only for testing.',
+    );
+
+    final offline = MockClient(
+      (_) async => throw http.ClientException('offline'),
+    );
+    await AppDataRepository.load(
+      client: offline,
+      manifestUri: Uri.parse(_manifestUri),
+      timeout: const Duration(milliseconds: 10),
+    );
+    await expectLater(
+      AppDataRepository.checkForUpdates(
+        client: offline,
+        manifestUri: Uri.parse(_manifestUri),
+        timeout: const Duration(milliseconds: 10),
+      ),
+      throwsA(isA<DataUpdateException>()),
+    );
+    final cached = AppDataRepository.categories.single.subCategories.single;
+    expect(cached.story!.sentences.single.paliMm, 'တေသ္ဋ်-ဝါကျံ ဧကံ။');
+    expect(
+      cached.story!.sentences.single.translateEn,
+      'This sentence was created only for testing.',
+    );
+  });
 }

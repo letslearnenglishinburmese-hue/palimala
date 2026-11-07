@@ -8,7 +8,7 @@
     {"id":"particles","titleMm":"နိပါတ်ပုဒ်များ","titleEn":"Invariable Words & Particles (Nipāta)","icon":"auto_awesome_mosaic_rounded","visible":true,"order":50},
     {"id":"dialogues","titleMm":"ပါဠိစကားပြောခန်း","titleEn":"Pāḷi Dialogues","icon":"record_voice_over_rounded","visible":true,"order":60},
     {"id":"conversation_patterns","titleMm":"ပါဠိစကားပြောပုံစံများ","titleEn":"Pali Conversation Patterns","icon":"school_rounded","visible":true,"order":70},
-    {"id":"pali_stories","titleMm":"ပါဠိပုံပြင်များ","titleEn":"Pali Stories","icon":"school_rounded","visible":true,"order":80}
+    {"id":"pali_stories","titleMm":"ပါဠိပုံပြင်များ","titleEn":"Pali Stories","icon":"menu_book_rounded","visible":true,"order":80}
   ],
   "theme": {
     "light": {"primary":"#8C1D11","secondary":"#D97706","surface":"#FDFBF7","background":"#F7F3ED"},

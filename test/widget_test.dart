@@ -677,24 +677,30 @@ void main() {
     }
   });
 
-  test('Main vocabulary has exactly six requested sections', () {
-    final categoryTitles = appData.map((category) => category.titleMm).toSet();
+  test(
+    'Main vocabulary keeps its requested sections and adds Pali stories',
+    () {
+      final categoryTitles = appData
+          .map((category) => category.titleMm)
+          .toSet();
 
-    expect(appData, hasLength(6));
-    expect(
-      categoryTitles,
-      containsAll([
-        'နာမ်ပုဒ်များ',
-        'ကြိယာပုဒ်များ',
-        'နာမဝိသေသနပုဒ်များ',
-        'ကြိယာဝိသေသနပုဒ်များ',
-        'နိပါတ်ပုဒ်များ',
-        'ပါဠိစကားပြောခန်း',
-      ]),
-    );
-    expect(categoryTitles, isNot(contains('ကိတ်ကြိယာပုဒ်များ')));
-    expect(categoryTitles, isNot(contains('ပါဠိစကားပြောပုံစံများ')));
-  });
+      expect(appData, hasLength(7));
+      expect(
+        categoryTitles,
+        containsAll([
+          'နာမ်ပုဒ်များ',
+          'ကြိယာပုဒ်များ',
+          'နာမဝိသေသနပုဒ်များ',
+          'ကြိယာဝိသေသနပုဒ်များ',
+          'နိပါတ်ပုဒ်များ',
+          'ပါဠိစကားပြောခန်း',
+          'ပါဠိပုံပြင်များ',
+        ]),
+      );
+      expect(categoryTitles, isNot(contains('ကိတ်ကြိယာပုဒ်များ')));
+      expect(categoryTitles, isNot(contains('ပါဠိစကားပြောပုံစံများ')));
+    },
+  );
 
   test('Qualitative adjective chapter includes all twenty examples', () {
     final adjectiveCategory = appData.firstWhere(
@@ -1048,7 +1054,7 @@ void main() {
   });
 
   test('Data manifest exposes every split data set with a valid hash', () {
-    expect(AppDataRepository.datasets, hasLength(6));
+    expect(AppDataRepository.datasets, hasLength(7));
     for (final dataset in AppDataRepository.datasets) {
       expect(dataset.sha256, matches(RegExp(r'^[a-f0-9]{64}$')));
       expect(dataset.bytes, greaterThan(0), reason: dataset.id);
