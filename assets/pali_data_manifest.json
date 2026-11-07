@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-07T03:04:35.468560Z",
+  "version": "2026-11-07T04:54:03.893138Z",
   "datasets": [
     {
       "id": "nouns",
@@ -48,8 +48,8 @@
       "icon": "auto_awesome_mosaic_rounded",
       "asset": "assets/pali_data/particles.json",
       "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/particles.json",
-      "sha256": "df7c5c5594e62b67cc0b803a13e4269dc0d87cead857967eed7a550a36509651",
-      "bytes": 58259
+      "sha256": "cef6c11e4fa128ab4884a43ff5e6e3500ccc0c6cbe8273358b15ba7720cca640",
+      "bytes": 58239
     },
     {
       "id": "dialogues",
