@@ -6,6 +6,19 @@
 String paliRomanToKannada(String input) {
   if (input.isEmpty) return input;
 
+  // Grammatical gender labels are display metadata, not part of the lemma.
+  // Keep the source/UI string intact and remove only known labels for speech.
+  final spokenInput = input
+      .replaceAll(
+        RegExp(
+          r'\s*\((?:m|n|f|masc(?:uline)?|fem(?:inine)?|neut(?:er)?)(?:\.)?\)\s*',
+          caseSensitive: false,
+        ),
+        ' ',
+      )
+      .trim();
+  if (spokenInput.isEmpty) return '';
+
   const virama = '್';
 
   // Independent vowels (when a syllable starts with a vowel).
@@ -94,11 +107,13 @@ String paliRomanToKannada(String input) {
   final consonantKeys = consonants.keys.toList()
     ..sort((a, b) => b.length.compareTo(a.length));
 
-  final lower = input.toLowerCase();
+  final lower = spokenInput.toLowerCase();
   final chars = lower.runes.map((r) => String.fromCharCode(r)).toList();
   // Keep original-codepoint chars for pass-through so indexes always match
   // (lowercasing can change length for some Unicode chars).
-  final originalChars = input.runes.map((r) => String.fromCharCode(r)).toList();
+  final originalChars = spokenInput.runes
+      .map((r) => String.fromCharCode(r))
+      .toList();
   final buffer = StringBuffer();
 
   String? matchConsonantAt(int index) {
