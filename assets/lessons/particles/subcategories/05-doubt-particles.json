@@ -5,13 +5,13 @@
     {
       "paliMm": "နူန",
       "paliRoman": "Nūna",
-      "translateMm": "စင်စစ်၊ ဖြစ်နိုင်သည်",
-      "translateEn": "Perhaps, surely",
+      "translateMm": "ဖြစ်ကောင်းဖြစ်နိုင်သည်",
+      "translateEn": "Perhaps",
       "example": {
         "paliMm": "သော နူန ဓမ္မိကော ဟောတိ။",
         "paliRoman": "So nūna dhammiko hoti.",
         "translateMm": "သူသည် စင်စစ် တရားစောင့်သောသူ ဖြစ်ပေလိမ့်မည်။",
-        "translateEn": "He is surely / perhaps righteous."
+        "translateEn": "He is perhaps righteous."
       }
     },
     {
