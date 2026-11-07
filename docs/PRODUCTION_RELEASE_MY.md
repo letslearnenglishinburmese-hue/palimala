@@ -6,7 +6,7 @@
 
 ## လက်ရှိတွေ့ရှိချက်
 
-- Android `applicationId` နှင့် namespace သည် `com.palimala.app` ဖြစ်သည်။ `android/app/google-services.json` သည် အတည်ပြုထားသော Firebase Android registration ကို ရည်ညွှန်းသည်။ Play Console listing ပိုင်ဆိုင်မှုကို local project စစ်ဆေးမှုက အတည်မပြုနိုင်ပါ။
+- Android `applicationId` နှင့် namespace သည် `com.palimala.app` ဖြစ်သည်။ `android/app/google-services.json` တွင် `palimala-18c4c` project နှင့် `com.palimala.app` အတွက် Firebase Android App ID ကို ထည့်သွင်းထားသည်။ Firebase Console ရှိ registration နှင့် App ID ကို owner က ထပ်မံတိုက်စစ်ရမည်။ Play Console listing ပိုင်ဆိုင်မှုကို local project စစ်ဆေးမှုက အတည်မပြုနိုင်ပါ။
 - Android release signing သည် `android/key.properties` မှ local production keystore ကိုသာ ဖတ်သည်။ ဖိုင်/keystore မရှိပါက release build ကို ရပ်တန့်စေပြီး debug key ဖြင့် အစားထိုးမသုံးပါ။ လက်ရှိစက်တွင် properties နှင့် keystore မရှိပါ။
 - iOS Bundle ID သည် `com.palimala.app` ဖြစ်သည်။ Xcode project တွင် Apple Team/Distribution signing မသတ်မှတ်ရသေးပါ။ `flutter build ios --release --no-codesign` ဖြင့်သာ build လုပ်နိုင်ပြီး ဖြန့်ချိရန် မသုံးနိုင်ပါ။
 - `pubspec.yaml` version သည် `1.0.0+1` ဖြစ်သည်။ အရှေ့ပိုင်း `1.0.0` သည် user မြင်ရသော version၊ `+1` သည် build number ဖြစ်သည်။ ထုတ်ဝေမှုအသစ်တိုင်း build number ကို တိုးပါ။

@@ -39,11 +39,11 @@
 
 - `macos/Runner/Configs/AppInfo.xcconfig`, `macos/Runner/GoogleService-Info.plist`, `macos/Runner.xcodeproj/project.pbxproj` နှင့် `linux/CMakeLists.txt` တွင် `com.example.palimala` ရည်ညွှန်းချက်များ ရှိသည်။ ဤအလုပ်၏ target သည် Android/iOS ဖြစ်သဖြင့် macOS/Linux ကို migration scope ထဲ မထည့်ပါနှင့်။ FlutterFire reconfigure လုပ်သောအခါ platform မရွေးချယ်မိစေရန် အထူးသတိပြုပါ။
 - `ios/Runner/Info.plist` သည် Bundle ID ကို build setting မှယူပြီး, `AndroidManifest.xml` သည် `.MainActivity` ကို သုံးသည်။ အဲဒီ files တွင် hard-coded `com.example.palimala` တန်ဖိုးမတွေ့ပါ။
-- လက်ရှိ `applicationId`/Bundle ID ရည်ညွှန်းချက်များကို `com.example.palimala` ဟုအတိအကျ ရှာရာ Android Gradle, Kotlin package, Firebase config, Firebase options, iOS Xcode project နှင့် desktop files တို့တွင် တွေ့သည်။ Migration လုပ်မီ အဆိုပါကန့်သတ်ချက်အပြင် `applicationId`, `PRODUCT_BUNDLE_IDENTIFIER`, `CFBundleIdentifier`, `google-services.json`, `GoogleService-Info.plist`, OAuth URL scheme နှင့် signing profiles များကို full-text scan ထပ်လုပ်ရန်။
+- Full-text scan ကို 2026-11-04 တွင် ပြုလုပ်ပြီးဖြစ်သည်။ Android/iOS အတွက် `com.palimala.app` ကို တွေ့ရှိပြီး၊ ကျန်ရှိသော `com.example.palimala` ရည်ညွှန်းချက်များမှာ ယခု migration scope ပြင်ပရှိ macOS/Linux configuration များတွင် ဖြစ်သည်။ OAuth URL scheme နှင့် provisioning profile ရည်ညွှန်းချက်များကို လက်ရှိ scan တွင် မတွေ့ရှိပါ။
 
 ## Firebase migration
 
-Firebase Android app registration အသစ်တစ်ခုကို **ရှိပြီးသား Firebase project ထဲတွင် package `com.palimala.app` ဖြင့်** ပြုလုပ်ရန် လိုသည်။ Firebase iOS app registration အသစ်တစ်ခုကိုလည်း **project တူတူထဲတွင် Bundle ID `com.palimala.app` ဖြင့်** ပြုလုပ်ရန် လိုသည်။ `google-services.json`, `GoogleService-Info.plist`, FlutterFire `firebase_options.dart` တို့ကို အဲဒီ registrations အသစ်မှ ထုတ်ယူပါ။ ID ပြောင်းခြင်းကြောင့် Firebase project အသစ် သို့မဟုတ် Firestore database အသစ် မဖြစ်မနေလိုသည်ဟု မဆိုလိုပါ။ Same project ကို ဆက်သုံးလျှင် Firestore backend တူညီနေမည်။ Rules, app registration, platform config တို့ကိုတော့ သီးခြားမှန်ကန်စေရမည်။
+လက်ရှိ local configuration တွင် Firebase project `palimala-18c4c` အတွင်းရှိ Android app ID နှင့် iOS app ID အသစ်များကို ရည်ညွှန်းထားပြီး၊ `google-services.json`, `GoogleService-Info.plist` နှင့် `firebase_options.dart` တို့တွင် `com.palimala.app` ကို သတ်မှတ်ထားသည်။ သို့သော် Firebase Console ထဲတွင် registration များ၏ လက်ရှိအခြေအနေနှင့် အသုံးပြုခွင့်ကို project owner က အတည်ပြုရမည်။ အတည်ပြုပြီးသား registration များကို ထပ်မံဖန်တီးရန် မလိုပါ။ Config ဖိုင်များ၏ App ID များသည် Firebase Console ရှိ app registration များနှင့် ကိုက်ညီကြောင်း စစ်ဆေးပါ။ Same Firebase project ကို ဆက်သုံးပါက Firestore backend တူညီနေမည်။ ဤ migration အတွင်း Firestore data သို့မဟုတ် Rules ကို မပြောင်းပါနှင့်။
 
 အကြံပြု migration အဆင့်များ:
 
@@ -95,9 +95,9 @@ iOS app ကို Google Drive/Telegram မှ Android APK ကဲ့သို့
 
 ## Project owner ထံမှ လိုအပ်သော ဆုံးဖြတ်ချက်များ
 
-- `com.palimala.app` ကို Android နှင့် iOS နှစ်ခုလုံးတွင် အတည်ပြုသုံးမည်လား။ Firebase/Play/Apple ထဲတွင် ရနိုင်ပြီး သင့်အဖွဲ့ပိုင်ဆိုင်မှု/အသုံးပြုခွင့်ရှိကြောင်း owner က စစ်ပါ။
-- `com.example.palimala` ရှိပြီးသား install များအတွက် update ဆက်ပေးရန် လိုသလား၊ သို့မဟုတ် `com.palimala.app` ကို app အသစ်အဖြစ် စတင်မည်လား။
-- Firebase project `palimala-18c4c` ထဲတွင် Android/iOS app registrations အသစ် ထည့်ရန် အတည်ပြုချက်၊ Firebase Console ကို စီမံနိုင်သည့် owner နှင့် macOS target ကိုလည်း နောင်တွင် ပြောင်းမပြောင်း။
+- Owner သည် Android နှင့် iOS နှစ်ခုလုံးအတွက် `com.palimala.app` ကို အသုံးပြုရန် အတည်ပြုပြီးဖြစ်သည်။ Firebase၊ Google Play နှင့် Apple Developer/App Store Connect တို့တွင် registration နှင့် အသုံးပြုခွင့်ကို release မတိုင်မီ စစ်ဆေးပါ။
+- `com.example.palimala` ရှိပြီးသား အသုံးပြုသူများကို `com.palimala.app` app အသစ်သို့ ပြောင်းရွှေ့ရန် အသိပေးပြီး local data အတွက် လိုအပ်သော backup/export လမ်းညွှန် ပေးရန်။
+- Firebase project `palimala-18c4c` ထဲရှိ Android/iOS app registrations နှင့် လက်ရှိ App ID များကို Firebase Console တွင် အတည်ပြုရန်၊ Firebase Console ကို စီမံနိုင်သည့် owner နှင့် macOS target ကိုလည်း နောင်တွင် ပြောင်းမပြောင်း။
 - Play App Signing တွင် သင့်ကိုယ်ပိုင် app signing key ကို ပေးသုံးမည်လား၊ Google က key ဖန်တီး/ထိန်းသိမ်းမည်လား။ Play Store နှင့် APK sideload နှစ်မျိုးလုံးကို သုံးလိုပါက signer compatibility သည် အဓိကဆုံးဖြတ်ချက်ဖြစ်သည်။ Signing secrets ကို မပေးပါနှင့်။
 - Google Play Console account, Apple Developer Program/Team, App Store Connect access, privacy policy/support URL နှင့် store listing content ကို တာဝန်ယူမည့်သူ။
 - Google Drive release folder/view access, Telegram channel/group နှင့် release approval ကို ဘယ်သူပေးမည်။

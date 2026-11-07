@@ -5,8 +5,8 @@
     {
       "paliMm": "ကရောတိ",
       "paliRoman": "Karoti",
-      "translateMm": "ပြုလုပ်သည်၊ ဖန်တီးသည်",
-      "translateEn": "Makes / Creates",
+      "translateMm": "ပြုလုပ်သည်",
+      "translateEn": "Makes",
       "example": {
         "paliMm": "သော ဟတ္ထေန ပီဌံ ကရောတိ။",
         "paliRoman": "So hatthena pīṭhaṃ karoti.",
@@ -29,8 +29,8 @@
     {
       "paliMm": "သဇ္ဇေတိ",
       "paliRoman": "Sajjeti",
-      "translateMm": "ပြင်ဆင်သည်၊ ဖန်တီးပြုလုပ်သည်",
-      "translateEn": "Prepares / Creates",
+      "translateMm": "ပြင်ဆင်သည်",
+      "translateEn": "Prepares/ Arranges",
       "example": {
         "paliMm": "သာ အာဟာရံ သုန္ဒရံ သဇ္ဇေတိ။",
         "paliRoman": "Sā āhāraṃ sundaraṃ sajjeti.",
@@ -46,7 +46,7 @@
       "example": {
         "paliMm": "အာစရိယော ဂန္ထံ ရစယတိ။",
         "paliRoman": "Ācariyo ganthaṃ racayati.",
-        "translateMm": "ဆရာတော်က စာအုပ်ကျမ်းဂန် ရေးသားပြုစုနေတယ်။",
+        "translateMm": "ဆရာက စာအုပ်ကျမ်းဂန် ရေးသားပြုစုနေတယ်။",
         "translateEn": "The teacher composes a book."
       }
     },
@@ -77,7 +77,7 @@
     {
       "paliMm": "နိမ္မိနာတိ",
       "paliRoman": "Nimmināti",
-      "translateMm": "ဖန်ဆင်းသည်၊ တည်ထွင်သည်",
+      "translateMm": "ဖန်ဆင်းသည်",
       "translateEn": "Creates (by supernatural power)",
       "example": {
         "paliMm": "ဗုဒ္ဓေါ အဘိညာယ ရူပံ နိမ္မိနာတိ။",
@@ -113,7 +113,7 @@
     {
       "paliMm": "ဃဋေတိ",
       "paliRoman": "Ghaṭeti",
-      "translateMm": "ဆက်စပ်သည်၊ တည်ဆောက်သည်",
+      "translateMm": "ဆက်စပ်သည်/  ပေါင်းစပ်သည်",
       "translateEn": "Connects / Builds / Constructs",
       "example": {
         "paliMm": "သော ကဋ္ဌာနိ ဃဋေတွာ ပီဌံ ကရောတိ။",
@@ -161,35 +161,35 @@
     {
       "paliMm": "သံဟရတိ",
       "paliRoman": "Saṃharati",
-      "translateMm": "စုစည်းတည်ဆောက်သည်",
+      "translateMm": "စုစည်းသည်",
       "translateEn": "Assembles / Brings together",
       "example": {
         "paliMm": "သော ဒါရူနိ သံဟရိတွာ ဂေဟံ ကရောတိ။",
         "paliRoman": "So dārūni saṃharitvā gehaṃ karoti.",
-        "translateMm": "သူ သစ်သားတွေကို စုစည်းပြီး အိမ် ဆောက်တယ်။",
+        "translateMm": "သူ သစ်သားတွေကို စုစည်းပြီး အိမ်ဆောက်တယ်။",
         "translateEn": "He assembles timber to build a house."
       }
     },
     {
       "paliMm": "ကန္တတိ",
       "paliRoman": "Kantati",
-      "translateMm": "ချည်ငင်သည်၊ ပစ္စည်းပုံဖော်သည်",
-      "translateEn": "Spins yarn / Cuts to shape",
+      "translateMm": "ချည်ငင်သည်",
+      "translateEn": "Spins yarn",
       "example": {
         "paliMm": "သာ ကပ္ပါသာ သုတ္တံ ကန္တတိ။",
         "paliRoman": "Sā kappāsā suttaṃ kantati.",
-        "translateMm": "သူငယ်မလေးက ဝါဂွမ်းကနေ ချည် ငင်နေတယ်။",
+        "translateMm": "သူငယ်မလေးက ဝါဂွမ်းကနေ ချည်ငင်နေတယ်။",
         "translateEn": "She spins thread from cotton."
       }
     },
     {
-      "paliMm": "စိတ္တကရောတိ / စိတ္တေတိ",
+      "paliMm": "စိတ္တံ ကရောတိ / စိတ္တေတိ",
       "paliRoman": "Cittakaroti / Citteti",
       "translateMm": "ပန်းချီဆွဲသည်၊ ဆေးခြယ်မွမ်းမံသည်",
       "translateEn": "Paints / Decorates",
       "example": {
-        "paliMm": "စိတ္တကာရော ကုဍ္ဍေ စိတ္တံ စိတ္တေတိ။",
-        "paliRoman": "Cittakāro kuḍḍe cittaṃ citteti.",
+        "paliMm": "စိတ္တကာရော ကုဍ္ဍေ စိတ္တံ ကရောတိ။",
+        "paliRoman": "Cittakāro kuḍḍe cittaṃ karoti.",
         "translateMm": "ပန်းချီဆရာက နံရံပေါ်မှာ ပန်းချီကား ရေးဆွဲနေတယ်။",
         "translateEn": "The painter paints a picture on the wall."
       }
