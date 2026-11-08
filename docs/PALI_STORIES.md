@@ -27,9 +27,11 @@ Each `storyList` item is one aligned sentence; keep all four text fields
 together in that object. Story titles and sentence fields must be non-empty,
 `storyList` must contain at least one sentence, and `schemaVersion` must be `1`.
 Do not mix `storyList` with `vocabList` or `dialogueList`. Existing vocabulary
-and dialogue files keep their existing formats.
+and dialogue files keep their existing formats. Story lessons show the whole
+story and aligned sentence-by-sentence translations; learners can play the
+complete Pāḷi reading or listen to each sentence separately.
 
-To add a real story later:
+To add another story:
 
 1. Add its JSON file under `assets/lessons/pali_stories/subcategories/` and add
    its relative path to `assets/lessons/pali_stories/category.json`.

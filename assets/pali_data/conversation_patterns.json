@@ -1,0 +1,45 @@
+{
+  "titleMm": "ပါဠိစကားပြောပုံစံများ",
+  "titleEn": "Pali Conversation Patterns",
+  "icon": "school_rounded",
+  "subCategories": [
+    {
+      "titleMm": "ကတ္တား+ကြိယာအရင်း+တုံ+သက္ကောတိ",
+      "titleEn": "Subject + Verb Stem + tuṃ + Sakkoti",
+      "descriptionMm": "ပုံစံ — ကတ္တား + ကြိယာအရင်း + တုံ + သက္ကောတိ\nအဓိပ္ပာယ် — (လုပ်)နိုင်တယ်၊ (လုပ်)တတ်တယ်။",
+      "descriptionEn": "Pattern — Subject + verb stem + tuṃ + sakkoti\nMeaning — can / be able to do something.",
+      "vocabList": [
+        {
+          "paliMm": "သော ပေါတ္ထကံ ပဌိတုံ သက္ကောတိ။",
+          "paliRoman": "So potthakaṃ paṭhituṃ sakkoti.",
+          "translateMm": "သူ စာအုပ်ဖတ်နိုင်တယ်။",
+          "translateEn": "He can read the book."
+        },
+        {
+          "paliMm": "တွံ ပါဠိဘာသံ ဝတ္တုံ သက္ကောသိ။",
+          "paliRoman": "Tvaṃ pāḷibhāsaṃ vattuṃ sakkosi.",
+          "translateMm": "မင်း ပါဠိဘာသာ စကားပြောတတ်တယ်။",
+          "translateEn": "You can speak the Pāḷi language."
+        },
+        {
+          "paliMm": "သော ဥဒကေ တရိတုံ သက္ကောတိ။",
+          "paliRoman": "So udake tarituṃ sakkoti.",
+          "translateMm": "သူ ရေထဲမှာ ကူးခတ်နိုင်တယ်။",
+          "translateEn": "He can swim in the water."
+        },
+        {
+          "paliMm": "အာဂန္တုကော ခိပ္ပံ ဂန္တုံ သက္ကောတိ။",
+          "paliRoman": "Āgantuko khippaṃ gantuṃ sakkoti.",
+          "translateMm": "ဧည့်သည်က အမြန် သွားလာနိုင်တယ်။",
+          "translateEn": "The traveler can walk quickly."
+        },
+        {
+          "paliMm": "ပဏ္ဍိတော ဓမ္မံ ကထေတုံ သက္ကောတိ။",
+          "paliRoman": "Paṇḍito dhammaṃ kathetuṃ sakkoti.",
+          "translateMm": "ပညာရှိက တရားစကား ဟောပြောနိုင်တယ်။",
+          "translateEn": "The wise man can preach the Dhamma."
+        }
+      ]
+    }
+  ]
+}

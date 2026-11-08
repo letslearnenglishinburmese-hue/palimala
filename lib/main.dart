@@ -1561,9 +1561,29 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
               ),
             ),
           ),
+        if (widget.subCategory.descriptionMm != null ||
+            widget.subCategory.descriptionEn != null)
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
+            child: Card(
+              color: Theme.of(context).colorScheme.surfaceContainerLow,
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Text(
+                  isMm
+                      ? widget.subCategory.descriptionMm ??
+                            widget.subCategory.descriptionEn!
+                      : widget.subCategory.descriptionEn ??
+                            widget.subCategory.descriptionMm!,
+                  style: Theme.of(context).textTheme.bodyLarge
+                      ?.copyWith(height: 1.6),
+                ),
+              ),
+            ),
+          ),
         Expanded(
           child: widget.subCategory.story != null
-              ? _buildStory(context)
+              ? _buildStory(context, isMm)
               : widget.subCategory.dialogueList != null
               ? _buildDialogueList(context, isMm)
               : _buildVocabList(context, isMm),
@@ -1572,7 +1592,7 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
     );
   }
 
-  Widget _buildStory(BuildContext context) {
+  Widget _buildStory(BuildContext context, bool isMm) {
     final story = widget.subCategory.story!;
     final colors = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
@@ -1596,32 +1616,34 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
+                const SizedBox(height: 8),
+                FilledButton.tonalIcon(
+                  onPressed: () => TtsService.speakPali(
+                    join((sentence) => sentence.paliRoman),
+                  ),
+                  icon: const Icon(Icons.volume_up_rounded),
+                  label: const Text(
+                    'တစ်ပုဒ်လုံး နားထောင်ရန် · Play full story',
+                  ),
+                ),
                 const SizedBox(height: 16),
                 SelectableText(
-                  join((sentence) => sentence.paliMm),
+                  join(
+                    (sentence) => isMm ? sentence.paliMm : sentence.paliRoman,
+                  ),
                   style: textTheme.titleLarge?.copyWith(
                     height: 1.8,
                     fontWeight: FontWeight.w600,
                     color: colors.onSurface,
                   ),
                 ),
-                const SizedBox(height: 8),
-                SelectableText(
-                  join((sentence) => sentence.paliRoman),
-                  style: textTheme.bodyLarge?.copyWith(
-                    height: 1.65,
-                    fontStyle: FontStyle.italic,
-                  ),
-                ),
                 const Divider(height: 28),
                 SelectableText(
-                  join((sentence) => sentence.translateMm),
+                  join(
+                    (sentence) =>
+                        isMm ? sentence.translateMm : sentence.translateEn,
+                  ),
                   style: textTheme.bodyLarge?.copyWith(height: 1.8),
-                ),
-                const SizedBox(height: 12),
-                SelectableText(
-                  join((sentence) => sentence.translateEn),
-                  style: textTheme.bodyLarge?.copyWith(height: 1.65),
                 ),
               ],
             ),
@@ -1635,7 +1657,7 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
           ),
         ),
         for (var index = 0; index < story.sentences.length; index++)
-          _buildStorySentenceCard(context, story.sentences[index], index),
+          _buildStorySentenceCard(context, story.sentences[index], index, isMm),
       ],
     );
   }
@@ -1644,6 +1666,7 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
     BuildContext context,
     StorySentence sentence,
     int index,
+    bool isMm,
   ) {
     final colors = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
@@ -1679,14 +1702,33 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              '${index + 1}',
-              style: textTheme.labelLarge?.copyWith(color: colors.secondary),
+            Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    '${index + 1}',
+                    style: textTheme.labelLarge?.copyWith(
+                      color: colors.secondary,
+                    ),
+                  ),
+                ),
+                IconButton(
+                  tooltip:
+                      'ဤစာကြောင်းကို နားထောင်ရန် · Listen to this sentence',
+                  icon: const Icon(Icons.volume_up_rounded),
+                  onPressed: () => TtsService.speakPali(sentence.paliRoman),
+                ),
+              ],
             ),
-            line('ပါဠိ · Pāḷi', sentence.paliMm, primary: true),
-            line('Roman Pāḷi', sentence.paliRoman),
-            line('မြန်မာဘာသာပြန် · Burmese', sentence.translateMm),
-            line('English translation', sentence.translateEn),
+            line(
+              isMm ? 'ပါဠိ' : 'Roman Pāḷi',
+              isMm ? sentence.paliMm : sentence.paliRoman,
+              primary: true,
+            ),
+            line(
+              isMm ? 'မြန်မာဘာသာပြန်' : 'English translation',
+              isMm ? sentence.translateMm : sentence.translateEn,
+            ),
           ],
         ),
       ),

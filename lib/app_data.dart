@@ -149,6 +149,8 @@ class StoryLesson {
 class SubCategory {
   final String titleMm;
   final String titleEn;
+  final String? descriptionMm;
+  final String? descriptionEn;
   final List<VocabItem>? vocabList;
   final List<DialogueSpeaker>? dialogueList;
   final StoryLesson? story;
@@ -156,6 +158,8 @@ class SubCategory {
   SubCategory({
     required this.titleMm,
     required this.titleEn,
+    this.descriptionMm,
+    this.descriptionEn,
     this.vocabList,
     this.dialogueList,
     this.story,
@@ -172,6 +176,8 @@ class SubCategory {
     return SubCategory(
       titleMm: _stringField(json, 'titleMm'),
       titleEn: _stringField(json, 'titleEn'),
+      descriptionMm: _optionalStringField(json, 'descriptionMm'),
+      descriptionEn: _optionalStringField(json, 'descriptionEn'),
       story: story,
       vocabList: vocabList == null
           ? null
@@ -879,6 +885,15 @@ String _nonEmptyStringField(Map<String, dynamic> json, String field) {
   return value;
 }
 
+String? _optionalStringField(Map<String, dynamic> json, String field) {
+  final value = json[field];
+  if (value == null) return null;
+  if (value is! String) {
+    throw FormatException('$field must be a string when provided.');
+  }
+  return value;
+}
+
 int _intField(Map<String, dynamic> json, String field) {
   final value = json[field];
   if (value is int) return value;
@@ -893,6 +908,7 @@ IconData _iconForName(String name) => switch (name) {
   'speed_rounded' => Icons.speed_rounded,
   'auto_awesome_mosaic_rounded' => Icons.auto_awesome_mosaic_rounded,
   'record_voice_over_rounded' => Icons.record_voice_over_rounded,
+  'school_rounded' => Icons.school_rounded,
   // A newer GitHub manifest may add a category before this app version knows
   // its preferred icon. Keep the dataset readable with a generic icon.
   _ => Icons.category_rounded,

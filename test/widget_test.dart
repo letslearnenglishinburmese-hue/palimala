@@ -684,7 +684,7 @@ void main() {
           .map((category) => category.titleMm)
           .toSet();
 
-      expect(appData, hasLength(7));
+      expect(appData, hasLength(8));
       expect(
         categoryTitles,
         containsAll([
@@ -694,11 +694,11 @@ void main() {
           'ကြိယာဝိသေသနပုဒ်များ',
           'နိပါတ်ပုဒ်များ',
           'ပါဠိစကားပြောခန်း',
+          'ပါဠိစကားပြောပုံစံများ',
           'ပါဠိပုံပြင်များ',
         ]),
       );
       expect(categoryTitles, isNot(contains('ကိတ်ကြိယာပုဒ်များ')));
-      expect(categoryTitles, isNot(contains('ပါဠိစကားပြောပုံစံများ')));
     },
   );
 
@@ -859,7 +859,7 @@ void main() {
     expect(find.text('နိပါတ်ပုဒ်များ'), findsOneWidget);
     expect(find.text('ပါဠိစကားပြောခန်း'), findsOneWidget);
     expect(find.text('ကိတ်ကြိယာပုဒ်များ'), findsNothing);
-    expect(find.text('ပါဠိစကားပြောပုံစံများ'), findsNothing);
+    expect(find.text('ပါဠိစကားပြောပုံစံများ'), findsOneWidget);
   });
 
   testWidgets('Drawer displays the bilingual vocabulary title', (
@@ -1054,7 +1054,7 @@ void main() {
   });
 
   test('Data manifest exposes every split data set with a valid hash', () {
-    expect(AppDataRepository.datasets, hasLength(7));
+    expect(AppDataRepository.datasets, hasLength(8));
     for (final dataset in AppDataRepository.datasets) {
       expect(dataset.sha256, matches(RegExp(r'^[a-f0-9]{64}$')));
       expect(dataset.bytes, greaterThan(0), reason: dataset.id);
