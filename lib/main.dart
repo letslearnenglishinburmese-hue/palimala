@@ -1610,7 +1610,7 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'ပုံပြင်အပြည့်အစုံ · Full story',
+                  isMm ? 'ပုံပြင်အပြည့်အစုံ' : 'Full story',
                   style: textTheme.titleMedium?.copyWith(
                     color: colors.primary,
                     fontWeight: FontWeight.bold,
@@ -1622,8 +1622,8 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
                     join((sentence) => sentence.paliRoman),
                   ),
                   icon: const Icon(Icons.volume_up_rounded),
-                  label: const Text(
-                    'တစ်ပုဒ်လုံး နားထောင်ရန် · Play full story',
+                  label: Text(
+                    isMm ? 'တစ်ပုဒ်လုံး နားထောင်ရန်' : 'Play full story',
                   ),
                 ),
                 const SizedBox(height: 16),
@@ -1631,7 +1631,7 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
                   join(
                     (sentence) => isMm ? sentence.paliMm : sentence.paliRoman,
                   ),
-                  style: textTheme.titleLarge?.copyWith(
+                  style: textTheme.bodyMedium?.copyWith(
                     height: 1.8,
                     fontWeight: FontWeight.w600,
                     color: colors.onSurface,
@@ -1643,7 +1643,7 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
                     (sentence) =>
                         isMm ? sentence.translateMm : sentence.translateEn,
                   ),
-                  style: textTheme.bodyLarge?.copyWith(height: 1.8),
+                  style: textTheme.bodyMedium?.copyWith(height: 1.8),
                 ),
               ],
             ),
@@ -1652,12 +1652,12 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
         Padding(
           padding: const EdgeInsets.fromLTRB(4, 20, 4, 8),
           child: Text(
-            'စာကြောင်းအလိုက် · Sentence by sentence',
+            isMm ? 'စာကြောင်းအလိုက်' : 'Sentence by sentence',
             style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
           ),
         ),
-        for (var index = 0; index < story.sentences.length; index++)
-          _buildStorySentenceCard(context, story.sentences[index], index, isMm),
+        for (final sentence in story.sentences)
+          _buildStorySentenceCard(context, sentence, isMm),
       ],
     );
   }
@@ -1665,27 +1665,18 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
   Widget _buildStorySentenceCard(
     BuildContext context,
     StorySentence sentence,
-    int index,
     bool isMm,
   ) {
     final colors = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
-    Widget line(String label, String value, {bool primary = false}) => Padding(
+    Widget line(String value, {bool primary = false}) => Padding(
       padding: const EdgeInsets.only(top: 8),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            label,
-            style: textTheme.labelMedium?.copyWith(
-              color: colors.onSurfaceVariant,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-          const SizedBox(height: 3),
           SelectableText(
             value,
-            style: textTheme.bodyLarge?.copyWith(
+            style: textTheme.bodyMedium?.copyWith(
               height: 1.65,
               color: primary ? colors.primary : colors.onSurface,
               fontWeight: primary ? FontWeight.w600 : null,
@@ -1702,33 +1693,18 @@ class _DetailContentScreenState extends State<DetailContentScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
-              children: [
-                Expanded(
-                  child: Text(
-                    '${index + 1}',
-                    style: textTheme.labelLarge?.copyWith(
-                      color: colors.secondary,
-                    ),
-                  ),
-                ),
-                IconButton(
-                  tooltip:
-                      'ဤစာကြောင်းကို နားထောင်ရန် · Listen to this sentence',
-                  icon: const Icon(Icons.volume_up_rounded),
-                  onPressed: () => TtsService.speakPali(sentence.paliRoman),
-                ),
-              ],
+            Align(
+              alignment: Alignment.centerRight,
+              child: IconButton(
+                tooltip: isMm
+                    ? 'ဤစာကြောင်းကို နားထောင်ရန်'
+                    : 'Listen to this sentence',
+                icon: const Icon(Icons.volume_up_rounded),
+                onPressed: () => TtsService.speakPali(sentence.paliRoman),
+              ),
             ),
-            line(
-              isMm ? 'ပါဠိ' : 'Roman Pāḷi',
-              isMm ? sentence.paliMm : sentence.paliRoman,
-              primary: true,
-            ),
-            line(
-              isMm ? 'မြန်မာဘာသာပြန်' : 'English translation',
-              isMm ? sentence.translateMm : sentence.translateEn,
-            ),
+            line(isMm ? sentence.paliMm : sentence.paliRoman, primary: true),
+            line(isMm ? sentence.translateMm : sentence.translateEn),
           ],
         ),
       ),
