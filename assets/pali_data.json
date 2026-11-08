@@ -10795,19 +10795,19 @@
           {
             "paliMm": "သော ပေါတ္ထကံ ပဌိတုံ သက္ကောတိ။",
             "paliRoman": "So potthakaṃ paṭhituṃ sakkoti.",
-            "translateMm": "သူ စာအုပ်ဖတ်နိုင်တယ်။",
+            "translateMm": "သူ စာအုပ်ဖတ်တတ်တယ်။",
             "translateEn": "He can read the book."
           },
           {
-            "paliMm": "တွံ ပါဠိဘာသံ ဝတ္တုံ သက္ကောသိ။",
-            "paliRoman": "Tvaṃ pāḷibhāsaṃ vattuṃ sakkosi.",
-            "translateMm": "မင်း ပါဠိဘာသာ စကားပြောတတ်တယ်။",
+            "paliMm": "တွံ ပါဠိဘာသံ ဘာသိတုံ သက္ကောသိ။",
+            "paliRoman": "Tvaṃ pāḷibhāsaṃ bhāsituṃ sakkosi.",
+            "translateMm": "မင်း ပါဠိစကား ပြောတတ်တယ်။",
             "translateEn": "You can speak the Pāḷi language."
           },
           {
             "paliMm": "သော ဥဒကေ တရိတုံ သက္ကောတိ။",
             "paliRoman": "So udake tarituṃ sakkoti.",
-            "translateMm": "သူ ရေထဲမှာ ကူးခတ်နိုင်တယ်။",
+            "translateMm": "သူ ရေကူးတတ်တယ်။",
             "translateEn": "He can swim in the water."
           },
           {
@@ -10819,7 +10819,7 @@
           {
             "paliMm": "ပဏ္ဍိတော ဓမ္မံ ကထေတုံ သက္ကောတိ။",
             "paliRoman": "Paṇḍito dhammaṃ kathetuṃ sakkoti.",
-            "translateMm": "ပညာရှိက တရားစကား ဟောပြောနိုင်တယ်။",
+            "translateMm": "ပညာရှိက တရား ဟောပြောနိုင်တယ်။",
             "translateEn": "The wise man can preach the Dhamma."
           }
         ]
