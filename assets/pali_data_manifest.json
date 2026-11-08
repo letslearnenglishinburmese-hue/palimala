@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-08T15:31:15.278971Z",
+  "version": "2026-11-08T15:51:15.140794Z",
   "datasets": [
     {
       "id": "nouns",
@@ -68,8 +68,8 @@
       "icon": "school_rounded",
       "asset": "assets/pali_data/conversation_patterns.json",
       "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/conversation_patterns.json",
-      "sha256": "e6309c4c7cdfea4079bd3a77e2fe484cd1f0de4cca75354579cda26e75d54553",
-      "bytes": 2482
+      "sha256": "4917da5c6c868ade4dcf981a45c92769024dd3da7121ba9573921659544a4350",
+      "bytes": 2445
     },
     {
       "id": "pali_stories",
