@@ -99,9 +99,7 @@ void main() {
     );
   });
 
-  testWidgets('renders full story and aligned sentence translations', (
-    tester,
-  ) async {
+  testWidgets('story text follows the selected language mode', (tester) async {
     await tester.pumpWidget(
       MaterialApp(
         home: DetailContentScreen(
@@ -117,17 +115,102 @@ void main() {
     expect(find.text('စမ်းသပ်ပုံပြင်'), findsOneWidget);
     expect(find.text('ပုံပြင်အပြည့်အစုံ · Full story'), findsOneWidget);
     expect(find.text('စာကြောင်းအလိုက် · Sentence by sentence'), findsOneWidget);
+    expect(find.text('တေသ္ဋ်-ဝါကျံ ဧကံ။'), findsOneWidget);
+    expect(
+      find.text('ဤသည် စမ်းသပ်ရန် ဖန်တီးထားသော စာကြောင်းဖြစ်သည်။'),
+      findsOneWidget,
+    );
+    expect(find.text('Tesṭa-vākyaṃ ekaṃ.'), findsNothing);
+    expect(
+      find.text('This sentence was created only for testing.'),
+      findsNothing,
+    );
+    expect(find.text('ပါဠိ'), findsWidgets);
+    expect(find.text('မြန်မာဘာသာပြန်'), findsWidgets);
+
+    await tester.tap(find.text('မြန်မာ'));
+    await tester.pumpAndSettle();
+
     expect(find.text('Tesṭa-vākyaṃ ekaṃ.'), findsWidgets);
     expect(
       find.text('This sentence was created only for testing.'),
-      findsWidgets,
-    );
-    expect(
-      find.textContaining('This is a second test sentence.'),
       findsOneWidget,
     );
-    expect(find.text('မြန်မာဘာသာပြန် · Burmese'), findsWidgets);
+    expect(find.text('တေသ္ဋ်-ဝါကျံ ဧကံ။'), findsNothing);
+    expect(
+      find.text('ဤသည် စမ်းသပ်ရန် ဖန်တီးထားသော စာကြောင်းဖြစ်သည်။'),
+      findsNothing,
+    );
+    expect(find.text('Roman Pāḷi'), findsWidgets);
     expect(find.text('English translation'), findsWidgets);
+
+    await tester.tap(find.text('ENG'));
+    await tester.pumpAndSettle();
+    expect(find.text('တေသ္ဋ်-ဝါကျံ ဧကံ။'), findsOneWidget);
+    expect(
+      find.text('ဤသည် စမ်းသပ်ရန် ဖန်တီးထားသော စာကြောင်းဖြစ်သည်။'),
+      findsOneWidget,
+    );
+  });
+
+  test('bundles The Truthful Farmer as a complete Pali story', () async {
+    final categories = await AppDataRepository.loadBundled();
+    final stories = categories.singleWhere(
+      (category) => category.id == 'pali_stories',
+    );
+    final story = stories.subCategories.single;
+
+    expect(story.titleEn, 'The Truthful Farmer');
+    expect(story.titleMm, contains('ဓမ္မိကော ကဿကော'));
+    expect(story.story!.sentences, hasLength(8));
+    expect(
+      story.story!.sentences.first.paliRoman,
+      'Ekasmiṃ gāme eko kassako vasati.',
+    );
+    expect(
+      story.story!.sentences.last.paliRoman,
+      'Saccena khalu loke sukhaṃ vindati, mettā ca sabbe satte rakkhati.',
+    );
+  });
+
+  testWidgets('offers full-story and per-sentence Pali audio controls', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        home: DetailContentScreen(
+          subCategory: SubCategory.fromJson(_storyFixture),
+          currentLang: AppLanguage.myanmar,
+          onLanguageToggle: () {},
+          savedWords: const {},
+          onSavedWordToggle: (_) {},
+        ),
+      ),
+    );
+
+    expect(
+      find.text('တစ်ပုဒ်လုံး နားထောင်ရန် · Play full story'),
+      findsOneWidget,
+    );
+    final sentenceAudio = find.byTooltip(
+      'ဤစာကြောင်းကို နားထောင်ရန် · Listen to this sentence',
+    );
+    for (final sentence in _storyFixture['storyList'] as List<dynamic>) {
+      final paliMm = (sentence as Map<String, dynamic>)['paliMm'] as String;
+      await tester.scrollUntilVisible(
+        find.text(paliMm),
+        300,
+        scrollable: find.byType(Scrollable).first,
+      );
+      final sentenceCard = find.ancestor(
+        of: find.text(paliMm),
+        matching: find.byType(Card),
+      );
+      expect(
+        find.descendant(of: sentenceCard, matching: sentenceAudio),
+        findsOneWidget,
+      );
+    }
   });
 
   test('keeps vocabulary and dialogue lessons backward compatible', () async {
@@ -162,9 +245,17 @@ void main() {
       final config = RemoteAppConfig.parse(
         await rootBundle.loadString('assets/app_config.json'),
       );
+      final sourceSubcategories = <dynamic>[];
+      for (final path in categorySource['subCategoryFiles'] as List<dynamic>) {
+        sourceSubcategories.add(
+          jsonDecode(
+            await rootBundle.loadString('assets/lessons/pali_stories/$path'),
+          ),
+        );
+      }
       final sourceCategory = Map<String, dynamic>.from(categorySource)
         ..remove('subCategoryFiles')
-        ..['subCategories'] = <dynamic>[];
+        ..['subCategories'] = sourceSubcategories;
       final expected =
           '${const JsonEncoder.withIndent('  ').convert(sourceCategory)}\n';
 

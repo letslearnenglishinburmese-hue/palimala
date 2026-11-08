@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-07T12:44:23.430277Z",
+  "version": "2026-11-08T04:49:28.734840Z",
   "datasets": [
     {
       "id": "nouns",
@@ -62,14 +62,24 @@
       "bytes": 16205
     },
     {
+      "id": "conversation_patterns",
+      "titleMm": "ပါဠိစကားပြောပုံစံများ",
+      "titleEn": "Pali Conversation Patterns",
+      "icon": "school_rounded",
+      "asset": "assets/pali_data/conversation_patterns.json",
+      "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/conversation_patterns.json",
+      "sha256": "f28e52e13a1feef6189cbbca2c22371466356c4730dc62f1b17ba3125ce67cc9",
+      "bytes": 2537
+    },
+    {
       "id": "pali_stories",
       "titleMm": "ပါဠိပုံပြင်များ",
       "titleEn": "Pali Stories",
       "icon": "menu_book_rounded",
       "asset": "assets/pali_data/pali_stories.json",
       "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/pali_stories.json",
-      "sha256": "f8045e9c327eb4e8e56a6aef13d061cc1b94dbfa0f519086b8783d7eb1daaaf1",
-      "bytes": 148
+      "sha256": "59dd050cf37a2a69f89bbfe850f262e840880e32d618e146dd70741e43041a5c",
+      "bytes": 5662
     }
   ]
 }

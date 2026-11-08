@@ -2,5 +2,62 @@
   "titleMm": "ပါဠိပုံပြင်များ",
   "titleEn": "Pali Stories",
   "icon": "menu_book_rounded",
-  "subCategories": []
+  "subCategories": [
+    {
+      "contentType": "story",
+      "schemaVersion": 1,
+      "titleMm": "ဓမ္မိကော ကဿကော (တရားရှိသော လယ်သမား)",
+      "titleEn": "The Truthful Farmer",
+      "storyList": [
+        {
+          "paliMm": "ဧကသ္မိံ ဂါမေ ဧကော ကဿကော ဝသတိ။",
+          "paliRoman": "Ekasmiṃ gāme eko kassako vasati.",
+          "translateMm": "တစ်ခုသောရွာမှာ လယ်သမားတစ်ယောက် နေထိုင်တယ်။",
+          "translateEn": "A farmer lived in a certain village."
+        },
+        {
+          "paliMm": "သော နိစ္စံ သစ္စံ ဝဒတိ၊ ဓမ္မေန စ ခေတ္တံ ကမ္မံ ကရောတိ။",
+          "paliRoman": "So niccaṃ saccaṃ vadati, dhammena ca khettaṃ kammaṃ karoti.",
+          "translateMm": "သူက အမြဲတမ်း သစ္စာစကားကို ဆိုတယ်၊ တရားသဖြင့်လည်း လယ်ယာလုပ်ငန်းကို လုပ်ကိုင်တယ်။",
+          "translateEn": "He always speaks the truth and does his farm work righteously."
+        },
+        {
+          "paliMm": "ဧကဒိဝသေ သော ကဿကော ဗဟုံ ဓညံ အာဟရိတွာ ဂေဟေ ဌပေတိ။",
+          "paliRoman": "Ekadivase so kassako bahuṃ dhaññaṃ āharitvā gehe ṭhapeti.",
+          "translateMm": "တစ်နေ့မှာ အဲဒီလယ်သမားက စပါးသီးနှံတွေ အများကြီးသိမ်းဆည်းပြီး အိမ်မှာ ထားရှိတယ်။",
+          "translateEn": "One day, that farmer brought a lot of grain and kept it in the house."
+        },
+        {
+          "paliMm": "တဒါ ဧကော လောဘီ စောရော တဿ ဂေဟံ ပဝိသိတွာ ဓနံ ထေနိတုံ ဥပသင်္ကမတိ။",
+          "paliRoman": "Tadā eko lobhī coro tassa gehaṃ pavisitvā dhanaṃ thenituṃ upasaṅkamati.",
+          "translateMm": "အဲဒီအချိန်မှာ လောဘကြီးတဲ့ ခိုးသူတစ်ယောက်က သူ့အိမ်ထဲကို ဝင်ရောက်ပြီး ဓနဥစ္စာကို ခိုးယူဖို့ ချဉ်းကပ်လာတယ်။",
+          "translateEn": "At that time, a greedy thief entered his house and approached to steal the wealth."
+        },
+        {
+          "paliMm": "ကဿကော ပန တံ စောရံ ပဿတိ၊ တွံ ဘဏ္ဍံ မာ ထေနေဟိတိ မုဒုနာ ဝစနေန ဝဒတိ။",
+          "paliRoman": "Kassako pana taṃ coraṃ passati, tvaṃ bhaṇḍaṃ mā thenehīti mudunā vacanena vadati.",
+          "translateMm": "ဒါပေမဲ့ လယ်သမားက အဲဒီခိုးသူကို မြင်ပြီး “ပစ္စည်းတွေကို မခိုးပါနဲ့” လို့ ချိုသာတဲ့စကားနဲ့ ပြောတယ်။",
+          "translateEn": "But the farmer saw the thief and spoke gently: “Do not steal the goods.”"
+        },
+        {
+          "paliMm": "စောရော တဿ မေတ္တံ ဝစနံ သုတွာ လဇ္ဇိတော ဟောတိ၊ စောရကမ္မံ စ ဇဟတိ။",
+          "paliRoman": "Coro tassa mettaṃ vacanaṃ sutvā lajjito hoti, corakammaṃ ca jahati.",
+          "translateMm": "ခိုးသူက သူ့ရဲ့ မေတ္တာပါတဲ့စကားကို ကြားပြီး အရှက်ရသွားတယ်၊ ခိုးတဲ့အလုပ်ကိုလည်း စွန့်လွှတ်လိုက်တယ်။",
+          "translateEn": "Hearing his loving words, the thief felt ashamed and abandoned the act of stealing."
+        },
+        {
+          "paliMm": "တတော ပဋ္ဌာယ သော စောရောပိ သစ္စဝါဒီ သာဓု ပုဂ္ဂလော စ ဟောတိ။",
+          "paliRoman": "Tato paṭṭhāya so coropi saccavādī sādhu puggalo ca hoti.",
+          "translateMm": "အဲဒီအချိန်ကစပြီး အဲဒီခိုးသူဟာလည်း သစ္စာစကားဆိုတဲ့ သူတော်ကောင်းတစ်ယောက် ဖြစ်လာတယ်။",
+          "translateEn": "From then on, that thief also became a truth-speaking, good person."
+        },
+        {
+          "paliMm": "သစ္စေန ခလု လောကေ သုခံ ဝိန္ဒတိ၊ မေတ္တာ စ သဗ္ဗေ သတ္တေ ရက္ခတိ။",
+          "paliRoman": "Saccena khalu loke sukhaṃ vindati, mettā ca sabbe satte rakkhati.",
+          "translateMm": "လောကမှာ သစ္စာတရားနဲ့သာ ချမ်းသာသုခကို ခံစားရတယ်၊ မေတ္တာတရားကလည်း သတ္တဝါအားလုံးကို စောင့်ရှောက်တယ်။",
+          "translateEn": "Indeed, one experiences happiness in the world through truth, and loving-kindness protects all beings."
+        }
+      ]
+    }
+  ]
 }

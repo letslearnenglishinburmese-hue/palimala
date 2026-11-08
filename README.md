@@ -36,13 +36,20 @@ assets/lessons/
     category.json
     subcategories/
       01-*.json
+  conversation_patterns/
+    category.json
+    subcategories/
+      01-*.json
   ...
 ```
 
 `category.json` stores the category title, icon, and ordered list of its
 subcategory file paths. Each subcategory file holds that subcategory's words or
-dialogues. The app bundles and reads these lesson source files directly at
-startup, so edits in `assets/lessons/` are visible after a full app restart or
+dialogues or conversation patterns. Conversation-pattern lessons can include
+paired Burmese and English explanations, with each example's pronunciation
+available through its audio button. The app bundles and reads these lesson
+source files directly at startup, so edits in `assets/lessons/` are visible
+after a full app restart or
 rebuild, even when a device has an older data set cached. Generated category
 files in `assets/pali_data/` remain the baseline for the online update system;
 edit the lesson source files rather than these generated copies.

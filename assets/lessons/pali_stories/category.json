@@ -2,5 +2,7 @@
   "titleMm": "ပါဠိပုံပြင်များ",
   "titleEn": "Pali Stories",
   "icon": "menu_book_rounded",
-  "subCategoryFiles": []
+  "subCategoryFiles": [
+    "subcategories/01-dhammiko-kassako.json"
+  ]
 }
