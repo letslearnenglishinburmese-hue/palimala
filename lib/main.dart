@@ -10,6 +10,7 @@ import 'app_data.dart';
 import 'firebase_options.dart';
 import 'pali_transliteration.dart';
 import 'remote_app_config.dart';
+import 'shorebird_update_service.dart';
 
 late List<MainCategory> appData;
 
@@ -59,6 +60,9 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
   final Set<String> _savedWords = {};
   final GlobalKey<NavigatorState> _navigatorKey = GlobalKey<NavigatorState>();
   final ValueNotifier<int> _selectedTab = ValueNotifier<int>(0);
+  final ShorebirdUpdateService _shorebird = ShorebirdUpdateService();
+  bool _isCheckingShorebird = false;
+  bool _isUpdatingShorebird = false;
 
   @override
   void initState() {
@@ -68,6 +72,255 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
     );
     appDataRevision.addListener(_handleDataChanged);
     _loadSavedWords();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      unawaited(_checkForShorebirdUpdate());
+    });
+  }
+
+  Future<void> _checkForShorebirdUpdate() async {
+    if (_isCheckingShorebird ||
+        _isUpdatingShorebird ||
+        !_shorebird.isAvailable ||
+        !mounted) {
+      return;
+    }
+    _isCheckingShorebird = true;
+    try {
+      final status = await _shorebird.check();
+      if (!mounted) return;
+      if (status == ShorebirdUpdateStatus.outdated) {
+        await _showShorebirdUpdateAvailable();
+      } else if (status == ShorebirdUpdateStatus.restartRequired) {
+        await _showShorebirdRestartReady();
+      }
+    } on ShorebirdUpdateException catch (error) {
+      if (mounted) _showCodeUpdateError(error.failure);
+    } on Exception catch (error) {
+      // Code push is optional; network or updater failures must not affect
+      // the app shell or the separate lesson data update flow.
+      debugPrint('Shorebird update check failed: $error');
+      if (mounted) _showCodeUpdateError();
+    } finally {
+      _isCheckingShorebird = false;
+    }
+  }
+
+  void _showCodeUpdateError([ShorebirdUpdateFailure? failure]) {
+    final isMm = currentLang == AppLanguage.myanmar;
+    final message = switch (failure) {
+      ShorebirdUpdateFailure.network =>
+        isMm
+            ? 'အင်တာနက်ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်ကြိုးစားပါ။'
+            : 'Check your internet connection and try again.',
+      ShorebirdUpdateFailure.server =>
+        isMm
+            ? 'အပ်ဒိတ်ဆာဗာတွင် ယာယီပြဿနာရှိနေပါသည်။ နောက်မှ ထပ်ကြိုးစားပါ။'
+            : 'The update server is temporarily unavailable. Try again later.',
+      ShorebirdUpdateFailure.download =>
+        isMm
+            ? 'အပ်ဒိတ်ကို ဒေါင်းလုဒ် သို့မဟုတ် တပ်ဆင်၍ မရပါ။ နောက်မှ ထပ်ကြိုးစားပါ။'
+            : 'The update could not be downloaded or installed. Try again later.',
+      ShorebirdUpdateFailure.noUpdate =>
+        isMm
+            ? 'ရယူရန် အပ်ဒိတ်မရှိတော့ပါ။ နောက်မှ ထပ်စစ်ဆေးပါ။'
+            : 'No update is available now. Please check again later.',
+      _ =>
+        isMm
+            ? 'အက်ပ်အပ်ဒိတ်ကို ယခုစစ်ဆေး၍ မရပါ။ နောက်မှ ထပ်ကြိုးစားပါ။'
+            : 'App updates could not be checked. Please try again later.',
+    };
+    ScaffoldMessenger.of(context)
+        .showSnackBar(SnackBar(content: Text(message)));
+  }
+
+  String _shorebirdDownloadError(Object error, bool isMm) {
+    if (error is! ShorebirdUpdateException) {
+      return isMm
+          ? 'အပ်ဒိတ်ကို ဒေါင်းလုဒ်လုပ်၍ မရပါ။ နောက်မှ ထပ်ကြိုးစားပါ။'
+          : 'The update could not be downloaded. Please try again later.';
+    }
+    return switch (error.failure) {
+      ShorebirdUpdateFailure.network =>
+        isMm
+            ? 'အင်တာနက်ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်ကြိုးစားပါ။'
+            : 'Check your internet connection and try again.',
+      ShorebirdUpdateFailure.server =>
+        isMm
+            ? 'အပ်ဒိတ်ဆာဗာတွင် ယာယီပြဿနာရှိနေပါသည်။ နောက်မှ ထပ်ကြိုးစားပါ။'
+            : 'The update server is temporarily unavailable. Try again later.',
+      ShorebirdUpdateFailure.download =>
+        isMm
+            ? 'အပ်ဒိတ်ကို ဒေါင်းလုဒ် သို့မဟုတ် တပ်ဆင်၍ မရပါ။ နောက်မှ ထပ်ကြိုးစားပါ။'
+            : 'The update could not be downloaded or installed. Try again later.',
+      ShorebirdUpdateFailure.noUpdate =>
+        isMm
+            ? 'ရယူရန် အပ်ဒိတ်မရှိတော့ပါ။ နောက်မှ ထပ်စစ်ဆေးပါ။'
+            : 'No update is available now. Please check again later.',
+      ShorebirdUpdateFailure.unknown =>
+        isMm ? 'အပ်ဒိတ်အမှားကို အတည်မပြုနိုင်ပါ။ နောက်မှ ထပ်စစ်ဆေးပါ။' : 'The update error could not be identified. Please check again later.',
+    };
+  }
+
+  Future<void> _showShorebirdUpdateAvailable() async {
+    final isMm = currentLang == AppLanguage.myanmar;
+    final update = await showDialog<bool>(
+      context: context,
+      barrierDismissible: true,
+      builder: (dialogContext) => AlertDialog(
+        title: Text(isMm ? 'အက်ပ်အပ်ဒိတ် ရှိသည်' : 'App update available'),
+        content: Text(
+          isMm
+              ? 'Shorebird patch အသစ်တစ်ခု ရှိပါသည်။ အပ်ဒိတ်ကို ဒေါင်းလုဒ်လုပ်ရန် ရွေးချယ်နိုင်ပါသည်။'
+              : 'A new Shorebird patch is available. Download it now to use the latest app changes.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(dialogContext, false),
+            child: Text(isMm ? 'နောက်မှ' : 'Later'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(dialogContext, true),
+            child: Text(isMm ? 'ယခု အပ်ဒိတ်လုပ်ရန်' : 'Update Now'),
+          ),
+        ],
+      ),
+    );
+    if (update == true && mounted) await _downloadShorebirdUpdate();
+  }
+
+  Future<void> _downloadShorebirdUpdate() async {
+    final isMm = currentLang == AppLanguage.myanmar;
+    if (_isUpdatingShorebird) return;
+    _isUpdatingShorebird = true;
+    final download = _shorebird.downloadAndVerify();
+    try {
+      await showDialog<void>(
+        context: context,
+        barrierDismissible: false,
+        builder: (dialogContext) => FutureBuilder<ShorebirdPatchState>(
+          future: download,
+          builder: (context, snapshot) {
+            final done = snapshot.connectionState == ConnectionState.done;
+            final state = snapshot.data;
+            final patchNumber = state?.patchNumber;
+            final stateKind =
+                state?.kind == ShorebirdPatchStateKind.newPatchReady &&
+                    patchNumber == null
+                ? ShorebirdPatchStateKind.unknown
+                : state?.kind;
+            final title = !done
+                ? (isMm ? 'အပ်ဒိတ်လုပ်နေသည်' : 'Downloading update')
+                : snapshot.hasError
+                ? (isMm ? 'အပ်ဒိတ် မအောင်မြင်ပါ' : 'Update failed')
+                : switch (stateKind) {
+                    ShorebirdPatchStateKind.newPatchReady =>
+                      isMm ? 'အပ်ဒိတ် အဆင်သင့်ဖြစ်ပါပြီ' : 'Update ready',
+                    ShorebirdPatchStateKind.rollbackPending =>
+                      isMm
+                          ? 'ပြန်လည်ရုပ်သိမ်းမှု အဆင်သင့်ဖြစ်ပါပြီ'
+                          : 'Rollback ready',
+                    ShorebirdPatchStateKind.noNextPatch =>
+                      isMm ? 'အပ်ဒိတ် မရှိတော့ပါ' : 'No update pending',
+                    _ =>
+                      isMm ? 'အခြေအနေ မသေချာပါ' : 'Update status unconfirmed',
+                  };
+            final detail = !done
+                ? (isMm ? 'ကျေးဇူးပြု၍ ခဏစောင့်ပါ…' : 'Please wait…')
+                : snapshot.hasError
+                ? _shorebirdDownloadError(snapshot.error!, isMm)
+                : switch (stateKind) {
+                    ShorebirdPatchStateKind.newPatchReady =>
+                      isMm
+                          ? 'Patch $patchNumber ကို အသုံးပြုရန် အက်ပ်ကို ပိတ်ပြီး Home Screen မှ ပြန်ဖွင့်ပါ။'
+                          : 'Patch $patchNumber is ready. Close the app and reopen it from your Home Screen.',
+                    ShorebirdPatchStateKind.rollbackPending =>
+                      isMm
+                          ? 'အက်ပ်ပြောင်းလဲမှုကို ပြန်ရုပ်သိမ်းရန် အက်ပ်ကို ပိတ်ပြီး Home Screen မှ ပြန်ဖွင့်ပါ။'
+                          : 'A rollback is pending. Close the app and reopen it from your Home Screen.',
+                    ShorebirdPatchStateKind.noNextPatch =>
+                      isMm
+                          ? 'အသုံးပြုရန် Patch အသစ်ကို အတည်မပြုနိုင်ပါ။ နောက်မှ ထပ်စစ်ဆေးပါ။'
+                          : 'No new patch could be confirmed. Please check again later.',
+                    _ =>
+                      isMm
+                          ? 'အပ်ဒိတ်အခြေအနေကို အတည်မပြုနိုင်ပါ။ နောက်မှ ထပ်စစ်ဆေးပါ။'
+                          : 'The update status could not be verified. Please check again later.',
+                  };
+            return AlertDialog(
+              title: Text(title),
+              content: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (!done) const LinearProgressIndicator(),
+                  if (!done) const SizedBox(height: 16),
+                  Text(detail),
+                ],
+              ),
+              actions: [
+                if (done)
+                  TextButton(
+                    onPressed: () => Navigator.pop(dialogContext),
+                    child: Text(isMm ? 'နောက်မှ' : 'Later'),
+                  ),
+              ],
+            );
+          },
+        ),
+      );
+    } finally {
+      _isUpdatingShorebird = false;
+    }
+  }
+
+  Future<void> _showShorebirdRestartReady() async {
+    if (!mounted) return;
+    final isMm = currentLang == AppLanguage.myanmar;
+    final patchState = await _shorebird.readPatchState();
+    if (!mounted) return;
+    final stateKind =
+        patchState.kind == ShorebirdPatchStateKind.newPatchReady &&
+            patchState.patchNumber == null
+        ? ShorebirdPatchStateKind.unknown
+        : patchState.kind;
+    final title = switch (stateKind) {
+      ShorebirdPatchStateKind.newPatchReady =>
+        isMm ? 'အပ်ဒိတ် အဆင်သင့်ဖြစ်ပါပြီ' : 'Update ready',
+      ShorebirdPatchStateKind.rollbackPending =>
+        isMm ? 'ပြန်လည်ရုပ်သိမ်းမှု အဆင်သင့်ဖြစ်ပါပြီ' : 'Rollback ready',
+      ShorebirdPatchStateKind.noNextPatch =>
+        isMm ? 'Patch အသစ် မရှိပါ' : 'No new patch pending',
+      ShorebirdPatchStateKind.unknown =>
+        isMm ? 'အခြေအနေ မသေချာပါ' : 'Update status unconfirmed',
+    };
+    final message = switch (stateKind) {
+      ShorebirdPatchStateKind.newPatchReady =>
+        isMm
+            ? 'Patch ${patchState.patchNumber} ကို အသုံးပြုရန် အက်ပ်ကို ပိတ်ပြီး Home Screen မှ ပြန်ဖွင့်ပါ။'
+            : 'Patch ${patchState.patchNumber} is ready. Close the app and reopen it from your Home Screen.',
+      ShorebirdPatchStateKind.rollbackPending =>
+        isMm
+            ? 'အက်ပ်ပြောင်းလဲမှုကို ပြန်ရုပ်သိမ်းရန် အက်ပ်ကို ပိတ်ပြီး Home Screen မှ ပြန်ဖွင့်ပါ။'
+            : 'A rollback is pending. Close the app and reopen it from your Home Screen.',
+      ShorebirdPatchStateKind.noNextPatch =>
+        isMm
+            ? 'လက်ရှိတွင် အသုံးပြုရန် Patch အသစ် မရှိပါ။ နောက်မှ ထပ်စစ်ဆေးပါ။'
+            : 'There is no new patch to apply now. Please check again later.',
+      ShorebirdPatchStateKind.unknown =>
+        isMm ? 'အပ်ဒိတ်အခြေအနေကို အတည်မပြုနိုင်ပါ။ နောက်မှ ထပ်စစ်ဆေးပါ။' : 'The update status could not be verified. Please check again later.',
+    };
+    await showDialog<void>(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        title: Text(title),
+        content: Text(message),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(dialogContext),
+            child: Text(isMm ? 'နောက်မှ' : 'Later'),
+          ),
+        ],
+      ),
+    );
   }
 
   @override
@@ -161,6 +414,7 @@ class _PaliLearningAppState extends State<PaliLearningApp> {
               onTextScaleChanged: _updateTextScale,
               isDarkMode: _isDarkMode,
               onThemeChanged: _toggleTheme,
+              onCheckCodeUpdate: _checkForShorebirdUpdate,
             ),
           ),
         ),
@@ -300,6 +554,7 @@ class HomeScreen extends StatefulWidget {
   final ValueChanged<double> onTextScaleChanged;
   final bool isDarkMode;
   final ValueChanged<bool> onThemeChanged;
+  final VoidCallback onCheckCodeUpdate;
 
   const HomeScreen({
     super.key,
@@ -312,6 +567,7 @@ class HomeScreen extends StatefulWidget {
     required this.onTextScaleChanged,
     required this.isDarkMode,
     required this.onThemeChanged,
+    required this.onCheckCodeUpdate,
   });
 
   @override
@@ -939,6 +1195,17 @@ class _HomeScreenState extends State<HomeScreen> {
           value: widget.isDarkMode,
           onChanged: widget.onThemeChanged,
         ),
+        ListTile(
+          contentPadding: EdgeInsets.zero,
+          leading: const Icon(Icons.system_update_alt),
+          title: Text(isMm ? 'အက်ပ်အပ်ဒိတ် စစ်ဆေးရန်' : 'Check app updates'),
+          subtitle: Text(
+            isMm
+                ? 'Shorebird code update များကို စစ်ဆေးပါ'
+                : 'Check for Shorebird code updates',
+          ),
+          onTap: widget.onCheckCodeUpdate,
+        ),
         const Divider(height: 32),
         ExpansionTile(
           tilePadding: EdgeInsets.zero,
@@ -1123,10 +1390,11 @@ class _HomeScreenState extends State<HomeScreen> {
               alignment: Alignment.centerLeft,
               child: Row(
                 children: [
-                  Icon(
-                    Icons.menu_book_rounded,
-                    size: 38,
-                    color: Theme.of(context).colorScheme.onPrimary,
+                  Image.asset(
+                    'assets/pali_bank_logo.png',
+                    width: 46,
+                    height: 46,
+                    fit: BoxFit.contain,
                   ),
                   const SizedBox(width: 14),
                   Flexible(
@@ -1160,8 +1428,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         _aboutSection(
                           isMm ? 'မိတ်ဆက်' : 'Overview',
                           isMm
-                              ? 'PaliMala သည် ပါဠိဘာသာကို အခြေခံမှစ၍ အဆင့်လိုက် လေ့လာနိုင်ရန် ရည်ရွယ်ထားသော ပညာရေးအက်ပ်ဖြစ်ပါသည်။ သင်ခန်းစာများနှင့် လက်တွေ့အသုံးချစကားလုံးများကို မြန်မာနှင့် အင်္ဂလိပ်ဘာသာဖြင့် လေ့လာနိုင်ပါသည်။'
-                              : 'PaliMala is an educational app for learning Pāḷi step by step, with lessons and practical vocabulary available in Myanmar and English.',
+                              ? 'Pali Bank သည် ပါဠိဘာသာကို အခြေခံမှစ၍ အဆင့်လိုက် လေ့လာနိုင်ရန် ရည်ရွယ်ထားသော ပညာရေးအက်ပ်ဖြစ်ပါသည်။ သင်ခန်းစာများနှင့် လက်တွေ့အသုံးချစကားလုံးများကို မြန်မာနှင့် အင်္ဂလိပ်ဘာသာဖြင့် လေ့လာနိုင်ပါသည်။'
+                              : 'Pali Bank is an educational app for learning Pāḷi step by step, with lessons and practical vocabulary available in Myanmar and English.',
                         ),
                         _aboutSection(
                           isMm
@@ -1293,9 +1561,24 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: () => Scaffold.of(context).openDrawer(),
               ),
             ),
-            title: Text(
-              titles[selectedIndex],
-              style: const TextStyle(fontWeight: FontWeight.bold),
+            title: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Image.asset(
+                  'assets/pali_bank_logo.png',
+                  width: 32,
+                  height: 32,
+                  fit: BoxFit.contain,
+                ),
+                const SizedBox(width: 8),
+                Flexible(
+                  child: Text(
+                    titles[selectedIndex],
+                    style: const TextStyle(fontWeight: FontWeight.bold),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+              ],
             ),
             centerTitle: true,
             actions: [

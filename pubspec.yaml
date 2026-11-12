@@ -41,6 +41,7 @@ dependencies:
   firebase_core: ^4.15.0
   cloud_firestore: ^6.10.0
   url_launcher: ^6.3.3
+  shorebird_code_push: ^2.0.7
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +68,7 @@ flutter:
   assets:
     - assets/app_config.json
     - assets/palimala_logo.png
+    - assets/pali_bank_logo.png
     # Editable lesson source files loaded directly by the app at startup.
     # Flutter asset directories are not recursive, so list each level.
     - assets/lessons/adjectives/
@@ -89,6 +91,7 @@ flutter:
     - assets/pali_data/
     # Per-dataset index (id, url, sha256) used for downloads and updates.
     - assets/pali_data_manifest.json
+    - shorebird.yaml
 
   fonts:
     - family: SourceSans3
