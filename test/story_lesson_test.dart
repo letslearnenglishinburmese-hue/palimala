@@ -128,7 +128,7 @@ void main() {
     expect(find.text('ပါဠိ'), findsWidgets);
     expect(find.text('မြန်မာဘာသာပြန်'), findsWidgets);
 
-    await tester.tap(find.text('မြန်မာ'));
+    await tester.tap(find.byType(LanguageModeSwitcher));
     await tester.pumpAndSettle();
 
     expect(find.text('Tesṭa-vākyaṃ ekaṃ.'), findsWidgets);
@@ -144,7 +144,7 @@ void main() {
     expect(find.text('Roman Pāḷi'), findsWidgets);
     expect(find.text('English translation'), findsWidgets);
 
-    await tester.tap(find.text('ENG'));
+    await tester.tap(find.byType(LanguageModeSwitcher));
     await tester.pumpAndSettle();
     expect(find.text('တေသ္ဋ်-ဝါကျံ ဧကံ။'), findsOneWidget);
     expect(

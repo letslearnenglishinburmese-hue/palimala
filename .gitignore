@@ -55,3 +55,7 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Local recovery snapshots and editor backups.
+/.codex-backups/
+/tool/generate_data_manifest.dart.save

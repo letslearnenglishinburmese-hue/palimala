@@ -38,6 +38,7 @@ void main() {
     SharedPreferences.setMockInitialValues({});
     appData = await AppDataRepository.loadBundled();
   });
+  setUp(() => SharedPreferences.setMockInitialValues({}));
 
   test('Family vocabulary includes the requested relatives', () {
     final family = appData.first.subCategories.first.vocabList!;
@@ -876,7 +877,7 @@ void main() {
       ),
       findsOneWidget,
     );
-    expect(find.byType(Image), findsNothing);
+    expect(find.byType(Image), findsWidgets);
   });
 
   testWidgets('Vocabulary quiz records correct answers and completes', (
@@ -892,8 +893,15 @@ void main() {
     await tester.tap(find.text('ဤအခန်းကို လေ့ကျင့်မည်'));
     await tester.pumpAndSettle();
 
+    final familyWords = appData.first.subCategories.first.vocabList!;
     for (var questionIndex = 0; questionIndex < 10; questionIndex++) {
-      await tester.tap(find.byType(OutlinedButton).at(questionIndex % 4));
+      final currentWord = familyWords[questionIndex];
+      final correctButton = find.widgetWithText(
+        OutlinedButton,
+        currentWord.translateMm,
+      );
+      await tester.ensureVisible(correctButton);
+      await tester.tap(correctButton);
       await tester.pumpAndSettle();
       await tester.drag(find.byType(ListView), const Offset(0, -220));
       await tester.pumpAndSettle();
@@ -926,7 +934,17 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('မေးခွန်း 1 / 8'), findsOneWidget);
-    final firstAnswer = find.byType(OutlinedButton).first;
+    final classroomDialogueSub = appData
+        .firstWhere((category) => category.id == 'dialogues')
+        .subCategories
+        .firstWhere(
+          (sub) => sub.titleMm == 'ကျောင်းနှင့် စာသင်ခန်းဆိုင်ရာ ပါဠိစကားပြောခန်း',
+        );
+    final firstDialogueWord = classroomDialogueSub.dialogueList!.first;
+    final firstAnswer = find.widgetWithText(
+      OutlinedButton,
+      firstDialogueWord.translateMm,
+    );
     await tester.ensureVisible(firstAnswer);
     await tester.tap(firstAnswer);
     await tester.pumpAndSettle();
@@ -962,10 +980,10 @@ void main() {
         Theme.of(tester.element(find.text('ပိတာ (ပု)'))).colorScheme.primary,
       );
 
-      await tester.tap(find.byType(FilterChip));
+      await tester.tap(find.byType(LanguageModeSwitcher));
       await tester.pumpAndSettle();
 
-      expect(find.text('ENG'), findsOneWidget);
+      expect(find.byIcon(Icons.language_rounded), findsOneWidget);
       expect(find.text('ပိတာ ဂေဟံ အာဂစ္ဆတိ။'), findsNothing);
       expect(find.text('Pitā gehaṃ āgacchati.'), findsOneWidget);
       expect(find.text('အဖေသည် အိမ်သို့ လာ၏။'), findsNothing);
@@ -985,7 +1003,7 @@ void main() {
 
     expect(find.text('ဆွေမျိုးများ'), findsOneWidget);
 
-    await tester.tap(find.byType(FilterChip));
+    await tester.tap(find.byType(LanguageModeSwitcher));
     await tester.pumpAndSettle();
 
     expect(find.text('Ralitives and Family Members'), findsOneWidget);
@@ -1000,7 +1018,7 @@ void main() {
   ) async {
     await tester.pumpWidget(const PaliLearningApp());
 
-    await tester.tap(find.text('မြန်မာ'));
+    await tester.tap(find.byType(LanguageModeSwitcher));
     await tester.pumpAndSettle();
     await _tapNavigationIcon(tester, Icons.search_rounded);
     await tester.enterText(find.byType(TextField), 'Father');
@@ -1206,7 +1224,7 @@ void main() {
     SharedPreferences.setMockInitialValues({});
     await tester.pumpWidget(const PaliLearningApp());
 
-    await tester.tap(find.text('မြန်မာ'));
+    await tester.tap(find.byType(LanguageModeSwitcher));
     await tester.pumpAndSettle();
     await _tapNavigationIcon(tester, Icons.settings_outlined);
 
@@ -1233,7 +1251,7 @@ void main() {
     SharedPreferences.setMockInitialValues({});
     await tester.pumpWidget(const PaliLearningApp());
 
-    await tester.tap(find.text('မြန်မာ'));
+    await tester.tap(find.byType(LanguageModeSwitcher));
     await tester.pumpAndSettle();
     await _tapNavigationIcon(tester, Icons.settings_outlined);
 
