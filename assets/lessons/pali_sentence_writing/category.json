@@ -1,0 +1,10 @@
+{
+  "titleMm": "ပါဠိဝါကျရေးနည်း",
+  "titleEn": "Pāḷi Sentence Writing",
+  "icon": "school_rounded",
+  "subCategoryFiles": [
+    "subcategories/01-first-part.json",
+    "subcategories/02-second-part.json",
+    "subcategories/03-third-part.json"
+  ]
+}

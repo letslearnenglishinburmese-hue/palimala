@@ -86,6 +86,8 @@ flutter:
     - assets/lessons/particles/subcategories/
     - assets/lessons/pali_stories/
     - assets/lessons/pali_stories/subcategories/
+    - assets/lessons/pali_sentence_writing/
+    - assets/lessons/pali_sentence_writing/subcategories/
     - assets/lessons/verbs/
     - assets/lessons/verbs/subcategories/
     - assets/lessons/conversation_patterns/

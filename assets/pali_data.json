@@ -10782,6 +10782,28 @@
     ]
   },
   {
+    "titleMm": "ပါဠိဝါကျရေးနည်း",
+    "titleEn": "Pāḷi Sentence Writing",
+    "icon": "school_rounded",
+    "subCategories": [
+      {
+        "titleMm": "ပထမပိုင်း",
+        "titleEn": "Part One",
+        "vocabList": []
+      },
+      {
+        "titleMm": "ဒုတိယပိုင်း",
+        "titleEn": "Part Two",
+        "vocabList": []
+      },
+      {
+        "titleMm": "တတိယပိုင်း",
+        "titleEn": "Part Three",
+        "vocabList": []
+      }
+    ]
+  },
+  {
     "titleMm": "ပါဠိစကားပြောပုံစံများ",
     "titleEn": "Pali Conversation Patterns",
     "icon": "school_rounded",
