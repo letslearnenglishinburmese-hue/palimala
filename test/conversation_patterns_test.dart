@@ -17,7 +17,7 @@ void main() {
     final lesson = category.subCategories.single;
 
     expect(category.icon, Icons.school_rounded);
-    expect(lesson.titleMm, 'ကတ္တား+ကြိယာအရင်း+တုံ+သက္ကောတိ');
+    expect(lesson.titleMm, '...တတ်တယ်၊ ...နိုင်တယ်');
     expect(lesson.descriptionMm, contains('ကတ္တား + ကြိယာအရင်း'));
     expect(lesson.descriptionEn, contains('Subject + verb stem'));
     expect(lesson.vocabList, hasLength(5));
@@ -25,7 +25,7 @@ void main() {
       lesson.vocabList!.map((item) => item.paliRoman),
       containsAll([
         'So potthakaṃ paṭhituṃ sakkoti.',
-        'Tvaṃ pāḷibhāsaṃ vattuṃ sakkosi.',
+        'Tvaṃ pāḷibhāsaṃ bhāsituṃ sakkosi.',
         'So udake tarituṃ sakkoti.',
         'Āgantuko khippaṃ gantuṃ sakkoti.',
         'Paṇḍito dhammaṃ kathetuṃ sakkoti.',

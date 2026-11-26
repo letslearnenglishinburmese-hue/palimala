@@ -239,3 +239,28 @@ String paliRomanToKannada(String input) {
 
   return buffer.toString();
 }
+
+/// Normalizes Romanized Pāḷi text for diacritic-insensitive search.
+/// Maps `ā->a`, `ī->i`, `ū->u`, `ṃ/ṁ->m`, `ṅ/ñ/ṇ->n`, `ṭ->t`, `ḍ->d`, `ḷ->l`.
+String normalizePaliSearch(String input) {
+  const map = {
+    'ā': 'a',
+    'ī': 'i',
+    'ū': 'u',
+    'ṃ': 'm',
+    'ṁ': 'm',
+    'ṅ': 'n',
+    'ñ': 'n',
+    'ṇ': 'n',
+    'ṭ': 't',
+    'ḍ': 'd',
+    'ḷ': 'l',
+  };
+  final lower = input.trim().toLowerCase();
+  final buffer = StringBuffer();
+  for (final rune in lower.runes) {
+    final ch = String.fromCharCode(rune);
+    buffer.write(map[ch] ?? ch);
+  }
+  return buffer.toString();
+}

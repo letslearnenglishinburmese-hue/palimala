@@ -108,7 +108,11 @@ class RemoteAppConfig {
 }
 
 /// Builds the app's Material theme from one validated remote snapshot.
-ThemeData buildRemoteTheme(RemoteAppConfig config, {required bool dark}) {
+ThemeData buildRemoteTheme(
+  RemoteAppConfig config, {
+  required bool dark,
+  bool isMyanmar = true,
+}) {
   final colors = dark ? config.darkColors : config.lightColors;
   final brightness = dark ? Brightness.dark : Brightness.light;
   return ThemeData(
@@ -121,8 +125,10 @@ ThemeData buildRemoteTheme(RemoteAppConfig config, {required bool dark}) {
       secondary: colors['secondary']!,
       surface: colors['surface']!,
     ),
-    fontFamily: 'Pyidaungsu Numbers',
-    fontFamilyFallback: const ['Pyidaungsu', 'GentiumPlus', 'SourceSans3'],
+    fontFamily: isMyanmar ? 'Pyidaungsu Numbers' : 'SourceSans3',
+    fontFamilyFallback: isMyanmar
+        ? const ['Pyidaungsu', 'GentiumPlus', 'SourceSans3']
+        : const ['GentiumPlus', 'Pyidaungsu'],
   );
 }
 
