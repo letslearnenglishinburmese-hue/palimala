@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-26T13:08:23.362520Z",
+  "version": "2026-11-26T14:32:30.455460Z",
   "datasets": [
     {
       "id": "nouns",
@@ -60,6 +60,16 @@
       "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/dialogues.json",
       "sha256": "2f0f5c1357507d71cb32a980cd8e5db131bf286c4e2a9592fe3c6f77ec60c8e7",
       "bytes": 16205
+    },
+    {
+      "id": "pali_sentence_writing",
+      "titleMm": "ပါဠိဝါကျရေးနည်း",
+      "titleEn": "Pāḷi Sentence Writing",
+      "icon": "school_rounded",
+      "asset": "assets/pali_data/pali_sentence_writing.json",
+      "url": "https://raw.githubusercontent.com/letslearnenglishinburmese-hue/palimala/refs/heads/main/assets/pali_data/pali_sentence_writing.json",
+      "sha256": "4276bd21564f83f42f8fdf1883e67d9881eeb73ad394d4ecbd7de1798246fb8b",
+      "bytes": 506
     },
     {
       "id": "conversation_patterns",
